@@ -1,0 +1,467 @@
+{
+  "retrieved_date": "2026-10-21",
+  "audit_rechecked_on": "2026-10-22",
+  "purpose": "Candidate data for startup due diligence research. These are audited source files, not a model-ready training dataset or model results.",
+  "counts_describe": "Local files retrieved on 2026-10-21. Upstream downloads may change; SHA-256 hashes identify the audited versions.",
+  "raw_files_in_repository": false,
+  "datasets": [
+    {
+      "name": "Crunchbase 2015 unofficial CSV export",
+      "source": "https://github.com/notpeter/crunchbase-data",
+      "snapshot_date": "2015-12-04",
+      "license_as_stated_by_repository": "CC BY-NC 4.0; see downloaded LICENSE. Commercial use requires a separate agreement.",
+      "recommended_use": "Historical tabular baseline and dated funding-event cohort construction.",
+      "limitations": [
+        "The company row is an end-of-snapshot record, not a complete point-in-time history.",
+        "Current-at-snapshot status, total funding, funding round count, and last funding date may leak post-decision information.",
+        "Operating is not a failure label. Acquisition does not establish a profitable exit.",
+        "No verified revenue, retention, churn, CAC, or pitch-deck data in the downloaded tables.",
+        "Empty funding-round codes can be not applicable or unknown. A missing event is not proof that it did not happen.",
+        "Use consistent outcome observation windows and distinguish unknown or censored outcomes."
+      ]
+    },
+    {
+      "name": "YC public-directory community mirror",
+      "source": "https://github.com/yc-oss/api",
+      "original_source": "https://www.ycombinator.com/companies",
+      "recommended_use": "Company discovery and current research workflow testing.",
+      "limitations": [
+        "Community-maintained, not an official YC API. This is a current snapshot.",
+        "Current descriptions, team size, and status must not be treated as historical pre-decision features.",
+        "No dated funding-round history or realized investment return labels in this file.",
+        "Reuse license has not been established in this inspection."
+      ]
+    },
+    {
+      "name": "YC Bench W26",
+      "source": "https://github.com/benstaf/ycbench",
+      "recommended_use": "Optional short-term traction-ranking experiment, not the primary investment-outcome benchmark.",
+      "limitations": [
+        "Public traction and search mentions are proxy outcomes, not realized startup success.",
+        "Downloaded company and score tables have different row counts; join coverage must be checked.",
+        "README reports 196 startups, while the inspected raw files contain 198 company rows and 184 score rows.",
+        "Reuse license has not been established in this inspection."
+      ]
+    }
+  ],
+  "additional_sources_not_downloaded": [
+    {
+      "name": "SEC Form D",
+      "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
+      "use": "US exempt offering filings with dates; not universal venture rounds or success labels."
+    }
+  ],
+  "files": [
+    {
+      "file": "crunchbase_2015/companies.csv",
+      "source_url": "https://raw.githubusercontent.com/notpeter/crunchbase-data/master/companies.csv",
+      "rows": 66368,
+      "columns": [
+        "permalink",
+        "name",
+        "homepage_url",
+        "category_list",
+        "funding_total_usd",
+        "status",
+        "country_code",
+        "state_code",
+        "region",
+        "city",
+        "funding_rounds",
+        "founded_at",
+        "first_funding_at",
+        "last_funding_at"
+      ],
+      "bytes": 10942450,
+      "sha256": "3d3a8f386f1cd64e65b6f7a4cb57b464d5ed448202c0df45d9f80645d70e2354",
+      "status_counts": {
+        "operating": 53034,
+        "acquired": 5549,
+        "closed": 6238,
+        "ipo": 1547
+      },
+      "key_counts": {
+        "permalink": {
+          "nonempty": 66368,
+          "unique_nonempty": 66368
+        },
+        "name": {
+          "nonempty": 66368,
+          "unique_nonempty": 66103
+        }
+      },
+      "null_or_empty_string_counts": {
+        "permalink": 0,
+        "name": 0,
+        "homepage_url": 5058,
+        "category_list": 3148,
+        "funding_total_usd": 0,
+        "status": 0,
+        "country_code": 6958,
+        "state_code": 8547,
+        "region": 8030,
+        "city": 8028,
+        "funding_rounds": 0,
+        "founded_at": 15221,
+        "first_funding_at": 24,
+        "last_funding_at": 0
+      },
+      "string_sentinel_counts": {
+        "permalink": 0,
+        "name": 1,
+        "homepage_url": 0,
+        "category_list": 0,
+        "funding_total_usd": 12785,
+        "status": 0,
+        "country_code": 0,
+        "state_code": 0,
+        "region": 0,
+        "city": 0,
+        "funding_rounds": 0,
+        "founded_at": 0,
+        "first_funding_at": 0,
+        "last_funding_at": 0
+      }
+    },
+    {
+      "file": "crunchbase_2015/rounds.csv",
+      "source_url": "https://raw.githubusercontent.com/notpeter/crunchbase-data/master/rounds.csv",
+      "rows": 114949,
+      "columns": [
+        "company_permalink",
+        "company_name",
+        "company_category_list",
+        "company_country_code",
+        "company_state_code",
+        "company_region",
+        "company_city",
+        "funding_round_permalink",
+        "funding_round_type",
+        "funding_round_code",
+        "funded_at",
+        "raised_amount_usd"
+      ],
+      "bytes": 19585460,
+      "sha256": "89f575ed0d850e2890e903cde0bca8bdf66b028cac6fa298d534a252d6517315",
+      "funding_round_type_counts": {
+        "venture": 55494,
+        "seed": 30524,
+        "undisclosed": 4897,
+        "equity_crowdfunding": 3257,
+        "convertible_note": 1817,
+        "private_equity": 2285,
+        "debt_financing": 6895,
+        "angel": 6094,
+        "grant": 2200,
+        "secondary_market": 95,
+        "post_ipo_equity": 638,
+        "post_ipo_debt": 152,
+        "product_crowdfunding": 410,
+        "non_equity_assistance": 191
+      },
+      "funding_round_code_counts": {
+        "B": 8713,
+        "A": 14747,
+        "": 83809,
+        "C": 4476,
+        "D": 2025,
+        "E": 811,
+        "G": 73,
+        "F": 283,
+        "H": 12
+      },
+      "key_counts": {
+        "company_permalink": {
+          "nonempty": 114949,
+          "unique_nonempty": 66368
+        },
+        "company_name": {
+          "nonempty": 114949,
+          "unique_nonempty": 66103
+        }
+      },
+      "null_or_empty_string_counts": {
+        "company_permalink": 0,
+        "company_name": 0,
+        "company_category_list": 3410,
+        "company_country_code": 8678,
+        "company_state_code": 10946,
+        "company_region": 10167,
+        "company_city": 10164,
+        "funding_round_permalink": 0,
+        "funding_round_type": 0,
+        "funding_round_code": 83809,
+        "funded_at": 0,
+        "raised_amount_usd": 19990
+      },
+      "string_sentinel_counts": {
+        "company_permalink": 0,
+        "company_name": 1,
+        "company_category_list": 0,
+        "company_country_code": 0,
+        "company_state_code": 0,
+        "company_region": 0,
+        "company_city": 0,
+        "funding_round_permalink": 0,
+        "funding_round_type": 0,
+        "funding_round_code": 0,
+        "funded_at": 0,
+        "raised_amount_usd": 0
+      }
+    },
+    {
+      "file": "crunchbase_2015/acquisitions.csv",
+      "source_url": "https://raw.githubusercontent.com/notpeter/crunchbase-data/master/acquisitions.csv",
+      "rows": 18968,
+      "columns": [
+        "company_permalink",
+        "company_name",
+        "company_category_list",
+        "company_country_code",
+        "company_state_code",
+        "company_region",
+        "company_city",
+        "acquirer_permalink",
+        "acquirer_name",
+        "acquirer_category_list",
+        "acquirer_country_code",
+        "acquirer_state_code",
+        "acquirer_region",
+        "acquirer_city",
+        "acquired_at",
+        "acquired_month",
+        "price_amount",
+        "price_currency_code"
+      ],
+      "bytes": 3992379,
+      "sha256": "5bef083fa9b47089ee084a5a1a24f7cda0d7bf6b873bfa7cd31db5d8f4f50330",
+      "key_counts": {
+        "company_permalink": {
+          "nonempty": 18968,
+          "unique_nonempty": 18521
+        },
+        "company_name": {
+          "nonempty": 18968,
+          "unique_nonempty": 18503
+        }
+      },
+      "null_or_empty_string_counts": {
+        "company_permalink": 0,
+        "company_name": 0,
+        "company_category_list": 4983,
+        "company_country_code": 4668,
+        "company_state_code": 4948,
+        "company_region": 4910,
+        "company_city": 4910,
+        "acquirer_permalink": 0,
+        "acquirer_name": 0,
+        "acquirer_category_list": 2388,
+        "acquirer_country_code": 1170,
+        "acquirer_state_code": 1435,
+        "acquirer_region": 1359,
+        "acquirer_city": 1359,
+        "acquired_at": 12,
+        "acquired_month": 14,
+        "price_amount": 13956,
+        "price_currency_code": 6
+      },
+      "string_sentinel_counts": {
+        "company_permalink": 0,
+        "company_name": 0,
+        "company_category_list": 0,
+        "company_country_code": 0,
+        "company_state_code": 0,
+        "company_region": 0,
+        "company_city": 0,
+        "acquirer_permalink": 0,
+        "acquirer_name": 0,
+        "acquirer_category_list": 0,
+        "acquirer_country_code": 0,
+        "acquirer_state_code": 0,
+        "acquirer_region": 0,
+        "acquirer_city": 0,
+        "acquired_at": 0,
+        "acquired_month": 0,
+        "price_amount": 0,
+        "price_currency_code": 0
+      }
+    },
+    {
+      "file": "yc_current/companies.json",
+      "source_url": "https://yc-oss.github.io/api/companies/all.json",
+      "rows": 6320,
+      "columns": [
+        "id",
+        "name",
+        "slug",
+        "former_names",
+        "small_logo_thumb_url",
+        "website",
+        "all_locations",
+        "long_description",
+        "one_liner",
+        "team_size",
+        "industry",
+        "subindustry",
+        "launched_at",
+        "tags",
+        "tags_highlighted",
+        "top_company",
+        "isHiring",
+        "nonprofit",
+        "batch",
+        "status",
+        "industries",
+        "regions",
+        "stage",
+        "app_video_public",
+        "demo_day_video_public",
+        "app_answers",
+        "question_answers",
+        "url",
+        "api"
+      ],
+      "bytes": 10618042,
+      "sha256": "754e8e2b007fe353ab1b93687f7009f8ea3f1a56c86975d3c6b06c4414cf5e10",
+      "status_counts": {
+        "Active": 4360,
+        "Acquired": 839,
+        "Inactive": 1098,
+        "Public": 23
+      },
+      "key_counts": {
+        "id": {
+          "nonempty": 6320,
+          "unique_nonempty": 6320
+        },
+        "name": {
+          "nonempty": 6320,
+          "unique_nonempty": 6224
+        },
+        "slug": {
+          "nonempty": 6320,
+          "unique_nonempty": 6320
+        }
+      },
+      "null_or_empty_string_counts": {
+        "id": 0,
+        "name": 0,
+        "slug": 0,
+        "former_names": 0,
+        "small_logo_thumb_url": 0,
+        "website": 40,
+        "all_locations": 150,
+        "long_description": 424,
+        "one_liner": 160,
+        "team_size": 114,
+        "industry": 0,
+        "subindustry": 0,
+        "launched_at": 0,
+        "tags": 0,
+        "tags_highlighted": 0,
+        "top_company": 1,
+        "isHiring": 0,
+        "nonprofit": 0,
+        "batch": 0,
+        "status": 0,
+        "industries": 0,
+        "regions": 0,
+        "stage": 0,
+        "app_video_public": 0,
+        "demo_day_video_public": 0,
+        "app_answers": 6245,
+        "question_answers": 0,
+        "url": 0,
+        "api": 0
+      },
+      "string_sentinel_counts": {
+        "id": 0,
+        "name": 0,
+        "slug": 0,
+        "former_names": 0,
+        "small_logo_thumb_url": 0,
+        "website": 0,
+        "all_locations": 0,
+        "long_description": 0,
+        "one_liner": 1,
+        "team_size": 0,
+        "industry": 0,
+        "subindustry": 0,
+        "launched_at": 0,
+        "tags": 0,
+        "tags_highlighted": 0,
+        "top_company": 0,
+        "isHiring": 0,
+        "nonprofit": 0,
+        "batch": 0,
+        "status": 0,
+        "industries": 0,
+        "regions": 0,
+        "stage": 0,
+        "app_video_public": 0,
+        "demo_day_video_public": 0,
+        "app_answers": 0,
+        "question_answers": 0,
+        "url": 0,
+        "api": 0
+      }
+    },
+    {
+      "file": "yc_bench/yc_w26_startups.csv",
+      "source_url": "https://raw.githubusercontent.com/benstaf/ycbench/main/yc_w26_startups.csv",
+      "rows": 198,
+      "columns": [
+        "name",
+        "website",
+        "yc_url"
+      ],
+      "bytes": 16146,
+      "sha256": "58e61fcb49622fe0970548ac67a9496b0d34e9acbc81f57a260ed8abea76d485",
+      "key_counts": {
+        "name": {
+          "nonempty": 198,
+          "unique_nonempty": 198
+        }
+      },
+      "null_or_empty_string_counts": {
+        "name": 0,
+        "website": 0,
+        "yc_url": 0
+      },
+      "string_sentinel_counts": {
+        "name": 0,
+        "website": 0,
+        "yc_url": 0
+      }
+    },
+    {
+      "file": "yc_bench/yc_w26_pre_demo_scores.csv",
+      "source_url": "https://raw.githubusercontent.com/benstaf/ycbench/main/yc_w26_pre_demo_scores.csv",
+      "rows": 184,
+      "columns": [
+        "domain",
+        "google_mentions",
+        "Velocity_Score",
+        "mentions_score",
+        "hybrid_score"
+      ],
+      "bytes": 7243,
+      "sha256": "0466ef8f1d897e2150b6f24f1a941807f0855e3168a57f44c36b0b09b7bfd128",
+      "key_counts": {},
+      "null_or_empty_string_counts": {
+        "domain": 0,
+        "google_mentions": 0,
+        "Velocity_Score": 0,
+        "mentions_score": 0,
+        "hybrid_score": 0
+      },
+      "string_sentinel_counts": {
+        "domain": 0,
+        "google_mentions": 0,
+        "Velocity_Score": 0,
+        "mentions_score": 0,
+        "hybrid_score": 0
+      }
+    }
+  ]
+}
