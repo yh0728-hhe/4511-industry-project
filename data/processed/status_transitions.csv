@@ -1,0 +1,56 @@
+﻿batch,slug,name,from_status,to_status,changed_between,detected_at,website,industry
+winter-2024,lantern-2,Lantern,Active,Inactive,2025-10-01,2025-11-01,http://lantern.dev,B2B
+winter-2024,radmate-ai,RadMate AI,Active,Inactive,2025-08-01,2025-09-01,https://www.radmate.ai,Healthcare
+winter-2024,quary,Quary,Active,Inactive,2025-05-01,2025-06-01,https://www.quary.dev,B2B
+winter-2024,mango-health,Mango Health,Active,Inactive,2025-09-01,2025-10-01,https://themangohealth.com,Healthcare
+winter-2024,dgi-apparel,DGI Apparel,Active,Inactive,2025-07-01,2025-08-01,https://www.dgiapparel.com/,B2B
+winter-2024,patchwork,Patchwork,Active,Inactive,2024-12-01,2025-01-01,https://atpatchwork.com/,B2B
+winter-2024,tusk,Tusk,Active,Acquired,2026-08-01,2026-09-01,https://usetusk.ai,B2B
+winter-2024,tusk,Tusk,Acquired,Inactive,2026-09-01,2026-10-01,https://usetusk.ai,B2B
+winter-2024,selera-medical,Selera Medical,Active,Inactive,2026-01-01,2026-02-01,http://www.seleramedical.com,Healthcare
+winter-2024,lucite,Lucite,Active,Acquired,2026-09-01,2026-10-01,https://www.lucite.ai/,B2B
+winter-2024,celest,Celest,Active,Inactive,2024-10-01,2024-11-01,https://celest.dev,B2B
+winter-2024,glimmer,Glimmer,Active,Inactive,2026-02-08,2026-06-01,https://www.withglimmer.com/,B2B
+winter-2024,speck,Speck,Active,Acquired,2026-02-08,2026-06-01,https://speck.sh,B2B
+winter-2024,toolify,Toolify,Active,Inactive,2025-05-01,2025-06-01,https://toolify.sh,B2B
+winter-2024,resonance,Resonance,Active,Acquired,2026-02-08,2026-06-01,https://www.useresonance.com/,B2B
+winter-2024,aedilic,Aedilic,Active,Inactive,2026-02-08,2026-06-01,https://www.nonescape.com,B2B
+winter-2024,wuri,Wuri,Active,Inactive,2025-04-01,2025-05-01,https://www.wuri.in/,Consumer
+winter-2024,browser-buddy,Browser Buddy,Active,Acquired,2026-02-08,2026-06-01,https://www.browserbuddy.com/,Consumer
+winter-2024,preloop,Preloop,Active,Inactive,2026-09-01,2026-10-01,https://www.preloop.com,B2B
+winter-2024,trieve,Trieve,Active,Acquired,2025-09-01,2025-10-01,https://trieve.ai,B2B
+winter-2024,soundry-ai,Soundry AI,Active,Acquired,2026-08-01,2026-09-01,https://soundry.ai/,Consumer
+winter-2024,abel,Abel,Active,Inactive,2024-12-01,2025-01-01,https://www.tryabel.com,B2B
+winter-2024,focal,Focal,Active,Acquired,2026-09-01,2026-10-01,https://focalml.com,Consumer
+winter-2024,sample,Sample,Active,Acquired,2026-02-08,2026-06-01,https://samplehc.com,Healthcare
+winter-2024,thorntale,Thorntale,Active,Inactive,2026-02-08,2026-06-01,https://thorntale.com,B2B
+winter-2024,bitesight,BiteSight,Active,Inactive,2026-01-01,2026-02-01,http://bitesight.com,Consumer
+winter-2024,bitesight,BiteSight,Inactive,Active,2026-02-08,2026-06-01,http://bitesight.com,Consumer
+winter-2024,lumona,Lumona,Active,Inactive,2026-01-01,2026-02-01,https://www.lumona.ai,Consumer
+winter-2024,arcane,Arcane,Inactive,Acquired,2024-10-01,2024-11-01,,Consumer
+winter-2024,k-scale-labs,K-Scale Labs,Active,Inactive,2026-06-01,2026-07-01,https://kscale.dev/,Consumer
+summer-2024,central,Central,Active,Acquired,2026-02-08,2026-06-01,https://centralhq.com,B2B
+summer-2024,flyflow,Flyflow,Active,Inactive,2025-05-01,2025-06-01,https://flyflow.ai,B2B
+summer-2024,camfer,camfer,Active,Inactive,2026-08-01,2026-09-01,https://www.camfer.dev/,B2B
+summer-2024,deepsilicon,deepsilicon,Active,Inactive,2025-08-01,2025-09-01,https://www.deepsilicon.net/,Industrials
+summer-2024,remade,Remade,Active,Acquired,2025-10-01,2025-11-01,https://www.remade.ai/?utm_source=YC&utm_medium=YC&utm_campaign=YC_profile&utm_content=YC_profile,Consumer
+summer-2024,lilac-labs,Lilac Labs,Active,Inactive,2026-07-01,2026-08-01,https://www.drive-thru.ai/,B2B
+summer-2024,baseline-ai,Baseline AI,Active,Inactive,2026-07-01,2026-08-01,https://www.baselinetrials.com/,Healthcare
+summer-2024,thyme,Thyme,Active,Acquired,2025-06-01,2025-07-01,https://www.meetthyme.com/,B2B
+summer-2024,sepal-ai,Sepal AI,Active,Acquired,2026-02-08,2026-06-01,https://www.sepalai.com,B2B
+summer-2024,hey-revia,Hey Revia,Active,Acquired,2025-05-01,2025-06-01,https://heyrevia.ai,B2B
+summer-2024,midship,Midship,Active,Acquired,2026-02-08,2026-06-01,https://midship.ai/,B2B
+fall-2024,supercontrast,supercontrast,Active,Inactive,2025-06-01,2025-07-01,https://supercontrast.com/,B2B
+winter-2024,verse-therapy,Verse Therapy,Active,Acquired,2026-02-08,2026-06-01,https://versetherapy.com,Healthcare
+summer-2024,riskangle,RiskAngle,Active,Inactive,2025-09-01,2025-10-01,https://www.riskangle.com/,B2B
+fall-2024,gait,Gait,Active,Inactive,2025-04-01,2025-05-01,https://getgait.com,B2B
+fall-2024,curo,Curo,Active,Acquired,2026-09-01,2026-10-01,https://www.curocharging.com/,Industrials
+fall-2024,gander,Gander,Active,Acquired,2025-11-01,2025-12-01,https://usegander.com,B2B
+winter-2024,onyx,Onyx,Active,Acquired,2026-09-01,2026-10-01,https://www.onyx.app/,B2B
+winter-2024,engines,Engines,Active,Inactive,2025-06-01,2025-07-01,https://engines.dev,B2B
+winter-2024,crmcopilot,crmCopilot,Active,Inactive,2025-10-01,2025-11-01,https://www.crmcopilot.co?utm_source=yc,B2B
+winter-2024,tesseral,Tesseral,Active,Inactive,2026-02-08,2026-06-01,https://tesseral.com,B2B
+winter-2024,lumetric,Lumetric,Active,Acquired,2026-08-01,2026-09-01,https://www.lumetric.ai,B2B
+summer-2024,pre,Pre,Active,Inactive,2026-02-08,2026-06-01,https://buildwithpre.com,B2B
+fall-2024,zeroframe,Zeroframe,Active,Inactive,2026-01-01,2026-02-01,https://zeroframe.ai,B2B
+winter-2024,consul,Consul,Active,Acquired,2026-09-01,2026-10-01,https://onconsul.com,Fintech

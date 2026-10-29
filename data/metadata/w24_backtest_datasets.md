@@ -1,0 +1,169 @@
+# W24 backtest datasets — metadata
+
+Generated 2026-10-29. Companion to
+[`docs/research_log/2026-10-29_w24_backtest_design.md`](../../docs/research_log/2026-10-29_w24_backtest_design.md).
+
+This file documents the derived tables under `data/processed/`. For the earlier
+2026-10-21/22 source inventory see [`docs/data_manifest.json`](../../docs/data_manifest.json),
+which remains valid and is not superseded.
+
+---
+
+## `w24_spreadsheet_2024-03-25.csv` — 240 rows
+
+**The primary cohort.** Historical W24 company list captured 2024-03-25, nine
+days before Demo Day.
+
+Columns: `Company Name`, `Company Website`, `YC Link`, `Short Description`,
+`Tags`, `Location`, `Date Launched`, `Founder Link 1/2/3`.
+
+| Property | Value |
+| --- | --- |
+| Snapshot date | 2024-03-25 |
+| Relationship to t | 9 days before t = 2024-04-03/04 |
+| Role | dated pre-Demo-Day baseline universe; source of `X` baseline fields |
+
+**Cautions**
+
+- `Date Launched` is the **Launch YC posting date**. It is not the founding
+  date, YC entry date, or Demo Day date.
+- 240 is **not** a claim about official W24 Demo Day attendance. Four sources
+  report four different universe sizes (240 / 161 / 248 / ~260). See research
+  log §5.
+- Membership in this list **is** dated evidence of pre-Demo-Day public
+  visibility. Absence from it is **not** evidence of non-membership.
+- Contains founder LinkedIn URLs. Retained so that both team members hold a
+  byte-identical copy of the source spreadsheet.
+
+---
+
+## `yc2024_monthly.csv` — 13,577 rows
+
+Monthly panel of YC 2024-batch companies reconstructed from the git history of
+the `yc-oss/api` mirror.
+
+Columns: `snapshot`, `batch`, `slug`, `name`, `status`, `team_size`,
+`one_liner`, `website`, `locations`, `industry`.
+
+| Property | Value |
+| --- | --- |
+| Snapshots | 23 monthly, 2024-10-01 .. 2026-10-01 |
+| Batches | winter-2024, summer-2024, fall-2024 |
+| Companies tracked | 822 |
+| Produced by | `src/data_collection/build_yc_timeseries.py` |
+
+**Cautions**
+
+- The series starts **about six months after t**. Every field is post-decision
+  information and may not be used as `X`.
+- Committed rather than regenerated on demand because it is a reconstruction of
+  a **mutable** upstream source. Re-running later may not reproduce it.
+- `yc-oss` serves both `batches/winter-2024.json` (live) and a stale frozen
+  `batches/w24.json`; they disagree (25 Inactive / 14 Acquired vs 7 / 2). This
+  file was built from the live path. See research log §8.
+
+---
+
+## `status_transitions.csv` — 55 rows
+
+Dated status changes derived by comparing consecutive snapshots.
+
+Columns: `batch`, `slug`, `name`, `from_status`, `to_status`,
+`changed_between`, `detected_at`, `website`, `industry`.
+
+| Transition | Count |
+| --- | ---: |
+| Active → Inactive | 31 |
+| Active → Acquired | 21 |
+| Acquired → Inactive | 1 |
+| Inactive → Active | 1 |
+| Inactive → Acquired | 1 |
+
+Produced by `src/outcome_tracking/extract_status_transitions.py`, verified to
+reproduce this file exactly.
+
+**Cautions**
+
+- The change occurred somewhere **between** `changed_between` and
+  `detected_at`. Monthly sampling cannot narrow it further; `detected_at` is
+  not the event date.
+- **These 55 rows are not the outcome sample.** Companies still Active at the
+  cutoff have an outcome too. Restricting `Y` to companies that changed status
+  would condition the sample on the label.
+- The single `Inactive → Active` and single `Acquired → Inactive` rows run in
+  directions that are rare in reality and are more likely upstream data
+  corrections. Inspect them individually before using them as events.
+- Active ≠ success, Inactive ≠ total loss, Acquired ≠ successful exit. See
+  research log §9.
+
+---
+
+## `w24_crosswalk.csv` — 240 rows
+
+Links each 2024-03-25 spreadsheet company to its current `yc-oss` record.
+
+Columns: `sheet_name`, `sheet_domain`, `sheet_slug`, `matched_slug`,
+`matched_name`, `method`, `renamed`.
+
+| Property | Value |
+| --- | --- |
+| Coverage of current W24 universe | 89.1% |
+| Coverage without using `former_names` | 67.7% — the difference is renames alone |
+| Rename rate among matched | ~27% |
+| Match methods | `slug` (exact), `domain` (unique), `former_name` (unique) |
+| Produced by | `src/entity_resolution/build_w24_crosswalk.py` |
+
+**Cautions**
+
+- A blank `matched_slug` means the current directory no longer lists that
+  company. It does **not** mean the company was not in W24, and it does not
+  mean failure.
+- No fuzzy matching. Multi-candidate cases go to `w24_uncertain_matches.csv`
+  and are left for human review, never merged.
+
+---
+
+## `w24_late_published_27.csv` — 27 rows
+
+The 27 companies in the current `yc-oss` W24 universe that are **absent** from
+the 2024-03-25 spreadsheet. Input list for the pre-Demo-Day evidence audit.
+
+Columns: `slug`, `name`, `launched_at_launchyc_posting_date`,
+`yc_page_captures_by_2024_04_04`, `website_captures_by_2024_04_04`.
+
+The `launched_at` column is named in full on purpose. **StarJar**'s value is
+`2025-03-15`, about eleven months after Demo Day — reading that field as a
+membership or founding date would wrongly exclude the company. See research
+log §6.
+
+Capture counts are archive-coverage diagnostics, **not** eligibility scores. A
+zero means the Internet Archive has nothing, which says nothing about the
+company.
+
+### Audit status
+
+5 of 27 are **CONFIRMED** by archived YC company pages whose HTML contains
+`W24`/`Winter 2024`, captured before the 2024-04-04 cutoff:
+
+| Company | Earliest pre-cutoff YC page capture | Captures |
+| --- | --- | ---: |
+| Ryse | 2024-03-27 | 6 |
+| K-Scale Labs | 2024-03-27 | 4 |
+| Astro Mechanica | 2024-03-29 | 2 |
+| Happenstance | 2024-03-29 | 2 |
+| Triply | 2024-03-29 | 4 |
+
+Archive URL form:
+`https://web.archive.org/web/<timestamp>/https://www.ycombinator.com/companies/<slug>`
+
+The remaining 22 cannot reach CONFIRMED from the sources available: the
+archived YC **batch listing** page carries no company names (Algolia front
+end), and the contemporaneous 2024-04-01 third-party article names only ~10
+companies in its prose. Website archives and Hacker News can at best establish
+that a company was publicly in existence before t, not that it was in W24.
+
+The full audit table is still being generated and is **not yet in this
+repository**; Wayback rate limiting makes it an hours-long run. Classification
+is CONFIRMED / PROBABLE / UNRESOLVED with **no NOT-ELIGIBLE category**: no
+company was found with positive evidence of joining W24 after Demo Day, and
+`UNRESOLVED` describes the state of our evidence, not the company.
