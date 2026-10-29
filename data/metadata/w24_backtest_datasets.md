@@ -167,3 +167,63 @@ repository**; Wayback rate limiting makes it an hours-long run. Classification
 is CONFIRMED / PROBABLE / UNRESOLVED with **no NOT-ELIGIBLE category**: no
 company was found with positive evidence of joining W24 after Demo Day, and
 `UNRESOLVED` describes the state of our evidence, not the company.
+
+---
+
+## File integrity
+
+Generated 2026-10-29 at commit `81d1b4c`.
+
+**The checksum is taken over LF-normalised content, not over the file as it
+sits in your working copy.** Git converts line endings on checkout, so the same
+repository file is 70,635 bytes with LF on macOS/Linux and 70,875 bytes with
+CRLF on Windows, and a naive `sha256sum` of the working copy therefore
+disagrees between the two platforms. Normalising to LF makes the value
+reproducible on any machine. `byte_size` below is the LF size, which is also
+what the GitHub API reports for the blob.
+
+| File | Bytes (LF) | Data rows | Columns | SHA-256 (LF-normalised) | git blob |
+| --- | ---: | ---: | ---: | --- | --- |
+| `w24_spreadsheet_2024-03-25.csv` | 70,635 | 240 | 10 | `21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76` | `797c4ad256f2` |
+| `yc2024_monthly.csv` | 1,980,225 | 13,577 | 10 | `1175af0ead3329beabe07f6ef54fb8682e4987805df7a98d787a33e1ca513794` | `c4ed6268faab` |
+| `status_transitions.csv` | 5,460 | 55 | 9 | `044b4d227e7002a0932fcfebb9548837264416f0ff85790238c1ac55de1c7df5` | `38e2e378b476` |
+| `w24_crosswalk.csv` | 13,977 | 240 | 7 | `b5151319062ccc1fcd52f9622f2749ba150c87f76783979b51ace86da3066520` | `d5638b39ef90` |
+| `w24_late_published_27.csv` | 1,048 | 27 | 5 | `d69879be20642878b55a318e7802e7d940ed4c387812dd7a739065aa706f3b31` | `22c707174898` |
+
+`Data rows` excludes the header row. All five row counts match the figures
+quoted in the sections above, which is a check that the documentation and the
+committed files have not drifted apart.
+
+### Verify
+
+Platform-independent, from the repository root:
+
+```bash
+python - <<'PY'
+import hashlib, pathlib
+for p in sorted(pathlib.Path("data/processed").glob("*.csv")):
+    lf = p.read_bytes().replace(b"\r\n", b"\n")
+    print(hashlib.sha256(lf).hexdigest(), len(lf), p.name)
+PY
+```
+
+Or check what git itself stored, which ignores your working-copy line endings:
+
+```bash
+git ls-tree -l HEAD data/processed/
+```
+
+### Why this matters more for these files than for the 2026-10-21 inventory
+
+The files in [`docs/data_manifest.json`](../../docs/data_manifest.json) are
+static third-party downloads: if a hash ever mismatches, the original can be
+re-downloaded from its source URL.
+
+`yc2024_monthly.csv` cannot. It is reconstructed by walking the git history of
+the `yc-oss/api` mirror and reading batch files as they stood at one commit per
+month. That upstream history is mutable, the GitHub API is rate-limited, and a
+later re-run may silently select different commits. The checksum is the only
+way to establish that two people are analysing the same panel.
+
+`status_transitions.csv` and `w24_crosswalk.csv` are derived from it, so their
+checksums only mean anything relative to the panel's checksum above.
