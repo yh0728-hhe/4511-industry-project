@@ -135,22 +135,55 @@ say("   %d panel rows -> %d entity chains (%d chains hold >1 record in some "
     "snapshot and are flagged)" % (len(prows), len(chain), len(over_merged)))
 
 def chain_for(cands):
-    """cands: list of (slug, website, name). Returns (history, root) or ({}, None)."""
+    """cands: (slug, website, name) in DESCENDING key strength. Returns (history, roots, skipped).
+
+    Every candidate key is tried and the chains they hit are merged, because a
+    rename can change slug, domain and name at once. No single panel row then
+    carries a key from both identities, so the union-find cannot bridge the
+    rename by itself: Adagy Robotics went
+    adagy-robotics / adagyrobotics.com / "Adagy Robotics" ->
+    tuesday-labs / tuesdaylab.com / "Tuesday Labs" with no overlap at all.
+    Returning on the first hit found only the post-rename fragment and silently
+    lost every pre-cutoff observation for 15 companies.
+
+    The bridge is yc-oss `former_names`, passed in as a weak candidate - but a
+    former name can collide with a DIFFERENT company's current name, which
+    merged Ecliptor with Hatchet, Forge Rewards with Forge, and Lumona with
+    Scout. A chain is therefore only merged in if it does not put two records
+    in the same snapshot; a collision means two companies, so the weaker
+    candidate is REFUSED and reported rather than silently joined.
+    """
+    merged, roots, skipped = {}, [], []
     for slug, web, nm in cands:
         for k in keys_of(slug, web, nm):
-            if k in parent:
-                root = find(k)
-                if root in chain:
-                    return chain[root], root
-    return {}, None
+            if k not in parent:
+                continue
+            root = find(k)
+            if root not in chain or root in roots:
+                continue
+            clash = sorted(sn for sn, rs in chain[root].items()
+                           if sn in merged and (len(merged[sn]) + len(rs)) > 1)
+            if clash and roots:
+                skipped.append("%s via %s (snapshot clash %s)" % (root, k, clash[0]))
+                continue
+            for sn, rs in chain[root].items():
+                merged.setdefault(sn, []).extend(rs)
+            roots.append(root)
+    return merged, roots, skipped
+
 
 def team_of(row):
-    """team_size as int, or None. 0 is kept as 0 only if explicitly present."""
-    if not row: return None
+    """team_size as int, or None. Missing stays None and is never imputed as 0."""
+    if not row:
+        return None
     v = (row.get("team_size") or "").strip()
-    if v in ("", "None", "null"): return None
-    try: return int(float(v))
-    except ValueError: return None
+    if v in ("", "None", "null"):
+        return None
+    try:
+        return int(float(v))
+    except ValueError:
+        return None
+
 
 # ------------------------------------------------------------- 3. SEC Form D
 say("3. indexing SEC Form D filings ...")
@@ -266,10 +299,12 @@ COLS = [
     "domain_at_decision", "current_domain", "renamed_since_decision",
     "in_yc_directory_at_cutoff",
     # survival
-    "survival_status", "survival_evidence_date", "survival_evidence_source",
-    "survival_blind_window", "status_after_blind_window",
-    "status_changed_in_blind_window",
+    "survival_at_cutoff_2026_04_04", "endpoint_status",
+    "survival_last_pre_cutoff_status", "survival_last_pre_cutoff_date",
+    "survival_first_post_cutoff_status", "survival_first_post_cutoff_date",
+    "survival_evidence_source", "survival_blind_window", "missingness_reason",
     # follow-on funding
+    "funding_dimension_status", "funding_role_in_primary_Y",
     "followon_funding_evidence", "funding_first_date", "funding_type",
     "funding_amount_sold", "funding_amount_offered", "funding_filings_count",
     "funding_source", "funding_match_name_used", "funding_match_caveat",
@@ -292,12 +327,18 @@ for s in sheet:
     xw = cross.get(sheet_name, {})
     slug = xw.get("matched_slug") or ""
     m = meta.get(slug, {})
-    cands = [(slug, m.get("website"), cur_name_guess := (m.get("name") or xw.get("matched_name") or "")),
-             (yc_slug(s.get("YC Link", "")), s.get("Company Website"), sheet_name)]
+    # strongest keys first: identifiers we can verify, then names, then the
+    # weak former-name bridge which is the one that can collide across companies
+    cands = [(slug, m.get("website"), ""),
+             (yc_slug(s.get("YC Link", "")), s.get("Company Website"), ""),
+             ("", "", (m.get("name") or xw.get("matched_name") or "")),
+             ("", "", sheet_name)]
     for f in (m.get("former_names") or []):
         cands.append(("", "", f))
-    hist_rows, chain_root = chain_for(cands)
+    hist_rows, chain_roots, chain_skipped = chain_for(cands)
     hist = {snap: rs[0] for snap, rs in hist_rows.items()}
+    # more than one record in a snapshot after merging means the candidate keys
+    # pulled in two different companies; surfaced rather than silently resolved
     multi_snap = sorted(snap for snap, rs in hist_rows.items() if len(rs) > 1)
 
     former = "|".join(m.get("former_names") or [])
@@ -305,42 +346,57 @@ for s in sheet:
     in_dir = "TRUE" if slug else "FALSE"
 
     # ---- survival
-    # last observation this entity actually has at or before the cutoff, rather
-    # than a hardcoded snapshot: companies enter and leave the panel at
-    # different times, so the evidence date is recorded per company.
+    # The 2026-04-04 endpoint is NOT observable: yc-oss stopped updating from
+    # 2026-02-08 to 2026-05-04. Both the last pre-cutoff and the first
+    # post-cutoff observation are therefore preserved with their own dates, and
+    # neither is substituted for the endpoint. Where they disagree the company
+    # is ENDPOINT_UNCERTAIN and the transition is deliberately NOT placed on
+    # either side of the cutoff.
     pre_snaps = sorted(sn for sn in hist if sn <= CUTOFF)
     post_snaps = sorted(sn for sn in hist if sn > CUTOFF)
     r_pre = hist.get(pre_snaps[-1]) if pre_snaps else None
     r_post = hist.get(post_snaps[0]) if post_snaps else None
     sources, notes = [], []
-    if r_pre and r_pre.get("status"):
-        surv = r_pre["status"]
-        surv_date = pre_snaps[-1]
-        surv_src = "yc-oss batches/winter-2024.json @ commit of %s" % surv_date
-        sources.append("yc-oss panel")
-        if surv_date != LAST_PRE_CUTOFF_SNAP:
-            notes.append("last pre-cutoff observation is %s, not the cohort-wide %s"
-                         % (surv_date, LAST_PRE_CUTOFF_SNAP))
-    else:
-        surv, surv_date, surv_src = "Unknown", "", ""
-        if not slug:
-            notes.append("absent from current YC directory; status at cutoff UNKNOWN, "
-                         "NOT to be read as failure")
-        else:
-            notes.append("no panel record at 2026-02-08")
 
-    post_status = (r_post or {}).get("status", "") if r_post else ""
-    if surv != "Unknown" and post_status and post_status != surv:
-        changed = "TRUE"
-        notes.append("status differs across the blind window: %s @2026-02-08 -> %s @2026-06-01; "
-                     "cannot date the change relative to the 2026-04-04 cutoff"
-                     % (surv, post_status) if False else
-                     "status differs across the gap: %s @%s -> %s @%s; the change cannot "
-                     "be dated relative to the %s cutoff"
-                     % (surv, surv_date, post_status, post_snaps[0], CUTOFF))
-    elif surv != "Unknown" and post_status:
-        changed = "FALSE"
+    pre_status = (r_pre or {}).get("status", "") or ""
+    pre_date = pre_snaps[-1] if (pre_snaps and pre_status) else ""
+    post_status = (r_post or {}).get("status", "") or ""
+    post_date = post_snaps[0] if (post_snaps and post_status) else ""
+    if pre_status:
+        sources.append("yc-oss panel")
+
+    missingness = ""
+    if not pre_status:
+        if not slug:
+            missingness = "PRE_YCOSS_DIRECTORY_DISAPPEARANCE"
+            notes.append("absent from the YC directory before the panel begins (%s); no "
+                         "yc-oss observation exists. Missingness is structural and may be "
+                         "non-random. NOT to be read as failure." % FIRST_SNAP)
+        else:
+            missingness = "NO_PRE_CUTOFF_PANEL_RECORD"
+            notes.append("matched to a current record but no panel observation at or "
+                         "before the cutoff")
+
+    # endpoint resolution
+    if not pre_status:
+        endpoint_status = "NO_OBSERVATION"
+        surv_at_cutoff = "UNKNOWN"
+    elif post_status and post_status != pre_status:
+        endpoint_status = "ENDPOINT_UNCERTAIN"
+        surv_at_cutoff = "UNCERTAIN"
+        notes.append("status differs across the blind window: %s @%s -> %s @%s. The "
+                     "transition is NOT dated relative to %s; it may fall on either side."
+                     % (pre_status, pre_date, post_status, post_date, CUTOFF))
     else:
+        endpoint_status = "OK"
+        surv_at_cutoff = pre_status
+
+    # kept for continuity with the earlier table
+    surv = pre_status or "Unknown"
+    surv_date = pre_date
+    surv_src = ("yc-oss batches/winter-2024.json @ commit of %s" % pre_date) if pre_date else ""
+    changed = {"ENDPOINT_UNCERTAIN": "TRUE", "OK": "FALSE"}.get(endpoint_status, "UNKNOWN")
+    if endpoint_status == "OK" and not post_status:
         changed = "UNKNOWN"
 
     # ---- team growth
@@ -374,8 +430,11 @@ for s in sheet:
             break
     if acq == "YES":
         sources.append("yc-oss status transition")
-    if surv == "Unknown":
+    if not pre_status:
         acq = "UNKNOWN"
+    # Acquisition stays a RAW EVENT INDICATOR. With 0 named acquirers and 0
+    # disclosed amounts anywhere in this cohort there is no return information,
+    # so it must not be read as a successful exit.
 
     # ---- follow-on funding (SEC Form D)
     name_candidates = [("current_name", cur_name), ("name_at_decision", sheet_name)]
@@ -407,14 +466,19 @@ for s in sheet:
         fund_ev = "NO_EVIDENCE_FOUND"
         fund_date = fund_type = fund_sold = fund_off = fund_src = ""
         fund_n = 0
-        notes.append("no Form D filing matched; Form D covers US exempt offerings only, "
-                     "so this is ABSENCE OF EVIDENCE, not confirmed zero funding")
+        notes.append("no Form D filing matched. Form D covers US exempt offerings only "
+                     "and most early YC rounds are SAFEs under Section 4(a)(2), which "
+                     "requires no filing, so recall is ~5%: this is ABSENCE OF EVIDENCE, "
+                     "NOT confirmed zero funding. The funding dimension is "
+                     "PENDING_BETTER_DATA_SOURCE and must not enter primary Y.")
 
     # ---- cross-dimension consistency checks
+    if chain_skipped:
+        notes.append("refused to merge %d chain(s) that would have put two companies in "
+                     "one snapshot: %s" % (len(chain_skipped), "; ".join(chain_skipped[:2])))
     if multi_snap:
-        notes.append("entity chain holds >1 panel record in snapshot(s) %s; possible "
-                     "over-merge on a shared name - verify manually"
-                     % ",".join(multi_snap[:3]))
+        notes.append("entity chain STILL holds >1 panel record in snapshot(s) %s after the "
+                     "collision guard - verify manually" % ",".join(multi_snap[:3]))
     if fund_ev == "FOUND" and surv == "Inactive":
         # a company observed Inactive cannot plausibly file a new offering later
         inactive_from = ""
@@ -448,12 +512,17 @@ for s in sheet:
         "current_domain": norm_domain(m.get("website")),
         "renamed_since_decision": xw.get("renamed", ""),
         "in_yc_directory_at_cutoff": in_dir,
-        "survival_status": surv,
-        "survival_evidence_date": surv_date,
+        "survival_at_cutoff_2026_04_04": surv_at_cutoff,
+        "endpoint_status": endpoint_status,
+        "survival_last_pre_cutoff_status": pre_status,
+        "survival_last_pre_cutoff_date": pre_date,
+        "survival_first_post_cutoff_status": post_status,
+        "survival_first_post_cutoff_date": post_date,
         "survival_evidence_source": surv_src,
+        "missingness_reason": missingness,
         "survival_blind_window": "2026-02-08..2026-05-04 (86d, upstream scraper broken)",
-        "status_after_blind_window": post_status,
-        "status_changed_in_blind_window": changed,
+        "funding_dimension_status": "PENDING_BETTER_DATA_SOURCE",
+        "funding_role_in_primary_Y": "SUPPLEMENTARY_VALIDATION_ONLY",
         "followon_funding_evidence": fund_ev,
         "funding_first_date": fund_date,
         "funding_type": fund_type,
@@ -514,18 +583,56 @@ with io.open(out, "w", newline="", encoding="utf-8-sig") as fh:
     w = csv.DictWriter(fh, fieldnames=COLS); w.writeheader(); w.writerows(rows)
 say("\nwrote %s  (%d rows)" % (out, len(rows)))
 
+# ------------------------------------------- 4b. uncertainty-set exports
+def dump(path, subset, cols, note):
+    with io.open(os.path.join(REPO, path), "w", newline="", encoding="utf-8-sig") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols)
+        w.writeheader()
+        for r in subset:
+            w.writerow({c: r.get(c, "") for c in cols})
+    say("   wrote %s  (%d rows) - %s" % (path, len(subset), note))
+
+ID = ["entity_id", "name_at_decision", "current_name", "former_names",
+      "domain_at_decision", "current_domain", "renamed_since_decision"]
+
+miss19 = [r for r in rows if r["missingness_reason"] == "PRE_YCOSS_DIRECTORY_DISAPPEARANCE"]
+dump("data/processed/w24_pre_panel_missing.csv", miss19,
+     ID + ["missingness_reason", "in_yc_directory_at_cutoff", "outcome_notes_conflicts"],
+     "for external/manual outcome research; NOT to be read as failures")
+
+# Absent from the CURRENT directory is a different, larger set than never
+# observed: 15 of these were observed while still listed and only disappeared
+# later, so their last observed status is real data. Exported separately so the
+# survivorship question can be examined without conflating the two.
+gone = [r for r in rows if r["in_yc_directory_at_cutoff"] == "FALSE"]
+dump("data/processed/w24_directory_disappearance.csv", gone,
+     ID + ["missingness_reason", "survival_at_cutoff_2026_04_04", "endpoint_status",
+           "survival_last_pre_cutoff_status", "survival_last_pre_cutoff_date",
+           "team_size_first_obs", "team_size_last_obs_pre_cutoff"],
+     "absent from the current YC directory; disappearance is NOT failure")
+
+unc8 = [r for r in rows if r["endpoint_status"] == "ENDPOINT_UNCERTAIN"]
+dump("data/processed/w24_endpoint_uncertain.csv", unc8,
+     ID + ["survival_last_pre_cutoff_status", "survival_last_pre_cutoff_date",
+           "survival_first_post_cutoff_status", "survival_first_post_cutoff_date",
+           "survival_blind_window", "acquisition_post_cutoff"],
+     "transition undatable against the 2026-04-04 cutoff")
+
 # --------------------------------------------------------- 5. coverage summary
 def pct(n): return "%.1f%%" % (100.0 * n / len(rows))
 say("\n==================== COVERAGE ====================")
 say("cohort: %d companies (2024-03-25 dated spreadsheet)" % len(rows))
 say("\n-- survival --")
-for k in ("Active", "Inactive", "Acquired", "Unknown"):
-    n = sum(1 for r in rows if r["survival_status"] == k)
-    if n: say("   %-9s %4d  %s" % (k, n, pct(n)))
-known = sum(1 for r in rows if r["survival_status"] != "Unknown")
-say("   coverage (status known at/before cutoff): %d/%d  %s" % (known, len(rows), pct(known)))
-ch = sum(1 for r in rows if r["status_changed_in_blind_window"] == "TRUE")
-say("   changed inside the 86-day blind window: %d  (undatable vs cutoff)" % ch)
+for k in ("Active", "Inactive", "Acquired", "UNCERTAIN", "UNKNOWN"):
+    n = sum(1 for r in rows if r["survival_at_cutoff_2026_04_04"] == k)
+    if n: say("   %-10s %4d  %s" % (k, n, pct(n)))
+known = sum(1 for r in rows if r["survival_at_cutoff_2026_04_04"]
+            not in ("UNKNOWN", "UNCERTAIN"))
+ch = sum(1 for r in rows if r["endpoint_status"] == "ENDPOINT_UNCERTAIN")
+say("   resolved at the 2026-04-04 endpoint: %d/%d  %s" % (known, len(rows), pct(known)))
+say("   ENDPOINT_UNCERTAIN (differ across the 86-day blind window): %d" % ch)
+say("   PRE_YCOSS_DIRECTORY_DISAPPEARANCE: %d"
+    % sum(1 for r in rows if r["missingness_reason"] == "PRE_YCOSS_DIRECTORY_DISAPPEARANCE"))
 say("\n-- follow-on funding (SEC Form D) --")
 f = sum(1 for r in rows if r["followon_funding_evidence"] == "FOUND")
 say("   evidence found: %d/%d  %s" % (f, len(rows), pct(f)))
@@ -559,7 +666,7 @@ for k in ("High", "Medium", "Low"):
     n = sum(1 for r in rows if r["outcome_evidence_confidence"] == k)
     say("   %-7s %4d  %s" % (k, n, pct(n)))
 say("\n-- conflicts / uncertain --")
-say("   blind-window status change: %d" % ch)
+say("   ENDPOINT_UNCERTAIN: %d" % ch)
 say("   funding match caveat: %d" % cav)
 say("   renamed since decision: %d" % sum(1 for r in rows if r["renamed_since_decision"] == "YES"))
 say("   absent from current YC directory: %d"

@@ -1,0 +1,9 @@
+﻿entity_id,name_at_decision,current_name,former_names,domain_at_decision,current_domain,renamed_since_decision,survival_last_pre_cutoff_status,survival_last_pre_cutoff_date,survival_first_post_cutoff_status,survival_first_post_cutoff_date,survival_blind_window,acquisition_post_cutoff
+aedilic,Aedilic,Aedilic,speak&find,aedilic.com,nonescape.com,,Active,2026-02-08,Inactive,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)",
+bitesight,BiteSight,BiteSight,,flowcode.com,bitesight.com,,Inactive,2026-02-08,Active,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)",
+browser-buddy,Browser Buddy,Browser Buddy,Recipe|Browser Buddy|People Net|Bitter,browserbuddy.com,browserbuddy.com,,Active,2026-02-08,Acquired,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)","detected between 2026-02-08 and 2026-06-01, AFTER cutoff"
+glimmer,Glimmer,Glimmer,,withglimmer.com,withglimmer.com,,Active,2026-02-08,Inactive,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)",
+tesseral,Okapi,Tesseral,Codomain Data|Okapi|SSO Ready|ssoReady|SSOReady,okapicrm.com,tesseral.com,YES,Active,2026-02-08,Inactive,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)",
+resonance,Resonance,Resonance,,useresonance.com,useresonance.com,,Active,2026-02-08,Acquired,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)","detected between 2026-02-08 and 2026-06-01, AFTER cutoff"
+speck,Speck,Speck,Glance,speck.bot,speck.sh,,Active,2026-02-08,Acquired,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)","detected between 2026-02-08 and 2026-06-01, AFTER cutoff"
+thorntale,thorntale,Thorntale,DataFlock (formerly EventFlock)|DataFlock|thorntale,thorntale.com,thorntale.com,,Active,2026-02-08,Inactive,2026-06-01,"2026-02-08..2026-05-04 (86d, upstream scraper broken)",

@@ -185,10 +185,10 @@ Full coverage and quality analysis:
 
 | Dimension | Coverage |
 | --- | ---: |
-| Survival | 92.1% |
-| Team size (both observations) | 90.8% |
-| Acquisition | 92.1% |
-| Follow-on funding (SEC Form D) | **4.6%** |
+| Survival (resolved at the 2026-04-04 endpoint) | 95.0% |
+| Team size (both observations) | 97.1% |
+| Acquisition (determinable) | 97.5% |
+| Follow-on funding (SEC Form D) | **4.6%** — `PENDING_BETTER_DATA_SOURCE` |
 
 **Cautions**
 
@@ -201,9 +201,16 @@ Full coverage and quality analysis:
   2026-02-08 to 2026-05-04 (YC rotated the Algolia key its scraper used), an
   86-day blind window containing 2026-04-04. 8 companies changed status inside
   it; their change cannot be dated against the cutoff.
-- **Survival `Unknown`, acquisition `UNKNOWN`, and team-size "neither
-  observation" are the same 19 companies** — those absent from the current YC
-  directory. Not to be labelled failed.
+- **The structurally missing set is 4 companies, not 19.** An earlier note here
+  claimed survival `Unknown`, acquisition `UNKNOWN` and missing team size were
+  the same 19 companies; that was an unverified inference and it was wrong.
+  Checking it exposed a chain-builder bug affecting 15 renamed companies, now
+  fixed. 4 companies were never observed; 15 more are absent from the current
+  directory but were observed while listed, all of them `Active` at their last
+  observation. See the 2026-10-29 Y methodology decisions log.
+- Survival carries `survival_at_cutoff_2026_04_04`, `endpoint_status`, and both
+  the last pre-cutoff and first post-cutoff observations with their dates.
+  2026-02-08 is never substituted for the endpoint.
 - 0 acquirers named and 0 transaction amounts disclosed, so the dataset
   carries no return information at all.
 - The team-growth window is roughly 16 months, not 24, and varies per company.
@@ -232,7 +239,10 @@ what the GitHub API reports for the blob.
 | `status_transitions.csv` | 5,460 | 55 | 9 | `044b4d227e7002a0932fcfebb9548837264416f0ff85790238c1ac55de1c7df5` | `38e2e378b476` |
 | `w24_crosswalk.csv` | 13,977 | 240 | 7 | `b5151319062ccc1fcd52f9622f2749ba150c87f76783979b51ace86da3066520` | `d5638b39ef90` |
 | `w24_late_published_27.csv` | 1,048 | 27 | 5 | `d69879be20642878b55a318e7802e7d940ed4c387812dd7a739065aa706f3b31` | `22c707174898` |
-| `w24_raw_outcomes_24m.csv` | 132,566 | 240 | 41 | `b19798e7b18e4ac0aa6819c5f88148afb31973c7102ba19010db7a86935f01b5` | `d1e1a6aba78f` |
+| `w24_raw_outcomes_24m.csv` | 193,841 | 240 | 46 | `11f10ed0a021971f0cdad3b182d2fb37c38b907f1413358bb07ba089758812ec` | `21e043ce3de8` |
+| `w24_pre_panel_missing.csv` | 2,406 | 4 | 10 | `11743a3bc5b1eb92607f44e7fdf87514fafe3c682180c797a6e8ffe5a7641abe` | `baf84a440107` |
+| `w24_directory_disappearance.csv` | 1,696 | 19 | 14 | `879a8741b8a1de658d9da91383d3b7383bb12d70cf506aab2cf17329f970b07d` | `78eb0d5f8bcb` |
+| `w24_endpoint_uncertain.csv` | 1,840 | 8 | 13 | `4d023caac3914b989c8c1e53beeb150e4040ae88fa46ab5844f29483d3380f94` | `584d91856ef2` |
 
 `Data rows` excludes the header row. All five row counts match the figures
 quoted in the sections above, which is a check that the documentation and the

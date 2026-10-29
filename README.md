@@ -87,3 +87,12 @@ In brief:
 Pipeline code is under [`src/`](src/README.md); derived tables and their cautions are under [`data/`](data/metadata/w24_backtest_datasets.md).
 
 Future major methodological changes should get their own dated research-log file rather than overwriting this one.
+
+### 2026-10-29 — Raw 24-month outcome dataset and Y methodology decisions
+
+Y has been recorded for the 240-company cohort as **raw, separate dimensions**, with no success/failure label and no weighted score. Survival (95.0% resolved at the endpoint) and team growth (97.1%) are usable; acquisition is kept as an event only, since no acquirer or transaction amount is public for any company in the cohort; follow-on funding is held at `PENDING_BETTER_DATA_SOURCE` because SEC Form D recall on this cohort is only 4.6%.
+
+The 24-month horizon stays 2024-04-04 → 2026-04-04. It is not observable directly: yc-oss stopped updating for 86 days across the cutoff, so 8 companies are carried as an explicit `ENDPOINT_UNCERTAIN` set rather than resolved by assumption.
+
+Coverage and quality: [`docs/research_log/2026-10-29_raw_outcome_coverage.md`](docs/research_log/2026-10-29_raw_outcome_coverage.md)
+Decisions, corrections and uncertainty sets: [`docs/research_log/2026-10-29_y_methodology_decisions.md`](docs/research_log/2026-10-29_y_methodology_decisions.md)

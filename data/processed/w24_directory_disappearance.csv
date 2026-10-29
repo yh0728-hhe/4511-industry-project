@@ -1,0 +1,20 @@
+﻿entity_id,name_at_decision,current_name,former_names,domain_at_decision,current_domain,renamed_since_decision,missingness_reason,survival_at_cutoff_2026_04_04,endpoint_status,survival_last_pre_cutoff_status,survival_last_pre_cutoff_date,team_size_first_obs,team_size_last_obs_pre_cutoff
+RM-agenthub,AgentHub,,,agenthub.dev,,,PRE_YCOSS_DIRECTORY_DISAPPEARANCE,UNKNOWN,NO_OBSERVATION,,,,
+RM-airfront,Airfront,,,airfront.com,,,,Active,OK,Active,2024-10-01,2,2
+RM-assembly-2,Assembly,,,askassembly.app,,,,Active,OK,Active,2026-02-08,3,3
+RM-delve,Delve,,,getdelve.com,,,,Active,OK,Active,2026-02-08,3,33
+RM-double-2,Double,,,double.finance,,,,Active,OK,Active,2025-12-01,5,5
+RM-hona-2,Hona,,,hona.ai,,,,Active,OK,Active,2024-10-01,3,3
+RM-lumina-2,Lumina,,,lumina-chat.com,,,,Active,OK,Active,2025-02-01,3,3
+RM-maihem,MAIHEM,,,maihem.ai,,,,Active,OK,Active,2026-02-08,4,3
+RM-nowhouse,NowHouse,,,nowhouse.io,,,,Active,OK,Active,2026-02-08,0,0
+RM-quantic,Quantic,,,quantichq.com,,,,Active,OK,Active,2025-01-01,2,2
+RM-sevnai,SevnAI,,,sevn.ai,,,PRE_YCOSS_DIRECTORY_DISAPPEARANCE,UNKNOWN,NO_OBSERVATION,,,,
+RM-skygaze,Skygaze,,,skygaze.io,,,PRE_YCOSS_DIRECTORY_DISAPPEARANCE,UNKNOWN,NO_OBSERVATION,,,,
+RM-tatara,Tatara,,,tatara.ai,,,PRE_YCOSS_DIRECTORY_DISAPPEARANCE,UNKNOWN,NO_OBSERVATION,,,,
+RM-tensorfuse,Tensorfuse,,,tensorfuse.io,,,,Active,OK,Active,2026-02-08,2,2
+RM-tile,Tile,,,tile.sh,,,,Active,OK,Active,2026-02-08,2,2
+RM-titan-2,Titan,,,applytitan.com,,,,Active,OK,Active,2025-01-01,1,1
+RM-trellis,Trellis,,,usetrellis.co,,,,Active,OK,Active,2026-02-08,2,25
+RM-dawn,dawn,,,dawnai.com,,,,Active,OK,Active,2025-04-01,5,4
+RM-just-words,just words,,,justwords.ai,,,,Active,OK,Active,2025-10-01,2,5

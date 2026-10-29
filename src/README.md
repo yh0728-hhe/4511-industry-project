@@ -16,7 +16,7 @@ Algolia API, and `sec.gov`. Nothing in this directory reads an API key.
 | `outcome_tracking/extract_status_transitions.py` | `data/processed/status_transitions.csv` | 55 dated transitions |
 | `entity_resolution/build_w24_crosswalk.py` | `data/processed/w24_crosswalk.csv`, `w24_uncertain_matches.csv` | 240 sheet rows |
 | `data_collection/collect_pre_demoday_evidence.py` | `outputs/w24_27_audit.csv` | 27 audited companies |
-| `outcome_tracking/build_raw_outcomes.py` | `data/processed/w24_raw_outcomes_24m.csv` | 240 companies, 41 raw-outcome columns |
+| `outcome_tracking/build_raw_outcomes.py` | `data/processed/w24_raw_outcomes_24m.csv` plus `w24_pre_panel_missing.csv`, `w24_directory_disappearance.csv`, `w24_endpoint_uncertain.csv` | 240 companies, 46 raw-outcome columns, plus 3 uncertainty-set exports (4 / 19 / 8 rows) |
 | `outcome_tracking/fetch_sec_form_d.py` | `data/raw/form_d/` (gitignored, ~100 MB) | 11 quarters |
 
 Shared helpers, not run directly:
