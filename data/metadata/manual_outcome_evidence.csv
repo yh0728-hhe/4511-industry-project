@@ -1,0 +1,7 @@
+match_name,field,value,source,confidence,note
+Trieve,acquirer,NOT_DISCLOSED,"YC company page (status Acquired); web search 2026-10-29 found no acquirer",Medium,"Acquisition confirmed by YC status transition; no public source names the acquirer, deal date or terms"
+Trieve,acquisition_amount,NOT_DISCLOSED,"web search 2026-10-29",Medium,"No disclosed transaction amount found"
+Trieve,followon_funding_manual,"3500000 USD seed led by Root Ventures, announced 2024-09","seedtable.com company page",Low,"Within the 2024-04-04..2026-04-04 window but NOT captured by SEC Form D. Third-party aggregator, date given only to month. Recorded as supplementary evidence; not merged into the Form D fields."
+Arcane,acquirer,NOT_DISCLOSED,"YC company page (status Acquired); web search 2026-10-29 found no acquirer",Medium,"Acquisition confirmed by YC status transition; no public source names the acquirer"
+Arcane,acquisition_amount,NOT_DISCLOSED,"web search 2026-10-29",Medium,"No disclosed transaction amount found"
+Arcane,acquisition_hint,"co-founder's public profile lists current employer OpenAI and 'previously founded Arcane (W24)'","founder public profile via web search 2026-10-29",Low,"HINT ONLY. Does NOT establish OpenAI as the acquirer. Pattern is consistent with an acqui-hire of a 2-person team, which may be a loss for investors - illustrates why Acquired must not be auto-labelled success."

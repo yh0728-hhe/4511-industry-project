@@ -170,6 +170,49 @@ company was found with positive evidence of joining W24 after Demo Day, and
 
 ---
 
+## `w24_raw_outcomes_24m.csv` — 240 rows, 41 columns
+
+Raw 24-month outcome dataset for the dated cohort. Decision point
+2024-04-03/04, primary cutoff 2026-04-04. Produced by
+`src/outcome_tracking/build_raw_outcomes.py`.
+
+**Contains no success/failure label and no weighted score, by design.** The
+five dimensions are kept independent: survival, follow-on funding,
+acquisition, team growth, evidence quality.
+
+Full coverage and quality analysis:
+[`docs/research_log/2026-10-29_raw_outcome_coverage.md`](../../docs/research_log/2026-10-29_raw_outcome_coverage.md).
+
+| Dimension | Coverage |
+| --- | ---: |
+| Survival | 92.1% |
+| Team size (both observations) | 90.8% |
+| Acquisition | 92.1% |
+| Follow-on funding (SEC Form D) | **4.6%** |
+
+**Cautions**
+
+- **Funding is not usable from this source.** Form D recall on this cohort is
+  about 5%, because most early YC rounds are SAFEs under Section 4(a)(2),
+  which requires no filing. `NO_EVIDENCE_FOUND` on 229 companies is absence of
+  evidence, not zero funding. Trieve's \$3.5M September 2024 seed is absent
+  from Form D entirely.
+- **No observation exists at the cutoff.** yc-oss stopped updating from
+  2026-02-08 to 2026-05-04 (YC rotated the Algolia key its scraper used), an
+  86-day blind window containing 2026-04-04. 8 companies changed status inside
+  it; their change cannot be dated against the cutoff.
+- **Survival `Unknown`, acquisition `UNKNOWN`, and team-size "neither
+  observation" are the same 19 companies** — those absent from the current YC
+  directory. Not to be labelled failed.
+- 0 acquirers named and 0 transaction amounts disclosed, so the dataset
+  carries no return information at all.
+- The team-growth window is roughly 16 months, not 24, and varies per company.
+  Use the per-row dates.
+- Hand-verified items come from `manual_outcome_evidence.csv` and are applied
+  reproducibly rather than edited into the CSV.
+
+---
+
 ## File integrity
 
 Generated 2026-10-29 at commit `81d1b4c`.
@@ -189,6 +232,7 @@ what the GitHub API reports for the blob.
 | `status_transitions.csv` | 5,460 | 55 | 9 | `044b4d227e7002a0932fcfebb9548837264416f0ff85790238c1ac55de1c7df5` | `38e2e378b476` |
 | `w24_crosswalk.csv` | 13,977 | 240 | 7 | `b5151319062ccc1fcd52f9622f2749ba150c87f76783979b51ace86da3066520` | `d5638b39ef90` |
 | `w24_late_published_27.csv` | 1,048 | 27 | 5 | `d69879be20642878b55a318e7802e7d940ed4c387812dd7a739065aa706f3b31` | `22c707174898` |
+| `w24_raw_outcomes_24m.csv` | 132,566 | 240 | 41 | `b19798e7b18e4ac0aa6819c5f88148afb31973c7102ba19010db7a86935f01b5` | `d1e1a6aba78f` |
 
 `Data rows` excludes the header row. All five row counts match the figures
 quoted in the sections above, which is a check that the documentation and the
