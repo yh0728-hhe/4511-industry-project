@@ -64,3 +64,26 @@ Before relying on the offered [official Crunchbase API](https://data.crunchbase.
 Agree on the company cohort, outcome definition, decision date, and observation period. Define how research quality will be assessed, including support for claims, source citations, and identification of missing evidence. Then prepare a small joined sample, review its coverage and missingness, and validate the offered API access.
 
 The inspected files do not provide verified revenue, retention, churn, customer acquisition cost, customer concentration, or pitch-deck information. Those would require additional dated company evidence or authorized project materials.
+
+## Project updates
+
+### 2026-10-29 — W24 Demo Day Backtest Design
+
+The project has moved from the initial data inventory above toward a **historical investment-decision backtest**: simulating an external VC deciding, at YC Winter 2024 Demo Day (**2024-04-03 / 04**), whether to invest in each W24 startup, and comparing those decisions against outcomes 24 months later.
+
+The data inventory in this README remains the record of the 2026-10-21/22 stage and is unchanged.
+
+Full design: [`docs/research_log/2026-10-29_w24_backtest_design.md`](docs/research_log/2026-10-29_w24_backtest_design.md)
+
+In brief:
+
+- **Decision point** is Demo Day, not founding date, YC entry, or the first available `yc-oss` snapshot.
+- **Primary cohort** is the 240 companies in the dated 2024-03-25 W24 spreadsheet, chosen because it is clearly dated *before* Demo Day. 240 is not a claim about official attendance — four sources report four different W24 universe sizes.
+- **Eligibility and evidence coverage are kept separate.** Failing to recover a historical page does not show that a company was absent from W24.
+- **`Y` is not yet collapsed to success/failure.** Survival, follow-on financing, acquisition, team growth, and evidence quality are preserved separately.
+- The system may output **`INVEST` / `PASS` / `MORE DD`**, where `MORE DD` means the evidence is insufficient rather than forcing a binary call.
+- The **stopping rule is still unresolved** and is not presented as settled.
+
+Pipeline code is under [`src/`](src/README.md); derived tables and their cautions are under [`data/`](data/metadata/w24_backtest_datasets.md).
+
+Future major methodological changes should get their own dated research-log file rather than overwriting this one.
