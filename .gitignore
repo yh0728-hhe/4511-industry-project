@@ -1,0 +1,22 @@
+# Large third-party bulk data - fetch with src/outcome_tracking/fetch_sec_form_d.py
+data/raw/
+*.zip
+
+# Credentials - never commit
+.env
+*.key
+*_secret*
+credentials*
+
+# Papers and sponsor material
+*.pdf
+*.docx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch
+*.log
