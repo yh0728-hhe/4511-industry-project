@@ -1,0 +1,607 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>W24 Historical Backtest</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Continuation of "Closed-Loop Due Diligence". Same measure, same palette.
+     One large figure, two secondary callouts, minimal prose. */
+  :root {
+    --bg: #F7F7F5;
+    --fg: #1A1C1A;
+    --muted: #5C615B;
+    --rule: #D4D7D0;
+    --surface: #FFFFFF;
+    --signal: #9C4A14;
+    --signal-soft: #F5E6D9;
+
+    --serif: "Source Serif 4", Georgia, serif;
+    --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #131513; --fg: #E8EAE5; --muted: #99A094;
+      --rule: #2E332D; --surface: #1C1F1C;
+      --signal: #DD9E5E; --signal-soft: #322314;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #131513; --fg: #E8EAE5; --muted: #99A094;
+    --rule: #2E332D; --surface: #1C1F1C;
+    --signal: #DD9E5E; --signal-soft: #322314;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 16.5px; line-height: 1.66; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 740px; margin: 0 auto; padding-inline: 24px; padding-block: 0 84px; }
+
+  header.top { padding-block: 46px 24px; }
+  .eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; color: var(--muted); margin-bottom: 16px; }
+  h1 { font-family: var(--serif); font-size: clamp(31px, 5.2vw, 45px); line-height: 1.08; font-weight: 700; margin: 0 0 18px; letter-spacing: -0.02em; text-wrap: balance; }
+  .sub { font-size: 18px; color: var(--muted); margin: 0; }
+  .byline { font-family: var(--mono); font-size: 12px; color: var(--muted); margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--rule); }
+
+  section { padding-block: 34px 0; }
+  h2 { font-family: var(--serif); font-size: clamp(23px, 3.6vw, 29px); font-weight: 700; margin: 0 0 12px; letter-spacing: -0.015em; text-wrap: balance; }
+  h3 { font-family: var(--sans); font-size: 16px; font-weight: 600; margin: 28px 0 6px; }
+  p { margin: 0 0 15px; }
+  strong { font-weight: 600; }
+  .lede { font-family: var(--serif); font-size: 20px; line-height: 1.5; }
+
+  /* then / now, the one-line narrative hinge */
+  .hinge { margin: 22px 0 0; border-top: 1px solid var(--rule); }
+  .hinge div { display: grid; grid-template-columns: 96px 1fr; gap: 16px; padding: 13px 0; border-bottom: 1px solid var(--rule); align-items: baseline; }
+  .hinge dt, .hinge .k { font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em; color: var(--muted); }
+  .hinge .v { font-family: var(--serif); font-size: 18.5px; line-height: 1.42; }
+  .hinge div.now .k { color: var(--signal); }
+
+  figure { margin: 26px 0 0; }
+  .figbox { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); padding: 18px 12px 10px; }
+  .figbox svg { display: block; min-width: 470px; width: 100%; height: auto; color: var(--muted); }
+  .bx   { fill: var(--surface); stroke: currentColor; stroke-width: 1.3; }
+  .bx-n { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 1.8; }
+  .bx-g { fill: none; stroke: currentColor; stroke-width: 1.1; stroke-dasharray: 4 3; }
+  .ar   { stroke: currentColor; stroke-width: 1.3; fill: none; }
+  .ar-n { stroke: var(--signal); stroke-width: 1.8; fill: none; }
+  .t    { fill: var(--fg); font-family: "IBM Plex Sans", sans-serif; font-size: 12px; }
+  .t-b  { fill: var(--fg); font-family: "IBM Plex Sans", sans-serif; font-size: 12px; font-weight: 600; }
+  .t-n  { fill: var(--signal); font-family: "IBM Plex Sans", sans-serif; font-size: 12px; font-weight: 600; }
+  .t-s  { fill: currentColor; font-family: "IBM Plex Sans", sans-serif; font-size: 10.5px; }
+  .t-m  { fill: currentColor; font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; }
+  .t-mn { fill: var(--signal); font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .08em; }
+  .t-xl { fill: var(--fg); font-family: "Source Serif 4", Georgia, serif; font-size: 23px; font-weight: 700; }
+  .t-xn { fill: var(--signal); font-family: "Source Serif 4", Georgia, serif; font-size: 23px; font-weight: 700; }
+  figcaption { font-size: 14px; color: var(--muted); margin-top: 12px; }
+
+  .figbox svg text { pointer-events: none; }
+  .node { cursor: help; }
+  .node rect, .node polygon, .node circle { transition: fill .12s ease, stroke-width .12s ease; }
+  .node:hover rect, .node:hover polygon, .node:hover circle,
+  .node.pinned rect, .node.pinned polygon, .node.pinned circle { fill: var(--signal-soft); stroke: var(--signal); stroke-width: 2.2; }
+  .node:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .node rect, .node polygon, .node circle { transition: none; } }
+
+  #tip {
+    position: fixed; z-index: 50; max-width: 290px;
+    background: var(--fg); color: var(--bg);
+    font-size: 13.5px; line-height: 1.5;
+    padding: 9px 12px; border-radius: 4px;
+    pointer-events: none; opacity: 0;
+    box-shadow: 0 4px 18px rgba(0,0,0,.22);
+  }
+  #tip.on { opacity: 1; }
+
+  /* outcome dimension cards */
+  .dims { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 24px; }
+  @media (max-width: 560px) { .dims { grid-template-columns: 1fr; } }
+  .dim { background: var(--surface); padding: 17px 18px 18px; }
+  .dim .st { font-family: var(--mono); font-size: 10px; letter-spacing: .09em; margin-bottom: 9px; }
+  .dim .st.ok { color: var(--signal); }
+  .dim .st.hold { color: var(--muted); }
+  .dim h3 { margin: 0 0 2px; font-size: 16.5px; }
+  .dim .num { font-family: var(--serif); font-size: 31px; font-weight: 700; line-height: 1.1; letter-spacing: -0.02em; }
+  .dim .num small { font-family: var(--mono); font-size: 11px; font-weight: 400; color: var(--muted); letter-spacing: .04em; display: block; margin-top: 2px; }
+  .dim .no { font-size: 14.5px; color: var(--muted); margin: 10px 0 0; line-height: 1.5; }
+  .dim.hold { background: var(--surface); }
+  .dim.hold .num { color: var(--muted); }
+
+  .callout { background: var(--signal-soft); border-left: 3px solid var(--signal); padding: 16px 20px; margin: 24px 0 0; font-family: var(--serif); font-size: 19px; line-height: 1.45; }
+
+  .card { background: var(--surface); border: 1px solid var(--rule); padding: 18px 20px; margin-top: 22px; font-size: 15.5px; }
+  .card .lbl { font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em; color: var(--signal); margin-bottom: 10px; }
+  .card p:last-child { margin-bottom: 0; }
+
+  .facts { font-family: var(--mono); font-size: 13.5px; background: var(--surface); border: 1px solid var(--rule); padding: 14px 16px; margin: 20px 0; line-height: 1.9; }
+  .facts span { color: var(--muted); }
+
+  /* survival distribution */
+  .bar { display: flex; height: 40px; margin: 22px 0 0; border: 1px solid var(--rule); background: var(--surface); }
+  .bar i { display: block; height: 100%; min-width: 3px; border-right: 1px solid var(--surface); }
+  .bar i:last-child { border-right: 0; }
+  .s1 { background: var(--fg); }
+  .s2 { background: var(--muted); }
+  .s3 { background: var(--signal); }
+  .s4 { background: var(--signal-soft); }
+  .s5 { background: var(--rule); }
+  .leg { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 12px; font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
+  .leg span { display: inline-flex; align-items: center; gap: 7px; }
+  .leg b { width: 10px; height: 10px; display: inline-block; border: 1px solid var(--rule); }
+
+  /* this week / still missing */
+  .ledger { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 24px; }
+  @media (max-width: 560px) { .ledger { grid-template-columns: 1fr; } }
+  .ledger > div { background: var(--surface); padding: 17px 18px 19px; }
+  .ledger .lbl { font-family: var(--mono); font-size: 10px; letter-spacing: .09em; margin-bottom: 11px; }
+  .ledger .have .lbl { color: var(--signal); }
+  .ledger .miss .lbl { color: var(--muted); }
+  .ledger ul { margin: 0; padding-left: 18px; font-size: 15px; }
+  .ledger li { margin-bottom: 6px; line-height: 1.45; }
+  .ledger li:last-child { margin-bottom: 0; }
+  .ledger .mono { font-family: var(--mono); font-size: 13.5px; }
+
+  ol.num { margin: 18px 0 0; padding: 0; list-style: none; counter-reset: i; }
+  ol.num li { counter-increment: i; position: relative; padding: 15px 0 15px 40px; border-top: 1px solid var(--rule); }
+  ol.num li::before { content: counter(i); position: absolute; left: 0; top: 15px; font-family: var(--mono); font-size: 12.5px; color: var(--signal); }
+  ol.num b { display: block; font-weight: 600; margin-bottom: 2px; }
+  ol.num span.d { font-size: 15px; color: var(--muted); }
+
+  .covlabel { font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em; color: var(--muted); margin: 24px 0 -10px; padding-bottom: 9px; border-bottom: 1px solid var(--rule); }
+  .covlabel.act { color: var(--signal); margin-bottom: 0; }
+  .dim.pend .num { font-size: 27px; }
+
+  .dims.unc { grid-template-columns: repeat(3, 1fr); }
+  @media (max-width: 620px) { .dims.unc { grid-template-columns: 1fr; } }
+
+  details { margin-top: 20px; border-top: 1px solid var(--rule); padding-top: 14px; }
+  summary { font-family: var(--mono); font-size: 11px; letter-spacing: .07em; color: var(--muted); cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "+ "; color: var(--signal); font-weight: 500; }
+  details[open] summary::before { content: "– "; }
+  summary:hover, summary:focus-visible { color: var(--signal); }
+
+  .dlink { margin-top: 16px; text-align: right; }
+  .dlink a { font-family: var(--mono); font-size: 11px; letter-spacing: .07em; color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 1px; }
+  .dlink a:hover, .dlink a:focus-visible { color: var(--signal); border-bottom-color: var(--signal); }
+
+  .tiny { font-family: var(--mono); font-size: 11.5px; color: var(--muted); line-height: 1.7; margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--rule); }
+
+  footer { margin-top: 50px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--muted); font-family: var(--mono); }
+
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="top">
+    <div class="eyebrow">Week 3 &middot; Historical backtest</div>
+    <h1>How do we know whether it actually decides better?</h1>
+    <p class="sub">Put the system back at YC W24 Demo Day, give it only what an investor could have known that week, and read its answer against what actually happened by April 2026.</p>
+    <div class="byline">Yue Yu &middot; Yi-Nung Hwang &nbsp;|&nbsp; Columbia IEOR 4511E &nbsp;|&nbsp; Golden Gate Ventures</div>
+  </header>
+
+  <section>
+    <div class="hinge">
+      <div><span class="k">Last week</span><span class="v">Yi-Nung reviewed the startup datasets available to us.</span></div>
+      <div><span class="k">What it showed</span><span class="v">They are useful for researching a company, but none of them gives us both a view from a past decision date <em>and</em> an outcome window after it.</span></div>
+      <div class="now"><span class="k">This week</span><span class="v">So we built the historical test. Not the model &mdash; the way to judge it.</span></div>
+    </div>
+
+    <div class="callout" style="margin-top:26px">If we had been an investor at YC W24 Demo Day on April 3&ndash;4, 2024, which of these 240 companies should we have backed?</div>
+    <p style="margin-top:18px">The system sees only what an investor could have seen that week. We score it against the next two years.</p>
+  </section>
+
+  <section>
+    <h2>The historical test</h2>
+    <p style="color:var(--muted);font-size:15px">Hover any box for a note. Click to keep it open while you talk.</p>
+
+    <figure>
+      <div class="figbox">
+        <svg viewBox="0 0 600 772" role="img" aria-label="Point-in-time backtest structure: information available at Demo Day feeds an AI investment committee decision, which is scored against outcomes 24 months later.">
+
+          <!-- ============ X region ============ -->
+          <text class="t-m" x="300" y="16" text-anchor="middle">X &nbsp;&middot;&nbsp; WHAT DID THE VC KNOW?</text>
+
+          <g class="node" data-tip="X is built only from sources with a date on or before 4 April 2024: archived YC company pages, company websites as they stood that week, and dated public coverage. Anything we cannot date, we do not use.">
+            <rect class="bx" x="112" y="30" width="376" height="56" rx="2"/>
+            <text class="t-b" x="300" y="52" text-anchor="middle">Information dated on or before Apr 4, 2024</text>
+            <text class="t-s" x="300" y="70" text-anchor="middle">archived YC pages &middot; company sites as they were &middot; dated public coverage</text>
+          </g>
+
+          <path class="ar" d="M300 86 L300 116" marker-end="url(#ah)"/>
+
+          <!-- Demo Day: the decision point -->
+          <g class="node" data-tip="The decision point t. Chosen because it is the moment an outside investor actually faces this choice: after YC has screened and after the programme, not at founding and not at YC entry.">
+            <rect class="bx-n" x="158" y="118" width="284" height="78" rx="2"/>
+            <text class="t-m" x="300" y="139" text-anchor="middle" style="fill:var(--signal)">DECISION POINT</text>
+            <text class="t-n" x="300" y="160" text-anchor="middle" style="font-size:15px">W24 DEMO DAY</text>
+            <text class="t-n" x="300" y="177" text-anchor="middle" style="font-weight:400">Apr 3&ndash;4, 2024 &nbsp;&middot;&nbsp; 240 companies</text>
+          </g>
+
+          <!-- the committee's three answers -->
+          <text class="t-m" x="300" y="217" text-anchor="middle">AI INVESTMENT COMMITTEE</text>
+          <g class="node" data-tip="Three answers, not two. MORE DD means the evidence is not yet sufficient to decide — a real committee is allowed to say that, and we want to see when the system does.">
+            <rect class="bx" x="158" y="226" width="90" height="30" rx="2"/>
+            <rect class="bx" x="255" y="226" width="90" height="30" rx="2"/>
+            <rect class="bx" x="352" y="226" width="90" height="30" rx="2"/>
+            <text class="t-b" x="203" y="246" text-anchor="middle">INVEST</text>
+            <text class="t-b" x="300" y="246" text-anchor="middle">PASS</text>
+            <text class="t-b" x="397" y="246" text-anchor="middle">MORE DD</text>
+          </g>
+
+          <path class="ar-n" d="M300 256 L300 332" marker-end="url(#ahn)"/>
+
+          <!-- ============ the one-way wall ============ -->
+          <line x1="40" y1="292" x2="560" y2="292" stroke="currentColor" stroke-width="1.1" stroke-dasharray="5 4"/>
+          <text class="t-m" x="40" y="285">POINT-IN-TIME WALL</text>
+
+          <g class="node" data-tip="The whole experiment rests on this. Nothing below the line may inform anything above it. If future information leaks into X, the system looks clever for knowing the answer.">
+            <path class="ar" d="M520 352 L520 302" stroke-dasharray="4 3"/>
+            <line x1="512" y1="320" x2="528" y2="336" stroke="var(--signal)" stroke-width="2"/>
+            <line x1="528" y1="320" x2="512" y2="336" stroke="var(--signal)" stroke-width="2"/>
+            <rect x="494" y="296" width="52" height="62" fill="transparent" stroke="none"/>
+          </g>
+          <text class="t-mn" x="520" y="374" text-anchor="middle">the future never</text>
+          <text class="t-mn" x="520" y="386" text-anchor="middle">flows back up</text>
+
+          <text class="t-m" x="313" y="321">24 MONTHS</text>
+
+          <!-- ============ Y region ============ -->
+          <g class="node" data-tip="Y exists only to score the decision. It is never shown to the system. Outcomes are read at the 24-month mark and nothing after it enters the primary measure.">
+            <rect class="bx-n" x="158" y="334" width="284" height="66" rx="2"/>
+            <text class="t-m" x="300" y="355" text-anchor="middle" style="fill:var(--signal)">SCORED AGAINST</text>
+            <text class="t-n" x="300" y="376" text-anchor="middle" style="font-size:15px">Apr 4, 2026 &nbsp;&middot;&nbsp; OUTCOME Y</text>
+            <text class="t-s" x="300" y="392" text-anchor="middle" style="fill:var(--signal)">used for evaluation only &mdash; never as input</text>
+          </g>
+
+          <path class="ar" d="M300 400 L300 424"/>
+          <path class="ar" d="M118 424 L482 424"/>
+          <path class="ar" d="M118 424 L118 446" marker-end="url(#ah)"/>
+          <path class="ar" d="M300 424 L300 446" marker-end="url(#ah)"/>
+          <path class="ar" d="M482 424 L482 446" marker-end="url(#ah)"/>
+
+          <!-- three usable dimensions -->
+          <g class="node" data-tip="COVERAGE, not performance. We can determine the 24-month survival status for 228 of 240 companies. It does not mean 95% survived — the actual split is 210 active, 16 inactive, 2 acquired, 8 uncertain, 4 unknown.">
+            <rect class="bx" x="42" y="448" width="152" height="86" rx="2"/>
+            <text class="t-b" x="118" y="468" text-anchor="middle">Survival</text>
+            <text class="t-xl" x="118" y="497" text-anchor="middle">95.0%</text>
+            <text class="t-mn" x="118" y="512" text-anchor="middle">COVERAGE</text>
+            <text class="t-s" x="118" y="527" text-anchor="middle">228 of 240 determined</text>
+          </g>
+          <g class="node" data-tip="COVERAGE, not performance. 233 of 240 companies have the two dated headcount observations needed to measure growth. It does not mean 97.1% grew.">
+            <rect class="bx" x="224" y="448" width="152" height="86" rx="2"/>
+            <text class="t-b" x="300" y="468" text-anchor="middle">Team growth</text>
+            <text class="t-xl" x="300" y="497" text-anchor="middle">97.1%</text>
+            <text class="t-mn" x="300" y="512" text-anchor="middle">COVERAGE</text>
+            <text class="t-s" x="300" y="527" text-anchor="middle">233 of 240 measurable</text>
+          </g>
+          <g class="node" data-tip="COVERAGE, not an acquisition rate. We can determine whether an acquisition happened for 236 of 240 companies. Two acquisitions actually occurred in the window, and for both, neither buyer nor price is public.">
+            <rect class="bx" x="406" y="448" width="152" height="86" rx="2"/>
+            <text class="t-b" x="482" y="468" text-anchor="middle">Acquisition</text>
+            <text class="t-xl" x="482" y="497" text-anchor="middle">98.3%</text>
+            <text class="t-mn" x="482" y="512" text-anchor="middle">COVERAGE</text>
+            <text class="t-s" x="482" y="527" text-anchor="middle">236 of 240 determinable</text>
+          </g>
+
+          <!-- funding: held back -->
+          <g class="node" data-tip="A source problem, not a finding about the companies. SEC Form D matches only 11 of 240, and we know of financings it misses entirely — so this is not a funding rate and a missing filing is not evidence that a company raised nothing.">
+            <rect class="bx-g" x="42" y="556" width="516" height="62" rx="2"/>
+            <text class="t-b" x="300" y="578" text-anchor="middle" style="fill:currentColor">Follow-on funding &nbsp;&mdash;&nbsp; 11 of 240 Form D matches</text>
+            <text class="t-m" x="300" y="599" text-anchor="middle">PENDING BETTER DATA SOURCE &middot; NOT A FUNDING RATE</text>
+          </g>
+
+          <!-- the honest remainder -->
+          <text class="t-m" x="300" y="652" text-anchor="middle">WHAT WE DO NOT PRETEND TO KNOW</text>
+          <g class="node" data-tip="Eight companies changed status inside an 86-day window with no observations, and that window contains the cutoff. We cannot say which side the change fell on, so we say so.">
+            <rect class="bx" x="112" y="664" width="172" height="52" rx="2"/>
+            <text class="t-xn" x="198" y="692" text-anchor="middle">8</text>
+            <text class="t-s" x="198" y="708" text-anchor="middle">endpoint uncertain</text>
+          </g>
+          <g class="node" data-tip="Four companies left the YC directory before our records begin, so we have no observation of them at all. They stay in the cohort and get no label.">
+            <rect class="bx" x="316" y="664" width="172" height="52" rx="2"/>
+            <text class="t-xn" x="402" y="692" text-anchor="middle">4</text>
+            <text class="t-s" x="402" y="708" text-anchor="middle">never observed</text>
+          </g>
+          <text class="t-m" x="300" y="744" text-anchor="middle">LABELS WE REFUSE TO GUESS</text>
+
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 1 L9 5 L0 9 z" fill="currentColor"/>
+            </marker>
+            <marker id="ahn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 1 L9 5 L0 9 z" fill="var(--signal)"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+      <figcaption>The decision is made above the line, from dated evidence only. The outcome below the line scores it and is never shown to the system. <strong>The percentages are data coverage &mdash; how much of each outcome we can determine &mdash; not how the companies performed.</strong></figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>The cohort</h2>
+    <p><strong>240 W24 companies</strong>, from a list compiled on <strong>March 25, 2024</strong> &mdash; nine days before Demo Day. Because it was captured before the decision, it gives us a fixed point-in-time cohort.</p>
+    <p class="tiny" style="margin-top:12px">Sources count the W24 batch differently &mdash; 240 / 161 / 248 / 249 / ~260. Reconciling them is a separate question, not a blocker.</p>
+    <div class="dlink"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/main/data/processed/w24_spreadsheet_2024-03-25.csv" target="_blank" rel="noopener">VIEW COHORT &nbsp;&#8599;</a></div>
+  </section>
+
+  <section>
+    <h2>What we can measure in Y</h2>
+    <p>For every company we are building a multi-dimensional record of what happened afterwards: survival, team growth, acquisition, and eventually follow-on funding. The figures below say <strong>how completely we have been able to build each dimension</strong> across the 240 companies.</p>
+
+    <div class="covlabel">Y DATA COVERAGE &nbsp;&middot;&nbsp; HOW MUCH OF Y CAN WE OBSERVE?</div>
+
+    <div class="dims">
+      <div class="dim">
+        <div class="st ok">USABLE</div>
+        <h3>Survival</h3>
+        <div class="num">95.0%<small>COVERAGE &middot; 228 OF 240 DETERMINED</small></div>
+        <p class="no">We can determine the 24-month survival status for 228 companies. <strong>It does not mean 95% survived.</strong> The actual split is below.</p>
+      </div>
+      <div class="dim">
+        <div class="st ok">USABLE</div>
+        <h3>Team growth</h3>
+        <div class="num">97.1%<small>COVERAGE &middot; 233 OF 240 MEASURABLE</small></div>
+        <p class="no">233 companies have the two dated observations needed to measure growth. <strong>It does not mean 97.1% grew.</strong> Our best-covered dimension &mdash; and headcount is still not a return.</p>
+      </div>
+      <div class="dim">
+        <div class="st hold">EVENT ONLY &middot; RETURN UNKNOWN</div>
+        <h3>Acquisition</h3>
+        <div class="num">98.3%<small>COVERAGE &middot; 236 OF 240 DETERMINABLE</small></div>
+        <p class="no"><strong>Not an acquisition rate.</strong> We can tell whether an acquisition happened for 236 companies; <strong>2 actually occurred</strong> in the window. For both, neither buyer nor price is public.</p>
+      </div>
+      <div class="dim hold pend">
+        <div class="st hold">PENDING BETTER DATA SOURCE</div>
+        <h3>Follow-on funding</h3>
+        <div class="num">11 / 240<small>SEC FORM D MATCHES</small></div>
+        <p class="no">A source failure, not a finding. The current source is too incomplete to build funding Y at all. <strong>No filing &ne; no funding</strong> &mdash; this is not the share of companies that raised. The main unresolved piece of Y.</p>
+      </div>
+    </div>
+
+    <div class="dlink"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/main/data/processed/w24_raw_outcomes_24m.csv" target="_blank" rel="noopener">VIEW OUTCOME DATASET &nbsp;&#8599;</a></div>
+
+    <div class="callout">These are coverage figures, not results. <strong>95.0% is how much survival status we can determine, not how many companies survived.</strong> The actual outcome distribution is in the next section.</div>
+    <p style="margin-top:18px">We are not building a single success score, and we are not calling every surviving company a win. The company-level values live in the outcome dataset.</p>
+  </section>
+
+  <section>
+    <h2>Why survival alone is not enough</h2>
+    <div class="covlabel act">WHAT THE OUTCOME DATA ACTUALLY SAYS &nbsp;&middot;&nbsp; SURVIVAL AT APR 4, 2026</div>
+
+    <div class="bar" role="img" aria-label="Survival distribution: Active 210, Inactive 16, Acquired 2, uncertain 8, never observed 4, out of 240.">
+      <i class="s1" style="width:87.5%"></i><i class="s2" style="width:6.7%"></i><i class="s3" style="width:0.8%"></i><i class="s4" style="width:3.3%"></i><i class="s5" style="width:1.7%"></i>
+    </div>
+    <div class="leg">
+      <span><b class="s1"></b>Active 210 &middot; 87.5%</span>
+      <span><b class="s2"></b>Inactive 16 &middot; 6.7%</span>
+      <span><b class="s3"></b>Acquired 2 &middot; 0.8%</span>
+      <span><b class="s4"></b>Uncertain 8 &middot; 3.3%</span>
+      <span><b class="s5"></b>Unknown 4 &middot; 1.7%</span>
+    </div>
+
+    <p style="margin-top:22px">A system that simply answered <strong>Active</strong> for every company would score about <strong>87.5%</strong> and tell us nothing. A fund does not get paid for picking companies that merely still exist.</p>
+
+    <div class="callout">This is not a yes-or-no classification problem. It is a ranking and portfolio-selection problem: out of 240, which would you have backed, and in what order?</div>
+    <p class="tiny" style="margin-top:14px">The metric is not settled, and the model comparison has not been run. There are no results to show yet.</p>
+  </section>
+
+  <section>
+    <h2>Uncertainty we preserve</h2>
+
+    <div class="dims unc">
+      <div class="dim">
+        <div class="st hold">86-DAY OBSERVATION GAP</div>
+        <div class="num">8<small>COMPANIES</small></div>
+        <p class="no">Changed status inside a window with no observations &mdash; and that window contains the April 4 cutoff. Marked <strong>ENDPOINT_UNCERTAIN</strong>.</p>
+      </div>
+      <div class="dim">
+        <div class="st hold">IDENTITY DRIFT</div>
+        <div class="num">26%<small>OF THE COHORT RENAMED</small></div>
+        <p class="no">Names, domains and YC identifiers all change. We link identities across time rather than matching on one current identifier.</p>
+      </div>
+      <div class="dim">
+        <div class="st hold">NEVER OBSERVED</div>
+        <div class="num">4<small>COMPANIES</small></div>
+        <p class="no">No historical record at all. They stay in the cohort and receive no guessed outcome.</p>
+      </div>
+    </div>
+
+    <div class="callout">We preserve uncertainty instead of quietly filling in labels.</div>
+
+    <details>
+      <summary>EXAMPLE: IDENTITY CHANGES OVER TIME</summary>
+    <figure>
+      <div class="figbox">
+        <svg viewBox="0 0 600 188" role="img" aria-label="Adagy Robotics became Tuesday Lab and then Tuesday Labs, while its domain changed from adagyrobotics.com to tuesdaylab.com.">
+          <text class="t-m" x="24" y="30">NAME</text>
+          <g class="node" data-tip="As listed on the dated March 2024 cohort spreadsheet.">
+            <rect class="bx" x="24" y="40" width="152" height="38" rx="2"/>
+            <text class="t-b" x="100" y="64" text-anchor="middle">Adagy Robotics</text>
+          </g>
+          <path class="ar" d="M182 59 L208 59" marker-end="url(#ah2)"/>
+          <g class="node" data-tip="The same company, renamed. Nothing in the record links the two names on its own.">
+            <rect class="bx" x="214" y="40" width="142" height="38" rx="2"/>
+            <text class="t-b" x="285" y="64" text-anchor="middle">Tuesday Lab</text>
+          </g>
+          <path class="ar" d="M362 59 L388 59" marker-end="url(#ah2)"/>
+          <g class="node" data-tip="Renamed again — even the plural changed.">
+            <rect class="bx-n" x="394" y="40" width="142" height="38" rx="2"/>
+            <text class="t-n" x="465" y="64" text-anchor="middle">Tuesday Labs</text>
+          </g>
+
+          <text class="t-m" x="24" y="118">WEB ADDRESS</text>
+          <g class="node" data-tip="The address an investor would have visited at Demo Day.">
+            <rect class="bx" x="24" y="128" width="202" height="38" rx="2"/>
+            <text class="t" x="125" y="152" text-anchor="middle">adagyrobotics.com</text>
+          </g>
+          <path class="ar" d="M232 147 L258 147" marker-end="url(#ah2)"/>
+          <g class="node" data-tip="The current address. Searching by the old one finds nothing today.">
+            <rect class="bx-n" x="264" y="128" width="192" height="38" rx="2"/>
+            <text class="t-n" x="360" y="152" text-anchor="middle">tuesdaylab.com</text>
+          </g>
+          <text class="t-s" x="472" y="152">&hellip; and the YC id changed twice too</text>
+          <defs>
+            <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M0 1 L9 5 L0 9 z" fill="currentColor"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+      <figcaption>Name, web address and YC identifier all changed. Looking this company up by any one of them, as it stands today, finds only part of its history.</figcaption>
+    </figure>
+      <p class="tiny" style="border-top:0;padding-top:4px">Looking a company up by any single current name, address or identifier does not return an error &mdash; it quietly returns less. Separately: 19 companies are absent from today&rsquo;s YC directory, but 15 of them were still operating at their last historical observation, so disappearing from the directory is not the same as failing.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Where the backtest stands now</h2>
+
+    <div class="ledger">
+      <div class="have">
+        <div class="lbl">IN PLACE</div>
+        <ul>
+          <li>240-company historical cohort, dated before Demo Day</li>
+          <li>Decision point fixed at Apr 3&ndash;4, 2024</li>
+          <li>Point-in-time rule: no future information in X</li>
+          <li>24-month outcome window to Apr 4, 2026</li>
+          <li>Survival outcome &mdash; <span class="mono">95.0%</span></li>
+          <li>Team-growth outcome &mdash; <span class="mono">97.1%</span></li>
+          <li>Acquisition events &mdash; <span class="mono">98.3%</span></li>
+          <li>Uncertainty recorded explicitly, never guessed</li>
+          <li>Identities linked across renames</li>
+        </ul>
+      </div>
+      <div class="miss">
+        <div class="lbl">NEXT</div>
+        <ul>
+          <li>A follow-on funding source with real coverage</li>
+          <li>Build the historical X evidence packets for all 240 companies</li>
+          <li>Settle the evaluation metric</li>
+          <li>Run the DIALECTIC baseline</li>
+          <li>Run the improved multi-agent IC</li>
+          <li>Compare their rankings and portfolio picks against Y</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="facts">
+      X rules and anti-leakage design <span>&mdash;</span> defined<br>
+      Historical X evidence packets, 240 companies <span>&mdash;</span> not yet built<br>
+      Model comparison <span>&mdash;</span> not started
+    </div>
+  </section>
+
+  <section>
+    <h2>What we need from you</h2>
+    <ol class="num">
+      <li>
+        <b>What outcomes matter most when you judge an investment decision two years later?</b>
+        <span class="d">Follow-on funding, team growth, survival, acquisitions, portfolio-level performance &mdash; we are not asking for weights, just which of these you actually look at.</span>
+      </li>
+      <li>
+        <b>Can we get a funding source with real coverage?</b>
+        <span class="d">SEC Form D reaches only 11 of our 240 companies. Crunchbase, or whatever source you use, would bring the most commercially meaningful outcome back into the test.</span>
+      </li>
+    </ol>
+  </section>
+
+  <footer>
+    Cohort dated 2024-03-25 &middot; decision point 2024-04-03/04 &middot; outcome cutoff 2026-04-04 &nbsp;&middot;&nbsp; figures as of commit 910a313
+  </footer>
+
+</div>
+
+<div id="tip" role="tooltip" aria-hidden="true"></div>
+
+<script>
+(function () {
+  var tip = document.getElementById("tip");
+  if (!tip) return;
+  var nodes = Array.prototype.slice.call(document.querySelectorAll(".node[data-tip]"));
+  var pinned = null;
+
+  function place(x, y) {
+    var pad = 14;
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    if (x + w > window.innerWidth - 8) x = x - w - pad * 2;
+    if (y + h > window.innerHeight - 8) y = y - h - pad * 2;
+    tip.style.left = Math.max(8, x + pad) + "px";
+    tip.style.top = Math.max(8, y + pad) + "px";
+  }
+
+  function atNode(n) {
+    var r = n.getBoundingClientRect();
+    return [r.left + r.width / 2, r.bottom];
+  }
+
+  function show(n, x, y) {
+    var t = n.getAttribute("data-tip");
+    if (!t) return;
+    tip.textContent = t;
+    tip.classList.add("on");
+    tip.setAttribute("aria-hidden", "false");
+    place(x, y);
+  }
+
+  function softHide() {
+    if (pinned) return;
+    tip.classList.remove("on");
+    tip.setAttribute("aria-hidden", "true");
+  }
+
+  function unpin() {
+    if (pinned) pinned.classList.remove("pinned");
+    pinned = null;
+    tip.classList.remove("on");
+    tip.setAttribute("aria-hidden", "true");
+  }
+
+  function toggle(n, x, y) {
+    if (pinned === n) { unpin(); return; }
+    if (pinned) pinned.classList.remove("pinned");
+    pinned = n;
+    n.classList.add("pinned");
+    if (x == null || (x === 0 && y === 0)) { var c = atNode(n); x = c[0]; y = c[1]; }
+    show(n, x, y);
+  }
+
+  nodes.forEach(function (n) {
+    n.setAttribute("tabindex", "0");
+    n.setAttribute("role", "button");
+
+    n.addEventListener("mouseenter", function (e) { if (!pinned) show(n, e.clientX, e.clientY); });
+    n.addEventListener("mousemove", function (e) { if (!pinned) place(e.clientX, e.clientY); });
+    n.addEventListener("mouseleave", softHide);
+
+    // click covers tap on touch devices
+    n.addEventListener("click", function (e) {
+      e.stopPropagation();
+      toggle(n, e.clientX, e.clientY);
+    });
+
+    n.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        e.preventDefault();
+        var c = atNode(n);
+        toggle(n, c[0], c[1]);
+      }
+    });
+    n.addEventListener("focus", function () { if (!pinned) { var c = atNode(n); show(n, c[0], c[1]); } });
+    n.addEventListener("blur", softHide);
+  });
+
+  document.addEventListener("click", function () { if (pinned) unpin(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") unpin(); });
+
+  // a pinned note is position:fixed, so follow its box when the page scrolls
+  window.addEventListener("scroll", function () {
+    if (!pinned) { softHide(); return; }
+    var r = pinned.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > window.innerHeight) { unpin(); return; }
+    var c = atNode(pinned);
+    place(c[0], c[1]);
+  }, { passive: true });
+})();
+</script>
+
+</body></html>

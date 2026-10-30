@@ -95,4 +95,5 @@ Y has been recorded for the 240-company cohort as **raw, separate dimensions**, 
 The 24-month horizon stays 2024-04-04 → 2026-04-04. It is not observable directly: yc-oss stopped updating for 86 days across the cutoff, so 8 companies are carried as an explicit `ENDPOINT_UNCERTAIN` set rather than resolved by assumption.
 
 Coverage and quality: [`docs/research_log/2026-10-29_raw_outcome_coverage.md`](docs/research_log/2026-10-29_raw_outcome_coverage.md)
+Sponsor update (open the file locally to view it rendered): [`docs/updates/W24_Historical_Backtest_Update.html`](docs/updates/W24_Historical_Backtest_Update.html)
 Decisions, corrections and uncertainty sets: [`docs/research_log/2026-10-29_y_methodology_decisions.md`](docs/research_log/2026-10-29_y_methodology_decisions.md)
