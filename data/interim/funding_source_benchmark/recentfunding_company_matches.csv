@@ -1,0 +1,241 @@
+﻿company_id,name_at_decision,current_name,sample_group,source,match_status,matched_slug,matched_website,match_note,events_in_window,first_event_date,cumulative_usd_in_window,events_with_amount,events_with_evidence_url,events_post_cutoff,events_pre_decision_or_undated
+abel,Abel,Abel,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Abel', none matching domains tryabel.com",0,,,0,0,0,0
+tuesday-labs,Adagy Robotics,Tuesday Labs,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,tuesday-labs,https://www.tuesdaylabs.com,yc roster slug,0,,,0,0,0,1
+aedilic,Aedilic,Aedilic,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+feldy,Aether Energy,Feldy,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,feldy,https://feldy.ai,yc roster slug,0,,,0,0,0,1
+RM-agenthub,AgentHub,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+agentic-labs-2,Agentic Labs,Agentic Labs,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,agentic-labs,https://agenticlabs.com,yc roster name 'Agentic Labs',0,,,0,0,0,1
+aidy,Aidy,Aidy,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,aidy,https://www.aidyhq.com,yc roster slug,0,,,0,0,0,1
+RM-airfront,Airfront,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+indemni,Alacrity,Indemni,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,indemni,https://www.indemni.com,yc roster slug,0,,,0,0,1,1
+alai,Alai,Alai,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,alai,https://getalai.com,yc roster slug,0,,,0,0,0,1
+deep24,Amber AI,Deep24,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,deep24,https://deep24.com,yc roster slug,0,,,0,0,0,1
+clarion,Anaphero,Clarion,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,clarion,https://clarionhealth.com,yc roster slug,0,,,0,0,1,1
+andy-ai,Andy AI,Andy AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,andy-ai,https://with-andy.com,yc roster slug,0,,,0,0,0,1
+alex-com,Apriora,Alex,renamed,recent_funding,FUNDING_EVENT_FOUND,alex,https://alex.com,yc roster name 'Alex',3,2024-05-15,39800000,3,3,0,1
+aqua-voice,Aqua Voice,Aqua Voice,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,aqua-voice,https://aquavoice.com,yc roster slug,0,,,0,0,0,1
+arcane,Arcane,Arcane,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Arcane' rejected: its domain rohanmehta.com is not arcanelabs.ai,0,,,0,0,0,0
+argon-ai-inc,"Argon AI, Inc.","Argon AI, Inc.",known_funded,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,argon-ai-inc,https://www.argon-ai.com,yc roster slug,0,,,0,0,0,1
+arini,Arini,Arini,no_evidence,recent_funding,FUNDING_EVENT_FOUND,arini,https://www.arini.ai,yc roster slug,1,2026-03-24,,0,1,0,1
+artisan,Artisan AI,Artisan,renamed,recent_funding,FUNDING_EVENT_FOUND,artisan,https://artisan.co,yc roster slug,2,2024-09-30,36500000,2,2,0,2
+artos,Artos,Artos,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,artos,https://www.artosai.com,yc roster slug,0,,,0,0,0,1
+RM-assembly-2,Assembly,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Assembly', none matching domains askassembly.app",0,,,0,0,0,0
+attunement,Attunement,Attunement,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,attunement,https://attunement.ai,yc roster slug,0,,,0,0,0,1
+basalt,Basalt Tech,Basalt,renamed,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Basalt' rejected: its domain basaltlabs.org is not basalt.space,0,,,0,0,0,0
+basepilot,Basepilot,Basepilot,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,basepilot,https://www.basepilot.com,yc roster slug,0,,,0,0,0,1
+betterbasket,BetterBasket,BetterBasket,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,betterbasket,https://www.betterbasket.com,yc roster slug,0,,,0,0,0,1
+bilanc,Bilanc,Bilanc,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,bilanc,https://www.bilanc.co,yc roster slug,0,,,0,0,0,1
+bitesight,BiteSight,BiteSight,no_evidence,recent_funding,FUNDING_EVENT_FOUND,bitesight,https://bitesight.com,yc roster slug,1,2025-07-15,,0,1,0,1
+blacksmith,Blacksmith,Blacksmith,no_evidence,recent_funding,FUNDING_EVENT_FOUND,blacksmith,https://blacksmith.sh,yc roster slug,2,2025-05-01,13500000,2,2,2,1
+blume-benefits,Blume Benefits,Blume Benefits,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Blume', none matching domains blumebenefits.com",0,,,0,0,0,0
+suretynow,BondCenter,SuretyNow,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,suretynow,https://suretynow.com,yc roster slug,0,,,0,0,0,1
+brainbase-labs,Brainbase,Brainbase Labs,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,brainbase-labs,https://brainbaselabs.com,yc roster slug,0,,,0,0,0,1
+browser-buddy,Browser Buddy,Browser Buddy,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Bitter' rejected: its domain bindwell.ai is not browserbuddy.com,0,,,0,0,0,0
+keystroke,Buster,Keystroke,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,keystroke,https://keystroke.ai,yc roster slug,0,,,0,0,0,1
+carma,Carma,Carma,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,carma,https://www.joincarma.com,yc roster slug,0,,,0,0,0,1
+carousel-technologies,Carousel Technologies,Carousel Technologies,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,carousel-technologies,https://usecarousel.com,yc roster slug,0,,,0,0,0,1
+celest,Celest,Celest,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Teo', none matching domains celest.dev",0,,,0,0,0,0
+centauri-ai,Centauri AI,Centauri AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,centauri-ai,https://centauri-ai.tech,yc roster slug,0,,,0,0,0,1
+centralize,Centralize,Centralize,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,centralize,https://www.usecentralize.com,yc roster slug,0,,,0,0,0,1
+circleback,Circleback,Circleback,no_evidence,recent_funding,FUNDING_EVENT_FOUND,circleback,https://circleback.ai,yc roster slug,1,2024-11-27,,0,1,0,1
+clarum,Clarum,Clarum,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,clarum,https://clarum.ai,yc roster slug,0,,,0,0,0,1
+cleva,Cleva,Cleva,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,cleva,https://www.getcleva.com,yc roster slug,0,,,0,0,0,2
+cloudcruise,CloudCruise,CloudCruise,no_evidence,recent_funding,FUNDING_EVENT_FOUND,cloudcruise,https://cloudcruise.com,yc roster slug,1,2026-03-22,,0,1,0,1
+cocrafter,CoCrafter,CoCrafter,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,cocrafter,https://cocrafter.com,yc roster slug,0,,,0,0,0,1
+codeant-ai,CodeAnt AI,CodeAnt AI,no_evidence,recent_funding,FUNDING_EVENT_FOUND,codeant-ai,https://codeant.ai,yc roster slug,1,2025-05-07,2000000,1,1,0,2
+commodityai,CommodityAI,CommodityAI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,commodityai,https://commodityai.io,yc roster slug,0,,,0,0,0,1
+adapted,Corefin,Adapted,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,adapted,https://adapted.app,yc roster slug,0,,,0,0,0,1
+toolify,Creo,Toolify,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,toolify,https://toolify.sh,"search 'Toolify', domain match",0,,,0,0,0,0
+crowdvolt,CrowdVolt,CrowdVolt,no_evidence,recent_funding,FUNDING_EVENT_FOUND,crowdvolt,https://crowdvolt.com,yc roster slug,2,2024-07-16,,0,2,0,1
+getcrux,Crux,GetCrux,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,getcrux,https://getcrux.ai,yc roster slug,0,,,0,0,0,1
+dgi-apparel,DGI Apparel,DGI Apparel,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+fractal-labs,DaLMatian,Fractal Labs,renamed,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+onyx,Danswer,Onyx,renamed,recent_funding,FUNDING_EVENT_FOUND,onyx-2,https://www.onyx.app,"search 'Onyx', domain match",1,2025-03-18,10000000,1,1,0,0
+datacurve,Datacurve,Datacurve,no_evidence,recent_funding,FUNDING_EVENT_FOUND,datacurve,http://datacurve.ai,yc roster slug,1,2025-10-09,15000000,1,1,0,1
+decipher-ai,Decipher AI,Decipher AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,decipher-ai,https://getdecipher.com,yc roster slug,0,,,0,0,0,1
+deepnight,DeepNight,Deepnight,no_evidence,recent_funding,FUNDING_EVENT_FOUND,deepnight,https://www.deepnight.com,yc roster slug,1,2025-02-27,5500000,1,1,0,1
+RM-delve,Delve,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+diana,DianaHR,Diana,renamed,recent_funding,FUNDING_EVENT_FOUND,diana,https://getdiana.com,yc roster slug,1,2025-09-15,,0,1,0,1
+dime-2,Dime,Dime,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,dime,https://www.dimehealth.ai,yc roster name 'Dime',0,,,0,0,0,1
+RM-double-2,Double,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Double', none matching domains double.finance",0,,,0,0,0,0
+draftaid,Draftaid,Draftaid,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,draftaid,https://draftaid.io,yc roster slug,0,,,0,0,0,1
+dragoneye,Dragoneye,Dragoneye,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,dragoneye,https://dragoneye.ai,yc roster slug,0,,,0,0,0,1
+driver,Driver AI,Driver,known_funded,recent_funding,FUNDING_EVENT_FOUND,driver,https://www.driver.ai,yc roster slug,1,2024-10-08,,0,1,0,1
+drymerge,DryMerge,DryMerge,no_evidence,recent_funding,FUNDING_EVENT_FOUND,drymerge,https://www.drymerge.com,yc roster slug,1,2024-09-16,2200000,1,1,0,1
+duckie,Duckie,Duckie,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,duckie,https://duckie.ai,yc roster slug,0,,,0,0,0,1
+ecliptor,Ecliptor,Ecliptor,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ecliptor,https://ecliptor.ai,yc roster slug,0,,,0,0,0,1
+eggnog,Eggnog,Eggnog,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,eggnog,https://www.eggnog.ai,yc roster slug,0,,,0,0,0,1
+ellipsis,Ellipsis,Ellipsis,no_evidence,recent_funding,FUNDING_EVENT_FOUND,ellipsis,https://ellipsis.dev,yc roster slug,1,2024-06-19,,0,1,0,1
+elodin,Elodin,Elodin,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,elodin,https://elodin.systems,yc roster slug,0,,,0,0,0,1
+eris-biotech,Eris Biotech,Eris Biotech,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,eris-biotech,https://www.erisbio.com,yc roster slug,0,,,0,0,0,1
+dropback,FanCave,Dropback,renamed,recent_funding,FUNDING_EVENT_FOUND,dropback,https://www.dropback.com,yc roster slug,1,2025-01-15,1600000,1,1,0,1
+firebender,Firebender,Firebender,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,firebender,https://firebender.com,yc roster slug,0,,,0,0,0,1
+fluently,Fluently,Fluently,no_evidence,recent_funding,FUNDING_EVENT_FOUND,fluently,https://getfluently.app,yc roster slug,1,2024-06-28,2000000,1,1,0,1
+focal,Focal,Focal,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Focal' rejected: its domain meetwithfocal.com is not focalml.com,0,,,0,0,0,0
+forge,Forge,Forge,no_evidence,recent_funding,FUNDING_EVENT_FOUND,forge,https://www.forgehq.com,yc roster slug,1,2025-05-31,,0,1,0,1
+forge-rewards,Forge Rewards,Forge Rewards,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,forge-rewards,https://www.joinforge.app,yc roster slug,0,,,0,0,0,1
+latted,Fume,Latted,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,latted,https://latted.com,yc roster slug,0,,,0,0,0,1
+garage-2,Garage,Garage,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Garage', none matching domains shopgarage.com,withgarage.com",0,,,0,0,0,0
+givefront,Givefront,Givefront,no_evidence,recent_funding,FUNDING_EVENT_FOUND,givefront,https://givefront.com,yc roster slug,1,2025-12-21,2000000,1,1,0,1
+glimmer,Glimmer,Glimmer,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Glimmer' rejected: its domain glimmer.io is not withglimmer.com,0,,,0,0,0,0
+polar,GoldenBasis,Polar,renamed,recent_funding,FUNDING_EVENT_FOUND,polar,https://www.polarfi.com,yc roster slug,1,2025-06-18,,0,1,0,1
+governgpt,GovernGPT,GovernGPT,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,governgpt,https://www.governgpt.com,yc roster slug,0,,,0,0,0,1
+granza-bio,Granza Bio,Granza Bio,no_evidence,recent_funding,FUNDING_EVENT_FOUND,granza-bio,https://www.granzabio.com,yc roster slug,1,2024-07-03,7000000,1,1,0,1
+greenboard,Greenboard,Greenboard,no_evidence,recent_funding,FUNDING_EVENT_FOUND,greenboard,https://www.greenboard.com,yc roster slug,1,2024-05-08,,0,1,1,1
+greptile,Greptile,Greptile,no_evidence,recent_funding,FUNDING_EVENT_FOUND,greptile,http://greptile.com,yc roster slug,3,2024-06-06,29000000,2,3,1,2
+guide-labs,Guide Labs,Guide Labs,known_funded,recent_funding,FUNDING_EVENT_FOUND,guide-labs,https://www.guidelabs.ai,yc roster slug,1,2025-12-08,9000000,1,1,0,1
+haplotype-labs,Haplotype Labs,Haplotype Labs,known_funded,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,haplotype-labs,https://www.haplotypelabs.com,yc roster slug,0,,,0,0,0,1
+hatchet-run,Hatchet,Hatchet,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,hatchet,https://hatchet.run,yc roster name 'Hatchet',0,,,0,0,0,1
+hazel-2,Hazel,Hazel,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"single candidate for 'Hazel' rejected: its domain hellohazel.com is not hazelai.com,hazeltech.ai",0,,,0,0,0,0
+healia,Healia,Healia,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,healia,https://www.healiahealth.com,yc roster slug,0,,,0,0,0,1
+heartbyte,HeartByte,HeartByte,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,heartbyte,https://www.storioai.com,yc roster slug,0,,,0,0,0,1
+newton,Hemingway,Newton,renamed,recent_funding,FUNDING_EVENT_FOUND,newton,https://joinnewton.com,yc roster slug,1,2025-10-22,3800000,1,1,0,1
+cora,HeyPurple,Cora,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,cora,https://www.corahealth.app,yc roster slug,0,,,0,0,0,1
+RM-hona-2,Hona,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Hona' rejected: its domain hona.com is not hona.ai,0,,,0,0,0,0
+conduit-ai,HostAI,Conduit,renamed,recent_funding,AMBIGUOUS_MATCH,,,"single candidate for 'Conduit' rejected: its domain conduit.inc is not conduit.ai,hostai.app",0,,,0,0,0,0
+inquery-2,InQuery,InQuery,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,inquery,https://www.inquery.ai,yc roster name 'InQuery',0,,,0,0,0,1
+infinity,Infinity,Infinity,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Infinity', none matching domains infinityapp.in",0,,,0,0,0,0
+lemonslice,Infinity AI,LemonSlice,renamed,recent_funding,FUNDING_EVENT_FOUND,lemonslice,https://www.lemonslice.com,yc roster slug,1,2025-12-23,,0,1,0,1
+inspectmind-ai,InspectMind AI,InspectMind AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,inspectmind-ai,https://www.inspectmind.ai,yc roster slug,0,,,0,0,0,2
+cpgscout,Intercept,Scout,renamed,recent_funding,AMBIGUOUS_MATCH,,,"5 candidates for 'Intercept', none matching domains cpgscout.ai,tryintercept.com",0,,,0,0,0,0
+junction-bioscience,Junction Bioscience,Junction Bioscience,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,junction-bioscience,https://www.junction.bio,yc roster slug,0,,,0,0,0,1
+kabilah,Kabilah,Kabilah,no_evidence,recent_funding,FUNDING_EVENT_FOUND,kabilah,https://www.kabilah.com,yc roster slug,1,2024-07-15,,0,1,0,1
+respan,Keywords AI,Respan,renamed,recent_funding,FUNDING_EVENT_FOUND,respan,https://respan.ai,yc roster slug,1,2026-03-18,5000000,1,1,0,1
+parallel,Kiosk,Parallel,known_funded,recent_funding,FUNDING_EVENT_FOUND,parallel,https://www.beparallel.com,yc roster slug,1,2026-03-18,20000000,1,1,0,1
+voxops-ai,Konstructly,VoxOps AI,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,voxops-ai,https://www.voxopsai.com,yc roster slug,0,,,0,0,0,1
+aftercare,Kontractify,Aftercare,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,aftercare,https://getaftercare.com,yc roster slug,0,,,0,0,0,1
+lantern-2,Lantern,Lantern,unchanged,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Lantern' rejected: its domain lanternhq.com is not lantern.dev,0,,,0,0,0,0
+leaping,Leaping,Leaping,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,leaping,https://www.leaping.io,yc roster slug,0,,,0,0,0,1
+legora,Leya,Legora,known_funded,recent_funding,FUNDING_EVENT_FOUND,legora,http://www.legora.com,yc roster slug,5,2024-05-16,805000000,4,5,1,1
+lucite,Lucite,Lucite,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+RM-lumina-2,Lumina,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Lumina', none matching domains lumina-chat.com",0,,,0,0,0,0
+lumona,Lumona,Lumona,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Scout', none matching domains lumona.ai",0,,,0,0,0,0
+RM-maihem,MAIHEM,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+magic-hour,Magic Hour,Magic Hour,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,magic-hour,https://magichour.ai,yc roster slug,0,,,0,0,0,1
+maia,Maia,Maia,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Maia' rejected: its domain maia.care is not ourmaia.com,0,,,0,0,0,0
+mango-health,Mango Health,Mango Health,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"single candidate for 'Mango Health' rejected: its domain mangomedical.io is not themangohealth.com,try-mango.com",0,,,0,0,0,0
+manifold-freight,Manifold Freight,Manifold Freight,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,manifold-freight,https://www.manifoldfreight.com,yc roster slug,0,,,0,0,0,1
+marblism,Marblism,Marblism,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,marblism,https://marblism.com,yc roster slug,0,,,0,0,0,1
+gloglo,Markprompt,GloGlo,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,gloglo,https://gloglo.com,yc roster slug,0,,,0,0,0,1
+marr-labs,Marr Labs,Marr Labs,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,marr-labs,https://www.marrlabs.com,yc roster slug,0,,,0,0,0,1
+breez-labs,MathDash,Breez Labs,renamed,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Breez', none matching domains breezlabs.com,mathdash.live",0,,,0,0,0,0
+meticulate,Meticulate,Meticulate,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,meticulate,https://meticulate.ai,yc roster slug,0,,,0,0,0,1
+metofico,Metofico,Metofico,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,metofico,https://metofico.com,yc roster slug,0,,,0,0,0,1
+miden,Miden,Miden,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,miden,https://www.miden.co,yc roster slug,0,,,0,0,0,1
+million,Million.js,Million,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,million,https://million.dev,yc roster slug,0,,,0,0,1,1
+model-ml,Model ML,Model ML,no_evidence,recent_funding,FUNDING_EVENT_FOUND,model-ml,https://www.modelml.com,yc roster slug,1,2025-11-24,75000000,1,1,0,1
+momentic,Momentic,Momentic,known_funded,recent_funding,FUNDING_EVENT_FOUND,momentic,https://momentic.ai,yc roster slug,2,2025-03-04,18700000,2,2,0,2
+navier-ai,NavierAI,Navier AI,renamed,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+RM-nowhouse,NowHouse,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+nuanced,"Nuanced, Inc.",Nuanced,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,nuanced,https://www.nuanced.dev,yc roster slug,0,,,0,0,0,1
+the-new-money-company,Numo,The New Money Company,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,the-new-money-company,https://newmoneycompany.com,yc roster slug,0,,,0,0,0,1
+octolane-ai,Octolane AI,Octolane AI,no_evidence,recent_funding,FUNDING_EVENT_FOUND,octolane-ai,https://www.octolane.com,yc roster slug,1,2025-04-14,2600000,1,1,1,1
+ocular-ai,Ocular AI,Ocular AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ocular-ai,https://useocular.com,yc roster slug,0,,,0,0,1,1
+oddsview,OddsView,OddsView,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,oddsview,https://oddsview.com,yc roster slug,0,,,0,0,0,1
+offdeal,OffDeal,OffDeal,no_evidence,recent_funding,FUNDING_EVENT_FOUND,offdeal,https://offdeal.io,yc roster slug,1,2025-07-29,12000000,1,1,0,1
+tesseral,Okapi,Tesseral,renamed,recent_funding,FUNDING_EVENT_FOUND,tesseral,,"search 'Tesseral', single candidate",1,2025-05-06,3000000,1,1,0,0
+oma-care,Oma Care,Oma Care,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,oma-care,https://www.omacare.com,yc roster slug,0,,,0,0,0,1
+monumint,OmniAI,Monumint,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,monumint,https://monumint.com,yc roster slug,0,,,0,0,0,1
+onegrep,OneGrep,OneGrep,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,onegrep,,yc roster slug,0,,,0,0,0,1
+fileforge,Onedoc,Fileforge,renamed,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+open,OpenCopilot,Open,renamed,recent_funding,FUNDING_EVENT_FOUND,open,https://open.cx,yc roster slug,1,2025-01-12,1520000,1,1,0,1
+overheard,OpenFoundry,Overheard,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,openfoundry,https://www.openfoundry.ai,yc roster name 'OpenFoundry',0,,,0,0,0,1
+opencall,Opencall.ai,Opencall,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,opencall,https://opencall.ai,yc roster slug,0,,,0,0,0,1
+openmart,Openmart,Openmart,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,openmart,https://www.openmart.com,yc roster slug,0,,,0,0,0,1
+paradigm,Paradigm,Paradigm,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,paradigm,https://www.paradigmai.com,yc roster slug,0,,,0,0,0,1
+engines,Parasale,Engines,renamed,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Engines', none matching domains engines.dev,parasale.io",0,,,0,0,0,0
+parcelbio,ParcelBio,ParcelBio,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,parcelbio,https://parcelbio.com,yc roster slug,0,,,0,0,1,1
+partnerhq,PartnerHQ,PartnerHQ,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,partnerhq,https://trypartnerhq.com,yc roster slug,0,,,0,0,0,1
+patchwork,Patchwork,Patchwork,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+piramidal,Piramidal,Piramidal,no_evidence,recent_funding,FUNDING_EVENT_FOUND,piramidal,https://piramidal.ai,yc roster slug,1,2024-08-29,,0,1,0,1
+pivot-robotics,Pivot Robots,Pivot Robotics,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,pivot-robotics,https://pivotrobotics.com,yc roster slug,0,,,0,0,0,1
+lumetric,PocketPod,Lumetric,renamed,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Luminate', none matching domains lumetric.ai,pocketpod.app",0,,,0,0,0,0
+pointone,PointOne,PointOne,no_evidence,recent_funding,FUNDING_EVENT_FOUND,pointone,https://pointone.com,yc roster slug,2,2024-07-10,19500000,2,2,0,1
+powder,Powder,Powder,no_evidence,recent_funding,FUNDING_EVENT_FOUND,powder,https://www.powderfi.com,yc roster slug,1,2024-07-22,,0,1,0,2
+precip,Precip,Precip,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,precip,https://precip.ai,yc roster slug,0,,,0,0,0,1
+preloop,Preloop,Preloop,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+pretzel-ai,Pretzel AI,Pretzel AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,pretzel-ai,https://withpretzel.com,yc roster slug,0,,,0,0,0,1
+prosights,ProSights,ProSights,no_evidence,recent_funding,FUNDING_EVENT_FOUND,prosights,https://prosights.co,yc roster slug,1,2025-09-13,,0,1,0,1
+promptarmor,PromptArmor,PromptArmor,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,promptarmor,https://promptarmor.com,yc roster slug,0,,,0,0,0,1
+pazi,Pythagora (GPT Pilot),Pazi,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,pazi,https://pazi.ai,yc roster slug,0,,,0,0,0,1
+RM-quantic,Quantic,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"2 candidates for 'Quantic', none matching domains quantichq.com",0,,,0,0,0,0
+quary,Quary,Quary,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+quivr,Quivr,Quivr,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,quivr,https://www.quivr.app,yc roster slug,0,,,0,0,0,1
+radmate-ai,RadMate AI,RadMate AI,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+vibrant-labs,Ragas,Vibrant Labs,renamed,recent_funding,FUNDING_EVENT_FOUND,vibrant-labs,https://vibrantlabs.com,yc roster slug,1,2025-12-02,,0,1,0,1
+reducto,Reducto,Reducto,no_evidence,recent_funding,FUNDING_EVENT_FOUND,reducto,https://reducto.ai,yc roster slug,3,2024-10-02,107900000,3,3,0,1
+reform,Reform,Reform,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,reform,https://www.reformhq.com,yc roster slug,0,,,0,0,0,1
+relari,Relari,Relari,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,relari,https://www.relari.ai,yc roster slug,0,,,0,0,0,1
+reprompt,Reprompt,Reprompt,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,reprompt,https://repromptai.com,yc roster slug,0,,,0,0,0,1
+resonance,Resonance,Resonance,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Resonance' rejected: its domain getresonance.net is not useresonance.com,0,,,0,0,0,0
+retailready,RetailReady,RetailReady,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,retailready,https://www.retailreadyai.com,yc roster slug,0,,,0,0,0,1
+retell-ai,Retell AI,Retell AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,retell-ai,https://retellai.com,yc roster slug,0,,,0,0,0,1
+risotto,Risotto,Risotto,no_evidence,recent_funding,FUNDING_EVENT_FOUND,risotto,https://www.tryrisotto.com,yc roster slug,1,2026-01-27,10000000,1,1,0,2
+roe,Roe AI,ROE,renamed,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Roe AI', none matching domains getroe.ai",0,,,0,0,0,0
+rove,Rove,Rove,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,rove,https://rove.com,yc roster slug,0,,,0,0,0,1
+salvy,Salvy,Salvy,no_evidence,recent_funding,FUNDING_EVENT_FOUND,salvy,https://www.salvy.com.br,yc roster slug,1,2024-05-15,,0,1,0,1
+event-horizon-labs,SciPhi,Event Horizon Labs,renamed,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+scritch,Scritch,Scritch,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,scritch,https://www.scritchai.com,yc roster slug,0,,,0,0,0,1
+selera-medical,Selera Medical,Selera Medical,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+senso,Senso,Senso,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,senso,https://www.senso.ai,yc roster slug,0,,,0,0,0,1
+RM-sevnai,SevnAI,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+shepherd-2,Shepherd,Shepherd,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Shepherd' rejected: its domain shepherdinsurance.com is not shepherd.study,0,,,0,0,0,0
+shiboleth,Shiboleth,Shiboleth,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,shiboleth,https://www.shiboleth.ai,yc roster slug,0,,,0,0,0,1
+silogy,SiLogy,Silogy,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,silogy,https://silogy.io,yc roster slug,0,,,0,0,0,1
+RM-skygaze,Skygaze,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+penciled,Somn,Penciled,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,penciled,https://penciled.com,yc roster slug,0,,,0,0,0,1
+treblo,Sonauto,Treblo,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,treblo,https://treblo.com,yc roster slug,0,,,0,0,0,1
+sonia,Sonia,Sonia,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,sonia,https://soniahealth.com,yc roster slug,0,,,0,0,0,1
+soundry-ai,Soundry AI,Soundry AI,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+solari-ai,SpareChange,Solari AI,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,solari-ai,https://www.usesolari.ai,yc roster slug,0,,,0,0,0,1
+spark,Spark,Spark,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Spark', none matching domains sparkhq.ai",0,,,0,0,0,0
+speck,Speck,Speck,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"single candidate for 'Speck' rejected: its domain speckle.systems is not speck.sh,speck.bot",0,,,0,0,0,0
+stacksync,Stacksync,Stacksync,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,stacksync,https://www.stacksync.com,yc roster slug,0,,,0,0,0,1
+averyiq,Starlight Charging,AveryIQ,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,averyiq,https://averyiq.com,yc roster slug,0,,,0,0,0,1
+stitch-technologies,Stitch Technologies,Stitch Technologies,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+superagent,Superagent.sh,Superagent,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,superagent,https://superagent.sh,yc roster slug,0,,,0,0,0,1
+consul,Swift,Consul,renamed,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Swift', none matching domains onconsul.com,joinswift.app",0,,,0,0,0,0
+synsorybio,SynsoryBio,SynsoryBio,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,synsorybio,https://www.synsorybio.com,yc roster slug,0,,,0,0,0,1
+integuru,Taiki,Integuru,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,integuru,https://www.integuru.com,yc roster slug,0,,,0,0,0,1
+tamarind-bio,Tamarind Bio,Tamarind Bio,known_funded,recent_funding,FUNDING_EVENT_FOUND,tamarind-bio,https://www.tamarind.bio,yc roster slug,1,2026-02-24,13600000,1,1,0,1
+RM-tatara,Tatara,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+RM-tensorfuse,Tensorfuse,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+terrakotta,Terrakotta,Terrakotta,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,terrakotta,https://www.terrakotta.ai,yc roster slug,0,,,0,0,0,1
+RM-tile,Tile,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'Tile', none matching domains tile.sh",0,,,0,0,0,0
+RM-titan-2,Titan,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'Titan' rejected: its domain titan.exchange is not applytitan.com,0,,,0,0,0,0
+toma,Toma,Toma,no_evidence,recent_funding,FUNDING_EVENT_FOUND,toma,https://www.toma.com,yc roster slug,1,2025-06-05,17000000,1,1,0,1
+topo,Topo AI,Topo,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,topo,https://www.topo.io,yc roster slug,0,,,0,0,0,1
+tracecat,Tracecat,Tracecat,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,tracecat,https://tracecat.com,yc roster slug,0,,,0,0,0,1
+RM-trellis,Trellis,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"6 candidates for 'Trellis', none matching domains usetrellis.co",0,,,0,0,0,0
+trieve,Trieve,Trieve,known_funded,recent_funding,AMBIGUOUS_MATCH,,,"8 candidates for 'Trieve', none matching domains trieve.ai",0,,,0,0,0,0
+trueclaim,TrueClaim,TrueClaim,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'TrueClaim' rejected: its domain trueclaim.ai is not trytrueclaim.com,0,,,0,0,0,0
+tusk,Tusk,Tusk,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"6 candidates for 'Tusk', none matching domains usetusk.ai",0,,,0,0,0,0
+ubicloud,Ubicloud,Ubicloud,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ubicloud,https://www.ubicloud.com,yc roster slug,0,,,0,0,0,2
+upsolve-ai,Upsolve AI,Upsolve AI,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+andon-labs,Vectorview,Andon Labs,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,andon-labs,http://andonlabs.com/,yc roster slug,0,,,0,0,1,1
+veles,Veles,Veles,known_funded,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,veles,https://www.getveles.com,yc roster slug,0,,,0,0,0,1
+velorum-therapeutics,Velorum Therapeutics,Velorum Therapeutics,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,velorum-therapeutics,https://www.velorumtx.com,yc roster slug,0,,,0,0,0,1
+vista-power,Vista Space,Vista Power,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,vista-power,https://vistapower.com,yc roster slug,0,,,0,0,0,1
+voicepanel,Voicepanel,Voicepanel,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,voicepanel,https://voicepanel.com,yc roster slug,0,,,0,0,0,1
+wuri,Wuri,Wuri,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+yarn-2,Yarn,Yarn,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,yarn,https://www.yarn.so,yc roster name 'Yarn',0,,,0,0,0,1
+yenmo,Yenmo,Yenmo,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,yenmo,https://yenmo.in,yc roster slug,0,,,0,0,0,1
+yondu,Yondu,Yondu,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,yondu,https://yondu.ai,yc roster slug,0,,,0,0,0,1
+yoneda-labs,Yoneda Labs,Yoneda Labs,no_evidence,recent_funding,FUNDING_EVENT_FOUND,yoneda-labs,https://www.yonedalabs.com,yc roster slug,1,2024-04-26,4000000,1,1,0,1
+zaymo,Zaymo,Zaymo,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,zaymo,https://zaymo.com,yc roster slug,0,,,0,0,0,2
+zep-ai,Zep AI,Zep AI,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,zep-ai,https://www.getzep.com,yc roster slug,0,,,0,0,0,1
+atopile,atopile,atopile,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,atopile,https://atopile.io,yc roster slug,0,,,0,0,0,1
+camelai,camelQA,camelAI,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,camelai,https://camelai.com,yc roster slug,0,,,0,0,0,1
+RM-dawn,dawn,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"10 candidates for 'dawn', none matching domains dawnai.com",0,,,0,0,0,0
+edgetrace,edgetrace,EdgeTrace,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,edgetrace,https://edgetrace.ai,yc roster slug,0,,,0,0,0,1
+ego,ego,ego,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ego,https://egoai.com,yc roster slug,0,,,0,0,0,1
+ion-design,ion design,ion design,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ion-design,https://www.ion.design,yc roster slug,0,,,0,0,0,1
+RM-just-words,just words,,left_directory,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+kater-ai,kater.ai,kater.ai,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,kater-ai,https://www.kater.ai,yc roster slug,0,,,0,0,0,1
+malibou,malibou,malibou,known_funded,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,malibou,https://www.malibou.com,yc roster slug,0,,,0,0,0,1
+ncompass-technologies,nCompass Technologies,nCompass Technologies,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,ncompass-technologies,https://www.ncompass.tech,yc roster slug,0,,,0,0,0,1
+nanocorp,phospho,NanoCorp,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,nanocorp,https://nanocorp.so,yc roster slug,0,,,0,0,1,1
+renderlet,renderlet,renderlet,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,renderlet,https://renderlet.com,yc roster slug,0,,,0,0,0,1
+sync-2,sync labs,sync.,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,sync,https://sync.so,yc roster name 'sync.',0,,,0,0,0,2
+thorntale,thorntale,Thorntale,no_evidence,recent_funding,COMPANY_NOT_FOUND,,,,0,,,0,0,0,0
+xpay,xPay,xPay,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,xpay,https://www.xpaycheckout.com,yc roster slug,0,,,0,0,0,1

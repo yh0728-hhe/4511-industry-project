@@ -1,0 +1,23 @@
+﻿company_id,name_at_decision,current_name,former_names,domain_at_decision,current_domain,renamed,in_yc_directory,query_domains,query_names,sample_group
+abel,Abel,Abel,,tryabel.com,tryabel.com,NO,YES,tryabel.com,Abel,no_evidence
+tuesday-labs,Adagy Robotics,Tuesday Labs,Adagy Robotics|Tuesday Lab,adagyrobotics.com,tuesdaylabs.com,YES,YES,tuesdaylabs.com|adagyrobotics.com,Tuesday Labs|Adagy Robotics|Tuesday Lab,renamed
+aedilic,Aedilic,Aedilic,speak&find,aedilic.com,nonescape.com,NO,YES,nonescape.com|aedilic.com,Aedilic|speak&find,no_evidence
+feldy,Aether Energy,Feldy,Aether Energy|Aether,aetherenergie.com,feldy.ai,YES,YES,feldy.ai|aetherenergie.com,Feldy|Aether Energy|Aether,renamed
+RM-agenthub,AgentHub,,,agenthub.dev,,NO,NO,agenthub.dev,AgentHub,left_directory
+agentic-labs-2,Agentic Labs,Agentic Labs,,agenticlabs.com,agenticlabs.com,NO,YES,agenticlabs.com,Agentic Labs,no_evidence
+aidy,Aidy,Aidy,,aidygrants.com,aidyhq.com,NO,YES,aidyhq.com|aidygrants.com,Aidy,no_evidence
+RM-airfront,Airfront,,,airfront.com,,NO,NO,airfront.com,Airfront,left_directory
+indemni,Alacrity,Indemni,Alacrity,joinalacrity.com,indemni.com,YES,YES,indemni.com|joinalacrity.com,Indemni|Alacrity,renamed
+deep24,Amber AI,Deep24,Versify|Amber AI|Ultra,helloamber.ai,deep24.com,YES,YES,deep24.com|helloamber.ai,Deep24|Amber AI|Versify|Ultra,renamed
+clarion,Anaphero,Clarion,Anaphero,anaphero.com,clarionhealth.com,YES,YES,clarionhealth.com|anaphero.com,Clarion|Anaphero,renamed
+alex-com,Apriora,Alex,Apriora,apriora.ai,alex.com,YES,YES,alex.com|apriora.ai,Alex|Apriora,renamed
+argon-ai-inc,"Argon AI, Inc.","Argon AI, Inc.",Incyte Bio|Inc.,argon-ai.com,argon-ai.com,NO,YES,argon-ai.com,"Argon AI, Inc.|Incyte Bio",known_funded
+RM-assembly-2,Assembly,,,askassembly.app,,NO,NO,askassembly.app,Assembly,left_directory
+RM-delve,Delve,,,getdelve.com,,NO,NO,getdelve.com,Delve,left_directory
+driver,Driver AI,Driver,Driver AI,driverai.com,driver.ai,YES,YES,driver.ai|driverai.com,Driver|Driver AI,known_funded
+guide-labs,Guide Labs,Guide Labs,Guide Labs Inc,guidelabs.ai,guidelabs.ai,NO,YES,guidelabs.ai,Guide Labs,known_funded
+haplotype-labs,Haplotype Labs,Haplotype Labs,,haplotypelabs.com,haplotypelabs.com,NO,YES,haplotypelabs.com,Haplotype Labs,known_funded
+parallel,Kiosk,Parallel,Kiosk,kiosk.so,beparallel.com,YES,YES,beparallel.com|kiosk.so,Parallel|Kiosk,known_funded
+lantern-2,Lantern,Lantern,,lantern.dev,lantern.dev,NO,YES,lantern.dev,Lantern,unchanged
+legora,Leya,Legora,Leya|Legora|Legora (formerly Leya),leya.law,legora.com,YES,YES,legora.com|leya.law,Legora|Leya|Legora (formerly Leya),known_funded
+momentic,Momentic,Momentic,Screenwriter,momentic.ai,momentic.ai,NO,YES,momentic.ai,Momentic|Screenwriter,known_funded

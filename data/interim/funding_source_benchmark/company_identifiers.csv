@@ -1,0 +1,241 @@
+﻿company_id,name_at_decision,current_name,former_names,domain_at_decision,current_domain,renamed,in_yc_directory,query_domains,query_names,sample_group
+abel,Abel,Abel,,tryabel.com,tryabel.com,NO,YES,tryabel.com,Abel,no_evidence
+tuesday-labs,Adagy Robotics,Tuesday Labs,Adagy Robotics|Tuesday Lab,adagyrobotics.com,tuesdaylabs.com,YES,YES,tuesdaylabs.com|adagyrobotics.com,Tuesday Labs|Adagy Robotics|Tuesday Lab,renamed
+aedilic,Aedilic,Aedilic,speak&find,aedilic.com,nonescape.com,NO,YES,nonescape.com|aedilic.com,Aedilic|speak&find,no_evidence
+feldy,Aether Energy,Feldy,Aether Energy|Aether,aetherenergie.com,feldy.ai,YES,YES,feldy.ai|aetherenergie.com,Feldy|Aether Energy|Aether,renamed
+RM-agenthub,AgentHub,,,agenthub.dev,,NO,NO,agenthub.dev,AgentHub,left_directory
+agentic-labs-2,Agentic Labs,Agentic Labs,,agenticlabs.com,agenticlabs.com,NO,YES,agenticlabs.com,Agentic Labs,no_evidence
+aidy,Aidy,Aidy,,aidygrants.com,aidyhq.com,NO,YES,aidyhq.com|aidygrants.com,Aidy,no_evidence
+RM-airfront,Airfront,,,airfront.com,,NO,NO,airfront.com,Airfront,left_directory
+indemni,Alacrity,Indemni,Alacrity,joinalacrity.com,indemni.com,YES,YES,indemni.com|joinalacrity.com,Indemni|Alacrity,renamed
+alai,Alai,Alai,Speakwell AI|alai,getalai.com,getalai.com,NO,YES,getalai.com,Alai|Speakwell AI,no_evidence
+deep24,Amber AI,Deep24,Versify|Amber AI|Ultra,helloamber.ai,deep24.com,YES,YES,deep24.com|helloamber.ai,Deep24|Amber AI|Versify|Ultra,renamed
+clarion,Anaphero,Clarion,Anaphero,anaphero.com,clarionhealth.com,YES,YES,clarionhealth.com|anaphero.com,Clarion|Anaphero,renamed
+andy-ai,Andy AI,Andy AI,,with-andy.com,with-andy.com,NO,YES,with-andy.com,Andy AI,no_evidence
+alex-com,Apriora,Alex,Apriora,apriora.ai,alex.com,YES,YES,alex.com|apriora.ai,Alex|Apriora,renamed
+aqua-voice,Aqua Voice,Aqua Voice,Aqua AI,withaqua.com,aquavoice.com,NO,YES,aquavoice.com|withaqua.com,Aqua Voice|Aqua AI,no_evidence
+arcane,Arcane,Arcane,Summoner AI|Arcane AI,arcanelabs.ai,,NO,YES,arcanelabs.ai,Arcane|Summoner AI|Arcane AI,no_evidence
+argon-ai-inc,"Argon AI, Inc.","Argon AI, Inc.",Incyte Bio|Inc.,argon-ai.com,argon-ai.com,NO,YES,argon-ai.com,"Argon AI, Inc.|Incyte Bio",known_funded
+arini,Arini,Arini,HireAI,arini.ai,arini.ai,NO,YES,arini.ai,Arini|HireAI,no_evidence
+artisan,Artisan AI,Artisan,Artisan AI,artisan.co,artisan.co,YES,YES,artisan.co,Artisan|Artisan AI,renamed
+artos,Artos,Artos,Talos,artosai.com,artosai.com,NO,YES,artosai.com,Artos|Talos,no_evidence
+RM-assembly-2,Assembly,,,askassembly.app,,NO,NO,askassembly.app,Assembly,left_directory
+attunement,Attunement,Attunement,Attunement.ai,attunement.ai,attunement.ai,NO,YES,attunement.ai,Attunement|Attunement.ai,no_evidence
+basalt,Basalt Tech,Basalt,Basalt Tech,basalt.space,basalt.space,YES,YES,basalt.space,Basalt|Basalt Tech,renamed
+basepilot,Basepilot,Basepilot,Nexus,basepilot.com,basepilot.com,NO,YES,basepilot.com,Basepilot|Nexus,no_evidence
+betterbasket,BetterBasket,BetterBasket,,betterbasket.ai,betterbasket.com,NO,YES,betterbasket.com|betterbasket.ai,BetterBasket,no_evidence
+bilanc,Bilanc,Bilanc,,bilanc.co,bilanc.co,NO,YES,bilanc.co,Bilanc,no_evidence
+bitesight,BiteSight,BiteSight,,flowcode.com,bitesight.com,NO,YES,bitesight.com|flowcode.com,BiteSight,no_evidence
+blacksmith,Blacksmith,Blacksmith,,blacksmith.sh,blacksmith.sh,NO,YES,blacksmith.sh,Blacksmith,no_evidence
+blume-benefits,Blume Benefits,Blume Benefits,Blitz AI|Blume,blumebenefits.com,blumebenefits.com,NO,YES,blumebenefits.com,Blume Benefits|Blitz AI|Blume,no_evidence
+suretynow,BondCenter,SuretyNow,SuretyNow|BondCenter,bondcenter.com,suretynow.com,YES,YES,suretynow.com|bondcenter.com,SuretyNow|BondCenter,renamed
+brainbase-labs,Brainbase,Brainbase Labs,Brainbase,usebrainbase.xyz,brainbaselabs.com,YES,YES,brainbaselabs.com|usebrainbase.xyz,Brainbase Labs|Brainbase,renamed
+browser-buddy,Browser Buddy,Browser Buddy,Recipe|Browser Buddy|People Net|Bitter,browserbuddy.com,browserbuddy.com,NO,YES,browserbuddy.com,Browser Buddy|Recipe|People Net|Bitter,no_evidence
+keystroke,Buster,Keystroke,Buster,buster.so,keystroke.ai,YES,YES,keystroke.ai|buster.so,Keystroke|Buster,renamed
+carma,Carma,Carma,,joincarma.com,joincarma.com,NO,YES,joincarma.com,Carma,no_evidence
+carousel-technologies,Carousel Technologies,Carousel Technologies,,carouseltech.io,usecarousel.com,NO,YES,usecarousel.com|carouseltech.io,Carousel Technologies,no_evidence
+celest,Celest,Celest,Teo,celest.dev,celest.dev,NO,YES,celest.dev,Celest|Teo,no_evidence
+centauri-ai,Centauri AI,Centauri AI,,centauri-ai.tech,centauri-ai.tech,NO,YES,centauri-ai.tech,Centauri AI,no_evidence
+centralize,Centralize,Centralize,Sage|Collate,usecentralize.com,usecentralize.com,NO,YES,usecentralize.com,Centralize|Sage|Collate,no_evidence
+circleback,Circleback,Circleback,,circleback.ai,circleback.ai,NO,YES,circleback.ai,Circleback,no_evidence
+clarum,Clarum,Clarum,Over1,clarum.ai,clarum.ai,NO,YES,clarum.ai,Clarum|Over1,no_evidence
+cleva,Cleva,Cleva,,getcleva.com,getcleva.com,NO,YES,getcleva.com,Cleva,no_evidence
+cloudcruise,CloudCruise,CloudCruise,,cloudcruise.com,cloudcruise.com,NO,YES,cloudcruise.com,CloudCruise,no_evidence
+cocrafter,CoCrafter,CoCrafter,Cocrafter,cocrafter.com,cocrafter.com,NO,YES,cocrafter.com,CoCrafter,no_evidence
+codeant-ai,CodeAnt AI,CodeAnt AI,,codeant.ai,codeant.ai,NO,YES,codeant.ai,CodeAnt AI,no_evidence
+commodityai,CommodityAI,CommodityAI,,commodityai.io,commodityai.io,NO,YES,commodityai.io,CommodityAI,no_evidence
+adapted,Corefin,Adapted,Chirp|Convey|Corefin|Stackgrant|For Effect|ForEffect|Pernell,corefin.com,adapted.app,YES,YES,adapted.app|corefin.com,Adapted|Corefin|Chirp|Convey|Stackgrant|For Effect|ForEffect|Pernell,renamed
+toolify,Creo,Toolify,Creo,trycreo.com,toolify.sh,YES,YES,toolify.sh|trycreo.com,Toolify|Creo,renamed
+crowdvolt,CrowdVolt,CrowdVolt,Mirage Match,crowdvolt.com,crowdvolt.com,NO,YES,crowdvolt.com,CrowdVolt|Mirage Match,no_evidence
+getcrux,Crux,GetCrux,Crux|getcrux,getcrux.ai,getcrux.ai,YES,YES,getcrux.ai,GetCrux|Crux,renamed
+dgi-apparel,DGI Apparel,DGI Apparel,,dgiapparel.com,dgiapparel.com,NO,YES,dgiapparel.com,DGI Apparel,no_evidence
+fractal-labs,DaLMatian,Fractal Labs,DaLMatian.ai|DaLMatian,dalmatian.ai,fractal-labs.gg,YES,YES,fractal-labs.gg|dalmatian.ai,Fractal Labs|DaLMatian|DaLMatian.ai,renamed
+onyx,Danswer,Onyx,Danswer,danswer.ai,onyx.app,YES,YES,onyx.app|danswer.ai,Onyx|Danswer,renamed
+datacurve,Datacurve,Datacurve,Uncle GPT|Shipd,datacurve.ai,datacurve.ai,NO,YES,datacurve.ai,Datacurve|Uncle GPT|Shipd,no_evidence
+decipher-ai,Decipher AI,Decipher AI,,getdecipher.com,getdecipher.com,NO,YES,getdecipher.com,Decipher AI,no_evidence
+deepnight,DeepNight,Deepnight,DeepNight,deepnight.ai,deepnight.com,NO,YES,deepnight.com|deepnight.ai,Deepnight,no_evidence
+RM-delve,Delve,,,getdelve.com,,NO,NO,getdelve.com,Delve,left_directory
+diana,DianaHR,Diana,DianaHR,dianahr.ai,getdiana.com,YES,YES,getdiana.com|dianahr.ai,Diana|DianaHR,renamed
+dime-2,Dime,Dime,DIME|dime,getdime.io,dimehealth.ai,NO,YES,dimehealth.ai|getdime.io,Dime,no_evidence
+RM-double-2,Double,,,double.finance,,NO,NO,double.finance,Double,left_directory
+draftaid,Draftaid,Draftaid,,draftaid.io,draftaid.io,NO,YES,draftaid.io,Draftaid,no_evidence
+dragoneye,Dragoneye,Dragoneye,,dragoneye.ai,dragoneye.ai,NO,YES,dragoneye.ai,Dragoneye,no_evidence
+driver,Driver AI,Driver,Driver AI,driverai.com,driver.ai,YES,YES,driver.ai|driverai.com,Driver|Driver AI,known_funded
+drymerge,DryMerge,DryMerge,,drymerge.com,drymerge.com,NO,YES,drymerge.com,DryMerge,no_evidence
+duckie,Duckie,Duckie,Duckie AI (formerly Musa AI)|Duckie AI,duckie.ai,duckie.ai,NO,YES,duckie.ai,Duckie|Duckie AI (formerly Musa AI)|Duckie AI,no_evidence
+ecliptor,Ecliptor,Ecliptor,Hatchet,ecliptor.ai,ecliptor.ai,NO,YES,ecliptor.ai,Ecliptor|Hatchet,no_evidence
+eggnog,Eggnog,Eggnog,Fielder,eggnog.ai,eggnog.ai,NO,YES,eggnog.ai,Eggnog|Fielder,no_evidence
+ellipsis,Ellipsis,Ellipsis,BitBuilder|Ellipsis|ellipsis,ellipsis.dev,ellipsis.dev,NO,YES,ellipsis.dev,Ellipsis|BitBuilder,no_evidence
+elodin,Elodin,Elodin,Elodin Systems|Inc|Elodin|Elodin Systems,elodin.systems,elodin.systems,NO,YES,elodin.systems,Elodin|Elodin Systems,no_evidence
+eris-biotech,Eris Biotech,Eris Biotech,,erisbio.com,erisbio.com,NO,YES,erisbio.com,Eris Biotech,no_evidence
+dropback,FanCave,Dropback,FanCave,fancave.me,dropback.com,YES,YES,dropback.com|fancave.me,Dropback|FanCave,renamed
+firebender,Firebender,Firebender,,firebender.com,firebender.com,NO,YES,firebender.com,Firebender,no_evidence
+fluently,Fluently,Fluently,,getfluently.app,getfluently.app,NO,YES,getfluently.app,Fluently,no_evidence
+focal,Focal,Focal,,focalml.com,focalml.com,NO,YES,focalml.com,Focal,no_evidence
+forge,Forge,Forge,,forgehq.com,forgehq.com,NO,YES,forgehq.com,Forge,no_evidence
+forge-rewards,Forge Rewards,Forge Rewards,Forge|Forge Rewards|Forge,forgerewards.com,joinforge.app,NO,YES,joinforge.app|forgerewards.com,Forge Rewards|Forge,no_evidence
+latted,Fume,Latted,Fume Test|Fume,fumedev.com,latted.com,YES,YES,latted.com|fumedev.com,Latted|Fume|Fume Test,renamed
+garage-2,Garage,Garage,,withgarage.com,shopgarage.com,NO,YES,shopgarage.com|withgarage.com,Garage,no_evidence
+givefront,Givefront,Givefront,Clav,givefront.com,givefront.com,NO,YES,givefront.com,Givefront|Clav,no_evidence
+glimmer,Glimmer,Glimmer,,withglimmer.com,withglimmer.com,NO,YES,withglimmer.com,Glimmer,no_evidence
+polar,GoldenBasis,Polar,Aria|GoldenBasis,goldenbasis.com,polarfi.com,YES,YES,polarfi.com|goldenbasis.com,Polar|GoldenBasis|Aria,renamed
+governgpt,GovernGPT,GovernGPT,governGPT,governgpt.ai,governgpt.com,NO,YES,governgpt.com|governgpt.ai,GovernGPT,no_evidence
+granza-bio,Granza Bio,Granza Bio,Zyme Therapeutics,granzabio.com,granzabio.com,NO,YES,granzabio.com,Granza Bio|Zyme Therapeutics,no_evidence
+greenboard,Greenboard,Greenboard,,greenboard.io,greenboard.com,NO,YES,greenboard.com|greenboard.io,Greenboard,no_evidence
+greptile,Greptile,Greptile,Onboard AI,greptile.com,greptile.com,NO,YES,greptile.com,Greptile|Onboard AI,no_evidence
+guide-labs,Guide Labs,Guide Labs,Guide Labs Inc,guidelabs.ai,guidelabs.ai,NO,YES,guidelabs.ai,Guide Labs,known_funded
+haplotype-labs,Haplotype Labs,Haplotype Labs,,haplotypelabs.com,haplotypelabs.com,NO,YES,haplotypelabs.com,Haplotype Labs,known_funded
+hatchet-run,Hatchet,Hatchet,Hatchet Technologies|Inc.,hatchet.run,hatchet.run,NO,YES,hatchet.run,Hatchet|Hatchet Technologies,no_evidence
+hazel-2,Hazel,Hazel,,hazeltech.ai,hazelai.com,NO,YES,hazelai.com|hazeltech.ai,Hazel,no_evidence
+healia,Healia,Healia,,healiahealth.com,healiahealth.com,NO,YES,healiahealth.com,Healia,no_evidence
+heartbyte,HeartByte,HeartByte,WonderfulWorld|HeartByte|Storio,heartbyte.ai,storioai.com,NO,YES,storioai.com|heartbyte.ai,HeartByte|WonderfulWorld|Storio,no_evidence
+newton,Hemingway,Newton,Hemingway,hemingwayai.co,joinnewton.com,YES,YES,joinnewton.com|hemingwayai.co,Newton|Hemingway,renamed
+cora,HeyPurple,Cora,PurplePill|HeyPurple|PurplePages,heypurple.ai,corahealth.app,YES,YES,corahealth.app|heypurple.ai,Cora|HeyPurple|PurplePill|PurplePages,renamed
+RM-hona-2,Hona,,,hona.ai,,NO,NO,hona.ai,Hona,left_directory
+conduit-ai,HostAI,Conduit,HostAI,hostai.app,conduit.ai,YES,YES,conduit.ai|hostai.app,Conduit|HostAI,renamed
+inquery-2,InQuery,InQuery,,inquery-data.com,inquery.ai,NO,YES,inquery.ai|inquery-data.com,InQuery,no_evidence
+infinity,Infinity,Infinity,,infinityapp.in,infinityapp.in,NO,YES,infinityapp.in,Infinity,no_evidence
+lemonslice,Infinity AI,LemonSlice,Infinity AI|Lemon Slice,infinity.ai,lemonslice.com,YES,YES,lemonslice.com|infinity.ai,LemonSlice|Infinity AI|Lemon Slice,renamed
+inspectmind-ai,InspectMind AI,InspectMind AI,,inspectmind.ai,inspectmind.ai,NO,YES,inspectmind.ai,InspectMind AI,no_evidence
+cpgscout,Intercept,Scout,Intercept,tryintercept.com,cpgscout.ai,YES,YES,cpgscout.ai|tryintercept.com,Scout|Intercept,renamed
+junction-bioscience,Junction Bioscience,Junction Bioscience,,junction.bio,junction.bio,NO,YES,junction.bio,Junction Bioscience,no_evidence
+kabilah,Kabilah,Kabilah,,kabilah.com,,NO,YES,kabilah.com,Kabilah,no_evidence
+respan,Keywords AI,Respan,Keywords AI,keywordsai.co,respan.ai,YES,YES,respan.ai|keywordsai.co,Respan|Keywords AI,renamed
+parallel,Kiosk,Parallel,Kiosk,kiosk.so,beparallel.com,YES,YES,beparallel.com|kiosk.so,Parallel|Kiosk,known_funded
+voxops-ai,Konstructly,VoxOps AI,Konstructly,konstructly.com,voxopsai.com,YES,YES,voxopsai.com|konstructly.com,VoxOps AI|Konstructly,renamed
+aftercare,Kontractify,Aftercare,Kontractify,kontractify.com,getaftercare.com,YES,YES,getaftercare.com|kontractify.com,Aftercare|Kontractify,renamed
+lantern-2,Lantern,Lantern,,lantern.dev,lantern.dev,NO,YES,lantern.dev,Lantern,unchanged
+leaping,Leaping,Leaping,Terse,leaping.io,leaping.io,NO,YES,leaping.io,Leaping|Terse,no_evidence
+legora,Leya,Legora,Leya|Legora|Legora (formerly Leya),leya.law,legora.com,YES,YES,legora.com|leya.law,Legora|Leya|Legora (formerly Leya),known_funded
+lucite,Lucite,Lucite,My Analyst|MyAnalyst,lucite.ai,lucite.ai,NO,YES,lucite.ai,Lucite|My Analyst|MyAnalyst,no_evidence
+RM-lumina-2,Lumina,,,lumina-chat.com,,NO,NO,lumina-chat.com,Lumina,left_directory
+lumona,Lumona,Lumona,Scout,lumona.ai,lumona.ai,NO,YES,lumona.ai,Lumona|Scout,no_evidence
+RM-maihem,MAIHEM,,,maihem.ai,,NO,NO,maihem.ai,MAIHEM,left_directory
+magic-hour,Magic Hour,Magic Hour,,magichour.ai,magichour.ai,NO,YES,magichour.ai,Magic Hour,no_evidence
+maia,Maia,Maia,,ourmaia.com,ourmaia.com,NO,YES,ourmaia.com,Maia,no_evidence
+mango-health,Mango Health,Mango Health,CurioMD,try-mango.com,themangohealth.com,NO,YES,themangohealth.com|try-mango.com,Mango Health|CurioMD,no_evidence
+manifold-freight,Manifold Freight,Manifold Freight,Spot Bot|Manifold,manifoldfreight.com,manifoldfreight.com,NO,YES,manifoldfreight.com,Manifold Freight|Spot Bot|Manifold,no_evidence
+marblism,Marblism,Marblism,,marblism.com,marblism.com,NO,YES,marblism.com,Marblism,no_evidence
+gloglo,Markprompt,GloGlo,Markprompt|14.ai,markprompt.com,gloglo.com,YES,YES,gloglo.com|markprompt.com,GloGlo|Markprompt|14.ai,renamed
+marr-labs,Marr Labs,Marr Labs,,marrlabs.com,marrlabs.com,NO,YES,marrlabs.com,Marr Labs,no_evidence
+breez-labs,MathDash,Breez Labs,Bree|Breez|MathDash,mathdash.live,breezlabs.com,YES,YES,breezlabs.com|mathdash.live,Breez Labs|MathDash|Bree|Breez,renamed
+meticulate,Meticulate,Meticulate,,meticulate.ai,meticulate.ai,NO,YES,meticulate.ai,Meticulate,no_evidence
+metofico,Metofico,Metofico,Metofico ltd,metofico.com,metofico.com,NO,YES,metofico.com,Metofico,no_evidence
+miden,Miden,Miden,Tyrus Technologies|MIDEN,miden.co,miden.co,NO,YES,miden.co,Miden|Tyrus Technologies,no_evidence
+million,Million.js,Million,Million.js|Million|Same,million.dev,million.dev,YES,YES,million.dev,Million|Million.js|Same,renamed
+model-ml,Model ML,Model ML,Model AI,modelml.com,modelml.com,NO,YES,modelml.com,Model ML|Model AI,no_evidence
+momentic,Momentic,Momentic,Screenwriter,momentic.ai,momentic.ai,NO,YES,momentic.ai,Momentic|Screenwriter,known_funded
+navier-ai,NavierAI,Navier AI,NavierAI,navier.ai,navier.ai,YES,YES,navier.ai,Navier AI|NavierAI,renamed
+RM-nowhouse,NowHouse,,,nowhouse.io,,NO,NO,nowhouse.io,NowHouse,left_directory
+nuanced,"Nuanced, Inc.",Nuanced,"Nuanced, Inc.",nuanced.dev,nuanced.dev,YES,YES,nuanced.dev,Nuanced,renamed
+the-new-money-company,Numo,The New Money Company,Workparty|Fermata|Numo,numohq.com,newmoneycompany.com,YES,YES,newmoneycompany.com|numohq.com,The New Money Company|Numo|Workparty|Fermata,renamed
+octolane-ai,Octolane AI,Octolane AI,OctoLane|Octolane,octolane.com,octolane.com,NO,YES,octolane.com,Octolane AI|OctoLane,no_evidence
+ocular-ai,Ocular AI,Ocular AI,AutoflowAI (Zapier for AI Copilots)|AutoflowAI|Ocular,useocular.com,useocular.com,NO,YES,useocular.com,Ocular AI|AutoflowAI (Zapier for AI Copilots)|AutoflowAI|Ocular,no_evidence
+oddsview,OddsView,OddsView,Lineflare|OpenOdds,oddsview.com,oddsview.com,NO,YES,oddsview.com,OddsView|Lineflare|OpenOdds,no_evidence
+offdeal,OffDeal,OffDeal,Sidekick Labs,offdeal.io,offdeal.io,NO,YES,offdeal.io,OffDeal|Sidekick Labs,no_evidence
+tesseral,Okapi,Tesseral,Codomain Data|Okapi|SSO Ready|ssoReady|SSOReady,okapicrm.com,tesseral.com,YES,YES,tesseral.com|okapicrm.com,Tesseral|Okapi|Codomain Data|SSO Ready|ssoReady,renamed
+oma-care,Oma Care,Oma Care,RestAssured MD,omacare.com,omacare.com,NO,YES,omacare.com,Oma Care|RestAssured MD,no_evidence
+monumint,OmniAI,Monumint,OmniAI,getomni.ai,monumint.com,YES,YES,monumint.com|getomni.ai,Monumint|OmniAI,renamed
+onegrep,OneGrep,OneGrep,,onegrep.dev,onegrep.dev,NO,YES,onegrep.dev,OneGrep,no_evidence
+fileforge,Onedoc,Fileforge,CodeMuse|Onedoc,onedoclabs.com,fileforge.com,YES,YES,fileforge.com|onedoclabs.com,Fileforge|Onedoc|CodeMuse,renamed
+open,OpenCopilot,Open,OpenCopilot|Open|Opens,opencopilot.so,open.cx,YES,YES,open.cx|opencopilot.so,Open|OpenCopilot|Opens,renamed
+overheard,OpenFoundry,Overheard,FlowState|Unidata|OpenFoundry,openfoundry.ai,withoverheard.com,YES,YES,withoverheard.com|openfoundry.ai,Overheard|OpenFoundry|FlowState|Unidata,renamed
+opencall,Opencall.ai,Opencall,Grey Matter Labs|OpenCall|OpenCall.ai|Opencall.ai,opencall.ai,opencall.ai,YES,YES,opencall.ai,Opencall|Opencall.ai|Grey Matter Labs,renamed
+openmart,Openmart,Openmart,,openmart.ai,openmart.com,NO,YES,openmart.com|openmart.ai,Openmart,no_evidence
+paradigm,Paradigm,Paradigm,Aire,tryparadigm.ai,paradigmai.com,NO,YES,paradigmai.com|tryparadigm.ai,Paradigm|Aire,no_evidence
+engines,Parasale,Engines,Parasale,parasale.io,engines.dev,YES,YES,engines.dev|parasale.io,Engines|Parasale,renamed
+parcelbio,ParcelBio,ParcelBio,Parcel Therapuetics|Parcel Therapeutics,parcelbio.com,parcelbio.com,NO,YES,parcelbio.com,ParcelBio|Parcel Therapuetics|Parcel Therapeutics,no_evidence
+partnerhq,PartnerHQ,PartnerHQ,ReferralLion,trypartnerhq.com,trypartnerhq.com,NO,YES,trypartnerhq.com,PartnerHQ|ReferralLion,no_evidence
+patchwork,Patchwork,Patchwork,Indorsed,atpatchwork.com,atpatchwork.com,NO,YES,atpatchwork.com,Patchwork|Indorsed,no_evidence
+piramidal,Piramidal,Piramidal,piramidal.ai,piramidal.ai,piramidal.ai,NO,YES,piramidal.ai,Piramidal|piramidal.ai,no_evidence
+pivot-robotics,Pivot Robots,Pivot Robotics,Pivot AI|Pivot Robots,pivotrobots.com,pivotrobotics.com,YES,YES,pivotrobotics.com|pivotrobots.com,Pivot Robotics|Pivot Robots|Pivot AI,renamed
+lumetric,PocketPod,Lumetric,PocketPod|Tredit IQ|Lumetric|Luminate,pocketpod.app,lumetric.ai,YES,YES,lumetric.ai|pocketpod.app,Lumetric|PocketPod|Tredit IQ|Luminate,renamed
+pointone,PointOne,PointOne,,pointone.ai,pointone.com,NO,YES,pointone.com|pointone.ai,PointOne,no_evidence
+powder,Powder,Powder,,powderfi.com,powderfi.com,NO,YES,powderfi.com,Powder,no_evidence
+precip,Precip,Precip,,precip.ai,precip.ai,NO,YES,precip.ai,Precip,no_evidence
+preloop,Preloop,Preloop,,preloop.com,preloop.com,NO,YES,preloop.com,Preloop,no_evidence
+pretzel-ai,Pretzel AI,Pretzel AI,Pretzel AI|Lumen Payments,withpretzel.com,withpretzel.com,NO,YES,withpretzel.com,Pretzel AI|Lumen Payments,no_evidence
+prosights,ProSights,ProSights,ProSights|Prosights,prosights.co,prosights.co,NO,YES,prosights.co,ProSights,no_evidence
+promptarmor,PromptArmor,PromptArmor,Board Security Inc.,promptarmor.com,promptarmor.com,NO,YES,promptarmor.com,PromptArmor|Board Security Inc.,no_evidence
+pazi,Pythagora (GPT Pilot),Pazi,GPT Pilot|Pythagora (GPT Pilot)|Pythagora,pythagora.ai,pazi.ai,YES,YES,pazi.ai|pythagora.ai,Pazi|Pythagora (GPT Pilot)|GPT Pilot|Pythagora,renamed
+RM-quantic,Quantic,,,quantichq.com,,NO,NO,quantichq.com,Quantic,left_directory
+quary,Quary,Quary,,quary.dev,quary.dev,NO,YES,quary.dev,Quary,no_evidence
+quivr,Quivr,Quivr,,quivr.app,,NO,YES,quivr.app,Quivr,no_evidence
+radmate-ai,RadMate AI,RadMate AI,RadMate,radmate.ai,radmate.ai,NO,YES,radmate.ai,RadMate AI|RadMate,no_evidence
+vibrant-labs,Ragas,Vibrant Labs,Exploding Gradients|Ragas,ragas.io,vibrantlabs.com,YES,YES,vibrantlabs.com|ragas.io,Vibrant Labs|Ragas|Exploding Gradients,renamed
+reducto,Reducto,Reducto,Remembrall,reducto.ai,reducto.ai,NO,YES,reducto.ai,Reducto|Remembrall,no_evidence
+reform,Reform,Reform,Knowstory,reformhq.com,reformhq.com,NO,YES,reformhq.com,Reform|Knowstory,no_evidence
+relari,Relari,Relari,,relari.ai,relari.ai,NO,YES,relari.ai,Relari,no_evidence
+reprompt,Reprompt,Reprompt,SyncUp.ai|Reprompt (previously SyncUp.ai),repromptai.com,repromptai.com,NO,YES,repromptai.com,Reprompt|SyncUp.ai|Reprompt (previously SyncUp.ai),no_evidence
+resonance,Resonance,Resonance,,useresonance.com,useresonance.com,NO,YES,useresonance.com,Resonance,no_evidence
+retailready,RetailReady,RetailReady,,retailreadyai.com,retailreadyai.com,NO,YES,retailreadyai.com,RetailReady,no_evidence
+retell-ai,Retell AI,Retell AI,Adam Translate,retellai.com,retellai.com,NO,YES,retellai.com,Retell AI|Adam Translate,no_evidence
+risotto,Risotto,Risotto,IntelliServe|OttoHelm,tryrisotto.com,tryrisotto.com,NO,YES,tryrisotto.com,Risotto|IntelliServe|OttoHelm,no_evidence
+roe,Roe AI,ROE,Roe AI,getroe.ai,getroe.ai,YES,YES,getroe.ai,ROE|Roe AI,renamed
+rove,Rove,Rove,,rovecard.com,rove.com,NO,YES,rove.com|rovecard.com,Rove,no_evidence
+salvy,Salvy,Salvy,,salvy.com.br,salvy.com.br,NO,YES,salvy.com.br,Salvy,no_evidence
+event-horizon-labs,SciPhi,Event Horizon Labs,EmergentAGI|SciPhi,sciphi.ai,ehl.markets,YES,YES,ehl.markets|sciphi.ai,Event Horizon Labs|SciPhi|EmergentAGI,renamed
+scritch,Scritch,Scritch,,joinscritch.com,scritchai.com,NO,YES,scritchai.com|joinscritch.com,Scritch,no_evidence
+selera-medical,Selera Medical,Selera Medical,,seleramedical.com,seleramedical.com,NO,YES,seleramedical.com,Selera Medical,no_evidence
+senso,Senso,Senso,Senso AI,senso.ai,senso.ai,NO,YES,senso.ai,Senso|Senso AI,no_evidence
+RM-sevnai,SevnAI,,,sevn.ai,,NO,NO,sevn.ai,SevnAI,left_directory
+shepherd-2,Shepherd,Shepherd,,shepherd.study,shepherd.study,NO,YES,shepherd.study,Shepherd,no_evidence
+shiboleth,Shiboleth,Shiboleth,,shiboleth.ai,shiboleth.ai,NO,YES,shiboleth.ai,Shiboleth,no_evidence
+silogy,SiLogy,Silogy,SiLogy,silogy.io,silogy.io,NO,YES,silogy.io,Silogy,no_evidence
+RM-skygaze,Skygaze,,,skygaze.io,,NO,NO,skygaze.io,Skygaze,left_directory
+penciled,Somn,Penciled,Somn,somnapp.com,penciled.com,YES,YES,penciled.com|somnapp.com,Penciled|Somn,renamed
+treblo,Sonauto,Treblo,Sonauto,sonauto.ai,treblo.com,YES,YES,treblo.com|sonauto.ai,Treblo|Sonauto,renamed
+sonia,Sonia,Sonia,,soniahealth.com,soniahealth.com,NO,YES,soniahealth.com,Sonia,no_evidence
+soundry-ai,Soundry AI,Soundry AI,,soundry.ai,soundry.ai,NO,YES,soundry.ai,Soundry AI,no_evidence
+solari-ai,SpareChange,Solari AI,Spare Change|SpareChange|Lytix,getsparechange.com,usesolari.ai,YES,YES,usesolari.ai|getsparechange.com,Solari AI|SpareChange|Spare Change|Lytix,renamed
+spark,Spark,Spark,,sparkhq.ai,sparkhq.ai,NO,YES,sparkhq.ai,Spark,no_evidence
+speck,Speck,Speck,Glance,speck.bot,speck.sh,NO,YES,speck.sh|speck.bot,Speck|Glance,no_evidence
+stacksync,Stacksync,Stacksync,,stacksync.cloud,stacksync.com,NO,YES,stacksync.com|stacksync.cloud,Stacksync,no_evidence
+averyiq,Starlight Charging,AveryIQ,Starlight Charging|Avery HQ|Avery,starlightcharging.com,averyiq.com,YES,YES,averyiq.com|starlightcharging.com,AveryIQ|Starlight Charging|Avery HQ|Avery,renamed
+stitch-technologies,Stitch Technologies,Stitch Technologies,,stitch.tech,stitch.tech,NO,YES,stitch.tech,Stitch Technologies,no_evidence
+superagent,Superagent.sh,Superagent,Superagent.sh,superagent.sh,superagent.sh,YES,YES,superagent.sh,Superagent|Superagent.sh,renamed
+consul,Swift,Consul,Swift,joinswift.app,onconsul.com,YES,YES,onconsul.com|joinswift.app,Consul|Swift,renamed
+synsorybio,SynsoryBio,SynsoryBio,,synsorybio.com,synsorybio.com,NO,YES,synsorybio.com,SynsoryBio,no_evidence
+integuru,Taiki,Integuru,Taiki,taiki.ai,integuru.com,YES,YES,integuru.com|taiki.ai,Integuru|Taiki,renamed
+tamarind-bio,Tamarind Bio,Tamarind Bio,,tamarind.bio,tamarind.bio,NO,YES,tamarind.bio,Tamarind Bio,known_funded
+RM-tatara,Tatara,,,tatara.ai,,NO,NO,tatara.ai,Tatara,left_directory
+RM-tensorfuse,Tensorfuse,,,tensorfuse.io,,NO,NO,tensorfuse.io,Tensorfuse,left_directory
+terrakotta,Terrakotta,Terrakotta,Brandylion,terrakotta.ai,terrakotta.ai,NO,YES,terrakotta.ai,Terrakotta|Brandylion,no_evidence
+RM-tile,Tile,,,tile.sh,,NO,NO,tile.sh,Tile,left_directory
+RM-titan-2,Titan,,,applytitan.com,,NO,NO,applytitan.com,Titan,left_directory
+toma,Toma,Toma,,toma.so,toma.com,NO,YES,toma.com|toma.so,Toma,no_evidence
+topo,Topo AI,Topo,Topo.io|Topo AI,topo.io,topo.io,YES,YES,topo.io,Topo|Topo AI|Topo.io,renamed
+tracecat,Tracecat,Tracecat,neometrics.ai|Neometrics,tracecat.com,tracecat.com,NO,YES,tracecat.com,Tracecat|neometrics.ai|Neometrics,no_evidence
+RM-trellis,Trellis,,,usetrellis.co,,NO,NO,usetrellis.co,Trellis,left_directory
+trieve,Trieve,Trieve,Arguflow,trieve.ai,trieve.ai,NO,YES,trieve.ai,Trieve|Arguflow,known_funded
+trueclaim,TrueClaim,TrueClaim,,trytrueclaim.com,trytrueclaim.com,NO,YES,trytrueclaim.com,TrueClaim,no_evidence
+tusk,Tusk,Tusk,,usetusk.ai,usetusk.ai,NO,YES,usetusk.ai,Tusk,no_evidence
+ubicloud,Ubicloud,Ubicloud,,ubicloud.com,ubicloud.com,NO,YES,ubicloud.com,Ubicloud,no_evidence
+upsolve-ai,Upsolve AI,Upsolve AI,,upsolve.ai,upsolve.ai,NO,YES,upsolve.ai,Upsolve AI,no_evidence
+andon-labs,Vectorview,Andon Labs,Vectorview,vectorview.ai,andonlabs.com,YES,YES,andonlabs.com|vectorview.ai,Andon Labs|Vectorview,renamed
+veles,Veles,Veles,Veles Inc,getveles.com,getveles.com,NO,YES,getveles.com,Veles,known_funded
+velorum-therapeutics,Velorum Therapeutics,Velorum Therapeutics,,velorumtx.com,velorumtx.com,NO,YES,velorumtx.com,Velorum Therapeutics,no_evidence
+vista-power,Vista Space,Vista Power,Vista Space,govista.space,vistapower.com,YES,YES,vistapower.com|govista.space,Vista Power|Vista Space,renamed
+voicepanel,Voicepanel,Voicepanel,Speak Analytics,voicepanel.co,voicepanel.com,NO,YES,voicepanel.com|voicepanel.co,Voicepanel|Speak Analytics,no_evidence
+wuri,Wuri,Wuri,,wuri.ai,wuri.in,NO,YES,wuri.in|wuri.ai,Wuri,no_evidence
+yarn-2,Yarn,Yarn,,yarn.so,yarn.so,NO,YES,yarn.so,Yarn,no_evidence
+yenmo,Yenmo,Yenmo,,yenmo.in,yenmo.in,NO,YES,yenmo.in,Yenmo,no_evidence
+yondu,Yondu,Yondu,,yonduai.com,yondu.ai,NO,YES,yondu.ai|yonduai.com,Yondu,no_evidence
+yoneda-labs,Yoneda Labs,Yoneda Labs,ReAgentAI|YonedaLabs,yonedalabs.com,yonedalabs.com,NO,YES,yonedalabs.com,Yoneda Labs|ReAgentAI|YonedaLabs,no_evidence
+zaymo,Zaymo,Zaymo,Zaymo Inc.,zaymo.com,zaymo.com,NO,YES,zaymo.com,Zaymo,no_evidence
+zep-ai,Zep AI,Zep AI,Zep Software|Inc.,getzep.com,getzep.com,NO,YES,getzep.com,Zep AI|Zep Software,no_evidence
+atopile,atopile,atopile,,atopile.io,atopile.io,NO,YES,atopile.io,atopile,no_evidence
+camelai,camelQA,camelAI,qaml (pronounced camel)|qaml|camelQA,camelqa.com,camelai.com,YES,YES,camelai.com|camelqa.com,camelAI|camelQA|qaml (pronounced camel)|qaml,renamed
+RM-dawn,dawn,,,dawnai.com,,NO,NO,dawnai.com,dawn,left_directory
+edgetrace,edgetrace,EdgeTrace,EdgeTrace AI|edgetrace,edgetrace.ai,edgetrace.ai,NO,YES,edgetrace.ai,EdgeTrace|EdgeTrace AI,no_evidence
+ego,ego,ego,,ego.live,egoai.com,NO,YES,egoai.com|ego.live,ego,no_evidence
+ion-design,ion design,ion design,,ion.design,,NO,YES,ion.design,ion design,no_evidence
+RM-just-words,just words,,,justwords.ai,,NO,NO,justwords.ai,just words,left_directory
+kater-ai,kater.ai,kater.ai,,kater.ai,kater.ai,NO,YES,kater.ai,kater.ai,no_evidence
+malibou,malibou,malibou,Malibou,malibou.co,malibou.com,NO,YES,malibou.com|malibou.co,malibou,known_funded
+ncompass-technologies,nCompass Technologies,nCompass Technologies,nCompass,ncompass.tech,ncompass.tech,NO,YES,ncompass.tech,nCompass Technologies|nCompass,no_evidence
+nanocorp,phospho,NanoCorp,phospho,phospho.ai,nanocorp.so,YES,YES,nanocorp.so|phospho.ai,NanoCorp|phospho,renamed
+renderlet,renderlet,renderlet,Coordinate Labs|Renderlet,renderlet.com,renderlet.com,NO,YES,renderlet.com,renderlet|Coordinate Labs,no_evidence
+sync-2,sync labs,sync.,sync labs,synclabs.so,sync.so,YES,YES,sync.so|synclabs.so,sync.|sync labs,renamed
+thorntale,thorntale,Thorntale,DataFlock (formerly EventFlock)|DataFlock|thorntale,thorntale.com,thorntale.com,NO,YES,thorntale.com,Thorntale|DataFlock (formerly EventFlock)|DataFlock,no_evidence
+xpay,xPay,xPay,,xpaycheckout.com,xpaycheckout.com,NO,YES,xpaycheckout.com,xPay,no_evidence
