@@ -1,0 +1,54 @@
+# Publish the repository as a static site on GitHub Pages.
+#
+# Why this file exists: the repo's Pages source was left on "GitHub Actions",
+# which waits for a workflow like this one and does nothing without it, so the
+# site returned "Site not found" with zero build runs. `enablement: true` also
+# switches the Pages source over if it is still set to a branch.
+#
+# What it serves: the repository as-is, no Jekyll processing. The sponsor
+# update page lands at
+#   https://<owner>.github.io/4511-industry-project/docs/updates/W24_Historical_Backtest_Update.html
+#
+# Nothing secret is published here that is not already public: this repository
+# is public and the workflow only republishes files already committed to it.
+
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deployment finish rather than cancelling it mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload the repository as the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
