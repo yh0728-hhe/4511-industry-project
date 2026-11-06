@@ -1,0 +1,46 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190641id_/https://www.ycombinator.com/companies/commodityai",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190641",
+  "original_company_name": "CommodityAI",
+  "original_yc_url": "https://www.ycombinator.com/companies/commodityai",
+  "body_sha256": "9d4d95d62d61d28491753947e1104d27d191ac98bbc2f731b4e76d5210533b81",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI-Powered Shipment Management for Commodity Traders",
+  "product_description_excerpt": "We make it easy for commodity traders manage their shipments. The largest U.S. sugar trader uses our AI-automation platform to track thousands of shipments and process over a million shipping documents. Our team consists of an experienced commodity trader with 8 years of experience and two skilled engineers with a combined 13 years of experience from Samsara and Autodesk.",
+  "tags": [
+    "b2b",
+    "workflow-automation",
+    "supply-chain",
+    "enterprise-software",
+    "ai"
+  ],
+  "team_size": 3,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Philip Koenig",
+      "title": null,
+      "bio_excerpt": "CEO & Cofounder at CommodityAI",
+      "linkedin_url": "https://linkedin.com/in/philipkoenig"
+    },
+    {
+      "name": "Daniel Cervoni",
+      "title": null,
+      "bio_excerpt": "- Head of Engineering - 6+ years building AI software for logistics",
+      "linkedin_url": "https://www.linkedin.com/in/dcervoni/"
+    },
+    {
+      "name": "Kyle Franz",
+      "title": null,
+      "bio_excerpt": "CTO & Co-Founder at CommodityAI",
+      "linkedin_url": "https://linkedin.com/in/kyle-manuel-franz-7a4351a8"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

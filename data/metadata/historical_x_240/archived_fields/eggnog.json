@@ -1,0 +1,39 @@
+{
+  "source_url": "https://web.archive.org/web/20240318231804id_/https://www.ycombinator.com/companies/eggnog",
+  "capture_date": "2024-03-18",
+  "capture_timestamp": "20240318231804",
+  "original_company_name": "Eggnog",
+  "original_yc_url": "https://www.ycombinator.com/companies/eggnog",
+  "body_sha256": "3d3337472da187d683a625ef3fe20c5bac8203f0187f89fd0e288a9b365da89a",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Youtube for AI-generated content",
+  "product_description_excerpt": "Eggnog is the Youtube for AI-generated content. We give everyone the tools to create, watch, and remix AI videos.",
+  "tags": [
+    "artificial-intelligence",
+    "entertainment",
+    "social-media",
+    "video"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "New York",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Jitesh Maiyuran",
+      "title": null,
+      "bio_excerpt": "Jitesh is a former McKinsey consultant and Flexport PM. He has a",
+      "linkedin_url": "https://linkedin.com/in/jitesh-m-62a533b3"
+    },
+    {
+      "name": "Sam Plank",
+      "title": null,
+      "bio_excerpt": "Hey I'm Sam, co-founder of Eggnog. I previously worked as a data",
+      "linkedin_url": "https://linkedin.com/in/sam-plank-042b1199"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

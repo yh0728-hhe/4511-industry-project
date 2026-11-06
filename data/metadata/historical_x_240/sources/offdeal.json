@@ -1,0 +1,18 @@
+{
+  "slug": "offdeal",
+  "company_name": "OffDeal",
+  "yc_url": "https://www.ycombinator.com/companies/offdeal",
+  "cutoff": "2024-04-04",
+  "query_status": "BODY_QUERY_FAILED",
+  "capture_date": "2024-03-05",
+  "capture_timestamp": "20240305083152",
+  "archive_url": "https://web.archive.org/web/20240305083152id_/https://www.ycombinator.com/companies/offdeal",
+  "content_identity_status": "NOT_REVIEWED",
+  "model_admissible": false,
+  "notes": [
+    "TimeoutError: The read operation timed out"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Foffdeal&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "retrieved_at_utc": "2026-11-06T00:24:06.674301+00:00"
+}

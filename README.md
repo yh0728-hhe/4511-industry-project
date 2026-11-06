@@ -112,3 +112,15 @@ Method, files and reproduction:
 Latest candidate:
 [`company_labels.csv`](results/candidates/funding_y_20261105/company_labels.csv).
 Prior inventory and design sections above remain the historical record.
+
+### 2026-11-05 — Full-cohort Historical X first collection
+
+All **240** original cohort rows now have separate historical-data packets.
+**57** companies have parsed pre-cutoff archived YC profiles; **24** have exact
+pre-cutoff HN title matches, for **75** distinct companies with dated sources.
+**165** still have historical evidence gaps. Internet Archive rate limiting
+stopped collection; failures are not coded as source absence. No packet is yet
+model-ready, and no investment ranking has been produced.
+
+Data and cautions: [`historical_x_240/README.md`](data/processed/historical_x_240/README.md).
+Detailed record: [`2026-11-05_historical_x_full_cohort.md`](docs/research_log/2026-11-05_historical_x_full_cohort.md).

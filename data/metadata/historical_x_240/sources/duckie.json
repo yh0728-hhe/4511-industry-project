@@ -1,0 +1,23 @@
+{
+  "slug": "duckie",
+  "company_name": "Duckie",
+  "yc_url": "https://www.ycombinator.com/companies/duckie",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-03-28",
+  "capture_timestamp": "20240328192409",
+  "archive_url": "https://web.archive.org/web/20240328192409id_/https://www.ycombinator.com/companies/duckie",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fduckie&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Duckie: AI engineer that resolves technical support issues | Y Combinator",
+  "body_sha256": "5fabb9c4f602b66b79fe0625656001eec85ea7b251136dee0e13e1595abd360c",
+  "text_excerpt": "Duckie: AI engineer that resolves technical support issues | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Duckie Duckie AI engineer that resolves technical support issues Y Combinator Logo W24 Active artificial-intelligence developer-tools ai San Francisco Company Jobs 0 https://duckie.ai/ AI engineer that resolves technical support issues Duckie is",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:22:44.450815+00:00"
+}

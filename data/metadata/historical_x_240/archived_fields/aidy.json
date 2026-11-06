@@ -1,0 +1,46 @@
+{
+  "source_url": "https://web.archive.org/web/20240404144030id_/https://www.ycombinator.com/companies/aidy",
+  "capture_date": "2024-04-04",
+  "capture_timestamp": "20240404144030",
+  "original_company_name": "Aidy",
+  "original_yc_url": "https://www.ycombinator.com/companies/aidy",
+  "body_sha256": "5ae45fdd917fdb0b42c2842699a8bb0d87fed0a55455db96eea1cf97be7ffb04",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "We help businesses and nonprofits apply for grants",
+  "product_description_excerpt": "Aidy uses AI to make it easier to apply for the $1T of grants awarded in the U.S. each year. Applying for grants is expensive and time consuming, but many startups and nonprofits rely heavily on grant funding to survive. Aidy sources and qualifies funding opportunities, then helps users draft and submit applications all in one place. With built-in reporting and compliance tools, managing grant",
+  "tags": [
+    "artificial-intelligence",
+    "govtech",
+    "workflow-automation",
+    "climate",
+    "fundraising"
+  ],
+  "team_size": 3,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Max Williamson",
+      "title": null,
+      "bio_excerpt": "I'm building Aidy, a better way to find and apply for grants.",
+      "linkedin_url": "https://linkedin.com/in/max-williamson-3a969a17a"
+    },
+    {
+      "name": "Peter Crocker",
+      "title": null,
+      "bio_excerpt": "I'm building Aidy, a better way to find and apply to grants.",
+      "linkedin_url": "https://linkedin.com/in/pcrocker2021"
+    },
+    {
+      "name": "Greg Miller",
+      "title": null,
+      "bio_excerpt": "Most recently working for Housing and Urban Development, I was a program",
+      "linkedin_url": "https://linkedin.com/in/gmmiller00"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240309224600id_/https://www.ycombinator.com/companies/airfront",
+  "capture_date": "2024-03-09",
+  "capture_timestamp": "20240309224600",
+  "original_company_name": "Airfront",
+  "original_yc_url": "https://www.ycombinator.com/companies/airfront",
+  "body_sha256": "8ea971768bfcd0855e6429c8bd444674466cf9e200b9dd68f115bbf13d19e4ab",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI-first email product with built-in automations",
+  "product_description_excerpt": "Airfront completes manual tasks directly from your inbox, and takes <5 mins to set up. Unlike other automation tools, our platform fully understands the context behind each email and enables granular workflows such as data sync and responding to customers.",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "b2b",
+    "productivity",
+    "automation"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Joanne Wang",
+      "title": null,
+      "bio_excerpt": "Joanne is the co-founder and CEO of Airfront. Before Airfront, she was",
+      "linkedin_url": "https://www.linkedin.com/in/joannewang19/"
+    },
+    {
+      "name": "Tommy Guo",
+      "title": null,
+      "bio_excerpt": "Tommy is the co-founder & CTO of Airfront. He was Stripe's first",
+      "linkedin_url": "https://linkedin.com/in/thomasguo"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

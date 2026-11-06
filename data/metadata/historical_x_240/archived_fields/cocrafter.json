@@ -1,0 +1,43 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190642id_/https://www.ycombinator.com/companies/cocrafter",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190642",
+  "original_company_name": "CoCrafter",
+  "original_yc_url": "https://www.ycombinator.com/companies/cocrafter",
+  "body_sha256": "08fc5c121a5a522291b0a8750e2495c204c6fa88bbbb7f451b3d9d8d6cf4bb1c",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "B2B construction marketplace to match contractors and subcontractors.",
+  "product_description_excerpt": "CoCrafter is a construction marketplace to match contractors and subcontractors. Starting in the strong German SMB sector, CoCrafter helps contractors to find and manage local as well as foreign subcontractors.",
+  "tags": [
+    "marketplace",
+    "construction"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "Munich, Germany",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Johannes Lutz",
+      "title": null,
+      "bio_excerpt": "Building CoCrafter. Previously built Innovis VC, Europe's largest VC student association. Passionate",
+      "linkedin_url": "https://linkedin.com/in/johanneslutz"
+    },
+    {
+      "name": "Philipp Rollwage",
+      "title": null,
+      "bio_excerpt": "Building CoCrafter to empower the long-tail construction industry in Europe. Previously built",
+      "linkedin_url": "https://linkedin.com/in/philipp-rollwage"
+    },
+    {
+      "name": "Annabell V.",
+      "title": null,
+      "bio_excerpt": "Building CoCrafter - a construction marketplace matching contractors with subcontractors across Europe.",
+      "linkedin_url": "https://www.linkedin.com/in/annabell-v-86a73b227"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

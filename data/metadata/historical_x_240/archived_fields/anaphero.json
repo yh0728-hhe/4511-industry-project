@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240305055943id_/https://www.ycombinator.com/companies/anaphero",
+  "capture_date": "2024-03-05",
+  "capture_timestamp": "20240305055943",
+  "original_company_name": "Anaphero",
+  "original_yc_url": "https://www.ycombinator.com/companies/anaphero",
+  "body_sha256": "72dd2b0dcfc01d380da76e6bef9c76f444a683a184b98f38193854f1027e1fb4",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Automating patient-facing tasks with multimodal AI",
+  "product_description_excerpt": "We are solving clinician staffing shortages for hospitals by automating routine patient-facing tasks.",
+  "tags": [
+    "artificial-intelligence",
+    "health-tech",
+    "digital-health",
+    "healthcare",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Ryan Gallagher",
+      "title": null,
+      "bio_excerpt": "I am a medical doctor and trained as a bioengineer (BS/MS) at",
+      "linkedin_url": "https://linkedin.com/in/ryangallaghermd"
+    },
+    {
+      "name": "Jeffrey Lamothe",
+      "title": null,
+      "bio_excerpt": "Co-Founder @ Anaphero",
+      "linkedin_url": "https://linkedin.com/in/lamothesde"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

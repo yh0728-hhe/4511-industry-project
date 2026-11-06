@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190658id_/https://www.ycombinator.com/companies/granza-bio",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190658",
+  "original_company_name": "Granza Bio",
+  "original_yc_url": "https://www.ycombinator.com/companies/granza-bio",
+  "body_sha256": "c2f3cd89107d64110eda523f465f6ed70b7d684a5db908c440ccd9385189b17b",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Cancer targeting attack particles",
+  "product_description_excerpt": "Granza Bio is developing cancer therapeutics modelled from our body\u2019s own immune system. Our therapeutics termed \u201cattack particles\u201d are engineered to specifically target only cancer cells, preventing any unwanted toxicity and adverse side effects. Our attack particles have shown cancer-killing efficacy in brain (glioblastoma), ovarian, lung, and skin cancers. Our platform can also be deployed to target a great range of diseases including autoimmune diseases",
+  "tags": [
+    "synthetic-biology",
+    "biotech",
+    "healthcare",
+    "therapeutics",
+    "oncology"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Ashwin Nandakumar",
+      "title": null,
+      "bio_excerpt": "Ashwin completed his PhD (DPhil) in Oncology at the University of Oxford.",
+      "linkedin_url": "https://linkedin.com/in/ashwin-nandakumar-menon"
+    },
+    {
+      "name": "Ashwin Jainarayanan",
+      "title": null,
+      "bio_excerpt": "Granza Bio, DPhil (PhD) in Interdisciplinary Bioscience - University of Oxford",
+      "linkedin_url": "https://linkedin.com/in/jainarayananak"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

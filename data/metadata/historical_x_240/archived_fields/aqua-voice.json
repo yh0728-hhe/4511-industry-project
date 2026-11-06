@@ -1,0 +1,39 @@
+{
+  "source_url": "https://web.archive.org/web/20240328214702id_/https://www.ycombinator.com/companies/aqua-voice",
+  "capture_date": "2024-03-28",
+  "capture_timestamp": "20240328214702",
+  "original_company_name": "Aqua Voice",
+  "original_yc_url": "https://www.ycombinator.com/companies/aqua-voice",
+  "body_sha256": "51e3275b7b2dfe9036b35d1c613cdc007da307da1072089338c479ae027789fa",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Voice-only document editor",
+  "product_description_excerpt": "Aqua is a voice-driven text editor. It uses a fusion Audio+LLM architecture to transcribe what you meant, not exactly what you said.",
+  "tags": [
+    "documents",
+    "artificial-intelligence",
+    "generative-ai",
+    "nlp"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Finnian Brown",
+      "title": null,
+      "bio_excerpt": "CEO @ Aqua Voice",
+      "linkedin_url": "https://linkedin.com/in/finn-brown-3b0b56113"
+    },
+    {
+      "name": "Jack McIntire",
+      "title": null,
+      "bio_excerpt": "CTO @ Aqua Voice / prev. Arcturus Intelligence / Harvard dropout",
+      "linkedin_url": "https://www.linkedin.com/in/jack-mcintire-789bb223b/"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

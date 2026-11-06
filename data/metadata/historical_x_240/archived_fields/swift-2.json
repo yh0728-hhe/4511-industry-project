@@ -1,0 +1,37 @@
+{
+  "source_url": "https://web.archive.org/web/20240301220017id_/https://www.ycombinator.com/companies/swift-2",
+  "capture_date": "2024-03-01",
+  "capture_timestamp": "20240301220017",
+  "original_company_name": "Swift",
+  "original_yc_url": "https://www.ycombinator.com/companies/swift-2",
+  "body_sha256": "9b6664c3233211448238737c2c041adfe57ad0f51173156647d490e5b69a2101",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Instant funding API for fintechs, brokerages, and digital wallets",
+  "product_description_excerpt": "Offer instant funding to your customers without the ACH fraud and liquidity risk.",
+  "tags": [
+    "fintech",
+    "payments"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "David Lalor",
+      "title": null,
+      "bio_excerpt": "From a small village in Ireland; studied computer science and economics at",
+      "linkedin_url": "https://linkedin.com/in/davidlalor5"
+    },
+    {
+      "name": "Rakeeb Hossain",
+      "title": null,
+      "bio_excerpt": "Building Swift \u2013 an instant funding API for fintechs, brokerages, and digital",
+      "linkedin_url": "https://linkedin.com/in/rakeebhossain"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

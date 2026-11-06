@@ -1,0 +1,50 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172926id_/https://www.ycombinator.com/companies/elodin",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172926",
+  "original_company_name": "Elodin",
+  "original_yc_url": "https://www.ycombinator.com/companies/elodin",
+  "body_sha256": "27837a986f9a5ccc13cc30f5a47f335b85da0d59fcec625b2e3e8c65b5b17417",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "CI/CD for Aerospace",
+  "product_description_excerpt": "Elodin helps aerospace engineers rapidly design, test, and simulate control systems.",
+  "tags": [
+    "drones",
+    "satellites",
+    "aerospace"
+  ],
+  "team_size": 5,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 5,
+  "founders": [
+    {
+      "name": "Daniel Driscoll",
+      "title": null,
+      "bio_excerpt": "A technology adventurer experienced in tanks (and armored warfare in general), video",
+      "linkedin_url": "https://linkedin.com/in/x46085"
+    },
+    {
+      "name": "Tom Gurka",
+      "title": null,
+      "bio_excerpt": "Kicked my career off working for design agencies in San Francisco. Eventually",
+      "linkedin_url": "https://linkedin.com/in/tomgurka"
+    },
+    {
+      "name": "Andrei Khvalko",
+      "title": null,
+      "bio_excerpt": "Programmer with an educational background in photography, interests ranging from game development",
+      "linkedin_url": "https://linkedin.com/in/andrei-khvalko"
+    },
+    {
+      "name": "Akhil Velagapudi",
+      "title": null,
+      "bio_excerpt": "Grew up in New Jersey, and studied electrical + computer engineering at",
+      "linkedin_url": "https://www.linkedin.com/in/akhil-velagapudi/"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

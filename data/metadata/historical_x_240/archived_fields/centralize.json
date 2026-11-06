@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/centralize",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190635",
+  "original_company_name": "Centralize",
+  "original_yc_url": "https://www.ycombinator.com/companies/centralize",
+  "body_sha256": "ce75cb141fe7fac16b25fa8a8382a371e32cf0c59a97f575ffa91b16d8e87b6d",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Analyze customer conversations with AI to upsell more and slash churn",
+  "product_description_excerpt": "Centralize is the new way for pre and post-sales teams to understand their customers. We're building the perfect \"customer brain\" that aggregates and analyzes touch points across time, tools, and stakeholders. Companies use us to hyper-personalize conversations, upsell more, and eliminate churn.",
+  "tags": [
+    "artificial-intelligence",
+    "generative-ai",
+    "saas",
+    "b2b",
+    "analytics"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Rachit Kataria",
+      "title": null,
+      "bio_excerpt": "Rachit is the co-founder and CEO of Centralize, the AI-powered customer intelligence",
+      "linkedin_url": "https://linkedin.com/in/rachitkataria"
+    },
+    {
+      "name": "Will Wang",
+      "title": null,
+      "bio_excerpt": "Will is the co-founder and CTO of Centralize, the AI dashboard to",
+      "linkedin_url": "https://linkedin.com/in/williamwang77"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

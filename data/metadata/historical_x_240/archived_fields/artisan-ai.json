@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240324034312id_/https://www.ycombinator.com/companies/artisan-ai",
+  "capture_date": "2024-03-24",
+  "capture_timestamp": "20240324034312",
+  "original_company_name": "Artisan AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/artisan-ai",
+  "body_sha256": "809cdf6ebd1f9599cc803372dc8ab1affae9d11b937054771d95598477930f00",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Creating human-like AI Employees called Artisans and the SaaS OS",
+  "product_description_excerpt": "At Artisan, we're on a mission to create the most advanced human-like digital workers, called Artisans, and the software operating system for startups across verticals. We're starting with sales through our Artisan Sales platform and Ava, The Sales Rep Artisan. Our first Artisan, Ava, is a BDR who automates the entire outbound sales process and can be set up with a 10-minute conversation. Ava creates",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "b2b",
+    "workflow-automation",
+    "sales"
+  ],
+  "team_size": 11,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Jaspar Carmichael-Jack",
+      "title": null,
+      "bio_excerpt": "I previously founded an on-demand home services app in London and a",
+      "linkedin_url": "https://linkedin.com/in/jaspar-carmichael-jack"
+    },
+    {
+      "name": "Rupert Dodkins",
+      "title": null,
+      "bio_excerpt": "Rupert Dodkins holds a Ph.D. and postdoc in astrophysics from the Universities",
+      "linkedin_url": "https://linkedin.com/in/rupertdodkins"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

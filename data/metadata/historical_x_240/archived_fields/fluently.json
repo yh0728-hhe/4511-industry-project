@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240329161922id_/https://www.ycombinator.com/companies/fluently",
+  "capture_date": "2024-03-29",
+  "capture_timestamp": "20240329161922",
+  "original_company_name": "Fluently",
+  "original_yc_url": "https://www.ycombinator.com/companies/fluently",
+  "body_sha256": "2ca32317cfc77f3795657390970269feabdbf0095c66aa9c0bb77b3949d6ac11",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI-powered speaking coach for calls",
+  "product_description_excerpt": "Fluently is an app that helps non-native professionals improve their English with instant feedback after each Zoom call. Imagine having a personal coach, always listening and providing tips. There are 84 million non-native employees who work in English-speaking environments, and companies spend $10 billion annually solely on their English corporate training to improve communication efficiency across the company and help them grow and feel more",
+  "tags": [
+    "education",
+    "saas",
+    "b2b",
+    "productivity",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": null,
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Yurii Rebryk",
+      "title": null,
+      "bio_excerpt": "Yurii is the co-founder and CEO of Fluently \u2014 AI-powered speaking coach",
+      "linkedin_url": "https://linkedin.com/in/yrebryk"
+    },
+    {
+      "name": "Stanislav Beliaev",
+      "title": null,
+      "bio_excerpt": "Stan is the co-founder and CTO of Fluently \u2014 AI-powered speaking coach",
+      "linkedin_url": "https://linkedin.com/in/stasbel"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

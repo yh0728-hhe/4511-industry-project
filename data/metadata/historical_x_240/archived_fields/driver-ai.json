@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240211224031id_/https://www.ycombinator.com/companies/driver-ai",
+  "capture_date": "2024-02-11",
+  "capture_timestamp": "20240211224031",
+  "original_company_name": "Driver AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/driver-ai",
+  "body_sha256": "8e61c617d56c35dbdf36d25bddb4d66dd08383d1a0ef8ee3b0272fd568402a66",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Understand millions of lines of code in minutes.",
+  "product_description_excerpt": "Driver AI is a tool that explains millions of lines of code in minutes instead of months. When you need to do technical discovery, you can use Driver AI\u2019s interactive documentation to understand complex codebases at a fraction of the time and cost. Even better, Driver AI automatically stays in sync as the business evolves, so the technical discovery process only gets faster over time.",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "b2b"
+  ],
+  "team_size": 8,
+  "year_founded": 2023,
+  "location": "Austin, TX",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Daniel Hensley",
+      "title": null,
+      "bio_excerpt": "Co-founder and CTO of Driver AI. We're building a tool that helps",
+      "linkedin_url": "https://linkedin.com/in/daniel-hensley"
+    },
+    {
+      "name": "Adam Tilton",
+      "title": null,
+      "bio_excerpt": "I'm the Co-founder and CEO of Driver AI. We're building a tool",
+      "linkedin_url": "https://www.linkedin.com/in/adamktilton/"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

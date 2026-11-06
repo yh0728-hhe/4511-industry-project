@@ -1,0 +1,33 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/dragoneye",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190640",
+  "original_company_name": "Dragoneye",
+  "original_yc_url": "https://www.ycombinator.com/companies/dragoneye",
+  "body_sha256": "ef70cd24f9492b7094484ce954136d66343c67e810ed45c9c38813d4dcf5bd52",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Helping devs build computer vision models automatically",
+  "product_description_excerpt": "Dragoneye helps devs build powerful apps and features that use images and videos. With our cutting-edge AI tech, folks can recognize things in the world with high accuracy and deep granularity, right out of the box. No more arduous process of annotating any training data or doing any machine learning work themselves. For example, retailers can turn their product images into rich product metadata. With",
+  "tags": [
+    "artificial-intelligence",
+    "developer-tools",
+    "computer-vision",
+    "ml"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "New York",
+  "founder_total_on_page": 1,
+  "founders": [
+    {
+      "name": "Alex Liao",
+      "title": null,
+      "bio_excerpt": "Building computer vision so every app can see the world. ex-Jane Street,",
+      "linkedin_url": "https://linkedin.com/in/alexliaoo"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

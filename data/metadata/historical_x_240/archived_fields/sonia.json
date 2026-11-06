@@ -1,0 +1,44 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190639id_/https://www.ycombinator.com/companies/sonia",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190639",
+  "original_company_name": "Sonia",
+  "original_yc_url": "https://www.ycombinator.com/companies/sonia",
+  "body_sha256": "71345e1ef820341b89e15237731814cd467d2b05998b335507ceef7f93d4a17f",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI Therapy for Mental Health",
+  "product_description_excerpt": "Sonia is an AI therapist that conducts entire therapy sessions both by voice and text via a phone app. 70 million Americans who struggle with their mental health can now access therapy for $200 per year instead of $200 per session. Founded by a team of MIT researchers who published 9 papers on AI at conferences like NeurIPS.",
+  "tags": [
+    "artificial-intelligence",
+    "healthcare",
+    "mental-health"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Chris Aeberli",
+      "title": null,
+      "bio_excerpt": "Learned to code at ETH Zurich & MIT. Learned to speak and",
+      "linkedin_url": "https://linkedin.com/in/chris-aeberli"
+    },
+    {
+      "name": "Dustin Klebe",
+      "title": null,
+      "bio_excerpt": "Hi, I'm Dustin, Co-founder and CTO of Sonia. I graduated from ETH",
+      "linkedin_url": "https://linkedin.com/in/dustin-klebe-679675163"
+    },
+    {
+      "name": "Lukas Wolf",
+      "title": null,
+      "bio_excerpt": "I studied CS at ETH and MIT spending most of my time",
+      "linkedin_url": "https://linkedin.com/in/lukas-wolf-14a992143"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

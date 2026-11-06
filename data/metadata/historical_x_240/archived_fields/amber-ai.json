@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240306052834id_/https://www.ycombinator.com/companies/amber-ai",
+  "capture_date": "2024-03-06",
+  "capture_timestamp": "20240306052834",
+  "original_company_name": "Amber AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/amber-ai",
+  "body_sha256": "1ca24c0df9714fe08cc564494ffd36ebbc98271afbd95f515839178fdc7831b7",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Raising NRR for SMB SaaS to Enterprise Levels",
+  "product_description_excerpt": "Amber is an extension of your post-sales team that has context on every customer and every action. - Transforms a sea of faceless customers into data-driven opportunities your team can execute on - Automate reactive responses to minimize firefighting - Supercharge proactive outreach with AI crafted conversations and up-sell qualification; every customer will feel taken care of Overtime Amber can learn and scale more and",
+  "tags": [
+    "artificial-intelligence",
+    "b2b",
+    "customer-success",
+    "sales",
+    "customer-service"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Helen Wu",
+      "title": null,
+      "bio_excerpt": "Solving the long tail account management and sales problem for SMB heavy",
+      "linkedin_url": "https://linkedin.com/in/-helen-wu"
+    },
+    {
+      "name": "Oliver Zou",
+      "title": null,
+      "bio_excerpt": "Solving the long tail account management and sales problem for SMB heavy",
+      "linkedin_url": "https://linkedin.com/in/oliver-zou"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

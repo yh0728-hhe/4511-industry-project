@@ -1,0 +1,33 @@
+{
+  "slug": "garage-2",
+  "company_name": "Garage",
+  "yc_url": "https://www.ycombinator.com/companies/garage-2",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302100819",
+  "archive_url": "https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/garage-2",
+  "content_identity_status": "MANUAL_IDENTITY_REVIEW_REQUIRED",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:23:02.566386+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fgarage-2&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Garage: Marketplace for used firefighting equipment. | Y Combinator",
+  "body_sha256": "f09ad9442394a9a0b99ea63be7869fd0cb50fe6ec94f2d20ccf3f3d54c3d52b0",
+  "text_excerpt": "Garage: Marketplace for used firefighting equipment. | Y Combinator",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": false,
+  "retrieved_at_utc": "2026-11-06T00:32:57.036504+00:00"
+}

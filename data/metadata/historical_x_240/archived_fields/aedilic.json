@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240318201743id_/https://www.ycombinator.com/companies/aedilic",
+  "capture_date": "2024-03-18",
+  "capture_timestamp": "20240318201743",
+  "original_company_name": "Aedilic",
+  "original_yc_url": "https://www.ycombinator.com/companies/aedilic",
+  "body_sha256": "905cb2f22205d1e986a57683cb209816a7d80d29d08996354c634c53846345af",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Faster, cheaper drone delivery.",
+  "product_description_excerpt": "Aedilic is developing a 2-part system consisting of a fixed-wing carrier and delivery quadcopters that are dropped over hubs where they need to deliver. Because it uses a fixed-wing carrier, it is longer-range, cheaper, faster and quieter than other options.",
+  "tags": [
+    "artificial-intelligence",
+    "robotics",
+    "drones",
+    "consumer",
+    "b2b"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "Palo Alto",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Nicholas Waltz",
+      "title": null,
+      "bio_excerpt": "Founder and CEO of Aedilic (W24)",
+      "linkedin_url": "https://linkedin.com/in/nicholas-waltz-b95067211"
+    },
+    {
+      "name": "Lukas Schneider",
+      "title": null,
+      "bio_excerpt": "Lukas is the Co-Founder & CTO of Aedilic. Before Aedilic, Lukas conducted",
+      "linkedin_url": "https://linkedin.com/in/lukas-schneider-a27498177"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

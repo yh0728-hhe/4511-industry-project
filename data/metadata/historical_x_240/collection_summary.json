@@ -1,0 +1,15 @@
+{
+  "cohort": 240,
+  "status_counts": {
+    "ARCHIVE_BODY_FETCHED": 57,
+    "OK_NO_CAPTURE_RETURNED": 20,
+    "INDEX_QUERY_FAILED": 156,
+    "BODY_QUERY_FAILED": 7
+  },
+  "source_halted": true,
+  "stop_reason": "Internet Archive availability endpoint HTTP429; recovery worker terminated",
+  "company_queries_saved": 240,
+  "recovery_attempted_companies": 59,
+  "total_saved_request_attempts": 365,
+  "scope": "Original YC URL CDX + at most one archive body per company per pass; first pass240, interrupted single-worker recovery; raw bodies local only"
+}

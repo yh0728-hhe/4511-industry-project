@@ -96,3 +96,18 @@ python -W ignore::ResourceWarning -m unittest discover -s src/funding/tests -q
 ```
 
 See the dated funding release log for counts, missingness and date limitations.
+
+## Full-cohort Historical X (first collection)
+
+```bash
+python src/historical_x/build_cohort_historical_dataset.py
+python -m unittest discover -s src/historical_x/tests -q
+```
+
+The builder reads the original cohort, curated pre-cutoff archive extractions
+and exact-name HN titles, never Y or current identity panels. Outputs cover240
+rows with explicit missingness. Raw archived HTML stays local; curated fields
+carry archive timestamps, URLs and raw-body hashes. Collection must respect
+`data/metadata/historical_x_240/RATE_LIMIT_STOP.json`; the current run is stopped.
+See the dated historical-source log before interpreting75 source-backed rows
+as complete research or165 gaps as company absence.

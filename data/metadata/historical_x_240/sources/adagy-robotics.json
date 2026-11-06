@@ -1,0 +1,16 @@
+{
+  "slug": "adagy-robotics",
+  "company_name": "Adagy Robotics",
+  "yc_url": "https://www.ycombinator.com/companies/adagy-robotics",
+  "cutoff": "2024-04-04",
+  "query_status": "OK_NO_CAPTURE_RETURNED",
+  "capture_date": null,
+  "capture_timestamp": null,
+  "archive_url": null,
+  "content_identity_status": "NOT_REVIEWED",
+  "model_admissible": false,
+  "notes": [],
+  "requests": 1,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fadagy-robotics&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "retrieved_at_utc": "2026-11-06T00:21:47.413038+00:00"
+}

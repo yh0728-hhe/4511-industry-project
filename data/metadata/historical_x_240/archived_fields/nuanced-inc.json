@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240302135450id_/https://www.ycombinator.com/companies/nuanced-inc",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302135450",
+  "original_company_name": "Nuanced, Inc.",
+  "original_yc_url": "https://www.ycombinator.com/companies/nuanced-inc",
+  "body_sha256": "fbd9c801a6d42ca5d1e93a735d105cf901185b6b214688ef2d0065084a796eef",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "We detect AI-generated content to distinguish human-authored materials",
+  "product_description_excerpt": "Nuanced detects AI-generated images. We help companies like dating apps, news sites, and ad platforms to distinguish between AI-generated and human-authored content. With AI-generated content on the rise, many contexts require differentiating it from human-authored materials to ensure authenticity and trust in the digital world. Making this distinction is especially crucial when there are possible implications for misinformation, spam, abuse, or cybercrime. Existing technologies are",
+  "tags": [
+    "computer-vision",
+    "api",
+    "enterprise",
+    "trust-&-safety",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "New York",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Ayman Nadeem",
+      "title": null,
+      "bio_excerpt": "Ayman is the co-founder and CEO of Nuanced, a service for detecting",
+      "linkedin_url": "https://linkedin.com/in/aymannadeem"
+    },
+    {
+      "name": "Dylan John Drover",
+      "title": null,
+      "bio_excerpt": "Dylan is the co-founder and CTO of Nuanced, a service for detecting",
+      "linkedin_url": "https://linkedin.com/in/dylan-drover"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190642id_/https://www.ycombinator.com/companies/apriora",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190642",
+  "original_company_name": "Apriora",
+  "original_yc_url": "https://www.ycombinator.com/companies/apriora",
+  "body_sha256": "63959b41f48a2a4d4ef56f69af278586f5164e58fa05a788125357069f6c160f",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Your AI recruiter for interviewing and identifying the best talent",
+  "product_description_excerpt": "Apriora conducts live interviews with an AI recruiter. Companies use us to get the best hiring signal on their applicant pool and hire in a fraction of the time. Our AI recruiter has a live conversation over a video call with each of your candidates based on the interview questions you choose or that are recommended based on the job description. During the interview, our",
+  "tags": [
+    "saas",
+    "b2b",
+    "recruiting",
+    "hr-tech",
+    "ai"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Aaron Wang",
+      "title": null,
+      "bio_excerpt": "Before Apriora, Aaron worked in quant finance and at Facebook AI. He",
+      "linkedin_url": "https://linkedin.com/in/aaronjwang"
+    },
+    {
+      "name": "John Rytel",
+      "title": null,
+      "bio_excerpt": "Technical co-founder with a software engineering background, and experience working throughout the",
+      "linkedin_url": "https://linkedin.com/in/johnrytel"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

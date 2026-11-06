@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240404185828id_/https://www.ycombinator.com/companies/governgpt",
+  "capture_date": "2024-04-04",
+  "capture_timestamp": "20240404185828",
+  "original_company_name": "GovernGPT",
+  "original_yc_url": "https://www.ycombinator.com/companies/governgpt",
+  "body_sha256": "7dc362f74b9c196f684dea55ef8c312d5a7fa8759ff4aac08344c841eda81d2e",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI Co-pilot for Institutional Fundraising",
+  "product_description_excerpt": "For money managers to raise their next billion, they dedicate entire teams to spend days filling diligence questionnaires with recycled content. We do it in minutes using AI.",
+  "tags": [
+    "artificial-intelligence",
+    "finance",
+    "b2b",
+    "investing",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "Toronto, Canada",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Mamal Amini",
+      "title": null,
+      "bio_excerpt": "Before GovernGPT, I trained some of the largest LLMs on the world's",
+      "linkedin_url": "https://linkedin.com/in/mamal-amini-235810170"
+    },
+    {
+      "name": "Oliver Walerys",
+      "title": null,
+      "bio_excerpt": "My path has been a diverse one - from McGill business to",
+      "linkedin_url": "https://linkedin.com/in/walerys"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

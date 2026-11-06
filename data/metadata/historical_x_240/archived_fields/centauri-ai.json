@@ -1,0 +1,46 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190703id_/https://www.ycombinator.com/companies/centauri-ai",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190703",
+  "original_company_name": "Centauri AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/centauri-ai",
+  "body_sha256": "661aebb77f1ce32661da81d6b4af57b6b716ef169802d79c4d16a906d185f723",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "The Modern ETL and Data Science Platform for Finance",
+  "product_description_excerpt": "Centauri AI is a modern ETL and Data Science platform for banks and investment firms, starting with Structured Finance. Financial firms heavily rely on Excel, PDF, and PPT files to exchange complex asset details, leading analysts to spend hours crunching the files and extracting insights. Moreover, these data files and reports cannot be easily reused due to poor data infrastructure. Powered by AI, our product",
+  "tags": [
+    "fintech",
+    "b2b",
+    "data-science",
+    "data-engineering",
+    "ai"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "Alameda, CA",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "He Lu",
+      "title": null,
+      "bio_excerpt": "He is the co-founder and CEO of Centauri AI with 9 years",
+      "linkedin_url": "https://linkedin.com/in/he-lu-63666852"
+    },
+    {
+      "name": "Milan Shen",
+      "title": null,
+      "bio_excerpt": "Milan is co-founder and Chief Product Officer at Centauri AI. Milan has",
+      "linkedin_url": "https://linkedin.com/in/milan-shen-860b5062"
+    },
+    {
+      "name": "James Wu",
+      "title": null,
+      "bio_excerpt": "James was a Director of Engineering at Tubi, hired the Platform Eng.",
+      "linkedin_url": "https://linkedin.com/in/jameswu1991"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

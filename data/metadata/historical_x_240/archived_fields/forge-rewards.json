@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/forge-rewards",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190640",
+  "original_company_name": "Forge Rewards",
+  "original_yc_url": "https://www.ycombinator.com/companies/forge-rewards",
+  "body_sha256": "72a8d888a511e000032e18f427523fe37ea168c54b40372d389453d84cb5d236",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "The super-app for restaurant rewards",
+  "product_description_excerpt": "A Starbucks app for every restaurant, all in one place. Earn points when you eat or order ahead, redeem unique perks, and grow your restaurant community at our 20+ partnered locations. Download Forge Rewards: https://apps.apple.com/us/app/forge-rewards/id6476656258.",
+  "tags": [
+    "marketplace",
+    "food-tech",
+    "food-&-beverage"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Ethan Chang",
+      "title": null,
+      "bio_excerpt": "Left Stanford to build a platform revolutionizing rewards and customer relationships",
+      "linkedin_url": "https://linkedin.com/in/changethan"
+    },
+    {
+      "name": "Isaac Kan",
+      "title": null,
+      "bio_excerpt": "Studied CS at Stanford and interned at Stanford Med, building CNN models.",
+      "linkedin_url": "https://linkedin.com/in/isaackan"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

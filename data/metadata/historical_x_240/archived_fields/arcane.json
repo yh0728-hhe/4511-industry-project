@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/arcane",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190635",
+  "original_company_name": "Arcane",
+  "original_yc_url": "https://www.ycombinator.com/companies/arcane",
+  "body_sha256": "5087a5468a3e690fd506e4cd8414fe61bdacb7029d0a397e8776e5f31c3d1840",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI powered Roblox",
+  "product_description_excerpt": "Arcane is building the AI powered Roblox. We allow anyone to create and play games, without writing code. Our first product, Summon Worlds, has tens of thousands of users who've created millions of Summons and used them to play AI powered games. Lucas and Rohan were both engineers at Meta. Rohan was a Principal SWE on Gen AI, AR Glasses and UI Frameworks, and Lucas",
+  "tags": [
+    "artificial-intelligence",
+    "consumer",
+    "gaming",
+    "social",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "New York",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Rohan Mehta",
+      "title": null,
+      "bio_excerpt": "Cofounder at Arcane. Previously spent 8 years at Meta as a principal",
+      "linkedin_url": "https://linkedin.com/in/rohanmehta2"
+    },
+    {
+      "name": "Lucas Switzer",
+      "title": null,
+      "bio_excerpt": "Cofounder at Arcane AI. Previously worked at Meta on AR Glasses and",
+      "linkedin_url": "https://linkedin.com/in/lucas-switzer-0a3756103"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

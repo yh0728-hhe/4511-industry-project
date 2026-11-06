@@ -1,0 +1,39 @@
+{
+  "source_url": "https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/ellipsis",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302100819",
+  "original_company_name": "Ellipsis",
+  "original_yc_url": "https://www.ycombinator.com/companies/ellipsis",
+  "body_sha256": "9ace9cb8058b53f82fff90ed1985b798c7b1cb35c174bdb5b63177a0c81af34f",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Convert technical instructions into working, tested code",
+  "product_description_excerpt": "Ellipsis is an AI devtool that converts technical instructions into working, tested code. Customers like PromptLayer and Warp use it to ship faster because they spend less time reviewing changes and fixing bugs. Working with Ellipsis is like working with a virtual colleague; first, a developer tags Ellipsis on GitHub or sends it a Slack message. Then Ellipsis explores the codebase, makes the required changes,",
+  "tags": [
+    "developer-tools",
+    "generative-ai",
+    "saas",
+    "b2b"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": null,
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Hunter Brooks",
+      "title": null,
+      "bio_excerpt": "Currently: cofounder & CEO of Ellipsis, a DevTool that converts technical instructions",
+      "linkedin_url": "https://linkedin.com/in/seanhunterbrooks"
+    },
+    {
+      "name": "Nick Bradford",
+      "title": null,
+      "bio_excerpt": "Co-Founder and CTO, Ellipsis. Most recently, Nick took an AI developer tool",
+      "linkedin_url": "https://linkedin.com/in/nsbradford"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

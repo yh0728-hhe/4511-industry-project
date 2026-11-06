@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/crux",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172927",
+  "original_company_name": "Crux",
+  "original_yc_url": "https://www.ycombinator.com/companies/crux",
+  "body_sha256": "6c14679a2c47f296933c7f240d68e7df4738022b8b9ad1bbb20850682912cc2d",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Infrastructure to build AI Copilots on Structured Data",
+  "product_description_excerpt": "Crux helps B2B SaaS teams build embedded AI Copilots faster. These Copilots enable their users to talk to business data, discover anomalies, and execute actions on the product. Some of the top SaaS unicorns use Crux to build Copilots that are over 98% accurate, consume 1/10th the cost, and go live in less than 1 week.",
+  "tags": [],
+  "team_size": 7,
+  "year_founded": 2022,
+  "location": null,
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Himank Jain",
+      "title": null,
+      "bio_excerpt": "Himank is the co-founder and CEO at Crux. He has previously worked",
+      "linkedin_url": "https://linkedin.com/in/himank1"
+    },
+    {
+      "name": "Atharva Padhye",
+      "title": null,
+      "bio_excerpt": "Studied Renewable Energy Engineering at IIT Bombay. Started Crux while in college",
+      "linkedin_url": "https://linkedin.com/in/atharvapadhyecrux"
+    },
+    {
+      "name": "Prabhat Singh",
+      "title": null,
+      "bio_excerpt": "Building Crux - Decision Making AI Copilot for Enterprises.",
+      "linkedin_url": "https://linkedin.com/in/prabhat7758"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}
