@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/goldenbasis",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190635",
+  "original_company_name": "GoldenBasis",
+  "original_yc_url": "https://www.ycombinator.com/companies/goldenbasis",
+  "body_sha256": "219002cd7b3562487bd35ee6e92e4aba18f6edb9607c0b950f69e74b3b7d36b1",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Modern back-office software for brokerages",
+  "product_description_excerpt": "GoldenBasis makes modern back-office software for brokerages like Schwab or Fidelity, and we\u2019re starting with asset transfers. Every year, $1.1 trillion in assets are transferred inefficiently between brokerages using decades-old software. Brokerages hire thousands of people to compensate, but still lose revenue because it\u2019s hard for clients to transfer in their assets. GoldenBasis is solving this problem by automating back-office workflows with AI.",
+  "tags": [
+    "fintech",
+    "api",
+    "enterprise-software",
+    "infrastructure",
+    "operations"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Grant Ackerman",
+      "title": null,
+      "bio_excerpt": "Grant is the co-founder & CEO of GoldenBasis. Before GoldenBasis, Grant led",
+      "linkedin_url": "https://linkedin.com/in/grant-a-391184a5"
+    },
+    {
+      "name": "Andrew Wang",
+      "title": null,
+      "bio_excerpt": "Andrew is the co-founder & CTO of GoldenBasis. Before GoldenBasis, Andrew did",
+      "linkedin_url": "https://linkedin.com/in/andrew-wang-0b5526109"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,192 @@
+{
+  "nbHits": 37,
+  "nbPages": 1,
+  "query": "YC W24 stories created before 2024-04-05T00:00:00Z",
+  "hits": [
+    {
+      "objectID": "39828686",
+      "title": "Launch HN: Aqua Voice (YC W24) \u2013 Voice-driven text editor",
+      "created_at": "2024-03-26T14:53:52Z"
+    },
+    {
+      "objectID": "39453402",
+      "title": "Launch HN: Retell AI (YC W24) \u2013 Conversational Speech API for Your LLM",
+      "created_at": "2024-02-21T13:18:13Z"
+    },
+    {
+      "objectID": "39668962",
+      "title": "Launch HN: Onedoc (YC W24) \u2013 A better way to create PDFs",
+      "created_at": "2024-03-11T14:52:56Z"
+    },
+    {
+      "objectID": "39604961",
+      "title": "Launch HN: Greptile (YC W24) - RAG on codebases that actually works",
+      "created_at": "2024-03-05T15:48:56Z"
+    },
+    {
+      "objectID": "39467413",
+      "title": "Launch HN: Danswer (YC W24) \u2013 Open-source AI search and chat over private data",
+      "created_at": "2024-02-22T14:20:15Z"
+    },
+    {
+      "objectID": "39792136",
+      "title": "Launch HN: DryMerge (YC W24) \u2013 Automate Workflows with Plain English",
+      "created_at": "2024-03-22T16:15:53Z"
+    },
+    {
+      "objectID": "39782213",
+      "title": "Launch HN: Soundry AI (YC W24) \u2013 Music sample generator for music creators",
+      "created_at": "2024-03-21T18:09:18Z"
+    },
+    {
+      "objectID": "39682183",
+      "title": "Launch HN: Glide (YC W24) \u2013 AI-assisted technical design docs",
+      "created_at": "2024-03-12T17:21:06Z"
+    },
+    {
+      "objectID": "39302870",
+      "title": "Launch HN: AgentHub (YC W24) \u2013 A no-code automation platform",
+      "created_at": "2024-02-08T15:17:05Z"
+    },
+    {
+      "objectID": "39867757",
+      "title": "Launch HN: Lumona (YC W24) \u2013 Product search based on Reddit and YouTube reviews",
+      "created_at": "2024-03-29T19:04:04Z"
+    },
+    {
+      "objectID": "39769412",
+      "title": "Launch HN: CamelQA (YC W24) \u2013 AI that tests mobile apps",
+      "created_at": "2024-03-20T17:13:07Z"
+    },
+    {
+      "objectID": "39842617",
+      "title": "Launch HN: PointOne (YC W24) \u2013 Automated time tracking for lawyers",
+      "created_at": "2024-03-27T18:10:57Z"
+    },
+    {
+      "objectID": "39755927",
+      "title": "Launch HN: Okapi (YC W24) \u2013 A new, flexible CRM with good UX",
+      "created_at": "2024-03-19T14:14:24Z"
+    },
+    {
+      "objectID": "39632872",
+      "title": "Launch HN: SiLogy (YC W24) \u2013 Chip design and verification in the cloud",
+      "created_at": "2024-03-07T18:38:22Z"
+    },
+    {
+      "objectID": "39513054",
+      "title": "Launch HN: Delve (YC W24) \u2013 HIPAA compliance as a service",
+      "created_at": "2024-02-26T16:17:54Z"
+    },
+    {
+      "objectID": "39641105",
+      "title": "Launch HN: Relari (YC W24) \u2013 Identify the root cause of problems in LLM apps",
+      "created_at": "2024-03-08T14:00:09Z"
+    },
+    {
+      "objectID": "39706253",
+      "title": "Launch HN: Meticulate (YC W24) \u2013 LLM pipelines for business research",
+      "created_at": "2024-03-14T16:51:23Z"
+    },
+    {
+      "objectID": "39907073",
+      "title": "Launch HN: Creo (YC W24) \u2013 Build internal tools with NextJS and AI",
+      "created_at": "2024-04-02T15:43:56Z"
+    },
+    {
+      "objectID": "39841956",
+      "title": "Launch HN: Patchwork (YC W24) \u2013 Team communication based on feeds, not chat",
+      "created_at": "2024-03-27T17:20:43Z"
+    },
+    {
+      "objectID": "39853474",
+      "title": "Launch HN: Eggnog (YC W24) \u2013 AI videos with consistent characters",
+      "created_at": "2024-03-28T16:14:16Z"
+    },
+    {
+      "objectID": "39618640",
+      "title": "Launch HN: Circleback (YC W24) \u2013 Tooling to make meetings more efficient",
+      "created_at": "2024-03-06T17:50:41Z"
+    },
+    {
+      "objectID": "39591972",
+      "title": "Launch HN: Just words (YC W24) \u2013 Optimize your product's copy for user growth",
+      "created_at": "2024-03-04T16:03:45Z"
+    },
+    {
+      "objectID": "39828058",
+      "title": "Launch HN: CommodityAI (YC W24) \u2013 Shipment management for commodity traders",
+      "created_at": "2024-03-26T14:12:16Z"
+    },
+    {
+      "objectID": "39854921",
+      "title": "Launch HN: Thorntale (YC W24) \u2013 Presentation software that works with your data",
+      "created_at": "2024-03-28T17:39:17Z"
+    },
+    {
+      "objectID": "36324824",
+      "title": "Apply with Me to YC W24 in the Next 100 Days and Build the OnlyFans of Trading",
+      "created_at": "2023-06-14T12:25:34Z"
+    },
+    {
+      "objectID": "39844470",
+      "title": "Show HN: sync. (YC W24) \u2013 an API for fast and affordable lip-sync at scale",
+      "created_at": "2024-03-27T20:54:18Z"
+    },
+    {
+      "objectID": "39237523",
+      "title": "Show HN: Brainbase (YC W24) \u2013 ship enterprise grade AI features in minutes",
+      "created_at": "2024-02-03T04:25:58Z"
+    },
+    {
+      "objectID": "39291292",
+      "title": "Velorum Therapeutics: Powerful cancer drugs that starve tumors (YC W24)",
+      "created_at": "2024-02-07T17:24:08Z"
+    },
+    {
+      "objectID": "37959843",
+      "title": "Duro \u2013 a marketplace for on-demand gym services (YC W24 Applicant)",
+      "created_at": "2023-10-20T18:39:43Z"
+    },
+    {
+      "objectID": "36815163",
+      "title": "Missed the \u201cAI\u201d deadline for the YC W24 interviews, so here's my demo",
+      "created_at": "2023-07-21T15:44:17Z"
+    },
+    {
+      "objectID": "39302973",
+      "title": "Velorum Therapeutics: Powerful cancer drugs that starve tumors (YC W24)",
+      "created_at": "2024-02-08T15:24:24Z"
+    },
+    {
+      "objectID": "38159043",
+      "title": "Anyone got an interview mail for YC W24?",
+      "created_at": "2023-11-06T05:00:10Z"
+    },
+    {
+      "objectID": "37518638",
+      "title": "Any solo-founders applying to YC W24, let's make a discord?",
+      "created_at": "2023-09-15T04:59:51Z"
+    },
+    {
+      "objectID": "36341147",
+      "title": "YC W24 early applications have opened up",
+      "created_at": "2023-06-15T14:36:09Z"
+    },
+    {
+      "objectID": "39808626",
+      "title": "Ask HN: My dream but fuck how to achieve anything?",
+      "created_at": "2024-03-24T17:23:15Z"
+    },
+    {
+      "objectID": "37749143",
+      "title": "Get feedback on your YC application from AI Michael / Sam",
+      "created_at": "2023-10-03T08:06:18Z"
+    },
+    {
+      "objectID": "38945658",
+      "title": "YC No Longer Backs Innovation",
+      "created_at": "2024-01-11T00:27:23Z"
+    }
+  ]
+}

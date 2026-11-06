@@ -1,0 +1,22 @@
+{
+  "amount_policy": "Preqin amount semantics UNCONFIRMED (WRDS dictionary descriptions are all None; vendor glossary pages are empty). No amount is recorded anywhere by this repair.",
+  "amounts_written": 0,
+  "counts": {
+    "changed": 25,
+    "cohort": 240,
+    "resolved": 238,
+    "unresolved": 2
+  },
+  "external_api_calls": 0,
+  "frozen_funding_y_v1_untouched": {
+    "results/verified/funding_y_v1/company_labels.csv": "889aa20da5dfcf08c4147f3fadee417b28ae7735bdb199732701be8cd637b366",
+    "results/verified/funding_y_v1/manifest.json": "a016ec224d9cae906052ebb2db77da6e35d6dc9eb96f16f71e552ab5afea73a8"
+  },
+  "generated_for_commit_input": "see git log; this file records INPUT hashes only",
+  "inputs": {
+    "data/processed/w24_crosswalk.csv": "b5151319062ccc1fcd52f9622f2749ba150c87f76783979b51ace86da3066520",
+    "data/processed/w24_raw_outcomes_24m.csv": "11f10ed0a021971f0cdad3b182d2fb37c38b907f1413358bb07ba089758812ec",
+    "data/processed/w24_spreadsheet_2024-03-25.csv": "21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76",
+    "data/processed/yc2024_monthly.csv": "1175af0ead3329beabe07f6ef54fb8682e4987805df7a98d787a33e1ca513794"
+  }
+}

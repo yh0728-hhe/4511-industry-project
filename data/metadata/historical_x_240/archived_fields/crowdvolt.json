@@ -1,0 +1,46 @@
+{
+  "source_url": "https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/crowdvolt",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302100819",
+  "original_company_name": "CrowdVolt",
+  "original_yc_url": "https://www.ycombinator.com/companies/crowdvolt",
+  "body_sha256": "b9a358c8ccbe248658b5354afa9395b796f4b091e262ac83d3440fc4a46d52c9",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "A social platform to exchange rave and EDM tickets.",
+  "product_description_excerpt": "CrowdVolt enables fans to exchange tickets to live events via a two-sided, bid-ask style marketplace, starting with raves & EDM concerts. Think StockX, but for tickets. Contact us at founders@crowdvolt.com",
+  "tags": [
+    "marketplace",
+    "entertainment",
+    "social-network",
+    "music",
+    "ticketing"
+  ],
+  "team_size": 3,
+  "year_founded": 2024,
+  "location": "NY",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Max Hammer",
+      "title": null,
+      "bio_excerpt": "Co-Founder and CEO of CrowdVolt (W24)",
+      "linkedin_url": "https://linkedin.com/in/max-hammer-2360571b2"
+    },
+    {
+      "name": "Josh Karol",
+      "title": null,
+      "bio_excerpt": "I'm originally from Connecticut and am a Co-Founder and the CTO at",
+      "linkedin_url": "https://www.linkedin.com/in/josh-karol-4b1a97143/"
+    },
+    {
+      "name": "Aria Mohseni",
+      "title": null,
+      "bio_excerpt": "Co-Founder at CrowdVolt",
+      "linkedin_url": "https://linkedin.com/in/ariamohseni"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

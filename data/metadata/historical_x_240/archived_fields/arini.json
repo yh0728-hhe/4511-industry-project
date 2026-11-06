@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/arini",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190640",
+  "original_company_name": "Arini",
+  "original_yc_url": "https://www.ycombinator.com/companies/arini",
+  "body_sha256": "b7a84f8650f7f4a7c926cb28caba03623a06d23099afb67519dfd93bbbb1b270",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI receptionist for dentists",
+  "product_description_excerpt": "Arini is an AI receptionist for dentists that answers phone calls, and schedules appointments. Most dental appointments are scheduled over the phone by overworked receptionists who put patients on hold and miss a third of incoming calls. This costs clinics a 15% loss in revenue. Private equity investment fueled large dental groups to acquire thousands of clinics in the past few years. We are selling",
+  "tags": [
+    "artificial-intelligence",
+    "health-tech",
+    "dental",
+    "call-center",
+    "conversational-ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Abdul Jamjoom",
+      "title": null,
+      "bio_excerpt": "Co-founder at Arini. Previously, I was as an early engineer at Threads",
+      "linkedin_url": "https://linkedin.com/in/abduljamjoom"
+    },
+    {
+      "name": "Rami Rustom",
+      "title": null,
+      "bio_excerpt": "Building AI receptionists for dentists at Arini. Previously Eng + AI @",
+      "linkedin_url": "https://linkedin.com/in/ramirustom"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,46 @@
+{
+  "source_url": "https://web.archive.org/web/20240324034306id_/https://www.ycombinator.com/companies/million-js",
+  "capture_date": "2024-03-24",
+  "capture_timestamp": "20240324034306",
+  "original_company_name": "Million.js",
+  "original_yc_url": "https://www.ycombinator.com/companies/million-js",
+  "body_sha256": "68d6ed54b6bd082c870e2aaeaea2a8298de20ad8e524e65f64bcf78b6e7e4c07",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Copilot for optimizing web performance",
+  "product_description_excerpt": "Million.js is an open source tool that makes React.js 70% faster. We want to make Million a web embed that allows developers to select and ask why parts of a page are slow and automatically generate a GitHub pull request with a fix using AI. Today, most developers spend weeks trying to comprehend flame graphs and execution traces, debug with frustration, and give up. We",
+  "tags": [
+    "developer-tools",
+    "open-source",
+    "web-development",
+    "ai-assistant",
+    "ml"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Aiden Bai",
+      "title": null,
+      "bio_excerpt": "I work on Million.js! I love to talk about all things web",
+      "linkedin_url": "https://linkedin.com/in/aidenbai"
+    },
+    {
+      "name": "Nisarg Patel",
+      "title": null,
+      "bio_excerpt": "Working on infrastructure and web performance",
+      "linkedin_url": "https://linkedin.com/in/nisargptel"
+    },
+    {
+      "name": "John Yang",
+      "title": null,
+      "bio_excerpt": "Making Million.js",
+      "linkedin_url": "https://www.linkedin.com/in/john-yang-0985b619a/"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "candidate_evidence_present": 2,
+    "cohort": 240,
+    "entity_uncertain": 65,
+    "form_d_confirmed_label_caveat": 2,
+    "frozen_confirmed_positive": 53,
+    "frozen_unknown": 187,
+    "in_pilot_20": 20,
+    "missing_detail_cache_present": 2,
+    "no_observed_event": 187,
+    "rows_with_two_or_more_reason_flags": 189
+  },
+  "explicitly_not_this": [
+    "Not a change to Funding Y v1. results/verified/funding_y_v1/ is untouched by this script (frozen_* columns are read verbatim).",
+    "Not a label promotion. candidate_evidence_present never changes frozen_confirmed_positive / frozen_observation_status for the same row.",
+    "Not an assertion that the Lantern or Argon AI Form D match is false -- form_d_confirmed_label_caveat carries the project's existing caveat text forward, it does not resolve it.",
+    "Not a Preqin/WRDS/PitchBook query. Zero network/API/model calls were made by this script; see next_source_plan.md for their status as reported by the prior offline probe.",
+    "Not an expansion beyond the 20-company pilot or the 12 companies rematch_offline.py already covered."
+  ],
+  "generated_by": "src/funding/build_funding_gap_inventory.py",
+  "input_hashes": {
+    "data/interim/identifier_repair/identifier_repair_before_after.csv": "037a8d00b829f8b181d4f8704fc9763258e1491b5a654945b849a543d2682272",
+    "data/interim/identifier_repair/identifier_repair_unresolved.csv": "86989fbbc611c77533d4b671471223620b07286326761a05d89f5524c06310ad",
+    "data/interim/rematch_offline/rematch_entity_resolution.csv": "02946cc814d66733f613d1c1ac3d0cf13b5ca2b08de82a7d6dede2b29d80a629",
+    "data/interim/rematch_offline/rematch_gaps.csv": "a681a6340d783abced3f546164f9664146b50f5d30926a914ae681afb0bd7e31",
+    "data/metadata/funding_supplement/delve-2025-07-22-series_a.json": "25950e4d2e053c0c21138ecad19c30f80a836a45e919ef385b2144d5fafc4343",
+    "data/metadata/funding_supplement/gumloop-2025-01-10-series_a.json": "f02ce94040a1450a345b073fd5bacb7b726661c3201f4c895cdf1c0d2595bbec",
+    "data/metadata/funding_supplement/manifest.json": "12270a8a95cad305674e72101edb7e61707f6071d94d867b8eea0533217d509d",
+    "data/metadata/pilot_20/pilot_20_selection.csv": "6951f1cc26c2516dab2eb59c9decc98413d69e462833d0a035d195e89d39a6d8",
+    "data/processed/w24_raw_outcomes_24m.csv": "11f10ed0a021971f0cdad3b182d2fb37c38b907f1413358bb07ba089758812ec",
+    "results/verified/funding_y_v1/company_labels.csv": "889aa20da5dfcf08c4147f3fadee417b28ae7735bdb199732701be8cd637b366",
+    "results/verified/funding_y_v1/manifest.json": "a016ec224d9cae906052ebb2db77da6e35d6dc9eb96f16f71e552ab5afea73a8"
+  },
+  "network_requests_made": 0,
+  "pilot_20_company_ids": [
+    "RM-assembly-2",
+    "RM-quantic",
+    "RM-sevnai",
+    "RM-trellis",
+    "aqua-voice",
+    "browser-buddy",
+    "camelai",
+    "cora",
+    "ellipsis",
+    "fluently",
+    "inspectmind-ai",
+    "newton",
+    "offdeal",
+    "open",
+    "paradigm",
+    "preloop",
+    "scritch",
+    "stitch-technologies",
+    "voxops-ai",
+    "yoneda-labs"
+  ],
+  "purpose": "AUTO30-MEAL-COVERAGE-RESULT per-company research-gap inventory",
+  "reason_flags_are_non_exclusive": true,
+  "window_end_inclusive": "2026-04-04",
+  "window_start_exclusive": "2024-04-04"
+}

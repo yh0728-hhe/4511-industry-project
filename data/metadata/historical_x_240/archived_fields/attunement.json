@@ -1,0 +1,34 @@
+{
+  "source_url": "https://web.archive.org/web/20240211224031id_/https://www.ycombinator.com/companies/attunement",
+  "capture_date": "2024-02-11",
+  "capture_timestamp": "20240211224031",
+  "original_company_name": "Attunement",
+  "original_yc_url": "https://www.ycombinator.com/companies/attunement",
+  "body_sha256": "2e27b96b98aa9aba0bed4b0f6df51f46966da96f7a23fc8d870633c33f0d5336",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Digital Therapeutics for Better Behavioral Health",
+  "product_description_excerpt": "Patient monitoring and treatment recommendation platform for behavioral health.",
+  "tags": [],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": null,
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Angie Muller",
+      "title": null,
+      "bio_excerpt": "Co-founder and CEO at Attunement.ai: Digital Therapeutics for Better Behavioral Health. Graduate",
+      "linkedin_url": "https://linkedin.com/in/angiemuller"
+    },
+    {
+      "name": "Briar Smith",
+      "title": null,
+      "bio_excerpt": "Looking to disrupt mental health treatment using AI. Robotics & AI background:",
+      "linkedin_url": "https://linkedin.com/in/briar-smith"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

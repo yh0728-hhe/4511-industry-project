@@ -1,0 +1,33 @@
+{
+  "slug": "arcane",
+  "company_name": "Arcane",
+  "yc_url": "https://www.ycombinator.com/companies/arcane",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190635",
+  "archive_url": "https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/arcane",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:21:59.516949+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Farcane&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Arcane: AI powered Roblox | Y Combinator",
+  "body_sha256": "5087a5468a3e690fd506e4cd8414fe61bdacb7029d0a397e8776e5f31c3d1840",
+  "text_excerpt": "Arcane: AI powered Roblox | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Arcane Arcane AI powered Roblox Y Combinator Logo W24 Active artificial-intelligence consumer gaming social ai New York Company Jobs 0 https://arcanelabs.ai/ AI powered Roblox Arcane is building the AI powered Roblox. We allow anyone to create",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:30:40.831783+00:00"
+}

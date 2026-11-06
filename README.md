@@ -97,3 +97,30 @@ The 24-month horizon stays 2024-04-04 → 2026-04-04. It is not observable direc
 Coverage and quality: [`docs/research_log/2026-10-29_raw_outcome_coverage.md`](docs/research_log/2026-10-29_raw_outcome_coverage.md)
 Sponsor update (open the file locally to view it rendered): [`docs/updates/W24_Historical_Backtest_Update.html`](docs/updates/W24_Historical_Backtest_Update.html)
 Decisions, corrections and uncertainty sets: [`docs/research_log/2026-10-29_y_methodology_decisions.md`](docs/research_log/2026-10-29_y_methodology_decisions.md)
+
+### 2026-11-05 — Versioned financing observations and reproducible candidate
+
+Follow-on funding now has a reviewed baseline and a broader source-linked
+candidate for the locked 240-company cohort, using (2024-04-04, 2026-04-04].
+The latest candidate has **110 primary positives, 1 supplementary-only company,
+and 129 UNKNOWNs; no verified negatives**. UNKNOWN must not be encoded as zero.
+This is evidence coverage, not a measured fundraising success rate or complete
+ground truth. Dates, cross-source overlap and entity caveats remain explicit.
+
+Method, files and reproduction:
+[`2026-11-05_funding_y_observation_release.md`](docs/research_log/2026-11-05_funding_y_observation_release.md).
+Latest candidate:
+[`company_labels.csv`](results/candidates/funding_y_20261105/company_labels.csv).
+Prior inventory and design sections above remain the historical record.
+
+### 2026-11-05 — Full-cohort Historical X first collection
+
+All **240** original cohort rows now have separate historical-data packets.
+**57** companies have parsed pre-cutoff archived YC profiles; **24** have exact
+pre-cutoff HN title matches, for **75** distinct companies with dated sources.
+**165** still have historical evidence gaps. Internet Archive rate limiting
+stopped collection; failures are not coded as source absence. No packet is yet
+model-ready, and no investment ranking has been produced.
+
+Data and cautions: [`historical_x_240/README.md`](data/processed/historical_x_240/README.md).
+Detailed record: [`2026-11-05_historical_x_full_cohort.md`](docs/research_log/2026-11-05_historical_x_full_cohort.md).

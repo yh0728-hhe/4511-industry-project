@@ -1,0 +1,33 @@
+{
+  "slug": "goldenbasis",
+  "company_name": "GoldenBasis",
+  "yc_url": "https://www.ycombinator.com/companies/goldenbasis",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190635",
+  "archive_url": "https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/goldenbasis",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:23:05.254172+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fgoldenbasis&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "GoldenBasis: Modern back-office software for brokerages | Y Combinator",
+  "body_sha256": "219002cd7b3562487bd35ee6e92e4aba18f6edb9607c0b950f69e74b3b7d36b1",
+  "text_excerpt": "GoldenBasis: Modern back-office software for brokerages | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a GoldenBasis GoldenBasis Modern back-office software for brokerages Y Combinator Logo W24 Active fintech api enterprise-software infrastructure operations San Francisco Company Jobs 0 https://www.goldenbasis.com Modern back-office software for brokerages GoldenBasis makes modern back-office software for",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:33:03.407136+00:00"
+}

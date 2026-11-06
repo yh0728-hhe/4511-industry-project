@@ -1,0 +1,34 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172926id_/https://www.ycombinator.com/companies/starlight-charging",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172926",
+  "original_company_name": "Starlight Charging",
+  "original_yc_url": "https://www.ycombinator.com/companies/starlight-charging",
+  "body_sha256": "e14951422b928548f64400af9e864dd90d062edba4015baae2c5fa5c1cb817fd",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "An EV charger in every parking space",
+  "product_description_excerpt": "Starlight Charging makes a new type of EV charging system specifically for multifamily buildings, offices, and hotels. It uses power-sharing mesh technology so property managers can install chargers for 1/10th the cost and see a positive ROI after just 8 months.",
+  "tags": [
+    "proptech",
+    "climate",
+    "energy",
+    "electric-vehicles",
+    "automotive"
+  ],
+  "team_size": 1,
+  "year_founded": 2022,
+  "location": "Austin, TX",
+  "founder_total_on_page": 1,
+  "founders": [
+    {
+      "name": "Andrew Kouri",
+      "title": null,
+      "bio_excerpt": "Second-time founder w/exit, early Tesla autopilot engineer, reported to Elon Musk, degree",
+      "linkedin_url": "https://linkedin.com/in/andrewkouri"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,36 @@
+{
+  "version": "Funding Y v1",
+  "cohort": 240,
+  "recentfunding_statuses": {
+    "AMBIGUOUS_MATCH": 38,
+    "COMPANY_FOUND_NO_EVENT_RETURNED": 127,
+    "COMPANY_NOT_FOUND": 27,
+    "FUNDING_EVENT_FOUND": 48
+  },
+  "recentfunding_in_window_events": 63,
+  "confirmed_positive_companies": 53,
+  "unknown_companies": 187,
+  "deduplicated_events": 67,
+  "window": "2024-04-04 exclusive; 2026-04-04 inclusive",
+  "api_calls": 0,
+  "trellis_status": "UNRESOLVED_DETAIL_EVIDENCE_UNAVAILABLE",
+  "limitations": [
+    "missing is not zero",
+    "confirmed-positive only; no verified negatives",
+    "Form D supplementary, not primary ground truth",
+    "deduplication heuristic; first Form D filing only, not every filing",
+    "not suitable for ordinary binary accuracy or unfunded labels",
+    "Trieve known missing round; source recall incomplete"
+  ],
+  "hash_method": "SHA256 of UTF-8 json.dumps(parsed CSV rows, sort_keys=True)",
+  "input_sha256": {
+    "data/interim/funding_source_benchmark/company_identifiers.csv": "ca6dc92db0cdf9095224ada68769e22fd657fd8734dd96c811c228f5ce9bb852",
+    "data/interim/funding_source_benchmark/funding_events_deduplicated.csv": "e5bf693bc1ba2ab16cbca1dea49e0f8367ab514cb3348a074a613f7561d20e35",
+    "data/interim/funding_source_benchmark/funding_source_coverage.csv": "1c13363f433c6a07bd16f008de253394d92d2c815741dc232952ccd3fe71efc1",
+    "data/interim/funding_source_benchmark/funding_source_overlap.csv": "0b0593457390b464edd9302843fe6d221298335b05bcc496cfecf14faca90e40",
+    "data/interim/funding_source_benchmark/recentfunding_company_matches.csv": "2262f93c5ec1ca574c25bbbd5700b0a0f2fdb9a146ab056b394212783c29c2ec",
+    "data/interim/funding_source_benchmark/recentfunding_events_raw.csv": "f831980c56a5bbe3989d7170393a17954424eb2fd62d3d2b4da49a962c2d49be",
+    "data/interim/funding_source_benchmark/recentfunding_yc_roster.csv": "435bb5943cfd0e601a780597c4c532a53bb2187f2cb7a96755574d09eed1e73c",
+    "data/interim/funding_source_benchmark/validation_sample.csv": "3e76fa21157522f1a1e52bcc1b4c94f2f7ac8cdd524983ce5837dc9ffec8b339"
+  }
+}

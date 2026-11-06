@@ -1,0 +1,42 @@
+{
+  "company_id": "RM-delve",
+  "current_domain": "delve.co",
+  "historical_domain": "getdelve.com",
+  "panel_input": "data/processed/yc2024_monthly.csv",
+  "identity_status": "CONFIRMED",
+  "event_date": "2025-07-22",
+  "event_date_kind": "ANNOUNCEMENT_DATE",
+  "round_type": "SERIES_A",
+  "amount_as_stated": "$32M",
+  "numeric_amount_usd": null,
+  "amount_note": "Currency is not explicitly established by supplied text; an observed financing event does not require a known amount.",
+  "retrieved_on": "2026-11-05",
+  "retrieval_method": "Coordinator web tool opened original company, investor and wire-distributed company announcement; structured transcription, not a full-page archive.",
+  "primary_url": "https://delve.co/blog/series-a",
+  "sources": [
+    {
+      "url": "https://delve.co/blog/series-a",
+      "publication_date": "2025-07-22",
+      "publisher": "Delve",
+      "fact": "On the company's own delve.co domain, CEO Karun Kaushik announces a Series A led by Insight Partners; company footer identifies Delve Technologies Inc., San Francisco."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/delve-raises-32m-series-a-to-build-ai-agents-for-compliance-302510121.html",
+      "publication_date": "2025-07-22",
+      "publisher": "PRNewswire carrying a Delve-issued release",
+      "fact": "About Delve names Karun Kaushik and Selin Kocalar and explicitly links to https://www.delve.co/. This closes the domain-binding gap in the earlier limited transcription."
+    },
+    {
+      "url": "https://www.insightpartners.com/ideas/scaling-ai-native-compliance-how-delve-is-saving-companies-time-and-money-on-compliance-busywork/",
+      "publication_date": "2025-07-23",
+      "publisher": "Insight Partners",
+      "fact": "The lead investor confirms leading Delve's Series A and identifies founders Karun and Selin. It corroborates the same round, not an additional event."
+    }
+  ],
+  "limits": [
+    "Current page capture is after the Y window; publication dates and the event window are recorded separately.",
+    "Prior 2024 seed is mentioned without a precise date and is not added.",
+    "This evidence is for Y only; it must not enter pre-cutoff Historical X.",
+    "Earlier approved candidate supplement remains unchanged as a historical snapshot."
+  ]
+}

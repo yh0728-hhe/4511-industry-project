@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/somn",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172927",
+  "original_company_name": "Somn",
+  "original_yc_url": "https://www.ycombinator.com/companies/somn",
+  "body_sha256": "c3ced87e40d0b174cb9a2f81568cf9fc544b7b667a6a15edf6f82c8388aed1e1",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Human-like AI receptionists for clinics",
+  "product_description_excerpt": "We build human-like AI receptionists for healthcare clinics. Our bots can perform tasks like receiving faxed referral forms, calling referring providers to retrieve missing information, and calling patients to book appointments. Here's what it sounds like: https://www.youtube.com/watch?v=zleutBr9xJE",
+  "tags": [
+    "b2b",
+    "healthcare",
+    "operations",
+    "ai",
+    "ai-assistant"
+  ],
+  "team_size": 2,
+  "year_founded": 2022,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Shawn Shivdat",
+      "title": null,
+      "bio_excerpt": "CEO & Co-founder at Somn. Studied Computational Neuroscience at Harvard. Previously built",
+      "linkedin_url": "https://linkedin.com/in/shawn-shivdat"
+    },
+    {
+      "name": "Deniz Sert",
+      "title": null,
+      "bio_excerpt": "CTO and Co-founder at Somn. Graduated MIT with a Bachelor's in Computer",
+      "linkedin_url": "https://linkedin.com/in/dsert"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

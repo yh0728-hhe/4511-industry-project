@@ -1,0 +1,4 @@
+company_id,origin,origin_row,reason
+argon-ai-inc,v1_cluster,3,"Form-D-only issuer-state mismatch; unresolved, not proof of a false match"
+lantern-2,v1_cluster,33,"Form-D-only identity conflict (inactive entity versus later filing, state mismatch)"
+tesseral,v1_cluster,63,RecentFunding name-only identity match; source publishes no domain

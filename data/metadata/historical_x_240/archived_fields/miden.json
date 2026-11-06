@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240211224030id_/https://www.ycombinator.com/companies/miden",
+  "capture_date": "2024-02-11",
+  "capture_timestamp": "20240211224030",
+  "original_company_name": "Miden",
+  "original_yc_url": "https://www.ycombinator.com/companies/miden",
+  "body_sha256": "91dccf7666e9c6408f9cbef7a2c3f5ace79460e2ce8680aed7d552c93a5ab163",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Miden enables businesses in Sub-Saharan Africa to swiftly launch a\u2026",
+  "product_description_excerpt": "",
+  "tags": [
+    "fintech",
+    "b2b",
+    "apis"
+  ],
+  "team_size": 8,
+  "year_founded": 2023,
+  "location": "Ikeja, Nigeria",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Okiemute Avworhokai",
+      "title": null,
+      "bio_excerpt": "Building a platform to empower businesses in Sub-Saharan Africa to launch financial",
+      "linkedin_url": "https://linkedin.com/in/okiemute-d-avworhokai-5b52a7a6?lipi=urn%253Ali%253Apage%253Ad_flagship3_profile_view_base_contact_details%253BgNZt1BAJRYa%252FInOsfn4KRw%253D%253D"
+    },
+    {
+      "name": "Ini Udoh",
+      "title": null,
+      "bio_excerpt": "Chief Technology Officer (CTO) at Tyrus Technologies, a B2B fintech specializing in",
+      "linkedin_url": "https://linkedin.com/in/iudoh"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "drymerge",
+  "company_name": "DryMerge",
+  "yc_url": "https://www.ycombinator.com/companies/drymerge",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-02-22",
+  "capture_timestamp": "20240222151720",
+  "archive_url": "https://web.archive.org/web/20240222151720id_/https://www.ycombinator.com/companies/drymerge",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fdrymerge&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "DryMerge: Automate work with natural language. | Y Combinator",
+  "body_sha256": "1fc80aa77c8f4f6f0ccf8b636bd86c60b3d0279e6af905c5e8a525ed1cde6b45",
+  "text_excerpt": "DryMerge: Automate work with natural language. | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a DryMerge DryMerge Automate work with natural language. Y Combinator Logo W24 Active artificial-intelligence saas api automation infrastructure San Francisco Company Jobs 0 https://www.drymerge.com Automate work with natural language. We're making a platform that lets",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:22:49.411742+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "apriora",
+  "company_name": "Apriora",
+  "yc_url": "https://www.ycombinator.com/companies/apriora",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190642",
+  "archive_url": "https://web.archive.org/web/20240402190642id_/https://www.ycombinator.com/companies/apriora",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:21:56.836570+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fapriora&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Apriora: Your AI recruiter for interviewing and identifying the best talent | Y Combinator",
+  "body_sha256": "63959b41f48a2a4d4ef56f69af278586f5164e58fa05a788125357069f6c160f",
+  "text_excerpt": "Apriora: Your AI recruiter for interviewing and identifying the best talent | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Apriora Apriora Your AI recruiter for interviewing and identifying the best talent Y Combinator Logo W24 Active saas b2b recruiting hr-tech ai San Francisco Company Jobs 1 https://www.apriora.ai Your",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:30:34.638616+00:00"
+}

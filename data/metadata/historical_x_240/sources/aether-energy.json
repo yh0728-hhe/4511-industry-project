@@ -1,0 +1,23 @@
+{
+  "slug": "aether-energy",
+  "company_name": "Aether Energy",
+  "yc_url": "https://www.ycombinator.com/companies/aether-energy",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-03-03",
+  "capture_timestamp": "20240303014126",
+  "archive_url": "https://web.archive.org/web/20240303014126id_/https://www.ycombinator.com/companies/aether-energy",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Faether-energy&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Aether Energy: Solar and roofing workflow software for solar installers worldwide | Y Combinator",
+  "body_sha256": "969234457431ab183310e812802ae66466be30fd96a16959a27561fa303e4f90",
+  "text_excerpt": "Aether Energy: Solar and roofing workflow software for solar installers worldwide | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Startup Job Guide YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for X2025 batch. Apply Home \u203a Companies \u203a Aether Energy Aether Energy Solar and roofing workflow software for solar installers worldwide Y Combinator Logo W24 Active artificial-intelligence saas solar-power climate renewable-energy San Francisco Company Jobs 0 https://www.aethernrg.com/ Solar and roofing workflow software for solar installers worldwide Aether is an",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:21:52.499136+00:00"
+}

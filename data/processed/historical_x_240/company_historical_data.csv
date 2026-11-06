@@ -1,0 +1,241 @@
+﻿company_id,company_name_at_decision,source_status,archive_query_status,archived_capture_date,archive_url,hn_pre_cutoff_sources,historical_product,historical_team_size,historical_founder_names,historical_location,market_size_verified,model_ready
+https://www.ycombinator.com/companies/abel,Abel,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-04,https://web.archive.org/web/20240404185826id_/https://www.ycombinator.com/companies/abel,0,Transforming document review for litigation teams,2,Sean Safahi|Chenyu Li,San Francisco,0,0
+https://www.ycombinator.com/companies/adagy-robotics,Adagy Robotics,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/aedilic,Aedilic,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-18,https://web.archive.org/web/20240318201743id_/https://www.ycombinator.com/companies/aedilic,0,"Faster, cheaper drone delivery.",2,Nicholas Waltz|Lukas Schneider,Palo Alto,0,0
+https://www.ycombinator.com/companies/aether-energy,Aether Energy,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-03,https://web.archive.org/web/20240303014126id_/https://www.ycombinator.com/companies/aether-energy,0,Solar and roofing workflow software for solar installers worldwide,4,Zayne Sagar|Shelby Bons,San Francisco,0,0
+https://www.ycombinator.com/companies/agenthub,AgentHub,DATED_HN_TITLE_ONLY,OK_NO_CAPTURE_RETURNED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/agentic-labs-2,Agentic Labs,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/aidy,Aidy,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-04,https://web.archive.org/web/20240404144030id_/https://www.ycombinator.com/companies/aidy,0,We help businesses and nonprofits apply for grants,3,Max Williamson|Peter Crocker|Greg Miller,San Francisco,0,0
+https://www.ycombinator.com/companies/airfront,Airfront,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-09,https://web.archive.org/web/20240309224600id_/https://www.ycombinator.com/companies/airfront,0,AI-first email product with built-in automations,2,Joanne Wang|Tommy Guo,San Francisco,0,0
+https://www.ycombinator.com/companies/alacrity,Alacrity,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/alai,Alai,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/alai,0,AI powered presentations,2,Krishna Gupta|Anmol Sood,San Francisco,0,0
+https://www.ycombinator.com/companies/amber-ai,Amber AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-06,https://web.archive.org/web/20240306052834id_/https://www.ycombinator.com/companies/amber-ai,0,Raising NRR for SMB SaaS to Enterprise Levels,2,Helen Wu|Oliver Zou,San Francisco,0,0
+https://www.ycombinator.com/companies/anaphero,Anaphero,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-05,https://web.archive.org/web/20240305055943id_/https://www.ycombinator.com/companies/anaphero,0,Automating patient-facing tasks with multimodal AI,2,Ryan Gallagher|Jeffrey Lamothe,San Francisco,0,0
+https://www.ycombinator.com/companies/andy-ai,Andy AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-04,https://web.archive.org/web/20240404080617id_/https://www.ycombinator.com/companies/andy-ai,0,Faster clinical documentation for home health nurses,2,Tiantian Zha|Max Akhterov,San Francisco,0,0
+https://www.ycombinator.com/companies/apriora,Apriora,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190642id_/https://www.ycombinator.com/companies/apriora,0,Your AI recruiter for interviewing and identifying the best talent,3,Aaron Wang|John Rytel,San Francisco,0,0
+https://www.ycombinator.com/companies/aqua-voice,Aqua Voice,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-28,https://web.archive.org/web/20240328214702id_/https://www.ycombinator.com/companies/aqua-voice,1,Voice-only document editor,3,Finnian Brown|Jack McIntire,San Francisco,0,0
+https://www.ycombinator.com/companies/arcane,Arcane,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/arcane,0,AI powered Roblox,2,Rohan Mehta|Lucas Switzer,New York,0,0
+https://www.ycombinator.com/companies/argon-ai-inc,"Argon AI, Inc.",HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/arini,Arini,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/arini,0,AI receptionist for dentists,2,Abdul Jamjoom|Rami Rustom,San Francisco,0,0
+https://www.ycombinator.com/companies/artisan-ai,Artisan AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-24,https://web.archive.org/web/20240324034312id_/https://www.ycombinator.com/companies/artisan-ai,0,Creating human-like AI Employees called Artisans and the SaaS OS,11,Jaspar Carmichael-Jack|Rupert Dodkins,San Francisco,0,0
+https://www.ycombinator.com/companies/artos,Artos,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/artos,0,Turning science into regulatory submissions,2,Josh Kim|Varun Patel,San Francisco,0,0
+https://www.ycombinator.com/companies/assembly-2,Assembly,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/attunement,Attunement,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-11,https://web.archive.org/web/20240211224031id_/https://www.ycombinator.com/companies/attunement,0,Digital Therapeutics for Better Behavioral Health,2,Angie Muller|Briar Smith,,0,0
+https://www.ycombinator.com/companies/basalt-tech,Basalt Tech,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/basepilot,Basepilot,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/betterbasket,BetterBasket,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/bilanc,Bilanc,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/bitesight,BiteSight,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/blacksmith,Blacksmith,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/blume-benefits,Blume Benefits,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/bondcenter,BondCenter,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/brainbase,Brainbase,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/browser-buddy,Browser Buddy,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/buster,Buster,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/carma,Carma,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/carousel-technologies,Carousel Technologies,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/carousel-technologies,0,Change-tracking for PowerPoint & Excel,3,Jude Rizzo|Daniel Wolf,New York,0,0
+https://www.ycombinator.com/companies/celest,Celest,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/centauri-ai,Centauri AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190703id_/https://www.ycombinator.com/companies/centauri-ai,0,The Modern ETL and Data Science Platform for Finance,3,He Lu|Milan Shen|James Wu,"Alameda, CA",0,0
+https://www.ycombinator.com/companies/centralize,Centralize,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/centralize,0,Analyze customer conversations with AI to upsell more and slash churn,2,Rachit Kataria|Will Wang,San Francisco,0,0
+https://www.ycombinator.com/companies/circleback,Circleback,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-28,https://web.archive.org/web/20240328202313id_/https://www.ycombinator.com/companies/circleback,1,AI-powered meeting notes and workflows,2,Ali Haghani|Kevin Jacyna,San Francisco,0,0
+https://www.ycombinator.com/companies/clarum,Clarum,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/cleva,Cleva,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/cloudcruise,CloudCruise,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/cocrafter,CoCrafter,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190642id_/https://www.ycombinator.com/companies/cocrafter,0,B2B construction marketplace to match contractors and subcontractors.,3,Johannes Lutz|Philipp Rollwage|Annabell V.,"Munich, Germany",0,0
+https://www.ycombinator.com/companies/codeant-ai,CodeAnt AI,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/commodityai,CommodityAI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190641id_/https://www.ycombinator.com/companies/commodityai,1,AI-Powered Shipment Management for Commodity Traders,3,Philip Koenig|Daniel Cervoni|Kyle Franz,San Francisco,0,0
+https://www.ycombinator.com/companies/corefin,Corefin,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/creo,Creo,DATED_HN_TITLE_ONLY,OK_NO_CAPTURE_RETURNED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/crowdvolt,CrowdVolt,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/crowdvolt,0,A social platform to exchange rave and EDM tickets.,3,Max Hammer|Josh Karol|Aria Mohseni,NY,0,0
+https://www.ycombinator.com/companies/crux,Crux,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/crux,0,Infrastructure to build AI Copilots on Structured Data,7,Himank Jain|Atharva Padhye|Prabhat Singh,,0,0
+https://www.ycombinator.com/companies/dgi-apparel,DGI Apparel,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/dalmatian,DaLMatian,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/danswer,Danswer,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/datacurve,Datacurve,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/decipher-ai,Decipher AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/deepnight,DeepNight,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/delve,Delve,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/dianahr,DianaHR,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/dime-2,Dime,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/double-2,Double,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/draftaid,Draftaid,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/dragoneye,Dragoneye,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/dragoneye,0,Helping devs build computer vision models automatically,2,Alex Liao,New York,0,0
+https://www.ycombinator.com/companies/driver-ai,Driver AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-11,https://web.archive.org/web/20240211224031id_/https://www.ycombinator.com/companies/driver-ai,0,Understand millions of lines of code in minutes.,8,Daniel Hensley|Adam Tilton,"Austin, TX",0,0
+https://www.ycombinator.com/companies/drymerge,DryMerge,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-22,https://web.archive.org/web/20240222151720id_/https://www.ycombinator.com/companies/drymerge,1,Automate work with natural language.,2,Edward Frazer|Samuel Brashears,San Francisco,0,0
+https://www.ycombinator.com/companies/duckie,Duckie,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-28,https://web.archive.org/web/20240328192409id_/https://www.ycombinator.com/companies/duckie,0,AI engineer that resolves technical support issues,2,Valerie Li|Joel Ritossa,San Francisco,0,0
+https://www.ycombinator.com/companies/ecliptor,Ecliptor,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/eggnog,Eggnog,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-18,https://web.archive.org/web/20240318231804id_/https://www.ycombinator.com/companies/eggnog,1,Youtube for AI-generated content,2,Jitesh Maiyuran|Sam Plank,New York,0,0
+https://www.ycombinator.com/companies/ellipsis,Ellipsis,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/ellipsis,0,"Convert technical instructions into working, tested code",2,Hunter Brooks|Nick Bradford,,0,0
+https://www.ycombinator.com/companies/elodin,Elodin,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172926id_/https://www.ycombinator.com/companies/elodin,0,CI/CD for Aerospace,5,Daniel Driscoll|Tom Gurka|Andrei Khvalko|Akhil Velagapudi,San Francisco,0,0
+https://www.ycombinator.com/companies/eris-biotech,Eris Biotech,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/eris-biotech,0,Our drugs engage the immune system to fight tumors,2,Evita Weagel|Rachel Garlick,"American Fork, UT",0,0
+https://www.ycombinator.com/companies/fancave,FanCave,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/fancave,0,Powering the free agency of college sports,2,Luke Bogus|Nick Siscoe,"Roeland Park, KS",0,0
+https://www.ycombinator.com/companies/firebender,Firebender,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/fluently,Fluently,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-29,https://web.archive.org/web/20240329161922id_/https://www.ycombinator.com/companies/fluently,0,AI-powered speaking coach for calls,2,Yurii Rebryk|Stanislav Beliaev,,0,0
+https://www.ycombinator.com/companies/focal,Focal,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-01,https://web.archive.org/web/20240301200321id_/https://www.ycombinator.com/companies/focal,0,AI movie studio that converts books and screenplays into movies,2,Robert Cunningham|Felix Wang,,0,0
+https://www.ycombinator.com/companies/forge,Forge,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/forge,0,Procurement software for hardware companies,2,Emir Sahmanovic|Haris Sahmanovic,San Francisco,0,0
+https://www.ycombinator.com/companies/forge-rewards,Forge Rewards,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/forge-rewards,0,The super-app for restaurant rewards,2,Ethan Chang|Isaac Kan,San Francisco,0,0
+https://www.ycombinator.com/companies/fume,Fume,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/garage-2,Garage,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/garage-2,0,Marketplace for used firefighting equipment.,2,Martin Hunt|Alaz Sengul,,0,0
+https://www.ycombinator.com/companies/givefront,Givefront,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-04,https://web.archive.org/web/20240404144033id_/https://www.ycombinator.com/companies/givefront,0,Banking for Nonprofits,2,Matt Tengtrakool|Ethan Sayre,,0,0
+https://www.ycombinator.com/companies/glimmer,Glimmer,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-07,https://web.archive.org/web/20240307162909id_/https://www.ycombinator.com/companies/glimmer,0,AI search for massive PDFs,2,Praneeth Guduguntla|Arman Rafati,San Francisco,0,0
+https://www.ycombinator.com/companies/goldenbasis,GoldenBasis,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190635id_/https://www.ycombinator.com/companies/goldenbasis,0,Modern back-office software for brokerages,2,Grant Ackerman|Andrew Wang,San Francisco,0,0
+https://www.ycombinator.com/companies/governgpt,GovernGPT,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-04,https://web.archive.org/web/20240404185828id_/https://www.ycombinator.com/companies/governgpt,0,AI Co-pilot for Institutional Fundraising,2,Mamal Amini|Oliver Walerys,"Toronto, Canada",0,0
+https://www.ycombinator.com/companies/granza-bio,Granza Bio,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190658id_/https://www.ycombinator.com/companies/granza-bio,0,Cancer targeting attack particles,2,Ashwin Nandakumar|Ashwin Jainarayanan,San Francisco,0,0
+https://www.ycombinator.com/companies/greenboard,Greenboard,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/greptile,Greptile,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/guide-labs,Guide Labs,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/haplotype-labs,Haplotype Labs,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/hatchet-2,Hatchet,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/hazel-2,Hazel,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/healia,Healia,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/heartbyte,HeartByte,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/hemingway,Hemingway,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/heypurple,HeyPurple,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/hona-2,Hona,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/hostai,HostAI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/inquery-2,InQuery,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/infinity,Infinity,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/infinity-ai,Infinity AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/inspectmind-ai,InspectMind AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/intercept,Intercept,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/junction-bioscience,Junction Bioscience,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/kabilah,Kabilah,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/keywords-ai,Keywords AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/kiosk,Kiosk,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/konstructly,Konstructly,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/kontractify,Kontractify,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/lantern-2,Lantern,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/leaping,Leaping,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/leya,Leya,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/lucite,Lucite,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/lumina-2,Lumina,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/lumona,Lumona,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/maihem,MAIHEM,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/magic-hour,Magic Hour,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/maia,Maia,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/mango-health,Mango Health,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/manifold-freight,Manifold Freight,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/marblism,Marblism,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/markprompt,Markprompt,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/marr-labs,Marr Labs,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/mathdash,MathDash,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/meticulate,Meticulate,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/metofico,Metofico,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/miden,Miden,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-11,https://web.archive.org/web/20240211224030id_/https://www.ycombinator.com/companies/miden,0,Miden enables businesses in Sub-Saharan Africa to swiftly launch a…,8,Okiemute Avworhokai|Ini Udoh,"Ikeja, Nigeria",0,0
+https://www.ycombinator.com/companies/million-js,Million.js,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-24,https://web.archive.org/web/20240324034306id_/https://www.ycombinator.com/companies/million-js,0,Copilot for optimizing web performance,3,Aiden Bai|Nisarg Patel|John Yang,San Francisco,0,0
+https://www.ycombinator.com/companies/model-ml,Model ML,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190703id_/https://www.ycombinator.com/companies/model-ml,0,AI tool for private equity firms and investment banks.,2,Arnie Englander|Chaz Englander,"London, United Kingdom",0,0
+https://www.ycombinator.com/companies/momentic,Momentic,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-05,https://web.archive.org/web/20240305103828id_/https://www.ycombinator.com/companies/momentic,0,Automated testing with AI,2,Wei-Wei Wu|Jeff An,San Francisco,0,0
+https://www.ycombinator.com/companies/navierai,NavierAI,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/nowhouse,NowHouse,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/nuanced-inc,"Nuanced, Inc.",ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302135450id_/https://www.ycombinator.com/companies/nuanced-inc,0,We detect AI-generated content to distinguish human-authored materials,2,Ayman Nadeem|Dylan John Drover,New York,0,0
+https://www.ycombinator.com/companies/numo,Numo,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/octolane-ai,Octolane AI,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ocular-ai,Ocular AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302193342id_/https://www.ycombinator.com/companies/ocular-ai,0,"Enterprise AI, Search, and Actions for the Workplace and Engineering",2,Michael Moyo|Louis Murerwa,San Francisco,0,0
+https://www.ycombinator.com/companies/oddsview,OddsView,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/offdeal,OffDeal,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/okapi,Okapi,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/oma-care,Oma Care,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/omniai,OmniAI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/onegrep,OneGrep,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/onedoc,Onedoc,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/opencopilot,OpenCopilot,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/openfoundry,OpenFoundry,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/opencall-ai,Opencall.ai,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/openmart,Openmart,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/paradigm,Paradigm,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/parasale,Parasale,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/parcelbio,ParcelBio,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/partnerhq,PartnerHQ,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/patchwork,Patchwork,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/piramidal,Piramidal,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/pivot-robots,Pivot Robots,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/pocketpod,PocketPod,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/pointone,PointOne,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/powder,Powder,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/precip,Precip,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/preloop,Preloop,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/pretzel-ai,Pretzel AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/prosights,ProSights,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/promptarmor,PromptArmor,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/pythagora-gpt-pilot,Pythagora (GPT Pilot),HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/quantic,Quantic,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/quary,Quary,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/quivr,Quivr,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/radmate-ai,RadMate AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ragas,Ragas,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/reducto,Reducto,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/reform,Reform,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/relari,Relari,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/reprompt,Reprompt,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/resonance,Resonance,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/retailready,RetailReady,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/retell-ai,Retell AI,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/risotto,Risotto,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/roe-ai,Roe AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/rove,Rove,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/salvy,Salvy,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/sciphi,SciPhi,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/scritch,Scritch,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/selera-medical,Selera Medical,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/senso,Senso,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/sevnai,SevnAI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/shepherd-2,Shepherd,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/shiboleth,Shiboleth,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/silogy,SiLogy,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/skygaze,Skygaze,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190654id_/https://www.ycombinator.com/companies/skygaze,0,Content recommendation for the new social web,3,Cooper Edmunds|Jett Hollister|Adithya Vellal,,0,0
+https://www.ycombinator.com/companies/somn,Somn,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/somn,0,Human-like AI receptionists for clinics,2,Shawn Shivdat|Deniz Sert,San Francisco,0,0
+https://www.ycombinator.com/companies/sonauto,Sonauto,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-07,https://web.archive.org/web/20240307184944id_/https://www.ycombinator.com/companies/sonauto,0,Create hit songs with AI,2,Hayden Housen|Ryan Tremblay,San Francisco,0,0
+https://www.ycombinator.com/companies/sonia,Sonia,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-04-02,https://web.archive.org/web/20240402190639id_/https://www.ycombinator.com/companies/sonia,0,AI Therapy for Mental Health,3,Chris Aeberli|Dustin Klebe|Lukas Wolf,San Francisco,0,0
+https://www.ycombinator.com/companies/soundry-ai,Soundry AI,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-02,https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/soundry-ai,1,We provide an AI audio generator for music creators,3,Mark Buckler|Justin Parus|Diandre Ruiz,"Seattle, WA",0,0
+https://www.ycombinator.com/companies/sparechange,SpareChange,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-16,https://web.archive.org/web/20240316020611id_/https://www.ycombinator.com/companies/sparechange,0,"Making high-impact, tax-effective philanthropy, available to…",2,Sid Premkumar|Sahil Sinha,New York,0,0
+https://www.ycombinator.com/companies/spark,Spark,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/speck,Speck,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/stacksync,Stacksync,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/starlight-charging,Starlight Charging,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-02-23,https://web.archive.org/web/20240223172926id_/https://www.ycombinator.com/companies/starlight-charging,0,An EV charger in every parking space,1,Andrew Kouri,"Austin, TX",0,0
+https://www.ycombinator.com/companies/stitch-technologies,Stitch Technologies,HISTORICAL_EVIDENCE_GAP,OK_NO_CAPTURE_RETURNED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/superagent-sh,Superagent.sh,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/swift-2,Swift,ARCHIVED_STRUCTURED_SOURCE,ARCHIVE_BODY_FETCHED,2024-03-01,https://web.archive.org/web/20240301220017id_/https://www.ycombinator.com/companies/swift-2,0,"Instant funding API for fintechs, brokerages, and digital wallets",2,David Lalor|Rakeeb Hossain,San Francisco,0,0
+https://www.ycombinator.com/companies/synsorybio,SynsoryBio,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/taiki,Taiki,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tamarind-bio,Tamarind Bio,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tatara,Tatara,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tensorfuse,Tensorfuse,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/terrakotta,Terrakotta,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tile,Tile,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/titan-2,Titan,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/toma,Toma,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/topo-ai,Topo AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tracecat,Tracecat,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/trellis,Trellis,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/trieve,Trieve,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/trueclaim,TrueClaim,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/tusk,Tusk,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ubicloud,Ubicloud,HISTORICAL_EVIDENCE_GAP,BODY_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/upsolve-ai,Upsolve AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/vectorview,Vectorview,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/veles,Veles,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/velorum-therapeutics,Velorum Therapeutics,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/vista-space,Vista Space,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/voicepanel,Voicepanel,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/wuri,Wuri,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/yarn-2,Yarn,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/yenmo,Yenmo,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/yondu,Yondu,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/yoneda-labs,Yoneda Labs,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/zaymo,Zaymo,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/zep-ai,Zep AI,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/atopile,atopile,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/camelqa,camelQA,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/dawn,dawn,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/edgetrace,edgetrace,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ego,ego,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ion-design,ion design,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/just-words,just words,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/kater-ai,kater.ai,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/malibou,malibou,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/ncompass-technologies,nCompass Technologies,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/phospho,phospho,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/renderlet,renderlet,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/sync-labs,sync labs,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0
+https://www.ycombinator.com/companies/thorntale,thorntale,DATED_HN_TITLE_ONLY,INDEX_QUERY_FAILED,,,1,,,,,0,0
+https://www.ycombinator.com/companies/xpay,xPay,HISTORICAL_EVIDENCE_GAP,INDEX_QUERY_FAILED,,,0,,,,,0,0

@@ -1,0 +1,39 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190640id_/https://www.ycombinator.com/companies/fancave",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190640",
+  "original_company_name": "FanCave",
+  "original_yc_url": "https://www.ycombinator.com/companies/fancave",
+  "body_sha256": "b62fa870b80b6f8dca5f23fc972c97a50e6f69bcdc0661e97a5b8cf944b70b56",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Powering the free agency of college sports",
+  "product_description_excerpt": "FanCave powers the free agency of college sports. We enables fans to pledge money to get top recruits to come to their school, or their money back. Just two years ago, it became legal for athletes to earn an income beyond their scholarships. Since then, rapid regulation change (and the NCAA's inability to enforce its own policy) has put college sports in disarray. FanCave is",
+  "tags": [
+    "marketplace",
+    "sports-tech",
+    "consumer",
+    "entertainment"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "Roeland Park, KS",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Luke Bogus",
+      "title": null,
+      "bio_excerpt": "Before FanCave, Luke was Head of Product for Vial, a Series B",
+      "linkedin_url": "https://linkedin.com/in/lukebogus"
+    },
+    {
+      "name": "Nick Siscoe",
+      "title": null,
+      "bio_excerpt": "Nick has designed and built consumer web and mobile apps from scratch",
+      "linkedin_url": "https://linkedin.com/in/nick-siscoe-58a1099b"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

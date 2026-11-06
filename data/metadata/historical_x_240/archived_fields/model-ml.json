@@ -1,0 +1,39 @@
+{
+  "source_url": "https://web.archive.org/web/20240402190703id_/https://www.ycombinator.com/companies/model-ml",
+  "capture_date": "2024-04-02",
+  "capture_timestamp": "20240402190703",
+  "original_company_name": "Model ML",
+  "original_yc_url": "https://www.ycombinator.com/companies/model-ml",
+  "body_sha256": "74f5020d325cda7e3943f654428dea3585cc6a5aecb5698ba8999b2da2c54b9d",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI tool for private equity firms and investment banks.",
+  "product_description_excerpt": "Team: Chaz: Founder of Fat Llama YC S17 - Acquired by Hygglo. Responsible for Business and Sales Arns: Founder of Fancy S20 - Acquired by Gopuff, Responsible for tech and product.",
+  "tags": [
+    "saas",
+    "finance",
+    "b2b",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "London, United Kingdom",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Arnie Englander",
+      "title": null,
+      "bio_excerpt": "2x YC founder. Fancy (S20) - Acquired by Gopuff. ModelML (W24). Love",
+      "linkedin_url": "https://linkedin.com/in/arnie-englander"
+    },
+    {
+      "name": "Chaz Englander",
+      "title": null,
+      "bio_excerpt": "2x YC Founder. Fat Llama (S17) - acquired by Hygglo ModeML (W24)",
+      "linkedin_url": "https://www.linkedin.com/in/chazenglander"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

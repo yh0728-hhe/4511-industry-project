@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240222151720id_/https://www.ycombinator.com/companies/drymerge",
+  "capture_date": "2024-02-22",
+  "capture_timestamp": "20240222151720",
+  "original_company_name": "DryMerge",
+  "original_yc_url": "https://www.ycombinator.com/companies/drymerge",
+  "body_sha256": "1fc80aa77c8f4f6f0ccf8b636bd86c60b3d0279e6af905c5e8a525ed1cde6b45",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Automate work with natural language.",
+  "product_description_excerpt": "We're making a platform that lets people automate repetitive processes with plain language. Say you want a reminder whenever a coworker emails you. Instead of using prebuilt blocks or writing code, just tell DryMerge \"Whenever John sends me an email, shoot me a slack message reminding me to respond\" and watch it happen.",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "api",
+    "automation",
+    "infrastructure"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Edward Frazer",
+      "title": null,
+      "bio_excerpt": "Making DryMerge (W24) to automate work with words. Previously @ Stripe &",
+      "linkedin_url": "https://linkedin.com/in/edward-frazer"
+    },
+    {
+      "name": "Samuel Brashears",
+      "title": null,
+      "bio_excerpt": "CTO DryMerge, formerly Cerebras Systems and Hive AI.",
+      "linkedin_url": "https://linkedin.com/in/samuel-brashears000"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -82,3 +82,32 @@ each one produced plausible-looking wrong data **without raising an error**.
 | `audit27.py` (v1) | Superseded by `collect_pre_demoday_evidence.py`. It had the failed-query-as-absence bug and a loose name match that produced a false positive. |
 | `mknb.py` | Notebook generator for a Chinese-language DIALECTIC walkthrough. Authoring tool, not part of the data pipeline. |
 | ad-hoc diagnostics | One-off feasibility probes and HTML text extraction run inline; not reproducible pipeline steps. |
+
+## Funding Y observation release (2026-11-05)
+
+`funding/build_funding_y_release.py` rebuilds the latest 240-company candidate
+from the reviewed v2 baseline and curated, source-linked observations. It is
+stdlib-only and offline. Stable repair/supplement/matching stages and their
+checks are under `funding/`; raw provider caches are not redistributed.
+
+```bash
+python src/funding/build_funding_y_release.py
+python -W ignore::ResourceWarning -m unittest discover -s src/funding/tests -q
+```
+
+See the dated funding release log for counts, missingness and date limitations.
+
+## Full-cohort Historical X (first collection)
+
+```bash
+python src/historical_x/build_cohort_historical_dataset.py
+python -m unittest discover -s src/historical_x/tests -q
+```
+
+The builder reads the original cohort, curated pre-cutoff archive extractions
+and exact-name HN titles, never Y or current identity panels. Outputs cover240
+rows with explicit missingness. Raw archived HTML stays local; curated fields
+carry archive timestamps, URLs and raw-body hashes. Collection must respect
+`data/metadata/historical_x_240/RATE_LIMIT_STOP.json`; the current run is stopped.
+See the dated historical-source log before interpreting75 source-backed rows
+as complete research or165 gaps as company absence.

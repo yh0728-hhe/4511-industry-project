@@ -1,0 +1,13 @@
+﻿company_id,name_at_decision,old_match_status,new_match_status,resolution_method,matched_slug,matched_name,matched_website,evidence,detail_cache_present,events_in_window,entity_recovered,funding_evidence_added,acquired_by_cutoff,identity_caveat,note
+RM-agenthub,AgentHub,COMPANY_NOT_FOUND,ENTITY_MATCHED_NO_DETAIL_CACHED,ROSTER_W24_NAME,gumloop,Gumloop,,exact name 'Gumloop' inside cohort YC W24; roster carries no website so no domain check was possible,NO,0,YES,NO,UNKNOWN,,"identity resolved but rf_c_gumloop.json is not in the local cache, so no dated round can be read offline"
+RM-delve,Delve,COMPANY_NOT_FOUND,COMPANY_NOT_FOUND,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+RM-just-words,just words,COMPANY_NOT_FOUND,COMPANY_NOT_FOUND,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+RM-lumina-2,Lumina,AMBIGUOUS_MATCH,AMBIGUOUS_MATCH,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+RM-maihem,MAIHEM,COMPANY_NOT_FOUND,COMPANY_NOT_FOUND,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+RM-quantic,Quantic,AMBIGUOUS_MATCH,AMBIGUOUS_MATCH,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+aedilic,Aedilic,COMPANY_NOT_FOUND,COMPANY_NOT_FOUND,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+arcane,Arcane,AMBIGUOUS_MATCH,ENTITY_MATCHED_NO_DETAIL_CACHED,CACHED_SEARCH_DOMAIN,arcane,Arcane,rohanmehta.com,cached search candidate whose website rohanmehta.com is ours,NO,0,YES,NO,YES,"matched domain 'rohanmehta.com' was not this company's decision-date domain and the panel records acquired_by_cutoff=YES; this may be a founder/acquirer placeholder, not continuing corporate identity - verify before reading any future round under 'arcane' as follow-on funding to a surviving independent company","identity resolved but rf_c_arcane.json is not in the local cache, so no dated round can be read offline"
+breez-labs,MathDash,AMBIGUOUS_MATCH,AMBIGUOUS_MATCH,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+conduit-ai,HostAI,AMBIGUOUS_MATCH,AMBIGUOUS_MATCH,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+speck,Speck,AMBIGUOUS_MATCH,AMBIGUOUS_MATCH,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours
+wuri,Wuri,COMPANY_NOT_FOUND,COMPANY_NOT_FOUND,,,,,,NO,0,NO,NO,NO_EVIDENCE,,no roster hit and no cached candidate whose domain is ours

@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/carousel-technologies",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302100819",
+  "original_company_name": "Carousel Technologies",
+  "original_yc_url": "https://www.ycombinator.com/companies/carousel-technologies",
+  "body_sha256": "92304878b0a62de9f1311ae82726a08634cfb910af28bc1765790057f0b945e4",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Change-tracking for PowerPoint & Excel",
+  "product_description_excerpt": "We help investment bankers & consultants review materials faster & with fewer errors. Carousel is a PowerPoint & Excel plugin that enables high-fidelity change-tracking and version control for models & decks. With Carousel, your team will instantly find & review every small change in your 100-page client deck without having to go over it from scratch.",
+  "tags": [
+    "finance",
+    "b2b",
+    "enterprise-software"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "New York",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Jude Rizzo",
+      "title": null,
+      "bio_excerpt": "Founder @ Carousel, former math/physics student",
+      "linkedin_url": "https://linkedin.com/in/jude-rizzo-aa71aa207"
+    },
+    {
+      "name": "Daniel Wolf",
+      "title": null,
+      "bio_excerpt": "Working on making Microsoft PowerPoint less painful. If you have a friend",
+      "linkedin_url": "https://linkedin.com/in/daniel-wolf-6242431b1"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,45 @@
+{
+  "source_url": "https://web.archive.org/web/20240302100819id_/https://www.ycombinator.com/companies/soundry-ai",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302100819",
+  "original_company_name": "Soundry AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/soundry-ai",
+  "body_sha256": "d0af829546300baabc84676afae62bd0b68a3908c0eb8fb1a92647b012214edf",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "We provide an AI audio generator for music creators",
+  "product_description_excerpt": "We have built a universal text-to-sound AI generator for musicians and sound designers. Music producers build songs with samples that they've hand crafted with our AI, and sound designers can incorporate generated sound effects into film, TV, and video games. With personalized generations and training data hand-picked by your favorite artists, Soundry AI is your new best friend in the music creation process.",
+  "tags": [
+    "social-media",
+    "music",
+    "ai",
+    "ai-assistant"
+  ],
+  "team_size": 3,
+  "year_founded": 2023,
+  "location": "Seattle, WA",
+  "founder_total_on_page": 3,
+  "founders": [
+    {
+      "name": "Mark Buckler",
+      "title": "CEO",
+      "bio_excerpt": "I would describe myself as an endlessly curious, ambitious, and creative person.",
+      "linkedin_url": "https://linkedin.com/in/markbuckler"
+    },
+    {
+      "name": "Justin Parus",
+      "title": null,
+      "bio_excerpt": "Our team is building technology to democratize professional music production. I used",
+      "linkedin_url": "https://linkedin.com/in/justinparus"
+    },
+    {
+      "name": "Diandre Ruiz",
+      "title": null,
+      "bio_excerpt": "CPO of Generative AI company: Soundry AI",
+      "linkedin_url": "https://linkedin.com/in/diandre-ruiz-6a1370265"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

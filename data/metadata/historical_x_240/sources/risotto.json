@@ -1,0 +1,18 @@
+{
+  "slug": "risotto",
+  "company_name": "Risotto",
+  "yc_url": "https://www.ycombinator.com/companies/risotto",
+  "cutoff": "2024-04-04",
+  "query_status": "INDEX_QUERY_FAILED",
+  "capture_date": null,
+  "capture_timestamp": null,
+  "archive_url": null,
+  "content_identity_status": "NOT_REVIEWED",
+  "model_admissible": false,
+  "notes": [
+    "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+  ],
+  "requests": 1,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Frisotto&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "retrieved_at_utc": "2026-11-06T00:24:38.371213+00:00"
+}

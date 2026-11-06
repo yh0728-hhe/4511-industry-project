@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240307184944id_/https://www.ycombinator.com/companies/sonauto",
+  "capture_date": "2024-03-07",
+  "capture_timestamp": "20240307184944",
+  "original_company_name": "Sonauto",
+  "original_yc_url": "https://www.ycombinator.com/companies/sonauto",
+  "body_sha256": "c7d1ba21bdb47133be6fcc546534f771ffe9ab83b72b2856fcff6b387cc71af2",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Create hit songs with AI",
+  "product_description_excerpt": "Sonauto is an AI music editor that turns prompts, lyrics, or melodies into full songs in any style. For example, in a few minutes with Sonauto you can make an original birthday song for your friend, sung by Frank Sinatra.",
+  "tags": [
+    "artificial-intelligence",
+    "social",
+    "music"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Hayden Housen",
+      "title": null,
+      "bio_excerpt": "Currently, building a platform to share AI generated music and researching AI",
+      "linkedin_url": "https://linkedin.com/in/hhousen"
+    },
+    {
+      "name": "Ryan Tremblay",
+      "title": null,
+      "bio_excerpt": "Studied Computer Science (focus: ML) and History (focus: authoritarian regimes) at Cornell.",
+      "linkedin_url": "https://linkedin.com/in/ryan-tremblay-62429a86"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

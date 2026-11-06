@@ -1,0 +1,42 @@
+{
+  "version": "Funding Y v2",
+  "counts": {
+    "cohort": 240,
+    "primary_positive": 51,
+    "supplementary_only": 3,
+    "source_union_positive": 54,
+    "union_unknown": 186,
+    "primary_unknown": 189,
+    "evidence_records": 70,
+    "quarantined_legacy_events": 3,
+    "verified_negatives": 0
+  },
+  "window": {
+    "start_exclusive": "2024-04-04",
+    "end_inclusive": "2026-04-04"
+  },
+  "limitations": [
+    "Observation dataset, not complete ground truth",
+    "No verified negatives; UNKNOWN is not zero",
+    "Form D remains supplementary, not primary target",
+    "Evidence record count is not independently verified round count",
+    "Existing heuristic clusters retained; no aggregate dollar total",
+    "Current identities used only for Y resolution, never Historical X"
+  ],
+  "api_calls_this_build": 0,
+  "input_sha256": {
+    "results/verified/funding_y_v1/company_labels.csv": "889aa20da5dfcf08c4147f3fadee417b28ae7735bdb199732701be8cd637b366",
+    "results/verified/funding_y_v1/manifest.json": "a016ec224d9cae906052ebb2db77da6e35d6dc9eb96f16f71e552ab5afea73a8",
+    "data/interim/funding_source_benchmark/funding_events_deduplicated.csv": "c49166164e16e3e07eda8ed1daa680e7abf333449f3f6b6381dede2fe39fea3c",
+    "data/interim/bulk_match/bulk_match_companies.csv": "46325d8ada17f91c09b6a066afb6f413b725b145f8ff373d0e9667554b2f097b",
+    "data/interim/bulk_match/bulk_match_events.csv": "97ef66c33c19e1da62014dca18d77cb511954b1249dcb68a8020163876186da8",
+    "data/interim/bulk_match/bulk_match_manifest.json": "8fd62ec91904a3d3a3ae4e261b8af02911000f022e24cb11f57969175243aa0f",
+    "data/interim/identifier_repair/company_identifiers_repaired.csv": "d786a680d4c58ae40569e41c76df492c94b148fc3722c10d76d6b9fb3248984a",
+    "data/processed/w24_raw_outcomes_24m.csv": "11f10ed0a021971f0cdad3b182d2fb37c38b907f1413358bb07ba089758812ec",
+    "data/processed/yc2024_monthly.csv": "1175af0ead3329beabe07f6ef54fb8682e4987805df7a98d787a33e1ca513794",
+    "data/metadata/rename_evidence/agenthub_gumloop.json": "b608574ad1fe38d7722e80de5e8c9ea2e28c07b4515eecbfd3ce8ffbb90a9efd",
+    "data/metadata/funding_y_v2/delve_identity_evidence.json": "db7a426b6701b0ca5a8f213bf52371ba35898d2f4291ce74a384f5b5ba68ce03",
+    "data/metadata/funding_y_v2/additional_public_evidence.json": "8f067fcebca2f131155d31171ac20fe2bc811ed5b61b2dcf17ca0f963c211e38"
+  },
+  "v1_unchanged": true
+}

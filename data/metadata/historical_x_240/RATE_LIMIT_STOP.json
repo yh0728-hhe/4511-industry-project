@@ -1,0 +1,9 @@
+{
+  "source": "Internet Archive",
+  "status": "STOPPED_RATE_LIMIT",
+  "http_status": 429,
+  "probe_requests": 3,
+  "worker_process_terminated": 10332,
+  "note": "Three availability probes returned429; recovery worker stopped. No background collector remains; saved results preserved.",
+  "requests_after_probe_batch": 0
+}

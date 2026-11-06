@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240301200321id_/https://www.ycombinator.com/companies/focal",
+  "capture_date": "2024-03-01",
+  "capture_timestamp": "20240301200321",
+  "original_company_name": "Focal",
+  "original_yc_url": "https://www.ycombinator.com/companies/focal",
+  "body_sha256": "e527d4e4de391e80a4c403191ca46845cab895a25e382b69c8a5d7dbd624c53d",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI movie studio that converts books and screenplays into movies",
+  "product_description_excerpt": "Focal is an AI movie studio. We take books and screenplays and convert them into movies. Check out our most recent demo: https://youtu.be/GFaN96OMlb0",
+  "tags": [
+    "consumer",
+    "video",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": null,
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Robert Cunningham",
+      "title": null,
+      "bio_excerpt": "Building an AI movie studio at Focal. Previously math and physics at",
+      "linkedin_url": "https://linkedin.com/in/robert-cunningham-38b43a129"
+    },
+    {
+      "name": "Felix Wang",
+      "title": null,
+      "bio_excerpt": "Building an AI movie studio at Focal. Previously math and CS at",
+      "linkedin_url": "https://linkedin.com/in/felixwang9817"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

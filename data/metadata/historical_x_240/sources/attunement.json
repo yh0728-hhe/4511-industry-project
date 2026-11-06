@@ -1,0 +1,33 @@
+{
+  "slug": "attunement",
+  "company_name": "Attunement",
+  "yc_url": "https://www.ycombinator.com/companies/attunement",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-02-11",
+  "capture_timestamp": "20240211224031",
+  "archive_url": "https://web.archive.org/web/20240211224031id_/https://www.ycombinator.com/companies/attunement",
+  "content_identity_status": "MANUAL_IDENTITY_REVIEW_REQUIRED",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:22:04.903098+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fattunement&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Attunement: Digital Therapeutics for Better Behavioral Health | Y Combinator",
+  "body_sha256": "2e27b96b98aa9aba0bed4b0f6df51f46966da96f7a23fc8d870633c33f0d5336",
+  "text_excerpt": "Attunement: Digital Therapeutics for Better Behavioral Health | Y Combinator",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": false,
+  "retrieved_at_utc": "2026-11-06T00:30:59.493782+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "artos",
+  "company_name": "Artos",
+  "yc_url": "https://www.ycombinator.com/companies/artos",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172927",
+  "archive_url": "https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/artos",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:22:02.638738+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fartos&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Artos: Turning science into regulatory submissions | Y Combinator",
+  "body_sha256": "bbcc6fccceb14f333a06cb6953ae2019e5b13049a07729c6cc6c1a3006e57aef",
+  "text_excerpt": "Artos: Turning science into regulatory submissions | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Artos Artos Turning science into regulatory submissions Y Combinator Logo W24 Active b2b healthcare ai San Francisco Company Jobs 0 https://www.artosai.com/ Turning science into regulatory submissions Artos's document-drafting platform helps life sciences teams turn",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:30:56.142830+00:00"
+}

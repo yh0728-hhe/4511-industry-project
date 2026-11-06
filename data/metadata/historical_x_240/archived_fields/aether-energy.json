@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240303014126id_/https://www.ycombinator.com/companies/aether-energy",
+  "capture_date": "2024-03-03",
+  "capture_timestamp": "20240303014126",
+  "original_company_name": "Aether Energy",
+  "original_yc_url": "https://www.ycombinator.com/companies/aether-energy",
+  "body_sha256": "969234457431ab183310e812802ae66466be30fd96a16959a27561fa303e4f90",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Solar and roofing workflow software for solar installers worldwide",
+  "product_description_excerpt": "Aether is an AI-powered end-to-end platform for rooftop solar and roofing installers in the US and Western European markets. Some of our innovations: - In-house computer vision and fine-tuned AI models built for solar - Rapid and accurate photovoltaic site design, 10x faster - Co-pilot for rooftop solar to streamline & automate various tasks for solar installers. Why it\u2019s needed: Today, rooftop solar is still",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "solar-power",
+    "climate",
+    "renewable-energy"
+  ],
+  "team_size": 4,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Zayne Sagar",
+      "title": "Founder",
+      "bio_excerpt": "Zayne is the co-founder and CEO of Aether Energy. He has an",
+      "linkedin_url": "https://linkedin.com/in/zaynesager"
+    },
+    {
+      "name": "Shelby Bons",
+      "title": "Founder",
+      "bio_excerpt": "Shelby is the co-founder and CTO of Aether Energy. She has expertise",
+      "linkedin_url": "https://linkedin.com/in/shelby-bons-ucberkeley"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

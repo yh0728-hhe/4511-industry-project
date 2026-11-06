@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240328192409id_/https://www.ycombinator.com/companies/duckie",
+  "capture_date": "2024-03-28",
+  "capture_timestamp": "20240328192409",
+  "original_company_name": "Duckie",
+  "original_yc_url": "https://www.ycombinator.com/companies/duckie",
+  "body_sha256": "5fabb9c4f602b66b79fe0625656001eec85ea7b251136dee0e13e1595abd360c",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI engineer that resolves technical support issues",
+  "product_description_excerpt": "Duckie is your AI teammate that handles support issues so you can focus on building features. It sits in your support channel and responds to issues with relevant context, diagnosis and resolutions, and even perform actions on behalf of engineers for auto-remediation. 1. Flexible integrations with knowledge sources (Slack, Jira, Google docs, Confluence, Sentry, Github, and beyond!) 2. Takes <5 mins to onboard",
+  "tags": [
+    "artificial-intelligence",
+    "developer-tools",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Valerie Li",
+      "title": null,
+      "bio_excerpt": "Builder, founder.",
+      "linkedin_url": "https://linkedin.com/in/peifeili"
+    },
+    {
+      "name": "Joel Ritossa",
+      "title": null,
+      "bio_excerpt": "founder @ duckie",
+      "linkedin_url": "https://linkedin.com/in/joel-ritossa"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

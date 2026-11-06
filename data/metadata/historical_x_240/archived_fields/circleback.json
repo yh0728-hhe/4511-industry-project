@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240328202313id_/https://www.ycombinator.com/companies/circleback",
+  "capture_date": "2024-03-28",
+  "capture_timestamp": "20240328202313",
+  "original_company_name": "Circleback",
+  "original_yc_url": "https://www.ycombinator.com/companies/circleback",
+  "body_sha256": "8f410735c302144e2b88be9fc6621fe635b8d6d0fee3c76dca5bf8678b24336b",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI-powered meeting notes and workflows",
+  "product_description_excerpt": "Circleback helps you get more out of every conversation\u2013whether it's on Zoom, Google Meet, or in-person\u2013by automatically writing notes and taking action on insights you care about. For example, you can have Circleback identify feature requests that come up in product demo calls and create Linear tasks for each of them. Ali and Kevin met at UBC where they were both in the Business and",
+  "tags": [
+    "artificial-intelligence",
+    "saas",
+    "productivity",
+    "note-taking",
+    "ai-assistant"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Ali Haghani",
+      "title": null,
+      "bio_excerpt": "Ali is the co-founder and CEO of Circleback. Prior to Circleback, Ali",
+      "linkedin_url": "https://linkedin.com/in/alihaghani"
+    },
+    {
+      "name": "Kevin Jacyna",
+      "title": null,
+      "bio_excerpt": "Kevin is a co-founder of Circleback. Before Circleback, Kevin was a senior",
+      "linkedin_url": "https://linkedin.com/in/kevinjacyna"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "momentic",
+  "company_name": "Momentic",
+  "yc_url": "https://www.ycombinator.com/companies/momentic",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-03-05",
+  "capture_timestamp": "20240305103828",
+  "archive_url": "https://web.archive.org/web/20240305103828id_/https://www.ycombinator.com/companies/momentic",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fmomentic&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Momentic: Automated testing with AI | Y Combinator",
+  "body_sha256": "bae377395cae0d44e50ffa271e60da73e797c937228f4ce0b7eb5b80133fad0e",
+  "text_excerpt": "Momentic: Automated testing with AI | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Momentic Momentic Automated testing with AI Y Combinator Logo W24 Active artificial-intelligence developer-tools b2b devops ai San Francisco Company Jobs 0 https://momentic.ai Automated testing with AI Momentic lets developers author E2E tests 10X faster. We",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:23:51.635524+00:00"
+}

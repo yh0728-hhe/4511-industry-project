@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240302193342id_/https://www.ycombinator.com/companies/ocular-ai",
+  "capture_date": "2024-03-02",
+  "capture_timestamp": "20240302193342",
+  "original_company_name": "Ocular AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/ocular-ai",
+  "body_sha256": "d0598e938b6046e0f59f63e437881c3208d676f226a3b3a439ccedd9c22ffc63",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Enterprise AI, Search, and Actions for the Workplace and Engineering",
+  "product_description_excerpt": "Ocular AI lets teams within organizations search, visualize, and perform critical cross tool actions all on one unified platform. Having worked at Microsoft and Google we've experienced first-hand how difficult it is to access and find information across multiple Saas tools. To solve this, Ocular AI brings infrastructure, tooling, data, services together and facilitates knowledge discovery and actions all on one platform.",
+  "tags": [
+    "saas",
+    "b2b",
+    "productivity",
+    "cloud-computing",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2024,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Michael Moyo",
+      "title": null,
+      "bio_excerpt": "CEO & Co\u2013Founder of Ocular AI. I have 2 engineering degrees from",
+      "linkedin_url": "https://linkedin.com/in/michaelmoyo"
+    },
+    {
+      "name": "Louis Murerwa",
+      "title": null,
+      "bio_excerpt": "Louis is the Co-founder and CTO of Ocular AI. He is from",
+      "linkedin_url": "https://www.linkedin.com/in/louismurerwa"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

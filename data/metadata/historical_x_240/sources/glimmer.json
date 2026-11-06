@@ -1,0 +1,33 @@
+{
+  "slug": "glimmer",
+  "company_name": "Glimmer",
+  "yc_url": "https://www.ycombinator.com/companies/glimmer",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-03-07",
+  "capture_timestamp": "20240307162909",
+  "archive_url": "https://web.archive.org/web/20240307162909id_/https://www.ycombinator.com/companies/glimmer",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "attempt_history": [
+    {
+      "query_status": "INDEX_QUERY_FAILED",
+      "requests": 1,
+      "notes": [
+        "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+      ],
+      "retrieved_at_utc": "2026-11-06T00:23:04.609666+00:00"
+    }
+  ],
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fglimmer&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Glimmer: AI search for massive PDFs | Y Combinator",
+  "body_sha256": "9c1c354a9932f8d009f3e1d641b2b9ed5e2383ce8f759bfcfc69db7c93d6d1c2",
+  "text_excerpt": "Glimmer: AI search for massive PDFs | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Glimmer Glimmer AI search for massive PDFs Y Combinator Logo W24 Active search ai San Francisco Company Jobs 0 https://www.withglimmer.com/ AI search for massive PDFs Glimmer is a new way to search massive PDFs",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:33:01.751656+00:00"
+}

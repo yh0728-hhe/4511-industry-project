@@ -1,0 +1,38 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/artos",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172927",
+  "original_company_name": "Artos",
+  "original_yc_url": "https://www.ycombinator.com/companies/artos",
+  "body_sha256": "bbcc6fccceb14f333a06cb6953ae2019e5b13049a07729c6cc6c1a3006e57aef",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Turning science into regulatory submissions",
+  "product_description_excerpt": "Artos's document-drafting platform helps life sciences teams turn their data and reports into submission packages required by CMS and regulatory bodies like the FDA in half the time.",
+  "tags": [
+    "b2b",
+    "healthcare",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Josh Kim",
+      "title": null,
+      "bio_excerpt": "Josh is co-founder and CEO of Artos. Josh previously led translational AI",
+      "linkedin_url": "https://linkedin.com/in/joshua-kim-57239519b"
+    },
+    {
+      "name": "Varun Patel",
+      "title": null,
+      "bio_excerpt": "Varun is a co-founder and CTO at Artos. He studied Molecular Engineering",
+      "linkedin_url": "https://linkedin.com/in/varun-patel-091715156"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

@@ -1,0 +1,241 @@
+company_id,name_at_decision,y_primary_observed,primary_status,supplementary_form_d_observed,source_union_observed,union_status,quarantined_legacy_match,missingness_note,baseline_v2_evidence_record_count,additional_source_observation_count
+RM-agenthub,AgentHub,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,3,0
+RM-airfront,Airfront,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-assembly-2,Assembly,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-dawn,dawn,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-delve,Delve,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+RM-double-2,Double,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+RM-hona-2,Hona,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+RM-just-words,just words,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+RM-lumina-2,Lumina,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-maihem,MAIHEM,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-nowhouse,NowHouse,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-quantic,Quantic,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-sevnai,SevnAI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-skygaze,Skygaze,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-tatara,Tatara,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-tensorfuse,Tensorfuse,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-tile,Tile,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-titan-2,Titan,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+RM-trellis,Trellis,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+abel,Abel,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+adapted,Corefin,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+aedilic,Aedilic,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+aftercare,Kontractify,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+agentic-labs-2,Agentic Labs,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+aidy,Aidy,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+alai,Alai,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+alex-com,Apriora,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,2
+andon-labs,Vectorview,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+andy-ai,Andy AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+aqua-voice,Aqua Voice,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+arcane,Arcane,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+argon-ai-inc,"Argon AI, Inc.",1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,"Form-D-only issuer-state mismatch; unresolved, not proof of a false match",,0,2
+arini,Arini,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+artisan,Artisan AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,3
+artos,Artos,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+atopile,atopile,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+attunement,Attunement,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+averyiq,Starlight Charging,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+basalt,Basalt Tech,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+basepilot,Basepilot,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+betterbasket,BetterBasket,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+bilanc,Bilanc,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+bitesight,BiteSight,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+blacksmith,Blacksmith,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,2
+blume-benefits,Blume Benefits,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+brainbase-labs,Brainbase,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+breez-labs,MathDash,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+browser-buddy,Browser Buddy,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+camelai,camelQA,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+carma,Carma,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+carousel-technologies,Carousel Technologies,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+celest,Celest,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+centauri-ai,Centauri AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+centralize,Centralize,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+circleback,Circleback,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+clarion,Anaphero,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+clarum,Clarum,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+cleva,Cleva,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+cloudcruise,CloudCruise,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+cocrafter,CoCrafter,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+codeant-ai,CodeAnt AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+commodityai,CommodityAI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+conduit-ai,HostAI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+consul,Swift,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+cora,HeyPurple,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+cpgscout,Intercept,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+crowdvolt,CrowdVolt,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,0
+datacurve,Datacurve,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+decipher-ai,Decipher AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+deep24,Amber AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+deepnight,DeepNight,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+dgi-apparel,DGI Apparel,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+diana,DianaHR,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+dime-2,Dime,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+draftaid,Draftaid,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+dragoneye,Dragoneye,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+driver,Driver AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+dropback,FanCave,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+drymerge,DryMerge,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+duckie,Duckie,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+ecliptor,Ecliptor,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+edgetrace,edgetrace,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+eggnog,Eggnog,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+ego,ego,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+ellipsis,Ellipsis,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+elodin,Elodin,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+engines,Parasale,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+eris-biotech,Eris Biotech,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+event-horizon-labs,SciPhi,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+feldy,Aether Energy,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+fileforge,Onedoc,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+firebender,Firebender,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+fluently,Fluently,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+focal,Focal,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+forge,Forge,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+forge-rewards,Forge Rewards,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+fractal-labs,DaLMatian,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+garage-2,Garage,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+getcrux,Crux,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+givefront,Givefront,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+glimmer,Glimmer,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+gloglo,Markprompt,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+governgpt,GovernGPT,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+granza-bio,Granza Bio,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+greenboard,Greenboard,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+greptile,Greptile,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,2
+guide-labs,Guide Labs,1,CONFIRMED_POSITIVE,1,1,CONFIRMED_POSITIVE,,,2,1
+haplotype-labs,Haplotype Labs,1,CONFIRMED_POSITIVE,1,1,CONFIRMED_POSITIVE,,,1,1
+hatchet-run,Hatchet,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+hazel-2,Hazel,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+healia,Healia,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+heartbyte,HeartByte,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+indemni,Alacrity,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+infinity,Infinity,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+inquery-2,InQuery,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+inspectmind-ai,InspectMind AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+integuru,Taiki,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+ion-design,ion design,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+junction-bioscience,Junction Bioscience,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+kabilah,Kabilah,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+kater-ai,kater.ai,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+keystroke,Buster,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+lantern-2,Lantern,,UNKNOWN,,,UNKNOWN,"Form-D-only identity conflict (inactive entity versus later filing, state mismatch)",Not a verified negative; missing/insufficient admissible funding evidence,0,0
+latted,Fume,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+leaping,Leaping,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+legora,Leya,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,4,5
+lemonslice,Infinity AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+lucite,Lucite,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+lumetric,PocketPod,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+lumona,Lumona,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+magic-hour,Magic Hour,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+maia,Maia,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+malibou,malibou,1,CONFIRMED_POSITIVE,1,1,CONFIRMED_POSITIVE,,,1,2
+mango-health,Mango Health,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+manifold-freight,Manifold Freight,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+marblism,Marblism,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+marr-labs,Marr Labs,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+meticulate,Meticulate,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+metofico,Metofico,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+miden,Miden,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+million,Million.js,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+model-ml,Model ML,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,3
+momentic,Momentic,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,2
+monumint,OmniAI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+nanocorp,phospho,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+navier-ai,NavierAI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+ncompass-technologies,nCompass Technologies,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+newton,Hemingway,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+nuanced,"Nuanced, Inc.",,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+octolane-ai,Octolane AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+ocular-ai,Ocular AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+oddsview,OddsView,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+offdeal,OffDeal,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+oma-care,Oma Care,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+onegrep,OneGrep,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+onyx,Danswer,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+open,OpenCopilot,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+opencall,Opencall.ai,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+openmart,Openmart,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+overheard,OpenFoundry,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+paradigm,Paradigm,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+parallel,Kiosk,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+parcelbio,ParcelBio,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+partnerhq,PartnerHQ,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+patchwork,Patchwork,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+pazi,Pythagora (GPT Pilot),1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+penciled,Somn,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+piramidal,Piramidal,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+pivot-robotics,Pivot Robots,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+pointone,PointOne,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,2,2
+polar,GoldenBasis,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+powder,Powder,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+precip,Precip,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+preloop,Preloop,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+pretzel-ai,Pretzel AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+promptarmor,PromptArmor,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+prosights,ProSights,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+quary,Quary,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+quivr,Quivr,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+radmate-ai,RadMate AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+reducto,Reducto,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,3,3
+reform,Reform,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+relari,Relari,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+renderlet,renderlet,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+reprompt,Reprompt,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+resonance,Resonance,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+respan,Keywords AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+retailready,RetailReady,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+retell-ai,Retell AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+risotto,Risotto,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+roe,Roe AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+rove,Rove,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+salvy,Salvy,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+scritch,Scritch,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+selera-medical,Selera Medical,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+senso,Senso,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+shepherd-2,Shepherd,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+shiboleth,Shiboleth,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+silogy,SiLogy,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+solari-ai,SpareChange,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+sonia,Sonia,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+soundry-ai,Soundry AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+spark,Spark,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+speck,Speck,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+stacksync,Stacksync,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+stitch-technologies,Stitch Technologies,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+superagent,Superagent.sh,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+suretynow,BondCenter,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+sync-2,sync labs,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,3
+synsorybio,SynsoryBio,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+tamarind-bio,Tamarind Bio,1,CONFIRMED_POSITIVE,1,1,CONFIRMED_POSITIVE,,,2,1
+terrakotta,Terrakotta,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+tesseral,Okapi,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,RecentFunding name-only identity match; source publishes no domain,,1,1
+the-new-money-company,Numo,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+thorntale,thorntale,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+toma,Toma,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,2
+toolify,Creo,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+topo,Topo AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+tracecat,Tracecat,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+treblo,Sonauto,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+trieve,Trieve,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+trueclaim,TrueClaim,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+tuesday-labs,Adagy Robotics,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+tusk,Tusk,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+ubicloud,Ubicloud,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+upsolve-ai,Upsolve AI,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+veles,Veles,,UNKNOWN,1,1,SUPPLEMENTARY_POSITIVE,,Not a verified negative; missing/insufficient admissible funding evidence,1,0
+velorum-therapeutics,Velorum Therapeutics,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+vibrant-labs,Ragas,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,0
+vista-power,Vista Space,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+voicepanel,Voicepanel,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+voxops-ai,Konstructly,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+wuri,Wuri,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+xpay,xPay,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+yarn-2,Yarn,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,1
+yenmo,Yenmo,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,0,2
+yondu,Yondu,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+yoneda-labs,Yoneda Labs,1,CONFIRMED_POSITIVE,,1,CONFIRMED_POSITIVE,,,1,1
+zaymo,Zaymo,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0
+zep-ai,Zep AI,,UNKNOWN,,,UNKNOWN,,Not a verified negative; missing/insufficient admissible funding evidence,0,0

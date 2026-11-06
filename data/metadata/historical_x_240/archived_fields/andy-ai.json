@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240404080617id_/https://www.ycombinator.com/companies/andy-ai",
+  "capture_date": "2024-04-04",
+  "capture_timestamp": "20240404080617",
+  "original_company_name": "Andy AI",
+  "original_yc_url": "https://www.ycombinator.com/companies/andy-ai",
+  "body_sha256": "eda3fd0f1190ac127999d459f012769bd6470dae5a08b8e0130c89feb2e7dac5",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Faster clinical documentation for home health nurses",
+  "product_description_excerpt": "Andy is AI software that completes documentation for nurses doing home visits. Our software saves $8B a year; Tiantian was previously a PM at Google\u2019s healthcare business and Max was a staff engineer on the health team at Apple. Andy benefits nurses and the agencies that employ them. Agencies that use Andy see up to 45% more detailed charts, 2x greater nurse productivity, and timely",
+  "tags": [
+    "saas",
+    "health-tech",
+    "b2b",
+    "healthcare",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Tiantian Zha",
+      "title": null,
+      "bio_excerpt": "Tiantian is the CEO and co-founder of Andy AI. Princeton CS >>",
+      "linkedin_url": "https://linkedin.com/in/tiantianzha"
+    },
+    {
+      "name": "Max Akhterov",
+      "title": null,
+      "bio_excerpt": "Max is the CTO and co-founder of Andy AI. Previously, he was",
+      "linkedin_url": "https://linkedin.com/in/akhterov"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

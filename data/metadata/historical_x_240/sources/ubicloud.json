@@ -1,0 +1,18 @@
+{
+  "slug": "ubicloud",
+  "company_name": "Ubicloud",
+  "yc_url": "https://www.ycombinator.com/companies/ubicloud",
+  "cutoff": "2024-04-04",
+  "query_status": "BODY_QUERY_FAILED",
+  "capture_date": "2024-03-28",
+  "capture_timestamp": "20240328202309",
+  "archive_url": "https://web.archive.org/web/20240328202309id_/https://www.ycombinator.com/companies/ubicloud",
+  "content_identity_status": "NOT_REVIEWED",
+  "model_admissible": false,
+  "notes": [
+    "URLError: <urlopen error [WinError 10061] \u7531\u4e8e\u76ee\u6807\u8ba1\u7b97\u673a\u79ef\u6781\u62d2\u7edd\uff0c\u65e0\u6cd5\u8fde\u63a5\u3002>"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fubicloud&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "retrieved_at_utc": "2026-11-06T00:25:21.555007+00:00"
+}

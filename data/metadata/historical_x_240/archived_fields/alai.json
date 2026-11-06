@@ -1,0 +1,40 @@
+{
+  "source_url": "https://web.archive.org/web/20240223172927id_/https://www.ycombinator.com/companies/alai",
+  "capture_date": "2024-02-23",
+  "capture_timestamp": "20240223172927",
+  "original_company_name": "Alai",
+  "original_yc_url": "https://www.ycombinator.com/companies/alai",
+  "body_sha256": "f05ddd3f135ea070c59df63c9fb2897cce06d5ee2c55da4d9617d3ae73a01c86",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI powered presentations",
+  "product_description_excerpt": "Alai helps you create high quality presentations faster with the help of AI. Enter your context, get an AI-generated first draft and perfect your content, themes and layouts.",
+  "tags": [
+    "generative-ai",
+    "saas",
+    "productivity",
+    "enterprise-software",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Krishna Gupta",
+      "title": null,
+      "bio_excerpt": "Founder @Alai. Previously SWE @ Replicant",
+      "linkedin_url": "https://linkedin.com/in/krishnagupta21"
+    },
+    {
+      "name": "Anmol Sood",
+      "title": null,
+      "bio_excerpt": "Founder at Alai. Previously Staff Software Engineer at Meta.",
+      "linkedin_url": "https://linkedin.com/in/anmolsood"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

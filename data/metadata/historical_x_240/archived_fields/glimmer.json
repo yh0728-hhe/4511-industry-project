@@ -1,0 +1,37 @@
+{
+  "source_url": "https://web.archive.org/web/20240307162909id_/https://www.ycombinator.com/companies/glimmer",
+  "capture_date": "2024-03-07",
+  "capture_timestamp": "20240307162909",
+  "original_company_name": "Glimmer",
+  "original_yc_url": "https://www.ycombinator.com/companies/glimmer",
+  "body_sha256": "9c1c354a9932f8d009f3e1d641b2b9ed5e2383ce8f759bfcfc69db7c93d6d1c2",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "AI search for massive PDFs",
+  "product_description_excerpt": "Glimmer is a new way to search massive PDFs using AI. If you've ever dealt with massive PDFs (i.e. over 1,000 pages), you know how broken search can be. You have no choice but to use \u201cCmd-F\u201d and manually sift through thousands of search results to find specific information. Professionals in construction, law, finance, and healthcare spend hours doing this every day. Glimmer makes searching",
+  "tags": [
+    "search",
+    "ai"
+  ],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": "San Francisco",
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Praneeth Guduguntla",
+      "title": null,
+      "bio_excerpt": "Praneeth is the co-founder and CEO of Glimmer. Previously, he built computer",
+      "linkedin_url": "https://linkedin.com/in/praneethguduguntla"
+    },
+    {
+      "name": "Arman Rafati",
+      "title": null,
+      "bio_excerpt": "Arman is the co-founder and CTO of Glimmer. Previously, he worked on",
+      "linkedin_url": "https://linkedin.com/in/armanrafati"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}

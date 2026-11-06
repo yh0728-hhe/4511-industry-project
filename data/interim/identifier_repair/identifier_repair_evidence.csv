@@ -1,0 +1,274 @@
+﻿company_id,link_asserted,evidence_type,evidence_value,evidence_snapshot,evidence_source,verifiable_by
+abel,Abel <-> panel chain nm:abel,T1_SLUG,slug:abel,2024-10-01,data/processed/yc2024_monthly.csv,grep abel in the panel
+tuesday-labs,Adagy Robotics <-> panel chain nm:adagy robotics,T1_SLUG,slug:adagy-robotics,2024-10-01,data/processed/yc2024_monthly.csv,grep adagy-robotics in the panel
+tuesday-labs,Adagy Robotics <-> panel chain nm:tuesday labs,T2_CROSSWALK,crosswalk:former_name=tuesday-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Adagy Robotics' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+aedilic,Aedilic <-> panel chain dom:nonescape.com,T1_SLUG,slug:aedilic,2024-10-01,data/processed/yc2024_monthly.csv,grep aedilic in the panel
+feldy,Aether Energy <-> panel chain dom:tryaether.co,T1_SLUG,slug:aether-energy,2024-10-01,data/processed/yc2024_monthly.csv,grep aether-energy in the panel
+feldy,Aether Energy <-> panel chain nm:feldy,T2_CROSSWALK,crosswalk:former_name=feldy,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Aether Energy' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+RM-agenthub,AgentHub <-> panel chain nm:gumloop,T3_ONELINER,oneliner:a no-code platform for automating workflows with ai,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_spreadsheet_2024-03-25.csv,grep the exact description string in both files
+agentic-labs-2,Agentic Labs <-> panel chain nm:agentic labs,T1_SLUG,slug:agentic-labs-2,2024-10-01,data/processed/yc2024_monthly.csv,grep agentic-labs-2 in the panel
+aidy,Aidy <-> panel chain dom:tryaidy.com,T1_SLUG,slug:aidy,2024-10-01,data/processed/yc2024_monthly.csv,grep aidy in the panel
+RM-airfront,Airfront <-> panel chain nm:airfront,T1_SLUG,slug:airfront,2024-10-01,data/processed/yc2024_monthly.csv,grep airfront in the panel
+indemni,Alacrity <-> panel chain nm:alacrity,T1_SLUG,slug:alacrity,2024-10-01,data/processed/yc2024_monthly.csv,grep alacrity in the panel
+indemni,Alacrity <-> panel chain nm:indemni,T2_CROSSWALK,crosswalk:former_name=indemni,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Alacrity' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+alai,Alai <-> panel chain nm:alai,T1_SLUG,slug:alai,2024-10-01,data/processed/yc2024_monthly.csv,grep alai in the panel
+deep24,Amber AI <-> panel chain nm:amber ai,T1_SLUG,slug:amber-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep amber-ai in the panel
+deep24,Amber AI <-> panel chain dom:deep24.com,T2_CROSSWALK,crosswalk:former_name=deep24,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Amber AI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+clarion,Anaphero <-> panel chain nm:anaphero,T1_SLUG,slug:anaphero,2024-10-01,data/processed/yc2024_monthly.csv,grep anaphero in the panel
+clarion,Anaphero <-> panel chain dom:clarionhealth.com,T2_CROSSWALK,crosswalk:former_name=clarion,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Anaphero' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+andy-ai,Andy AI <-> panel chain nm:andy ai,T1_SLUG,slug:andy-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep andy-ai in the panel
+alex-com,Apriora <-> panel chain nm:apriora,T1_SLUG,slug:apriora,2024-10-01,data/processed/yc2024_monthly.csv,grep apriora in the panel
+alex-com,Apriora <-> panel chain nm:alex,T2_CROSSWALK,crosswalk:former_name=alex-com,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Apriora' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+aqua-voice,Aqua Voice <-> panel chain dom:aquavoice.com,T1_SLUG,slug:aqua-voice,2024-10-01,data/processed/yc2024_monthly.csv,grep aqua-voice in the panel
+arcane,Arcane <-> panel chain dom:rohanmehta.com,T1_SLUG,slug:arcane,2024-10-01,data/processed/yc2024_monthly.csv,grep arcane in the panel
+argon-ai-inc,"Argon AI, Inc. <-> panel chain nm:argon ai",T1_SLUG,slug:argon-ai-inc,2024-10-01,data/processed/yc2024_monthly.csv,grep argon-ai-inc in the panel
+arini,Arini <-> panel chain nm:arini,T1_SLUG,slug:arini,2024-10-01,data/processed/yc2024_monthly.csv,grep arini in the panel
+artisan,Artisan AI <-> panel chain nm:artisan,T1_DOMAIN,dom:artisan.co,2024-10-01,data/processed/yc2024_monthly.csv,grep artisan.co in the panel
+artos,Artos <-> panel chain nm:artos,T1_SLUG,slug:artos,2024-10-01,data/processed/yc2024_monthly.csv,grep artos in the panel
+RM-assembly-2,Assembly <-> panel chain nm:assembly,T1_SLUG,slug:assembly-2,2024-10-01,data/processed/yc2024_monthly.csv,grep assembly-2 in the panel
+attunement,Attunement <-> panel chain nm:attunement,T1_SLUG,slug:attunement,2024-10-01,data/processed/yc2024_monthly.csv,grep attunement in the panel
+basalt,Basalt Tech <-> panel chain nm:basalt,T1_SLUG,slug:basalt-tech,2024-10-01,data/processed/yc2024_monthly.csv,grep basalt-tech in the panel
+basepilot,Basepilot <-> panel chain nm:basepilot,T1_SLUG,slug:basepilot,2024-10-01,data/processed/yc2024_monthly.csv,grep basepilot in the panel
+betterbasket,BetterBasket <-> panel chain dom:betterbasket.com,T1_SLUG,slug:betterbasket,2024-10-01,data/processed/yc2024_monthly.csv,grep betterbasket in the panel
+bilanc,Bilanc <-> panel chain nm:bilanc,T1_SLUG,slug:bilanc,2024-10-01,data/processed/yc2024_monthly.csv,grep bilanc in the panel
+bitesight,BiteSight <-> panel chain nm:bitesight,T1_SLUG,slug:bitesight,2024-10-01,data/processed/yc2024_monthly.csv,grep bitesight in the panel
+blacksmith,Blacksmith <-> panel chain nm:blacksmith,T1_SLUG,slug:blacksmith,2024-10-01,data/processed/yc2024_monthly.csv,grep blacksmith in the panel
+blume-benefits,Blume Benefits <-> panel chain nm:blume benefits,T1_SLUG,slug:blume-benefits,2024-10-01,data/processed/yc2024_monthly.csv,grep blume-benefits in the panel
+suretynow,BondCenter <-> panel chain nm:suretynow,T2_CROSSWALK,crosswalk:former_name=suretynow,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'BondCenter' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+brainbase-labs,Brainbase <-> panel chain nm:brainbase,T1_SLUG,slug:brainbase,2024-10-01,data/processed/yc2024_monthly.csv,grep brainbase in the panel
+brainbase-labs,Brainbase <-> panel chain nm:brainbase labs,T2_CROSSWALK,crosswalk:former_name=brainbase-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Brainbase' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+browser-buddy,Browser Buddy <-> panel chain nm:browser buddy,T1_SLUG,slug:browser-buddy,2024-10-01,data/processed/yc2024_monthly.csv,grep browser-buddy in the panel
+keystroke,Buster <-> panel chain nm:buster,T1_SLUG,slug:buster,2024-10-01,data/processed/yc2024_monthly.csv,grep buster in the panel
+keystroke,Buster <-> panel chain nm:keystroke,T2_CROSSWALK,crosswalk:former_name=keystroke,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Buster' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+carma,Carma <-> panel chain nm:carma,T1_SLUG,slug:carma,2024-10-01,data/processed/yc2024_monthly.csv,grep carma in the panel
+carousel-technologies,Carousel Technologies <-> panel chain nm:carousel technologies,T1_SLUG,slug:carousel-technologies,2024-10-01,data/processed/yc2024_monthly.csv,grep carousel-technologies in the panel
+celest,Celest <-> panel chain nm:celest,T1_SLUG,slug:celest,2024-10-01,data/processed/yc2024_monthly.csv,grep celest in the panel
+centauri-ai,Centauri AI <-> panel chain nm:centauri ai,T1_SLUG,slug:centauri-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep centauri-ai in the panel
+centralize,Centralize <-> panel chain nm:centralize,T1_SLUG,slug:centralize,2024-10-01,data/processed/yc2024_monthly.csv,grep centralize in the panel
+circleback,Circleback <-> panel chain nm:circleback,T1_SLUG,slug:circleback,2024-10-01,data/processed/yc2024_monthly.csv,grep circleback in the panel
+clarum,Clarum <-> panel chain nm:clarum,T1_SLUG,slug:clarum,2024-10-01,data/processed/yc2024_monthly.csv,grep clarum in the panel
+cleva,Cleva <-> panel chain nm:cleva,T1_SLUG,slug:cleva,2024-10-01,data/processed/yc2024_monthly.csv,grep cleva in the panel
+cloudcruise,CloudCruise <-> panel chain nm:cloudcruise,T1_SLUG,slug:cloudcruise,2024-10-01,data/processed/yc2024_monthly.csv,grep cloudcruise in the panel
+cocrafter,CoCrafter <-> panel chain nm:cocrafter,T1_SLUG,slug:cocrafter,2024-10-01,data/processed/yc2024_monthly.csv,grep cocrafter in the panel
+codeant-ai,CodeAnt AI <-> panel chain nm:codeant ai,T1_SLUG,slug:codeant-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep codeant-ai in the panel
+commodityai,CommodityAI <-> panel chain nm:commodityai,T1_SLUG,slug:commodityai,2024-10-01,data/processed/yc2024_monthly.csv,grep commodityai in the panel
+adapted,Corefin <-> panel chain nm:adapted,T2_CROSSWALK,crosswalk:former_name=adapted,2026-02-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Corefin' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+toolify,Creo <-> panel chain nm:toolify,T2_CROSSWALK,crosswalk:former_name=toolify,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Creo' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+crowdvolt,CrowdVolt <-> panel chain nm:crowdvolt,T1_SLUG,slug:crowdvolt,2024-10-01,data/processed/yc2024_monthly.csv,grep crowdvolt in the panel
+getcrux,Crux <-> panel chain nm:getcrux,T1_SLUG,slug:crux,2024-10-01,data/processed/yc2024_monthly.csv,grep crux in the panel
+dgi-apparel,DGI Apparel <-> panel chain nm:dgi apparel,T1_SLUG,slug:dgi-apparel,2024-10-01,data/processed/yc2024_monthly.csv,grep dgi-apparel in the panel
+fractal-labs,DaLMatian <-> panel chain nm:fractal labs,T2_CROSSWALK,crosswalk:former_name=fractal-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'DaLMatian' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+onyx,Danswer <-> panel chain nm:danswer,T1_SLUG,slug:danswer,2024-10-01,data/processed/yc2024_monthly.csv,grep danswer in the panel
+onyx,Danswer <-> panel chain nm:onyx,T2_CROSSWALK,crosswalk:former_name=onyx,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Danswer' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+datacurve,Datacurve <-> panel chain nm:datacurve,T1_SLUG,slug:datacurve,2024-10-01,data/processed/yc2024_monthly.csv,grep datacurve in the panel
+decipher-ai,Decipher AI <-> panel chain nm:decipher ai,T1_SLUG,slug:decipher-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep decipher-ai in the panel
+deepnight,DeepNight <-> panel chain dom:deepnight.com,T1_SLUG,slug:deepnight,2024-10-01,data/processed/yc2024_monthly.csv,grep deepnight in the panel
+RM-delve,Delve <-> panel chain dom:delve.co,T1_SLUG,slug:delve,2024-10-01,data/processed/yc2024_monthly.csv,grep delve in the panel
+diana,DianaHR <-> panel chain nm:dianahr,T1_SLUG,slug:dianahr,2024-10-01,data/processed/yc2024_monthly.csv,grep dianahr in the panel
+diana,DianaHR <-> panel chain nm:diana,T2_CROSSWALK,crosswalk:former_name=diana,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'DianaHR' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+dime-2,Dime <-> panel chain dom:dimehealth.ai,T1_SLUG,slug:dime-2,2024-10-01,data/processed/yc2024_monthly.csv,grep dime-2 in the panel
+RM-double-2,Double <-> panel chain nm:double,T1_SLUG,slug:double-2,2024-10-01,data/processed/yc2024_monthly.csv,grep double-2 in the panel
+draftaid,Draftaid <-> panel chain nm:draftaid,T1_SLUG,slug:draftaid,2024-10-01,data/processed/yc2024_monthly.csv,grep draftaid in the panel
+dragoneye,Dragoneye <-> panel chain nm:dragoneye,T1_SLUG,slug:dragoneye,2024-10-01,data/processed/yc2024_monthly.csv,grep dragoneye in the panel
+driver,Driver AI <-> panel chain nm:driver ai,T1_SLUG,slug:driver-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep driver-ai in the panel
+driver,Driver AI <-> panel chain nm:driver,T2_CROSSWALK,crosswalk:former_name=driver,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Driver AI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+drymerge,DryMerge <-> panel chain nm:drymerge,T1_SLUG,slug:drymerge,2024-10-01,data/processed/yc2024_monthly.csv,grep drymerge in the panel
+duckie,Duckie <-> panel chain nm:duckie,T1_SLUG,slug:duckie,2024-10-01,data/processed/yc2024_monthly.csv,grep duckie in the panel
+ecliptor,Ecliptor <-> panel chain nm:ecliptor,T1_SLUG,slug:ecliptor,2024-10-01,data/processed/yc2024_monthly.csv,grep ecliptor in the panel
+eggnog,Eggnog <-> panel chain nm:eggnog,T1_SLUG,slug:eggnog,2024-10-01,data/processed/yc2024_monthly.csv,grep eggnog in the panel
+ellipsis,Ellipsis <-> panel chain nm:ellipsis,T1_SLUG,slug:ellipsis,2024-10-01,data/processed/yc2024_monthly.csv,grep ellipsis in the panel
+elodin,Elodin <-> panel chain nm:elodin,T1_SLUG,slug:elodin,2024-10-01,data/processed/yc2024_monthly.csv,grep elodin in the panel
+eris-biotech,Eris Biotech <-> panel chain nm:eris biotech,T1_SLUG,slug:eris-biotech,2024-10-01,data/processed/yc2024_monthly.csv,grep eris-biotech in the panel
+dropback,FanCave <-> panel chain nm:dropback,T2_CROSSWALK,crosswalk:former_name=dropback,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'FanCave' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+firebender,Firebender <-> panel chain nm:firebender,T1_SLUG,slug:firebender,2024-10-01,data/processed/yc2024_monthly.csv,grep firebender in the panel
+fluently,Fluently <-> panel chain nm:fluently,T1_SLUG,slug:fluently,2024-10-01,data/processed/yc2024_monthly.csv,grep fluently in the panel
+focal,Focal <-> panel chain nm:focal,T1_SLUG,slug:focal,2024-10-01,data/processed/yc2024_monthly.csv,grep focal in the panel
+forge,Forge <-> panel chain nm:forge,T1_SLUG,slug:forge,2024-10-01,data/processed/yc2024_monthly.csv,grep forge in the panel
+forge-rewards,Forge Rewards <-> panel chain nm:forge rewards,T1_SLUG,slug:forge-rewards,2024-10-01,data/processed/yc2024_monthly.csv,grep forge-rewards in the panel
+latted,Fume <-> panel chain nm:fume,T1_SLUG,slug:fume,2024-10-01,data/processed/yc2024_monthly.csv,grep fume in the panel
+latted,Fume <-> panel chain nm:latted,T2_CROSSWALK,crosswalk:former_name=latted,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Fume' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+garage-2,Garage <-> panel chain dom:shopgarage.com,T1_SLUG,slug:garage-2,2024-10-01,data/processed/yc2024_monthly.csv,grep garage-2 in the panel
+givefront,Givefront <-> panel chain nm:givefront,T1_SLUG,slug:givefront,2024-10-01,data/processed/yc2024_monthly.csv,grep givefront in the panel
+glimmer,Glimmer <-> panel chain nm:glimmer,T1_SLUG,slug:glimmer,2024-10-01,data/processed/yc2024_monthly.csv,grep glimmer in the panel
+polar,GoldenBasis <-> panel chain nm:goldenbasis,T1_SLUG,slug:goldenbasis,2024-10-01,data/processed/yc2024_monthly.csv,grep goldenbasis in the panel
+polar,GoldenBasis <-> panel chain nm:polar,T2_CROSSWALK,crosswalk:former_name=polar,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'GoldenBasis' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+governgpt,GovernGPT <-> panel chain dom:governgpt.com,T1_SLUG,slug:governgpt,2024-10-01,data/processed/yc2024_monthly.csv,grep governgpt in the panel
+granza-bio,Granza Bio <-> panel chain nm:granza bio,T1_SLUG,slug:granza-bio,2024-10-01,data/processed/yc2024_monthly.csv,grep granza-bio in the panel
+greenboard,Greenboard <-> panel chain nm:greenboard,T1_SLUG,slug:greenboard,2024-10-01,data/processed/yc2024_monthly.csv,grep greenboard in the panel
+greptile,Greptile <-> panel chain nm:greptile,T1_SLUG,slug:greptile,2024-10-01,data/processed/yc2024_monthly.csv,grep greptile in the panel
+guide-labs,Guide Labs <-> panel chain nm:guide labs,T1_SLUG,slug:guide-labs,2024-10-01,data/processed/yc2024_monthly.csv,grep guide-labs in the panel
+haplotype-labs,Haplotype Labs <-> panel chain nm:haplotype labs,T1_SLUG,slug:haplotype-labs,2024-10-01,data/processed/yc2024_monthly.csv,grep haplotype-labs in the panel
+hatchet-run,Hatchet <-> panel chain nm:hatchet,T1_SLUG,slug:hatchet-2,2024-10-01,data/processed/yc2024_monthly.csv,grep hatchet-2 in the panel
+hazel-2,Hazel <-> panel chain dom:hazelai.com,T1_SLUG,slug:hazel-2,2024-10-01,data/processed/yc2024_monthly.csv,grep hazel-2 in the panel
+healia,Healia <-> panel chain nm:healia,T1_SLUG,slug:healia,2024-10-01,data/processed/yc2024_monthly.csv,grep healia in the panel
+heartbyte,HeartByte <-> panel chain dom:storioai.com,T1_SLUG,slug:heartbyte,2024-10-01,data/processed/yc2024_monthly.csv,grep heartbyte in the panel
+newton,Hemingway <-> panel chain nm:newton,T2_CROSSWALK,crosswalk:former_name=newton,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Hemingway' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+cora,HeyPurple <-> panel chain nm:cora,T2_CROSSWALK,crosswalk:former_name=cora,2026-06-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'HeyPurple' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+RM-hona-2,Hona <-> panel chain nm:hona,T1_SLUG,slug:hona-2,2024-10-01,data/processed/yc2024_monthly.csv,grep hona-2 in the panel
+conduit-ai,HostAI <-> panel chain nm:hostai,T1_SLUG,slug:hostai,2024-10-01,data/processed/yc2024_monthly.csv,grep hostai in the panel
+conduit-ai,HostAI <-> panel chain nm:conduit,T2_CROSSWALK,crosswalk:former_name=conduit-ai,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'HostAI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+inquery-2,InQuery <-> panel chain nm:inquery,T1_SLUG,slug:inquery-2,2024-10-01,data/processed/yc2024_monthly.csv,grep inquery-2 in the panel
+infinity,Infinity <-> panel chain nm:infinity,T1_SLUG,slug:infinity,2024-10-01,data/processed/yc2024_monthly.csv,grep infinity in the panel
+lemonslice,Infinity AI <-> panel chain nm:infinity ai,T1_SLUG,slug:infinity-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep infinity-ai in the panel
+lemonslice,Infinity AI <-> panel chain nm:lemonslice,T2_CROSSWALK,crosswalk:former_name=lemonslice,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Infinity AI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+inspectmind-ai,InspectMind AI <-> panel chain nm:inspectmind ai,T1_SLUG,slug:inspectmind-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep inspectmind-ai in the panel
+cpgscout,Intercept <-> panel chain nm:intercept,T1_SLUG,slug:intercept,2024-10-01,data/processed/yc2024_monthly.csv,grep intercept in the panel
+cpgscout,Intercept <-> panel chain nm:scout,T2_CROSSWALK,crosswalk:former_name=cpgscout,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Intercept' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+junction-bioscience,Junction Bioscience <-> panel chain nm:junction bioscience,T1_SLUG,slug:junction-bioscience,2024-10-01,data/processed/yc2024_monthly.csv,grep junction-bioscience in the panel
+kabilah,Kabilah <-> panel chain nm:kabilah,T1_SLUG,slug:kabilah,2024-10-01,data/processed/yc2024_monthly.csv,grep kabilah in the panel
+respan,Keywords AI <-> panel chain nm:keywords ai,T1_SLUG,slug:keywords-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep keywords-ai in the panel
+respan,Keywords AI <-> panel chain nm:respan,T2_CROSSWALK,crosswalk:former_name=respan,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Keywords AI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+parallel,Kiosk <-> panel chain nm:kiosk,T1_SLUG,slug:kiosk,2024-10-01,data/processed/yc2024_monthly.csv,grep kiosk in the panel
+parallel,Kiosk <-> panel chain nm:parallel,T2_CROSSWALK,crosswalk:former_name=parallel,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Kiosk' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+voxops-ai,Konstructly <-> panel chain nm:konstructly,T1_SLUG,slug:konstructly,2024-10-01,data/processed/yc2024_monthly.csv,grep konstructly in the panel
+voxops-ai,Konstructly <-> panel chain nm:voxops ai,T2_CROSSWALK,crosswalk:former_name=voxops-ai,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Konstructly' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+aftercare,Kontractify <-> panel chain nm:aftercare,T2_CROSSWALK,crosswalk:former_name=aftercare,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Kontractify' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+lantern-2,Lantern <-> panel chain nm:lantern,T1_SLUG,slug:lantern-2,2024-10-01,data/processed/yc2024_monthly.csv,grep lantern-2 in the panel
+leaping,Leaping <-> panel chain nm:leaping,T1_SLUG,slug:leaping,2024-10-01,data/processed/yc2024_monthly.csv,grep leaping in the panel
+legora,Leya <-> panel chain nm:leya,T1_SLUG,slug:leya,2024-10-01,data/processed/yc2024_monthly.csv,grep leya in the panel
+legora,Leya <-> panel chain nm:legora,T2_CROSSWALK,crosswalk:former_name=legora,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Leya' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+lucite,Lucite <-> panel chain nm:lucite,T1_SLUG,slug:lucite,2024-10-01,data/processed/yc2024_monthly.csv,grep lucite in the panel
+RM-lumina-2,Lumina <-> panel chain nm:lumina,T1_SLUG,slug:lumina-2,2024-10-01,data/processed/yc2024_monthly.csv,grep lumina-2 in the panel
+lumona,Lumona <-> panel chain nm:lumona,T1_SLUG,slug:lumona,2024-10-01,data/processed/yc2024_monthly.csv,grep lumona in the panel
+RM-maihem,MAIHEM <-> panel chain dom:maihem.com,T1_SLUG,slug:maihem,2024-10-01,data/processed/yc2024_monthly.csv,grep maihem in the panel
+magic-hour,Magic Hour <-> panel chain nm:magic hour,T1_SLUG,slug:magic-hour,2024-10-01,data/processed/yc2024_monthly.csv,grep magic-hour in the panel
+maia,Maia <-> panel chain nm:maia,T1_SLUG,slug:maia,2024-10-01,data/processed/yc2024_monthly.csv,grep maia in the panel
+mango-health,Mango Health <-> panel chain dom:themangohealth.com,T1_SLUG,slug:mango-health,2024-10-01,data/processed/yc2024_monthly.csv,grep mango-health in the panel
+manifold-freight,Manifold Freight <-> panel chain nm:manifold freight,T1_SLUG,slug:manifold-freight,2024-10-01,data/processed/yc2024_monthly.csv,grep manifold-freight in the panel
+marblism,Marblism <-> panel chain nm:marblism,T1_SLUG,slug:marblism,2024-10-01,data/processed/yc2024_monthly.csv,grep marblism in the panel
+gloglo,Markprompt <-> panel chain nm:markprompt,T1_SLUG,slug:markprompt,2024-10-01,data/processed/yc2024_monthly.csv,grep markprompt in the panel
+gloglo,Markprompt <-> panel chain nm:gloglo,T2_CROSSWALK,crosswalk:former_name=gloglo,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Markprompt' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+marr-labs,Marr Labs <-> panel chain nm:marr labs,T1_SLUG,slug:marr-labs,2024-10-01,data/processed/yc2024_monthly.csv,grep marr-labs in the panel
+breez-labs,MathDash <-> panel chain nm:mathdash,T1_SLUG,slug:mathdash,2024-10-01,data/processed/yc2024_monthly.csv,grep mathdash in the panel
+breez-labs,MathDash <-> panel chain nm:breez labs,T2_CROSSWALK,crosswalk:former_name=breez-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'MathDash' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+meticulate,Meticulate <-> panel chain nm:meticulate,T1_SLUG,slug:meticulate,2024-10-01,data/processed/yc2024_monthly.csv,grep meticulate in the panel
+metofico,Metofico <-> panel chain nm:metofico,T1_SLUG,slug:metofico,2024-10-01,data/processed/yc2024_monthly.csv,grep metofico in the panel
+miden,Miden <-> panel chain nm:miden,T1_SLUG,slug:miden,2024-10-01,data/processed/yc2024_monthly.csv,grep miden in the panel
+million,Million.js <-> panel chain nm:million,T1_DOMAIN,dom:million.dev,2024-10-01,data/processed/yc2024_monthly.csv,grep million.dev in the panel
+model-ml,Model ML <-> panel chain nm:model ml,T1_SLUG,slug:model-ml,2024-10-01,data/processed/yc2024_monthly.csv,grep model-ml in the panel
+momentic,Momentic <-> panel chain nm:momentic,T1_SLUG,slug:momentic,2024-10-01,data/processed/yc2024_monthly.csv,grep momentic in the panel
+navier-ai,NavierAI <-> panel chain nm:navier ai,T1_DOMAIN,dom:navier.ai,2024-10-01,data/processed/yc2024_monthly.csv,grep navier.ai in the panel
+RM-nowhouse,NowHouse <-> panel chain nm:nowhouse,T1_SLUG,slug:nowhouse,2024-10-01,data/processed/yc2024_monthly.csv,grep nowhouse in the panel
+nuanced,"Nuanced, Inc. <-> panel chain nm:nuanced",T1_SLUG,slug:nuanced-inc,2024-10-01,data/processed/yc2024_monthly.csv,grep nuanced-inc in the panel
+the-new-money-company,Numo <-> panel chain nm:the new money company,T2_CROSSWALK,crosswalk:former_name=the-new-money-company,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Numo' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+octolane-ai,Octolane AI <-> panel chain nm:octolane ai,T1_SLUG,slug:octolane-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep octolane-ai in the panel
+ocular-ai,Ocular AI <-> panel chain nm:ocular ai,T1_SLUG,slug:ocular-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep ocular-ai in the panel
+oddsview,OddsView <-> panel chain nm:oddsview,T1_SLUG,slug:oddsview,2024-10-01,data/processed/yc2024_monthly.csv,grep oddsview in the panel
+offdeal,OffDeal <-> panel chain nm:offdeal,T1_SLUG,slug:offdeal,2024-10-01,data/processed/yc2024_monthly.csv,grep offdeal in the panel
+tesseral,Okapi <-> panel chain nm:tesseral,T2_CROSSWALK,crosswalk:former_name=tesseral,2025-06-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Okapi' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+oma-care,Oma Care <-> panel chain nm:oma care,T1_SLUG,slug:oma-care,2024-10-01,data/processed/yc2024_monthly.csv,grep oma-care in the panel
+monumint,OmniAI <-> panel chain nm:omniai,T1_SLUG,slug:omniai,2024-10-01,data/processed/yc2024_monthly.csv,grep omniai in the panel
+monumint,OmniAI <-> panel chain nm:monumint,T2_CROSSWALK,crosswalk:former_name=monumint,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'OmniAI' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+onegrep,OneGrep <-> panel chain nm:onegrep,T1_SLUG,slug:onegrep,2024-10-01,data/processed/yc2024_monthly.csv,grep onegrep in the panel
+fileforge,Onedoc <-> panel chain nm:fileforge,T2_CROSSWALK,crosswalk:former_name=fileforge,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Onedoc' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+open,OpenCopilot <-> panel chain nm:open,T2_CROSSWALK,crosswalk:former_name=open,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'OpenCopilot' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+overheard,OpenFoundry <-> panel chain nm:openfoundry,T1_SLUG,slug:openfoundry,2024-10-01,data/processed/yc2024_monthly.csv,grep openfoundry in the panel
+overheard,OpenFoundry <-> panel chain nm:overheard,T2_CROSSWALK,crosswalk:former_name=overheard,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'OpenFoundry' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+opencall,Opencall.ai <-> panel chain nm:opencall,T1_SLUG,slug:opencall-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep opencall-ai in the panel
+openmart,Openmart <-> panel chain nm:openmart,T1_SLUG,slug:openmart,2024-10-01,data/processed/yc2024_monthly.csv,grep openmart in the panel
+paradigm,Paradigm <-> panel chain nm:paradigm,T1_SLUG,slug:paradigm,2024-10-01,data/processed/yc2024_monthly.csv,grep paradigm in the panel
+engines,Parasale <-> panel chain nm:parasale,T1_SLUG,slug:parasale,2024-10-01,data/processed/yc2024_monthly.csv,grep parasale in the panel
+engines,Parasale <-> panel chain nm:engines,T2_CROSSWALK,crosswalk:former_name=engines,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Parasale' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+parcelbio,ParcelBio <-> panel chain nm:parcelbio,T1_SLUG,slug:parcelbio,2024-10-01,data/processed/yc2024_monthly.csv,grep parcelbio in the panel
+partnerhq,PartnerHQ <-> panel chain nm:partnerhq,T1_SLUG,slug:partnerhq,2024-10-01,data/processed/yc2024_monthly.csv,grep partnerhq in the panel
+patchwork,Patchwork <-> panel chain nm:patchwork,T1_SLUG,slug:patchwork,2024-10-01,data/processed/yc2024_monthly.csv,grep patchwork in the panel
+piramidal,Piramidal <-> panel chain nm:piramidal,T1_SLUG,slug:piramidal,2024-10-01,data/processed/yc2024_monthly.csv,grep piramidal in the panel
+pivot-robotics,Pivot Robots <-> panel chain nm:pivot robotics,T2_CROSSWALK,crosswalk:former_name=pivot-robotics,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Pivot Robots' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+lumetric,PocketPod <-> panel chain nm:pocketpod,T1_SLUG,slug:pocketpod,2024-10-01,data/processed/yc2024_monthly.csv,grep pocketpod in the panel
+lumetric,PocketPod <-> panel chain nm:lumetric,T2_CROSSWALK,crosswalk:former_name=lumetric,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'PocketPod' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+pointone,PointOne <-> panel chain dom:pointone.com,T1_SLUG,slug:pointone,2024-10-01,data/processed/yc2024_monthly.csv,grep pointone in the panel
+powder,Powder <-> panel chain nm:powder,T1_SLUG,slug:powder,2024-10-01,data/processed/yc2024_monthly.csv,grep powder in the panel
+precip,Precip <-> panel chain nm:precip,T1_SLUG,slug:precip,2024-10-01,data/processed/yc2024_monthly.csv,grep precip in the panel
+preloop,Preloop <-> panel chain nm:preloop,T1_SLUG,slug:preloop,2024-10-01,data/processed/yc2024_monthly.csv,grep preloop in the panel
+pretzel-ai,Pretzel AI <-> panel chain nm:pretzel ai,T1_SLUG,slug:pretzel-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep pretzel-ai in the panel
+prosights,ProSights <-> panel chain nm:prosights,T1_SLUG,slug:prosights,2024-10-01,data/processed/yc2024_monthly.csv,grep prosights in the panel
+promptarmor,PromptArmor <-> panel chain nm:promptarmor,T1_SLUG,slug:promptarmor,2024-10-01,data/processed/yc2024_monthly.csv,grep promptarmor in the panel
+pazi,Pythagora (GPT Pilot) <-> panel chain nm:pythagora,T1_SLUG,slug:pythagora-gpt-pilot,2024-10-01,data/processed/yc2024_monthly.csv,grep pythagora-gpt-pilot in the panel
+pazi,Pythagora (GPT Pilot) <-> panel chain nm:pazi,T2_CROSSWALK,crosswalk:former_name=pazi,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Pythagora (GPT Pilot)' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+RM-quantic,Quantic <-> panel chain nm:quantic,T1_SLUG,slug:quantic,2024-10-01,data/processed/yc2024_monthly.csv,grep quantic in the panel
+quary,Quary <-> panel chain nm:quary,T1_SLUG,slug:quary,2024-10-01,data/processed/yc2024_monthly.csv,grep quary in the panel
+quivr,Quivr <-> panel chain nm:quivr,T1_SLUG,slug:quivr,2024-10-01,data/processed/yc2024_monthly.csv,grep quivr in the panel
+radmate-ai,RadMate AI <-> panel chain nm:radmate ai,T1_SLUG,slug:radmate-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep radmate-ai in the panel
+vibrant-labs,Ragas <-> panel chain nm:ragas,T1_SLUG,slug:ragas,2024-10-01,data/processed/yc2024_monthly.csv,grep ragas in the panel
+vibrant-labs,Ragas <-> panel chain nm:vibrant labs,T2_CROSSWALK,crosswalk:former_name=vibrant-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Ragas' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+reducto,Reducto <-> panel chain nm:reducto,T1_SLUG,slug:reducto,2024-10-01,data/processed/yc2024_monthly.csv,grep reducto in the panel
+reform,Reform <-> panel chain nm:reform,T1_SLUG,slug:reform,2024-10-01,data/processed/yc2024_monthly.csv,grep reform in the panel
+relari,Relari <-> panel chain dom:nuvi.dev,T1_SLUG,slug:relari,2024-10-01,data/processed/yc2024_monthly.csv,grep relari in the panel
+reprompt,Reprompt <-> panel chain nm:reprompt,T1_SLUG,slug:reprompt,2024-10-01,data/processed/yc2024_monthly.csv,grep reprompt in the panel
+resonance,Resonance <-> panel chain nm:resonance,T1_SLUG,slug:resonance,2024-10-01,data/processed/yc2024_monthly.csv,grep resonance in the panel
+retailready,RetailReady <-> panel chain nm:retailready,T1_SLUG,slug:retailready,2024-10-01,data/processed/yc2024_monthly.csv,grep retailready in the panel
+retell-ai,Retell AI <-> panel chain nm:retell ai,T1_SLUG,slug:retell-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep retell-ai in the panel
+risotto,Risotto <-> panel chain nm:risotto,T1_SLUG,slug:risotto,2024-10-01,data/processed/yc2024_monthly.csv,grep risotto in the panel
+roe,Roe AI <-> panel chain nm:roe,T1_SLUG,slug:roe-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep roe-ai in the panel
+rove,Rove <-> panel chain dom:rove.com,T1_SLUG,slug:rove,2024-10-01,data/processed/yc2024_monthly.csv,grep rove in the panel
+salvy,Salvy <-> panel chain nm:salvy,T1_SLUG,slug:salvy,2024-10-01,data/processed/yc2024_monthly.csv,grep salvy in the panel
+event-horizon-labs,SciPhi <-> panel chain nm:sciphi,T1_SLUG,slug:sciphi,2024-10-01,data/processed/yc2024_monthly.csv,grep sciphi in the panel
+event-horizon-labs,SciPhi <-> panel chain nm:event horizon labs,T2_CROSSWALK,crosswalk:former_name=event-horizon-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'SciPhi' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+scritch,Scritch <-> panel chain nm:scritch,T1_SLUG,slug:scritch,2024-10-01,data/processed/yc2024_monthly.csv,grep scritch in the panel
+selera-medical,Selera Medical <-> panel chain nm:selera medical,T1_SLUG,slug:selera-medical,2024-10-01,data/processed/yc2024_monthly.csv,grep selera-medical in the panel
+senso,Senso <-> panel chain nm:senso,T1_SLUG,slug:senso,2024-10-01,data/processed/yc2024_monthly.csv,grep senso in the panel
+RM-sevnai,SevnAI <-> panel chain nm:sevnai,T1_SLUG,slug:sevnai,2026-06-01,data/processed/yc2024_monthly.csv,grep sevnai in the panel
+shepherd-2,Shepherd <-> panel chain nm:shepherd,T1_SLUG,slug:shepherd-2,2024-10-01,data/processed/yc2024_monthly.csv,grep shepherd-2 in the panel
+shiboleth,Shiboleth <-> panel chain nm:shiboleth,T1_SLUG,slug:shiboleth,2024-10-01,data/processed/yc2024_monthly.csv,grep shiboleth in the panel
+silogy,SiLogy <-> panel chain nm:silogy,T1_SLUG,slug:silogy,2024-10-01,data/processed/yc2024_monthly.csv,grep silogy in the panel
+penciled,Somn <-> panel chain nm:penciled,T2_CROSSWALK,crosswalk:former_name=penciled,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Somn' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+treblo,Sonauto <-> panel chain nm:sonauto,T1_SLUG,slug:sonauto,2024-10-01,data/processed/yc2024_monthly.csv,grep sonauto in the panel
+treblo,Sonauto <-> panel chain nm:treblo,T2_CROSSWALK,crosswalk:former_name=treblo,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Sonauto' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+sonia,Sonia <-> panel chain nm:sonia,T1_SLUG,slug:sonia,2024-10-01,data/processed/yc2024_monthly.csv,grep sonia in the panel
+soundry-ai,Soundry AI <-> panel chain nm:soundry ai,T1_SLUG,slug:soundry-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep soundry-ai in the panel
+solari-ai,SpareChange <-> panel chain nm:solari ai,T2_CROSSWALK,crosswalk:former_name=solari-ai,2026-02-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'SpareChange' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+spark,Spark <-> panel chain nm:spark,T1_SLUG,slug:spark,2024-10-01,data/processed/yc2024_monthly.csv,grep spark in the panel
+speck,Speck <-> panel chain dom:speck.sh,T1_SLUG,slug:speck,2024-10-01,data/processed/yc2024_monthly.csv,grep speck in the panel
+stacksync,Stacksync <-> panel chain dom:stacksync.com,T1_SLUG,slug:stacksync,2024-10-01,data/processed/yc2024_monthly.csv,grep stacksync in the panel
+averyiq,Starlight Charging <-> panel chain nm:starlight charging,T1_SLUG,slug:starlight-charging,2024-10-01,data/processed/yc2024_monthly.csv,grep starlight-charging in the panel
+averyiq,Starlight Charging <-> panel chain nm:averyiq,T2_CROSSWALK,crosswalk:former_name=averyiq,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Starlight Charging' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+stitch-technologies,Stitch Technologies <-> panel chain nm:stitch technologies,T1_SLUG,slug:stitch-technologies,2024-10-01,data/processed/yc2024_monthly.csv,grep stitch-technologies in the panel
+superagent,Superagent.sh <-> panel chain nm:superagent,T1_DOMAIN,dom:superagent.sh,2024-10-01,data/processed/yc2024_monthly.csv,grep superagent.sh in the panel
+consul,Swift <-> panel chain nm:swift,T1_SLUG,slug:swift-2,2024-10-01,data/processed/yc2024_monthly.csv,grep swift-2 in the panel
+consul,Swift <-> panel chain nm:consul,T2_CROSSWALK,crosswalk:former_name=consul,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Swift' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+synsorybio,SynsoryBio <-> panel chain nm:synsorybio,T1_SLUG,slug:synsorybio,2024-10-01,data/processed/yc2024_monthly.csv,grep synsorybio in the panel
+integuru,Taiki <-> panel chain nm:taiki,T1_SLUG,slug:taiki,2024-10-01,data/processed/yc2024_monthly.csv,grep taiki in the panel
+integuru,Taiki <-> panel chain dom:integuru.com,T2_CROSSWALK,crosswalk:former_name=integuru,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Taiki' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+tamarind-bio,Tamarind Bio <-> panel chain nm:tamarind bio,T1_SLUG,slug:tamarind-bio,2024-10-01,data/processed/yc2024_monthly.csv,grep tamarind-bio in the panel
+RM-tensorfuse,Tensorfuse <-> panel chain nm:tensorfuse,T1_SLUG,slug:tensorfuse,2024-10-01,data/processed/yc2024_monthly.csv,grep tensorfuse in the panel
+terrakotta,Terrakotta <-> panel chain nm:terrakotta,T1_SLUG,slug:terrakotta,2024-10-01,data/processed/yc2024_monthly.csv,grep terrakotta in the panel
+RM-tile,Tile <-> panel chain nm:tile,T1_SLUG,slug:tile,2024-10-01,data/processed/yc2024_monthly.csv,grep tile in the panel
+RM-titan-2,Titan <-> panel chain nm:titan,T1_SLUG,slug:titan-2,2024-10-01,data/processed/yc2024_monthly.csv,grep titan-2 in the panel
+toma,Toma <-> panel chain nm:toma,T1_SLUG,slug:toma,2024-10-01,data/processed/yc2024_monthly.csv,grep toma in the panel
+topo,Topo AI <-> panel chain nm:topo,T1_DOMAIN,dom:topo.io,2024-10-01,data/processed/yc2024_monthly.csv,grep topo.io in the panel
+tracecat,Tracecat <-> panel chain nm:tracecat,T1_SLUG,slug:tracecat,2024-10-01,data/processed/yc2024_monthly.csv,grep tracecat in the panel
+RM-trellis,Trellis <-> panel chain nm:trellis ai,T1_SLUG,slug:trellis,2024-10-01,data/processed/yc2024_monthly.csv,grep trellis in the panel
+trieve,Trieve <-> panel chain nm:trieve,T1_SLUG,slug:trieve,2024-10-01,data/processed/yc2024_monthly.csv,grep trieve in the panel
+trueclaim,TrueClaim <-> panel chain nm:trueclaim,T1_SLUG,slug:trueclaim,2024-10-01,data/processed/yc2024_monthly.csv,grep trueclaim in the panel
+tusk,Tusk <-> panel chain nm:tusk,T1_SLUG,slug:tusk,2024-10-01,data/processed/yc2024_monthly.csv,grep tusk in the panel
+ubicloud,Ubicloud <-> panel chain nm:ubicloud,T1_SLUG,slug:ubicloud,2024-10-01,data/processed/yc2024_monthly.csv,grep ubicloud in the panel
+upsolve-ai,Upsolve AI <-> panel chain nm:upsolve ai,T1_SLUG,slug:upsolve-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep upsolve-ai in the panel
+andon-labs,Vectorview <-> panel chain nm:vectorview,T1_SLUG,slug:vectorview,2024-10-01,data/processed/yc2024_monthly.csv,grep vectorview in the panel
+andon-labs,Vectorview <-> panel chain nm:andon labs,T2_CROSSWALK,crosswalk:former_name=andon-labs,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Vectorview' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+veles,Veles <-> panel chain nm:veles,T1_SLUG,slug:veles,2024-10-01,data/processed/yc2024_monthly.csv,grep veles in the panel
+velorum-therapeutics,Velorum Therapeutics <-> panel chain nm:velorum therapeutics,T1_SLUG,slug:velorum-therapeutics,2024-10-01,data/processed/yc2024_monthly.csv,grep velorum-therapeutics in the panel
+vista-power,Vista Space <-> panel chain nm:vista power,T2_CROSSWALK,crosswalk:former_name=vista-power,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'Vista Space' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+voicepanel,Voicepanel <-> panel chain nm:voicepanel,T1_SLUG,slug:voicepanel,2024-10-01,data/processed/yc2024_monthly.csv,grep voicepanel in the panel
+wuri,Wuri <-> panel chain dom:wuri.in,T1_SLUG,slug:wuri,2024-10-01,data/processed/yc2024_monthly.csv,grep wuri in the panel
+yarn-2,Yarn <-> panel chain nm:yarn,T1_SLUG,slug:yarn-2,2024-10-01,data/processed/yc2024_monthly.csv,grep yarn-2 in the panel
+yenmo,Yenmo <-> panel chain nm:yenmo,T1_SLUG,slug:yenmo,2024-10-01,data/processed/yc2024_monthly.csv,grep yenmo in the panel
+yondu,Yondu <-> panel chain nm:yondu,T1_SLUG,slug:yondu,2024-10-01,data/processed/yc2024_monthly.csv,grep yondu in the panel
+yoneda-labs,Yoneda Labs <-> panel chain nm:yoneda labs,T1_SLUG,slug:yoneda-labs,2024-10-01,data/processed/yc2024_monthly.csv,grep yoneda-labs in the panel
+zaymo,Zaymo <-> panel chain nm:zaymo,T1_SLUG,slug:zaymo,2024-10-01,data/processed/yc2024_monthly.csv,grep zaymo in the panel
+zep-ai,Zep AI <-> panel chain nm:zep ai,T1_SLUG,slug:zep-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep zep-ai in the panel
+atopile,atopile <-> panel chain nm:atopile,T1_SLUG,slug:atopile,2024-10-01,data/processed/yc2024_monthly.csv,grep atopile in the panel
+camelai,camelQA <-> panel chain nm:camelai,T2_CROSSWALK,crosswalk:former_name=camelai,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'camelQA' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+RM-dawn,dawn <-> panel chain nm:dawn,T1_SLUG,slug:dawn,2024-10-01,data/processed/yc2024_monthly.csv,grep dawn in the panel
+edgetrace,edgetrace <-> panel chain nm:edgetrace,T1_SLUG,slug:edgetrace,2024-10-01,data/processed/yc2024_monthly.csv,grep edgetrace in the panel
+ego,ego <-> panel chain dom:egoai.com,T1_SLUG,slug:ego,2024-10-01,data/processed/yc2024_monthly.csv,grep ego in the panel
+ion-design,ion design <-> panel chain nm:ion design,T1_SLUG,slug:ion-design,2024-10-01,data/processed/yc2024_monthly.csv,grep ion-design in the panel
+RM-just-words,just words <-> panel chain nm:just words,T1_SLUG,slug:just-words,2024-10-01,data/processed/yc2024_monthly.csv,grep just-words in the panel
+kater-ai,kater.ai <-> panel chain nm:kater ai,T1_SLUG,slug:kater-ai,2024-10-01,data/processed/yc2024_monthly.csv,grep kater-ai in the panel
+malibou,malibou <-> panel chain dom:malibou.com,T1_SLUG,slug:malibou,2024-10-01,data/processed/yc2024_monthly.csv,grep malibou in the panel
+ncompass-technologies,nCompass Technologies <-> panel chain nm:ncompass technologies,T1_SLUG,slug:ncompass-technologies,2024-10-01,data/processed/yc2024_monthly.csv,grep ncompass-technologies in the panel
+nanocorp,phospho <-> panel chain nm:phospho,T1_SLUG,slug:phospho,2024-10-01,data/processed/yc2024_monthly.csv,grep phospho in the panel
+nanocorp,phospho <-> panel chain nm:nanocorp,T2_CROSSWALK,crosswalk:former_name=nanocorp,2024-10-01,data/processed/yc2024_monthly.csv; data/processed/w24_crosswalk.csv,"grep 'phospho' in w24_crosswalk.csv, then grep its matched_slug in the panel"
+renderlet,renderlet <-> panel chain nm:renderlet,T1_SLUG,slug:renderlet,2024-10-01,data/processed/yc2024_monthly.csv,grep renderlet in the panel
+sync-2,sync labs <-> panel chain nm:sync,T1_SLUG,slug:sync-labs,2024-10-01,data/processed/yc2024_monthly.csv,grep sync-labs in the panel
+thorntale,thorntale <-> panel chain nm:thorntale,T1_SLUG,slug:thorntale,2024-10-01,data/processed/yc2024_monthly.csv,grep thorntale in the panel
+xpay,xPay <-> panel chain nm:xpay,T1_SLUG,slug:xpay,2024-10-01,data/processed/yc2024_monthly.csv,grep xpay in the panel

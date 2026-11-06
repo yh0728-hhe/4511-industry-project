@@ -1,0 +1,241 @@
+﻿company_id,name_at_decision,old_match_status,new_status,matched_slug,matched_name,matched_website,match_basis,events_in_window,cumulative_usd_in_window,latest_round_date,detail_cached,note
+abel,Abel,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (tryabel.com)
+tuesday-labs,Adagy Robotics,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,tuesday-labs,Tuesday Labs,tuesdaylabs.com,DOMAIN,0,,,YES,
+aedilic,Aedilic,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (nonescape.com,saysoapp.com,gpudeploy.com,aedilic.com)"
+feldy,Aether Energy,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,feldy,Feldy,feldy.ai,DOMAIN,0,,,YES,
+RM-agenthub,AgentHub,COMPANY_NOT_FOUND,FUNDING_EVENT_FOUND,gumloop,Gumloop,gumloop.com,DOMAIN,3,70100000,2026-03-12,YES,
+agentic-labs-2,Agentic Labs,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,agentic-labs,Agentic Labs,agenticlabs.com,DOMAIN,0,,,YES,
+aidy,Aidy,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,aidy,Aidy,aidyhq.com,DOMAIN,0,,,YES,
+RM-airfront,Airfront,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (airfront.com)
+indemni,Alacrity,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,indemni,Indemni,indemni.com,DOMAIN,0,,2026-10-06,YES,
+alai,Alai,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,alai,Alai,getalai.com,DOMAIN,0,,,YES,
+deep24,Amber AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,deep24,Deep24,deep24.com,DOMAIN,0,,,YES,
+clarion,Anaphero,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,clarion,Clarion,clarionhealth.com,DOMAIN,0,,2026-09-16,YES,
+andy-ai,Andy AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,andy-ai,Andy AI,with-andy.com,DOMAIN,0,,,YES,
+alex-com,Apriora,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,alex,Alex,alex.com,DOMAIN,3,39800000,2025-10-01,YES,
+aqua-voice,Aqua Voice,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,aqua-voice,Aqua Voice,aquavoice.com,DOMAIN,0,,,YES,
+arcane,Arcane,AMBIGUOUS_MATCH,COMPANY_FOUND_NO_DATED_ROUND,arcane,Arcane,rohanmehta.com,DOMAIN,0,,2023-12-14,NO,
+argon-ai-inc,"Argon AI, Inc.",COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,argon-ai-inc,Argon,argon-ai.com,DOMAIN,0,,,YES,
+arini,Arini,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,arini,Arini,arini.ai,DOMAIN,1,,2026-03-24,YES,
+artisan,Artisan AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,artisan,Artisan,artisan.co,DOMAIN,2,36500000,2025-04-09,YES,
+artos,Artos,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,artos,Artos,artosai.com,DOMAIN,0,,,YES,
+RM-assembly-2,Assembly,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (askassembly.app)
+attunement,Attunement,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,attunement,Attunement,attunement.ai,DOMAIN,0,,,YES,
+basalt,Basalt Tech,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (basalt.space)
+basepilot,Basepilot,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,basepilot,Basepilot,basepilot.com,DOMAIN,0,,,YES,
+betterbasket,BetterBasket,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,betterbasket,BetterBasket,betterbasket.com,DOMAIN,0,,,YES,
+bilanc,Bilanc,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,bilanc,Bilanc,bilanc.co,DOMAIN,0,,,YES,
+bitesight,BiteSight,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,bitesight,BiteSight,bitesight.com,DOMAIN,1,,2025-07-15,YES,
+blacksmith,Blacksmith,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,blacksmith,Blacksmith,blacksmith.sh,DOMAIN,2,13500000,2026-10-21,YES,
+blume-benefits,Blume Benefits,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (blumebenefits.com)
+suretynow,BondCenter,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,suretynow,SuretyNow,suretynow.com,DOMAIN,0,,,YES,
+brainbase-labs,Brainbase,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,brainbase-labs,Brainbase Labs,brainbaselabs.com,DOMAIN,0,,,YES,
+browser-buddy,Browser Buddy,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (browserbuddy.com)
+keystroke,Buster,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,keystroke,Keystroke,keystroke.ai,DOMAIN,0,,,YES,
+carma,Carma,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,carma,Carma,joincarma.com,DOMAIN,0,,,YES,
+carousel-technologies,Carousel Technologies,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,carousel-technologies,Carousel Technologies,usecarousel.com,DOMAIN,0,,,YES,
+celest,Celest,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (celest.dev)
+centauri-ai,Centauri AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,centauri-ai,Centauri AI,centauri-ai.tech,DOMAIN,0,,,YES,
+centralize,Centralize,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,centralize,Centralize,usecentralize.com,DOMAIN,0,,,YES,
+circleback,Circleback,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,circleback,Circleback,circleback.ai,DOMAIN,1,,2024-11-27,YES,
+clarum,Clarum,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,clarum,Clarum,clarum.ai,DOMAIN,0,,,YES,
+cleva,Cleva,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,cleva,Cleva,getcleva.com,DOMAIN,0,,2024-01-08,YES,
+cloudcruise,CloudCruise,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,cloudcruise,CloudCruise,cloudcruise.com,DOMAIN,1,,2026-03-22,YES,
+cocrafter,CoCrafter,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,cocrafter,CoCrafter,cocrafter.com,DOMAIN,0,,,YES,
+codeant-ai,CodeAnt AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,codeant-ai,CodeAnt AI,codeant.ai,DOMAIN,1,2000000,2025-05-07,YES,
+commodityai,CommodityAI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,commodityai,CommodityAI,commodityai.io,DOMAIN,0,,,YES,
+adapted,Corefin,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,adapted,Adapted,adapted.app,DOMAIN,0,,,YES,
+toolify,Creo,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,toolify,Toolify,toolify.sh,DOMAIN,0,,,YES,
+crowdvolt,CrowdVolt,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,crowdvolt,CrowdVolt,crowdvolt.com,DOMAIN,2,,2024-12-17,YES,
+getcrux,Crux,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,getcrux,GetCrux,getcrux.ai,DOMAIN,0,,,YES,
+dgi-apparel,DGI Apparel,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (dgiapparel.com)
+fractal-labs,DaLMatian,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (fractal-labs.gg,dalmatian.ai)"
+onyx,Danswer,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,onyx-2,Onyx,onyx.app,DOMAIN,1,10000000,2025-03-18,YES,
+datacurve,Datacurve,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,datacurve,Datacurve,datacurve.ai,DOMAIN,1,15000000,2025-10-09,YES,
+decipher-ai,Decipher AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,decipher-ai,Decipher AI,getdecipher.com,DOMAIN,0,,,YES,
+deepnight,DeepNight,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,deepnight,Deepnight,deepnight.com,DOMAIN,1,5500000,2025-02-27,YES,
+RM-delve,Delve,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (delve.co,getdelve.com)"
+diana,DianaHR,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,diana,Diana,getdiana.com,DOMAIN,1,,2025-09-15,YES,
+dime-2,Dime,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,dime,Dime,dimehealth.ai,DOMAIN,0,,,YES,
+RM-double-2,Double,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (double.finance)
+draftaid,Draftaid,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,draftaid,Draftaid,draftaid.io,DOMAIN,0,,,YES,
+dragoneye,Dragoneye,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,dragoneye,Dragoneye,dragoneye.ai,DOMAIN,0,,,YES,
+driver,Driver AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,driver,Driver,driver.ai,DOMAIN,1,,2024-10-08,YES,
+drymerge,DryMerge,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,drymerge,DryMerge,drymerge.com,DOMAIN,1,2200000,2024-09-16,YES,
+duckie,Duckie,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,duckie,Duckie,duckie.ai,DOMAIN,0,,,YES,
+ecliptor,Ecliptor,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ecliptor,Ecliptor,ecliptor.ai,DOMAIN,0,,,YES,
+eggnog,Eggnog,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,eggnog,Eggnog,eggnog.ai,DOMAIN,0,,,YES,
+ellipsis,Ellipsis,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,ellipsis,Ellipsis,ellipsis.dev,DOMAIN,1,,2024-06-19,YES,
+elodin,Elodin,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,elodin,Elodin,elodin.systems,DOMAIN,0,,,YES,
+eris-biotech,Eris Biotech,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,eris-biotech,Eris Biotech,erisbio.com,DOMAIN,0,,,YES,
+dropback,FanCave,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,dropback,Dropback,dropback.com,DOMAIN,1,1600000,2025-01-15,YES,
+firebender,Firebender,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,firebender,Firebender,firebender.com,DOMAIN,0,,,YES,
+fluently,Fluently,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,fluently,Fluently,getfluently.app,DOMAIN,1,2000000,2024-06-28,YES,
+focal,Focal,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (focalml.com)
+forge,Forge,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,forge,Forge,forgehq.com,DOMAIN,1,,2025-05-31,YES,
+forge-rewards,Forge Rewards,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,forge-rewards,Forge Rewards,joinforge.app,DOMAIN,0,,,YES,
+latted,Fume,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,latted,Latted,latted.com,DOMAIN,0,,,YES,
+garage-2,Garage,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (shopgarage.com,withgarage.com)"
+givefront,Givefront,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,givefront,Givefront,givefront.com,DOMAIN,1,2000000,2025-12-21,YES,
+glimmer,Glimmer,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (withglimmer.com)
+polar,GoldenBasis,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,polar,Polar,polarfi.com,DOMAIN,1,,2025-06-18,YES,
+governgpt,GovernGPT,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,governgpt,GovernGPT,governgpt.com,DOMAIN,0,,,YES,
+granza-bio,Granza Bio,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,granza-bio,Granza Bio,granzabio.com,DOMAIN,1,7000000,2024-07-03,YES,
+greenboard,Greenboard,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,greenboard,Greenboard,greenboard.com,DOMAIN,1,,2026-05-12,YES,
+greptile,Greptile,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,greptile,Greptile,greptile.com,DOMAIN,3,29000000,2026-10-19,YES,
+guide-labs,Guide Labs,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,guide-labs,Guide Labs,guidelabs.ai,DOMAIN,1,9000000,2025-12-08,YES,
+haplotype-labs,Haplotype Labs,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,haplotype-labs,Haplotype Labs,haplotypelabs.com,DOMAIN,0,,,YES,
+hatchet-run,Hatchet,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,hatchet,Hatchet,hatchet.run,DOMAIN,0,,,YES,
+hazel-2,Hazel,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (hazelai.com,hazeltech.ai)"
+healia,Healia,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,healia,Healia,healiahealth.com,DOMAIN,0,,,YES,
+heartbyte,HeartByte,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,heartbyte,HeartByte,storioai.com,DOMAIN,0,,,YES,
+newton,Hemingway,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,newton,Newton,joinnewton.com,DOMAIN,1,3800000,2025-10-22,YES,
+cora,HeyPurple,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,cora,Cora,corahealth.app,DOMAIN,0,,,YES,
+RM-hona-2,Hona,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (hona.ai)
+conduit-ai,HostAI,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (conduit.ai,conduit.app,hostai.app)"
+inquery-2,InQuery,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,inquery,InQuery,inquery.ai,DOMAIN,0,,,YES,
+infinity,Infinity,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (infinityapp.in)
+lemonslice,Infinity AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,lemonslice,LemonSlice,lemonslice.com,DOMAIN,1,,2025-12-23,YES,
+inspectmind-ai,InspectMind AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,inspectmind-ai,InspectMind AI,inspectmind.ai,DOMAIN,0,,,YES,
+cpgscout,Intercept,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (cpgscout.ai,tryintercept.com)"
+junction-bioscience,Junction Bioscience,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,junction-bioscience,Junction Bioscience,junction.bio,DOMAIN,0,,,YES,
+kabilah,Kabilah,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,kabilah,Kabilah,kabilah.com,DOMAIN,1,,2024-07-15,YES,
+respan,Keywords AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,respan,Respan,respan.ai,DOMAIN,1,5000000,2026-03-18,YES,
+parallel,Kiosk,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,parallel,Parallel,beparallel.com,DOMAIN,1,20000000,2026-03-18,YES,
+voxops-ai,Konstructly,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,voxops-ai,VoxOps AI,voxopsai.com,DOMAIN,0,,,YES,
+aftercare,Kontractify,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,aftercare,Aftercare,getaftercare.com,DOMAIN,0,,,YES,
+lantern-2,Lantern,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (lantern.dev)
+leaping,Leaping,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,leaping,Leaping,leaping.io,DOMAIN,0,,,YES,
+legora,Leya,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,legora,Legora,legora.com,DOMAIN,5,805000000,2026-05-01,YES,
+lucite,Lucite,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (lucite.ai)
+RM-lumina-2,Lumina,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (lumina.sh,lumina-chat.com)"
+lumona,Lumona,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (lumona.ai)
+RM-maihem,MAIHEM,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (maihem.com,maihem.ai)"
+magic-hour,Magic Hour,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,magic-hour,Magic Hour,magichour.ai,DOMAIN,0,,,YES,
+maia,Maia,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (ourmaia.com)
+mango-health,Mango Health,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (themangohealth.com,try-mango.com)"
+manifold-freight,Manifold Freight,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,manifold-freight,Manifold Freight,manifoldfreight.com,DOMAIN,0,,,YES,
+marblism,Marblism,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,marblism,Marblism,marblism.com,DOMAIN,0,,,YES,
+gloglo,Markprompt,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,gloglo,GloGlo,gloglo.com,DOMAIN,0,,,YES,
+marr-labs,Marr Labs,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,marr-labs,Marr Labs,marrlabs.com,DOMAIN,0,,,YES,
+breez-labs,MathDash,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (breezlabs.com,mathdash.com,mathdash.live)"
+meticulate,Meticulate,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,meticulate,Meticulate,meticulate.ai,DOMAIN,0,,,YES,
+metofico,Metofico,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,metofico,Metofico,metofico.com,DOMAIN,0,,,YES,
+miden,Miden,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,miden,Miden,miden.co,DOMAIN,0,,,YES,
+million,Million.js,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,million,Million,million.dev,DOMAIN,0,,2026-07-18,YES,
+model-ml,Model ML,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,model-ml,Model ML,modelml.com,DOMAIN,1,75000000,2025-11-24,YES,
+momentic,Momentic,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,momentic,Momentic,momentic.ai,DOMAIN,2,18700000,2025-11-24,YES,
+navier-ai,NavierAI,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (navier.ai)
+RM-nowhouse,NowHouse,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (nowhouse.io)
+nuanced,"Nuanced, Inc.",COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,nuanced,Nuanced,nuanced.dev,DOMAIN,0,,,YES,
+the-new-money-company,Numo,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,the-new-money-company,The New Money Company,newmoneycompany.com,DOMAIN,0,,,YES,
+octolane-ai,Octolane AI,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,octolane-ai,Octolane AI,octolane.com,DOMAIN,1,2600000,2026-05-27,YES,
+ocular-ai,Ocular AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ocular-ai,Ocular AI,useocular.com,DOMAIN,0,,2026-10-05,YES,
+oddsview,OddsView,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,oddsview,OddsView,oddsview.com,DOMAIN,0,,,YES,
+offdeal,OffDeal,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,offdeal,OffDeal,offdeal.io,DOMAIN,1,12000000,2025-07-29,YES,
+tesseral,Okapi,FUNDING_EVENT_FOUND,MATCHED_NAME_UNVERIFIED,tesseral,Tesseral,,NAME_ONLY_NO_SITE_IN_SOURCE,1,3000000,2025-05-06,YES,"source record has no website, so the domain rule can neither confirm nor refuse it"
+oma-care,Oma Care,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,oma-care,Oma Care,omacare.com,DOMAIN,0,,,YES,
+monumint,OmniAI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,monumint,Monumint,monumint.com,DOMAIN,0,,,YES,
+onegrep,OneGrep,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,onegrep,OneGrep,,NAME_ONLY_NO_SITE_IN_SOURCE,0,,,YES,"source record has no website, so the domain rule can neither confirm nor refuse it"
+fileforge,Onedoc,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (fileforge.com,onedoclabs.com)"
+open,OpenCopilot,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,open,Open,open.cx,DOMAIN,1,1520000,2025-01-12,YES,
+overheard,OpenFoundry,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,openfoundry,OpenFoundry,openfoundry.ai,DOMAIN,0,,,YES,
+opencall,Opencall.ai,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,opencall,Opencall,opencall.ai,DOMAIN,0,,,YES,
+openmart,Openmart,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,openmart,Openmart,openmart.com,DOMAIN,0,,,YES,
+paradigm,Paradigm,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,paradigm,Paradigm,paradigmai.com,DOMAIN,0,,,YES,
+engines,Parasale,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (engines.dev,parasale.io)"
+parcelbio,ParcelBio,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,parcelbio,ParcelBio,parcelbio.com,DOMAIN,0,,2026-05-07,YES,
+partnerhq,PartnerHQ,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,partnerhq,PartnerHQ,trypartnerhq.com,DOMAIN,0,,,YES,
+patchwork,Patchwork,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (atpatchwork.com)
+piramidal,Piramidal,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,piramidal,Piramidal,piramidal.ai,DOMAIN,1,,2024-08-29,YES,
+pivot-robotics,Pivot Robots,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,pivot-robotics,Pivot Robotics,pivotrobotics.com,DOMAIN,0,,,YES,
+lumetric,PocketPod,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (lumetric.ai,pocketpod.app)"
+pointone,PointOne,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,pointone,PointOne,pointone.com,DOMAIN,2,19500000,2026-03-23,YES,
+powder,Powder,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,powder,Powder,powderfi.com,DOMAIN,1,,2024-07-22,YES,
+precip,Precip,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,precip,Precip,precip.ai,DOMAIN,0,,,YES,
+preloop,Preloop,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (preloop.com)
+pretzel-ai,Pretzel AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,pretzel-ai,Pretzel AI,withpretzel.com,DOMAIN,0,,,YES,
+prosights,ProSights,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,prosights,ProSights,prosights.co,DOMAIN,1,,2025-09-13,YES,
+promptarmor,PromptArmor,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,promptarmor,PromptArmor,promptarmor.com,DOMAIN,0,,,YES,
+pazi,Pythagora (GPT Pilot),COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,pazi,Pazi,pazi.ai,DOMAIN,0,,,YES,
+RM-quantic,Quantic,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (quanticresearch.com,quantichq.com)"
+quary,Quary,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (quary.dev)
+quivr,Quivr,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,quivr,Quivr,quivr.app,DOMAIN,0,,,YES,
+radmate-ai,RadMate AI,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (radmate.ai)
+vibrant-labs,Ragas,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,vibrant-labs,Vibrant Labs,vibrantlabs.com,DOMAIN,1,,2025-12-02,YES,
+reducto,Reducto,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,reducto,Reducto,reducto.ai,DOMAIN,3,107900000,2025-10-14,YES,
+reform,Reform,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,reform,Reform,reformhq.com,DOMAIN,0,,,YES,
+relari,Relari,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,relari,Relari,relari.ai,DOMAIN,0,,,YES,
+reprompt,Reprompt,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,reprompt,Reprompt,repromptai.com,DOMAIN,0,,,YES,
+resonance,Resonance,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (useresonance.com)
+retailready,RetailReady,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,retailready,RetailReady,retailreadyai.com,DOMAIN,0,,,YES,
+retell-ai,Retell AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,retell-ai,Retell AI,retellai.com,DOMAIN,0,,,YES,
+risotto,Risotto,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,risotto,Risotto,tryrisotto.com,DOMAIN,1,10000000,2026-01-27,YES,
+roe,Roe AI,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (getroe.ai)
+rove,Rove,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,rove,Rove,rove.com,DOMAIN,0,,,YES,
+salvy,Salvy,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,salvy,Salvy,salvy.com.br,DOMAIN,1,,2024-05-15,YES,
+event-horizon-labs,SciPhi,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (ehl.markets,sciphi.ai)"
+scritch,Scritch,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,scritch,Scritch,scritchai.com,DOMAIN,0,,,YES,
+selera-medical,Selera Medical,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (seleramedical.com)
+senso,Senso,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,senso,Senso,senso.ai,DOMAIN,0,,,YES,
+RM-sevnai,SevnAI,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (sevn.ai)
+shepherd-2,Shepherd,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (shepherd.study)
+shiboleth,Shiboleth,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,shiboleth,Shiboleth,shiboleth.ai,DOMAIN,0,,,YES,
+silogy,SiLogy,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,silogy,Silogy,silogy.io,DOMAIN,0,,,YES,
+RM-skygaze,Skygaze,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (skygaze.io)
+penciled,Somn,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,penciled,Penciled,penciled.com,DOMAIN,0,,,YES,
+treblo,Sonauto,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,treblo,Treblo,treblo.com,DOMAIN,0,,,YES,
+sonia,Sonia,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,sonia,Sonia,soniahealth.com,DOMAIN,0,,,YES,
+soundry-ai,Soundry AI,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (soundry.ai)
+solari-ai,SpareChange,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,solari-ai,Solari AI,usesolari.ai,DOMAIN,0,,,YES,
+spark,Spark,AMBIGUOUS_MATCH,COMPANY_FOUND_NO_DATED_ROUND,spark-ai,Spark AI,sparkhq.ai,DOMAIN,0,,,NO,
+speck,Speck,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (speck.sh,paige.sh,speck.bot)"
+stacksync,Stacksync,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,stacksync,Stacksync,stacksync.com,DOMAIN,0,,,YES,
+averyiq,Starlight Charging,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,averyiq,AveryIQ,averyiq.com,DOMAIN,0,,,YES,
+stitch-technologies,Stitch Technologies,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (stitch.tech)
+superagent,Superagent.sh,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,superagent,Superagent,superagent.sh,DOMAIN,0,,,YES,
+consul,Swift,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (onconsul.com,joinswift.app)"
+synsorybio,SynsoryBio,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,synsorybio,SynsoryBio,synsorybio.com,DOMAIN,0,,,YES,
+integuru,Taiki,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,integuru,Integuru,integuru.com,DOMAIN,0,,,YES,
+tamarind-bio,Tamarind Bio,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,tamarind-bio,Tamarind Bio,tamarind.bio,DOMAIN,1,13600000,2026-02-24,YES,
+RM-tatara,Tatara,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (tatara.ai)
+RM-tensorfuse,Tensorfuse,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (tensorfuse.io)
+terrakotta,Terrakotta,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,terrakotta,Terrakotta,terrakotta.ai,DOMAIN,0,,,YES,
+RM-tile,Tile,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (tile.sh)
+RM-titan-2,Titan,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (applytitan.com)
+toma,Toma,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,toma,Toma,toma.com,DOMAIN,1,17000000,2025-06-05,YES,
+topo,Topo AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,topo,Topo,topo.io,DOMAIN,0,,,YES,
+tracecat,Tracecat,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,tracecat,Tracecat,tracecat.com,DOMAIN,0,,,YES,
+RM-trellis,Trellis,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_DATED_ROUND,trellis-ai,Trellis AI,runtrellis.com,DOMAIN,0,,,NO,
+trieve,Trieve,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (trieve.ai)
+trueclaim,TrueClaim,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (trytrueclaim.com)
+tusk,Tusk,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (usetusk.ai)
+ubicloud,Ubicloud,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ubicloud,Ubicloud,ubicloud.com,DOMAIN,0,,2024-03-12,YES,
+upsolve-ai,Upsolve AI,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (upsolve.ai)
+andon-labs,Vectorview,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,andon-labs,Andon Labs,andonlabs.com,DOMAIN,0,,2026-07-11,YES,
+veles,Veles,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,veles,Veles,getveles.com,DOMAIN,0,,,YES,
+velorum-therapeutics,Velorum Therapeutics,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,velorum-therapeutics,Velorum Therapeutics,velorumtx.com,DOMAIN,0,,,YES,
+vista-power,Vista Space,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,vista-power,Vista Power,vistapower.com,DOMAIN,0,,,YES,
+voicepanel,Voicepanel,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,voicepanel,Voicepanel,voicepanel.com,DOMAIN,0,,,YES,
+wuri,Wuri,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,"no source record publishes any of our domains (wuri.in,wuri.co,wuri.ai)"
+yarn-2,Yarn,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,yarn,Yarn,yarn.so,DOMAIN,0,,,YES,
+yenmo,Yenmo,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,yenmo,Yenmo,yenmo.in,DOMAIN,0,,,YES,
+yondu,Yondu,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,yondu,Yondu,yondu.ai,DOMAIN,0,,,YES,
+yoneda-labs,Yoneda Labs,FUNDING_EVENT_FOUND,FUNDING_EVENT_FOUND,yoneda-labs,Yoneda Labs,yonedalabs.com,DOMAIN,1,4000000,2024-04-26,YES,
+zaymo,Zaymo,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,zaymo,Zaymo,zaymo.com,DOMAIN,0,,2023-08-16,YES,
+zep-ai,Zep AI,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,zep-ai,Zep AI,getzep.com,DOMAIN,0,,,YES,
+atopile,atopile,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,atopile,atopile,atopile.io,DOMAIN,0,,,YES,
+camelai,camelQA,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,camelai,camelAI,camelai.com,DOMAIN,0,,,YES,
+RM-dawn,dawn,AMBIGUOUS_MATCH,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (dawnai.com)
+edgetrace,edgetrace,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,edgetrace,EdgeTrace,edgetrace.ai,DOMAIN,0,,,YES,
+ego,ego,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ego,ego,egoai.com,DOMAIN,0,,,YES,
+ion-design,ion design,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ion-design,ion design,ion.design,DOMAIN,0,,,YES,
+RM-just-words,just words,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (justwords.ai)
+kater-ai,kater.ai,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,kater-ai,Kater.ai,kater.ai,DOMAIN,0,,,YES,
+malibou,malibou,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,malibou,malibou,malibou.com,DOMAIN,0,,,YES,
+ncompass-technologies,nCompass Technologies,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,ncompass-technologies,nCompass Technologies,ncompass.tech,DOMAIN,0,,,YES,
+nanocorp,phospho,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,nanocorp,NanoCorp,nanocorp.so,DOMAIN,0,,2026-06-08,YES,
+renderlet,renderlet,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,renderlet,renderlet,renderlet.com,DOMAIN,0,,,YES,
+sync-2,sync labs,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,sync,Sync,sync.so,DOMAIN,0,,,YES,
+thorntale,thorntale,COMPANY_NOT_FOUND,UNMATCHED,,,,,0,,,,no source record publishes any of our domains (thorntale.com)
+xpay,xPay,COMPANY_FOUND_NO_EVENT_RETURNED,COMPANY_FOUND_NO_IN_WINDOW_ROUND,xpay,xPay,xpaycheckout.com,DOMAIN,0,,,YES,

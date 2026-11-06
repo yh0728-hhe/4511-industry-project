@@ -1,0 +1,23 @@
+{
+  "slug": "abel",
+  "company_name": "Abel",
+  "yc_url": "https://www.ycombinator.com/companies/abel",
+  "cutoff": "2024-04-04",
+  "query_status": "ARCHIVE_BODY_FETCHED",
+  "capture_date": "2024-04-04",
+  "capture_timestamp": "20240404185826",
+  "archive_url": "https://web.archive.org/web/20240404185826id_/https://www.ycombinator.com/companies/abel",
+  "content_identity_status": "NAME_AND_BATCH_REVIEW_CANDIDATE",
+  "model_admissible": false,
+  "notes": [
+    "Archived body is a source candidate; individual team/product/market claims not yet independently extracted/reviewed"
+  ],
+  "requests": 2,
+  "query_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.ycombinator.com%2Fcompanies%2Fabel&output=json&fl=timestamp%2Coriginal%2Cstatuscode&to=20240404235959&filter=statuscode%3A200&collapse=timestamp%3A8&limit=-1",
+  "page_title": "Abel: Transforming document review for litigation teams | Y Combinator",
+  "body_sha256": "1732ea47635236da89406410c66f3e216fe59a9d7b1abb066a3018ccee278ff2",
+  "text_excerpt": "Abel: Transforming document review for litigation teams | Y Combinator About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Top Companies \u25e6 Revenue \u25e6 Valuation Founder Directory Launch YC Startup Jobs All Jobs \u25e6 Engineering \u25e6 Operations \u25e6 Marketing \u25e6 Sales Pioneer Internship Program 2024 Startup Job Guide Career Coaching YC Startup Jobs Blog Find a Co-Founder Library SAFE Resources Startup School Newsletter For Investors Hacker News Bookface Open main menu Apply for S2024 batch. Apply Home \u203a Companies \u203a Abel Abel Transforming document review for litigation teams Y Combinator Logo W24 Active artificial-intelligence generative-ai b2b legal legaltech San Francisco Company Jobs 0 https://www.tryabel.com Transforming document review for litigation teams Abel transforms law",
+  "archived_name_in_title": true,
+  "archived_w24_in_visible_text": true,
+  "retrieved_at_utc": "2026-11-06T00:21:42.385374+00:00"
+}

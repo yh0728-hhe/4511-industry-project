@@ -1,0 +1,34 @@
+{
+  "source_url": "https://web.archive.org/web/20240404144033id_/https://www.ycombinator.com/companies/givefront",
+  "capture_date": "2024-04-04",
+  "capture_timestamp": "20240404144033",
+  "original_company_name": "Givefront",
+  "original_yc_url": "https://www.ycombinator.com/companies/givefront",
+  "body_sha256": "71bd9ddd181fdac70848fc1d5718dd353bc5843a6a1f79937858aba6202ff2cf",
+  "identity_check": "EXACT_ORIGINAL_NAME_SLUG_W24",
+  "product_one_liner": "Banking for Nonprofits",
+  "product_description_excerpt": "At Givefront (formerly Clav), we are building a banking platform tailored for nonprofits. Our unified platform allows organization leaders to manage banking, spend, payments, team turnover, reporting and compliance all in one place.",
+  "tags": [],
+  "team_size": 2,
+  "year_founded": 2023,
+  "location": null,
+  "founder_total_on_page": 2,
+  "founders": [
+    {
+      "name": "Matt Tengtrakool",
+      "title": null,
+      "bio_excerpt": "Matt studied CS and Stat at Harvard. Before Givefront, he founded a",
+      "linkedin_url": "https://linkedin.com/in/matt-tengtrakool"
+    },
+    {
+      "name": "Ethan Sayre",
+      "title": null,
+      "bio_excerpt": "Co-Founder at Clav",
+      "linkedin_url": "https://linkedin.com/in/ethansayre"
+    }
+  ],
+  "evidence_qualification": "ARCHIVED_SELF_REPORTED_FIELDS_NOT_INDEPENDENT_BUSINESS_VERIFICATION",
+  "market_size": null,
+  "revenue": null,
+  "customer_count": null
+}
