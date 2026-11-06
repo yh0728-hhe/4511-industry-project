@@ -1,0 +1,42 @@
+{
+  "retrieved_on": "2026-11-05",
+  "retrieval_method": "Coordinator web tool; structured factual transcriptions, not page-byte archives.",
+  "events": [
+    {
+      "company_id": "tesseral",
+      "domain": "tesseral.com",
+      "event_id": "OFFICIAL-TESSERAL-20250506",
+      "event_date": "2025-05-06",
+      "date_start": "2025-05-06",
+      "date_end": "2025-05-06",
+      "date_precision": "DAY",
+      "round_type": "SEED",
+      "amount_as_stated": "$3.3M",
+      "amount_usd": null,
+      "primary_url": "https://www.vcaonline.com/news/2025050610/tesseral-launches-with-3-3m-in-funding-to-simplify-authentication-for-business-software/",
+      "source_kind": "COMPANY_RELEASE_REPUBLICATION",
+      "identity_evidence": "The dated company release identifies Tesseral, founders Ned O'Leary/Ulysse Carion and press@tesseral.com. The existing repaired YC identity links Okapi to tesseral.com. This binds the release independently of RecentFunding's missing website.",
+      "corroborating_url": "https://www.ycombinator.com/companies/tesseral",
+      "corroboration": "YC's indexed company page links the May 6, 2025 financing story and identifies the same founders and company domain; direct page extraction returned no readable lines. BusinessWire origin could not be opened, so the accessible republication is recorded explicitly.",
+      "event_fact": "Tesseral announced emergence from stealth with seed financing on May 6, 2025; do not add another copy of the old name-only RF event."
+    },
+    {
+      "company_id": "trieve",
+      "domain": "trieve.ai",
+      "event_id": "OFFICIAL-TRIEVE-202409",
+      "event_date": "",
+      "date_start": "2024-09-01",
+      "date_end": "2024-09-30",
+      "date_precision": "MONTH",
+      "round_type": "FUNDING_ANNOUNCEMENT",
+      "amount_as_stated": "$3.5M",
+      "amount_usd": null,
+      "primary_url": "https://www.trieve.ai/about-trieve/",
+      "source_kind": "COMPANY_PAGE_INDEXED_TEXT",
+      "identity_evidence": "Official company domain trieve.ai matches the repaired cohort entity. The indexed About Trieve text names founders Nicholas Khami and Denzell Ford and states the company raised funding in September 2024.",
+      "corroborating_url": "https://www.linkedin.com/posts/y-combinator_trieve-yc-w24-has-raised-35-million-in-activity-7239737683462217731-59rp",
+      "corroboration": "YC's publicly readable/indexed post identifies Trieve as YC W24 and reports the same financing amount. The company fundraise URL returned cache/502 errors; direct About-page open timed out. No full page archive or verified exact announcement day is claimed.",
+      "event_fact": "September 2024 is entirely within the Y window. No day is fabricated; September 1 and September 30 are interval bounds, not asserted transaction dates."
+    }
+  ]
+}

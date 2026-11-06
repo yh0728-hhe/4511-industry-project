@@ -1,4 +1,4 @@
-﻿company_id,name_at_decision,form_d,form_d_caveat,recent_funding_status,recent_funding_events,either_source_found,both_sources_found,only_form_d,only_recent_funding
+company_id,name_at_decision,form_d,form_d_caveat,recent_funding_status,recent_funding_events,either_source_found,both_sources_found,only_form_d,only_recent_funding
 abel,Abel,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,
 tuesday-labs,Adagy Robotics,NO_EVENT,,COMPANY_FOUND_NO_EVENT_RETURNED,0,NO,NO,,
 aedilic,Aedilic,NO_EVENT,,COMPANY_NOT_FOUND,0,NO,NO,,
@@ -206,7 +206,7 @@ RM-titan-2,Titan,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,
 toma,Toma,NO_EVENT,,FUNDING_EVENT_FOUND,1,YES,NO,,YES
 topo,Topo AI,NO_EVENT,,COMPANY_FOUND_NO_EVENT_RETURNED,0,NO,NO,,
 tracecat,Tracecat,NO_EVENT,,COMPANY_FOUND_NO_EVENT_RETURNED,0,NO,NO,,
-RM-trellis,Trellis,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,
+RM-trellis,Trellis,NO_EVENT,,COMPANY_FOUND_NO_EVENT_RETURNED,0,NO,NO,,
 trieve,Trieve,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,
 trueclaim,TrueClaim,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,
 tusk,Tusk,NO_EVENT,,AMBIGUOUS_MATCH,0,NO,NO,,

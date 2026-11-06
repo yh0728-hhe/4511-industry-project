@@ -1,4 +1,4 @@
-﻿company_id,event_date,date_variants,amount_usd,amount_variants,round_type,investors,evidence_url,sources,source_count,date_disagreement,amount_disagreement
+company_id,event_date,date_variants,amount_usd,amount_variants,round_type,investors,evidence_url,sources,source_count,date_disagreement,amount_disagreement
 alex-com,2024-05-15,2024-05-15,2800000,2800000,seed,,https://www.businessinsider.com/pitch-deck-ai-recruiter-startup-apriora-seed-funding-2024-5,recent_funding,1,,
 alex-com,2025-09-29,2025-09-29|2025-10-01,17000000,17000000|20000000,unknown,,https://fundraisingfox.com/companies/alex,recent_funding,1,YES,YES
 argon-ai-inc,2024-06-13,2024-06-13,5515000,5515000,,,,sec_form_d,1,,

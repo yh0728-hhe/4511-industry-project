@@ -1,0 +1,241 @@
+﻿company_id,name_at_decision,current_name_before,current_name_after,current_domain_before,current_domain_after,query_names_before,query_names_after,query_domains_before,query_domains_after,in_yc_directory_before,chain_resolved_after,resolution_tier,changed
+abel,Abel,Abel,Abel,tryabel.com,tryabel.com,Abel,Abel,tryabel.com,tryabel.com,TRUE,YES,T1_SLUG,NO
+tuesday-labs,Adagy Robotics,Tuesday Labs,Tuesday Labs,tuesdaylabs.com,tuesdaylabs.com,Tuesday Labs|Adagy Robotics|Tuesday Lab,Tuesday Labs|Adagy Robotics|Tuesday Lab,tuesdaylabs.com|adagyrobotics.com,tuesdaylabs.com|adagyrobotics.com,TRUE,YES,T1_SLUG,NO
+aedilic,Aedilic,Aedilic,Aedilic,nonescape.com,nonescape.com,Aedilic|speak&find,Aedilic|speak&find,nonescape.com|aedilic.com,nonescape.com|saysoapp.com|gpudeploy.com|aedilic.com,TRUE,YES,T1_SLUG,YES
+feldy,Aether Energy,Feldy,Feldy,feldy.ai,feldy.ai,Feldy|Aether Energy|Aether,Feldy|Aether|Aether Energy,feldy.ai|aetherenergie.com,feldy.ai|tryaether.co|aethergtm.com|aethernrg.com|aetherenergie.com,TRUE,YES,T1_SLUG,YES
+RM-agenthub,AgentHub,,Gumloop,,gumloop.com,AgentHub,Gumloop|AgentHub,agenthub.dev,gumloop.com|agenthub.dev,FALSE,YES,T3_ONELINER,YES
+agentic-labs-2,Agentic Labs,Agentic Labs,Agentic Labs,agenticlabs.com,agenticlabs.com,Agentic Labs,Agentic Labs,agenticlabs.com,agenticlabs.com,TRUE,YES,T1_SLUG,NO
+aidy,Aidy,Aidy,Aidy,aidyhq.com,aidyhq.com,Aidy,Aidy,aidyhq.com|aidygrants.com,tryaidy.com|aidyhq.com|aidygov.com|aidygrants.com,TRUE,YES,T1_SLUG,YES
+RM-airfront,Airfront,,Airfront,,airfront.com,Airfront,Airfront,airfront.com,airfront.com,FALSE,YES,T1_SLUG,NO
+indemni,Alacrity,Indemni,Indemni,indemni.com,indemni.com,Indemni|Alacrity,Indemni|Alacrity,indemni.com|joinalacrity.com,indemni.com|joinalacrity.com,TRUE,YES,T1_SLUG,NO
+alai,Alai,Alai,Alai,getalai.com,getalai.com,Alai|Speakwell AI|alai,Alai|Speakwell AI|alai,getalai.com,getalai.com,TRUE,YES,T1_SLUG,NO
+deep24,Amber AI,Deep24,Deep24,deep24.com,deep24.com,Deep24|Amber AI|Versify|Ultra,Deep24|Amber AI|Versify|Ultra,deep24.com|helloamber.ai,deep24.com|deep24.ai|helloamber.ai,TRUE,YES,T1_SLUG,YES
+clarion,Anaphero,Clarion,Clarion,clarionhealth.com,clarionhealth.com,Clarion|Anaphero,Clarion|Anaphero,clarionhealth.com|anaphero.com,clarionhealth.com|clarionhealth.ai|anaphero.com,TRUE,YES,T1_SLUG,YES
+andy-ai,Andy AI,Andy AI,Andy AI,with-andy.com,with-andy.com,Andy AI,Andy AI,with-andy.com,with-andy.com,TRUE,YES,T1_SLUG,NO
+alex-com,Apriora,Alex,Alex,alex.com,alex.com,Alex|Apriora,Alex|Apriora,alex.com|apriora.ai,alex.com|apriora.ai,TRUE,YES,T1_SLUG,NO
+aqua-voice,Aqua Voice,Aqua Voice,Aqua Voice,aquavoice.com,aquavoice.com,Aqua Voice|Aqua AI,Aqua Voice|Aqua AI,aquavoice.com|withaqua.com,aquavoice.com|withaqua.com,TRUE,YES,T1_SLUG,NO
+arcane,Arcane,Arcane,Arcane,,rohanmehta.com,Arcane|Summoner AI|Arcane AI,Arcane|Summoner AI|Arcane AI,arcanelabs.ai,rohanmehta.com|arcanelabs.ai,TRUE,YES,T1_SLUG,YES
+argon-ai-inc,"Argon AI, Inc.","Argon AI, Inc.","Argon AI, Inc.",argon-ai.com,argon-ai.com,"Argon AI, Inc.|Incyte Bio|Inc.","Argon AI, Inc.|Incyte Bio|Inc.",argon-ai.com,argon-ai.com,TRUE,YES,T1_SLUG,NO
+arini,Arini,Arini,Arini,arini.ai,arini.ai,Arini|HireAI,Arini|HireAI,arini.ai,arini.ai,TRUE,YES,T1_SLUG,NO
+artisan,Artisan AI,Artisan,Artisan,artisan.co,artisan.co,Artisan|Artisan AI,Artisan|Artisan AI,artisan.co,artisan.co,TRUE,YES,T1_DOMAIN,NO
+artos,Artos,Artos,Artos,artosai.com,artosai.com,Artos|Talos,Artos|Talos,artosai.com,artosai.com,TRUE,YES,T1_SLUG,NO
+RM-assembly-2,Assembly,,Assembly,,askassembly.app,Assembly,Assembly,askassembly.app,askassembly.app,FALSE,YES,T1_SLUG,NO
+attunement,Attunement,Attunement,Attunement,attunement.ai,attunement.ai,Attunement|Attunement.ai,Attunement|Attunement.ai,attunement.ai,attunement.ai,TRUE,YES,T1_SLUG,NO
+basalt,Basalt Tech,Basalt,Basalt,basalt.space,basalt.space,Basalt|Basalt Tech,Basalt|Basalt Tech,basalt.space,basalt.space,TRUE,YES,T1_SLUG,NO
+basepilot,Basepilot,Basepilot,Basepilot,basepilot.com,basepilot.com,Basepilot|Nexus,Basepilot|Nexus,basepilot.com,basepilot.com,TRUE,YES,T1_SLUG,NO
+betterbasket,BetterBasket,BetterBasket,BetterBasket,betterbasket.com,betterbasket.com,BetterBasket,BetterBasket,betterbasket.com|betterbasket.ai,betterbasket.com|betterbasket.ai,TRUE,YES,T1_SLUG,NO
+bilanc,Bilanc,Bilanc,Bilanc,bilanc.co,bilanc.co,Bilanc,Bilanc,bilanc.co,bilanc.co,TRUE,YES,T1_SLUG,NO
+bitesight,BiteSight,BiteSight,BiteSight,bitesight.com,bitesight.com,BiteSight,BiteSight,bitesight.com|flowcode.com,bitesight.com|flowcode.com,TRUE,YES,T1_SLUG,NO
+blacksmith,Blacksmith,Blacksmith,Blacksmith,blacksmith.sh,blacksmith.sh,Blacksmith,Blacksmith,blacksmith.sh,blacksmith.sh,TRUE,YES,T1_SLUG,NO
+blume-benefits,Blume Benefits,Blume Benefits,Blume Benefits,blumebenefits.com,blumebenefits.com,Blume Benefits|Blitz AI|Blume,Blume Benefits|Blitz AI|Blume,blumebenefits.com,blumebenefits.com,TRUE,YES,T1_SLUG,NO
+suretynow,BondCenter,SuretyNow,SuretyNow,suretynow.com,suretynow.com,SuretyNow|BondCenter,SuretyNow|BondCenter,suretynow.com|bondcenter.com,suretynow.com|bondcenter.com,TRUE,YES,T2_CROSSWALK,NO
+brainbase-labs,Brainbase,Brainbase Labs,Brainbase Labs,brainbaselabs.com,brainbaselabs.com,Brainbase Labs|Brainbase,Brainbase Labs|Brainbase,brainbaselabs.com|usebrainbase.xyz,brainbaselabs.com|usebrainbase.com|usebrainbase.xyz,TRUE,YES,T1_SLUG,YES
+browser-buddy,Browser Buddy,Browser Buddy,Browser Buddy,browserbuddy.com,browserbuddy.com,Browser Buddy|Recipe|People Net|Bitter,Browser Buddy|Recipe|People Net|Bitter,browserbuddy.com,browserbuddy.com,TRUE,YES,T1_SLUG,NO
+keystroke,Buster,Keystroke,Keystroke,keystroke.ai,keystroke.ai,Keystroke|Buster,Keystroke|Buster,keystroke.ai|buster.so,keystroke.ai|buster.so,TRUE,YES,T1_SLUG,NO
+carma,Carma,Carma,Carma,joincarma.com,joincarma.com,Carma,Carma,joincarma.com,joincarma.com,TRUE,YES,T1_SLUG,NO
+carousel-technologies,Carousel Technologies,Carousel Technologies,Carousel Technologies,usecarousel.com,usecarousel.com,Carousel Technologies,Carousel Technologies,usecarousel.com|carouseltech.io,usecarousel.com|carouseltech.io,TRUE,YES,T1_SLUG,NO
+celest,Celest,Celest,Celest,celest.dev,celest.dev,Celest|Teo,Celest|Teo,celest.dev,celest.dev,TRUE,YES,T1_SLUG,NO
+centauri-ai,Centauri AI,Centauri AI,Centauri AI,centauri-ai.tech,centauri-ai.tech,Centauri AI,Centauri AI,centauri-ai.tech,centauri-ai.tech,TRUE,YES,T1_SLUG,NO
+centralize,Centralize,Centralize,Centralize,usecentralize.com,usecentralize.com,Centralize|Sage|Collate,Centralize|Sage|Collate,usecentralize.com,usecentralize.com,TRUE,YES,T1_SLUG,NO
+circleback,Circleback,Circleback,Circleback,circleback.ai,circleback.ai,Circleback,Circleback,circleback.ai,circleback.ai,TRUE,YES,T1_SLUG,NO
+clarum,Clarum,Clarum,Clarum,clarum.ai,clarum.ai,Clarum|Over1,Clarum|Over1,clarum.ai,clarum.ai,TRUE,YES,T1_SLUG,NO
+cleva,Cleva,Cleva,Cleva,getcleva.com,getcleva.com,Cleva,Cleva,getcleva.com,getcleva.com,TRUE,YES,T1_SLUG,NO
+cloudcruise,CloudCruise,CloudCruise,CloudCruise,cloudcruise.com,cloudcruise.com,CloudCruise,CloudCruise,cloudcruise.com,cloudcruise.com,TRUE,YES,T1_SLUG,NO
+cocrafter,CoCrafter,CoCrafter,CoCrafter,cocrafter.com,cocrafter.com,CoCrafter|Cocrafter,CoCrafter|Cocrafter,cocrafter.com,cocrafter.com,TRUE,YES,T1_SLUG,NO
+codeant-ai,CodeAnt AI,CodeAnt AI,CodeAnt AI,codeant.ai,codeant.ai,CodeAnt AI,CodeAnt AI,codeant.ai,codeant.ai,TRUE,YES,T1_SLUG,NO
+commodityai,CommodityAI,CommodityAI,CommodityAI,commodityai.io,commodityai.io,CommodityAI,CommodityAI,commodityai.io,commodityai.io,TRUE,YES,T1_SLUG,NO
+adapted,Corefin,Adapted,Adapted,adapted.app,adapted.app,Adapted|Corefin|Chirp|Convey|Stackgrant|For Effect|ForEffect|Pernell,Adapted|Corefin|Chirp|Convey|Stackgrant|For Effect|ForEffect|Pernell,adapted.app|corefin.com,adapted.app|corefin.com,TRUE,YES,T2_CROSSWALK,NO
+toolify,Creo,Toolify,Toolify,toolify.sh,toolify.sh,Toolify|Creo,Toolify|Creo,toolify.sh|trycreo.com,toolify.sh|trycreo.com,TRUE,YES,T2_CROSSWALK,NO
+crowdvolt,CrowdVolt,CrowdVolt,CrowdVolt,crowdvolt.com,crowdvolt.com,CrowdVolt|Mirage Match,CrowdVolt|Mirage Match,crowdvolt.com,crowdvolt.com,TRUE,YES,T1_SLUG,NO
+getcrux,Crux,GetCrux,GetCrux,getcrux.ai,getcrux.ai,GetCrux|Crux|getcrux,GetCrux|getcrux|Crux,getcrux.ai,getcrux.ai,TRUE,YES,T1_SLUG,YES
+dgi-apparel,DGI Apparel,DGI Apparel,DGI Apparel,dgiapparel.com,dgiapparel.com,DGI Apparel,DGI Apparel,dgiapparel.com,dgiapparel.com,TRUE,YES,T1_SLUG,NO
+fractal-labs,DaLMatian,Fractal Labs,Fractal Labs,fractal-labs.gg,fractal-labs.gg,Fractal Labs|DaLMatian|DaLMatian.ai,Fractal Labs|DaLMatian|DaLMatian.ai,fractal-labs.gg|dalmatian.ai,fractal-labs.gg|dalmatian.ai,TRUE,YES,T2_CROSSWALK,NO
+onyx,Danswer,Onyx,Onyx,onyx.app,onyx.app,Onyx|Danswer,Onyx|Danswer,onyx.app|danswer.ai,onyx.app|danswer.ai,TRUE,YES,T1_SLUG,NO
+datacurve,Datacurve,Datacurve,Datacurve,datacurve.ai,datacurve.ai,Datacurve|Uncle GPT|Shipd,Datacurve|Uncle GPT|Shipd,datacurve.ai,datacurve.ai,TRUE,YES,T1_SLUG,NO
+decipher-ai,Decipher AI,Decipher AI,Decipher AI,getdecipher.com,getdecipher.com,Decipher AI,Decipher AI,getdecipher.com,getdecipher.com,TRUE,YES,T1_SLUG,NO
+deepnight,DeepNight,Deepnight,Deepnight,deepnight.com,deepnight.com,Deepnight|DeepNight,Deepnight|DeepNight,deepnight.com|deepnight.ai,deepnight.com|deepnight.ai,TRUE,YES,T1_SLUG,NO
+RM-delve,Delve,,Delve,,delve.co,Delve,Delve,getdelve.com,delve.co|getdelve.com,FALSE,YES,T1_SLUG,YES
+diana,DianaHR,Diana,Diana,getdiana.com,getdiana.com,Diana|DianaHR,Diana|DianaHR,getdiana.com|dianahr.ai,getdiana.com|dianahr.ai,TRUE,YES,T1_SLUG,NO
+dime-2,Dime,Dime,Dime,dimehealth.ai,dimehealth.ai,Dime|DIME|dime,Dime|DIME|dime,dimehealth.ai|getdime.io,dimehealth.ai|dimemanufacturing.com|getdime.io,TRUE,YES,T1_SLUG,YES
+RM-double-2,Double,,Double,,double.finance,Double,Double,double.finance,double.finance,FALSE,YES,T1_SLUG,NO
+draftaid,Draftaid,Draftaid,Draftaid,draftaid.io,draftaid.io,Draftaid,Draftaid,draftaid.io,draftaid.io,TRUE,YES,T1_SLUG,NO
+dragoneye,Dragoneye,Dragoneye,Dragoneye,dragoneye.ai,dragoneye.ai,Dragoneye,Dragoneye,dragoneye.ai,dragoneye.ai,TRUE,YES,T1_SLUG,NO
+driver,Driver AI,Driver,Driver,driver.ai,driver.ai,Driver|Driver AI,Driver|Driver AI,driver.ai|driverai.com,driver.ai|driverai.com,TRUE,YES,T1_SLUG,NO
+drymerge,DryMerge,DryMerge,DryMerge,drymerge.com,drymerge.com,DryMerge,DryMerge,drymerge.com,drymerge.com,TRUE,YES,T1_SLUG,NO
+duckie,Duckie,Duckie,Duckie,duckie.ai,duckie.ai,Duckie|Duckie AI (formerly Musa AI)|Duckie AI,Duckie|Duckie AI (formerly Musa AI)|Duckie AI,duckie.ai,duckie.ai,TRUE,YES,T1_SLUG,NO
+ecliptor,Ecliptor,Ecliptor,Ecliptor,ecliptor.ai,ecliptor.ai,Ecliptor|Hatchet,Ecliptor|Hatchet,ecliptor.ai,ecliptor.ai,TRUE,YES,T1_SLUG,NO
+eggnog,Eggnog,Eggnog,Eggnog,eggnog.ai,eggnog.ai,Eggnog|Fielder,Eggnog|Fielder,eggnog.ai,eggnog.ai,TRUE,YES,T1_SLUG,NO
+ellipsis,Ellipsis,Ellipsis,Ellipsis,ellipsis.dev,ellipsis.dev,Ellipsis|BitBuilder|ellipsis,Ellipsis|BitBuilder|ellipsis,ellipsis.dev,ellipsis.dev,TRUE,YES,T1_SLUG,NO
+elodin,Elodin,Elodin,Elodin,elodin.systems,elodin.systems,Elodin|Elodin Systems|Inc,Elodin|Elodin Systems|Inc,elodin.systems,elodin.systems,TRUE,YES,T1_SLUG,NO
+eris-biotech,Eris Biotech,Eris Biotech,Eris Biotech,erisbio.com,erisbio.com,Eris Biotech,Eris Biotech,erisbio.com,erisbio.com,TRUE,YES,T1_SLUG,NO
+dropback,FanCave,Dropback,Dropback,dropback.com,dropback.com,Dropback|FanCave,Dropback|FanCave,dropback.com|fancave.me,dropback.com|fancave.me,TRUE,YES,T2_CROSSWALK,NO
+firebender,Firebender,Firebender,Firebender,firebender.com,firebender.com,Firebender,Firebender,firebender.com,firebender.com,TRUE,YES,T1_SLUG,NO
+fluently,Fluently,Fluently,Fluently,getfluently.app,getfluently.app,Fluently,Fluently,getfluently.app,getfluently.app,TRUE,YES,T1_SLUG,NO
+focal,Focal,Focal,Focal,focalml.com,focalml.com,Focal,Focal,focalml.com,focalml.com,TRUE,YES,T1_SLUG,NO
+forge,Forge,Forge,Forge,forgehq.com,forgehq.com,Forge,Forge,forgehq.com,forgehq.com,TRUE,YES,T1_SLUG,NO
+forge-rewards,Forge Rewards,Forge Rewards,Forge Rewards,joinforge.app,joinforge.app,Forge Rewards|Forge,Forge Rewards|Forge,joinforge.app|forgerewards.com,joinforge.app|forgerewards.com,TRUE,YES,T1_SLUG,NO
+latted,Fume,Latted,Latted,latted.com,latted.com,Latted|Fume|Fume Test,Latted|Fume|Fume Test,latted.com|fumedev.com,latted.com|fumedev.com,TRUE,YES,T1_SLUG,NO
+garage-2,Garage,Garage,Garage,shopgarage.com,shopgarage.com,Garage,Garage,shopgarage.com|withgarage.com,shopgarage.com|withgarage.com,TRUE,YES,T1_SLUG,NO
+givefront,Givefront,Givefront,Givefront,givefront.com,givefront.com,Givefront|Clav,Givefront|Clav,givefront.com,givefront.com,TRUE,YES,T1_SLUG,NO
+glimmer,Glimmer,Glimmer,Glimmer,withglimmer.com,withglimmer.com,Glimmer,Glimmer,withglimmer.com,withglimmer.com,TRUE,YES,T1_SLUG,NO
+polar,GoldenBasis,Polar,Polar,polarfi.com,polarfi.com,Polar|GoldenBasis|Aria,Polar|GoldenBasis|Aria,polarfi.com|goldenbasis.com,polarfi.com|goldenbasis.com,TRUE,YES,T1_SLUG,NO
+governgpt,GovernGPT,GovernGPT,GovernGPT,governgpt.com,governgpt.com,GovernGPT|governGPT,GovernGPT|governGPT,governgpt.com|governgpt.ai,governgpt.com|governgpt.ai,TRUE,YES,T1_SLUG,NO
+granza-bio,Granza Bio,Granza Bio,Granza Bio,granzabio.com,granzabio.com,Granza Bio|Zyme Therapeutics,Granza Bio|Zyme Therapeutics,granzabio.com,granzabio.com,TRUE,YES,T1_SLUG,NO
+greenboard,Greenboard,Greenboard,Greenboard,greenboard.com,greenboard.com,Greenboard,Greenboard,greenboard.com|greenboard.io,greenboard.com|greenboard.io,TRUE,YES,T1_SLUG,NO
+greptile,Greptile,Greptile,Greptile,greptile.com,greptile.com,Greptile|Onboard AI,Greptile|Onboard AI,greptile.com,greptile.com,TRUE,YES,T1_SLUG,NO
+guide-labs,Guide Labs,Guide Labs,Guide Labs,guidelabs.ai,guidelabs.ai,Guide Labs|Guide Labs Inc,Guide Labs|Guide Labs Inc,guidelabs.ai,guidelabs.ai,TRUE,YES,T1_SLUG,NO
+haplotype-labs,Haplotype Labs,Haplotype Labs,Haplotype Labs,haplotypelabs.com,haplotypelabs.com,Haplotype Labs,Haplotype Labs,haplotypelabs.com,haplotypelabs.com,TRUE,YES,T1_SLUG,NO
+hatchet-run,Hatchet,Hatchet,Hatchet,hatchet.run,hatchet.run,Hatchet|Hatchet Technologies|Inc.,Hatchet|Hatchet Technologies|Inc.,hatchet.run,hatchet.run,TRUE,YES,T1_SLUG,NO
+hazel-2,Hazel,Hazel,Hazel,hazelai.com,hazelai.com,Hazel,Hazel,hazelai.com|hazeltech.ai,hazelai.com|hazeltech.ai,TRUE,YES,T1_SLUG,NO
+healia,Healia,Healia,Healia,healiahealth.com,healiahealth.com,Healia,Healia,healiahealth.com,healiahealth.com,TRUE,YES,T1_SLUG,NO
+heartbyte,HeartByte,HeartByte,HeartByte,storioai.com,storioai.com,HeartByte|WonderfulWorld|Storio,HeartByte|WonderfulWorld|Storio,storioai.com|heartbyte.ai,storioai.com|heartbyte.ai,TRUE,YES,T1_SLUG,NO
+newton,Hemingway,Newton,Newton,joinnewton.com,joinnewton.com,Newton|Hemingway,Newton|Hemingway,joinnewton.com|hemingwayai.co,joinnewton.com|hemingwayai.co,TRUE,YES,T2_CROSSWALK,NO
+cora,HeyPurple,Cora,Cora,corahealth.app,corahealth.app,Cora|HeyPurple|PurplePill|PurplePages,Cora|HeyPurple|PurplePill|PurplePages,corahealth.app|heypurple.ai,corahealth.app|heypurple.ai,TRUE,YES,T2_CROSSWALK,NO
+RM-hona-2,Hona,,Hona,,hona.ai,Hona,Hona,hona.ai,hona.ai,FALSE,YES,T1_SLUG,NO
+conduit-ai,HostAI,Conduit,Conduit,conduit.ai,conduit.ai,Conduit|HostAI,Conduit|HostAI,conduit.ai|hostai.app,conduit.ai|conduit.app|hostai.app,TRUE,YES,T1_SLUG,YES
+inquery-2,InQuery,InQuery,InQuery,inquery.ai,inquery.ai,InQuery,InQuery,inquery.ai|inquery-data.com,inquery.ai|inquery-data.com,TRUE,YES,T1_SLUG,NO
+infinity,Infinity,Infinity,Infinity,infinityapp.in,infinityapp.in,Infinity,Infinity,infinityapp.in,infinityapp.in,TRUE,YES,T1_SLUG,NO
+lemonslice,Infinity AI,LemonSlice,LemonSlice,lemonslice.com,lemonslice.com,LemonSlice|Infinity AI|Lemon Slice,LemonSlice|Lemon Slice|Infinity AI,lemonslice.com|infinity.ai,lemonslice.com|infinity.ai,TRUE,YES,T1_SLUG,YES
+inspectmind-ai,InspectMind AI,InspectMind AI,InspectMind AI,inspectmind.ai,inspectmind.ai,InspectMind AI,InspectMind AI,inspectmind.ai,inspectmind.ai,TRUE,YES,T1_SLUG,NO
+cpgscout,Intercept,Scout,Scout,cpgscout.ai,cpgscout.ai,Scout|Intercept,Scout|Intercept,cpgscout.ai|tryintercept.com,cpgscout.ai|tryintercept.com,TRUE,YES,T1_SLUG,NO
+junction-bioscience,Junction Bioscience,Junction Bioscience,Junction Bioscience,junction.bio,junction.bio,Junction Bioscience,Junction Bioscience,junction.bio,junction.bio,TRUE,YES,T1_SLUG,NO
+kabilah,Kabilah,Kabilah,Kabilah,,kabilah.com,Kabilah,Kabilah,kabilah.com,kabilah.com,TRUE,YES,T1_SLUG,NO
+respan,Keywords AI,Respan,Respan,respan.ai,respan.ai,Respan|Keywords AI,Respan|Keywords AI,respan.ai|keywordsai.co,respan.ai|keywordsai.co,TRUE,YES,T1_SLUG,NO
+parallel,Kiosk,Parallel,Parallel,beparallel.com,beparallel.com,Parallel|Kiosk,Parallel|Kiosk,beparallel.com|kiosk.so,beparallel.com|kiosk.so,TRUE,YES,T1_SLUG,NO
+voxops-ai,Konstructly,VoxOps AI,VoxOps AI,voxopsai.com,voxopsai.com,VoxOps AI|Konstructly,VoxOps AI|Konstructly,voxopsai.com|konstructly.com,voxopsai.com|konstructly.com,TRUE,YES,T1_SLUG,NO
+aftercare,Kontractify,Aftercare,Aftercare,getaftercare.com,getaftercare.com,Aftercare|Kontractify,Aftercare|Kontractify,getaftercare.com|kontractify.com,getaftercare.com|kontractify.com,TRUE,YES,T2_CROSSWALK,NO
+lantern-2,Lantern,Lantern,Lantern,lantern.dev,lantern.dev,Lantern,Lantern,lantern.dev,lantern.dev,TRUE,YES,T1_SLUG,NO
+leaping,Leaping,Leaping,Leaping,leaping.io,leaping.io,Leaping|Terse,Leaping|Terse,leaping.io,leaping.io,TRUE,YES,T1_SLUG,NO
+legora,Leya,Legora,Legora,legora.com,legora.com,Legora|Leya|Legora (formerly Leya),Legora|Legora (formerly Leya)|Leya,legora.com|leya.law,legora.com|leya.law,TRUE,YES,T1_SLUG,YES
+lucite,Lucite,Lucite,Lucite,lucite.ai,lucite.ai,Lucite|My Analyst|MyAnalyst,Lucite|My Analyst|MyAnalyst,lucite.ai,lucite.ai,TRUE,YES,T1_SLUG,NO
+RM-lumina-2,Lumina,,Lumina,,lumina.sh,Lumina,Lumina,lumina-chat.com,lumina.sh|lumina-chat.com,FALSE,YES,T1_SLUG,YES
+lumona,Lumona,Lumona,Lumona,lumona.ai,lumona.ai,Lumona|Scout,Lumona|Scout,lumona.ai,lumona.ai,TRUE,YES,T1_SLUG,NO
+RM-maihem,MAIHEM,,Maihem,,maihem.com,MAIHEM,Maihem|MAIHEM,maihem.ai,maihem.com|maihem.ai,FALSE,YES,T1_SLUG,YES
+magic-hour,Magic Hour,Magic Hour,Magic Hour,magichour.ai,magichour.ai,Magic Hour,Magic Hour,magichour.ai,magichour.ai,TRUE,YES,T1_SLUG,NO
+maia,Maia,Maia,Maia,ourmaia.com,ourmaia.com,Maia,Maia,ourmaia.com,ourmaia.com,TRUE,YES,T1_SLUG,NO
+mango-health,Mango Health,Mango Health,Mango Health,themangohealth.com,themangohealth.com,Mango Health|CurioMD,Mango Health|CurioMD,themangohealth.com|try-mango.com,themangohealth.com|try-mango.com,TRUE,YES,T1_SLUG,NO
+manifold-freight,Manifold Freight,Manifold Freight,Manifold Freight,manifoldfreight.com,manifoldfreight.com,Manifold Freight|Spot Bot|Manifold,Manifold Freight|Spot Bot|Manifold,manifoldfreight.com,manifoldfreight.com,TRUE,YES,T1_SLUG,NO
+marblism,Marblism,Marblism,Marblism,marblism.com,marblism.com,Marblism,Marblism,marblism.com,marblism.com,TRUE,YES,T1_SLUG,NO
+gloglo,Markprompt,GloGlo,GloGlo,gloglo.com,gloglo.com,GloGlo|Markprompt|14.ai,GloGlo|Markprompt|14.ai,gloglo.com|markprompt.com,gloglo.com|markprompt.com,TRUE,YES,T1_SLUG,NO
+marr-labs,Marr Labs,Marr Labs,Marr Labs,marrlabs.com,marrlabs.com,Marr Labs,Marr Labs,marrlabs.com,marrlabs.com,TRUE,YES,T1_SLUG,NO
+breez-labs,MathDash,Breez Labs,Breez Labs,breezlabs.com,breezlabs.com,Breez Labs|MathDash|Bree|Breez,Breez Labs|MathDash|Bree|Breez,breezlabs.com|mathdash.live,breezlabs.com|mathdash.com|mathdash.live,TRUE,YES,T1_SLUG,YES
+meticulate,Meticulate,Meticulate,Meticulate,meticulate.ai,meticulate.ai,Meticulate,Meticulate,meticulate.ai,meticulate.ai,TRUE,YES,T1_SLUG,NO
+metofico,Metofico,Metofico,Metofico,metofico.com,metofico.com,Metofico|Metofico ltd,Metofico|Metofico ltd,metofico.com,metofico.com,TRUE,YES,T1_SLUG,NO
+miden,Miden,Miden,Miden,miden.co,miden.co,Miden|Tyrus Technologies|MIDEN,Miden|Tyrus Technologies|MIDEN,miden.co,miden.co,TRUE,YES,T1_SLUG,NO
+million,Million.js,Million,Million,million.dev,million.dev,Million|Million.js|Same,Million|Million.js|Same,million.dev,million.dev,TRUE,YES,T1_DOMAIN,NO
+model-ml,Model ML,Model ML,Model ML,modelml.com,modelml.com,Model ML|Model AI,Model ML|Model AI,modelml.com,modelml.com,TRUE,YES,T1_SLUG,NO
+momentic,Momentic,Momentic,Momentic,momentic.ai,momentic.ai,Momentic|Screenwriter,Momentic|Screenwriter,momentic.ai,momentic.ai,TRUE,YES,T1_SLUG,NO
+navier-ai,NavierAI,Navier AI,Navier AI,navier.ai,navier.ai,Navier AI|NavierAI,Navier AI|NavierAI,navier.ai,navier.ai,TRUE,YES,T1_DOMAIN,NO
+RM-nowhouse,NowHouse,,NowHouse,,nowhouse.io,NowHouse,NowHouse,nowhouse.io,nowhouse.io,FALSE,YES,T1_SLUG,NO
+nuanced,"Nuanced, Inc.",Nuanced,Nuanced,nuanced.dev,nuanced.dev,"Nuanced|Nuanced, Inc.","Nuanced|Nuanced, Inc.",nuanced.dev,nuanced.dev,TRUE,YES,T1_SLUG,NO
+the-new-money-company,Numo,The New Money Company,The New Money Company,newmoneycompany.com,newmoneycompany.com,The New Money Company|Numo|Workparty|Fermata,The New Money Company|Numo|Workparty|Fermata,newmoneycompany.com|numohq.com,newmoneycompany.com|numohq.com,TRUE,YES,T2_CROSSWALK,NO
+octolane-ai,Octolane AI,Octolane AI,Octolane AI,octolane.com,octolane.com,Octolane AI|OctoLane|Octolane,Octolane AI|OctoLane|Octolane,octolane.com,octolane.com,TRUE,YES,T1_SLUG,NO
+ocular-ai,Ocular AI,Ocular AI,Ocular AI,useocular.com,useocular.com,Ocular AI|AutoflowAI (Zapier for AI Copilots)|AutoflowAI|Ocular,Ocular AI|AutoflowAI (Zapier for AI Copilots)|AutoflowAI|Ocular,useocular.com,useocular.com,TRUE,YES,T1_SLUG,NO
+oddsview,OddsView,OddsView,OddsView,oddsview.com,oddsview.com,OddsView|Lineflare|OpenOdds,OddsView|Lineflare|OpenOdds,oddsview.com,oddsview.com,TRUE,YES,T1_SLUG,NO
+offdeal,OffDeal,OffDeal,OffDeal,offdeal.io,offdeal.io,OffDeal|Sidekick Labs,OffDeal|Sidekick Labs,offdeal.io,offdeal.io,TRUE,YES,T1_SLUG,NO
+tesseral,Okapi,Tesseral,Tesseral,tesseral.com,tesseral.com,Tesseral|Okapi|Codomain Data|SSO Ready|ssoReady|SSOReady,Tesseral|Okapi|Codomain Data|SSO Ready|ssoReady|SSOReady,tesseral.com|okapicrm.com,tesseral.com|okapicrm.com,TRUE,YES,T2_CROSSWALK,NO
+oma-care,Oma Care,Oma Care,Oma Care,omacare.com,omacare.com,Oma Care|RestAssured MD,Oma Care|RestAssured MD,omacare.com,omacare.com,TRUE,YES,T1_SLUG,NO
+monumint,OmniAI,Monumint,Monumint,monumint.com,monumint.com,Monumint|OmniAI,Monumint|OmniAI,monumint.com|getomni.ai,monumint.com|getomni.ai,TRUE,YES,T1_SLUG,NO
+onegrep,OneGrep,OneGrep,OneGrep,onegrep.dev,onegrep.dev,OneGrep,OneGrep,onegrep.dev,onegrep.dev,TRUE,YES,T1_SLUG,NO
+fileforge,Onedoc,Fileforge,Fileforge,fileforge.com,fileforge.com,Fileforge|Onedoc|CodeMuse,Fileforge|Onedoc|CodeMuse,fileforge.com|onedoclabs.com,fileforge.com|onedoclabs.com,TRUE,YES,T2_CROSSWALK,NO
+open,OpenCopilot,Open,Open,open.cx,open.cx,Open|OpenCopilot|Opens,Open|OpenCopilot|Opens,open.cx|opencopilot.so,open.cx|opencopilot.so,TRUE,YES,T2_CROSSWALK,NO
+overheard,OpenFoundry,Overheard,Overheard,withoverheard.com,withoverheard.com,Overheard|OpenFoundry|FlowState|Unidata,Overheard|OpenFoundry|FlowState|Unidata,withoverheard.com|openfoundry.ai,withoverheard.com|openfoundry.ai,TRUE,YES,T1_SLUG,NO
+opencall,Opencall.ai,Opencall,Opencall,opencall.ai,opencall.ai,Opencall|Opencall.ai|Grey Matter Labs|OpenCall|OpenCall.ai,Opencall|Opencall.ai|Grey Matter Labs|OpenCall|OpenCall.ai,opencall.ai,opencall.ai,TRUE,YES,T1_SLUG,NO
+openmart,Openmart,Openmart,Openmart,openmart.com,openmart.com,Openmart,Openmart,openmart.com|openmart.ai,openmart.com|openmart.ai,TRUE,YES,T1_SLUG,NO
+paradigm,Paradigm,Paradigm,Paradigm,paradigmai.com,paradigmai.com,Paradigm|Aire,Paradigm|Aire,paradigmai.com|tryparadigm.ai,paradigmai.com|tryparadigm.ai,TRUE,YES,T1_SLUG,NO
+engines,Parasale,Engines,Engines,engines.dev,engines.dev,Engines|Parasale,Engines|Parasale,engines.dev|parasale.io,engines.dev|parasale.io,TRUE,YES,T1_SLUG,NO
+parcelbio,ParcelBio,ParcelBio,ParcelBio,parcelbio.com,parcelbio.com,ParcelBio|Parcel Therapuetics|Parcel Therapeutics,ParcelBio|Parcel Therapuetics|Parcel Therapeutics,parcelbio.com,parcelbio.com,TRUE,YES,T1_SLUG,NO
+partnerhq,PartnerHQ,PartnerHQ,PartnerHQ,trypartnerhq.com,trypartnerhq.com,PartnerHQ|ReferralLion,PartnerHQ|ReferralLion,trypartnerhq.com,trypartnerhq.com,TRUE,YES,T1_SLUG,NO
+patchwork,Patchwork,Patchwork,Patchwork,atpatchwork.com,atpatchwork.com,Patchwork|Indorsed,Patchwork|Indorsed,atpatchwork.com,atpatchwork.com,TRUE,YES,T1_SLUG,NO
+piramidal,Piramidal,Piramidal,Piramidal,piramidal.ai,piramidal.ai,Piramidal|piramidal.ai,Piramidal|piramidal.ai,piramidal.ai,piramidal.ai,TRUE,YES,T1_SLUG,NO
+pivot-robotics,Pivot Robots,Pivot Robotics,Pivot Robotics,pivotrobotics.com,pivotrobotics.com,Pivot Robotics|Pivot Robots|Pivot AI,Pivot Robotics|Pivot Robots|Pivot AI,pivotrobotics.com|pivotrobots.com,pivotrobotics.com|pivotrobots.com,TRUE,YES,T2_CROSSWALK,NO
+lumetric,PocketPod,Lumetric,Lumetric,lumetric.ai,lumetric.ai,Lumetric|PocketPod|Tredit IQ|Luminate,Lumetric|PocketPod|Tredit IQ|Luminate,lumetric.ai|pocketpod.app,lumetric.ai|pocketpod.app,TRUE,YES,T1_SLUG,NO
+pointone,PointOne,PointOne,PointOne,pointone.com,pointone.com,PointOne,PointOne,pointone.com|pointone.ai,pointone.com|pointone.ai,TRUE,YES,T1_SLUG,NO
+powder,Powder,Powder,Powder,powderfi.com,powderfi.com,Powder,Powder,powderfi.com,powderfi.com,TRUE,YES,T1_SLUG,NO
+precip,Precip,Precip,Precip,precip.ai,precip.ai,Precip,Precip,precip.ai,precip.ai,TRUE,YES,T1_SLUG,NO
+preloop,Preloop,Preloop,Preloop,preloop.com,preloop.com,Preloop,Preloop,preloop.com,preloop.com,TRUE,YES,T1_SLUG,NO
+pretzel-ai,Pretzel AI,Pretzel AI,Pretzel AI,withpretzel.com,withpretzel.com,Pretzel AI|Lumen Payments,Pretzel AI|Lumen Payments,withpretzel.com,withpretzel.com,TRUE,YES,T1_SLUG,NO
+prosights,ProSights,ProSights,ProSights,prosights.co,prosights.co,ProSights|Prosights,ProSights|Prosights,prosights.co,prosights.co,TRUE,YES,T1_SLUG,NO
+promptarmor,PromptArmor,PromptArmor,PromptArmor,promptarmor.com,promptarmor.com,PromptArmor|Board Security Inc.,PromptArmor|Board Security Inc.,promptarmor.com,promptarmor.com,TRUE,YES,T1_SLUG,NO
+pazi,Pythagora (GPT Pilot),Pazi,Pazi,pazi.ai,pazi.ai,Pazi|Pythagora (GPT Pilot)|GPT Pilot|Pythagora,Pazi|Pythagora|Pythagora (GPT Pilot)|GPT Pilot,pazi.ai|pythagora.ai,pazi.ai|pythagora.ai,TRUE,YES,T1_SLUG,YES
+RM-quantic,Quantic,,Quantic,,quanticresearch.com,Quantic,Quantic,quantichq.com,quanticresearch.com|quantichq.com,FALSE,YES,T1_SLUG,YES
+quary,Quary,Quary,Quary,quary.dev,quary.dev,Quary,Quary,quary.dev,quary.dev,TRUE,YES,T1_SLUG,NO
+quivr,Quivr,Quivr,Quivr,,quivr.app,Quivr,Quivr,quivr.app,quivr.app,TRUE,YES,T1_SLUG,NO
+radmate-ai,RadMate AI,RadMate AI,RadMate AI,radmate.ai,radmate.ai,RadMate AI|RadMate,RadMate AI|RadMate,radmate.ai,radmate.ai,TRUE,YES,T1_SLUG,NO
+vibrant-labs,Ragas,Vibrant Labs,Vibrant Labs,vibrantlabs.com,vibrantlabs.com,Vibrant Labs|Ragas|Exploding Gradients,Vibrant Labs|Ragas|Exploding Gradients,vibrantlabs.com|ragas.io,vibrantlabs.com|ragas.io,TRUE,YES,T1_SLUG,NO
+reducto,Reducto,Reducto,Reducto,reducto.ai,reducto.ai,Reducto|Remembrall,Reducto|Remembrall,reducto.ai,reducto.ai,TRUE,YES,T1_SLUG,NO
+reform,Reform,Reform,Reform,reformhq.com,reformhq.com,Reform|Knowstory,Reform|Knowstory,reformhq.com,reformhq.com,TRUE,YES,T1_SLUG,NO
+relari,Relari,Relari,Relari,relari.ai,relari.ai,Relari,Relari,relari.ai,nuvi.dev|relari.ai,TRUE,YES,T1_SLUG,YES
+reprompt,Reprompt,Reprompt,Reprompt,repromptai.com,repromptai.com,Reprompt|SyncUp.ai|Reprompt (previously SyncUp.ai),Reprompt|SyncUp.ai|Reprompt (previously SyncUp.ai),repromptai.com,repromptai.com,TRUE,YES,T1_SLUG,NO
+resonance,Resonance,Resonance,Resonance,useresonance.com,useresonance.com,Resonance,Resonance,useresonance.com,useresonance.com,TRUE,YES,T1_SLUG,NO
+retailready,RetailReady,RetailReady,RetailReady,retailreadyai.com,retailreadyai.com,RetailReady,RetailReady,retailreadyai.com,retailreadyai.com,TRUE,YES,T1_SLUG,NO
+retell-ai,Retell AI,Retell AI,Retell AI,retellai.com,retellai.com,Retell AI|Adam Translate,Retell AI|Adam Translate,retellai.com,retellai.com,TRUE,YES,T1_SLUG,NO
+risotto,Risotto,Risotto,Risotto,tryrisotto.com,tryrisotto.com,Risotto|IntelliServe|OttoHelm,Risotto|IntelliServe|OttoHelm,tryrisotto.com,tryrisotto.com,TRUE,YES,T1_SLUG,NO
+roe,Roe AI,ROE,ROE,getroe.ai,getroe.ai,ROE|Roe AI,ROE|Roe AI,getroe.ai,getroe.ai,TRUE,YES,T1_SLUG,NO
+rove,Rove,Rove,Rove,rove.com,rove.com,Rove,Rove,rove.com|rovecard.com,rove.com|rovecard.com,TRUE,YES,T1_SLUG,NO
+salvy,Salvy,Salvy,Salvy,salvy.com.br,salvy.com.br,Salvy,Salvy,salvy.com.br,salvy.com.br,TRUE,YES,T1_SLUG,NO
+event-horizon-labs,SciPhi,Event Horizon Labs,Event Horizon Labs,ehl.markets,ehl.markets,Event Horizon Labs|SciPhi|EmergentAGI,Event Horizon Labs|SciPhi|EmergentAGI,ehl.markets|sciphi.ai,ehl.markets|sciphi.ai,TRUE,YES,T1_SLUG,NO
+scritch,Scritch,Scritch,Scritch,scritchai.com,scritchai.com,Scritch,Scritch,scritchai.com|joinscritch.com,scritchai.com|joinscritch.com,TRUE,YES,T1_SLUG,NO
+selera-medical,Selera Medical,Selera Medical,Selera Medical,seleramedical.com,seleramedical.com,Selera Medical,Selera Medical,seleramedical.com,seleramedical.com,TRUE,YES,T1_SLUG,NO
+senso,Senso,Senso,Senso,senso.ai,senso.ai,Senso|Senso AI,Senso|Senso AI,senso.ai,senso.ai,TRUE,YES,T1_SLUG,NO
+RM-sevnai,SevnAI,,SevnAI,,sevn.ai,SevnAI,SevnAI,sevn.ai,sevn.ai,FALSE,YES,T1_SLUG,NO
+shepherd-2,Shepherd,Shepherd,Shepherd,shepherd.study,shepherd.study,Shepherd,Shepherd,shepherd.study,shepherd.study,TRUE,YES,T1_SLUG,NO
+shiboleth,Shiboleth,Shiboleth,Shiboleth,shiboleth.ai,shiboleth.ai,Shiboleth,Shiboleth,shiboleth.ai,shiboleth.ai,TRUE,YES,T1_SLUG,NO
+silogy,SiLogy,Silogy,Silogy,silogy.io,silogy.io,Silogy|SiLogy,Silogy|SiLogy,silogy.io,silogy.io,TRUE,YES,T1_SLUG,NO
+RM-skygaze,Skygaze,,,,,Skygaze,Skygaze,skygaze.io,skygaze.io,FALSE,NO,UNRESOLVED,NO
+penciled,Somn,Penciled,Penciled,penciled.com,penciled.com,Penciled|Somn,Penciled|Somn,penciled.com|somnapp.com,penciled.com|somnapp.com,TRUE,YES,T2_CROSSWALK,NO
+treblo,Sonauto,Treblo,Treblo,treblo.com,treblo.com,Treblo|Sonauto,Treblo|Sonauto,treblo.com|sonauto.ai,treblo.com|sonauto.ai,TRUE,YES,T1_SLUG,NO
+sonia,Sonia,Sonia,Sonia,soniahealth.com,soniahealth.com,Sonia,Sonia,soniahealth.com,soniahealth.com,TRUE,YES,T1_SLUG,NO
+soundry-ai,Soundry AI,Soundry AI,Soundry AI,soundry.ai,soundry.ai,Soundry AI,Soundry AI,soundry.ai,soundry.ai,TRUE,YES,T1_SLUG,NO
+solari-ai,SpareChange,Solari AI,Solari AI,usesolari.ai,usesolari.ai,Solari AI|SpareChange|Spare Change|Lytix,Solari AI|SpareChange|Spare Change|Lytix,usesolari.ai|getsparechange.com,usesolari.ai|getsparechange.com,TRUE,YES,T2_CROSSWALK,NO
+spark,Spark,Spark,Spark,sparkhq.ai,sparkhq.ai,Spark,Spark,sparkhq.ai,sparkhq.ai,TRUE,YES,T1_SLUG,NO
+speck,Speck,Speck,Speck,speck.sh,speck.sh,Speck|Glance,Speck|Glance,speck.sh|speck.bot,speck.sh|paige.sh|speck.bot,TRUE,YES,T1_SLUG,YES
+stacksync,Stacksync,Stacksync,Stacksync,stacksync.com,stacksync.com,Stacksync,Stacksync,stacksync.com|stacksync.cloud,stacksync.com|stacksync.cloud,TRUE,YES,T1_SLUG,NO
+averyiq,Starlight Charging,AveryIQ,AveryIQ,averyiq.com,averyiq.com,AveryIQ|Starlight Charging|Avery HQ|Avery,AveryIQ|Starlight Charging|Avery HQ|Avery,averyiq.com|starlightcharging.com,averyiq.com|starlightcharging.com,TRUE,YES,T1_SLUG,NO
+stitch-technologies,Stitch Technologies,Stitch Technologies,Stitch Technologies,stitch.tech,stitch.tech,Stitch Technologies,Stitch Technologies,stitch.tech,stitch.tech,TRUE,YES,T1_SLUG,NO
+superagent,Superagent.sh,Superagent,Superagent,superagent.sh,superagent.sh,Superagent|Superagent.sh,Superagent|Superagent.sh,superagent.sh,superagent.sh,TRUE,YES,T1_DOMAIN,NO
+consul,Swift,Consul,Consul,onconsul.com,onconsul.com,Consul|Swift,Consul|Swift,onconsul.com|joinswift.app,onconsul.com|joinswift.app,TRUE,YES,T1_SLUG,NO
+synsorybio,SynsoryBio,SynsoryBio,SynsoryBio,synsorybio.com,synsorybio.com,SynsoryBio,SynsoryBio,synsorybio.com,synsorybio.com,TRUE,YES,T1_SLUG,NO
+integuru,Taiki,Integuru,Integuru,integuru.com,integuru.com,Integuru|Taiki,Integuru|Taiki,integuru.com|taiki.ai,integuru.com|integuru.ai|taiki.ai,TRUE,YES,T1_SLUG,YES
+tamarind-bio,Tamarind Bio,Tamarind Bio,Tamarind Bio,tamarind.bio,tamarind.bio,Tamarind Bio,Tamarind Bio,tamarind.bio,tamarind.bio,TRUE,YES,T1_SLUG,NO
+RM-tatara,Tatara,,,,,Tatara,Tatara,tatara.ai,tatara.ai,FALSE,NO,UNRESOLVED,NO
+RM-tensorfuse,Tensorfuse,,Tensorfuse,,tensorfuse.io,Tensorfuse,Tensorfuse,tensorfuse.io,tensorfuse.io,FALSE,YES,T1_SLUG,NO
+terrakotta,Terrakotta,Terrakotta,Terrakotta,terrakotta.ai,terrakotta.ai,Terrakotta|Brandylion,Terrakotta|Brandylion,terrakotta.ai,terrakotta.ai,TRUE,YES,T1_SLUG,NO
+RM-tile,Tile,,Tile,,tile.sh,Tile,Tile,tile.sh,tile.sh,FALSE,YES,T1_SLUG,NO
+RM-titan-2,Titan,,Titan,,applytitan.com,Titan,Titan,applytitan.com,applytitan.com,FALSE,YES,T1_SLUG,NO
+toma,Toma,Toma,Toma,toma.com,toma.com,Toma,Toma,toma.com|toma.so,toma.com|toma.so,TRUE,YES,T1_SLUG,NO
+topo,Topo AI,Topo,Topo,topo.io,topo.io,Topo|Topo AI|Topo.io,Topo|Topo AI|Topo.io,topo.io,topo.io,TRUE,YES,T1_DOMAIN,NO
+tracecat,Tracecat,Tracecat,Tracecat,tracecat.com,tracecat.com,Tracecat|neometrics.ai|Neometrics,Tracecat|neometrics.ai|Neometrics,tracecat.com,tracecat.com,TRUE,YES,T1_SLUG,NO
+RM-trellis,Trellis,,Trellis AI,,runtrellis.com,Trellis,Trellis AI|Trellis,usetrellis.co,runtrellis.com|usetrellis.co,FALSE,YES,T1_SLUG,YES
+trieve,Trieve,Trieve,Trieve,trieve.ai,trieve.ai,Trieve|Arguflow,Trieve|Arguflow,trieve.ai,trieve.ai,TRUE,YES,T1_SLUG,NO
+trueclaim,TrueClaim,TrueClaim,TrueClaim,trytrueclaim.com,trytrueclaim.com,TrueClaim,TrueClaim,trytrueclaim.com,trytrueclaim.com,TRUE,YES,T1_SLUG,NO
+tusk,Tusk,Tusk,Tusk,usetusk.ai,usetusk.ai,Tusk,Tusk,usetusk.ai,usetusk.ai,TRUE,YES,T1_SLUG,NO
+ubicloud,Ubicloud,Ubicloud,Ubicloud,ubicloud.com,ubicloud.com,Ubicloud,Ubicloud,ubicloud.com,ubicloud.com,TRUE,YES,T1_SLUG,NO
+upsolve-ai,Upsolve AI,Upsolve AI,Upsolve AI,upsolve.ai,upsolve.ai,Upsolve AI,Upsolve AI,upsolve.ai,upsolve.ai,TRUE,YES,T1_SLUG,NO
+andon-labs,Vectorview,Andon Labs,Andon Labs,andonlabs.com,andonlabs.com,Andon Labs|Vectorview,Andon Labs|Vectorview,andonlabs.com|vectorview.ai,andonlabs.com|vectorview.ai,TRUE,YES,T1_SLUG,NO
+veles,Veles,Veles,Veles,getveles.com,getveles.com,Veles|Veles Inc,Veles|Veles Inc,getveles.com,getveles.com,TRUE,YES,T1_SLUG,NO
+velorum-therapeutics,Velorum Therapeutics,Velorum Therapeutics,Velorum Therapeutics,velorumtx.com,velorumtx.com,Velorum Therapeutics,Velorum Therapeutics,velorumtx.com,velorumtx.com,TRUE,YES,T1_SLUG,NO
+vista-power,Vista Space,Vista Power,Vista Power,vistapower.com,vistapower.com,Vista Power|Vista Space,Vista Power|Vista Space,vistapower.com|govista.space,vistapower.com|govista.space,TRUE,YES,T2_CROSSWALK,NO
+voicepanel,Voicepanel,Voicepanel,Voicepanel,voicepanel.com,voicepanel.com,Voicepanel|Speak Analytics,Voicepanel|Speak Analytics,voicepanel.com|voicepanel.co,voicepanel.com|voicepanel.co,TRUE,YES,T1_SLUG,NO
+wuri,Wuri,Wuri,Wuri,wuri.in,wuri.in,Wuri,Wuri,wuri.in|wuri.ai,wuri.in|wuri.co|wuri.ai,TRUE,YES,T1_SLUG,YES
+yarn-2,Yarn,Yarn,Yarn,yarn.so,yarn.so,Yarn,Yarn,yarn.so,yarn.so,TRUE,YES,T1_SLUG,NO
+yenmo,Yenmo,Yenmo,Yenmo,yenmo.in,yenmo.in,Yenmo,Yenmo,yenmo.in,yenmo.in,TRUE,YES,T1_SLUG,NO
+yondu,Yondu,Yondu,Yondu,yondu.ai,yondu.ai,Yondu,Yondu,yondu.ai|yonduai.com,yondu.ai|yonduai.com,TRUE,YES,T1_SLUG,NO
+yoneda-labs,Yoneda Labs,Yoneda Labs,Yoneda Labs,yonedalabs.com,yonedalabs.com,Yoneda Labs|ReAgentAI|YonedaLabs,Yoneda Labs|ReAgentAI|YonedaLabs,yonedalabs.com,yonedalabs.com,TRUE,YES,T1_SLUG,NO
+zaymo,Zaymo,Zaymo,Zaymo,zaymo.com,zaymo.com,Zaymo|Zaymo Inc.,Zaymo|Zaymo Inc.,zaymo.com,zaymo.com,TRUE,YES,T1_SLUG,NO
+zep-ai,Zep AI,Zep AI,Zep AI,getzep.com,getzep.com,Zep AI|Zep Software|Inc.,Zep AI|Zep Software|Inc.,getzep.com,getzep.com,TRUE,YES,T1_SLUG,NO
+atopile,atopile,atopile,atopile,atopile.io,atopile.io,atopile,atopile,atopile.io,atopile.io,TRUE,YES,T1_SLUG,NO
+camelai,camelQA,camelAI,camelAI,camelai.com,camelai.com,camelAI|camelQA|qaml (pronounced camel)|qaml,camelAI|camelQA|qaml (pronounced camel)|qaml,camelai.com|camelqa.com,camelai.com|camelqa.com,TRUE,YES,T2_CROSSWALK,NO
+RM-dawn,dawn,,dawn,,dawnai.com,dawn,dawn,dawnai.com,dawnai.com,FALSE,YES,T1_SLUG,NO
+edgetrace,edgetrace,EdgeTrace,EdgeTrace,edgetrace.ai,edgetrace.ai,EdgeTrace|edgetrace|EdgeTrace AI,EdgeTrace|edgetrace|EdgeTrace AI,edgetrace.ai,edgetrace.ai,TRUE,YES,T1_SLUG,NO
+ego,ego,ego,ego,egoai.com,egoai.com,ego,ego,egoai.com|ego.live,egoai.com|ego.live,TRUE,YES,T1_SLUG,NO
+ion-design,ion design,ion design,ion design,,ion.design,ion design,ion design,ion.design,ion.design,TRUE,YES,T1_SLUG,NO
+RM-just-words,just words,,Just Words,,justwords.ai,just words,Just Words|just words,justwords.ai,justwords.ai,FALSE,YES,T1_SLUG,YES
+kater-ai,kater.ai,kater.ai,kater.ai,kater.ai,kater.ai,kater.ai,kater.ai,kater.ai,kater.ai,TRUE,YES,T1_SLUG,NO
+malibou,malibou,malibou,malibou,malibou.com,malibou.com,malibou|Malibou,malibou|Malibou,malibou.com|malibou.co,malibou.com|malibou.co,TRUE,YES,T1_SLUG,NO
+ncompass-technologies,nCompass Technologies,nCompass Technologies,nCompass Technologies,ncompass.tech,ncompass.tech,nCompass Technologies|nCompass,nCompass Technologies|nCompass,ncompass.tech,ncompass.tech,TRUE,YES,T1_SLUG,NO
+nanocorp,phospho,NanoCorp,NanoCorp,nanocorp.so,nanocorp.so,NanoCorp|phospho,NanoCorp|phospho,nanocorp.so|phospho.ai,nanocorp.so|phospho.ai,TRUE,YES,T1_SLUG,NO
+renderlet,renderlet,renderlet,renderlet,renderlet.com,renderlet.com,renderlet|Coordinate Labs|Renderlet,renderlet|Coordinate Labs|Renderlet,renderlet.com,renderlet.com,TRUE,YES,T1_SLUG,NO
+sync-2,sync labs,sync.,sync.,sync.so,sync.so,sync.|sync labs,sync.|sync labs,sync.so|synclabs.so,sync.so|synclabs.so,TRUE,YES,T1_SLUG,NO
+thorntale,thorntale,Thorntale,Thorntale,thorntale.com,thorntale.com,Thorntale|thorntale|DataFlock (formerly EventFlock)|DataFlock,Thorntale|thorntale|DataFlock (formerly EventFlock)|DataFlock,thorntale.com,thorntale.com,TRUE,YES,T1_SLUG,NO
+xpay,xPay,xPay,xPay,xpaycheckout.com,xpaycheckout.com,xPay,xPay,xpaycheckout.com,xpaycheckout.com,TRUE,YES,T1_SLUG,NO

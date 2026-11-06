@@ -1,0 +1,169 @@
+{
+  "company_first_party_declaration_present": true,
+  "company_id": "RM-agenthub",
+  "current_domain": "gumloop.com",
+  "current_name": "Gumloop",
+  "current_slug": "gumloop",
+  "domain_at_decision": "agenthub.dev",
+  "evidence": [
+    {
+      "claim": "The decision-date short description identifies exactly one cohort company and exactly one panel slug.",
+      "cohort_companies_with_this_string": [
+        "AgentHub"
+      ],
+      "does_not_establish": "that YC itself declares the rename",
+      "establishes": "a 1:1 correspondence inside the W24 batch",
+      "holds": true,
+      "id": "E1",
+      "kind": "EXACT_STRING_1TO1_BRIDGE",
+      "panel_slugs_with_this_string": [
+        "gumloop"
+      ],
+      "sources": [
+        "data/processed/w24_spreadsheet_2024-03-25.csv",
+        "data/processed/yc2024_monthly.csv"
+      ],
+      "value": "a no-code platform for automating workflows with ai",
+      "verifiable_by": "grep the string in both files; each must return one entity"
+    },
+    {
+      "claim": "The panel chain for gumloop is in batch winter-2024 and its earliest observation matches the decision-date team size.",
+      "does_not_establish": "identity on its own; team size 2 is not distinctive",
+      "establishes": "the chain is a W24 company of the right size at the right time",
+      "first_snapshot": "2024-10-01",
+      "first_team_size": "2",
+      "founder_links_in_spreadsheet": 2,
+      "holds": true,
+      "id": "E2",
+      "kind": "PANEL_CONTINUITY",
+      "last_snapshot": "2026-10-01",
+      "last_team_size": "44",
+      "snapshots_observed": 23,
+      "sources": [
+        "data/processed/yc2024_monthly.csv",
+        "data/processed/w24_spreadsheet_2024-03-25.csv"
+      ],
+      "website_at_first_snapshot": "gumloop.com"
+    },
+    {
+      "agenthub_entries": [],
+      "claim": "An independent source that tracks YC cohorts lists Gumloop in YC W24 and contains no AgentHub in any cohort.",
+      "does_not_establish": "the rename itself; absence of AgentHub is also consistent with the source simply not covering it. The same roster holds only 194 of our 240 W24 companies.",
+      "establishes": "a third party independently places Gumloop in YC W24 and knows of no AgentHub anywhere",
+      "gumloop_entries": [
+        {
+          "cohort": "YC W24",
+          "first_seen": "2026-09-28",
+          "name": "Gumloop",
+          "slug": "gumloop",
+          "total_raised": 70600000,
+          "year": 2024
+        }
+      ],
+      "holds": true,
+      "id": "E3",
+      "kind": "THIRD_PARTY_COHORT_PLACEMENT",
+      "roster_cohorts_cached": 49,
+      "roster_companies_cached": 4164,
+      "roster_w24_entries": 194,
+      "source": "RecentFunding accelerator roster, locally cached (no network request was made by this script)",
+      "sources": [
+        "data/interim/funding_source_benchmark/raw_recentfunding/rf_yc_*.json"
+      ]
+    },
+    {
+      "agenthub_location_at_decision": "Vancouver, BC, Canada",
+      "claim": "A commercial private-markets database records Gumloop at gumloop.com in British Columbia, Canada - the province the 2024-03-25 spreadsheet gives for AgentHub, and NOT the San Francisco the YC page shows from the 2025-05-01 snapshot.",
+      "does_not_establish": "the rename itself; Preqin's firm_othernames column is Char(1) in this WRDS load and holds no alias",
+      "establishes": "an independent commercial source agrees on the domain and retains the PRE-rename geography, which a coincidental same-name company would not",
+      "holds": true,
+      "id": "E4",
+      "kind": "THIRD_PARTY_GEOGRAPHY_AND_DOMAIN",
+      "panel_location_later": "San Francisco, CA, USA",
+      "preqin": {
+        "amounts_omitted_reason": "Preqin amount semantics are UNCONFIRMED: the WRDS table dictionary gives no description for deal_financing_size_usd or currency, both vendor glossary pages are empty, and the observed data contradicts the column name (currency CAD inside a column named _usd). No amount is recorded here.",
+        "deals": [
+          {
+            "currency": "CAD",
+            "deal_date": "2024-07-23",
+            "stage": "Seed"
+          },
+          {
+            "currency": "CAD",
+            "deal_date": "2025-01-10",
+            "stage": "Series A"
+          }
+        ],
+        "observed_on": "2026-11-05",
+        "portfolio_company_country": "Canada",
+        "portfolio_company_id": "652382",
+        "portfolio_company_name": "Gumloop",
+        "portfolio_company_state": "BC",
+        "portfolio_company_website": "www.gumloop.com",
+        "retained_until": "2026-11-07 (WRDS result retention is 2 days)",
+        "source": "Preqin Venture Capital Deals via WRDS (preqin_deals.preqindealsvc)",
+        "wrds_query_id": "11874475"
+      },
+      "sources": [
+        "docs/research_log/2026-11-05_wrds_funding_source_probe.md",
+        "data/processed/w24_spreadsheet_2024-03-25.csv"
+      ]
+    },
+    {
+      "agenthub_domain_at_decision": "https://www.agenthub.dev/",
+      "claim": "Gumloop's own blog states it was previously named AgentHub and used the domain AgentHub.dev.",
+      "declaration": {
+        "author": "Max Brodeur-Urbas",
+        "excerpt": "Up until yesterday we were known as AgentHub and used the domain AgentHub.dev. We're Gumloop now.",
+        "is_yc_issued": false,
+        "published": "2024-05-05",
+        "retrieval_note": "Coordinator-supplied title/author/date/short excerpt, not a byte-for-byte page archive and not independently fetched by this script.",
+        "retrieved_by": "coordinator web tool, reported 2026-11-05",
+        "source_url": "https://www.gumloop.com/blog/agenthub-to-gumloop",
+        "title": "Why we rebranded to Gumloop"
+      },
+      "does_not_establish": "an official YC-issued rename declaration (G1 stays OPEN); the page itself was not independently fetched or hashed by this offline script, so it is recorded as a dated citation rather than re-derived evidence",
+      "establishes": "a direct first-party statement, by the company now at gumloop.com, that it was formerly named AgentHub on AgentHub.dev - unlike E1-E4 this is not derived from any file in this repository",
+      "holds": true,
+      "id": "E5",
+      "kind": "COMPANY_FIRST_PARTY_DECLARATION",
+      "sources": [
+        "coordinator source note, 2026-11-05 (external web source; not fetched by this script and not committed as a page archive)"
+      ]
+    }
+  ],
+  "evidence_all_hold": true,
+  "gaps": [
+    {
+      "detail": "YC's own `former_names` for `gumloop` does not list AgentHub, which is why w24_crosswalk.csv records AgentHub as UNMATCHED (method='UNMATCHED'). No file in this repository carries a YC-issued alias for this pair.",
+      "how_to_close": "One HTTP request would settle it: check whether ycombinator.com/companies/agenthub redirects to /companies/gumloop. Not performed - this step was explicitly offline.",
+      "id": "G1",
+      "missing": "An official Y Combinator rename declaration.",
+      "status": "OPEN"
+    },
+    {
+      "detail": "The roster entry exists (total_raised is populated) but rf_c_gumloop.json is NOT in the local cache, so no dated round can be read offline. total_raised is a cumulative total, not a dated event, and must not be converted into one.",
+      "how_to_close": "One API call to /companies/gumloop.",
+      "id": "G2",
+      "missing": "Round-level funding detail for Gumloop from RecentFunding.",
+      "status": "OPEN"
+    },
+    {
+      "detail": "The cached roster entry gives total_raised=70,600,000 with no as-of date. Gumloop's own Series A post (coordinator source note, https://www.gumloop.com/blog/gumloops-17m-series-a) states total raised to date was $20m as of 2025-01-10. The two figures are not directly comparable without the roster's as-of date and currency, and neither is converted into a dated event anywhere in this repository.",
+      "how_to_close": "One API call to /companies/gumloop would return round-level detail (see G2); separately, confirm the roster's total_raised as-of date and currency before using it for anything beyond cohort placement.",
+      "id": "G3",
+      "missing": "Reconciliation between the cached RecentFunding total_raised figure and Gumloop's own stated total.",
+      "status": "OPEN"
+    }
+  ],
+  "input_hashes": {
+    "data/processed/w24_crosswalk.csv": "b5151319062ccc1fcd52f9622f2749ba150c87f76783979b51ace86da3066520",
+    "data/processed/w24_spreadsheet_2024-03-25.csv": "21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76",
+    "data/processed/yc2024_monthly.csv": "1175af0ead3329beabe07f6ef54fb8682e4987805df7a98d787a33e1ca513794"
+  },
+  "name_at_decision": "AgentHub",
+  "network_requests_made": 0,
+  "official_yc_declaration_present": false,
+  "slug_at_decision": "agenthub",
+  "subject": "AgentHub -> Gumloop"
+}

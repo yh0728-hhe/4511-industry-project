@@ -82,3 +82,17 @@ each one produced plausible-looking wrong data **without raising an error**.
 | `audit27.py` (v1) | Superseded by `collect_pre_demoday_evidence.py`. It had the failed-query-as-absence bug and a loose name match that produced a false positive. |
 | `mknb.py` | Notebook generator for a Chinese-language DIALECTIC walkthrough. Authoring tool, not part of the data pipeline. |
 | ad-hoc diagnostics | One-off feasibility probes and HTML text extraction run inline; not reproducible pipeline steps. |
+
+## Funding Y observation release (2026-11-05)
+
+`funding/build_funding_y_release.py` rebuilds the latest 240-company candidate
+from the reviewed v2 baseline and curated, source-linked observations. It is
+stdlib-only and offline. Stable repair/supplement/matching stages and their
+checks are under `funding/`; raw provider caches are not redistributed.
+
+```bash
+python src/funding/build_funding_y_release.py
+python -W ignore::ResourceWarning -m unittest discover -s src/funding/tests -q
+```
+
+See the dated funding release log for counts, missingness and date limitations.

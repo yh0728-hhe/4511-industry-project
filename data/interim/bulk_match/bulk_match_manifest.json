@@ -1,0 +1,24 @@
+{
+  "absence_is_not_evidence": "COMPANY_FOUND_NO_* means this source holds no dated in-window round, NOT that the company did not raise. Measured ceiling: Trieve, independently verified at $3.5M in-window, returns HTTP 404 here.",
+  "api_calls_made_by_this_script": 0,
+  "cohort": 240,
+  "companies_with_in_window_evidence": 49,
+  "domain_verified_positives": 48,
+  "frozen_funding_y_v1_untouched": {
+    "results/verified/funding_y_v1/company_labels.csv": "889aa20da5dfcf08c4147f3fadee417b28ae7735bdb199732701be8cd637b366",
+    "results/verified/funding_y_v1/manifest.json": "a016ec224d9cae906052ebb2db77da6e35d6dc9eb96f16f71e552ab5afea73a8"
+  },
+  "in_window_events": 66,
+  "name_only_unverified_positives": 1,
+  "status_counts": {
+    "COMPANY_FOUND_NO_DATED_ROUND": 3,
+    "COMPANY_FOUND_NO_IN_WINDOW_ROUND": 127,
+    "FUNDING_EVENT_FOUND": 48,
+    "MATCHED_NAME_UNVERIFIED": 1,
+    "UNMATCHED": 61
+  },
+  "window": {
+    "end_inclusive": "2026-04-04",
+    "start_exclusive": "2024-04-04"
+  }
+}

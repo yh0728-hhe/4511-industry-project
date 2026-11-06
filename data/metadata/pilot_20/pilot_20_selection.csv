@@ -1,0 +1,21 @@
+selection_rank,stratum,company_name,company_website,yc_link,tags,primary_tag,date_launched
+1,Artificial Intelligence,HeyPurple,https://www.heypurple.ai/,https://www.ycombinator.com/companies/heypurple,"Artificial Intelligence,Real Estate,Proptech,Conversational AI,AI Assistant",Artificial Intelligence,2024-02-05
+2,Artificial Intelligence,Trellis,https://usetrellis.co,https://www.ycombinator.com/companies/trellis,"Artificial Intelligence,B2B,Data Engineering,Infrastructure,Databases",Artificial Intelligence,2024-03-01
+3,Artificial Intelligence,SevnAI,http://sevn.ai,https://www.ycombinator.com/companies/sevnai,"Artificial Intelligence,Design",Artificial Intelligence,2023-12-30
+4,Artificial Intelligence,Hemingway,https://hemingwayai.co,https://www.ycombinator.com/companies/hemingway,"Artificial Intelligence,SaaS,Scheduling,Dental",Artificial Intelligence,2024-01-02
+5,Artificial Intelligence,InspectMind AI,https://www.inspectmind.ai,https://www.ycombinator.com/companies/inspectmind-ai,"Artificial Intelligence,SaaS,Construction,Proptech,AI",Artificial Intelligence,2024-01-13
+6,Artificial Intelligence,Ellipsis,https://ellipsis.dev,https://www.ycombinator.com/companies/ellipsis,"Artificial Intelligence,Developer Tools,Generative AI,SaaS,AI",Artificial Intelligence,2024-01-26
+7,Artificial Intelligence,Yoneda Labs,https://www.yonedalabs.com,https://www.ycombinator.com/companies/yoneda-labs,"Artificial Intelligence,B2B,Biotech,Design Tools,AI",Artificial Intelligence,2024-01-05
+8,SaaS,Browser Buddy,https://www.browserbuddy.com/,https://www.ycombinator.com/companies/browser-buddy,"SaaS,Consumer",SaaS,2023-11-29
+9,SaaS,camelQA,https://camelqa.com/,https://www.ycombinator.com/companies/camelqa,"SaaS,AI",SaaS,2023-12-01
+10,Developer Tools,Stitch Technologies,https://www.stitch.tech,https://www.ycombinator.com/companies/stitch-technologies,"Developer Tools,SaaS",Developer Tools,2023-12-04
+11,Developer Tools,Assembly,https://www.askassembly.app/,https://www.ycombinator.com/companies/assembly-2,"Developer Tools,B2B",Developer Tools,2023-12-21
+12,Fintech,Konstructly,https://konstructly.com/,https://www.ycombinator.com/companies/konstructly,"Fintech,SaaS,Construction,B2B,Enterprise",Fintech,2023-12-23
+13,Fintech,OffDeal,https://offdeal.io,https://www.ycombinator.com/companies/offdeal,"Fintech,Generative AI,B2B,AI,AI Assistant",Fintech,2024-03-05
+14,B2B,Paradigm,https://www.tryparadigm.ai/,https://www.ycombinator.com/companies/paradigm,"B2B,Sales,Email,AI,AI Assistant",B2B,2023-12-11
+15,Generative AI,OpenCopilot,https://opencopilot.so,https://www.ycombinator.com/companies/opencopilot,"Generative AI,AI,Conversational AI,AI Assistant",Generative AI,2023-11-29
+16,Other,Preloop,https://www.preloop.com,https://www.ycombinator.com/companies/preloop,"Deep Learning,Developer Tools,Machine Learning,Data Science,AI",Deep Learning,2023-12-15
+17,Other,Fluently,https://getfluently.app/,https://www.ycombinator.com/companies/fluently,"Education,SaaS,B2B,Productivity,AI",Education,2024-01-15
+18,Other,Scritch,https://www.joinscritch.com,https://www.ycombinator.com/companies/scritch,"Marketplace,Health Tech,B2B,Healthcare,AI",Marketplace,2024-02-09
+19,Other,Quantic,https://www.quantichq.com?utm_source=yc,https://www.ycombinator.com/companies/quantic,"Sales,Sales Enablement,Automation,AI,Databases",Sales,2024-02-27
+20,Other,Aqua Voice,https://withaqua.com,https://www.ycombinator.com/companies/aqua-voice,"Documents,Artificial Intelligence,Generative AI,NLP",Documents,2024-03-22

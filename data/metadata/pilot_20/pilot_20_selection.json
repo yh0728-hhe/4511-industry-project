@@ -1,0 +1,241 @@
+{
+  "generated_at_utc": "2026-11-05T15:34:49.140011+00:00",
+  "purpose": "diagnostic, outcome-blind, tag-stratified 20-company pilot sample; NOT population-representative",
+  "source_file": "data/processed/w24_spreadsheet_2024-03-25.csv",
+  "source_sha256_lf": "21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76",
+  "source_bytes_lf": 70635,
+  "cohort_size": 240,
+  "pilot_size": 20,
+  "selection_version": "pilot_20_v2",
+  "selection_seed": "w24-historical-pilot-diagnostic-v2",
+  "num_explicit_strata": 6,
+  "explicit_strata_by_rank": [
+    "Artificial Intelligence",
+    "SaaS",
+    "Developer Tools",
+    "Fintech",
+    "B2B",
+    "Generative AI"
+  ],
+  "stratum_counts": {
+    "Artificial Intelligence": 85,
+    "Developer Tools": 21,
+    "SaaS": 22,
+    "Other": 62,
+    "Generative AI": 15,
+    "B2B": 15,
+    "Fintech": 20
+  },
+  "quota": {
+    "Artificial Intelligence": 7,
+    "Developer Tools": 2,
+    "SaaS": 2,
+    "Other": 5,
+    "Generative AI": 1,
+    "B2B": 1,
+    "Fintech": 2
+  },
+  "tie_break_rule": "Explicit-strata selection: tag frequency desc, then tag name asc. Quota remainder ties: remainder desc, then stratum name asc. Within-stratum company pick: SHA256(fixed selection_seed + '|' + YC Link), then URL. No outcome, funding, or post-cutoff data is used anywhere in this rule.",
+  "selected": [
+    {
+      "selection_rank": 1,
+      "stratum": "Artificial Intelligence",
+      "company_name": "HeyPurple",
+      "company_website": "https://www.heypurple.ai/",
+      "yc_link": "https://www.ycombinator.com/companies/heypurple",
+      "tags": "Artificial Intelligence,Real Estate,Proptech,Conversational AI,AI Assistant",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-02-05"
+    },
+    {
+      "selection_rank": 2,
+      "stratum": "Artificial Intelligence",
+      "company_name": "Trellis",
+      "company_website": "https://usetrellis.co",
+      "yc_link": "https://www.ycombinator.com/companies/trellis",
+      "tags": "Artificial Intelligence,B2B,Data Engineering,Infrastructure,Databases",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-03-01"
+    },
+    {
+      "selection_rank": 3,
+      "stratum": "Artificial Intelligence",
+      "company_name": "SevnAI",
+      "company_website": "http://sevn.ai",
+      "yc_link": "https://www.ycombinator.com/companies/sevnai",
+      "tags": "Artificial Intelligence,Design",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2023-12-30"
+    },
+    {
+      "selection_rank": 4,
+      "stratum": "Artificial Intelligence",
+      "company_name": "Hemingway",
+      "company_website": "https://hemingwayai.co",
+      "yc_link": "https://www.ycombinator.com/companies/hemingway",
+      "tags": "Artificial Intelligence,SaaS,Scheduling,Dental",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-01-02"
+    },
+    {
+      "selection_rank": 5,
+      "stratum": "Artificial Intelligence",
+      "company_name": "InspectMind AI",
+      "company_website": "https://www.inspectmind.ai",
+      "yc_link": "https://www.ycombinator.com/companies/inspectmind-ai",
+      "tags": "Artificial Intelligence,SaaS,Construction,Proptech,AI",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-01-13"
+    },
+    {
+      "selection_rank": 6,
+      "stratum": "Artificial Intelligence",
+      "company_name": "Ellipsis",
+      "company_website": "https://ellipsis.dev",
+      "yc_link": "https://www.ycombinator.com/companies/ellipsis",
+      "tags": "Artificial Intelligence,Developer Tools,Generative AI,SaaS,AI",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-01-26"
+    },
+    {
+      "selection_rank": 7,
+      "stratum": "Artificial Intelligence",
+      "company_name": "Yoneda Labs",
+      "company_website": "https://www.yonedalabs.com",
+      "yc_link": "https://www.ycombinator.com/companies/yoneda-labs",
+      "tags": "Artificial Intelligence,B2B,Biotech,Design Tools,AI",
+      "primary_tag": "Artificial Intelligence",
+      "date_launched": "2024-01-05"
+    },
+    {
+      "selection_rank": 8,
+      "stratum": "SaaS",
+      "company_name": "Browser Buddy",
+      "company_website": "https://www.browserbuddy.com/",
+      "yc_link": "https://www.ycombinator.com/companies/browser-buddy",
+      "tags": "SaaS,Consumer",
+      "primary_tag": "SaaS",
+      "date_launched": "2023-11-29"
+    },
+    {
+      "selection_rank": 9,
+      "stratum": "SaaS",
+      "company_name": "camelQA",
+      "company_website": "https://camelqa.com/",
+      "yc_link": "https://www.ycombinator.com/companies/camelqa",
+      "tags": "SaaS,AI",
+      "primary_tag": "SaaS",
+      "date_launched": "2023-12-01"
+    },
+    {
+      "selection_rank": 10,
+      "stratum": "Developer Tools",
+      "company_name": "Stitch Technologies",
+      "company_website": "https://www.stitch.tech",
+      "yc_link": "https://www.ycombinator.com/companies/stitch-technologies",
+      "tags": "Developer Tools,SaaS",
+      "primary_tag": "Developer Tools",
+      "date_launched": "2023-12-04"
+    },
+    {
+      "selection_rank": 11,
+      "stratum": "Developer Tools",
+      "company_name": "Assembly",
+      "company_website": "https://www.askassembly.app/",
+      "yc_link": "https://www.ycombinator.com/companies/assembly-2",
+      "tags": "Developer Tools,B2B",
+      "primary_tag": "Developer Tools",
+      "date_launched": "2023-12-21"
+    },
+    {
+      "selection_rank": 12,
+      "stratum": "Fintech",
+      "company_name": "Konstructly",
+      "company_website": "https://konstructly.com/",
+      "yc_link": "https://www.ycombinator.com/companies/konstructly",
+      "tags": "Fintech,SaaS,Construction,B2B,Enterprise",
+      "primary_tag": "Fintech",
+      "date_launched": "2023-12-23"
+    },
+    {
+      "selection_rank": 13,
+      "stratum": "Fintech",
+      "company_name": "OffDeal",
+      "company_website": "https://offdeal.io",
+      "yc_link": "https://www.ycombinator.com/companies/offdeal",
+      "tags": "Fintech,Generative AI,B2B,AI,AI Assistant",
+      "primary_tag": "Fintech",
+      "date_launched": "2024-03-05"
+    },
+    {
+      "selection_rank": 14,
+      "stratum": "B2B",
+      "company_name": "Paradigm",
+      "company_website": "https://www.tryparadigm.ai/",
+      "yc_link": "https://www.ycombinator.com/companies/paradigm",
+      "tags": "B2B,Sales,Email,AI,AI Assistant",
+      "primary_tag": "B2B",
+      "date_launched": "2023-12-11"
+    },
+    {
+      "selection_rank": 15,
+      "stratum": "Generative AI",
+      "company_name": "OpenCopilot",
+      "company_website": "https://opencopilot.so",
+      "yc_link": "https://www.ycombinator.com/companies/opencopilot",
+      "tags": "Generative AI,AI,Conversational AI,AI Assistant",
+      "primary_tag": "Generative AI",
+      "date_launched": "2023-11-29"
+    },
+    {
+      "selection_rank": 16,
+      "stratum": "Other",
+      "company_name": "Preloop",
+      "company_website": "https://www.preloop.com",
+      "yc_link": "https://www.ycombinator.com/companies/preloop",
+      "tags": "Deep Learning,Developer Tools,Machine Learning,Data Science,AI",
+      "primary_tag": "Deep Learning",
+      "date_launched": "2023-12-15"
+    },
+    {
+      "selection_rank": 17,
+      "stratum": "Other",
+      "company_name": "Fluently",
+      "company_website": "https://getfluently.app/",
+      "yc_link": "https://www.ycombinator.com/companies/fluently",
+      "tags": "Education,SaaS,B2B,Productivity,AI",
+      "primary_tag": "Education",
+      "date_launched": "2024-01-15"
+    },
+    {
+      "selection_rank": 18,
+      "stratum": "Other",
+      "company_name": "Scritch",
+      "company_website": "https://www.joinscritch.com",
+      "yc_link": "https://www.ycombinator.com/companies/scritch",
+      "tags": "Marketplace,Health Tech,B2B,Healthcare,AI",
+      "primary_tag": "Marketplace",
+      "date_launched": "2024-02-09"
+    },
+    {
+      "selection_rank": 19,
+      "stratum": "Other",
+      "company_name": "Quantic",
+      "company_website": "https://www.quantichq.com?utm_source=yc",
+      "yc_link": "https://www.ycombinator.com/companies/quantic",
+      "tags": "Sales,Sales Enablement,Automation,AI,Databases",
+      "primary_tag": "Sales",
+      "date_launched": "2024-02-27"
+    },
+    {
+      "selection_rank": 20,
+      "stratum": "Other",
+      "company_name": "Aqua Voice",
+      "company_website": "https://withaqua.com",
+      "yc_link": "https://www.ycombinator.com/companies/aqua-voice",
+      "tags": "Documents,Artificial Intelligence,Generative AI,NLP",
+      "primary_tag": "Documents",
+      "date_launched": "2024-03-22"
+    }
+  ]
+}

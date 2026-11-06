@@ -206,7 +206,7 @@ RM-titan-2,Titan,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,single candida
 toma,Toma,Toma,no_evidence,recent_funding,FUNDING_EVENT_FOUND,toma,https://www.toma.com,yc roster slug,1,2025-06-05,17000000,1,1,0,1
 topo,Topo AI,Topo,renamed,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,topo,https://www.topo.io,yc roster slug,0,,,0,0,0,1
 tracecat,Tracecat,Tracecat,no_evidence,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,tracecat,https://tracecat.com,yc roster slug,0,,,0,0,0,1
-RM-trellis,Trellis,,left_directory,recent_funding,AMBIGUOUS_MATCH,,,"6 candidates for 'Trellis', none matching domains usetrellis.co",0,,,0,0,0,0
+RM-trellis,Trellis,,left_directory,recent_funding,COMPANY_FOUND_NO_EVENT_RETURNED,trellis-ai,https://runtrellis.com,"identity verified via yc2024_monthly.csv panel (slug trellis -> trellis-ai, runtrellis.com); T001 one-call evidence: 1 round, no announced_at, $500000 ycombinator.com/deal (YC batch deal, not follow-on; excluded from window). See T001.md.",0,,,0,0,0,1
 trieve,Trieve,Trieve,known_funded,recent_funding,AMBIGUOUS_MATCH,,,"8 candidates for 'Trieve', none matching domains trieve.ai",0,,,0,0,0,0
 trueclaim,TrueClaim,TrueClaim,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,single candidate for 'TrueClaim' rejected: its domain trueclaim.ai is not trytrueclaim.com,0,,,0,0,0,0
 tusk,Tusk,Tusk,no_evidence,recent_funding,AMBIGUOUS_MATCH,,,"6 candidates for 'Tusk', none matching domains usetusk.ai",0,,,0,0,0,0

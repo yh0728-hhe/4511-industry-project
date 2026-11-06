@@ -1,0 +1,65 @@
+{
+  "admission_status": "CANDIDATE",
+  "amount": {
+    "as_stated": "$17m",
+    "currency_basis": "The source text gives only a '$' figure, with no currency word or ISO code attached. A bare '$' is not accepted as evidence of a currency code anywhere in this repository (see agenthub_gumloop.json evidence E4, where a '$'-style Gumloop figure elsewhere resolved to CAD, not USD). currency_code therefore stays blank.",
+    "currency_code": null,
+    "numeric_value": null
+  },
+  "announced_date": "2025-01-10",
+  "caveats": [
+    "Not a Funding Y v1 label; CANDIDATE only.",
+    "official_yc_declaration_present is false in agenthub_gumloop.json (G1 OPEN) -- identity here rests on the company first-party declaration plus independent corroboration (E3/E4), never on a YC-issued rename record.",
+    "Cumulative total_raised ($20m, same page) must not be read as this event's amount; see agenthub_gumloop.json G3 (OPEN) for the unreconciled $20m vs cached-roster $70.6m discrepancy.",
+    "No dated round-level detail exists in any locally cached source for Gumloop (agenthub_gumloop.json G2, OPEN); this record's only basis is the company's own announcement."
+  ],
+  "closing_status": "ANNOUNCEMENT_ONLY -- treated as an announcement date, not a proven legal closing date",
+  "company_id": "RM-agenthub",
+  "company_name_at_decision": "AgentHub",
+  "company_name_current": "Gumloop",
+  "event_id": "FS-gumloop-2025-01-10-series_a",
+  "event_type": "SERIES_A_ANNOUNCEMENT",
+  "hash": {
+    "algorithm": "sha256",
+    "binds": "the local structured_transcription object above, NOT the original page bytes (no page was fetched or archived by this script)",
+    "value": "a87177a130d9434e6dae779ea7504fdab657b58ac70be8db0167194f558a9633"
+  },
+  "identity_chain": {
+    "basis": "data/metadata/rename_evidence/agenthub_gumloop.json (E1-E5, evidence_all_hold=true); read, not recomputed, by this script",
+    "company_id": "RM-agenthub",
+    "current_domain": "gumloop.com",
+    "domain_at_decision": "agenthub.dev",
+    "note": "CONFIRMED here is an identity claim (which W24 cohort entity issued this announcement), independent of the OPEN official-YC-declaration gap (G1) recorded in the file above. The two must not be conflated: a company first-party rename statement (E5) is not a YC-issued declaration.",
+    "status": "CONFIRMED"
+  },
+  "provenance": {
+    "byline_or_author": "Max Brodeur-Urbas",
+    "independence_note": "Company's own blog; a first-party announcement, not independent corroboration of the round.",
+    "independent_corroboration": false,
+    "observed_capture_date": "2026-11-05",
+    "publication_date": "2025-01-10",
+    "publisher": "Gumloop (company blog)",
+    "retrieval_note": "Coordinator-supplied title/author/publisher/date/structured transcription. This is a dated citation, not a byte-for-byte page archive, and was not independently fetched by this script.",
+    "retrieved_by": "coordinator web tool, reported 2026-11-05",
+    "title": "Gumloop's $17m Series A",
+    "url": "https://www.gumloop.com/blog/gumloops-17m-series-a"
+  },
+  "provided_excerpt": null,
+  "structured_transcription": {
+    "company": "Gumloop",
+    "cumulative_raised_mentioned": "$20m total raised to date (as of 2025-01-10) -- a CUMULATIVE figure, not this event's amount.",
+    "currency_code_explicit_in_text": false,
+    "lead_investor": "Nexus Venture Partners",
+    "participants": [
+      "First Round Capital",
+      "Y Combinator"
+    ],
+    "round_type": "Series A",
+    "summary": "Company announces a $17m Series A led by Nexus Venture Partners, with First Round Capital and Y Combinator among participants."
+  },
+  "window_check": {
+    "in_window": true,
+    "window_end_inclusive": "2026-04-04",
+    "window_start_exclusive": "2024-04-04"
+  }
+}

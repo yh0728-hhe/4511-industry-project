@@ -1,0 +1,23 @@
+{
+  "A_entity_matches_recovered": 2,
+  "B_companies_with_new_in_window_funding_evidence": 0,
+  "amounts_inferred": 0,
+  "cache": {
+    "committed": false,
+    "detail_files": 176,
+    "path": "data/interim/funding_source_benchmark/raw_recentfunding",
+    "roster_companies": 4164,
+    "search_files": 99
+  },
+  "entity_matched_but_detail_not_cached": 2,
+  "entity_matches_with_identity_caveat": 1,
+  "frozen_funding_y_v1_untouched": {
+    "results/verified/funding_y_v1/company_labels.csv": "889aa20da5dfcf08c4147f3fadee417b28ae7735bdb199732701be8cd637b366",
+    "results/verified/funding_y_v1/manifest.json": "a016ec224d9cae906052ebb2db77da6e35d6dc9eb96f16f71e552ab5afea73a8"
+  },
+  "gaps": 8,
+  "in_window_events_found": 0,
+  "new_api_calls": 0,
+  "numbers_are_separate": "A is an identity result and B is a funding result. A >= B. They must not be reported as one number.",
+  "targets": 12
+}

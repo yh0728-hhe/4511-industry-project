@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "candidate_announcement_events": 2,
+    "events_in_outcome_window": 2,
+    "identity_confirmed": 1,
+    "identity_pending": 1
+  },
+  "explicitly_not_this": [
+    "Not Funding Y v1. results/verified/funding_y_v1/ is untouched by this script.",
+    "Not an update to the frozen 53/240 confirmed-positive count, or the 67 deduplicated events, reported in CURRENT_STATE.md.",
+    "No numeric currency amount is confirmed in any record here (currency_code is null in both).",
+    "freeze_funding_y_v1.py was not invoked by this script."
+  ],
+  "generated_by": "src/funding/build_funding_supplement.py",
+  "input_hashes": {
+    "data/metadata/rename_evidence/agenthub_gumloop.json": "b608574ad1fe38d7722e80de5e8c9ea2e28c07b4515eecbfd3ce8ffbb90a9efd",
+    "data/processed/w24_spreadsheet_2024-03-25.csv": "21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76",
+    "data/processed/yc2024_monthly.csv": "1175af0ead3329beabe07f6ef54fb8682e4987805df7a98d787a33e1ca513794"
+  },
+  "network_requests_made": 0,
+  "observed_capture_date": "2026-11-05",
+  "purpose": "AUTO30-MEAL-EVIDENCE-RESULT CANDIDATE evidence supplement",
+  "records": [
+    "delve-2025-07-22-series_a.json",
+    "gumloop-2025-01-10-series_a.json"
+  ],
+  "window_end_inclusive": "2026-04-04",
+  "window_start_exclusive": "2024-04-04"
+}

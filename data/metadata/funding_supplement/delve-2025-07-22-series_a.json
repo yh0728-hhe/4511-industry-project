@@ -1,0 +1,65 @@
+{
+  "admission_status": "CANDIDATE",
+  "amount": {
+    "as_stated": "$32M",
+    "currency_basis": "The source text gives only a '$' figure, with no currency word or ISO code attached. A bare '$' is not accepted as evidence of a currency code anywhere in this repository (see agenthub_gumloop.json evidence E4, where a '$'-style Gumloop figure elsewhere resolved to CAD, not USD). currency_code therefore stays blank.",
+    "currency_code": null,
+    "numeric_value": null
+  },
+  "announced_date": "2025-07-22",
+  "caveats": [
+    "Not a Funding Y v1 label; CANDIDATE only.",
+    "identity_chain.status is PENDING, not CONFIRMED -- this record must not be read as a verified RM-delve funding event until a domain or equivalent identifier binds the release to our panel entity.",
+    "Publisher is PRNewswire carrying a company-issued release, not independent corroboration.",
+    "The prior ~$3.3M 2024 round mentioned in the same release has no precise date and is intentionally not represented as an event anywhere in this supplement."
+  ],
+  "closing_status": "ANNOUNCEMENT_ONLY -- treated as an announcement date, not a proven legal closing date",
+  "company_id": "RM-delve",
+  "company_name_at_decision": "Delve",
+  "company_name_current": "Delve",
+  "event_id": "FS-delve-2025-07-22-series_a",
+  "event_type": "SERIES_A_ANNOUNCEMENT",
+  "hash": {
+    "algorithm": "sha256",
+    "binds": "the local structured_transcription object above, NOT the original page bytes (no page was fetched or archived by this script)",
+    "value": "4d48184b22ad60699303eb0238711257f6e2790b6d74916eda877678871441d4"
+  },
+  "identity_chain": {
+    "company_id": "RM-delve",
+    "current_domain_in_panel": "delve.co",
+    "current_location_in_panel": "San Francisco, CA, USA",
+    "domain_at_decision": "getdelve.com",
+    "reason": "The PRNewswire release names 'Delve', a 'San Francisco company', but the supplied transcription states no domain for it. Name + sector + city overlap with our own RM-delve panel record (delve.co, San Francisco, CA, USA) is consistent with, but not equivalent to, a domain-equivalent bind, and no such chain may be invented. Marked PENDING, not CONFIRMED.",
+    "status": "PENDING",
+    "what_would_close_this": "A domain string (e.g. delve.co or getdelve.com) or other unambiguous identifier inside the release text or its press contact block; not present in the supplied source note."
+  },
+  "provenance": {
+    "byline_or_author": "news provided by Delve",
+    "independence_note": "PRNewswire is a wire distributor carrying a company-issued release, not an independent corroborating source.",
+    "independent_corroboration": false,
+    "observed_capture_date": "2026-11-05",
+    "publication_date": "2025-07-22 09:00 ET",
+    "publisher": "PRNewswire (carrying a release issued by Delve)",
+    "retrieval_note": "Coordinator-supplied title/author/publisher/date/structured transcription. This is a dated citation, not a byte-for-byte page archive, and was not independently fetched by this script.",
+    "retrieved_by": "coordinator web tool, reported 2026-11-05",
+    "title": "Delve Raises $32M Series A to Build AI Agents for Compliance",
+    "url": "https://www.prnewswire.com/news-releases/delve-raises-32m-series-a-to-build-ai-agents-for-compliance-302510121.html"
+  },
+  "provided_excerpt": null,
+  "structured_transcription": {
+    "company": "Delve",
+    "currency_code_explicit_in_text": false,
+    "lead_investor": "Insight Partners",
+    "participants": [
+      "unnamed Fortune 500 CISOs"
+    ],
+    "prior_round_mentioned": "Approximately $3.3M in 2024 is mentioned with no precise date; deliberately NOT created as a separate event here.",
+    "round_type": "Series A",
+    "summary": "San Francisco company announces a $32M Series A led by Insight Partners, with Fortune 500 CISOs participating."
+  },
+  "window_check": {
+    "in_window": true,
+    "window_end_inclusive": "2026-04-04",
+    "window_start_exclusive": "2024-04-04"
+  }
+}

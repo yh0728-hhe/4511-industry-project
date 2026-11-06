@@ -1,0 +1,9 @@
+﻿company_id,gap_kind,detail,how_to_close
+RM-agenthub,DETAIL_NOT_CACHED,rf_c_gumloop.json absent; identity resolved via ROSTER_W24_NAME,one API call to /companies/gumloop
+RM-agenthub,SEARCH_NOT_CACHED,no cached search for the repaired query name 'Gumloop' (expected rf_q_gumloop.json),one API call to /companies?q=Gumloop
+arcane,DETAIL_NOT_CACHED,rf_c_arcane.json absent; identity resolved via CACHED_SEARCH_DOMAIN,one API call to /companies/arcane
+arcane,SEARCH_NOT_CACHED,no cached search for the repaired query name 'Summoner AI' (expected rf_q_summoner_ai.json),one API call to /companies?q=Summoner AI
+arcane,SEARCH_NOT_CACHED,no cached search for the repaired query name 'Arcane AI' (expected rf_q_arcane_ai.json),one API call to /companies?q=Arcane AI
+arcane,ACQUIRED_IDENTITY_CAVEAT,"matched domain 'rohanmehta.com' was not this company's decision-date domain and the panel records acquired_by_cutoff=YES; this may be a founder/acquirer placeholder, not continuing corporate identity - verify before reading any future round under 'arcane' as follow-on funding to a surviving independent company","manually confirm, before trusting any round under slug 'arcane', whether it predates the acquisition or belongs to the acquirer/founder instead of 'arcane'"
+conduit-ai,SEARCH_NOT_CACHED,no cached search for the repaired query name 'HostAI' (expected rf_q_hostai.json),one API call to /companies?q=HostAI
+speck,SEARCH_NOT_CACHED,no cached search for the repaired query name 'Glance' (expected rf_q_glance.json),one API call to /companies?q=Glance

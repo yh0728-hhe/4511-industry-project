@@ -281,3 +281,14 @@ way to establish that two people are analysing the same panel.
 
 `status_transitions.csv` and `w24_crosswalk.csv` are derived from it, so their
 checksums only mean anything relative to the panel's checksum above.
+
+## 2026-11-05 funding observation update
+
+Frozen checkpoints are under `results/verified/funding_y_v1/` and
+`results/verified/funding_y_v2/`. Latest candidate:
+`results/candidates/funding_y_20261105/company_labels.csv` (240 rows;
+110 primary positives,1 supplementary-only,129 UNKNOWN,0 verified negatives).
+The candidate's manifest hashes its portable inputs. Additional source
+observations are in `data/metadata/funding_y_release_20261105/`.
+Do not add source observations as independently verified rounds or sum amounts.
+See `docs/research_log/2026-11-05_funding_y_observation_release.md`.
