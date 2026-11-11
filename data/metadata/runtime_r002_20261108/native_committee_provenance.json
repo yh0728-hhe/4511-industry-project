@@ -1,0 +1,287 @@
+{
+  "source_commit": "dfb296ca5cb69054a289e34531df9782aa2cf4c8",
+  "sources": [
+    {
+      "path": "src/agent/prompts/argument_generation.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/prompts/argument_generation.py",
+      "selected_definitions": [
+        {
+          "name": "ARGUMENT_GENERATION_SYSTEM_PROMPT",
+          "sha256": "583f9a917604f73d4e7203e2837de8ca6471fbadd9f139f75baefe8ae3884e4d",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "PRO_ARGUMENTS_USER_PROMPT",
+          "sha256": "5ccc79a128914d781a0a654c2265e15253181cebcdd8d8c8c6b3c93a57fb669c",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "CONTRA_ARGUMENTS_USER_PROMPT",
+          "sha256": "d0e1c6337801ab49b3315065dad4e6b4390866cfe6c323b1a1165017004543a1",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/prompts/argument_critique.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/prompts/argument_critique.py",
+      "selected_definitions": [
+        {
+          "name": "DEVILS_ADVOCATE_PRO_SYSTEM_PROMPT",
+          "sha256": "496570a8e14fd69a1743397ec5cb0d217d8c60ac351aeaf9c85d12977c275ce9",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "DEVILS_ADVOCATE_INDIVIDUAL_PRO_ARGUMENT_USER_PROMPT",
+          "sha256": "e0de57104f3d092d0c0fc7e624ca8907b5dfc3f5d327aa28b724c7c8c1844738",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "DEVILS_ADVOCATE_CONTRA_SYSTEM_PROMPT",
+          "sha256": "9c696522964c793187832e7ea8e99820278066606f47bf25ee904233fa47e9a0",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "DEVILS_ADVOCATE_INDIVIDUAL_CONTRA_ARGUMENT_USER_PROMPT",
+          "sha256": "085341ed5aa739b3dbeb98a976b57d34f715824f0569d60e282f2e263b6acaa5",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/prompts/argument_evaluation.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/prompts/argument_evaluation.py",
+      "selected_definitions": [
+        {
+          "name": "CRITERIA_MAPPING",
+          "sha256": "de8b906136385dab44e279f6afc41120953300e92fea7e829aaaa54d7268d696",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "SINGLE_ARGUMENT_EVALUATION_SYSTEM_PROMPT",
+          "sha256": "50356aed606d8ec9297227aaf0b5b408178645d845e3e67540a6736e911549c5",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "EVALUATE_SINGLE_ARGUMENT_USER_PROMPT",
+          "sha256": "5276979d2dad6cbcd1bd9fa20a50261400307887ee3191326236be76a1e459ac",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/prompts/argument_refinement.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/prompts/argument_refinement.py",
+      "selected_definitions": [
+        {
+          "name": "REFINE_PRO_ARGUMENT_SYSTEM_PROMPT",
+          "sha256": "df155363895e7e90a5d8d685d46f906be50466b9f3a96f13b25bf5106b65f823",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "REFINE_CONTRA_ARGUMENT_SYSTEM_PROMPT",
+          "sha256": "6ac9f9c9cdf0a0d0e74b8082f194484a1ee2565a355fd88205ca5e9e8531181f",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "REFINE_PRO_ARGUMENTS_USER_PROMPT",
+          "sha256": "1652fab321476de4d4c34c477db10d0e80c2865b2bbf3060aeb02f526829e94e",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "REFINE_CONTRA_ARGUMENTS_USER_PROMPT",
+          "sha256": "fb8051e8adf2b226ceca755f53338897f7b7296367de5f18a5c1318e3d6fe8cf",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/common/utils.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/common/utils.py",
+      "selected_definitions": [
+        {
+          "name": "format_qa_pairs_with_index",
+          "sha256": "24ef8d13546989b98c535ff23d23ced4e0bc74d4ea4e0f0cf755ab2317c07b38",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "format_qa_pairs_without_index",
+          "sha256": "477d57ebb6f5978014f3570a4f25019d7e3f780031b4bcffb87ae9da18a05077",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/utils/helpers.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/utils/helpers.py",
+      "selected_definitions": [
+        {
+          "name": "generate_context_block",
+          "sha256": "53a5065476e7483830717a7b36de9f2aa0a613ad5f10840b4278ba9c3c7f4806",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "convert_llm_arguments_to_objects",
+          "sha256": "899afb96980de7b3da3c74bc459fdea2b7f26dadbe75729fff4d27b14582650a",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "format_argument_feedback",
+          "sha256": "152d2cf7938dd03f4ac963ae6335e7216a174b6d827b206ec6ab564b6ccb637f",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/stages/generation.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/generation.py",
+      "selected_definitions": [
+        {
+          "name": "check_if_final",
+          "sha256": "c6d18437a2eff58d03e1f7266f0e0cb952ed1798553106067b44cae36a6c4ba3",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "generate_pro_and_contra_arguments",
+          "sha256": "83bdb36de762bd384d20ab4ffcecf5e0a8a19d1403029820b87e4eced2791895",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "generate_pro_arguments",
+          "sha256": "366f0e21d8cfaae11e6beeb9f578969f6be9ee2e1c2c20a524cd2df8ef33cd2d",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "generate_contra_arguments",
+          "sha256": "b1e06c0a5054ba062dcbc0337a2aa9dcfb371eed3bbf218a47312473823e8fb4",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "merge_arguments",
+          "sha256": "5aeab3d4e5c864452e8bb1782333f6ba4100e13899259463c5c1e1360ef03e62",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/stages/critique.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/critique.py",
+      "selected_definitions": [
+        {
+          "name": "_apply_devils_advocate_to_pro_argument",
+          "sha256": "b71452969b1c9f70793e61616ec16a017935929487bb10ee048499e281c30e27",
+          "decorators_omitted": 1
+        },
+        {
+          "name": "_apply_devils_advocate_to_contra_argument",
+          "sha256": "cd37d82cad660122f571d3e62ed90f001f84f051a3dee5bec574882b7440aa2a",
+          "decorators_omitted": 1
+        },
+        {
+          "name": "apply_devils_advocate",
+          "sha256": "61f7489b5933f8006a7da6a5c98c55bc7389617b834e5c575035a7667c81c54d",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "apply_devils_advocate_to_pro_arguments",
+          "sha256": "9b2999f678fe6ab117746860ada9158b77845f984c9184e113d27ab054bf4955",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "apply_devils_advocate_to_contra_arguments",
+          "sha256": "7582da7cdb6d8c70f893c38e5c4fce792b28b6c79e0a4995ab941fa70f37b542",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/stages/evaluation.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/evaluation.py",
+      "selected_definitions": [
+        {
+          "name": "score_single_argument",
+          "sha256": "3f518cf392fc23e380226f53a214625cb666f974f20214a470895a2139028b3d",
+          "decorators_omitted": 1
+        },
+        {
+          "name": "score_arguments_in_parallel",
+          "sha256": "668381beaffc98a6ae11d39efeb19bb496e506bec2189a333c52aea4eb9fd4ef",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "score_and_select_best_k",
+          "sha256": "46d6515e1b32638b6969798021be86906c01ff5ef265dbba41e16b96ab5ec0d0",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/stages/refinement.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/refinement.py",
+      "selected_definitions": [
+        {
+          "name": "_refine_individual_pro_argument",
+          "sha256": "8b4d8564a961be337fca30b31510eede6c275b5a7b1ea948df738c1252d6f1fa",
+          "decorators_omitted": 1
+        },
+        {
+          "name": "_refine_individual_contra_argument",
+          "sha256": "f048ca3c4428cacbe5d31cd6431b98f206f0bfe89fe361a9f63fbe713c46b690",
+          "decorators_omitted": 1
+        },
+        {
+          "name": "refine_pro_arguments",
+          "sha256": "424478470bac59bd82b103594afa7ef17a74f81ac6c2ef44b1953a756829ab13",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "refine_contra_arguments",
+          "sha256": "98364e57e2bfc0655eb6d1d2aabd67483c93c26fc22e43ed04cbedc372841dce",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "merge_refined_arguments",
+          "sha256": "3e1c2be20b2b55d98f787429b0eceb7c2623fd72f25a8200134363ddbda09710",
+          "decorators_omitted": 0
+        }
+      ]
+    },
+    {
+      "path": "src/agent/pipeline/stages/decision.py",
+      "url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/decision.py",
+      "selected_definitions": [
+        {
+          "name": "add_arguments_to_history",
+          "sha256": "4cce45d40da082093df0dd2b459a329a46899cfee79e50719ddaafd05a0e0f4a",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "reset_arguments_and_increment_iteration",
+          "sha256": "0a04a78b4d46732e7877a290b459fd8fe64bc179c6ac6275780bf41beca8e8c0",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "check_continue",
+          "sha256": "2a74e3bbb25f4e8bc2ac264378ecb3fb3c20f99837540d2e454e721160a1958e",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "prepare_final_arguments",
+          "sha256": "4ed4b5b2983a319af08992fcd3db28ee55aa49def9c4941744a9b71a26357cb9",
+          "decorators_omitted": 0
+        },
+        {
+          "name": "create_final_investment_story",
+          "sha256": "2200825119788e6006f1be07a3c10b2c1fac68c43266d9d496b07c3ce5fc42e8",
+          "decorators_omitted": 0
+        }
+      ]
+    }
+  ],
+  "modifications": [
+    "imports/client initializers replaced with injected model gateway",
+    "backoff decorators omitted; inner score-count retries retained and metered"
+  ],
+  "model_calls_during_extraction": 0,
+  "original_skill_modified": false
+}

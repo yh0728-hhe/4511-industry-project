@@ -1,0 +1,64 @@
+{
+  "company": "Humane",
+  "final_decision": "not_invest",
+  "iterations_completed": 2,
+  "argument_history": [
+    {
+      "iteration": 0,
+      "types": [
+        "contra"
+      ],
+      "scores": [
+        75
+      ]
+    },
+    {
+      "iteration": 1,
+      "types": [
+        "contra"
+      ],
+      "scores": [
+        71
+      ]
+    },
+    {
+      "iteration": 2,
+      "types": [
+        "contra"
+      ],
+      "scores": [
+        72
+      ]
+    }
+  ],
+  "final_arguments": [
+    {
+      "type": "contra",
+      "score": 72
+    }
+  ],
+  "source_file_sha256": "ad50c264e11a171344e398d5f0cd0ca5395c97ffdbc8c7dad0f208b7ee1ed0c3",
+  "source_file_bytes": 4617,
+  "verified_from_artifact": [
+    "company",
+    "decision",
+    "iterations",
+    "saved argument text and scores"
+  ],
+  "reported_only_from_original_claude_messages": {
+    "runtime_seconds": 37,
+    "llm_calls": 79,
+    "total_tokens": 50947,
+    "estimated_usd": 0.12,
+    "search_usd": 0.11,
+    "model_usd": 0.01
+  },
+  "original_message_timestamp": "2026-10-29T01:19:49.271Z",
+  "missing_from_saved_artifact": [
+    "exact model/config",
+    "QA facts and full retrieval provenance",
+    "historical cutoff proof",
+    "auditable billing or full token accounting"
+  ],
+  "interpretation": "Prior real-company smoke test exists; not a W24 historical backtest or test of the new research loop."
+}

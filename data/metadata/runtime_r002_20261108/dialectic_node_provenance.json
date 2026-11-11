@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "dfb296ca5cb69054a289e34531df9782aa2cf4c8",
+  "upstream_url": "https://github.com/pantageepapa/DIALECTIC/blob/dfb296ca5cb69054a289e34531df9782aa2cf4c8/src/agent/pipeline/stages/decision.py",
+  "extracted_function": "decide_final_investment_decision",
+  "normalized_function_sha256": "7b19987cc0e84895e2ae694a6c391c76adfd41ab7edd0f1636cd0349f377fcf8",
+  "license": "MIT; full notice in src/closed_loop/vendor/LICENSE-DIALECTIC",
+  "upstream_agent_imported": false,
+  "models_or_providers_initialized": false
+}
