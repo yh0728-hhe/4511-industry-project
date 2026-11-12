@@ -1,0 +1,590 @@
+[
+  {
+    "company_id": "RM-tile",
+    "host": "tile.sh",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "aedilic",
+    "host": "nonescape.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "browser-buddy",
+    "host": "browserbuddy.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "decipher-ai",
+    "host": "getdecipher.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "eris-biotech",
+    "host": "erisbio.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "glimmer",
+    "host": "withglimmer.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "leaping",
+    "host": "leaping.io",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "lumona",
+    "host": "lumona.ai",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "mango-health",
+    "host": "themangohealth.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "HTTP_RESPONSE_READ_CONTENT_REVIEW_NEEDED"
+      ],
+      "2026-11-11": [
+        "HTTP_RESPONSE_READ_CONTENT_REVIEW_NEEDED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": false,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "oddsview",
+    "host": "oddsview.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "OTHER_HTTP_ERROR"
+      ],
+      "2026-11-10": [
+        "OTHER_HTTP_ERROR"
+      ],
+      "2026-11-11": [
+        "OTHER_HTTP_ERROR"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "partnerhq",
+    "host": "trypartnerhq.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "patchwork",
+    "host": "atpatchwork.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "preloop",
+    "host": "preloop.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "quary",
+    "host": "quary.dev",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "quivr",
+    "host": "quivr.app",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "resonance",
+    "host": "useresonance.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "solari-ai",
+    "host": "usesolari.ai",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-10": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ],
+      "2026-11-11": [
+        "REQUESTED_PAGE_NOT_FOUND"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "stitch-technologies",
+    "host": "stitch.tech",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "HTTP_RESPONSE_READ_CONTENT_REVIEW_NEEDED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": false,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "synsorybio",
+    "host": "synsorybio.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "voxops-ai",
+    "host": "voxopsai.com",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  },
+  {
+    "company_id": "wuri",
+    "host": "wuri.in",
+    "distinct_check_days": 3,
+    "latest_three_days": [
+      "2026-11-07",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "access_states_by_day": {
+      "2026-11-07": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-10": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ],
+      "2026-11-11": [
+        "TRANSPORT_FAILURE_UNSPECIFIED"
+      ]
+    },
+    "three_different_days_checked": true,
+    "sustained_access_failure_observed": true,
+    "website_identity_independently_verified": false,
+    "presumed_dead": "NOT_ESTABLISHED",
+    "confirmed_shutdown": "NOT_ESTABLISHED",
+    "historical_cutoff_inference": "NONE_CURRENT_CHECKS_ONLY",
+    "limitation": "HTTP success needs identity/content review; failures do not prove company closure or historical inactivity."
+  }
+]

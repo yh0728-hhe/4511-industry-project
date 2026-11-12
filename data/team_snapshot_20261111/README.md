@@ -11,3 +11,7 @@ adjudication are not fully reproduced by this CSV. Amount/investor API payloads,
 credentials, caches and internal model/worker traces are excluded. No90%coverage
 or investment-accuracy claim is made. Main row counts checked against the reviewed
 source table; source/output SHA256 values are in manifest.json.
+
+Also included: `website_access_history.json`, 21 company websites checked on three different days
+(Nov 7, 10, 11, 2026), same URL each time. It records access states only. Current checks
+cannot establish April 2026 status; no shutdown or funding label is derived from it.
