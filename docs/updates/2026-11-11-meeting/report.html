@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Agent v0 progress — English / 繁體中文 — 11 Nov 2026</title>
+<style>
+:root { --bg:#F7F7F5; --fg:#1A1C1A; --muted:#5C615B; --rule:#D4D7D0; --surface:#FFFFFF; --signal:#9C4A14; --signal-soft:#F5E6D9; --ok:#3E6B4F; --ok-soft:#E4EFE6;
+  --serif:Georgia,"Times New Roman",serif; --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; --mono:ui-monospace,"Consolas","SFMono-Regular",Menlo,monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#131513; --fg:#E8EAE5; --muted:#99A094; --rule:#2E332D; --surface:#1C1F1C; --signal:#DD9E5E; --signal-soft:#322314; --ok:#8FC39F; --ok-soft:#1E2A20; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font-family:var(--sans); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+.wrap { max-width:760px; margin:0 auto; padding-inline:24px; padding-block:0 72px; }
+header.top { padding-block:40px 20px; }
+.eyebrow { font-family:var(--mono); font-size:11.5px; letter-spacing:.1em; color:var(--muted); margin-bottom:14px; }
+h1 { font-family:var(--serif); font-size:clamp(27px,4.6vw,38px); line-height:1.12; font-weight:700; margin:0 0 16px; }
+.sub { font-size:17px; color:var(--muted); margin:0; }
+.byline { font-family:var(--mono); font-size:12px; color:var(--muted); margin-top:20px; padding-top:14px; border-top:1px solid var(--rule); }
+section { padding-block:28px 0; }
+h2 { font-family:var(--serif); font-size:clamp(21px,3.2vw,25px); font-weight:700; margin:0 0 12px; }
+p { margin:0 0 13px; } strong { font-weight:600; }
+.lede { font-family:var(--serif); font-size:19px; line-height:1.5; }
+.callout { background:var(--signal-soft); border-left:3px solid var(--signal); padding:14px 18px; margin:20px 0 0; font-family:var(--serif); font-size:17.5px; line-height:1.45; }
+table.roles, table.tests { width:100%; border-collapse:collapse; margin-top:16px; font-size:14px; background:var(--surface); border:1px solid var(--rule); }
+table.roles th, table.roles td, table.tests th, table.tests td { border-bottom:1px solid var(--rule); padding:9px 10px; text-align:left; vertical-align:top; }
+table.roles th, table.tests th { font-family:var(--mono); font-size:10.5px; letter-spacing:.07em; color:var(--muted); font-weight:500; }
+table.roles tr:last-child td, table.tests tr:last-child td { border-bottom:0; }
+.tag { display:inline-block; font-family:var(--mono); font-size:10px; letter-spacing:.06em; padding:2px 6px; border-radius:3px; white-space:nowrap; }
+.tag.wired { background:var(--ok-soft); color:var(--ok); } .tag.partial { background:var(--signal-soft); color:var(--signal); }
+.tag.det,.tag.spec { background:var(--rule); color:var(--muted); }
+.figbox { overflow-x:auto; margin-top:16px; }
+.figbox svg { display:block; min-width:640px; width:100%; height:auto; }
+.bx { fill:var(--surface); stroke:var(--fg); stroke-width:1.2; }
+.bx-det { fill:var(--rule); stroke:var(--muted); stroke-width:1.2; }
+.bx-n { fill:var(--signal-soft); stroke:var(--signal); stroke-width:1.6; }
+.bx-dp { fill:var(--surface); stroke:var(--fg); stroke-width:1.2; stroke-dasharray:5 3; }
+.bx-data { fill:var(--ok-soft); stroke:var(--ok); stroke-width:1.2; }
+.dec { fill:var(--surface); stroke:var(--signal); stroke-width:1.6; }
+.ar { stroke:var(--fg); stroke-width:1.1; fill:none; } .ar-s { stroke:var(--signal); stroke-width:1.4; fill:none; }
+.t { fill:var(--fg); font-family:var(--sans); font-size:15px; }
+.t-s { fill:var(--muted); font-family:var(--sans); font-size:12.5px; }
+.t-m { fill:var(--muted); font-family:var(--mono); font-size:11px; letter-spacing:.06em; }
+figcaption { font-size:13.5px; color:var(--muted); margin-top:10px; }
+.legend { display:flex; flex-wrap:wrap; gap:6px 16px; margin-top:12px; font-family:var(--mono); font-size:11px; color:var(--muted); }
+.legend span { display:inline-flex; align-items:center; gap:6px; }
+.sw { display:inline-block; width:16px; height:11px; border:1.2px solid var(--fg); background:var(--surface); }
+.sw-h { background:var(--signal-soft); border-color:var(--signal); } .sw-p { border-style:dashed; }
+.sw-c { background:var(--rule); border-color:var(--muted); } .sw-d { background:var(--ok-soft); border-color:var(--ok); }
+.sw-l { border:0; border-top:2px solid var(--signal); height:0; }
+ol.num { margin:14px 0 0; padding:0; list-style:none; counter-reset:i; }
+ol.num li { counter-increment:i; position:relative; padding:13px 0 13px 36px; border-top:1px solid var(--rule); }
+ol.num li::before { content:counter(i); position:absolute; left:0; top:13px; font-family:var(--mono); font-size:12px; color:var(--signal); }
+ol.num b { display:block; font-weight:600; margin-bottom:2px; }
+ol.num span.d { font-size:14px; color:var(--muted); }
+.zh { display:block; margin-top:5px; font-family:"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif; font-size:max(14px,.92em); line-height:1.75; color:var(--muted); font-weight:400; letter-spacing:normal; }
+p.zh { margin-top:-6px; margin-bottom:20px; } h1 .zh,h2 .zh { font-size:.65em; min-height:1em; line-height:1.6; }
+td,th { overflow-wrap:anywhere; }
+a { color:inherit; }
+</style></head><body><div class="wrap">
+<header class="top">
+<div class="eyebrow" lang="en">Closed-loop due diligence · agent v0 adaptation checkpoint<span class="zh" lang="zh-Hant">閉環盡職調查・agent v0 調整進度</span></div>
+<h1 lang="en">Making the paper workflow concrete, role by role<span class="zh" lang="zh-Hant">將論文中的工作流程，逐角色落實為可執行設計</span></h1>
+<p class="sub" lang="en">You've already seen the paper-based workflow and watched the upstream DIALECTIC skill run. This checkpoint is not a new architecture — it's nine of that workflow's roles individually specified, one real code gap closed, and a second pass on the funding ledger.</p><p class="zh" lang="zh-Hant">先前已向 Jeff 說明以論文為基礎的工作流程，也試跑過原版 DIALECTIC skill。本次不是提出另一套架構，而是逐一寫清其中九類角色／模組、修補一處實際程式缺口，並啟動融資資料的第二輪檢查。</p>
+<div class="byline" lang="en">Yue Yu · Columbia IEOR 4511E · Golden Gate Ventures · <a href="https://github.com/yh0728-hhe/4511-industry-project/pull/2">PR #2 · yh0728-hhe/4511-industry-project</a><span class="zh" lang="zh-Hant">Rose Yu・哥倫比亞大學專案・Golden Gate Ventures</span></div>
+</header>
+<section>
+<p class="lede" lang="en">This is not primarily a data-collection update. Most of this checkpoint's work is in the agent workflow's code and prompts — a concrete handoff fix and nine written role specs that say plainly what's wired versus still on paper. The funding ledger pass is a separate, parallel workstream.</p><p class="zh" lang="zh-Hant">本次主要進展在 agent 的程式碼與 prompt：補上具體的資訊交接，並寫出九份角色規格，清楚區分已接入程式與仍待實作的部分。融資資料檢查是另一條並行工作線。</p>
+<div class="callout" lang="en">The headline change: the evidence reviewer used to see only admitted facts. It now receives the actual argument/critique/score trace from the debate stages — so it can flag a gap the critics exposed, not only one missing from the raw fact list.<span class="zh" lang="zh-Hant">本次主要修正：證據審查者原本只看到已接納的事實，現在也會收到辯論階段的論點、批評與評分紀錄，因此可以根據批評指出的重要問題安排後續研究。</span></div>
+</section>
+<section>
+<h2 lang="en">What we adapted, role by role<span class="zh" lang="zh-Hant">逐角色的調整與實作</span></h2>
+<p lang="en">Nine actor cards (<a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/README.md">index</a>) cover every role in the workflow, each with task, inputs/outputs, tools, stop rules and actual code pointer. Only the LLM stages are "agents" in a model-call sense; the gateway and final aggregator are deterministic code.</p><p class="zh" lang="zh-Hant">九份角色／模組規格均列出任務、輸入輸出、工具、停止規則與實際程式位置。只有需要呼叫語言模型的階段，才是模型意義下的 agent；驗證閘道與最終彙整器是確定性程式。</p>
+<table class="roles">
+<tr><th lang="en">Role<span class="zh" lang="zh-Hant">角色／模組</span></th><th lang="en">Status<span class="zh" lang="zh-Hant">接入狀態</span></th><th lang="en">Changed this checkpoint<span class="zh" lang="zh-Hant">本次調整</span></th></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/lead.md">Lead investor</a><span class="zh" lang="zh-Hant">主導投資研究的 Lead</span></td><td lang="en"><span class="tag wired">WIRED</span><span class="zh" lang="zh-Hant">已接入</span></td><td lang="en">Selects only needed specialists from 7 role briefs; prompt now references the gateway-verified reliability tier<span class="zh" lang="zh-Hant">根據七份角色簡介，只選擇本案需要的研究角色；prompt 也會參考驗證閘道提供的來源可靠性類型。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/research.md">Research specialist protocol</a> (7 role overlays)<span class="zh" lang="zh-Hant">專項研究協定：七類研究方向</span></td><td lang="en"><span class="tag partial">PARTIAL</span><span class="zh" lang="zh-Hant">部分接入</span></td><td lang="en">Provider dispatch wired; autonomous specialist-model/retrieval loop not wired<span class="zh" lang="zh-Hant">已接入資料提供者的研究任務派送；專項研究模型自主檢索與反覆補查的循環尚未接入。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/pro.md">Pro</a> / <a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/contra.md">Contra</a> argument<span class="zh" lang="zh-Hant">正方／反方論點生成</span></td><td lang="en"><span class="tag wired">WIRED</span><span class="zh" lang="zh-Hant">已接入</span></td><td lang="en">Reused DIALECTIC generation stage, unmodified<span class="zh" lang="zh-Hant">保留 DIALECTIC 的論點生成階段，未修改其原始內容。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/critic.md">Critics + refinement</a><span class="zh" lang="zh-Hant">批評與論點修訂</span></td><td lang="en"><span class="tag wired">WIRED</span><span class="zh" lang="zh-Hant">已接入</span></td><td lang="en">Two side-specific critics, then two refinement stages (upstream, unmodified)<span class="zh" lang="zh-Hant">正反兩方各有對應的批評與修訂階段，沿用原版實作。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/evaluator.md">Evaluator</a><span class="zh" lang="zh-Hant">論點評估器</span></td><td lang="en"><span class="tag wired">WIRED</span><span class="zh" lang="zh-Hant">已接入</span></td><td lang="en">Model scoring plus configurable argument selection; mean-per-side comparison happens later in the final aggregator.<span class="zh" lang="zh-Hant">由模型評分，再依設定選取論點。正反方平均分數的比較屬於後續最終彙整階段。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/evidence_review.md">Evidence reviewer</a><span class="zh" lang="zh-Hant">證據缺口審查者</span></td><td lang="en"><span class="tag wired">WIRED</span><span class="zh" lang="zh-Hant">已接入</span></td><td lang="en"><strong>New this checkpoint:</strong> receives the full argument/critic/score trace, not just admitted facts; essential gaps still just route back to the lead for fresh research<span class="zh" lang="zh-Hant">本次新增：接收實際論點、批評與評分紀錄，不再只有已接納的事實；重要缺口會回傳給 Lead，再安排研究。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/thesis.md">Final aggregation / thesis</a> / partner<span class="zh" lang="zh-Hant">最終彙整／投資論述／合夥人</span></td><td lang="en"><span class="tag partial">PARTIAL</span><span class="zh" lang="zh-Hant">部分接入</span></td><td lang="en">Decision + rationale wired; richer thesis synthesis is <span class="tag spec">SPEC_ONLY</span>; the partner decision stays human<span class="zh" lang="zh-Hant">已接入建議與理由的輸出；完整投資論述綜合仍僅有規格，尚未實作。最終決策仍由人類合夥人作出。</span></td></tr>
+<tr><td lang="en"><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/docs/architecture/agents_v0/gateway.md">Temporal &amp; identity gateway</a><span class="zh" lang="zh-Hant">歷史時間與實體識別驗證閘道</span></td><td lang="en"><span class="tag det">DETERMINISTIC</span><span class="zh" lang="zh-Hant">確定性程式</span></td><td lang="en">Not a model agent; unchanged, but confirmed as the source of the reliability field now threaded into the committee<span class="zh" lang="zh-Hant">不是模型 agent。既有驗證機制提供的來源證明類型，現在會傳遞給委員會作為可靠性資訊。</span></td></tr>
+</table>
+</section>
+<section>
+<h2 lang="en">Actual workflow today<span class="zh" lang="zh-Hant">目前實際接入的流程</span></h2>
+<figure>
+<div class="figbox"><svg viewBox="0 0 740 844" role="img" aria-label="Workflow / 工作流程"><title>Actual workflow today / 目前實際接入的流程</title><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--fg)"/></marker><marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--signal)"/></marker></defs><rect class="bx-n" x="40" y="10" width="380" height="50" rx="4"/><text class="t" x="52" y="32">Partner mandate</text><text class="t-s" x="52" y="51">合夥人設定投資條件</text><text class="t-m" x="412" y="27" text-anchor="end">HUMAN</text><rect class="bx" x="40" y="84" width="380" height="50" rx="4"/><text class="t" x="52" y="106">Lead investor picks questions and roles</text><text class="t-s" x="52" y="125">Lead 選擇重要問題與角色</text><text class="t-m" x="412" y="101" text-anchor="end">MODEL</text><rect class="bx-dp" x="40" y="158" width="380" height="50" rx="4"/><text class="t" x="52" y="180">Research dispatch</text><text class="t-s" x="52" y="199">派送研究任務・尚非自主循環</text><text class="t-m" x="412" y="175" text-anchor="end">PROVIDER</text><rect class="bx-det" x="40" y="232" width="380" height="50" rx="4"/><text class="t" x="52" y="254">Temporal and identity gateway</text><text class="t-s" x="52" y="273">時間與實體識別驗證</text><text class="t-m" x="412" y="249" text-anchor="end">CODE</text><rect class="bx-data" x="40" y="306" width="380" height="50" rx="4"/><text class="t" x="52" y="328">Shared admitted facts</text><text class="t-s" x="52" y="347">共同的已接納事實</text><text class="t-m" x="412" y="323" text-anchor="end">DATA</text><rect class="bx" x="40" y="380" width="380" height="50" rx="4"/><text class="t" x="52" y="402">Pro and contra arguments</text><text class="t-s" x="52" y="421">正反方各自提出有證據的論點</text><text class="t-m" x="412" y="397" text-anchor="end">MODEL</text><rect class="bx" x="40" y="454" width="380" height="50" rx="4"/><text class="t" x="52" y="476">Critics, evaluator, refinement</text><text class="t-s" x="52" y="495">批評、評分與選擇、修訂</text><text class="t-m" x="412" y="471" text-anchor="end">MODEL</text><rect class="bx" x="40" y="528" width="380" height="50" rx="4"/><text class="t" x="52" y="550">Evidence reviewer reads debate trace</text><text class="t-s" x="52" y="569">證據審查者接收辯論紀錄</text><text class="t-m" x="412" y="545" text-anchor="end">MODEL</text><path class="ar" d="M230 60 V84" marker-end="url(#a)"/><path class="ar" d="M230 134 V158" marker-end="url(#a)"/><path class="ar" d="M230 208 V232" marker-end="url(#a)"/><path class="ar" d="M230 282 V306" marker-end="url(#a)"/><path class="ar" d="M230 356 V380" marker-end="url(#a)"/><path class="ar" d="M230 430 V454" marker-end="url(#a)"/><path class="ar" d="M230 504 V528" marker-end="url(#a)"/><path class="ar" d="M230 578 V602" marker-end="url(#a)"/><polygon class="dec" points="230,602 380,642 230,682 80,642"/><text class="t" x="230" y="640" text-anchor="middle">Essential gap?</text><text class="t-s" x="230" y="659" text-anchor="middle">有重要缺口？</text><path class="ar" d="M230 682 V710" marker-end="url(#a)"/><text class="t-m" x="240" y="702">NO 無</text><rect class="bx-det" x="40" y="710" width="380" height="50" rx="4"/><text class="t" x="52" y="732">Final aggregation</text><text class="t-s" x="52" y="751">最終彙整</text><text class="t-m" x="412" y="727" text-anchor="end">CODE</text><path class="ar" d="M230 760 V784" marker-end="url(#a)"/><rect class="bx-n" x="40" y="784" width="380" height="50" rx="4"/><text class="t" x="52" y="806">Human partner decides</text><text class="t-s" x="52" y="825">最終由人類合夥人決定</text><text class="t-m" x="412" y="801" text-anchor="end">HUMAN</text><path class="ar-s" d="M380 642 H590 V109 H420" marker-end="url(#as)"/><text class="t-m" x="388" y="634">YES 有</text><text class="t-s" x="598" y="219">back to lead</text><text class="t-s" x="598" y="237">for fresh research</text><text class="t-s" x="598" y="255">回 Lead 補查</text><path class="ar-s" d="M420 468 H454 V492 H420" marker-end="url(#as)"/><text class="t-s" x="464" y="476">repeat per config</text><text class="t-s" x="464" y="492">按設定重複</text></svg>
+</div>
+<div class="legend"><span><i class="sw sw-h"></i>HUMAN 人類</span><span><i class="sw sw-m"></i>MODEL 模型呼叫</span><span><i class="sw sw-p"></i>PROVIDER 資料提供者</span><span><i class="sw sw-c"></i>CODE 確定性程式</span><span><i class="sw sw-d"></i>DATA 資料</span><span><i class="sw sw-l"></i>回路 loop</span></div>
+<figcaption lang="en">Box style shows the step type. Orange arrows are loops: the debate stages repeat as configured, and an essential evidence gap returns to the lead for fresh research; otherwise the flow continues to final aggregation. Research dispatch is provider-wired, not a general autonomous research loop yet.<span class="zh" lang="zh-Hant">方塊樣式代表步驟類型。橘色箭頭為回路：辯論階段按設定重複；若證據審查發現重要缺口，回到 Lead 補查，否則進入最終彙整。研究任務已接入資料提供者，但尚未成為通用自主研究循環。</span></figcaption>
+</figure>
+</section>
+<section>
+<h2 lang="en">Tests run this checkpoint, and what they actually prove<span class="zh" lang="zh-Hant">本次測試實際驗證了什麼</span></h2>
+<table class="tests">
+<tr><th lang="en">Suite<span class="zh" lang="zh-Hant">測試範圍</span></th><th lang="en">Tests<span class="zh" lang="zh-Hant">測試數</span></th><th lang="en">Result<span class="zh" lang="zh-Hant">結果</span></th></tr>
+<tr><td lang="en">Targeted regression (new prompt/lead/committee/runtime/adapter tests)<span class="zh" lang="zh-Hant">針對 prompt、Lead、委員會、執行流程及轉接層的回歸測試</span></td><td lang="en">61<span class="zh" lang="zh-Hant">共 61 項</span></td><td lang="en">60 passed, 1 skip<span class="zh" lang="zh-Hant">60 項通過，1 項跳過</span></td></tr>
+<tr><td lang="en">Full offline <code>tests/</code> suite<span class="zh" lang="zh-Hant">完整離線測試集</span></td><td lang="en">104<span class="zh" lang="zh-Hant">共 104 項</span></td><td lang="en">103 passed, 1 pre-existing Windows symlink skip, 0 failures<span class="zh" lang="zh-Hant">103 項通過，1 項因既有 Windows 符號連結限制而跳過，沒有失敗項目。</span></td></tr>
+</table>
+<p lang="en" style="margin-top:12px">All of the above run against a <strong>synthetic fixture backend</strong> — no live LLM call, no new real-company decision this checkpoint. They prove the wiring and guard regressions (lead receiving briefs, reviewer receiving the real critique trace) didn't break, not that any model makes good investment calls.</p><p class="zh" lang="zh-Hant">上述測試使用人工合成的測試回應，沒有重新呼叫真實語言模型，也沒有產生新的真實公司投資判斷。它們驗證了 Lead 收到角色簡介、審查者收到批評紀錄等流程，不能證明模型具備良好的投資判斷能力。</p>
+</section>
+<section>
+<h2 lang="en">Funding ledger: a parallel, separate workstream<span class="zh" lang="zh-Hant">融資資料：另一條並行工作線</span></h2>
+<p lang="en">Main public-disclosure coverage is <strong><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/0ff1a344a57deddbd4d4b085e6610121b8c6d6ef/data/team_snapshot_20261111/funding_outcomes.csv">102/240 = 42.5%</a></strong>. A separate SEC first-sale check reaches 12 companies, 11 of them inside the 102; I keep the two apart. Verified funding negatives are still 0, and unknown is not zero. The 95% status figure is only directory presence, not confirmed operating status.</p><p class="zh" lang="zh-Hant">主要 Y 的窗口內公開融資披露覆蓋率為 102/240（42.5%），表格見連結。SEC 首次出售日證據另外涵蓋 12 家，其中 11 家在前述 102 家之內，兩者分開呈現。已驗證的「沒有融資」負例仍為 0 家，未知不等於零。狀態資料的 95% 只代表有目錄狀態可供參考，不是已確認的營運狀態。</p>
+<p lang="en"><strong>Where I need help:</strong> 13 companies have a funding record but we can't tell whether it falls inside the window. Twelve of them share the same 2026-01-01 date and no amount. That is my question below.</p><p class="zh" lang="zh-Hant"><strong>需要協助的部分：</strong>有 13 家公司有融資紀錄，但無法判斷是否落在觀察窗口內；其中 12 家日期同為 2026-01-01 且沒有金額。這就是下方的問題。</p>
+</section>
+<section>
+<h2 lang="en">Next week<span class="zh" lang="zh-Hant">下一步</span></h2>
+<ol class="num">
+<li lang="en"><b>Wire a metered autonomous research backend</b><span class="d">Against the existing provider/temporal-gateway contract and a structured mandate, then re-run the offline suite against it.</span><span class="zh" lang="zh-Hant">接入有用量計量的自主研究後端：沿用既有資料提供者與歷史驗證介面，加入結構化投資條件，再重新執行離線測試。</span></li>
+<li lang="en"><b>One versioned, budget-capped real-company smoke test</b><span class="d">Separate from the sealed Abel pilot; small debugging set first, before any evaluation freeze.</span><span class="zh" lang="zh-Hant">進行一個獨立版本、設有預算上限的真實公司試跑：與封存的 Abel 試跑分開，先用少量開發案例調試，再固定正式評估版本。</span></li>
+<li lang="en"><b>Resolve the 13 funding candidate leads</b><span class="d">Read the original investor/issuer announcement bodies behind the shared <code>2026-01-01</code> pattern before considering any admission to Y.</span><span class="zh" lang="zh-Hant">核實 13 條融資線索：閱讀公司或投資方的原始公告，處理同樣日期形態背後尚未確認的事實，再決定是否納入 Y。</span></li>
+</ol>
+</section>
+<section>
+<h2 lang="en">For Jeff<span class="zh" lang="zh-Hant">想與 Jeff 討論的問題</span></h2>
+<ol class="num">
+<li lang="en"><b>On the repeated January-first dates:</b> do you know a faster or lower-noise way to verify this pattern than reading each original announcement by hand?<span class="zh" lang="zh-Hant">針對重複出現的 1 月 1 日日期形態：除了逐篇閱讀原始公告，您是否知道更快、雜訊更少的核實方式？</span></li>
+</ol>
+</section>
+</div></body></html>

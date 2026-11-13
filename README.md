@@ -1,5 +1,19 @@
 # 4511 Industry Project — Startup Data Inventory
 
+## Latest update — November 11, 2026
+
+Agent v0.1 now includes **nine actor/module specifications and seven research-role briefs**. The critic-to-evidence-review handoff and prompt-aware cache versioning are implemented.
+
+**Validation:** 104 offline tests; 103 passed and one skipped. The autonomous specialist research loop remains under development. No new live investment backtest is claimed.
+
+- [Agent design and implementation status](docs/architecture/agents_v0/README.md)
+- [English / Traditional Chinese meeting report](docs/updates/2026-11-11-meeting/report.html)
+- [Shared financing-outcome snapshot](data/team_snapshot_20261111/README.md)
+
+The original data inventory and earlier project updates are retained below for reference.
+
+---
+
 **Recommendation: use the historical Crunchbase data to prepare an initial baseline, and use YC company profiles to test research agents.**
 
 The files below were downloaded in the local research workspace on **October 21, 2026**. Their row counts, columns, and file hashes were checked again on **October 22, 2026**. They are candidate research data; no model has been trained or evaluated using them.

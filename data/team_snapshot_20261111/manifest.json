@@ -1,0 +1,25 @@
+{
+  "snapshot_date": "2026-11-11",
+  "decision_cutoff": "2024-04-04",
+  "outcome_window": [
+    "2024-04-05",
+    "2026-04-04"
+  ],
+  "counts": {
+    "cohort": 240,
+    "public_disclosure_yes": 102,
+    "issuer_transaction_yes": 12,
+    "both": 11
+  },
+  "missing_policy": "UNKNOWN is not zero. No financing negatives approved.",
+  "scope": "Selected derived outcome fields and public-source links; not raw API responses, complete round histories or independently observed negative financing.",
+  "source_file_sha256": "03b2ee5022dca9f336e93752001b238c2135d5134f8d25e513285a09543c2a45",
+  "output_sha256": "901017532a6a10248f0a461aa1311c51f9e73b8c2e70857b4132a4754b963f81",
+  "supplementary_files": {
+    "website_access_history.json": {
+      "rows": 21,
+      "sha256": "217d4735aa4b6a00917fc5ed17ba53ce224c00b44234561aa0dc0717b7bd3f4c",
+      "scope": "Access states for 21 company websites on 2026-11-07, 11-10, 11-11; not a status or shutdown label."
+    }
+  }
+}

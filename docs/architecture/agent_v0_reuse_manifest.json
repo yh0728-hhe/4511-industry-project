@@ -1,0 +1,78 @@
+{
+  "_read_me": "Every source below was actually opened/read by this checkpoint (file paths or URLs listed), not assumed. At most four upstream URL checks were performed, matching the user's instruction to avoid a new framework-research loop; DIALECTIC was already the prior R001 decision, reused rather than re-researched.",
+  "checkpoint": "2026-11-11T17:13Z adaptation pass, batch-1",
+  "prior_decision_source": "docs/architecture/R001_agent_reuse_decision.md (2026-11-07/08), not re-derived this checkpoint",
+  "components": [
+    {
+      "component": "DIALECTIC generation/critique/scoring/refinement stage functions",
+      "local_file": "src/closed_loop/vendor/dialectic_committee_nodes.py",
+      "upstream_source": "https://github.com/pantageepapa/DIALECTIC",
+      "license_file_local": "src/closed_loop/vendor/LICENSE-DIALECTIC",
+      "license_note": "File text read directly: MIT license, but the copyright line inside the vendored LICENSE-DIALECTIC file reads 'Copyright (c) 2024 LangChain', not a DIALECTIC-authors line. Preserved verbatim as vendored; not edited or re-attributed by this checkpoint.",
+      "status": "retained_unmodified",
+      "verified_this_checkpoint": "Read src/closed_loop/vendor/dialectic_committee_nodes.py directly (format_qa_pairs_with_index/without_index, generate_context_block, generation/critique/score/refine function bodies) to confirm extra dict keys on a qa_pairs row (e.g. the new 'reliability' field) are inert to this module -- it only reads qa['question']/qa['answer'] -- before adding that field upstream in runtime.py.",
+      "diff_rationale": "No diff. This checkpoint confirmed (did not assume) that adding a new, unused-by-upstream dict key to the QA rows passed into these functions is safe, then left this file untouched."
+    },
+    {
+      "component": "decide_final_investment_decision (pure score-aggregation node)",
+      "local_file": "src/closed_loop/vendor/dialectic_decision.py",
+      "upstream_source": "https://github.com/pantageepapa/DIALECTIC",
+      "license_file_local": "src/closed_loop/vendor/LICENSE-DIALECTIC",
+      "status": "retained_unmodified",
+      "verified_this_checkpoint": "Not re-read this checkpoint (last verified in R002 per CURRENT_STATE.md: mean-per-side aggregation confirmed, not sum); reused via src/closed_loop/dialectic_adapter.py without edits.",
+      "diff_rationale": "No change. dialectic_adapter.py wraps it behind ScoredArgument/aggregate_arguments with an explicit essential-gap override -- that wrapper, not this file, is the project's addition."
+    },
+    {
+      "component": "Dynamic lead/specialist selection pattern (conceptual borrow, not code reuse)",
+      "local_file": "src/closed_loop/model_lead.py",
+      "upstream_source": "https://github.com/harrisongzhang/TheVirtualBiotech (chief-scientist delegation pattern, cited in the user's own workflow doc footer and in R001)",
+      "license_file_local": "none vendored -- no code copied",
+      "status": "new",
+      "verified_this_checkpoint": "Not re-fetched this checkpoint (0 of the 4 allowed upstream checks spent here; R001 already read this repo's LICENSE and build_specialist_agents pattern on 2026-11-07). Pattern reused as a named idea ('the lead decides what to know, then calls only the specialists needed'), not as copied source -- model_lead.py is wholly project-authored against closed_loop's own contracts.ResearchRequest/guards.BudgetStopped.",
+      "diff_rationale": "New file; no upstream diff applies. Changed this checkpoint: added an explicit instruction sentence about the new 'reliability' QA field so the lead's own prompt references data that is actually present in its JSON evidence block (see agent_v0_adaptation.md section 2)."
+    },
+    {
+      "component": "Committee QA adapter / fact-to-evidence bridge",
+      "local_file": "src/closed_loop/runtime.py (committee_input, ClosedLoopRuntime)",
+      "upstream_source": "project-authored; not vendored from any upstream agent",
+      "status": "modified_this_checkpoint",
+      "verified_this_checkpoint": "Read in full this checkpoint before editing.",
+      "diff_rationale": "committee_input() now includes reliability=fact.proof_kind per QA row. Closes a concrete, documented gap: Fact.proof_kind (the gateway-verified reliability/verification tier) existed on every Fact since R002 but was dropped before reaching the committee or the lead's prompt context, contradicting the workflow doc's explicit requirement (step 03) that specialists report findings AND reliability, not just findings. No new field invented; only an existing, gateway-verified field is now threaded through instead of silently discarded. Verified safe for the vendored DIALECTIC node functions (see first manifest entry) and covered by a new regression test (tests/test_closed_loop_runtime.py::TemporalTests::test_qa_row_carries_gateway_verified_reliability_tier_not_a_fabricated_score)."
+    },
+    {
+      "component": "Model-led specialist planning prompt",
+      "local_file": "src/closed_loop/model_lead.py (ModelLead.select_with_context instruction string)",
+      "upstream_source": "project-authored prompt, not vendored",
+      "status": "modified_this_checkpoint",
+      "verified_this_checkpoint": "Read in full this checkpoint before editing; existing tests/test_model_lead.py suite re-run after the edit (all pass, no fixture/contract change needed -- the fixture backend in that test file does not assert on literal instruction text).",
+      "diff_rationale": "Added one explicit sentence instructing the lead to use the now-present 'reliability' tier on each evidence row to prefer targeting gaps behind weaker-tier facts, rather than leaving the newly wired reliability field unreferenced prose-in-data with no corresponding prompt guidance."
+    },
+    {
+      "component": "Temporal/content admission gateway, call budget, workspace sandbox",
+      "local_file": "src/closed_loop/guards.py",
+      "upstream_source": "project-authored; not vendored",
+      "status": "retained_unmodified",
+      "verified_this_checkpoint": "Read in full this checkpoint (source of the proof_kind field this checkpoint threads through); not edited.",
+      "diff_rationale": "No change needed -- Fact.proof_kind already existed and was already gateway-verified (never model-self-certified); the gap was downstream (runtime.committee_input), not here."
+    },
+    {
+      "component": "Native async committee driver (generate/critique/score/refine/evidence-review loop)",
+      "local_file": "src/closed_loop/native_committee.py",
+      "upstream_source": "project-authored orchestration around vendored DIALECTIC node functions (first manifest entry)",
+      "status": "retained_unmodified",
+      "verified_this_checkpoint": "Read in full this checkpoint to confirm the evidence_review call path and that NativeBinding.messages() (native_support.py) already serializes the full qa_pairs list -- including any new keys -- into the JSON context sent with every generation/critique/score/refine/evidence-review call, so the reliability-field change reaches the committee's prompts without any edit here.",
+      "diff_rationale": "No change. Confirmed-by-reading, not assumed: this is why the reliability fix in runtime.py is sufficient to reach every model call in this file without touching it."
+    },
+    {
+      "component": "DIALECTIC paper configuration baseline (n_pro/n_contra/iterations/model)",
+      "local_file": "src/closed_loop/dialectic_adapter.py (NativeConfig defaults)",
+      "upstream_source": "https://aclanthology.org/2026.eacl-industry.53/ (cited in the user's workflow doc footer and in R001; not re-fetched this checkpoint)",
+      "status": "retained_unmodified_known_divergent",
+      "verified_this_checkpoint": "Not re-fetched; the divergence (1 argument/side vs. paper's reported best-setting 4; gpt-4o-mini vs. gpt-5-mini) is already explicitly recorded in the user's own workflow doc ('Where we are' section) and was not re-verified or re-aligned this checkpoint.",
+      "diff_rationale": "No change. Left as an explicitly pre-flagged tunable default, not silently treated as a validated baseline."
+    }
+  ],
+  "upstream_checks_spent_this_checkpoint": 0,
+  "upstream_checks_budget": 4,
+  "note_on_jeff_paper": "No file in docs/ or src/ references a 'Jeff paper' as an agent-architecture source. 'Jeff' appears only as 'Jeff's silence rules', a website-staleness heuristic for the separate funding/survival Y-labeling workstream (see CURRENT_STATE.md, docs/survival_evidence_protocol.md). This manifest does not attribute any reused agent/prompt component to a 'Jeff paper' because none was found; see agent_v0_adaptation.md intro for the two papers actually cited by the user's own workflow doc (DIALECTIC EACL 2026, The Virtual Biotech bioRxiv Feb 2026)."
+}
