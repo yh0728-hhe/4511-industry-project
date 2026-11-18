@@ -1,12 +1,12 @@
 {
   "snapshot_date": "2026-11-18",
-  "source_commit": "11703b7dfcc7684633800e6b5ced6362f141be47",
+  "source_commit": "d7a0cf199fe222bf2ac8a06c71d7ab714b12f315",
   "cohort": 240,
-  "composite_observed": 161,
-  "composite_unknown": 79,
-  "financing_observed": 150,
+  "composite_observed": 162,
+  "composite_unknown": 78,
+  "financing_observed": 151,
   "status_only_observed": 11,
-  "coverage_pct": 67.08333333333333,
+  "coverage_pct": 67.5,
   "firstparty_shutdown": 2,
   "secondary_cessation": 9,
   "decision_date": "2024-04-04",
@@ -15,5 +15,5 @@
   "non_sec_report_end": "2026-07-04",
   "status_end": "2026-04-04",
   "meaning": "Evidence coverage, not a success/failure label. UNKNOWN is not zero. Source URL collections include reviewed historical leads and do not individually imply eligibility.",
-  "csv_sha256": "2c0fef50bd8ae644f26c6226f6885ea70e1bce9cf7dfda4ff7a6ecb703b82786"
+  "csv_sha256": "1bea99eb8cae7ef57111d87f7c1937a8f3fc010c06dfaa413b99d7454395b338"
 }

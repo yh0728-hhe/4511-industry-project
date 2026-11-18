@@ -18,9 +18,9 @@ for r in rows:
     assert r['status_outcome_cutoff'] == m['status_end']
     assert r['negative_label_approved'] != 'YES'
 c = Counter(r['composite_y_status'] for r in rows)
-assert c['OBSERVED'] == m['composite_observed'] == 161
-assert c['UNKNOWN'] == m['composite_unknown'] == 79
-assert sum(r['financing_y'] == 'YES' for r in rows) == m['financing_observed'] == 150
+assert c['OBSERVED'] == m['composite_observed'] == 162
+assert c['UNKNOWN'] == m['composite_unknown'] == 78
+assert sum(r['financing_y'] == 'YES' for r in rows) == m['financing_observed'] == 151
 assert sum(r['composite_y_status'] == 'OBSERVED' and r['financing_y'] != 'YES' for r in rows) == m['status_only_observed'] == 11
-assert Counter(r['coverage_basis'] for r in rows) == {'FINANCING_OBSERVED':150, 'UNRESOLVED':79, 'REVIEWED_PROVIDER_OUT_OF_BUSINESS':9, 'COMPANY_SHUTDOWN_DECLARATION':2}
-print('Validated: 240 unique companies; 161 observed = 150 financing + 11 status-only; 79 UNKNOWN.')
+assert Counter(r['coverage_basis'] for r in rows) == {'FINANCING_OBSERVED':151, 'UNRESOLVED':78, 'REVIEWED_PROVIDER_OUT_OF_BUSINESS':9, 'COMPANY_SHUTDOWN_DECLARATION':2}
+print('Validated: 240 unique companies; 162 observed = 151 financing + 11 status-only; 78 UNKNOWN.')

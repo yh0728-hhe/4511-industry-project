@@ -1,7 +1,7 @@
 # Composite Y snapshot / 綜合 Y 快照
 
-As of 2026-11-18: **161/240 observed (67.08%)**, comprising 150 financing observations and 11 additional status observations; **79 UNKNOWN**.
-截至 2026-11-18：**161/240 有結果證據（67.08%）**，其中融資150家，另有11家狀態證據；**79家 UNKNOWN**。
+As of 2026-11-18: **162/240 observed (67.50%)**, comprising 151 financing observations and 11 additional status observations; **78 UNKNOWN**.
+截至 2026-11-18：**162/240 有結果證據（67.50%）**，其中融資150家，另有11家狀態證據；**79家 UNKNOWN**。
 
 This measures outcome evidence availability, NOT investment success. Shutdown observations are adverse outcomes but count as observed. UNKNOWN must not become a financing-negative or failure label. This reviewed candidate snapshot does not replace a frozen training dataset automatically.
 本表衡量結果證據覆蓋率，不代表投資成功率。關閉屬負面結果，但計為有觀測；UNKNOWN 不得轉為未融資或失敗。本候選快照不會自動取代已凍結的訓練資料。
@@ -27,3 +27,6 @@ Run `python data/team_snapshot_20261118/validate_snapshot.py` offline from the r
 
 Prepared within RoseYu's research/data contribution with AI assistance; no claim of sole project authorship.
 由 RoseYu 的研究及資料工作範圍整理，使用 AI 協助；不主張整個專案由個人獨立完成。
+
+PromptArmor: explicit Prospeo Funding Date2024-05-03 is admitted as a provider-reported financing date; raw Round3 is not interpreted as a stage. USD3.2M selected, USD500K same-date row and prewindow dates remain conflicting records. No independent closing or additional-cash confirmation.
+PromptArmor：採納 Prospeo 明列的2024-05-03融資日期，原始 Round3 不解讀為階段；選定320萬美元記錄，保留同日50萬美元及窗口前日期衝突，不主張已獨立核實成交或額外新增資金。
