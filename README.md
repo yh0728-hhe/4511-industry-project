@@ -2,8 +2,8 @@
 
 [Reviewed snapshot and definitions / 已審核快照與定義](data/team_snapshot_20261118/README.md) · [240-company CSV / 240家公司資料](data/team_snapshot_20261118/composite_y.csv)
 
-**162/240 observed outcomes (67.50%) = 151 financing + 11 status-only; 78 UNKNOWN.** Coverage measures evidence availability, not investment success. Historical snapshots remain unchanged.
-**162/240 有結果證據（67.50%）= 151家融資 + 11家額外狀態；78家 UNKNOWN。** 覆蓋率衡量證據可得性，不代表投資成功率。舊快照保持不變。
+**164/240 observed outcomes (68.33%) = 153 financing + 11 status-only; 76 UNKNOWN.** Coverage measures evidence availability, not investment success. Historical snapshots remain unchanged.
+**164/240 有結果證據（68.33%）= 153家融資 + 11家額外狀態；76家 UNKNOWN。** 覆蓋率衡量證據可得性，不代表投資成功率。舊快照保持不變。
 
 ---
 

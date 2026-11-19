@@ -45,7 +45,7 @@ bitesight,BiteSight,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2
 blacksmith,Blacksmith,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/blacksmith-fde4-seed--9de1ba34|https://www.crunchbase.com/funding_round/blacksmith-fde4-series-a--557c974b,https://www.sec.gov/Archives/edgar/data/2074110/000123191925000080/xslFormDX01/primary_doc.xml,,2025-06-04,NO
 blume-benefits,Blume Benefits,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.blumebenefits.com/|https://www.ycombinator.com/companies/blume-benefits|https://reforgers.com/startups/blume-benefits,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/blume-for-brokers/2j1unf3xn3vtd1iz2,,2024-06,,NO
 brainbase-labs,Brainbase,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
-breez-labs,MathDash,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+breez-labs,MathDash,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://prospeo.io/c/mathdash-email-format,,2024-05-03,,NO
 browser-buddy,Browser Buddy,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.linkedin.com/posts/william-bryk_excited-to-announce-exas-first-acquisition-activity-7443361202027610112-AJqp|https://www.suhjeremy.com/|https://www.ycombinator.com/companies/browser-buddy,UNKNOWN,UNKNOWN,,,,,,,,NO
 camelai,camelQA,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
 carma,Carma,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/carma-aa85-seed--e650adaf,,,,NO
@@ -118,7 +118,7 @@ inspectmind-ai,InspectMind AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_EST
 integuru,Taiki,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/taiki-acec-seed--d6c6c7ab,,,,NO
 ion-design,ion design,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/ion-design-3016-seed--4ad5378d,,,,NO
 junction-bioscience,Junction Bioscience,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/junction-bioscience/u4zsyohe6rif7jm2g,,2024-06,,NO
-kabilah,Kabilah,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,2024-04-03,PROVIDER_ANNOUNCED_ON,https://www.crunchbase.com/organization/kabilah,,,,,NO
+kabilah,Kabilah,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,2024-05-03,PROVIDER_REPORTED_FINANCING_ROUND_DATE,https://prospeo.io/c/kabilah,https://prospeo.io/c/kabilah,,2024-05-03,,NO
 kater-ai,kater.ai,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
 keystroke,Buster,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://web.archive.org/web/20250421191622/https://www.buster.so/blog/buster-fundraise|https://www.crunchbase.com/funding_round/buster-3f14-seed--7c7b8250,,,,NO
 lantern-2,Lantern,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,FUNDING_DATE_NOT_SUPPLIED; RESUME_UPDATED_SEPTEMBER2026,https://narekg.me/NarekGalstyanResume.pdf,,,,,NO

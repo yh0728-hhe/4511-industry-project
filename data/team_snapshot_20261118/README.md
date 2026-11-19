@@ -1,7 +1,7 @@
 # Composite Y snapshot / 綜合 Y 快照
 
-As of 2026-11-18: **162/240 observed (67.50%)**, comprising 151 financing observations and 11 additional status observations; **78 UNKNOWN**.
-截至 2026-11-18：**162/240 有結果證據（67.50%）**，其中融資150家，另有11家狀態證據；**79家 UNKNOWN**。
+As of 2026-11-18: **164/240 observed (68.33%)**, comprising 153 financing observations and 11 additional status observations; **76 UNKNOWN**.
+截至 2026-11-18：**164/240 有結果證據（68.33%）**，其中融資150家，另有11家狀態證據；**79家 UNKNOWN**。
 
 This measures outcome evidence availability, NOT investment success. Shutdown observations are adverse outcomes but count as observed. UNKNOWN must not become a financing-negative or failure label. This reviewed candidate snapshot does not replace a frozen training dataset automatically.
 本表衡量結果證據覆蓋率，不代表投資成功率。關閉屬負面結果，但計為有觀測；UNKNOWN 不得轉為未融資或失敗。本候選快照不會自動取代已凍結的訓練資料。
@@ -30,3 +30,6 @@ Prepared within RoseYu's research/data contribution with AI assistance; no claim
 
 PromptArmor: explicit Prospeo Funding Date2024-05-03 is admitted as a provider-reported financing date; raw Round3 is not interpreted as a stage. USD3.2M selected, USD500K same-date row and prewindow dates remain conflicting records. No independent closing or additional-cash confirmation.
 PromptArmor：採納 Prospeo 明列的2024-05-03融資日期，原始 Round3 不解讀為階段；選定320萬美元記錄，保留同日50萬美元及窗口前日期衝突，不主張已獨立核實成交或額外新增資金。
+
+Prospeo shared-date quality flag: Topo, PromptArmor, MathDash/Breez Labs and Kabilah all display Funding Date2024-05-03. Accepted consistently as provider-reported records; no article links or independent closing confirmation. A shared date may indicate correlated data risk but does not prove ingestion/default dating. Excluding all four as a sensitivity view yields160/240 (66.67%); this is NOT the official count. Celest remains UNKNOWN because the previously recorded OOB date has unresolved business-continuity/pivot conflict; repeating the dated row does not resolve that hold.
+Prospeo共同日期品質標記：上述4家公司均顯示2024-05-03，按相同供應商日期口徑採納，缺少文章連結及獨立成交驗證。共同日期提示相關資料風險，但未證明是入庫或預設日期。若敏感度分析排除4家，覆蓋為160/240（66.67%），並非正式統計。Celest既有OOB記錄仍有業務延續／轉型衝突，維持UNKNOWN。
