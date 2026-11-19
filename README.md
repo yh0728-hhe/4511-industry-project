@@ -1,3 +1,12 @@
+## Latest composite Y / 最新綜合 Y（2026-11-18）
+
+[Reviewed snapshot and definitions / 已審核快照與定義](data/team_snapshot_20261118/README.md) · [240-company CSV / 240家公司資料](data/team_snapshot_20261118/composite_y.csv)
+
+**164/240 observed outcomes (68.33%) = 153 financing + 11 status-only; 76 UNKNOWN.** Coverage measures evidence availability, not investment success. Historical snapshots remain unchanged.
+**164/240 有結果證據（68.33%）= 153家融資 + 11家額外狀態；76家 UNKNOWN。** 覆蓋率衡量證據可得性，不代表投資成功率。舊快照保持不變。
+
+---
+
 # 4511 Industry Project — Startup Data Inventory
 
 **Recommendation: use the historical Crunchbase data to prepare an initial baseline, and use YC company profiles to test research agents.**
