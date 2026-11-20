@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-11-18",
-  "source_commit": "7f7948029b380108cbb58e121422212ed9705f7b",
+  "source_commit": "92a174e10e84fd04b48c49394880cee1c4a971fb",
   "cohort": 240,
   "composite_observed": 164,
   "composite_unknown": 76,
@@ -15,7 +15,7 @@
   "non_sec_report_end": "2026-07-04",
   "status_end": "2026-04-04",
   "meaning": "Evidence coverage, not a success/failure label. UNKNOWN is not zero. Source URL collections include reviewed historical leads and do not individually imply eligibility.",
-  "csv_sha256": "ef631f0dba19627881257006f1364e75a0d8495948742e262be7c5920ea3fb83",
+  "csv_sha256": "1bfa4eddfbe4a995fbe1a6402caeea15b6e8b136e1ad5e10ace4f57db927b7ff",
   "correlated_provider_date_risk": {
     "companies": [
       "topo",
@@ -29,5 +29,6 @@
     "independently_confirmed_closing": false,
     "sensitivity_excluding_all_four_composite": 160,
     "sensitivity_is_official": false
-  }
+  },
+  "csv_hash_semantics": "SHA256 of UTF8 CSV with LF line endings; validator canonicalizes CRLF to LF for checkout portability"
 }

@@ -4,7 +4,9 @@ from collections import Counter
 from pathlib import Path
 p = Path(__file__).resolve().parent
 m = json.loads((p / 'manifest.json').read_text(encoding='utf-8'))
-assert hashlib.sha256((p / 'composite_y.csv').read_bytes()).hexdigest() == m['csv_sha256']
+# Manifest uses LF bytes; tolerate a CRLF checkout without ignoring content changes.
+csv_bytes = (p / 'composite_y.csv').read_bytes().replace(b'\r\n', b'\n')
+assert hashlib.sha256(csv_bytes).hexdigest() == m['csv_sha256'], 'CSV content/hash mismatch'
 with (p / 'composite_y.csv').open(encoding='utf-8', newline='') as f:
     rows = list(csv.DictReader(f))
 assert len(rows) == len({r['company_id'] for r in rows}) == m['cohort'] == 240
