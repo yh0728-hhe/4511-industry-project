@@ -1,0 +1,27 @@
+{
+  "reviewed_on": "2026-11-19",
+  "source_pr": "https://github.com/yh0728-hhe/4511-industry-project/pull/3",
+  "source_commit": "82bb8e9f6e1224192d402283088b7ef0d809f35f",
+  "source_path": "data/team_snapshot_20261118/",
+  "cohort": 240,
+  "composite_observed": 164,
+  "composite_unknown": 76,
+  "financing_observed_under_upstream_definition": 153,
+  "status_only_observed": 11,
+  "count_and_union_checks_passed": true,
+  "repository_csv_sha256": "6c82c24f8a770441f9a763bd07a9d67c0936d76051c811d1539416d357edb121",
+  "manifest_csv_sha256": "ef631f0dba19627881257006f1364e75a0d8495948742e262be7c5920ea3fb83",
+  "original_validator_hash_check_passed": false,
+  "manifest_matches_crlf_normalization": true,
+  "integrity_finding": "The manifest hashes CRLF bytes; the committed CSV has LF bytes. The original validator fails before its count checks.",
+  "documentation_finding": "The Chinese opening paragraph says financing150 and UNKNOWN79; the CSV, manifest and English paragraph say financing153 and UNKNOWN76.",
+  "recommended_upstream_fix": "Regenerate the manifest hash from committed LF bytes and correct the Chinese opening totals; do not change outcome rows for this fix.",
+  "definitions": {
+    "strict_disclosure_end": "2026-04-04",
+    "upstream_non_sec_report_end": "2026-07-04",
+    "automatic_three_month_date_shift_applied": false,
+    "upstream_composite_is_strict_funding_coverage": false
+  },
+  "disposition": "REFERENCE_REVIEW_ONLY_NO_AUTOMATIC_RELABELING",
+  "limitation": "Count/integrity review does not independently verify all sources or approve the wider reporting window. No transaction/disclosure union is added to positives."
+}

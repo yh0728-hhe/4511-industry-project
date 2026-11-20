@@ -34,6 +34,13 @@ class RecordingBackend(NativeFixtureBackend):
 
 
 class RolePromptWiring(unittest.TestCase):
+    def test_navigation_prompt_edit_invalidates_research_cache(self):
+        req = request()
+        key = req.cache_key('market', 'size')
+        with patch('closed_loop.agent_prompts.RESEARCH_NAVIGATION_INSTRUCTION', 'Changed navigation rules'):
+            self.assertNotEqual(key, req.cache_key('market', 'size'))
+        self.assertEqual(key, req.cache_key('market', 'size'))
+
     def test_prompt_edit_invalidates_research_cache_even_without_manual_version_bump(self):
         req = request()
         key = req.cache_key('market', 'size')

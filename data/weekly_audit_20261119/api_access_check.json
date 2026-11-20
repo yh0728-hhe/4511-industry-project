@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-11-19",
+  "service": "Crunchbase",
+  "credential_saved": false,
+  "raw_payload_saved": false,
+  "business_data_returned": false,
+  "checks": [
+    {
+      "endpoint": "https://api.crunchbase.com/v4/data/entities/organizations/crunchbase?field_ids=identifier",
+      "http_status": 401,
+      "provider_code": "LA401",
+      "provider_message": "Unauthorized user_key"
+    },
+    {
+      "endpoint": "https://api.crunchbase.com/api/v4/entities/organizations/crunchbase?field_ids=identifier",
+      "http_status": 404,
+      "provider_code": "AV404",
+      "provider_message": "Data api key is not live"
+    }
+  ],
+  "transport_note": "An initial attempt failed TLS verification before receiving an HTTP response; the two recorded responses used the installed certifi CA bundle. TLS verification remained enabled.",
+  "conclusion": "The supplied credential could not retrieve data from either endpoint. This does not establish company funding absence or date precision.",
+  "authentication_method": "X-cb-user-key request header; never a URL query parameter",
+  "documentation": "https://data.crunchbase.com/docs/api-essentials"
+}

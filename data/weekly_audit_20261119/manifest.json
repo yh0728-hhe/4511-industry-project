@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-11-19",
+  "source_pr3_commit": "82bb8e9f6e1224192d402283088b7ef0d809f35f",
+  "generator": "scripts/audit_funding_dates.py",
+  "source_verification": "Manual primary-source reads; offline rebuild validates structure, not page truth.",
+  "files": [
+    {
+      "path": "data/team_snapshot_20261111/funding_outcomes.csv",
+      "sha256": "901017532a6a10248f0a461aa1311c51f9e73b8c2e70857b4132a4754b963f81"
+    },
+    {
+      "path": "scripts/audit_funding_dates.py",
+      "sha256": "9231b95a105976a4e3de6f35d9d0404d8968fab2420fc0fcc6202ac0ebd7ee38"
+    },
+    {
+      "path": "data/weekly_audit_20261119/reviewed_evidence.json",
+      "sha256": "bb9e5e178dbb403b871dc97be98ff5a8f605e7545f2e4912f5c820f4daa08898"
+    },
+    {
+      "path": "data/weekly_audit_20261119/pr3_original_round_leads.csv",
+      "sha256": "420c482fc2cd2ef2d6a1eeba0216f8bdd47cf1d8a28a19501340ccbde952633b"
+    },
+    {
+      "path": "data/weekly_audit_20261119/original_13_date_audit.csv",
+      "sha256": "99b2ed04965f6f291f356564ca1c7d331dcc21157b8ce9bcd77c0adc1c723d26"
+    },
+    {
+      "path": "data/weekly_audit_20261119/funding_outcomes_candidate.csv",
+      "sha256": "7ae5f1841a9d068ae72e1e36cc1dc0fce3c4dba6cce5066a9ded09145c69ed89"
+    },
+    {
+      "path": "data/weekly_audit_20261119/boundary_cases.csv",
+      "sha256": "a3fa4da7594f26aab2994c93eefc54b3d2390dfd259e2d2edb63f8e672e1ea18"
+    },
+    {
+      "path": "data/weekly_audit_20261119/summary.json",
+      "sha256": "b7192a2aaca6ab87ae843f3ae361c5a024512d85e7b369fb164f09766f5bca8a"
+    }
+  ]
+}

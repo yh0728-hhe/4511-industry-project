@@ -1,6 +1,6 @@
 # Research specialist protocol / 专项研究
 
-**PARTIAL: provider dispatch WIRED; autonomous specialist-model backend NOT WIRED**
+**PARTIAL: bounded metered historical navigation WIRED with offline tests; general web research and rich specialist findings remain incomplete. Updated November 19, 2026.**
 
 ## Task / 任务
 
@@ -18,7 +18,7 @@ Injected provider only, constrained by its actual implementation. Historical-lin
 
 ## Action loop and handoffs / 行动与交接
 
-Search relevant original sources -> read body -> submit candidate -> gateway verify; propose missing questions. Within-specialist autonomous iterative search is proposed, not implemented by this prompt module.
+Archive bootstrap -> gateway admission -> model selects an observed historical path -> independent target retrieval/admission -> repeat within bounds or stop. The optional `MeteredResearchProvider` shares the run's model/HTTP budget. General news and peer discovery remain incomplete.
 
 ## Stop and failure rules / 停止与失败
 
@@ -26,7 +26,7 @@ Provider/budget/deadline stops; report blockers and unknowns. Runtime may stop N
 
 ## Actual prompt and code / 实际 prompt 与代码
 
-Code: `runtime.py:ClosedLoopRuntime.research; guards.py:TemporalGateway.admit`.
+Code: `research_backend.py:MeteredResearchProvider; runtime.py:ClosedLoopRuntime.research; guards.py:TemporalGateway.admit`. See the [backend design and limits](../metered_research_backend.md).
 
 ```text
 Answer only the assigned question for the named subject and historical cutoff. Choose relevant original sources and follow concrete leads. Separate findings, contradictions and unknowns; include URL, identity basis, date semantics and availability proof. Return source candidates for gateway verification, not self-certified facts or INVEST/PASS. Stop on answered scope, no new concrete lead, budget/deadline or an explicit unresolved blocker. Escalate missing decision-relevant evidence to the lead. Do not interpret search absence as zero.
@@ -81,4 +81,4 @@ Check jurisdiction-specific approvals and material compliance dependencies; abse
 
 Check pricing, gross margin drivers, acquisition cost and payback assumptions; distinguish measured values from forecasts and unknown inputs.
 
-These overlays are sent to lead planning now. `RESEARCH_PROTOCOL` is a specified specialist protocol; a separate autonomous research-model invocation is not wired. Adding one requires metered tool execution, source verification and scoped result contracts, not only this text.
+These overlays are sent to lead planning. `RESEARCH_PROTOCOL` remains the richer specialist design; the implemented research model selects bounded historical navigation, not a general findings/contradictions report. The separate Adagy smoke plan is prepared; the user deferred paid execution on November 19, 2026.

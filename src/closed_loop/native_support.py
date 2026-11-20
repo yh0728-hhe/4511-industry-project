@@ -110,6 +110,17 @@ class NativeBinding:
         try:yield self
         finally:_binding.reset(token)
 
+    @contextmanager
+    def failure_boundary(self):
+        """Opt-in terminal errors for one-off pilots; ordinary adapters retain policy."""
+        terminal=getattr(self.backend,'stop_on_validation_error',False) is True
+        try:
+            if terminal:self.budget.check()
+            yield
+        except Exception:
+            if terminal:self.budget.stop()
+            raise
+
     def messages(self, supplied):
         cutoff=aware(datetime.fromisoformat(self.view.as_of))
         for row in self.view.qa_pairs:
@@ -162,29 +173,34 @@ class StructuredModel:
         return self.binding.budget.reserve('model')
 
     def invoke(self, supplied):
-        messages=self.binding.messages(supplied)
-        with self.reservation():
-            self.binding.calls.append(dict(schema=self.schema.__name__,temperature=self.temperature,
-                fact_revision=self.binding.view.fact_revision,argument_revision=self.binding.view.argument_revision))
-            try:value=self.binding.backend.generate(self.schema,messages,self.temperature)
-            except BudgetStopped:raise
-            except Exception:raise BudgetStopped('MODEL_PROVIDER_ERROR') from None
-            return self.binding.validate(self.schema,value)
-
-    async def ainvoke(self, supplied):
-        messages=self.binding.messages(supplied)
-        if self.binding.semaphore is None:self.binding.semaphore=asyncio.Semaphore(self.binding.budget.concurrency)
-        async with self.binding.semaphore:
+        with self.binding.failure_boundary():
+            messages=self.binding.messages(supplied)
             with self.reservation():
                 self.binding.calls.append(dict(schema=self.schema.__name__,temperature=self.temperature,
                     fact_revision=self.binding.view.fact_revision,argument_revision=self.binding.view.argument_revision))
-                try:
-                    if hasattr(self.binding.backend,'agenerate'):
-                        value=await self.binding.backend.agenerate(self.schema,messages,self.temperature)
-                    else:value=await asyncio.to_thread(self.binding.backend.generate,self.schema,messages,self.temperature)
+                try:value=self.binding.backend.generate(self.schema,messages,self.temperature)
                 except BudgetStopped:raise
                 except Exception:raise BudgetStopped('MODEL_PROVIDER_ERROR') from None
                 return self.binding.validate(self.schema,value)
+
+    async def ainvoke(self, supplied):
+        with self.binding.failure_boundary():
+            messages=self.binding.messages(supplied)
+            if self.binding.semaphore is None:self.binding.semaphore=asyncio.Semaphore(self.binding.budget.concurrency)
+            async with self.binding.semaphore:
+                # Stop opted-in pilots before releasing this semaphore. A
+                # queued sibling must see the stopped budget before dispatch.
+                with self.binding.failure_boundary():
+                    with self.reservation():
+                        self.binding.calls.append(dict(schema=self.schema.__name__,temperature=self.temperature,
+                            fact_revision=self.binding.view.fact_revision,argument_revision=self.binding.view.argument_revision))
+                        try:
+                            if hasattr(self.binding.backend,'agenerate'):
+                                value=await self.binding.backend.agenerate(self.schema,messages,self.temperature)
+                            else:value=await asyncio.to_thread(self.binding.backend.generate,self.schema,messages,self.temperature)
+                        except BudgetStopped:raise
+                        except Exception:raise BudgetStopped('MODEL_PROVIDER_ERROR') from None
+                        return self.binding.validate(self.schema,value)
 
 
 class BoundModel:

@@ -1,0 +1,26 @@
+{
+  "cohort": 240,
+  "baseline_disclosure_companies": 102,
+  "candidate_disclosure_companies": 103,
+  "candidate_disclosure_percent": 42.9167,
+  "disclosure_additions": [
+    "trueclaim"
+  ],
+  "original_13_round_dates_resolved": 0,
+  "original_13_round_dates_undetermined": 13,
+  "company_disclosure_unknown_within_original_13": 12,
+  "sec_first_sale_companies": 12,
+  "verified_negative_companies": 0,
+  "strict_window_start": "2024-04-05",
+  "strict_window_end": "2026-04-04",
+  "status": "REVIEWED_CANDIDATE_NOT_AUTOMATIC_REPLACEMENT_FOR_FROZEN_LABELS",
+  "transaction_and_disclosure_dimensions_combined": false,
+  "lag_adjustment_applied": false,
+  "original_2026_provider_rows_linked_to_separate_primary_events": false,
+  "limitation": "Baseline 102 carried forward, not reverified. Company TrueClaim has separate dated primary disclosure; all 13 original provider round dates remain unresolved. Boundary output is a manual-review queue, not admissions or a measured lag study.",
+  "boundary_review_rows": 102,
+  "boundary_review_companies": 84,
+  "displayed_date_boundary_review_companies": 55,
+  "displayed_date_boundary_review_rows": 60,
+  "boundary_policy": "Interval overlap within +/-3 calendar months of either strict window boundary; heuristic only, dates never shifted."
+}
