@@ -1,0 +1,4 @@
+# Preserve exported report bytes and keep PDF changes out of text diffs.
+*.pdf binary
+# Matplotlib's generated SVG path commands include harmless trailing spaces.
+*.svg -whitespace

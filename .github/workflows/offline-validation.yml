@@ -20,6 +20,7 @@ jobs:
       - name: Rebuild date audit and no-network smoke plan
         run: |
           python3 scripts/audit_funding_dates.py
+          python3 scripts/analyze_weekly_report.py
           python3 experiments/closed_loop_offline/weekly_smoke.py
           git diff --exit-code -- data/weekly_audit_20261119 data/weekly_smoke_20261119
       - name: Exercise synthetic closed-loop outcomes

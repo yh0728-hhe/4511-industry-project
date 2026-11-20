@@ -14,6 +14,7 @@ remain zero. PR #3's 164/240 composite observations use a different definition a
 are not substituted into strict funding coverage.
 
 - [This week's report / 本週進度](docs/updates/2026-11-19-weekly-progress.md)
+- [中文圖表週報：7張圖、完整分析與PDF下載](docs/updates/2026-11-19-visual-report/README.md)
 - [Funding date audit and candidate](data/weekly_audit_20261119/README.md)
 - [Metered research backend](docs/architecture/metered_research_backend.md)
 - [Separate smoke-test plan and limits](docs/experiments/2026-11-19_smoke_plan.md)
