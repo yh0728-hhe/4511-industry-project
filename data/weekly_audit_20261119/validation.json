@@ -1,0 +1,19 @@
+{
+  "validated_on": "2026-11-19",
+  "environment": "macOS, Python 3.14, local loopback IPC permitted",
+  "offline_test_command": "PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_*.py' -q",
+  "offline_tests": {"run": 142, "passed": 142, "failures": 0, "errors": 0, "skips": 0},
+  "synthetic_runtime_scenarios": 4,
+  "audit_manifest_hashes": "PASSED",
+  "new_csv_line_endings": "LF",
+  "candidate_company_changes": ["trueclaim"],
+  "transaction_fields_changed": false,
+  "negative_fields_changed": false,
+  "smoke_plan_hash_valid": true,
+  "smoke_plan_status": "NOT_RUN_USER_DEFERRED_PAID_EXECUTION",
+  "new_live_model_requests": 0,
+  "new_live_model_spend_usd": "0",
+  "upstream_pr3_counts": "PASSED",
+  "upstream_pr3_manifest": "FAILED: committed LF bytes differ from manifest CRLF hash; recorded separately",
+  "meaning": "Offline wiring and artifact checks only. No real-model quality, prediction accuracy or two-class evaluation claim."
+}

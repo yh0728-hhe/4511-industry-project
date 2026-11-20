@@ -1,0 +1,507 @@
+{
+  "report_date": "2026-11-19",
+  "cohort": 240,
+  "strict_disclosure": {
+    "window_start": "2024-04-05",
+    "window_end": "2026-04-04",
+    "baseline_count": 102,
+    "baseline_percent": 42.5,
+    "candidate_count": 103,
+    "candidate_percent": 42.9167,
+    "company_delta": 1,
+    "percentage_point_delta": 0.4167,
+    "target_percent": 90,
+    "target_count": 216,
+    "companies_needed_to_target": 113,
+    "percentage_points_below_target": 47.0833,
+    "strict_disclosure_unknown_count": 137,
+    "verified_funding_negatives": 0,
+    "limitation": "Baseline carried forward; candidate not a replacement for frozen labels. Disclosure evidence does not prove transaction date."
+  },
+  "company_changes": [
+    {
+      "company_id": "trueclaim",
+      "name": "TrueClaim",
+      "changed_fields": [
+        "funding_evidence_status",
+        "disclosure_in_window",
+        "disclosure_dates",
+        "disclosure_sources",
+        "window_attribution"
+      ],
+      "values": {
+        "funding_evidence_status": {
+          "before": "FUNDING_KNOWN_WINDOW_UNDETERMINED",
+          "after": "IN_WINDOW_PUBLIC_DISCLOSURE"
+        },
+        "disclosure_in_window": {
+          "before": "UNKNOWN",
+          "after": "YES"
+        },
+        "disclosure_dates": {
+          "before": "",
+          "after": "2024-06-12"
+        },
+        "disclosure_sources": {
+          "before": "",
+          "after": "https://newsletter.kaya.vc/ceefarers-jun-2024/"
+        },
+        "window_attribution": {
+          "before": "UNDETERMINED_DATE_PRECISION",
+          "after": "ESTABLISHED_ONLY_FOR_THE_DIMENSIONS_MARKED_YES"
+        }
+      }
+    }
+  ],
+  "disposition": [
+    {
+      "key": "IN_WINDOW_PUBLIC_DISCLOSURE",
+      "label_en": "Strict-window public disclosure",
+      "label_zh": "嚴格窗口公開披露",
+      "count": 103,
+      "percent": 42.9167,
+      "strict_disclosure_established": true
+    },
+    {
+      "key": "UNKNOWN_NO_PUBLIC_EVENT_RETURNED",
+      "label_en": "No public event returned",
+      "label_zh": "未返回公開事件",
+      "count": 108,
+      "percent": 45.0,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "FUNDING_KNOWN_WINDOW_UNDETERMINED",
+      "label_en": "Known financing; window undetermined",
+      "label_zh": "已知融資、窗口未定",
+      "count": 12,
+      "percent": 5.0,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "CONFLICT_REVIEW_REQUIRED",
+      "label_en": "Conflicting evidence",
+      "label_zh": "證據衝突待審",
+      "count": 6,
+      "percent": 2.5,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "INDIRECT_LEAD_SPV_ONLY",
+      "label_en": "Indirect SPV lead only",
+      "label_zh": "僅有間接 SPV 線索",
+      "count": 5,
+      "percent": 2.0833,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "UNKNOWN_IDENTITY_UNRESOLVED",
+      "label_en": "Identity unresolved",
+      "label_zh": "實體身分未解",
+      "count": 3,
+      "percent": 1.25,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "UNKNOWN_EMPTY_FUNDING_PROFILE",
+      "label_en": "Empty funding profile",
+      "label_zh": "融資頁面空白",
+      "count": 2,
+      "percent": 0.8333,
+      "strict_disclosure_established": false
+    },
+    {
+      "key": "IN_WINDOW_ISSUER_SEC_TRANSACTION_ONLY",
+      "label_en": "Issuer SEC first sale only",
+      "label_zh": "僅 SEC 發行人首次出售",
+      "count": 1,
+      "percent": 0.4167,
+      "strict_disclosure_established": false
+    }
+  ],
+  "evidence_dimensions": {
+    "cells": [
+      {
+        "disclosure_established": true,
+        "sec_first_sale_established": true,
+        "count": 11
+      },
+      {
+        "disclosure_established": true,
+        "sec_first_sale_established": false,
+        "count": 92
+      },
+      {
+        "disclosure_established": false,
+        "sec_first_sale_established": true,
+        "count": 1
+      },
+      {
+        "disclosure_established": false,
+        "sec_first_sale_established": false,
+        "count": 136
+      }
+    ],
+    "disclosure_total": 103,
+    "sec_first_sale_total": 12,
+    "limitation": "YES is established evidence; false means not established, not no funding. Do not add a union as strict funding positives."
+  },
+  "original_13": {
+    "companies": 13,
+    "original_rounds_resolved": 0,
+    "original_rounds_undetermined": 13,
+    "companies_without_strict_disclosure": 12,
+    "provider_precision_counts": {
+      "UNREPORTED": 12,
+      "DAY": 1
+    },
+    "provider_displayed_date_counts": {
+      "2026-01-01": 11,
+      "2026-05-11": 1,
+      "2026-04-01": 1
+    },
+    "stored_provider_link_domains": {
+      "www.crunchbase.com": 12,
+      "www.caplight.com": 1
+    },
+    "provider_page_read_dispositions": {
+      "NOT_ACCESSIBLE_VIA_RESEARCH_TOOL": 11,
+      "READ_DATE_VISIBLE_SOURCES_LOCKED": 1,
+      "READ_ANNOUNCED_DATE_OBFUSCATED": 1
+    },
+    "link_distribution_scope": "Only the 13 original held-round leads, not all cohort funding sources.",
+    "company_rows": [
+      {
+        "company_id": "agentic-labs-2",
+        "name": "Agentic Labs",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "arcane",
+        "name": "Arcane",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "arini",
+        "name": "Arini",
+        "displayed_date": "2026-05-11",
+        "precision": "DAY",
+        "interval_start": "2026-05-11",
+        "interval_end": "2026-05-11",
+        "strict_window": "OUTSIDE",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "artos",
+        "name": "Artos",
+        "displayed_date": "2026-04-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "commodityai",
+        "name": "CommodityAI",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "haplotype-labs",
+        "name": "Haplotype Labs",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "marblism",
+        "name": "Marblism",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "overheard",
+        "name": "OpenFoundry",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "polar",
+        "name": "GoldenBasis",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "terrakotta",
+        "name": "Terrakotta",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "trueclaim",
+        "name": "TrueClaim",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "YES"
+      },
+      {
+        "company_id": "upsolve-ai",
+        "name": "Upsolve AI",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      },
+      {
+        "company_id": "yarn-2",
+        "name": "Yarn",
+        "displayed_date": "2026-01-01",
+        "precision": "UNREPORTED",
+        "interval_start": "2026-01-01",
+        "interval_end": "2026-12-31",
+        "strict_window": "UNDETERMINED",
+        "original_resolution": "UNDETERMINED",
+        "disclosure_candidate": "UNKNOWN"
+      }
+    ],
+    "limitation": "Provider display precision and original announcement precision are different. Twelve whole-year spans are conservative uncertainty envelopes, not dated funding events."
+  },
+  "boundary_review": {
+    "displayed_date_screen": {
+      "evidence_rows": 60,
+      "companies": 55,
+      "start_companies": 44,
+      "end_companies": 12,
+      "both_boundary_companies": 1,
+      "start_only_companies": 43,
+      "end_only_companies": 11
+    },
+    "uncertainty_expanded_screen": {
+      "evidence_rows": 102,
+      "companies": 84,
+      "start_companies": 64,
+      "end_companies": 27,
+      "both_boundary_companies": 7,
+      "start_only_companies": 57,
+      "end_only_companies": 20
+    },
+    "uncertainty_only_additional_companies": 29,
+    "uncertainty_only_company_ids": [
+      "RM-just-words",
+      "agentic-labs-2",
+      "arcane",
+      "averyiq",
+      "circleback",
+      "codeant-ai",
+      "commodityai",
+      "drymerge",
+      "feldy",
+      "healia",
+      "indemni",
+      "infinity",
+      "inspectmind-ai",
+      "keystroke",
+      "marblism",
+      "openmart",
+      "overheard",
+      "piramidal",
+      "polar",
+      "powder",
+      "prosights",
+      "reducto",
+      "retell-ai",
+      "roe",
+      "sync-2",
+      "terrakotta",
+      "trieve",
+      "upsolve-ai",
+      "yarn-2"
+    ],
+    "review_band_calendar_months": 3,
+    "dates_shifted": false,
+    "start_band": [
+      "2024-01-05",
+      "2024-07-05"
+    ],
+    "end_band": [
+      "2026-01-04",
+      "2026-07-04"
+    ],
+    "limitation": "Nested manual-review queues. Whole-year widening is conservative, not a measured source lag; rows may exceed companies."
+  },
+  "upstream_composite_reference": {
+    "source_commit": "82bb8e9f6e1224192d402283088b7ef0d809f35f",
+    "observed": 164,
+    "observed_percent": 68.3333,
+    "financing_under_upstream_definition": 153,
+    "status_only": 11,
+    "unknown": 76,
+    "non_sec_report_window_end": "2026-07-04",
+    "limitation": "Different definition and wider non-SEC window; not an increase from strict103 to164, not investment success."
+  },
+  "validation": {
+    "baseline_tests": 104,
+    "current_tests": 142,
+    "added_tests": 38,
+    "added_groups": [
+      {
+        "label_en": "Metered historical navigation",
+        "label_zh": "歷史導覽後端",
+        "path": "tests/test_research_backend.py",
+        "count": 15
+      },
+      {
+        "label_en": "Separate smoke-plan safeguards",
+        "label_zh": "獨立 smoke test 防護",
+        "path": "tests/test_weekly_smoke.py",
+        "count": 14
+      },
+      {
+        "label_en": "Date precision and evidence dimensions",
+        "label_zh": "日期精度與證據維度",
+        "path": "tests/test_funding_date_audit.py",
+        "count": 8
+      },
+      {
+        "label_en": "Navigation prompt cache invalidation",
+        "label_zh": "導覽 prompt 快取失效",
+        "path": "tests/test_agent_role_prompts.py",
+        "count": 1
+      }
+    ],
+    "current_passed": 142,
+    "current_skips": 0,
+    "live_paid_model_requests": 0,
+    "limitation": "Test counts describe coverage of wiring and guards, not research quality. Baseline Windows reported103pass+1skip; current macOS142pass has different platform conditions."
+  },
+  "source_examples": [
+    {
+      "company_id": "trueclaim",
+      "name": "TrueClaim",
+      "primary_disclosure_date": "2024-06-12",
+      "primary_disclosure_url": "https://newsletter.kaya.vc/ceefarers-jun-2024/",
+      "transaction_first_sale_date": "",
+      "transaction_source_url": "",
+      "original_provider_date_still_unresolved": true,
+      "note": "Independent investor newsletter is dated 2024-06-12 and welcomes TrueClaim with the matching Barbora/Bobby founders under New investments, linking a $2.1M pre-seed report. This establishes an in-window public investment disclosure; it does not identify the transaction date or prove correspondence with the 2026-01-01 provider round."
+    },
+    {
+      "company_id": "haplotype-labs",
+      "name": "Haplotype Labs",
+      "primary_disclosure_date": "",
+      "primary_disclosure_url": "",
+      "transaction_first_sale_date": "2024-03-29",
+      "transaction_source_url": "https://www.sec.gov/Archives/edgar/data/2017857/000201785724000001/xslFormDX01/primary_doc.xml",
+      "original_provider_date_still_unresolved": true,
+      "note": "First-party page names YC without a funding date. Independently read issuer SEC filing gives first sale 2024-03-29, before window; this does not resolve the separate 2026 provider round or establish absence of later financing."
+    }
+  ],
+  "chart_rules": [
+    "Use company counts unless explicitly labeled evidence rows.",
+    "Never plot unknown as a negative financing outcome.",
+    "Never present PR3 composite and strict disclosure as one chronological growth series.",
+    "Separate provider display intervals from verified original announcement dates.",
+    "Show sample size, strict window, cutoff and carried-forward baseline limitations."
+  ],
+  "sources": [
+    {
+      "path": "data/team_snapshot_20261111/funding_outcomes.csv",
+      "sha256": "901017532a6a10248f0a461aa1311c51f9e73b8c2e70857b4132a4754b963f81"
+    },
+    {
+      "path": "data/weekly_audit_20261119/funding_outcomes_candidate.csv",
+      "sha256": "7ae5f1841a9d068ae72e1e36cc1dc0fce3c4dba6cce5066a9ded09145c69ed89"
+    },
+    {
+      "path": "data/weekly_audit_20261119/summary.json",
+      "sha256": "b7192a2aaca6ab87ae843f3ae361c5a024512d85e7b369fb164f09766f5bca8a"
+    },
+    {
+      "path": "data/weekly_audit_20261119/validation.json",
+      "sha256": "02958f5470206f27c191f4a1c966e9202d528e9a795ed43e0ff332eff2b6f9e1"
+    },
+    {
+      "path": "data/weekly_audit_20261119/upstream_pr3_review.json",
+      "sha256": "4193b53493d917def5f311ee45bb91dd4126eaba389bdde5c0f254e0fa4d8efc"
+    },
+    {
+      "path": "data/weekly_audit_20261119/reviewed_evidence.json",
+      "sha256": "bb9e5e178dbb403b871dc97be98ff5a8f605e7545f2e4912f5c820f4daa08898"
+    },
+    {
+      "path": "data/weekly_audit_20261119/original_13_date_audit.csv",
+      "sha256": "99b2ed04965f6f291f356564ca1c7d331dcc21157b8ce9bcd77c0adc1c723d26"
+    },
+    {
+      "path": "data/weekly_audit_20261119/boundary_cases.csv",
+      "sha256": "a3fa4da7594f26aab2994c93eefc54b3d2390dfd259e2d2edb63f8e672e1ea18"
+    },
+    {
+      "path": "tests/test_research_backend.py",
+      "sha256": "e43f40f57df447dff24e4375906fc9264157562591e6f309993e2bd4bbaf0ebc"
+    },
+    {
+      "path": "tests/test_weekly_smoke.py",
+      "sha256": "902ba09ae239a2f132fb677e4809c0e72255842a5cff432a98070511fef4861c"
+    },
+    {
+      "path": "tests/test_funding_date_audit.py",
+      "sha256": "7394ef0fef125adedc7b855ea7618c5aba3f6f3fe4f62ec74f307d76d6b622b6"
+    },
+    {
+      "path": "tests/test_agent_role_prompts.py",
+      "sha256": "5f09047dde806d4faa3d3833bcc83285ce34d8a399925af4cd4324c1db0c11ed"
+    }
+  ]
+}

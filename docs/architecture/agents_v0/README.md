@@ -7,7 +7,7 @@
 |角色/模块|接入状态|
 |---|---|
 |[Lead investor / 研究调度](lead.md)|WIRED: model call|
-|[Research specialist protocol / 专项研究](research.md)|PARTIAL: provider dispatch WIRED; autonomous specialist-model backend NOT WIRED|
+|[Research specialist protocol / 专项研究](research.md)|PARTIAL: bounded metered historical navigation WIRED/offline-tested; general web research incomplete|
 |[Pro argument agent / 正方](pro.md)|WIRED: reused model stage|
 |[Contra argument agent / 反方](contra.md)|WIRED: reused model stage|
 |[Pro/contra critics and refinement / 质疑与修订](critic.md)|WIRED: two side-specific critics, then two refinement stages|
@@ -48,6 +48,9 @@ The test backend is synthetic, not a new real-company or live-model run.
 [Reuse manifest](../agent_v0_reuse_manifest.json) ·
 [Team handoff and validation](../../updates/2026-11-11-agent-v0-team-sync.md)
 
-Pending: structured mandate, autonomous specialist model/tool loop and richer
-thesis output; separately versioned real-company smoke test with current budgets.
-OpenAI total new spend belowUSD1 is already authorized; none used here.
+November 19 update: the [bounded historical navigation backend](../metered_research_backend.md)
+is wired into a [separate one-company smoke plan](../../experiments/2026-11-19_smoke_plan.md).
+The user elected code/plan upload without paid execution this week. Earlier
+pilot approvals do not authorize this run. Pending: structured mandate, broader
+news/peer research, richer specialist findings and thesis output, and any
+separately authorized live validation.

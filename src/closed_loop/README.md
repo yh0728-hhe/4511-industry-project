@@ -83,3 +83,16 @@ Live execution requires a newly authorized pilot after the completed Abel pilot;
 `live_one_company.py` without an approval flag only prints a plan and loads no key.
 Search currently covers a narrow set of exact historical website URLs. Broad news,
 peer discovery and richer historical source routing are next, not completed here.
+
+November 19, 2026: `research_backend.py:MeteredResearchProvider` now adds a bounded
+model-selected historical-link loop over the archive verifier. It shares the
+gateway and model/HTTP budgets, admits sources before planner access and checks
+every target independently. Navigation prompt text participates in cache keys.
+This is offline-tested company-site navigation; broad news/peer discovery and
+historical domain-ownership proof remain incomplete. See the
+[backend design](../../docs/architecture/metered_research_backend.md).
+
+`python3 experiments/closed_loop_offline/weekly_smoke.py` prepares the separate
+Adagy Robotics plan with zero API/HTTP requests. The user deferred paid execution
+this week. The sealed Abel runner/journal is not reused. See the
+[fixed caps and stop rules](../../docs/experiments/2026-11-19_smoke_plan.md).

@@ -1,6 +1,25 @@
 # 4511 Industry Project — Startup Data Inventory
 
-## Latest update — November 11, 2026
+## Latest update — November 19, 2026
+
+The bounded historical research backend now performs metered model-selected link
+navigation behind the existing temporal/identity gateway. **142 offline tests
+pass**; this verifies wiring and guards, not model quality. The separate Adagy
+Robotics smoke plan is saved; the user deferred paid execution this week.
+
+The strict public-disclosure **candidate is 103/240 (42.92%)**, including one new
+dated investor disclosure. All **13 original provider-round dates remain
+undetermined**. Issuer SEC evidence remains separate; verified financing negatives
+remain zero. PR #3's 164/240 composite observations use a different definition and
+are not substituted into strict funding coverage.
+
+- [This week's report / 本週進度](docs/updates/2026-11-19-weekly-progress.md)
+- [中文圖表週報：7張圖、完整分析與PDF下載](docs/updates/2026-11-19-visual-report/README.md)
+- [Funding date audit and candidate](data/weekly_audit_20261119/README.md)
+- [Metered research backend](docs/architecture/metered_research_backend.md)
+- [Separate smoke-test plan and limits](docs/experiments/2026-11-19_smoke_plan.md)
+
+## Previous update — November 11, 2026
 
 Agent v0.1 now includes **nine actor/module specifications and seven research-role briefs**. The critic-to-evidence-review handoff and prompt-aware cache versioning are implemented.
 

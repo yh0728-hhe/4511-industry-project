@@ -21,6 +21,9 @@ venv/
 # Local scratch
 *.log
 
+# Local experiment traces and persistent spend journals; review before sharing.
+results/
+
 # Cached third-party API responses: kept locally for audit and free re-runs,
 # not redistributed. Regenerate with src/funding/run_recentfunding_benchmark.py
 data/interim/**/raw_*/

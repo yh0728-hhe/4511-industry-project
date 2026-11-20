@@ -36,6 +36,16 @@ class NetworkTests(unittest.TestCase):
             with OfflineSocketGuard() as guard:
                 with socket.socket() as client:
                     with self.assertRaises(PermissionError):client.connect(external.getsockname())
+                # Unix socketpair() uses AF_UNIX and bypasses TCP connect().
+                # Exercise an owned TCP listener explicitly on every platform.
+                with socket.socket() as owned:
+                    owned.bind(('127.0.0.1',0));owned.listen()
+                    with socket.socket() as client:
+                        client.connect(owned.getsockname())
+                        accepted,_=owned.accept()
+                        with accepted:
+                            client.sendall(b'owned TCP')
+                            self.assertEqual(accepted.recv(32),b'owned TCP')
                 left,right=socket.socketpair()
                 try:
                     left.send(b'local IPC')

@@ -1,0 +1,65 @@
+{
+  "report_date": "2026-11-19",
+  "generator": "scripts/build_weekly_charts.py",
+  "metrics_path": "data/weekly_audit_20261119/report_metrics.json",
+  "metrics_sha256": "75041e3204d2ace6435aa5b479783726ca25c3970c7d511ca386c849da37896d",
+  "figures": [
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/01-coverage.png",
+      "sha256": "52d5c14b109ed2cac81d23afd4eb8b4c4ac965dfa8581036198e91939a6b2646"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/01-coverage.svg",
+      "sha256": "61fd54a227ae5e32b112eb790a1179caea5722237d1c6ab93cf77f937e5f1a4a"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/02-disposition.png",
+      "sha256": "63e5d5dd81641015248e29a6820be43f4ceac8fc3435c2e6a87fea85a57950e4"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/02-disposition.svg",
+      "sha256": "8c1a0492aeca17b1fe40033848080c8e28981492dc89a42f58c6f877c93617f2"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/03-evidence-matrix.png",
+      "sha256": "92bbbc1927ca080873748dfba6c8dc1e668d1b14470cf8ecad62cd63f436c480"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/03-evidence-matrix.svg",
+      "sha256": "132c2c59e495a95326914f31c362e36bf53967d46a5554a4fccabcb21f7f5952"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/04-round-date-precision.png",
+      "sha256": "8d2f58f0b6e166c258587cdf7b8ae8902281e8309ba51f5fd2a06ff00bfa9ec9"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/04-round-date-precision.svg",
+      "sha256": "8e75b17c2e2bcc92d5378c23912434a888202f7c45668f98fe38843591f3db07"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/05-boundary-review.png",
+      "sha256": "eaeed2a134c87eb3a8aa3c031edad029a4479157f95aeecd6bd617bf8c044d6d"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/05-boundary-review.svg",
+      "sha256": "e4b5567fb61dc1ece49efdc9dad53836f5f228b21b28264fc88ec4d0efaeed7f"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/06-research-workflow.png",
+      "sha256": "090409ee21873ee93e753651f8dac4f9bc3a9809350055fccb29b670b8238838"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/06-research-workflow.svg",
+      "sha256": "cad79f359a2145c51d84bc4be9c067368e2cd5893b1ac3f0cfc7d92228bc62ee"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/07-offline-validation.png",
+      "sha256": "773fe7811add21837d4ceb79c12644edf99382ac3ee63d2b077fd468147a36c0"
+    },
+    {
+      "path": "docs/updates/2026-11-19-visual-report/figures/07-offline-validation.svg",
+      "sha256": "caddac4345d40e9da92b67ecc1565eb9708ecb5b9030ec27a28780512a060277"
+    }
+  ],
+  "statement": "All figures use reviewed local metrics; no API/model calls."
+}

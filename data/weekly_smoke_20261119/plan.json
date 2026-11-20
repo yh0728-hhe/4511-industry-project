@@ -1,0 +1,70 @@
+{
+  "as_of": "2024-04-04T23:59:59+00:00",
+  "cohort_path": "data/processed/w24_spreadsheet_2024-03-25.csv",
+  "cohort_sha256": "21c9f421f1fedd47008fe9d72f091d95ed76a63fad3832f235ff4a53d793cb76",
+  "companies": 1,
+  "company": {
+    "company_id": "w24:www.adagyrobotics.com",
+    "domain": "www.adagyrobotics.com",
+    "name": "Adagy Robotics"
+  },
+  "historical_domain_ownership_independently_verified": false,
+  "input_seed_sha256": "cd9dc86cfefb3cfb1daa95dd27096117c5d2d443a78a9e32954a7aebcf3689f0",
+  "limits": "One-company wiring/retrieval smoke test; no predictive accuracy or investment-performance claim.",
+  "max_api_requests": 24,
+  "max_archive_http_requests": 6,
+  "max_navigation_steps_per_task": 2,
+  "max_output_tokens_per_request": 1000,
+  "max_request_bytes": 32768,
+  "max_research_passes": 2,
+  "max_wall_minutes": 8,
+  "model": "gpt-4o-mini-2024-07-18",
+  "model_input_fields": [
+    "company_id",
+    "name",
+    "domain",
+    "mandate",
+    "cutoff",
+    "gateway-admitted historical evidence"
+  ],
+  "native_config": {
+    "k_best_arguments_per_iteration": [
+      1
+    ],
+    "max_iterations": 1,
+    "n_contra_arguments": 1,
+    "n_pro_arguments": 1,
+    "selection_policy": "balanced_per_side"
+  },
+  "no_automatic_model_fallback": true,
+  "no_current_web_fallback": true,
+  "no_sdk_retries": true,
+  "original_abel_pilot_reused": false,
+  "outputs": [
+    "plan.json",
+    "result.json",
+    "api_budget.jsonl"
+  ],
+  "pilot_id": "weekly-20261119-adagy-w24-asof20240404",
+  "plan_sha256": "646ab49023d61cdb70946263c85e4efd4a9155d5ef372cc01c45233f2d1b2f70",
+  "post_cutoff_source_content_allowed": false,
+  "pretrained_future_knowledge_exclusion_proven": false,
+  "prompt_bundle_sha256": "8b1bcf5b82e5eb2208d6f3bbcafe4a437771610f11d8e90cb73551a34b156870",
+  "proposed_api_budget_usd": "0.20",
+  "rate_source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+  "research_backend": "MeteredResearchProvider",
+  "selection": "first alphabetical valid historical cohort name/domain, excluding Abel; no Y selection",
+  "status": "NOT_RUN_USER_DEFERRED_PAID_EXECUTION",
+  "stop_rules": [
+    "24 API request attempts",
+    "$0.20 conservative reservation cap",
+    "6 archive HTTP requests",
+    "8 minute deadline",
+    "missing/invalid provider token usage",
+    "provider/schema/validation failure",
+    "no new admissible evidence",
+    "2 research passes"
+  ],
+  "user_execution_choice": "On 2026-11-19 the user requested code and plan upload without paid execution.",
+  "y_read": false
+}
