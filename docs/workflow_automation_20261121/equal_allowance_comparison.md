@@ -71,3 +71,22 @@ quality reference evidence and a matched-budget quality result are missing; it
 no longer incorrectly says there has been no end-to-end engineering run.
 
 Evidence: `data/metadata/workflow_20261121/equal_allowance_review_validation_20261127.json`.
+
+## Saved resource counters
+
+A separate offline audit verifies each saved CLI prompt hash and attempt identity
+against the dispatch journal, then checks reported usage against the saved CLI
+envelope. For the previously inspected publisher case, the committee made 11
+CLI launches and reported 21,266 output tokens, 71,350 cache-creation input tokens
+and 4,670 cache-read input tokens. The single analyst made one launch and reported
+1,274 output tokens, 4,289 cache-creation input tokens and zero cache-read input
+tokens. Uncached input counters were 16 and 2 respectively. Cache fields remain
+separate; missing fields are unknown, never filled with zero. Both arms returned
+MORE_DILIGENCE. No independent quality preference follows from these figures.
+
+These are provider-reported envelope counters, not independently authenticated
+billing, subscription quota debit, visible text length, or inner inference count.
+No price conversion or general efficiency claim is made. The audit starts no
+models and reads no outcome labels. Seven audit regressions and the final full
+offline profile passed: 1,137 tests, 1,134 passed, three skipped, six stages. The
+initial failed fixture validation is retained separately rather than overwritten.

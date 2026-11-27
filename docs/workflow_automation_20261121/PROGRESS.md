@@ -1,5 +1,7 @@
 # Current verified progress — 2026-11-27
 
+Latest saved-usage audit: all12old CLI envelopes reconcile with recorded usage; committee11calls/output21,266 vs single1call/output1,274, both MORE_DILIGENCE. No new model/source calls or billing/quality claim. Seven further regressions; shared907tests(906pass,1skip), all5stages; privatefull1,137tests(1,134pass,3skip), all6stages. See shared_usage_audit_validation_20261127.json. Earlier checkpoints follow.
+
 November27 team update: equal-allowance API and unscored company-review exporter implemented; 22new regression tests. Shared profile900tests(899pass,1skip), all5stages. Private full profile1,130tests(1,127pass,3skip), all6stages; these are distinct scopes. No new live comparison or human reference labels; equal actual tokens/cost remain unverified. NoY/training changes. Details: docs/updates/2026-11-27-workflow-comparison/README.md. Prior November26 milestones follow.
 
 Source-ID-disjoint12case execution completed:12actualmodelCLI attempts,137.093seconds,0sourceHTTP. After child exit, offline grader found11of12agreement with reference labels (5TP6TN0FP1FN). All12retained; frozen hashes and12saved inputs audited. The one disagreement is literal pronoun/generalization scope, retained without relabelling, prompt changes or retry. Not general accuracy, company-quality validation or superiority; no pooling with prior6. NoY/training/main-workflow change. See followup_reference_result_20261126.json.

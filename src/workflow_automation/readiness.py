@@ -37,6 +37,7 @@ def plan(root=ROOT):
     paths = list((root / 'src').rglob('*.py'))
     paths += list((root / 'tests').glob('test_*.py'))
     paths += [root / name for name in (
+        'scripts/experiments/audit_pair_usage.py',
         'scripts/experiments/prepare_company_review.py',
         'scripts/experiments/ragtruth_reference_prepare_20261126.py',
         'scripts/experiments/ragtruth_reference_predict_20261126.py',
