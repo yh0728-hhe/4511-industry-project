@@ -1,0 +1,21 @@
+{
+  "protocol_id": "CACHED-INDEX-PUBLISHER-BODY-BOUND-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Controlled transport-bound probe after256KiB decompression/limit failure, not automaticretry ofoldprotocol. Reuse savedCDX proof andattemptone rawreplay at1MiB.",
+  "index_body_sha256": "14d272d6ba7cd025c3dd5e63085c4bc2c37832458726499609e3c3e1bc2127f9",
+  "index_metadata_sha256": "614b0df421779f0bc3341cc9f1e26f33d74b7abd97b99a3d6fbadf48fd43fb68",
+  "url": "https://github.com/hatchet-dev/hatchet",
+  "capture": "20240402084716",
+  "as_of": "2024-04-04T23:59:59Z",
+  "max_actual_new_http": 1,
+  "max_actual_new_model_calls": 0,
+  "max_logical_search_reservations": 2,
+  "max_seconds": 45,
+  "max_body_bytes": 1048576,
+  "max_extracted_text_characters": 6000,
+  "retry": false,
+  "fallback": false,
+  "interpretation": "OneinjectedpreviouslyobservedCDX response+oneactualboundedreplay; stricthistoricalheadline/link/Memento checksunchanged. AnyfailureUNKNOWN;noalternateparams afterthisattempt.",
+  "Y_changed": false,
+  "training": false
+}

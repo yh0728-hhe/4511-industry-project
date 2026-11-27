@@ -22,6 +22,7 @@ Run from repository root:
 ```powershell
 python -m unittest discover -s tests -p test_closed_loop_runtime.py -v
 python experiments/closed_loop_offline/run_fixtures.py
+python -m unittest discover -s tests -p test_thesis_synthesis.py -v
 ```
 
 The fixture trace demonstrates market/traction selection, missing retention,
@@ -65,6 +66,29 @@ Important implementation limits:
   an injected backend; original module client initializers/backoff decorators are
   omitted. Inner score-count retries remain metered. This is an adapted committee,
   not an unchanged upstream application or paper replication.
+- `specialist_loop.py:SpecialistResearchLoop` (2026-11-15) adds a bounded
+  within-specialist action loop (SUBMIT_FACT/FOLLOW_LINK(path)/STOP), reusing
+  `RESEARCH_PROTOCOL` in a real request payload for the first time. It is an
+  optional `ClosedLoopRuntime(..., specialist=...)` component: no existing
+  caller/fixture supplies it, so `research()`'s default single-`provider.search()`
+  path is unchanged. Each `FOLLOW_LINK` costs one more `search` reservation under
+  the same run budget; `max_iterations` is bounded 1-8. It still only has
+  `ArchivedWebsiteProvider.link_hints()` to choose from — a second, broader
+  provider is a separate, not-yet-authorized gap.
+- `thesis_synthesis.py:ThesisSynthesizer` (2026-11-15) adds the previously
+  SPEC_ONLY final thesis synthesis from `thesis.md`'s "PROPOSED ONLY" block
+  (reused verbatim, included in `prompt_fingerprint()`). It is an optional
+  `ClosedLoopRuntime(..., thesis=...)` component: no existing caller supplies
+  it, so `finish()`'s deterministic path and output keys are unchanged when
+  omitted. When injected, it runs a single bounded structured-output call
+  (no inner loop) strictly after a non-`MORE_DILIGENCE` decision with
+  `stop == EVIDENCE_REVIEW_COMPLETE`; the model sees only the committee's own
+  cited facts (never the full store or raw model memory), and its own
+  `cited_fact_ids` must stay inside `context.store.facts` or the call is
+  rejected (`BudgetStopped`). `ThesisSynthesis` has no numeric score/probability
+  field by construction, enforced by a unit test. Output is attached as an
+  additive `'thesis'` key; `decision`/`essential_gaps` are never touched by it.
+  Versioned offline demo: `results/candidates/thesis_synthesis_20261115/`.
 - `model_lead.py` uses the same backend to select specialist questions at runtime.
   `openai_backend.py` is disabled without explicit API-spend approval; dollar/request
   reservations persist across restarts, an exclusive lease prevents two budget
@@ -84,15 +108,37 @@ Live execution requires a newly authorized pilot after the completed Abel pilot;
 Search currently covers a narrow set of exact historical website URLs. Broad news,
 peer discovery and richer historical source routing are next, not completed here.
 
-November 19, 2026: `research_backend.py:MeteredResearchProvider` now adds a bounded
-model-selected historical-link loop over the archive verifier. It shares the
-gateway and model/HTTP budgets, admits sources before planner access and checks
-every target independently. Navigation prompt text participates in cache keys.
-This is offline-tested company-site navigation; broad news/peer discovery and
-historical domain-ownership proof remain incomplete. See the
-[backend design](../../docs/architecture/metered_research_backend.md).
 
-`python3 experiments/closed_loop_offline/weekly_smoke.py` prepares the separate
-Adagy Robotics plan with zero API/HTTP requests. The user deferred paid execution
-this week. The sealed Abel runner/journal is not reused. See the
-[fixed caps and stop rules](../../docs/experiments/2026-11-19_smoke_plan.md).
+## Package-backed CLI route and final-output acceptance
+
+`package_source.py` and `npm_source.py` verify pre-acquired registry artifacts,
+then `package_runner.py` runs the existing lead/committee/runtime on admitted
+README text. Registry/latest descriptions are not historical features. Publisher
+claims are not independently established product performance or business metrics.
+This finite-document route is not autonomous unrestricted web research.
+
+The runner now preserves `proposal.json` privately and applies
+`analysis_acceptance.py` before releasing a substantive result. An unreviewed
+INVEST/PASS proposal stays `MORE_DILIGENCE`, with `proposed_decision` retained and
+accepted thesis withheld. A complete final-text inventory is bound to the source
+run and checked via `claim_review.py`; annotations cannot be hand-picked or reused
+after text/citation changes. Even complete supplied review is conditional reviewer
+judgment, never automatic entailment or certified truth. Draft traces are unreviewed.
+This integration does not rewrite older sealed API-run records or change Y labels.
+
+
+Saved results can be reviewed offline with
+`python -m closed_loop.saved_analysis_review --run-dir <run> --output-dir <new-review-dir>`.
+Add `--review <review.json>` to apply complete annotations without rerunning models.
+Original `plan.json`/`proposal.json` remain unchanged; output must be separate and
+new. Legacy original `result.json` needs explicit `--proposal-name result.json`,
+never automatic fallback. Export does not create approved reviewer verdicts.
+
+
+`PackageRegistryCollector` in `package_registry.py` automates bounded retrieval for
+explicit PyPI/npm mappings with an injected HTTP client and exclusive journal.
+Pass its original `CallBudget` into `execute_package_run(call_budget=...)`; consumed
+HTTP attempts and the deadline carry forward. One metadata GET and one artifact
+GET maximum, no redirects/retries. A rejected or missing artifact remains unknown.
+Registry/latest README content is excluded from evidence; only verified artifact
+text reaches the gateway. Captured-response fixtures are not live-network results.

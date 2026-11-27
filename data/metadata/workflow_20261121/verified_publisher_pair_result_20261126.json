@@ -1,0 +1,172 @@
+{
+  "status": "FIRST_REAL_VERIFIED_PUBLISHER_PAIR_COMPLETED_NOT_A_QUALITY_RESULT",
+  "date": "2026-11-26",
+  "protocol_id": "VERIFIED-PUBLISHER-PAIR-20261126-001",
+  "execution_commit": "2c286f0",
+  "harness": {
+    "exit_code": 0,
+    "elapsed_seconds": 282.792,
+    "retry": false
+  },
+  "source_replay": {
+    "local_cache_gets": 2,
+    "actual_source_http_requests": 0,
+    "source_id": "b17c1685eb58c53d977a20436cc1363920698d3df4ab6fe470ecf40bc4ffb72e",
+    "fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+    "body_sha256": "77e2242be635d9ae339ca5539997aad7445a27bae574c04ba3c81374ecafa14e"
+  },
+  "arm_order": [
+    "committee",
+    "single_analyst"
+  ],
+  "arms": [
+    {
+      "arm": "committee",
+      "status": "EXECUTED_REVIEW_PENDING",
+      "proposed_decision": "MORE_DILIGENCE",
+      "accepted_decision": "MORE_DILIGENCE",
+      "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+      "model_reservations": 11,
+      "elapsed_seconds": 263.889,
+      "essential_gap_count": 9,
+      "evidence_sha256": "b3af9af054266152770c8ef509d97571186aa92cc907f01c1cdfa62d04b8c490"
+    },
+    {
+      "arm": "single_analyst",
+      "status": "EXECUTED_REVIEW_PENDING",
+      "proposed_decision": "MORE_DILIGENCE",
+      "accepted_decision": "MORE_DILIGENCE",
+      "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+      "model_reservations": 1,
+      "elapsed_seconds": 18.027,
+      "essential_gap_count": 9,
+      "evidence_sha256": "b3af9af054266152770c8ef509d97571186aa92cc907f01c1cdfa62d04b8c490"
+    }
+  ],
+  "cli_process_attempts": 12,
+  "logical_call_budget": {
+    "used": {
+      "model": 12,
+      "search": 0
+    },
+    "caps": {
+      "model": 24,
+      "search": 0
+    },
+    "active": 0
+  },
+  "actual_source_http_requests": 0,
+  "actual_network_calls": null,
+  "managed_network_requests": "UNKNOWN",
+  "input_and_accounting_audit": {
+    "same_model_visible_evidence": true,
+    "same_company_cutoff_mandate": true,
+    "all_prompt_hashes_match": true,
+    "no_checked_private_outcome_markers": true,
+    "sealed_source_inputs_unchanged": true,
+    "all_arm_evidence_hashes_match": true,
+    "actual_cli_attempts": 12,
+    "wire": [
+      {
+        "attempt": 1,
+        "schema": "ArgumentsOutput",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 2,
+        "schema": "ArgumentsOutput",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 3,
+        "schema": "ArgumentCritique",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 4,
+        "schema": "ArgumentCritique",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 5,
+        "schema": "SingleArgumentScore",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 6,
+        "schema": "SingleArgumentScore",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 7,
+        "schema": "IndividualRefinedArgumentOutput",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 8,
+        "schema": "IndividualRefinedArgumentOutput",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 9,
+        "schema": "SingleArgumentScore",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 10,
+        "schema": "SingleArgumentScore",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 11,
+        "schema": "EvidenceReviewOutput",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      },
+      {
+        "attempt": 12,
+        "schema": "SingleAnalystAssessment",
+        "prompt_hash_matches": true,
+        "private_outcome_marker_present": false
+      }
+    ],
+    "semantic_support_certified": false,
+    "pretrained_future_knowledge_excluded": false
+  },
+  "fairness": {
+    "shared_budget": true,
+    "equal_per_arm_allowance": false,
+    "equal_cost": false,
+    "randomized_order": false,
+    "note": "order must be frozen by caller; changed order alone cannot establish superiority"
+  },
+  "raw_sha256": {
+    "plan.json": "b3fa93275c37b69288d5c596fc6b50cf43b2028ba6cff3457500d81df58367f4",
+    "result.json": "ec5f87c58dfb74a85506d873f1fc694496db611c9d8abb655234aa9347fdaf1d",
+    "arms.json": "25605ee795d0e732c0e7c83a0bd76181328d11b8b9242ae158e4f1f4aa32d539",
+    "committee_draft_trace.json": "37e9ba810e0e29b604e3fd53d3690b7d811b0c46beaa4d706e42be99ac22cc2a",
+    "single_analyst_raw.json": "a0c5a6da26fb86c6a9e775bc9ca7f511ec0e8b9b1c83a333da8997d451277ae8"
+  },
+  "observations": [
+    "Both arms preserved unresolved information; no substantive recommendation released.",
+    "Observed resource/latency difference on one cached-source development case is not a quality or superiority result.",
+    "Committee-first order was pre-frozen, not randomized or equal-cost.",
+    "Argument support checker/Ragas and dynamic research were not part of this fixed-analysis comparison."
+  ],
+  "model_weights_snapshot_independently_verified": false,
+  "Y_changed": false,
+  "training_run": false,
+  "semantic_support_certified": false,
+  "predictive_accuracy_evaluated": false,
+  "invoice": "UNKNOWN"
+}

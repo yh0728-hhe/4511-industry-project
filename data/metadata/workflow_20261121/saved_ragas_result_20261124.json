@@ -1,0 +1,42 @@
+{
+  "protocol_id": "SAVED-RAGAS-20261124-001",
+  "live_result": {
+    "status": "STOPPED_NO_RETRY",
+    "reason": "FAITHFULNESS_VERDICT_STATEMENT_MISMATCH",
+    "elapsed_seconds": 48.434,
+    "cli_attempts": 2,
+    "budget": {
+      "used": {
+        "model": 2,
+        "search": 0
+      },
+      "caps": {
+        "model": 2,
+        "search": 0
+      },
+      "active": 0
+    },
+    "original_hashes_unchanged": true,
+    "new_http": 0,
+    "semantic_accuracy_measured": false,
+    "acceptance_changed": false,
+    "retry": false
+  },
+  "finding": "Both CLI processes returned schema-decodable outputs; checker rejected mismatch between decomposition statements and NLI statement strings. No valid score.",
+  "root_cause": "UNKNOWN: original decoded stage outputs were not retained; mismatch cannot be confidently attributed to paraphrase, whitespace, omission or hallucination.",
+  "offline_change": "Explicit exact-copy adapter instruction with own hash; retain both stage outputs in memory and saved failure diagnostics. Upstream instruction strings unchanged.",
+  "tests": {
+    "focused_ragas": 20,
+    "focused_saved": 11,
+    "full_total": 690,
+    "passed": 687,
+    "skipped": 3,
+    "run_id": "ragas-copy-binding-20261124-001"
+  },
+  "new_live_calls_after_change": 0,
+  "sealed_experiment_replayed": false,
+  "raw_receipt_sha256": "daa2e58b45c232b9783234da5c8a57a1dd9d9398f1b0b8d4625ba56a7011fead",
+  "semantic_accuracy_measured": false,
+  "Y_changed": false,
+  "attribution": "Codex completed the interrupted offline correction; prior actual Claude work attributed in saved_ragas_adapter_20261124.json."
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-22",
+  "task_id": "CLAUDE-CORE-ARCHIVE-STOP-20261122",
+  "input_commit": "59564f0",
+  "primary_implementer": "actual local Claude Code CLI",
+  "worker_invocations": 1,
+  "worker_terminal_state": "TIMEOUT_WITH_PARTIAL_EDITS_NO_FINAL_REPORT",
+  "reviewer": "Codex root independently inspected and completed integration",
+  "validation": {
+    "runtime_tests": {
+      "total": 246,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "skipped": 0
+    }
+  },
+  "validation_run": "claude-archive-stop-validation-001",
+  "new_tests": 7,
+  "behavior": [
+    "HTTP403 ARCHIVE_ACCESS_RESTRICTED",
+    "HTTP429 ARCHIVE_RATE_LIMITED",
+    "Stop before new archive/model dispatch",
+    "Keep earlier verified evidence when later replay blocked",
+    "Do not relabel terminal access failure as NO_NEW_EVIDENCE",
+    "404/empty/malformed data remain nonterminal distinct unknowns"
+  ],
+  "component_runs_sha256": "2ffe4b4b530037914e32b27d588e4c1d35cd88203a573fd458c2e167d19a7348",
+  "new_real_model_or_http_research_calls": 0,
+  "model_usage_note": "One actual subscription Claude implementation invocation; underlying internal token/request count not independently verified. All acceptance model/HTTP responses are injected.",
+  "paid_research_API_calls": 0,
+  "y_changed": false,
+  "training_run": false,
+  "scheduler_enabled": false,
+  "remaining_blocker": "No admissible pre-cutoff company body obtained; new real-company end-to-end experiment still NOT_RUN",
+  "raw_timeout_output": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

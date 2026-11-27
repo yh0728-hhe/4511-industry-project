@@ -1,0 +1,32 @@
+{
+  "protocol_id": "SAVED-DIAGNOSTICS-TRIAGE-LEAD-20261125-001",
+  "execution_commit": "d08deb2",
+  "status": "TRIAGE_LEAD_FEEDBACK_STOPPED",
+  "new_questions": 0,
+  "selected_tasks": 0,
+  "elapsed_seconds": 44.669,
+  "actual_new_cli_process_attempts": 1,
+  "actual_new_http": 0,
+  "logical_budget": {
+    "used": {
+      "model": 1,
+      "search": 2
+    },
+    "caps": {
+      "model": 2,
+      "search": 2
+    },
+    "active": 0
+  },
+  "failure": {
+    "error_type": "BudgetStopped",
+    "stop_reason": "EVIDENCE_GAP_TRIAGE_QUESTION_CAP_EXCEEDED"
+  },
+  "old_inputs_unchanged": true,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "OUTPUT_QUESTION_CAP_SAFELY_STOPPED_WITH_PROMPT_BOUND_OMISSION",
+  "finding": "Postvalidation bound4 was enforced but not communicated to the reused reviewer in the prompt. Lead never dispatched. New code now tells reviewer max4 novel questions and forbids paraphrasing already covered gaps.",
+  "semantic_accuracy_evaluated": false
+}

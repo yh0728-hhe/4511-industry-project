@@ -1,0 +1,312 @@
+{
+  "status": "RAG_REFERENCE_GROUP_INCOMPLETE_LOCAL_PROCESS_CAP",
+  "date": "2026-11-26",
+  "protocol": "data\\metadata\\workflow_20261121\\ragtruth_reference_protocol_20261126.json",
+  "execution": {
+    "Y_changed": false,
+    "actual_source_http_requests": 0,
+    "aggregate_accuracy": null,
+    "all_rows_completed": false,
+    "case_ids": [
+      "ragtruth-response-11904",
+      "ragtruth-response-12012",
+      "ragtruth-response-12018",
+      "ragtruth-response-12044",
+      "ragtruth-response-12219",
+      "ragtruth-response-12233"
+    ],
+    "company_quality_gold": false,
+    "completed": [
+      {
+        "case_id": "ragtruth-response-11904",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 12
+      },
+      {
+        "case_id": "ragtruth-response-12012",
+        "prediction": 0,
+        "score": 0.7058823529411765,
+        "statement_count": 17
+      },
+      {
+        "case_id": "ragtruth-response-12018",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 11
+      },
+      {
+        "case_id": "ragtruth-response-12044",
+        "prediction": 0,
+        "score": 0.5,
+        "statement_count": 12
+      },
+      {
+        "case_id": "ragtruth-response-12219",
+        "prediction": 0,
+        "score": 0.6153846153846154,
+        "statement_count": 13
+      }
+    ],
+    "failed": [
+      {
+        "case_id": "ragtruth-response-12233",
+        "error": "BudgetStopped"
+      }
+    ],
+    "input_sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a",
+    "invoice": "UNKNOWN",
+    "last_case_index": 5,
+    "logical_call_budget": {
+      "active": 0,
+      "caps": {
+        "model": 18,
+        "search": 0
+      },
+      "used": {
+        "model": 18,
+        "search": 0
+      }
+    },
+    "managed_network_requests": "UNKNOWN",
+    "model_cli_attempts": 18,
+    "not_run": [],
+    "planned_rows": 6,
+    "protocol_id": "RAGTRUTH-QA-SUPPORT-20261126-001",
+    "protocol_sha256": "9e48fe650c57fda29bb67a860559cc6105a30b51dd1f8e1938229d32811e8651",
+    "status": "RAGTRUTH_REFERENCE_PREDICT_STOPPED",
+    "stop_reason": "CLI_PROCESS_CAP",
+    "training_run": false
+  },
+  "parent_process": {
+    "exit_code": 2,
+    "elapsed_seconds": 240.094,
+    "retry": false
+  },
+  "offline_reference_grade": {
+    "status": "INCOMPLETE_NO_GROUP_AGREEMENT",
+    "cases": [
+      {
+        "case_id": "ragtruth-response-11904",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12012",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 0,
+        "match": false
+      },
+      {
+        "case_id": "ragtruth-response-12018",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12044",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12219",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12233",
+        "status": "FAILED",
+        "reference_supported": 0,
+        "prediction": null,
+        "match": null
+      }
+    ],
+    "planned": 6,
+    "completed": 5,
+    "failed": 1,
+    "not_run": 0,
+    "reference_matches": null,
+    "confusion_counts": null,
+    "sample_agreement": null,
+    "constant_not_supported_matches": null,
+    "external_reference_labels_human": true,
+    "company_quality_gold": false,
+    "aggregate_accuracy": null,
+    "training": false,
+    "Y_changed": false,
+    "model_calls": 0,
+    "source_http_requests": 0,
+    "limitations": [
+      "Six purposive public RAGTruth QA cases, not unseen holdout or representative startup evaluation.",
+      "Agreement is relative to supplied span annotations, not independently certified truth.",
+      "A failed or missing prediction is retained, never mapped to a negative factual label.",
+      "No general evaluator accuracy, investment performance or statistical superiority claim."
+    ],
+    "input_sha256": {
+      "predictions": "0388e5ced4d4d3a0f112785059d3866e2549f2ea021622208f0f751b3587d82a",
+      "gold": "745bb96b5d3aa00ccce6442cf77e81324160772ed5dca23307c10d5382b256b2",
+      "protocol": "9e48fe650c57fda29bb67a860559cc6105a30b51dd1f8e1938229d32811e8651"
+    }
+  },
+  "per_case_call_geometry": [
+    {
+      "case_id": "ragtruth-response-11904",
+      "decomposed_statements": 12,
+      "required_nli_batches": 2,
+      "completed_nli_batches": 2
+    },
+    {
+      "case_id": "ragtruth-response-12012",
+      "decomposed_statements": 17,
+      "required_nli_batches": 3,
+      "completed_nli_batches": 3
+    },
+    {
+      "case_id": "ragtruth-response-12018",
+      "decomposed_statements": 11,
+      "required_nli_batches": 2,
+      "completed_nli_batches": 2
+    },
+    {
+      "case_id": "ragtruth-response-12044",
+      "decomposed_statements": 12,
+      "required_nli_batches": 2,
+      "completed_nli_batches": 2
+    },
+    {
+      "case_id": "ragtruth-response-12219",
+      "decomposed_statements": 13,
+      "required_nli_batches": 2,
+      "completed_nli_batches": 2
+    },
+    {
+      "case_id": "ragtruth-response-12233",
+      "decomposed_statements": 11,
+      "required_nli_batches": 2,
+      "completed_nli_batches": 1
+    }
+  ],
+  "observed_model_cli_attempts": 18,
+  "new_source_http_during_prediction": 0,
+  "all18_recorded_model_inputs_without_reference_label_fields": true,
+  "source_hashes_reverified": 13,
+  "dataset_pretraining_exclusion_proven": false,
+  "reference_matches_for_whole_group": null,
+  "retry": false,
+  "new_budget_for_failed_case": false,
+  "Y_changed": false,
+  "training": false,
+  "interpretation": [
+    "Five cases completed; sixth retained failed rather than treated as unsupported or dropped.",
+    "The predefined physical process cap was reached, not an observed account quota exhaustion.",
+    "No group agreement, benchmark accuracy, official RAGTruth score or investment-quality claim.",
+    "Decomposition/NLI batching fan-out is measured; no threshold/batch/cap changes or rerun after results.",
+    "Prediction process did not open gold; separate offline grading happened only after exit."
+  ],
+  "artifact_sha256": {
+    "ragtruth_reference_live_001\\completed_rows.json": "c371824e23c61e674ce772933cd28c8b64ca669b8a5e5d1131373f9ab20b659d",
+    "ragtruth_reference_live_001\\dispatch.jsonl": "b80a432c867d8b9441a8d553eb212e95bb940b16328a0b779fa8350948379667",
+    "ragtruth_reference_live_001\\plan.json": "5fc2ce1d92ab219cb2d51ca1d5b4aa42ea1742d8c52392361cf481b1e946bfa8",
+    "ragtruth_reference_live_001\\result.json": "0388e5ced4d4d3a0f112785059d3866e2549f2ea021622208f0f751b3587d82a",
+    "ragtruth_reference_live_001\\row_00_assessment.json": "6ad7cebed78fef82c0d85706c2de27629872bdf37dc12fd3103cdb2453f0f685",
+    "ragtruth_reference_live_001\\row_00_calls.json": "d905592d0b854f0e207f12c8292f132e768a4bd307d39084ee89d7e16c14ead7",
+    "ragtruth_reference_live_001\\row_00_trace.json": "a27fb333de195b7b0bbc2fa44de28950c93b4edd0e1a0b1c18808f3d1255dbf0",
+    "ragtruth_reference_live_001\\row_01_assessment.json": "bd54f06a1f7f851f61451679cb77f4f60f3399324fa3a343eb4038a9d7ea81e0",
+    "ragtruth_reference_live_001\\row_01_calls.json": "66b5c2779b734a8922a7192a76c99f3e7d9a89c1ebdb1c1803ef2f3fd85e0897",
+    "ragtruth_reference_live_001\\row_01_trace.json": "6b8935f5b593273c6de748dcd588574bf35b383af8b9c4ceff412788554a52eb",
+    "ragtruth_reference_live_001\\row_02_assessment.json": "c924f1b89b5861cc1e308cc7c36ca6f94a2bd17747b65ee184a2600925161f7a",
+    "ragtruth_reference_live_001\\row_02_calls.json": "1f6bfc99ebfc25a355aedfc0b730b00b5efdcc59e21daa0624c00be066e527a3",
+    "ragtruth_reference_live_001\\row_02_trace.json": "5b26b877f1ace40b31cc6991ec08a26b0463b47e089c8431f1dbb4b2d41ebcf7",
+    "ragtruth_reference_live_001\\row_03_assessment.json": "8cbd57f9a707f271e57b77b0dd65440d83afcfedb8e7859f495c1885dacdfb27",
+    "ragtruth_reference_live_001\\row_03_calls.json": "77ca0adaaae3302262a7384b2b7ace52eb0bbaae3f8844baa3de0ad86190bb7f",
+    "ragtruth_reference_live_001\\row_03_trace.json": "2218da5f09a6a0a98bd855fae4ce419f5f0fe4ae4cd29f8da99a8a2c8b4574d8",
+    "ragtruth_reference_live_001\\row_04_assessment.json": "c6bd0e1d1431f27a487ec3533fe6847e0d62424864bc9abb09dc808491c72575",
+    "ragtruth_reference_live_001\\row_04_calls.json": "2cec8741c6829ea33b82ea4d5c9836cbc931705a1d0e3c1cc5738ebeb92ef874",
+    "ragtruth_reference_live_001\\row_04_trace.json": "c946c34e3e6c0f45b94aadfe0dbfa63a5dbefc3860c04683a716ec5c2dc02687",
+    "ragtruth_reference_live_001\\row_05_calls.json": "564b7d3bf2f7771a1b5494e044ed7b1b9b5a58ea2f8bb8f8aedd8f066cef8412",
+    "ragtruth_reference_live_001\\row_05_trace.json": "c5fe95aae04d0c5955ee23a055a70aad9456b351411c04c6488f5ffb5530ce18",
+    "ragtruth_reference_live_001\\backend_wire\\call_001.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_001.stdin": "97412d494c611767fff28a4f39e5baacc77d2b1892af2172ff1e6f7557cae99b",
+    "ragtruth_reference_live_001\\backend_wire\\call_001.stdout": "33316c08f02f786004010f7673fc6fd5f4295e880776055364abe99c1c95a970",
+    "ragtruth_reference_live_001\\backend_wire\\call_002.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_002.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_002.stdin": "b83f5f636601113b2ef369555cb65ee1002a2d20c7ff1b9014fc69cfeb89c10f",
+    "ragtruth_reference_live_001\\backend_wire\\call_002.stdout": "de3d71d73dee65c160354f89454228a9c6f9a36a06adf20944474e733b31eadc",
+    "ragtruth_reference_live_001\\backend_wire\\call_003.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_003.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_003.stdin": "327c65eccca6f66932fc86c85b9ecdb3a3a3e7e740c6a44ef193c331264513dd",
+    "ragtruth_reference_live_001\\backend_wire\\call_003.stdout": "e110ace2568f548ed9d3b99efb94045e1c3f2da2518f0b295ef43c1c614a9608",
+    "ragtruth_reference_live_001\\backend_wire\\call_004.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_004.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_004.stdin": "c7a87e9ff8aa60d1cee38acd757b2ccc9d1011f2d050b49d05d9bb42ba31f8f7",
+    "ragtruth_reference_live_001\\backend_wire\\call_004.stdout": "8e87a6eab2ab8f57ca30f0e7cadc34bb36abab298dfd5feeffad74235a1b8f06",
+    "ragtruth_reference_live_001\\backend_wire\\call_005.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_005.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_005.stdin": "90eac289c6f19e92ede48dc8b1d974f797d77ec3e79eda1a701675186ac1ae9e",
+    "ragtruth_reference_live_001\\backend_wire\\call_005.stdout": "19217f20e41d0c89c011461c5577e0a0b7b8cd7347190ba96a18daa8ee9db188",
+    "ragtruth_reference_live_001\\backend_wire\\call_006.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_006.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_006.stdin": "23b5d0d6df894880e4c18ec511ad5fda515f69ceafea93bc5ba8cad1244080c0",
+    "ragtruth_reference_live_001\\backend_wire\\call_006.stdout": "475c920f3e73dd1cce13bc8fe7f4fb08ddb606ce1ff8b047d92c45a2f4ff56cb",
+    "ragtruth_reference_live_001\\backend_wire\\call_007.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_007.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_007.stdin": "6dad96ff16e5caca7afd0184651c3ada9dff8b26e9982ed204f1be0acc500071",
+    "ragtruth_reference_live_001\\backend_wire\\call_007.stdout": "81f379825617aea0942539574942dbf21c4a9c442c80e05b95007d9b9414f67b",
+    "ragtruth_reference_live_001\\backend_wire\\call_008.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_008.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_008.stdin": "75a5248f4d9c9060227e402fb3047e82a1fd05cff5efe81382faa035cfec5335",
+    "ragtruth_reference_live_001\\backend_wire\\call_008.stdout": "515ac329405e6e4126efdcb01645f810a30f1fd00215ca42cbaa5aba25a4882b",
+    "ragtruth_reference_live_001\\backend_wire\\call_009.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_009.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_009.stdin": "083ef9d51a5ca0e844083cf26362a2b5a83deb88a4cf7797fce6ba379d698888",
+    "ragtruth_reference_live_001\\backend_wire\\call_009.stdout": "3de046234ac9b2311f0a60b9de7ac44ea747fe4e48d2f97e8b52e549f956062f",
+    "ragtruth_reference_live_001\\backend_wire\\call_010.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_010.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_010.stdin": "7d61f3cc9ea0f97eb7124724eeb09bcf845e7fa624695d00bd7b2caef262d1f8",
+    "ragtruth_reference_live_001\\backend_wire\\call_010.stdout": "d432b78ea5fd7565b2ab7affbf07ee9b1f710c6b18aa47b33e952ec0f8d41b93",
+    "ragtruth_reference_live_001\\backend_wire\\call_011.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_011.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_011.stdin": "eb917c730d99b3f5b17289e659dfdfd5e766d35681788ff7dd25dd2d669fe593",
+    "ragtruth_reference_live_001\\backend_wire\\call_011.stdout": "e9d2426e6eb87a36fa5a9809387db91b236c9ad937d8f9148fd94cb3e4faf59b",
+    "ragtruth_reference_live_001\\backend_wire\\call_012.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_012.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_012.stdin": "0a45e4f06f83fce8565732eff4d24061c85b061cb61e78963d1ef1b73059d187",
+    "ragtruth_reference_live_001\\backend_wire\\call_012.stdout": "474ab92129d644d031312e536f8e6708c6515db9d6b9cd0e72688af0c13e29d1",
+    "ragtruth_reference_live_001\\backend_wire\\call_013.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_013.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_013.stdin": "c221fb8f869b99e7e415056209e0c7a1723863ec7b6f541d4d82c6806667b911",
+    "ragtruth_reference_live_001\\backend_wire\\call_013.stdout": "12207734b8e5bab30f98dd45ad84f23301cc1286c1f2df409d095af3a1ea7082",
+    "ragtruth_reference_live_001\\backend_wire\\call_014.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_014.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_014.stdin": "ba3537bd62ab717295902c6178aa340ec4858cb48c4b1e6a3b2bbf7b0461e47e",
+    "ragtruth_reference_live_001\\backend_wire\\call_014.stdout": "3b1fa4cf57ad162d550fc982500ee603dba79fb407901a9fbece0a74dbd60828",
+    "ragtruth_reference_live_001\\backend_wire\\call_015.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_015.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_015.stdin": "69734a1561f5e9da7e5408721375fc965415299c21542962cf6da0135ff638de",
+    "ragtruth_reference_live_001\\backend_wire\\call_015.stdout": "cd9e8e810d16b44c75f0fcc33d84167b20364b6a241b57274e5f4328e8c27718",
+    "ragtruth_reference_live_001\\backend_wire\\call_016.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_016.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_016.stdin": "7025a0492445e90340c6261de9b1634f748ffbd4e668ab29f4dc096b6d1094a6",
+    "ragtruth_reference_live_001\\backend_wire\\call_016.stdout": "da11578258a80fae711b766758c984384a1ccf07d9df6ce7b92992afbc424ac1",
+    "ragtruth_reference_live_001\\backend_wire\\call_017.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "ragtruth_reference_live_001\\backend_wire\\call_017.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_017.stdin": "1a0cb86b43531afae57977f34fe02fce6637e811caafe437df61259aa374982d",
+    "ragtruth_reference_live_001\\backend_wire\\call_017.stdout": "eeedd3cc9dd9dbb0e9138f9701fa4cdff765a163b4c83ebf1bd416889028ab96",
+    "ragtruth_reference_live_001\\backend_wire\\call_018.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "ragtruth_reference_live_001\\backend_wire\\call_018.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ragtruth_reference_live_001\\backend_wire\\call_018.stdin": "56d7d0637a937691c3998288001bdade20da2d74da52704ffc68eebef2d836f3",
+    "ragtruth_reference_live_001\\backend_wire\\call_018.stdout": "18c411e317d280c22071c99e3f6228aa07b0daedb9104c268a5f221d4d8df845",
+    "ragtruth_reference_harness_001\\receipt.json": "ba13d81283fca1c7a5c3865eb1da3cffb57ddf2b1ae60b2d11f4e9fd59c1d061",
+    "ragtruth_reference_harness_001\\intent.json": "4d601273937535a43068024dabf95d70c2d106463f9c7e9ca64222c3bb197968",
+    "ragtruth_reference_harness_001\\offline_reference_grade.json": "093858cf014e340d297af5fca71ae5e6b8e2f7e7df96f61cf3ee11fe23cc5084"
+  }
+}

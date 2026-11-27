@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-11-24T18:06:05.208858+00:00",
+  "status": "BASELINE_AND_SHARED_BUDGET_PAIR_OFFLINE_VALIDATED_LIVE_NOT_RUN",
+  "implementation": "Codex after bounded Claude timeout with no files",
+  "offline_tests": {
+    "total": 654,
+    "passed": 651,
+    "skipped": 3
+  },
+  "baseline_tests": 10,
+  "paired_tests": 6,
+  "protocol_id": "FIXED-EVIDENCE-PAIR-20261124-001",
+  "spec_sha256": "f71653ed5ee4aff5539ad538559dcc8b12d1d4aecb70f4296a6ec3a15f7bda5d",
+  "new_company_model_calls": 0,
+  "predictive_accuracy_evaluated": false,
+  "semantic_support_certified": false,
+  "Y_changed": false,
+  "training_run": false
+}

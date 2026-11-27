@@ -1,0 +1,47 @@
+{
+  "status": "SEMANTIC_CONTEXT_VERIFIED",
+  "actual_new_http": 0,
+  "actual_new_models": 0,
+  "captured_body_bytes": 363271,
+  "extracted_context_chars": 5033,
+  "admitted_text_chars": 5162,
+  "source_fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+  "archive_receipts": [
+    {
+      "source_id": "b17c1685eb58c53d977a20436cc1363920698d3df4ab6fe470ecf40bc4ffb72e",
+      "subject_id": "hatchet",
+      "original_url": "https://github.com/hatchet-dev/hatchet",
+      "replay_url": "https://web.archive.org/web/20240402084716id_/https://github.com/hatchet-dev/hatchet",
+      "selected_capture": "20240402084716",
+      "memento_datetime": "2024-04-02T08:47:16+00:00",
+      "body_sha256": "d0b7e66a7b1a9c53e33beab731a1b1d40aab4d57e75db99f89df98ceee0d5c32",
+      "visible_text_sha256": "f5ead23e4a3df8cadcf7d8fe020bb14414fe1a13b328b542d2baea1269844983",
+      "extractor": "stdlib-visible-text-v1",
+      "truncated": true,
+      "availability_proof": "READABLE_REPLAY_MATCHING_MEMENTO",
+      "identity_proof": "CALLER_SUPPLIED_DOMAIN_ANCHOR_NOT_INDEPENDENT_OWNERSHIP_CHECK",
+      "identity_binding": "HEADLINE_AND_LINK_MATCHED_COMPANY_NAME_OR_DOMAIN",
+      "source_scope": "THIRD_PARTY_PUBLISHER_NOT_WHITELISTED",
+      "editorial_independence": "UNKNOWN",
+      "context_text_sha256": "77e2242be635d9ae339ca5539997aad7445a27bae574c04ba3c81374ecafa14e",
+      "context_extractor": "static-article-main-v1"
+    }
+  ],
+  "logical_budget": {
+    "used": {
+      "model": 0,
+      "search": 2
+    },
+    "caps": {
+      "model": 0,
+      "search": 2
+    },
+    "active": 0
+  },
+  "context_code_sha256": "a7d7a048b49bac91d9b172a3772149a22b8de6aa4dc9d8420b63bd2fb29451d9",
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "CAPTURED_REAL_REPLAY_SEMANTIC_CONTEXT_VERIFIED",
+  "accuracy_evaluated": false,
+  "console_note": "Diagnostic excerpt print failed on GBK console after UTF8artifacts saved; extraction/proof receipt complete, allofflinechecks subsequentlypassed."
+}

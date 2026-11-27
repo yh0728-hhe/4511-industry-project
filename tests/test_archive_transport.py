@@ -10,7 +10,8 @@ sys.path.insert(0,str(Path(__file__).parents[1]/'src'))
 from closed_loop.fixtures import request,stamp
 from closed_loop.contracts import ResearchRequest
 from closed_loop.guards import CallBudget,TemporalGateway,BudgetStopped
-from closed_loop.archive_transport import ArchivedWebsiteProvider,HTTPResponse,archive_url_allowed,RetrievalFailed,visible_text
+from closed_loop.archive_transport import (ArchivedWebsiteProvider,HTTPResponse,archive_url_allowed,
+    RetrievalFailed,visible_text,ArchiveRestricted)
 
 
 class ArchiveFixtureHTTP:
@@ -39,6 +40,37 @@ class ArchiveFixtureHTTP:
         if self.variant=='short':body=b'<html><script>modern scripted content</script>empty</html>'
         else:body=b'<html><body>Synthetic archived company information, products and market context. This is explicitly invented fixture content. <script>SECRET_SCRIPT_VALUE</script></body></html>'
         return HTTPResponse(200,final,headers,body)
+
+
+class RootRestrictedHTTP:
+    """The very first (bootstrap homepage) CDX lookup is archive-restricted."""
+    def __init__(self,status):
+        self.status=status;self.calls=[]
+    def get(self,url,timeout,max_bytes,check_deadline=lambda:None):
+        self.calls.append(url);check_deadline()
+        return HTTPResponse(self.status,url,{},b'')
+
+
+class TeamPageRestrictedHTTP:
+    """Homepage resolves normally; the later team-page replay is restricted."""
+    def __init__(self,status):
+        self.status=status;self.calls=[]
+    def get(self,url,timeout,max_bytes,check_deadline=lambda:None):
+        self.calls.append(url);check_deadline()
+        if '/cdx/' in url:
+            target=parse_qs(urlparse(url).query)['url'][0]
+            original='https://'+target
+            rows=[['timestamp','original','statuscode','mimetype'],['20240320000000',original,'200','text/html']]
+            return HTTPResponse(200,url,{},json.dumps(rows).encode())
+        if url.endswith('id_/https://synthetic.example/team'):
+            return HTTPResponse(self.status,url,{},b'')
+        headers={'Memento-Datetime':'Wed, 20 Mar 2024 00:00:00 GMT','Content-Type':'text/html'}
+        body=(b'<html><body>Synthetic archived root page with enough visible text for admission checks. '
+              b'<a href="/team">Meet our founding team</a></body></html>')
+        return HTTPResponse(200,url,headers,body)
+
+
+TEAM_TASK=ResearchRequest('team','Our founding team history','SYNTHETIC_COMPANY')
 
 
 def provider(variant='ok',cap=8,max_requests=8):
@@ -130,6 +162,76 @@ class ArchiveTests(unittest.TestCase):
         for url in ('https://evil.example/','http://web.archive.org/','https://web.archive.org.evil.example/',
                     'https://key@web.archive.org/','https://web.archive.org:bad/','https://web.archive.org:444/'):
             self.assertFalse(archive_url_allowed(url))
+
+    def test_cdx_403_or_429_stops_the_run_with_an_explicit_restriction_cause(self):
+        for status,cause in ((403,'ARCHIVE_ACCESS_RESTRICTED'),(429,'ARCHIVE_RATE_LIMITED')):
+            with self.subTest(status=status):
+                req=request();budget=CallBudget(req);gateway=TemporalGateway(req,[])
+                client=RootRestrictedHTTP(status)
+                p=ArchivedWebsiteProvider(req,gateway,budget,client,max_requests=8)
+                self.assertEqual(p.search(TASK),())
+                self.assertTrue(budget.stopped)
+                self.assertEqual(budget.stop_reason,cause)
+                self.assertIn(cause,[x['status'] for x in p.attempts])
+                self.assertEqual(len(client.calls),1)
+
+    def test_replay_403_or_429_after_successful_root_preserves_the_root_evidence(self):
+        for status,cause in ((403,'ARCHIVE_ACCESS_RESTRICTED'),(429,'ARCHIVE_RATE_LIMITED')):
+            with self.subTest(status=status):
+                req=request();budget=CallBudget(req);gateway=TemporalGateway(req,[])
+                client=TeamPageRestrictedHTTP(status)
+                p=ArchivedWebsiteProvider(req,gateway,budget,client,max_requests=8)
+                candidates=p.search(TEAM_TASK)
+                self.assertEqual(len(candidates),1)
+                fact,rejection=gateway.admit(candidates[0])
+                self.assertIsNone(rejection)
+                self.assertTrue(budget.stopped)
+                self.assertEqual(budget.stop_reason,cause)
+                self.assertIn(cause,[x['status'] for x in p.attempts])
+                # Root capture+replay plus the restricted team CDX+replay: no retry.
+                self.assertEqual(len(client.calls),4)
+
+    def test_restriction_blocks_cross_task_dispatch_and_retains_the_original_cause(self):
+        client=TeamPageRestrictedHTTP(429)
+        req=request();budget=CallBudget(req);gateway=TemporalGateway(req,[])
+        p=ArchivedWebsiteProvider(req,gateway,budget,client,max_requests=8)
+        first=p.search(TEAM_TASK)
+        self.assertEqual(len(first),1)
+        calls_after_first=len(client.calls)
+        # A genuinely new subject/domain would need a fresh CDX+replay pair;
+        # the restriction must stop it before any new dispatch, not just this path.
+        p.domain_anchors['PEER_COMPANY']='peer.example'
+        with self.assertRaisesRegex(BudgetStopped,'ARCHIVE_RATE_LIMITED'):
+            p.search(ResearchRequest('founder','founders','SYNTHETIC_COMPANY','PEER_COMPANY'))
+        self.assertEqual(len(client.calls),calls_after_first)
+        self.assertEqual(budget.stop_reason,'ARCHIVE_RATE_LIMITED')
+
+    def test_ordinary_404_and_malformed_cdx_are_not_mislabeled_as_restriction(self):
+        for variant in ('empty','bad_json'):
+            p,_,b,_=provider(variant)
+            self.assertEqual(p.search(TASK),())
+            self.assertFalse(b.stopped)
+            statuses=[x['status'] for x in p.attempts]
+            self.assertNotIn('ARCHIVE_ACCESS_RESTRICTED',statuses)
+            self.assertNotIn('ARCHIVE_RATE_LIMITED',statuses)
+
+    def test_direct_restriction_marks_budget_before_unwind(self):
+        req=request();budget=CallBudget(req);gateway=TemporalGateway(req,[])
+        client=RootRestrictedHTTP(429)
+        p=ArchivedWebsiteProvider(req,gateway,budget,client,max_requests=8)
+        with self.assertRaisesRegex(ArchiveRestricted,'ARCHIVE_RATE_LIMITED'):
+            p._get('https://web.archive.org/cdx/search/cdx?url=synthetic.example/')
+        self.assertTrue(budget.stopped)
+        self.assertEqual(budget.stop_reason,'ARCHIVE_RATE_LIMITED')
+
+    def test_actual_http404_remains_nonterminal_unknown(self):
+        req=request();budget=CallBudget(req);gateway=TemporalGateway(req,[])
+        client=RootRestrictedHTTP(404)
+        p=ArchivedWebsiteProvider(req,gateway,budget,client,max_requests=8)
+        self.assertEqual(p.search(TASK),())
+        self.assertFalse(budget.stopped)
+        self.assertEqual(client.calls.__len__(),1)
+        self.assertIn('HTTP_404',[x['status'] for x in p.attempts])
 
 
 if __name__=='__main__':unittest.main()

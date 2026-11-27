@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-21",
+  "status": "OFFLINE_WORKFLOW_READY_HISTORICAL_AND_LIVE_GATES_OPEN",
+  "validation": {
+    "runtime_tests": {
+      "total": 181,
+      "passed": 180,
+      "skipped": 1,
+      "log_sha256": "1f88455350c3ca79dd288c4a8b937ba38afee1281a79d8dda65d9ac284d7690c"
+    },
+    "funding_tests": {
+      "total": 205,
+      "passed": 203,
+      "skipped": 2,
+      "log_sha256": "d2c897124143069897af016fdb31e4bd8c48929de9448e7eb9970ca351c51bca"
+    },
+    "outcome_tests": {
+      "total": 33,
+      "passed": 33,
+      "skipped": 0,
+      "log_sha256": "c7877cf2ca46d16f56d4cfe0eb037237dd7e81c007f3b4073ffb262b74539c7c"
+    }
+  },
+  "total_tests": 419,
+  "passed_tests": 416,
+  "skipped_tests": 3,
+  "same_completed_run_resumed": true,
+  "completed_steps_reexecuted_on_resume": 0,
+  "actual_new_experiment_model_api_calls": 0,
+  "actual_training_runs": 0,
+  "claude_reviews_completed": 2,
+  "real_archive_probe": {
+    "company": "Adagy Robotics",
+    "http_attempts": 1,
+    "http_status": 200,
+    "result": "NO_ELIGIBLE_RETURNED_CAPTURE",
+    "interpretation": "Exact repository domain lookup only, not proof no historic company evidence exists."
+  },
+  "labels_unchanged": true,
+  "next_gate": "User-forwarded Muse historical identity/domain and readable archive proof; then review exact currently pinned paid smoke plan if justified.",
+  "not_established": [
+    "real new backend model performance",
+    "external programmatic Muse triggering",
+    "verified historical domain ownership",
+    "OS-level isolation",
+    "supervised classifier readiness"
+  ],
+  "ci": {
+    "source_commit": "0fa3dc9",
+    "jobs": [
+      {
+        "id": 136985294050,
+        "conclusion": "success",
+        "url": "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/44949896753/job/136985294050"
+      },
+      {
+        "id": 136985280523,
+        "conclusion": "success",
+        "url": "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/44949892490/job/136985280523"
+      }
+    ],
+    "verified": "RemoteGitHub check-runs and decoded successful job log confirm all6stages plus completed-run resume. Local419count reported separately, not guessed from remote hidden sublogs."
+  },
+  "ci_portability_fixes": [
+    "Preserved teammate explicit ownedTCP loopback test; Unix socketpair alone does not increment TCP count.",
+    "Checkout full history so pinned historical Gitblob checks can run.",
+    "Legacy identifier repair compares canonicalchecked-in content and twoactual raw rebuilds, retaining byte-determinism checks without LF/CRLF falsefail. No frozen-label content changed."
+  ]
+}

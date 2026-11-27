@@ -1,0 +1,16 @@
+{
+  "upstream": "vibrantlabsai/ragas",
+  "commit": "8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "files": {
+    "src/ragas/metrics/_faithfulness.py": {
+      "url": "https://github.com/vibrantlabsai/ragas/blob/8c63f10d500c44efbf24fdb9e2920de2104c321c/src/ragas/metrics/_faithfulness.py",
+      "sha256": "5370b57f3df537a1619f7c6ddeeb5fd67e392821a5dee30eb5e0830f3a75cdc9"
+    },
+    "LICENSE": {
+      "url": "https://github.com/vibrantlabsai/ragas/blob/8c63f10d500c44efbf24fdb9e2920de2104c321c/LICENSE",
+      "sha256": "664b930830f291c2936ab30bcd6ef9ca6c9c7384cc475ae0c526156a27d5a6c6"
+    }
+  },
+  "status": "SOURCE_PINNED_NOT_EXECUTED",
+  "reuse_scope": "Statement decomposition and context entailment prompt/schema via existing metered backend; no whole-framework installation."
+}

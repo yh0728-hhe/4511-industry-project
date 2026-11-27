@@ -1,0 +1,82 @@
+{
+  "protocol_id": "POSTHOC-SELECTED-ARGUMENT-SUPPORT-20261126-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "code_commit": "dc8e7e1f40d7ba4a30dabc08057d0431c1240cda",
+  "source_experiment": "VERIFIED-PUBLISHER-PAIR-20261126-001",
+  "source_trace_sha256": "37e9ba810e0e29b604e3fd53d3690b7d811b0c46beaa4d706e42be99ac22cc2a",
+  "company": {
+    "company_id": "hatchet",
+    "name": "Hatchet",
+    "domain": "hatchet.run"
+  },
+  "as_of": "2024-04-04T23:59:59Z",
+  "model": "claude-sonnet-5",
+  "mandate": "Assess an early-stage software investment strictly from admitted historical public evidence. Treat publisher technical and commercial claims as attributed claims, not independent performance or adoption verification. Preserve essential unknowns and do not infer failure from missing facts.",
+  "source_policy": "verified-archive-posthoc-support-diagnostic-v1",
+  "source_original_url": "https://github.com/hatchet-dev/hatchet",
+  "source_id": "b17c1685eb58c53d977a20436cc1363920698d3df4ab6fe470ecf40bc4ffb72e",
+  "expected_fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+  "captured_input_sha256": {
+    "archive_http_003.json": "02568352245cb403cddee3338355c3069f60daba363544e48a9015ce82dd530d",
+    "archive_http_003.body": "14d272d6ba7cd025c3dd5e63085c4bc2c37832458726499609e3c3e1bc2127f9",
+    "archive_http_004.json": "e54a3c2cf2361197ce239fef9b095ae1736c700485bce4fbacb942f9dbdd84a0",
+    "archive_http_004.body": "d0b7e66a7b1a9c53e33beab731a1b1d40aab4d57e75db99f89df98ceee0d5c32"
+  },
+  "arguments": [
+    {
+      "tracking_id": "arg_1",
+      "role": "pro",
+      "response_sha256": "060662461b98ea560e2ab6fa6af5a7618a8d7fd9d161529cc759bac7130e3b50",
+      "cited_fact_ids": [
+        "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5"
+      ]
+    },
+    {
+      "tracking_id": "arg_2",
+      "role": "contra",
+      "response_sha256": "dcbf66c99c86ada44166ecc91b1fc93f02992b53519ce891376950a64480a56b",
+      "cited_fact_ids": [
+        "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5"
+      ]
+    }
+  ],
+  "argument_selection": "ALL final-selected arguments in original frozen order; no filtering after observing scores",
+  "checker_upstream": "ragas@8c63f10d500c44efbf24fdb9e2920de2104c321c:ragas/metrics/_faithfulness.py (Apache License 2.0)",
+  "prompt_bundle_sha256": "651019377a41a6a23a841bf1ebf50ac59d6a3ce22ad63c2bee181783138e63e8",
+  "nli_batch_size": 8,
+  "max_model_cli_attempts": 12,
+  "max_analysis_seconds": 360,
+  "auth_check_seconds": 20,
+  "outer_timeout_seconds": 400,
+  "max_new_source_http_requests": 0,
+  "max_local_verifier_cache_gets": 2,
+  "run_gap_triage_if_any_unsupported": true,
+  "max_novel_factual_questions": 4,
+  "question": "Is this investment argument supported by its cited historical evidence?",
+  "code_sha256": {
+    "ragas_faithfulness.py": "dc27b1a4182756da0ce854f707a63a773b7b3edab49ffbd3a74f8683bc1132f4",
+    "evidence_gap_triage.py": "aa9cd81aec0bc74604157c0977f849f19e1e0e623e0944b7d182af316b2dd33f",
+    "native_support.py": "447f2f68fd1364bb0eab26836b0f8516b68c2465ed2dbb0f2a7b713f906fe898",
+    "agent_prompts.py": "7a9720d7603e8c31776e5b7da16157e88e363587ace9fbf1771a5b05bb798c52",
+    "model_identity.py": "739827c51147c8228f58dc25cab6c6eab17a50998cd0091f0d189727d6a9cf46",
+    "cli_backend.py": "ee5b88d31780d217a9857527ef6ae13374006cd4008b0f089b612a9f1650650a",
+    "cli_limits.py": "441cdb392ed8ea92a72ed3c611ccb64596070780e25e1924be61652491c0bc6e",
+    "discovery_workflow.py": "e64010e4538dc443ee73197ae578a217594abd2bf24f2a1c46e6a0b8b44ec1f5",
+    "guards.py": "d8a0b22c036baa2f6dae549f81bf626cd59f6a7467b27585447c33008c0fb3e4",
+    "archived_publisher.py": "a7d7a048b49bac91d9b172a3772149a22b8de6aa4dc9d8420b63bd2fb29451d9",
+    "archive_transport.py": "41978a18884c8bb49fa8c30e0a0741acdd4c73bdddd1b606d0f4d5f80ce3af10"
+  },
+  "pre_registered_development_concerns_not_sent_to_checker": [
+    "Pre-traction phrasing may turn unknown traction into a company state; distinguish hypothesis from verified status.",
+    "Beta/maturity risk is interpretation, not proof of company failure.",
+    "Publisher-reported performance is not an independently measured benchmark."
+  ],
+  "interpretation": "Automatic source-support diagnostic only; normative advice and absence claims may be flagged. No human gold, independent truth, accuracy, baseline superiority or investment prediction claim.",
+  "failure_policy": "Record every selected argument and partial traces; no numeric total if incomplete; preserve first stop, no retry/fallback/cap reset.",
+  "retry": false,
+  "fallback": false,
+  "Y_read": false,
+  "Y_changed": false,
+  "training": false,
+  "invoice": "UNKNOWN"
+}

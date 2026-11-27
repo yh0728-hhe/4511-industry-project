@@ -1,0 +1,14 @@
+{
+  "status": "AUDIT_TIMED_OUT_NO_VERDICT",
+  "worker_receipt": {
+    "status": "TIMEOUT",
+    "elapsed_seconds": 120.54,
+    "retry": false
+  },
+  "independent_approval": false,
+  "bug_absence_claim": false,
+  "model_quota_exhausted_observed": false,
+  "production_changed": false,
+  "retry": false,
+  "note": "Bounded read-only source audit produced no complete verdict; retain timeout, do not certify or repeat this audit under a reset cap."
+}

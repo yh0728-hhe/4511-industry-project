@@ -1,0 +1,29 @@
+{
+  "status": "OFFLINE_INFRASTRUCTURE_ONLY_REAL_ARM_NOT_RUN",
+  "worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 80.816,
+    "retry": false
+  },
+  "codex_corrections": [
+    "Reject float6 process caps",
+    "Retain failed-case NativeBinding call records in external journal"
+  ],
+  "focused_tests": 38,
+  "full_readiness": {
+    "tests": 1071,
+    "passed": 1068,
+    "skipped": 3,
+    "stages_passed": 6,
+    "run_id": "whole-response-reference-20261126-001"
+  },
+  "Y_changed": false,
+  "training": false,
+  "source_sha256": {
+    "scripts/experiments/whole_response_reference_predict_20261126.py": "d7d74d14f431c20366271da617638d628d3eb4d25eafc81b059432ec290877da",
+    "tests/test_whole_response_reference.py": "efde2eeff847dcb15451ab8aca268880e61d724edb7729c309a1fa69e3f42ee6",
+    "src/workflow_automation/readiness.py": "0d8779b86ed92b9f932e1f569bd911e41b3ce7770904747f21dbc223e32e890b"
+  },
+  "scope": "Distinct exploratory single-NLI-per-full-response arm; neither retry of sealed decomposed run nor official Ragas faithfulness metric"
+}

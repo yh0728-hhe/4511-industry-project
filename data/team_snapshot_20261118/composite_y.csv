@@ -1,0 +1,241 @@
+company_id,name_at_decision,composite_y_status,financing_y,coverage_basis,shutdown_declaration_by_status_cutoff,provider_status_accepted_for_coverage,jeff_rule_presumed_dead_by_cutoff,status_outcome_cutoff,status_evidence_urls,non_sec_disclosure_y,sec_first_sale_y,preferred_source_date,preferred_date_semantics,preferred_funding_source,non_sec_source_urls,sec_source_urls,additional_non_sec_dates,sec_first_sale_dates,negative_label_approved
+RM-agenthub,AgentHub,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/gumloop-seed--3e591e51|https://www.crunchbase.com/funding_round/gumloop-series-a--ddcc02ed|https://www.crunchbase.com/funding_round/gumloop-series-b--6dee119c,,,,NO
+RM-airfront,Airfront,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/592283-89,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/592283-89,,2024-05-01,,NO
+RM-assembly-2,Assembly,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-dawn,dawn,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.prnewswire.com/news-releases/raindrop-raises-15-million-to-detect-critical-ai-agent-failures-302628853.html,,,,NO
+RM-delve,Delve,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/delve-8733-seed--f3d4f18b|https://www.crunchbase.com/funding_round/delve-8733-series-a--05d396bd,,,,NO
+RM-double-2,Double,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/double-b7ea-seed--0faee766,,,,NO
+RM-hona-2,Hona,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/hona-ai-seed--053a13dc,,,,NO
+RM-just-words,just words,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/just-words-seed--a350dafe,,,,NO
+RM-lumina-2,Lumina,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-maihem,MAIHEM,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://wellfound.com/company/maihem/funding,,2024-06,,NO
+RM-nowhouse,NowHouse,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-quantic,Quantic,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.ycombinator.com/companies/quantic|https://www.ycombinator.com/companies/crmcopilot|https://www.crmcopilot.co|https://quanticresearch.com,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-sevnai,SevnAI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-skygaze,Skygaze,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://skygaze.io|https://www.ycombinator.com/companies/skygaze|https://www.linkedin.com/posts/avellal_launch-yc-skygaze-building-the-for-you-activity-7164508899788644352-Cqoo,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-tatara,Tatara,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-tensorfuse,Tensorfuse,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-tile,Tile,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+RM-titan-2,Titan,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/titan/079cvkxeq2qbbqw2w,,2024-06,,NO
+RM-trellis,Trellis,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/590553-37,,2026-01-01,,NO
+abel,Abel,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.tryabel.com/about/|https://www.ycombinator.com/companies/abel,UNKNOWN,UNKNOWN,,,,,,,,NO
+adapted,Corefin,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+aedilic,Aedilic,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593060-95|https://www.ycombinator.com/companies/aedilic|https://gpudeploy.com|https://tesseracted.com/gpudeploy_com,UNKNOWN,UNKNOWN,,,,,,,,NO
+aftercare,Kontractify,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.techinside.com/kontractify-startershubdan-150-bin-dolar-yatirim-aldi,,,,NO
+agentic-labs-2,Agentic Labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/agentic-labs-seed--67670927,,2026-01-01,,NO
+aidy,Aidy,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/593091-55,,2024-04-29,,NO
+alai,Alai,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+alex-com,Apriora,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/alexai-seed--5d9ca436|https://www.crunchbase.com/funding_round/alexai-series-a--17c0f61d,,,,NO
+andon-labs,Vectorview,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://nordic9.com/news/andon-labs-in-an-equity-financing-round-with-american-investors/,,2025-08-24,,NO
+andy-ai,Andy AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/588988-99,,2024-04-10,,NO
+aqua-voice,Aqua Voice,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+arcane,Arcane,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/arcane-d41d-series-unknown--c1834f3f,,2026-01-01,,NO
+argon-ai-inc,"Argon AI, Inc.",OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/argon-ai-seed--68157454|https://www.crunchbase.com/funding_round/argon-ai-seed--93eff7bf,https://www.sec.gov/Archives/edgar/data/2026471/000202647124000001/xslFormDX01/primary_doc.xml,,2024-05-31,NO
+arini,Arini,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.caplight.com/company/arini-ai,,2026-05-11,,NO
+artisan,Artisan AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/artisan-ai-seed--4680941d|https://www.crunchbase.com/funding_round/artisan-ai-seed--6c14d440|https://www.crunchbase.com/funding_round/artisan-ai-series-a--6278dd7e,,,,NO
+artos,Artos,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/artos-78fd-series-a--5002d453,,2026-04-01,,NO
+atopile,atopile,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+attunement,Attunement,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/592755-31,,2026-07-01,,NO
+averyiq,Starlight Charging,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/starlight-charging-seed--628a453d,,,,NO
+basalt,Basalt Tech,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/basalt-tech-seed--0b5a59ac,,,,NO
+basepilot,Basepilot,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+betterbasket,BetterBasket,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://nextplayso.substack.com/p/next-play-opportunities-917,,2024-09-17,,NO
+bilanc,Bilanc,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/541274-68,,2024-05-20,,NO
+bitesight,BiteSight,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/bitesight-pre-seed--e807b8aa,,,,NO
+blacksmith,Blacksmith,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/blacksmith-fde4-seed--9de1ba34|https://www.crunchbase.com/funding_round/blacksmith-fde4-series-a--557c974b,https://www.sec.gov/Archives/edgar/data/2074110/000123191925000080/xslFormDX01/primary_doc.xml,,2025-06-04,NO
+blume-benefits,Blume Benefits,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.blumebenefits.com/|https://www.ycombinator.com/companies/blume-benefits|https://reforgers.com/startups/blume-benefits,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/blume-for-brokers/2j1unf3xn3vtd1iz2,,2024-06,,NO
+brainbase-labs,Brainbase,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+breez-labs,MathDash,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://prospeo.io/c/mathdash-email-format,,2024-05-03,,NO
+browser-buddy,Browser Buddy,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.linkedin.com/posts/william-bryk_excited-to-announce-exas-first-acquisition-activity-7443361202027610112-AJqp|https://www.suhjeremy.com/|https://www.ycombinator.com/companies/browser-buddy,UNKNOWN,UNKNOWN,,,,,,,,NO
+camelai,camelQA,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+carma,Carma,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/carma-aa85-seed--e650adaf,,,,NO
+carousel-technologies,Carousel Technologies,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/carousel-technologies-seed--bebec3f2,,,,NO
+celest,Celest,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/551390-59|https://celest.dev|https://www.ycombinator.com/companies/celest|https://news.ycombinator.com/item?id=39894274,UNKNOWN,UNKNOWN,,,,,,,,NO
+centauri-ai,Centauri AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+centralize,Centralize,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/centralize-3890-seed--081ad407,,,,NO
+circleback,Circleback,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/circleback-6736-seed--b91fcef9,,,,NO
+clarion,Anaphero,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/clarion-8c0e-pre-seed--066cf63f,,,,NO
+clarum,Clarum,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+cleva,Cleva,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/cleva-banking-non-equity-assistance--53db3337|https://www.crunchbase.com/funding_round/cleva-banking-series-unknown--524ec947,,,,NO
+cloudcruise,CloudCruise,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/cloudcruise-seed--9479a61c,,,,NO
+cocrafter,CoCrafter,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.venturescout.io/p/cocrafter,,2025-02-05,,NO
+codeant-ai,CodeAnt AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/codeant-ai-seed--addee6ad|https://www.crunchbase.com/funding_round/codeant-ai-seed--c0149303,,,,NO
+commodityai,CommodityAI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/commodityai-series-unknown--5f8f041e,,2026-01-01,,NO
+conduit-ai,HostAI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/conduit-5fcc-seed--ebaf657e,,,,NO
+consul,Swift,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.ycombinator.com/companies/consul|https://onconsul.com/,UNKNOWN,UNKNOWN,,,,,,,,NO
+cora,HeyPurple,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+cpgscout,Intercept,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/intercept/9ordplr2fhhampy30,,2024-06,,NO
+crowdvolt,CrowdVolt,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://x.com/ycombinator/status/1813260701584224768,,,,NO
+datacurve,Datacurve,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/datacurve-476e-seed--e46fe80f|https://www.crunchbase.com/funding_round/datacurve-476e-series-a--ae1d8e85,,,,NO
+decipher-ai,Decipher AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+deep24,Amber AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+deepnight,DeepNight,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/deepnight-seed--3c5bfd95|https://www.crunchbase.com/funding_round/deepnight-series-a--82bc8bbc,,,,NO
+dgi-apparel,DGI Apparel,OBSERVED,UNKNOWN,COMPANY_SHUTDOWN_DECLARATION,YES,NO,NOT_ESTABLISHED,2026-04-04,https://www.dgiapparel.com/|https://web.archive.org/web/20260214044304id_/https://www.dgiapparel.com/|https://web.archive.org/web/20260214044304id_/https://www.dgiapparel.com/assets/index-xcF-baTS.js,UNKNOWN,UNKNOWN,,,,,,,,NO
+diana,DianaHR,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/dianahr-seed--f1eade1b,,,,NO
+dime-2,Dime,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.tekedia.com/tekedia-capital-invests-in-dime-the-worlds-first-ai-powered-manufacturing-operating-system/,,,,NO
+draftaid,Draftaid,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+dragoneye,Dragoneye,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/593004-79,,2024-07-03,,NO
+driver,Driver AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/driver-ai-pre-seed--6a8dbdc4|https://www.crunchbase.com/funding_round/driver-ai-seed--41af018c,https://www.sec.gov/Archives/edgar/data/2021927/000202192724000002/xslFormDX01/primary_doc.xml,,2024-04-24,NO
+dropback,FanCave,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/dropback-pre-seed--50e0ff86,,,,NO
+drymerge,DryMerge,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/drymerge-seed--a66a0f48,,,,NO
+duckie,Duckie,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/duckie-seed--a499234c,,,,NO
+ecliptor,Ecliptor,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+edgetrace,edgetrace,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/591404-41,,2024-05-01,,NO
+eggnog,Eggnog,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+ego,ego,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/ego-ai-seed--b9bc4e09,https://www.sec.gov/Archives/edgar/data/2027202/000202720224000001/xslFormDX01/primary_doc.xml,,2024-05-13,NO
+ellipsis,Ellipsis,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/bitbuilder-91a2-seed--9dd8c96b,,,,NO
+elodin,Elodin,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://x.com/elodinsystems/status/1844108636156723720,,,,NO
+engines,Parasale,OBSERVED,UNKNOWN,COMPANY_SHUTDOWN_DECLARATION,YES,NO,NOT_ESTABLISHED,2026-04-04,https://www.engines.dev/|https://web.archive.org/web/20260312231513id_/https://www.engines.dev/,UNKNOWN,UNKNOWN,,,,,,,,NO
+eris-biotech,Eris Biotech,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.biospace.com/business/founders-face-pressure-from-all-sides-as-biotech-crawls-toward-recovery,,2026-05-06,,NO
+event-horizon-labs,SciPhi,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+feldy,Aether Energy,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.aethernrg.com/blog/we-raised-funding-to-accelerate-our-expansion-of-the-aether-platform-and-provide-a-native-solar-design-tool-for-europe,,,,NO
+fileforge,Onedoc,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://fileforge.com|https://www.ycombinator.com/companies/fileforge,YES,UNKNOWN,,,,https://tracxn.com/d/companies/fileforge/__4TfOQ5XFrUYtKUTs4_hRTk3HsZWWo0mEnTiZJm-AsLU/funding-and-investors,,2024-07,,NO
+firebender,Firebender,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+fluently,Fluently,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/fluently-529c-seed--15b1cf1b,,,,NO
+focal,Focal,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.ycombinator.com/companies/focal|https://focalml.com/,UNKNOWN,UNKNOWN,,,,,,,,NO
+forge,Forge,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.linkedin.com/posts/andrewbrackin_engineer-brothers-found-forge-to-modernize-activity-7203764035605913600-T3zi,,,,NO
+forge-rewards,Forge Rewards,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+fractal-labs,DaLMatian,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+garage-2,Garage,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/garage-4b2f-seed--3c769696|https://www.crunchbase.com/funding_round/garage-4b2f-series-a--f48be412,https://www.sec.gov/Archives/edgar/data/2082029/000208202926000002/xslFormDX01/primary_doc.xml,,2025-07-24,NO
+getcrux,Crux,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+givefront,Givefront,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/givefront-seed--073e82e9,,,,NO
+glimmer,Glimmer,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593069-41|https://www.ycombinator.com/companies/glimmer,UNKNOWN,UNKNOWN,,,,,,,,NO
+gloglo,Markprompt,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/markprompt-seed--d7532c52,,,,NO
+governgpt,GovernGPT,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+granza-bio,Granza Bio,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/granza-bio-seed--7c0abcfe,,,,NO
+greenboard,Greenboard,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/greenboard-8b98-series-a--30a96fc1,,2026-05-12,,NO
+greptile,Greptile,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/tabnam-seed--4dd36979|https://www.crunchbase.com/funding_round/tabnam-series-a--5444e31d,,,,NO
+guide-labs,Guide Labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/guide-labs-seed--722a9f6e,https://www.sec.gov/Archives/edgar/data/2026937/000202693724000001/xslFormDX01/primary_doc.xml,,2024-06-10,NO
+haplotype-labs,Haplotype Labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/haplotype-labs-seed--626751c0,,2026-01-01,,NO
+hatchet-run,Hatchet,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+hazel-2,Hazel,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/hazel-22bb-seed--088a0572|https://www.crunchbase.com/funding_round/hazel-22bb-series-a--59dca464,,,,NO
+healia,Healia,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/healia-health-seed--fde8b096,,,,NO
+heartbyte,HeartByte,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/heartbyte-pre-seed--f577de31,,,,NO
+indemni,Alacrity,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/indemni-non-equity-assistance--641dbf2c,,,,NO
+infinity,Infinity,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://economictimes.indiatimes.com/tech/funding/business-banking-platform-infinity-secures-maiden-funding-from-y-combinator-and-others/articleshow/116166893.cms,,,,NO
+inquery-2,InQuery,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+inspectmind-ai,InspectMind AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/inspectmind-seed--500bf70f,,,,NO
+integuru,Taiki,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/taiki-acec-seed--d6c6c7ab,,,,NO
+ion-design,ion design,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/ion-design-3016-seed--4ad5378d,,,,NO
+junction-bioscience,Junction Bioscience,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/junction-bioscience/u4zsyohe6rif7jm2g,,2024-06,,NO
+kabilah,Kabilah,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,2024-05-03,PROVIDER_REPORTED_FINANCING_ROUND_DATE,https://prospeo.io/c/kabilah,https://prospeo.io/c/kabilah,,2024-05-03,,NO
+kater-ai,kater.ai,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+keystroke,Buster,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://web.archive.org/web/20250421191622/https://www.buster.so/blog/buster-fundraise|https://www.crunchbase.com/funding_round/buster-3f14-seed--7c7b8250,,,,NO
+lantern-2,Lantern,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,FUNDING_DATE_NOT_SUPPLIED; RESUME_UPDATED_SEPTEMBER2026,https://narekg.me/NarekGalstyanResume.pdf,,,,,NO
+latted,Fume,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/fume-4a3d-seed--72f00453,,,,NO
+leaping,Leaping,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+legora,Leya,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/legora-seed--d0b40a6c|https://www.crunchbase.com/funding_round/legora-series-a--486cf821|https://www.crunchbase.com/funding_round/legora-series-b--80725eea|https://www.crunchbase.com/funding_round/legora-series-c--8e3dd5ce|https://www.crunchbase.com/funding_round/legora-series-d--e8d0730b|https://www.crunchbase.com/funding_round/legora-series-d--29e16b05,https://www.sec.gov/Archives/edgar/data/2071663/000207166325000001/xslFormDX01/primary_doc.xml|https://www.sec.gov/Archives/edgar/data/2071663/000207166325000002/xslFormDX01/primary_doc.xml|https://www.sec.gov/Archives/edgar/data/2071663/000207166326000001/xslFormDX01/primary_doc.xml,2026-04-30,2025-05-19|2025-10-28|2026-03-09,NO
+lemonslice,Infinity AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/lemon-slice-seed--299ec2c6,,,,NO
+lucite,Lucite,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://finance.yahoo.com/technology/ai/articles/sterling-brokers-acquires-lucite-bringing-140000890.html|https://www.businesswire.com/news/home/20261106157362/en/|https://ca.linkedin.com/company/sterlingbrokers|https://www.lucite.ai/,UNKNOWN,UNKNOWN,,,,,,,,NO
+lumetric,PocketPod,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://app.lumetric.ai/resources/blog/lumetric-is-joining-factory|https://www.ycombinator.com/companies/lumetric,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/593027-56,,2024-07-05,,NO
+lumona,Lumona,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/551380-33|https://www.therundown.ai/tools/lumona|https://www.ycombinator.com/companies/lumona,UNKNOWN,UNKNOWN,,,,,,,,NO
+magic-hour,Magic Hour,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://prtimes.jp/main/html/rd/p/000000060.000076641.html,,,,NO
+maia,Maia,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+malibou,malibou,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/malibou-seed--8cf80864|https://www.crunchbase.com/funding_round/malibou-undisclosed--c84affff,https://www.sec.gov/Archives/edgar/data/2005726/000200572624000004/xslFormDX01/primary_doc.xml,,2024-12-12,NO
+mango-health,Mango Health,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://themangohealth.com|https://www.ycombinator.com/companies/mango-health|https://www.ycombinator.com/founders/jamison-mercurio,UNKNOWN,UNKNOWN,,,,,,,,NO
+manifold-freight,Manifold Freight,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/manifold-freight-seed--1566cce5,,,,NO
+marblism,Marblism,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/marblism-seed--4e753807,,2026-01-01,,NO
+marr-labs,Marr Labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/591474-88,,2026-04-06,,NO
+meticulate,Meticulate,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+metofico,Metofico,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/589196-71,,2024-07-01,,NO
+miden,Miden,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+million,Million.js,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,YES,,,,,https://www.sec.gov/Archives/edgar/data/2074369/000207436925000002/xslFormDX01/primary_doc.xml,,2025-06-13,NO
+model-ml,Model ML,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/model-ml-seed--3075c80e|https://www.crunchbase.com/funding_round/model-ml-seed--536cec45|https://www.crunchbase.com/funding_round/model-ml-series-a--6abf2c76,,,,NO
+momentic,Momentic,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/momentic-0b4b-seed--178d3074|https://www.crunchbase.com/funding_round/momentic-0b4b-series-a--372d83cf,https://www.sec.gov/Archives/edgar/data/2104831/000210483126000001/xslFormDX01/primary_doc.xml,,2025-11-14,NO
+monumint,OmniAI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/monumint-seed--e999e64b,,,,NO
+nanocorp,phospho,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/nanocorp-studios-inc-seed--21ecb00a,,2026-06-08,,NO
+navier-ai,NavierAI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/navierai-seed--c4ded6a5,,,,NO
+ncompass-technologies,nCompass Technologies,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+newton,Hemingway,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/newton-ai-seed--cd1eff9d,,,,NO
+nuanced,"Nuanced, Inc.",OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/540915-67,,2024-08-01|2026-02-01,,NO
+octolane-ai,Octolane AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,2025-04-14,SOURCE_PUBLICATION_DATE,https://www.vcaonline.com/news/2025041406/yc-backed-startup-octolane-raises-seed-round-to-challenge-salesforce-with-the-first-self-driving-ai-crm-that-automates-sales-actions-and-manual-crm-updates/,https://www.vcaonline.com/news/2025041406/yc-backed-startup-octolane-raises-seed-round-to-challenge-salesforce-with-the-first-self-driving-ai-crm-that-automates-sales-actions-and-manual-crm-updates/,,2025-04-14,,NO
+ocular-ai,Ocular AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+oddsview,OddsView,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593005-96|https://www.oddsview.com/|https://x.com/GMGoBetting/status/1995980485923586139|https://www.betsmart.co/tool-reviews/oddsview,UNKNOWN,UNKNOWN,,,,,,,,NO
+offdeal,OffDeal,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/offdeal-seed--9d248dfa|https://www.crunchbase.com/funding_round/offdeal-series-a--591ae25d,,,,NO
+oma-care,Oma Care,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+onegrep,OneGrep,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/onegrep-seed--ea896d31,,,,NO
+onyx,Danswer,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/danswer-seed--e6262c41,,,,NO
+open,OpenCopilot,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/opencopilot-pre-seed--d932c6fd|https://www.crunchbase.com/funding_round/opencopilot-seed--39a68026,,,,NO
+opencall,Opencall.ai,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/568624-78,,2024-10-21,,NO
+openmart,Openmart,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/openmart-da89-seed--ca2e555b,,,,NO
+overheard,OpenFoundry,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/openfoundry-seed--95201143,,2026-01-01,,NO
+paradigm,Paradigm,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/paradigm-6409-seed--e4ef1ca8|https://www.crunchbase.com/funding_round/paradigm-6409-series-a--813afaf3,,2026-04-06,,NO
+parallel,Kiosk,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/parallel-6f8d-seed--c2c5ebf5|https://www.crunchbase.com/funding_round/parallel-6f8d-series-a--2628e7d0,https://www.sec.gov/Archives/edgar/data/2125669/000109991026000141/xslFormDX01/primary_doc.xml,,2026-03-16,NO
+parcelbio,ParcelBio,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/parcelbio-seed--b22d8b3a|https://www.crunchbase.com/funding_round/parcelbio-seed--25c73dcb,,2026-05-07,,NO
+partnerhq,PartnerHQ,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+patchwork,Patchwork,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/596148-31|https://www.ycombinator.com/companies/patchwork,UNKNOWN,UNKNOWN,,,,,,,,NO
+pazi,Pythagora (GPT Pilot),OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/pythagora-seed--819e734c,,,,NO
+penciled,Somn,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/535781-80,,2025-02-01,,NO
+piramidal,Piramidal,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/piramidal-8584-seed--67c67d9c|https://www.crunchbase.com/funding_round/piramidal-8584-seed--6fd4dafd,,,,NO
+pivot-robotics,Pivot Robots,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/pivot-robots-seed--fdfeab0c,,,,NO
+pointone,PointOne,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/pointone-technologies-seed--dcb60e34|https://www.crunchbase.com/funding_round/pointone-technologies-series-a--99f95efe,,,,NO
+polar,GoldenBasis,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/goldenbasis-seed--52035142,,2026-01-01,,NO
+powder,Powder,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/powder-2539-seed--b70ea1ec,,,,NO
+precip,Precip,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/precip-seed--384aba78,,,,NO
+preloop,Preloop,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/551386-54|https://www.crunchbase.com/organization/preloop|https://www.cbinsights.com/company/preloop|https://www.ycombinator.com/companies/preloop,UNKNOWN,UNKNOWN,,,,,,,,NO
+pretzel-ai,Pretzel AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+promptarmor,PromptArmor,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://prospeo.io/c/promptarmor-email-format,,2024-05-03,,NO
+prosights,ProSights,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/prosights-seed--d513aced,,,,NO
+quary,Quary,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.tobikodata.com/blog/tobiko-acquires-quary|https://www.ycombinator.com/companies/quary|https://web.archive.org/web/20251214144740id_/https://www.tobikodata.com/blog/tobiko-acquires-quary,UNKNOWN,UNKNOWN,,,,,,,,NO
+quivr,Quivr,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://web.archive.org/web/20260314001204id_/https://www.quivr.com/blog/how-we-pivoted-using-the-yc-playbook|https://web.archive.org/web/20260313233433id_/https://www.quivr.com/blog/quivr-vs-zendesk-ai|https://www.thevibecompany.co/en/resources/articles/quivr-to-the-vibe-company|https://www.ycombinator.com/companies/quivr,UNKNOWN,UNKNOWN,,,,,,,,NO
+radmate-ai,RadMate AI,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593104-15|https://doomscrollr.com/|https://www.ycombinator.com/companies/radmate-ai,UNKNOWN,UNKNOWN,,,,,,,,NO
+reducto,Reducto,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/reducto-seed--03e73b33|https://www.crunchbase.com/funding_round/reducto-series-a--a458d5ec|https://www.crunchbase.com/funding_round/reducto-series-b--500af08c,,,,NO
+reform,Reform,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/reform-4e31-seed--c2c16d1e,,,,NO
+relari,Relari,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.vestbee.com/insights/articles/sid-venture-partners-invests-in-three-us-based-startups,,2024-05-06,,NO
+renderlet,renderlet,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+reprompt,Reprompt,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+resonance,Resonance,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.ycombinator.com/companies/resonance|https://www.useresonance.com/,UNKNOWN,UNKNOWN,,,,,,,,NO
+respan,Keywords AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/keywords-ai-seed--cae8f669,,,,NO
+retailready,RetailReady,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/retailready-seed--f02c2c63,,,,NO
+retell-ai,Retell AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://web.archive.org/web/20251217193943id_/https://www.retellai.com/blog/seed-announcement,,,,NO
+risotto,Risotto,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/risotto-85d1-seed--78ed8695,,,,NO
+roe,Roe AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/roe-ai-seed--332c70bb,,,,NO
+rove,Rove,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/rove-6429-angel--78a0b699|https://www.crunchbase.com/funding_round/rove-6429-seed--231afc34,,,,NO
+salvy,Salvy,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/salvy-seed--9ebd7cff,,,,NO
+scritch,Scritch,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.thecompanycheck.com/company/b/scritch/oekjnp4ywovt1cc3h,,2024-07,,NO
+selera-medical,Selera Medical,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.ycombinator.com/companies/selera-medical|https://www.mapquest.com/us/california/selera-medical-536431548,UNKNOWN,UNKNOWN,,,,,,,,NO
+senso,Senso,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://pitchbook.com/profiles/company/188078-41,,2026-01-01,,NO
+shepherd-2,Shepherd,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+shiboleth,Shiboleth,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/shiboleth-seed--50a2219d,,,,NO
+silogy,SiLogy,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+solari-ai,SpareChange,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+sonia,Sonia,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://silverwoodpartners.com/healthcare-private-placement-and-ma-transactions-review-week-ending-june-30-2024/,,2024-06-27,,NO
+soundry-ai,Soundry AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://www.crunchbase.com/organization/soundry-ai|https://www.ycombinator.com/companies/soundry-ai,UNKNOWN,UNKNOWN,,,,,,,,NO
+spark,Spark,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/spark-ff99-non-equity-assistance--74acfb1b|https://www.crunchbase.com/funding_round/spark-ff99-seed--70612092,,,,NO
+speck,Speck,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593068-24|https://speck.sh/contact|https://www.ycombinator.com/companies/speck|https://web.archive.org/web/20260402235659id_/https://speck.sh/,UNKNOWN,UNKNOWN,,,,,,,,NO
+stacksync,Stacksync,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+stitch-technologies,Stitch Technologies,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,https://find-and-update.company-information.service.gov.uk/company/15054976|https://find-and-update.company-information.service.gov.uk/company/15054976/officers|https://www.ycombinator.com/companies/stitch-technologies|https://www.linkedin.com/posts/rdosanjh_as-some-of-you-may-know-after-more-than-4-activity-7135234014507851776-SVmD,UNKNOWN,UNKNOWN,,,,,,,,NO
+superagent,Superagent.sh,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://x.com/alanzabihi/status/1803797453163934030,,,,NO
+suretynow,BondCenter,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+sync-2,sync labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/sync-labs-2f04-grant--74653c19|https://www.crunchbase.com/funding_round/sync-labs-2f04-seed--60c2b203|https://www.crunchbase.com/funding_round/sync-labs-2f04-seed--7eecf53f,,,,NO
+synsorybio,SynsoryBio,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+tamarind-bio,Tamarind Bio,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,YES,,,,https://www.crunchbase.com/funding_round/tamarind-bio-series-a--0264a8b0,https://www.sec.gov/Archives/edgar/data/2068537/000206853725000001/xslFormDX01/primary_doc.xml,,2025-05-02,NO
+terrakotta,Terrakotta,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/terrakotta-seed--64f3a6e4,,2026-01-01,,NO
+tesseral,Okapi,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/okapi-985d-seed--6f4e338d,,,,NO
+the-new-money-company,Numo,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/numo-8766-seed--743b4f22,,,,NO
+thorntale,thorntale,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593027-29|https://www.thorntale.com/blog/2025-12-11-thorntale-presentations-shutting-down/|https://www.thorntale.com/,UNKNOWN,UNKNOWN,,,,,,,,NO
+toma,Toma,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/toma-7107-seed--0d3fb80d|https://www.crunchbase.com/funding_round/toma-7107-series-a--d4da0e46,,,,NO
+toolify,Creo,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://pitchbook.com/profiles/company/593012-26|https://www.toolify.sh/|https://www.ycombinator.com/companies/toolify|https://www.linkedin.com/company/trycreo,UNKNOWN,UNKNOWN,,,,,,,,NO
+topo,Topo AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://prospeo.io/c/topo-yc-w24-revenue,,2024-05-03,,NO
+tracecat,Tracecat,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+treblo,Sonauto,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+trieve,Trieve,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/trieve-seed--a03e3573,,,,NO
+trueclaim,TrueClaim,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/trueclaim-ff70-seed--20a1d868|https://newsletter.kaya.vc/ceefarers-jun-2024/,,2026-01-01|2024-06-12,,NO
+tuesday-labs,Adagy Robotics,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+tusk,Tusk,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/tusk-5ac6-seed--ccbb601c,,,,NO
+ubicloud,Ubicloud,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+upsolve-ai,Upsolve AI,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/upsolve-seed--26e746b6,,2026-01-01,,NO
+veles,Veles,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,2024-03-18,TRANSACTION_FIRST_SALE_DATE,https://www.sec.gov/Archives/edgar/data/2007836/000200783624000003/xslFormDX01/primary_doc.xml,,,,,NO
+velorum-therapeutics,Velorum Therapeutics,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+vibrant-labs,Ragas,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.heavybit.com/press/heavybit-welcomes-new-member-vibrant-labs,,,,NO
+vista-power,Vista Space,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/vista-space-pre-seed--ee9f6731,,,,NO
+voicepanel,Voicepanel,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/voicepanel-seed--b5761a27,,,,NO
+voxops-ai,Konstructly,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+wuri,Wuri,OBSERVED,UNKNOWN,REVIEWED_PROVIDER_OUT_OF_BUSINESS,UNKNOWN,YES,NOT_ESTABLISHED,2026-04-04,https://economictimes.indiatimes.com/tech/artificial-intelligence/the-ai-start-dilemma-to-pivot-or-perish/articleshow/122959372.cms?trk=article-ssr-frontend-pulse_little-text-block|https://techstartups.com/2025/12/09/top-ai-startups-that-shut-down-in-2025-what-founders-can-learn/|https://ycombinator.fyi/exhibit/wuri|https://www.ycombinator.com/companies/wuri,UNKNOWN,UNKNOWN,,,,,,,,NO
+xpay,xPay,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+yarn-2,Yarn,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/yarn-f19c-seed--8b8455e4,,2026-01-01,,NO
+yenmo,Yenmo,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/yenmo-seed--032366c0|https://www.crunchbase.com/funding_round/yenmo-seed--7daf6dd3,,,,NO
+yondu,Yondu,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://web.archive.org/web/20251209204710id_/https://www.yondu.ai/about,,,,NO
+yoneda-labs,Yoneda Labs,OBSERVED,YES,FINANCING_OBSERVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,YES,UNKNOWN,,,,https://www.crunchbase.com/funding_round/yonedalabs-seed--0df1c966,,,,NO
+zaymo,Zaymo,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO
+zep-ai,Zep AI,UNKNOWN,UNKNOWN,UNRESOLVED,UNKNOWN,NO,NOT_ESTABLISHED,2026-04-04,,UNKNOWN,UNKNOWN,,,,,,,,NO

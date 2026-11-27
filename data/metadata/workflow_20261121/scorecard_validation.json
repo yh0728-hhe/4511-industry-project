@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-21",
+  "component": "frozen claim/citation structural scorer",
+  "reviewer": "actual local Claude Code CLI; static read-only audit, not test execution",
+  "review_is_error": false,
+  "raw_review_sha256": "2260d85f41b20e1c3bb8fc1e3b67d5521709e76e7b7c52395f5c4a0fee43dd8d",
+  "review_disposition": [
+    "Uniform excess-abstention rate added",
+    "Explicit ABSTAINED-only metric definition added",
+    "CLI output protection and hashing tests added"
+  ],
+  "validation": {
+    "runtime_tests": {
+      "total": 219,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "skipped": 0
+    }
+  },
+  "model_comparison_run": false,
+  "new_training_run": false,
+  "y_changed": false,
+  "research_api_calls": 0,
+  "scope": "Evaluation infrastructure; no measured model uplift or investment accuracy claimed."
+}

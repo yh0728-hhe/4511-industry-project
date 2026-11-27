@@ -1,0 +1,34 @@
+{
+  "protocol_id": "SAVED-DIAGNOSTICS-TRIAGE-LEAD-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Validate actual factual-gap triage and model lead feedback using saved real diagnostics/source; no repeated source acquisition, argument generation or NLI.",
+  "input_sha256": {
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_001.json": "44f434225e4b857754f80ebd6f3038d50225e6bc0bb4163078aaa0d3da688da8",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_001.body": "324ed138690a4a80cc24995e64c4af77e8a371d4bac160363de0f62d9de43df3",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_002.json": "42c157a49d1f37b71efd0b776dd24d5b56480c89a7085cfbfaae9da076d6b4a5",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_002.body": "80660b575936a8526fb5ff5a44af19d68c7e3cac95d69c30cf0fda5ce6fcb1bb",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\backend_capture\\12_stdout.raw": "b95b04c579444f205750e0b0547493cc5f845032c723a8ee8d832604329fd6bc",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\plan.json": "42e9feab98bd7f8fb41f0c3487d00acc8fce7fe19a1c0f4cd6a31ce0552f6957",
+    "results\\scratch\\workflow_20261125\\cached_decomposition_batch_live_001\\argument_1_diagnostic.json": "3aef81b4f4f7a2e8f7edc8f42f7dfa8f268ceb342a8bd41988474b6a098107bb",
+    "results\\scratch\\workflow_20261125\\cached_decomposition_batch_live_001\\argument_2_diagnostic.json": "93884c0f78a4c804fae30c51aeef478e1c8e306952240b3bf05f4a2db6aeb810"
+  },
+  "code_sha256": {
+    "evidence_gap_triage.py": "4d2caa2d109ad7da01972a5b3c5bfb0ff7b1c12c2dda59d9232c6da7aa11be82",
+    "model_lead.py": "6aaacefc7cfe358331dab7fa7f6f54fffb3aca48db1b26a840ab5ea4173cd12a",
+    "agent_prompts.py": "f0ede3df46a81179f142ab8fbbd88527f81ee01675796b7540b418ef8593f1d0"
+  },
+  "max_actual_new_cli_processes": 2,
+  "max_actual_new_http": 0,
+  "max_seconds": 120,
+  "per_call_seconds": 60,
+  "max_logical_model_reservations": 2,
+  "max_logical_search_reservations": 2,
+  "max_generated_questions": 4,
+  "max_selected_tasks": 2,
+  "source_scope": "Revalidate captured eligible archive index/replay; current external pages and Y excluded",
+  "interpretation": "Questions are planning outputs, not facts or investment verdicts. Inspect no literal author-opinion research requests; fixture/generative outputs do not establish triage accuracy.",
+  "retry": false,
+  "fallback": false,
+  "Y_changed": false,
+  "training": false
+}

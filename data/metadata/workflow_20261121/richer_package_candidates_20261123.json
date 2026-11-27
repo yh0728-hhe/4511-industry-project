@@ -1,0 +1,75 @@
+{
+  "observed_utc": "2026-11-23T20:29:13.853679+00:00",
+  "plan": {
+    "sampling": "Next two alphabetical original cohort rows with Open in Tags after first three already probed; no outcomes read",
+    "candidates": [
+      {
+        "company": "Lantern",
+        "domain": "http://lantern.dev",
+        "package_hypothesis": "lantern-client",
+        "registry": "PyPI"
+      },
+      {
+        "company": "Million.js",
+        "domain": "https://million.dev",
+        "package_hypothesis": "million",
+        "registry": "npm"
+      }
+    ],
+    "max_metadata_requests": 2,
+    "max_artifact_requests": 1,
+    "max_metadata_bytes": 8000000,
+    "max_artifact_bytes": 3000000,
+    "cutoff": "2024-04-04T23:59:59+00:00",
+    "no_retry": true,
+    "current_registry_description_as_historical_evidence": false
+  },
+  "queries": [
+    {
+      "company": "Lantern",
+      "domain": "http://lantern.dev",
+      "package_hypothesis": "lantern-client",
+      "registry": "PyPI",
+      "url": "https://pypi.org/pypi/lantern-client/json",
+      "status": "READ",
+      "precutoff_artifact_count": 9
+    },
+    {
+      "company": "Million.js",
+      "domain": "https://million.dev",
+      "package_hypothesis": "million",
+      "registry": "npm",
+      "url": "https://registry.npmjs.org/million",
+      "status": "READ",
+      "precutoff_version_count": 236,
+      "selected_version": "3.0.6",
+      "published": "2024-03-09T06:58:28.338000+00:00"
+    }
+  ],
+  "artifact": {
+    "status": "HASH_VERIFIED_ARTIFACT_CANDIDATE_NOT_ADMITTED",
+    "package": "million",
+    "version": "3.0.6",
+    "published": "2024-03-09T06:58:28.338000+00:00",
+    "artifact_url": "https://registry.npmjs.org/million/-/million-3.0.6.tgz",
+    "integrity": "sha512-OLjRVASGOZdyZw2ctBSSOu5kb9PaxafqkueqVvw0iQtUUnTLVRk1EmtqcNAtJWCIm8wn+WGRpDbnp+5Hi8//Kg==",
+    "artifact_sha256": "12a4b412033dc15974a66768ae724ab54988ce86d6136cbcefd32439f73a175a",
+    "artifact_size": 419690,
+    "members": 54,
+    "uncompressed_total": 1817593,
+    "code_installed_or_executed": false,
+    "source_scope": "Publisher-provided package documentation; claims not independent performance/adoption proof"
+  },
+  "README_bytes": 10718,
+  "README_sha256": "80427e65df6593ddf7ee6b1ac238449e1cf9519646efdad9bb84963c91ce6bdf",
+  "status": "CANDIDATE_PENDING_TRUSTED_VERIFIER",
+  "domain_ownership_independently_proven": false,
+  "technical_project_to_company_legal_identity_independently_proven": false,
+  "Y_read": false,
+  "model_company_calls": 0,
+  "registry_documentation": [
+    "https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md",
+    "https://docs.npmjs.com/cli/v11/commands/npm-publish/"
+  ],
+  "documentation_interpretation": "Public registry metadata latest README is mutable and excluded. Name/version cannot be republished under npm policy; integrity binds downloaded artifact. Timestamp relies on registry publish record. No claim of independent product/performance validation."
+}

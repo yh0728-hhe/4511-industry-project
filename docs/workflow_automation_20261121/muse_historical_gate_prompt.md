@@ -1,0 +1,13 @@
+# Muse handoff: historical identity and archive gate only
+
+Read the private branch auto/workflow-readiness-20261121 in YueYu-Rose/4511-industry-project, then this folder README and evaluation_gate.json. This is a future user-forwarded task; Codex has not started Muse. Do not write teammain or edit outcome labels/model scripts.
+
+Task1 (priority): establish which company name, founders and domain correspond to the cohort row currently called AdagyRobotics at historical cutoff2024-04-04T23:59:59UTC. The repository file is data/processed/w24_spreadsheet_2024-03-25.csv and current seed is www.adagyrobotics.com; neither file name nor current brand proves pre-cutoff availability. Seek actual dated original YC launch/cohort artifact or readable archived company site identifying the same founders. If a predecessor brand/domain applies, report the evidence and relationship; do not replace the seed automatically or inject post-cutoff product/funding information into historical features.
+
+Task2: for the correctly justified historical domain, check at most homepage plus2concrete pre-cutoff links for readable archive availability. Record originalURL, archiveURL, claimed capture timestamp, actual served capture timestamp or Memento header if exposed, concise company-identity basis, availability bound, what was actually read, and limitations. A CDX index-only hit is not readable content proof; a newer substituted replay cannot inherit an old index timestamp. Do not bypass archive limits/paywalls. Current founder biography can be identity context only, not historical business evidence.
+
+Task3 (only if above has no viable record): propose up to2other companies from the same historical identity-only cohort, chosen in documented fixed alphabetical order excluding sealedAbel and targetAdagy, without consulting currentY/currentfunding/currentstatus. Return identity and archive-availability evidence only, do not make investment predictions or choose companies because they later succeeded.
+
+Do not research current financing orshutdowns for this task. Do not upload full page bodies, credentials or inaccessible claims. No exactcapture evidence => UNKNOWN, not absence-of-business. Add one combined historical_gate_results.csv and historical_gate_notes.md under data/metadata/workflow_20261121/ (create directory if needed); preserve company IDs and date semantics; one push+readback if accessible, otherwise return files. No automatic continuation to other76 companies, paid API, new service or scheduled task. Codex must independently gate all candidates before any model sees them.
+
+中文：本次只查2024-04-04之前的公司身份／歷史域名及可讀快照，不查後續融資與成敗，不把新品牌或現網站當成當年已存在。無證據就UNKNOWN，交Codex核驗後才可進模型。

@@ -1,0 +1,17 @@
+{
+  "status": "MODEL_IDENTITY_PRESENTATION_OFFLINE_VALIDATED",
+  "claude_contribution": "Drafted identity helper, native binding/state changes and16 tests; worker timed out180.557s, not retried.",
+  "codex_contribution": "Completed discovery/lead routing, generic QA questions, prompt version and source fingerprint, corrected worker tests, added peer routing/search/multi-pass regressions, completed offline checks.",
+  "tests": {
+    "total": 904,
+    "passed": 901,
+    "skipped": 3
+  },
+  "readiness_run": "identity-presentation-20261125-002",
+  "prompt_version": "agent-roles-v0.6-opaque-identifiers",
+  "identity_scope": "Only metadata identifiers are tokenized. Public names, domains, source text, URLs, fact IDs and source IDs remain unchanged. Tokens are not encryption or protection from pretrained knowledge.",
+  "empty_evidence_policy": "Skip model debate on no facts, retain questions and allow all authorized research passes; stop NO_ADMITTED_FACTS after final allowed empty pass. Native committee already had its own empty-evidence guard.",
+  "new_live_experiment": false,
+  "Y_changed": false,
+  "training": false
+}

@@ -1,0 +1,16 @@
+{
+  "review_date": "2026-11-21",
+  "reviewer": "actual local Claude Code CLI",
+  "exit_code": 0,
+  "is_error": false,
+  "raw_output_sha256": "a72997509e77cf032c71b5dce47c010da8d5d42da722a488abcd182e35e7fcf6",
+  "accepted": [
+    "unverified travel execution path",
+    "Nov24 controller fallback",
+    "explicit open historical gates",
+    "explicit approval channel"
+  ],
+  "not_adopted": "Do not revive expired T001 or its historical one-request allowance.",
+  "background_scheduler_enabled": false,
+  "quota_reset_resume_verified": false
+}

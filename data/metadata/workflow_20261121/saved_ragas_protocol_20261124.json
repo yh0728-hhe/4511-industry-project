@@ -1,0 +1,23 @@
+{
+  "protocol_id": "SAVED-RAGAS-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "selection": "First historical package-backed full runtime (Hatchet), no new company selection",
+  "scope": "Only archived final rationale, not draft arguments/thesis/essential gaps",
+  "source_run": "results/scratch/workflow_20261123/hatchet_package_live_001",
+  "proposal_name": "result.json",
+  "input_sha256": {
+    "plan.json": "b13252b3d1d22f6db6e5aa3925e0d47d7a47ba0fbf5b2b8acff0ce6d48f8ae76",
+    "result.json": "2d58eff1ca6a34986452083be158a9a1c86985f16ad9a8f196dd9bdec0cd76db"
+  },
+  "max_cli_processes": 2,
+  "max_seconds": 180,
+  "per_call_timeout_seconds": 60,
+  "max_http": 0,
+  "retry": false,
+  "fallback": false,
+  "model": "claude-sonnet-5",
+  "upstream_commit": "8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "success": "Saved rationale plus independently reconstructed admitted source reach two-stage diagnostic; original sealed files unchanged; report structural validity separately from unknown semantic accuracy. No prescribed score.",
+  "investment_gate_changed": false,
+  "Y_changed": false
+}

@@ -1,0 +1,27 @@
+{
+  "source_private_base": "e22d58d",
+  "teammate_source_commit": "93259e48b2d87d6d4d3767cd8b837611dad91bcd",
+  "teammate_pr": "https://github.com/yh0728-hhe/4511-industry-project/pull/4",
+  "integration_method": "Selected new backend/smoke/tests/docs plus NativeBinding failure_boundary; agent_prompts manually merged preserving thesis fingerprint; no full old-branch merge.",
+  "preserved_private_modules": [
+    "src/closed_loop/specialist_loop.py",
+    "src/closed_loop/thesis_synthesis.py",
+    "src/closed_loop/meeting_demo.py"
+  ],
+  "selected_teammate_files": [
+    "src/closed_loop/research_backend.py",
+    "src/closed_loop/native_support.py",
+    "experiments/closed_loop_offline/weekly_smoke.py",
+    "tests/test_research_backend.py",
+    "tests/test_weekly_smoke.py",
+    "docs/architecture/metered_research_backend.md",
+    "docs/experiments/2026-11-19_smoke_plan.md",
+    "tests/test_offline_network.py"
+  ],
+  "codex_work": "Integration, offline orchestration/checkpoints, archive-only probe, evaluation gate, tests and fixes",
+  "claude_work": "Read-only independent code reviews using local authenticated ClaudeCode CLI; no code execution/editing claimed",
+  "raw_worker_transcripts": "Ignored results/scratch only; not committed or shared publicly.",
+  "new_paid_experiment_api_calls": 0,
+  "new_training_runs": 0,
+  "additional_ci_test_change": "src/funding/tests/test_identifier_repair.py: canonicalcontent comparison plus two actual byte-identical reruns; no generator or data-label change"
+}

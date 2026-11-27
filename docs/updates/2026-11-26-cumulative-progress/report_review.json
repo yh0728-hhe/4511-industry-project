@@ -1,0 +1,49 @@
+{
+  "all_english": true,
+  "pinned_evidence_links_verified": 8,
+  "author_worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 106.245,
+    "retry": false
+  },
+  "factual_review_corrections": [
+    "Separate23call complete research cycle from5call stopped registry composition",
+    "Cases versusCLI attempts; incomplete run retains no group score",
+    "Correct backend attribution and role/evaluator distinction",
+    "Record already completed unequal-resource baseline comparison",
+    "Implemented structuralguard versusunexecuted local detector",
+    "Pin evidence citations to historical688854e snapshot"
+  ],
+  "desktop": {
+    "viewport": 1440,
+    "pageWidth": 1440,
+    "height": 6251,
+    "language": "en",
+    "svgCount": 1,
+    "externalAssetCount": 0
+  },
+  "mobile": {
+    "viewport": 390,
+    "pageWidth": 390,
+    "height": 8977,
+    "language": "en",
+    "svgCount": 1,
+    "externalAssetCount": 0
+  },
+  "final_diagram_adjustments": [
+    "Both argument sides critique and refine",
+    "Explicit source-bound final claim review and partner decision authority",
+    "Loop label clear of connecting line"
+  ],
+  "private_original_report_sha256": "c4b7e200609112b948529be0a90603ccb83d4208e911f5c6ec2936ba6cd710c4",
+  "report_sha256": "62bdadd58c6aa67588596a900706aca602c7ddea288a1c39f64519c657a3f855",
+  "team_distribution": "Same report content; evidence URLs point to shared team branch rather than private snapshot.",
+  "shared_profile_validation": {
+    "tests": 878,
+    "passed": 877,
+    "skipped": 1,
+    "stages_passed": 5,
+    "private_funding_data_tests_executed": false
+  }
+}

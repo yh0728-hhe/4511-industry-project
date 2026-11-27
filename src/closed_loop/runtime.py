@@ -2,7 +2,7 @@
 from dataclasses import dataclass, field
 from typing import Protocol
 
-from .contracts import CommitteeResult, Decision, Fact, ResearchRequest
+from .contracts import CommitteeResult, Decision, Fact, ResearchRequest, digest
 from .guards import BudgetStopped, SourceCandidate
 
 
@@ -63,7 +63,7 @@ def committee_input(request, store, argument_revision):
     existing reliability signal (proof_kind) was computed by TemporalGateway
     and then silently dropped before reaching the committee/lead view.
     """
-    rows=tuple(dict(question=f'What is the supported evidence for {fact.topic} about {fact.company_id}?',
+    rows=tuple(dict(question=f'What is the supported evidence for {fact.topic} about this evidence subject?',
         answer=fact.text,fact_id=fact.fact_id,source_id=fact.source_id,url=fact.url,
         subject_id=fact.company_id,available_by=fact.availability_upper_bound.isoformat(),
         reliability=fact.proof_kind) for fact in store.facts)
@@ -72,14 +72,21 @@ def committee_input(request, store, argument_revision):
 
 
 class ClosedLoopRuntime:
-    def __init__(self, request, gateway, budget, lead, committee, provider, cache=None):
+    def __init__(self, request, gateway, budget, lead, committee, provider, cache=None, specialist=None, thesis=None):
         if gateway.request!=request or budget.bound_request!=request:
             raise ValueError('request/gateway/budget contexts must match')
-        for component in (lead,committee,provider):
+        if specialist is not None and getattr(provider,'controls_historical_navigation',False):
+            raise ValueError('Choose one research navigation controller; nested loops are not supported')
+        optional=tuple(c for c in (specialist,thesis) if c is not None)
+        for component in (lead,committee,provider)+optional:
             if getattr(component,'call_budget',budget) is not budget:
                 raise ValueError('nested component budget must be the run budget')
+            if getattr(component,'request',request)!=request:
+                raise ValueError('nested component request must match the run request')
         self.request=request;self.gateway=gateway;self.budget=budget
         self.lead=lead;self.committee=committee;self.provider=provider
+        self.specialist=specialist
+        self.thesis=thesis
         self.cache=cache if cache is not None else {}
 
     def plan(self, context):
@@ -105,35 +112,63 @@ class ClosedLoopRuntime:
         for task in context.tasks:
             if not isinstance(task,ResearchRequest) or task.company_id!=self.request.company.company_id:
                 raise ValueError('lead returned invalid identity/task')
-            key=self.request.cache_key(task.role,task.question,task.subject_id,task.source_path)
-            cached=self.cache.get(key)
-            if cached is None:
-                if getattr(self.provider,'call_budget',None) is self.budget:
-                    candidates=tuple(self.provider.search(task))
-                else:
-                    with self.budget.reserve('search'):
-                        candidates=tuple(self.provider.search(task))
-                admitted=[]
-                for candidate in candidates:
-                    fact,rejection=self.gateway.admit(candidate,task.subject_id)
-                    if fact is not None:admitted.append(fact)
-                    else:context.trace.append(dict(event='SOURCE_HELD',**rejection))
-                self.cache[key]=tuple(admitted)
+            if self.specialist is not None:
+                # Model-guided inner action loop (SUBMIT_FACT/FOLLOW_LINK/STOP); not cached,
+                # since each run can take a different model-chosen path per task.
+                admitted=list(self.specialist.run(task,self.provider,self.gateway,context.trace,
+                    self.request.as_of,fact_revision=context.store.revision))
+                cache_hit=False
             else:
-                admitted=[]
-                for previous in cached:
-                    candidate=SourceCandidate(previous.source_id,previous.url,previous.company_id,previous.topic,previous.text)
-                    fact,rejection=self.gateway.admit(candidate,task.subject_id)
-                    if fact is not None:admitted.append(fact)
-                    else:context.trace.append(dict(event='CACHED_SOURCE_HELD',**rejection))
+                key=self.request.cache_key(task.role,task.question,task.subject_id,task.source_path)
+                namespace=getattr(self.provider,'cache_namespace',None)
+                if namespace is not None:
+                    if not isinstance(namespace,str) or not namespace.strip():
+                        raise ValueError('invalid provider cache namespace')
+                    key=digest(key+'|provider:'+namespace)
+                cached=self.cache.get(key)
+                if cached is None:
+                    if getattr(self.provider,'call_budget',None) is self.budget:
+                        candidates=tuple(self.provider.search(task))
+                    else:
+                        with self.budget.reserve('search'):
+                            candidates=tuple(self.provider.search(task))
+                    admitted=[]
+                    for candidate in candidates:
+                        fact,rejection=self.gateway.admit(candidate,task.subject_id)
+                        if fact is not None:admitted.append(fact)
+                        else:context.trace.append(dict(event='SOURCE_HELD',**rejection))
+                    self.cache[key]=tuple(admitted)
+                else:
+                    admitted=[]
+                    for previous in cached:
+                        candidate=SourceCandidate(previous.source_id,previous.url,previous.company_id,previous.topic,previous.text)
+                        fact,rejection=self.gateway.admit(candidate,task.subject_id)
+                        if fact is not None:admitted.append(fact)
+                        else:context.trace.append(dict(event='CACHED_SOURCE_HELD',**rejection))
+                cache_hit=cached is not None
             added=context.store.merge(admitted) or added
             context.trace.extend(context.store.last_changes)
             context.trace.append(dict(event='RESEARCH',role=task.role,question=task.question,
-                cache_hit=cached is not None,admitted_fact_ids=[f.fact_id for f in admitted],fact_revision=context.store.revision))
+                cache_hit=cache_hit,admitted_fact_ids=[f.fact_id for f in admitted],fact_revision=context.store.revision))
+            # Persist newly admitted facts before propagating a terminal provider
+            # stop; do not relabel an archive restriction as NO_NEW_EVIDENCE.
+            self.budget.check()
+        if not context.store.facts:
+            context.gaps=context.gaps or tuple(dict.fromkeys(t.question for t in context.tasks))
+            context.trace.append(dict(event='RESEARCH_WITHOUT_ADMITTED_FACTS',
+                questions=list(context.gaps),reason='No facts reached analysis in this bounded research pass; unknown is not negative.'))
+            if context.research_pass+1>=self.request.max_research_passes:
+                context.stop='NO_ADMITTED_FACTS'
+            return
         if context.research_pass and not added:context.stop='NO_NEW_EVIDENCE'
 
     def evaluate(self, context):
         context.argument_revision+=1
+        if not context.store.facts:
+            context.result=CommitteeResult(Decision.MORE_DILIGENCE,'No admitted evidence; continue bounded research.',
+                context.gaps,context.store.revision,context.argument_revision,())
+            context.trace.append(dict(event='EMPTY_EVIDENCE_REVIEW',questions=list(context.gaps),model_dispatch=False))
+            return
         view=committee_input(self.request,context.store,context.argument_revision)
         if getattr(self.committee,'call_budget',None) is self.budget:
             # A trusted native adapter meters EVERY nested generation/critique/
@@ -164,21 +199,41 @@ class ClosedLoopRuntime:
     def step(self, stage, context):
         if context.stop:return
         try:getattr(self,stage)(context)
-        except BudgetStopped as exc:context.stop=str(exc)
+        except BudgetStopped as exc:
+            context.stop=self.budget.stop_reason if self.budget.stopped else str(exc)
 
     def finish(self, context):
         result=context.result;gaps=context.gaps;stop=context.stop
+        thesis=None
         if result is None or gaps or stop!='EVIDENCE_REVIEW_COMPLETE':
             decision=Decision.MORE_DILIGENCE
             rationale='Research incomplete; unresolved facts are unknown, not negative.'
         else:
             decision=result.decision;rationale=result.rationale
+            if self.thesis is not None and decision!=Decision.MORE_DILIGENCE:
+                try:
+                    self.budget.check()
+                    synthesis=self.thesis.synthesize(self.request,context,result)
+                    thesis=dict(summary=synthesis.summary,pro_case=list(synthesis.pro_case),con_case=list(synthesis.con_case),
+                        cited_fact_ids=list(synthesis.cited_fact_ids),uncertainty_notes=list(synthesis.uncertainty_notes),
+                        decision_changing_questions=list(synthesis.decision_changing_questions),next_checks=list(synthesis.next_checks))
+                    context.trace.append(dict(event='THESIS_SYNTHESIZED',cited_fact_ids=list(synthesis.cited_fact_ids)))
+                except BudgetStopped as exc:
+                    # A final-stage validation/provider/budget failure must retain
+                    # acquired facts and prior debate, without a substantive result.
+                    self.budget.stop(str(exc))
+                    stop=context.stop=self.budget.stop_reason
+                    decision=Decision.MORE_DILIGENCE
+                    rationale='Final thesis could not be verified; prior evidence retained for further diligence.'
+                    gaps=context.gaps=tuple(dict.fromkeys((*gaps,'final_thesis_unverified')))
+                    context.trace.append(dict(event='THESIS_STOPPED',reason=stop))
+
         return dict(status='DEPENDENCY_INJECTED_RUNTIME_NOT_A_BACKTEST',decision=decision.value,
             rationale=rationale,essential_gaps=list(gaps) if gaps else ([] if result else ['initial_due_diligence_incomplete']),
             stop_reason=stop,fact_revision=context.store.revision,argument_revision=context.argument_revision,
-            admitted_fact_ids=[f.fact_id for f in context.store.facts],trace=context.trace,
+            admitted_fact_ids=[f.fact_id for f in context.store.facts],trace=context.trace,thesis=thesis,
             logical_call_budget=self.budget.snapshot(),actual_model_calls=None,actual_network_calls=None,
-            accounting_note='Core counts logical dispatch reservations, not external provider billing. Fixture harness supplies verified zero-call counters.')
+            accounting_note='Core counts logical dispatch reservations, not actual provider billing or hidden managed requests. Concrete runners report observed process and direct HTTP attempts separately; unknown counts remain unknown.')
 
     def run(self):
         context=RunContext()

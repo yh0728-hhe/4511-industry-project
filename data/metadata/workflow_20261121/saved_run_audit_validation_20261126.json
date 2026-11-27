@@ -1,0 +1,82 @@
+{
+  "status": "SAVED_RUN_AUDIT_IMPLEMENTED_AND_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "claude_contribution": "Drafted saved_run_audit.py before180.600second timeout; no tests written; no retry.",
+  "codex_contribution": "Completed strict types, null/missing state checks, bounded reads, path checks, terminal-state and citation validation, CLI safety,29corruption regressions and4sealed-run audits.",
+  "tests": {
+    "new_audit_tests": 29,
+    "total": 934,
+    "passed": 931,
+    "skipped": 3
+  },
+  "readiness_run": "saved-run-audit-20261126-001",
+  "runs": [
+    {
+      "run": "workflow_20261125/full_discovery_workflow_regression_live_001",
+      "audit": {
+        "status": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION",
+        "findings": [],
+        "input_sha256": {
+          "plan.json": "3d493b2ff18f71970451484a6f0ed9961ead81a42dec28b38d872ddd27eb758e",
+          "result.json": "e8fad51c8c595cf32b724354d07a27b4839c0e411716e05879e4d780a892c3eb",
+          "proposal.json": "e3c293c93d45839a0fcb41a81d687ae31ce6ea0b681507597261e996c4da26f7",
+          "committee_trace.json": "1cc4b01cc12eb13f077c92b3715dc919360d1edb4a6162f15c8e233568e9a626"
+        }
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "run": "workflow_20261125/guarded_command_live_adagy_001",
+      "audit": {
+        "status": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION",
+        "findings": [],
+        "input_sha256": {
+          "plan.json": "5fa3e2f29614e0f7701065d9f719b7ef91f384bdf1cca357b24f1658316c8cd6",
+          "result.json": "46593f8964e05ae203dbaf9c722e2ed15132a8bb4491d389dfddb0c18d8b3eae",
+          "proposal.json": "9a3bac88cfcd549c4cc15b1a2103ffff36754bb54716d5049c90be4c8923334f",
+          "committee_trace.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+        }
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "run": "workflow_20261124/discovery_runtime_bounds_live_001",
+      "audit": {
+        "status": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION",
+        "findings": [],
+        "input_sha256": {
+          "plan.json": "f211463c8c6c17ead689071a842fda67133563132418187fc17bde7251766c1a",
+          "result.json": "016a6b6dcd0d2d388848d283cb298fd8211f74dff550555ac59557cfe4a95cfb",
+          "proposal.json": "aab8467fe705ca43031745619bcaa85f7813272162d11af41a073d8330f4dd01"
+        }
+      },
+      "inputs_unchanged": true
+    },
+    {
+      "run": "workflow_20261124/full_discovery_workflow_live_001",
+      "audit": {
+        "status": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION",
+        "findings": [],
+        "input_sha256": {
+          "plan.json": "42e9feab98bd7f8fb41f0c3487d00acc8fce7fe19a1c0f4cd6a31ce0552f6957",
+          "result.json": "c50bfcc306d165a03aa341b9a1ec592ddc3453a5820be5116c0e5866a2397347",
+          "proposal.json": "0e2cfc2abddcd8057b4b4695b05227c016dd36f9452f450678da7afae8892b85"
+        }
+      },
+      "inputs_unchanged": true
+    }
+  ],
+  "actual_command_exit_code": 0,
+  "new_company_model_calls": 0,
+  "new_archive_requests": 0,
+  "semantic_support_certified": false,
+  "predictive_accuracy_evaluated": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Internal consistency is not independent authenticity or semantic verification.",
+    "Raw page bodies and full process wire logs are not re-derived by this audit.",
+    "Null provider counters remain unknown; logical reservations are not billing.",
+    "Original historic run limitations, including later-brand identity hints, are not erased."
+  ]
+}

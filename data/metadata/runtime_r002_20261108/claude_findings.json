@@ -1,0 +1,187 @@
+{
+  "review": "R002_claude_adversarial_review",
+  "date": "2026-11-08",
+  "reviewer": "claude-sonnet-5 (independent worktree review worker, no execution)",
+  "files_reviewed": [
+    "review_inputs/closed_loop/contracts.py",
+    "review_inputs/closed_loop/guards.py",
+    "review_inputs/closed_loop/runtime.py",
+    "review_inputs/closed_loop/fixtures.py",
+    "review_inputs/test_closed_loop_runtime.py"
+  ],
+  "root_reported_test_result": "25 passed, 1 skipped (OS disallowed symlink creation)",
+  "findings": [
+    {
+      "id": "R002-01",
+      "severity": "high",
+      "category": "requirement",
+      "location": "runtime.py:67",
+      "summary": "self.budget.check() runs before the try/except BudgetStopped block, so an already-expired deadline or pre-stopped budget raises an uncaught exception instead of the structured MORE_DILIGENCE result every other exhaustion path produces.",
+      "fix": "Move the initial check inside try, or wrap it separately and return the same structured dict with stop_reason='STOP_OR_DEADLINE'.",
+      "test_to_add": "run_case-style invocation with a past deadline or pre-stop()ped CallBudget asserting run() returns the structured dict, not a raised exception."
+    },
+    {
+      "id": "R002-02",
+      "severity": "high",
+      "category": "requirement",
+      "location": "runtime.py:27-40 (FactStore.merge)",
+      "summary": "Merge key is (source_id, topic), omitting company_id. Safe only because one FactStore is created per run() call and the gateway already enforces company_id; not enforced at this layer.",
+      "fix": "Include company_id in the merge key.",
+      "test_to_add": "merge() facts for two companies sharing source_id/topic into one FactStore; assert both remain present under distinct keys."
+    },
+    {
+      "id": "R002-03",
+      "severity": "high",
+      "category": "requirement",
+      "location": "runtime.py:32-40",
+      "summary": "When a ledger record for an existing source_id/topic gets a new content_sha256 ('identical source, changed content'), FactStore.merge silently overwrites the old Fact; no trace event distinguishes a new fact from a content replacement.",
+      "fix": "Have merge() report replaced vs. newly added keys; emit a SOURCE_CONTENT_REVISED trace event with old/new fact_id.",
+      "test_to_add": "Admit a fact for source-1/topic, then admit a second differently-hashed VerifiedRecord for the same source_id/topic; assert a revision trace event exists and the old fact_id is gone from admitted_fact_ids but present in trace history."
+    },
+    {
+      "id": "R002-04",
+      "severity": "high",
+      "category": "requirement",
+      "location": "guards.py:85 (TemporalGateway ledger keyed by source_id only)",
+      "summary": "Ledger dict is keyed solely by source_id with no company namespace. Fails safe (held, never wrongly admitted) if two companies share a source_id in one ledger, but silently withholds legitimate evidence for one of them -- an availability bug that looks like normal HELD behavior in review.",
+      "fix": "Namespace ledger keys by (company_id, source_id), or assert source_id uniqueness per company at construction.",
+      "test_to_add": "Two companies' VerifiedRecords sharing one raw source_id string in one ledger dict; assert the correct company's candidate is admitted and the other is held."
+    },
+    {
+      "id": "R002-05",
+      "severity": "high",
+      "category": "requirement",
+      "location": "test_closed_loop_runtime.py (missing coverage)",
+      "summary": "No test drives two full ClosedLoopRuntime.run() calls for different companies against one shared mutable cache dict; existing cache test only compares cache_key() strings, not runtime behavior.",
+      "fix": "N/A (test gap)",
+      "test_to_add": "Run SYNTHETIC_COMPANY and a second company fixture through one shared cache={} instance; assert each result's admitted_fact_ids only contains that company's facts."
+    },
+    {
+      "id": "R002-06",
+      "severity": "medium",
+      "category": "requirement",
+      "location": "guards.py:103 (MISSING_CAPTURE_PROOF branch)",
+      "summary": "The 'CDX lists a capture but replay fetch failed entirely' branch (served_capture is None) is never exercised by any test; only the 'returned a different capture' (SUBSTITUTED_CAPTURE) branch is tested.",
+      "fix": "N/A (test gap)",
+      "test_to_add": "VerifiedRecord with served_capture=None; assert reason == 'MISSING_CAPTURE_PROOF'."
+    },
+    {
+      "id": "R002-07",
+      "severity": "medium",
+      "category": "requirement",
+      "location": "runtime.py:94-99 (CACHED_SOURCE_HELD path)",
+      "summary": "The no-leak assertion for rejection metadata (no future text/URL in rejection) is tested only for the first-seen SOURCE_HELD path, not for CACHED_SOURCE_HELD, which uses the same dict shape when a cached fact is revalidated and rejected.",
+      "fix": "N/A (test gap)",
+      "test_to_add": "Admit a future-dated fact into cache via a permissive ledger, re-run with a ledger that rejects it, assert CACHED_SOURCE_HELD trace entries leak no text/URL."
+    },
+    {
+      "id": "R002-08",
+      "severity": "medium",
+      "category": "requirement",
+      "location": "guards.py:36-47 (CallBudget.reserve)",
+      "summary": "used[kind] increments only after the concurrency check, so CONCURRENCY_CAP rejections are free to retry while CALL_CAP-eligible dispatched attempts stay charged. Correct and intended but undocumented as an invariant and untested as a reject-then-retry sequence.",
+      "fix": "Document as explicit invariant.",
+      "test_to_add": "Hold one reservation open at concurrency=1; second reservation raises CONCURRENCY_CAP with used unchanged; release first; retry succeeds and used increments exactly once."
+    },
+    {
+      "id": "R002-09",
+      "severity": "medium",
+      "category": "requirement",
+      "location": "runtime.py:127 (final decision fallback)",
+      "summary": "A Committee returning INVEST/PASS together with non-empty essential_gaps is silently downgraded to MORE_DILIGENCE via the generic 'if result is None or gaps or stop!=...' branch, with no distinguishing trace event. FixtureCommittee never produces this combination, so the case is wholly untested.",
+      "fix": "Explicitly raise or emit a dedicated trace event when decision in (INVEST, PASS) and essential_gaps is non-empty.",
+      "test_to_add": "Committee double returning INVEST with non-empty essential_gaps; assert the runtime treats this as an invariant violation, not a silent pass-through."
+    },
+    {
+      "id": "R002-10",
+      "severity": "low",
+      "category": "limitation",
+      "location": "guards.py:124-131 (WorkspaceReader.read)",
+      "summary": "TOCTOU window between resolve(strict=True) and read_text(). Acceptable for a single-process offline fixture; live deployment needs OS-level sandboxing, not just path-allowlist checks.",
+      "fix": "Out of scope for offline module; needed only for live workers.",
+      "test_to_add": null
+    },
+    {
+      "id": "R002-11",
+      "severity": "low",
+      "category": "limitation",
+      "location": "runtime.py:81,91 (self.cache mutation)",
+      "summary": "Shared cache dict is mutated without a lock. Fine today since run() dispatches research tasks sequentially despite RunRequest.concurrency being validated as a field; real parallel specialist dispatch is not implemented in ClosedLoopRuntime.run() yet.",
+      "fix": "Add locking before introducing real concurrent dispatch inside run().",
+      "test_to_add": null
+    },
+    {
+      "id": "R002-12",
+      "severity": "low",
+      "category": "limitation",
+      "location": "guards.py (field-level temporal admission)",
+      "summary": "Whole-document content_sha256 binding is a safe default for 'future fact embedded in structured profile field', but depends entirely on the live retrieval adapter hashing text that was actually confirmed pre-cutoff at the granularity it later claims. Not a fixable bug in the reviewed offline code.",
+      "fix": "Live-adapter design question for future work.",
+      "test_to_add": null
+    },
+    {
+      "id": "R002-13",
+      "severity": "low",
+      "category": "limitation",
+      "location": "guards.py:27-30,36-47 + contracts.py aware()",
+      "summary": "CallBudget assumes its injected clock always returns a timezone-aware datetime; a naive-datetime clock makes aware() raise ValueError instead of BudgetStopped, which ClosedLoopRuntime.run() does not catch.",
+      "fix": "Assert clock-returns-aware at CallBudget construction if ever wired to an external clock.",
+      "test_to_add": null
+    },
+    {
+      "id": "R002-14",
+      "severity": "low",
+      "category": "minor",
+      "location": "contracts.py:35 (CompanySeed domain regex)",
+      "summary": "[a-z0-9.-]+\\.[a-z]{2,} accepts malformed domains such as 'a..com' because the greedy group can absorb a double dot. Not security-relevant today since domain only feeds cache_key hashing and fixture URL construction, not a trust decision.",
+      "fix": "Tighten regex before domain drives any live retrieval policy.",
+      "test_to_add": null
+    },
+    {
+      "id": "R002-15",
+      "severity": "unknown",
+      "category": "unknown",
+      "location": "n/a (no live committee adapter exists yet)",
+      "summary": "Stale fact_revision/argument_revision rejection is proven only against a deliberately-stale fixture Committee double; whether a real LangGraph-backed adapter's own internal checkpointing could bypass the coordinator-side check cannot be assessed offline.",
+      "fix": null,
+      "test_to_add": null
+    },
+    {
+      "id": "R002-16",
+      "severity": "unknown",
+      "category": "unknown",
+      "location": "n/a (requires a running model)",
+      "summary": "Residual pretrained future-knowledge leakage into CommitteeResult.rationale or essential_gaps text cannot be tested offline since no model runs in this prototype; remains an explicit limitation per R001_agent_reuse_decision.md.",
+      "fix": null,
+      "test_to_add": null
+    }
+  ],
+  "explicitly_not_proposed": [
+    "Hiding raw source text from the committee after an LLM has already seen it -- design already keeps rejected/unadmitted text inside the gateway (guards.py:107, runtime.py:90,99); only edge-case tests around that boundary are proposed.",
+    "Claiming schema omission (e.g. a CompanySeed lacking funding_total) by itself prevents file access -- file access is correctly gated by WorkspaceReader's explicit allowlist/root-containment check (guards.py:124-130), a separate necessary control."
+  ],
+  "fixture_table_cross_check": {
+    "covered_by_existing_tests": [
+      1,
+      3,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "covered_but_with_gaps_noted_above": [
+      2,
+      4,
+      5,
+      6,
+      9
+    ],
+    "notes": "Numbering follows the 16-row adversarial fixture table in R001_offline_prototype_acceptance.md in order of appearance."
+  },
+  "root_note": "Worker review only; root log records tested fixes and outstanding limitations."
+}

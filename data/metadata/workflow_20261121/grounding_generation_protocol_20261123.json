@@ -1,0 +1,34 @@
+{
+  "probe_id": "grounding_generation_probe_001",
+  "created_utc": "2026-11-23T20:17:35.262454+00:00",
+  "implementation_commit": "02ea478",
+  "scope": "Two production generation nodes only; not a company full-run replay or statistical evaluation",
+  "source_run": "hatchet_package_live_001",
+  "source_sha256": "3fd4f668cf1665596084cd32ee1df33c48bdf54e7486ff55bd47ee02ffbb816f",
+  "mandate": "Assess a seed software investment strictly from admitted historical evidence. The package README proves only an SDK and documentation links. It supplies no revenue, retention, customer, team or market-size evidence. Treat those gaps as unknown and request decision-changing diligence. Do not use model memory or infer missingness as adverse evidence.",
+  "model": "claude-sonnet-5",
+  "prompt_version": "agent-roles-v0.4-evidence-scope",
+  "prompt_fingerprint": "8f68810003b80d51f270582cab3ffdd15789d590791aa0d4c17f1c3021ce612a",
+  "max_cli_attempts": 2,
+  "max_seconds": 180,
+  "per_call_seconds": 90,
+  "max_http_requests": 0,
+  "retry": false,
+  "Y_read": false,
+  "review_rules": [
+    "Citation IDs must belong to the admitted set.",
+    "SDK publication must not establish adoption, maturity or team execution quality.",
+    "README brevity must not establish pre-traction or immature product status.",
+    "No unstated business category, founder, competitor or feature from model memory.",
+    "Outbound links do not establish fetched target contents.",
+    "Missing metrics are unknown, not negative outcomes.",
+    "Distinguish hypothetical reasoning from established facts."
+  ],
+  "evaluation_limits": [
+    "One previously inspected source, not a holdout.",
+    "No paired baseline rerun and no causal attribution.",
+    "Reviewer-supplied judgments, not automatic entailment or independent human gold.",
+    "No statistical accuracy or investment-return metric."
+  ],
+  "protocol_sha256": "c82014bdfcec027a8dbec4c4261826c671c8b0b564ef624db59e3bceec5b3604"
+}

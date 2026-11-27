@@ -1,0 +1,24 @@
+{
+  "status": "ARCHIVED_PUBLISHER_CONTEXT_OFFLINE_INTEGRATED",
+  "claude_contribution": "Created verifier and18tests before180.488s timeout",
+  "codex_contribution": "Fixed imagefixture body minimum; tightened separate-headline matching, exact linkhost/defaultport, tasktype and contexttext bounds;4verifier regressions,6provider+2runner integrations",
+  "tests": {
+    "publisher": 22,
+    "provider_integration": 6,
+    "runner_integration_added": 2,
+    "full_total": 863,
+    "passed": 860,
+    "skipped": 3
+  },
+  "scope": "Optional arbitrary-publisher archived context with historical headline/company-link binding, no publisher whitelist",
+  "proof": "Exact eligibleCDX URL + matchingMemento/body + staticheadline/name and exactcallercompanydomain link; editorial independence UNKNOWN",
+  "limitations": [
+    "Source context is not a certification that publisher claims are true",
+    "Company legalidentity/ownership stillcalleranchored",
+    "Static HTML extraction doesnot compute browserCSS visibility",
+    "Peerpublisher binding and aliases unsupported",
+    "No live publisher source result yet"
+  ],
+  "Y_changed": false,
+  "training": false
+}

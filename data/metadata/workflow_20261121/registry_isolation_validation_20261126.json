@@ -1,0 +1,83 @@
+{
+  "status": "ISOLATED_REGISTRY_TRANSPORT_OFFLINE_AND_PROCESS_CONTROL_VERIFIED",
+  "date": "2026-11-26",
+  "motivation_receipt": "data/metadata/workflow_20261121/scoped_registry_probe_result_20261126.json",
+  "motivation": "One raw urllib call configured with15second socket timeout did not return before60second parent ceiling; no specific DNS/connect cause was proven.",
+  "worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 40.861,
+    "retry": false
+  },
+  "claude_contribution": "Implemented parent isolated adapter and child protocol; code only, no executed tests claimed.",
+  "codex_contribution": [
+    "CLI/default transport and first-cause timeout wiring",
+    "Duplicate/nonfinite JSON and post-parse deadline validation",
+    "Source fingerprints/cache28component capture",
+    "12new fake regressions plus controlled real sleeping-process termination",
+    "Actual child worker import from unrelated cwd with invalid host rejected before network"
+  ],
+  "focused_tests": 126,
+  "new_tests": 12,
+  "full_readiness": {
+    "tests": 1096,
+    "passed": 1093,
+    "skipped": 3,
+    "stages_passed": 6,
+    "run_id": "registry-process-isolation-20261126-001"
+  },
+  "initial_validation_issue": "Existing CLI test expected raw RegistryHTTPClient; corrected assertion explicitly requires isolated default while preserving budgets.",
+  "control_receipt": {
+    "status": "CONTROLLED_CHILD_TIMEOUT_OBSERVED",
+    "stop_reason": "REGISTRY_REQUEST_TIMEOUT",
+    "elapsed_seconds": 0.768,
+    "timeout_parameter_seconds": 0.25,
+    "worker_processes": 1,
+    "child_response_returned": false,
+    "cleanup_error_reported": false,
+    "partial_stdout_not_admitted": true,
+    "source_http_requests": 0,
+    "model_calls": 0,
+    "retry": false,
+    "limits": [
+      "Harmless sleeping child replaces network worker explicitly.",
+      "Proves own-process termination path, not live registry availability or OS-level sandbox.",
+      "Elapsed includes existing bounded process cleanup, not a hard real-time precision guarantee."
+    ],
+    "invalid_worker_other_cwd": {
+      "exit_code": 2,
+      "output": {
+        "status": "error",
+        "error": "REGISTRY_WORKER_FAILED"
+      },
+      "source_http_requests": 0,
+      "model_calls": 0,
+      "stdout_bytes": 51,
+      "worker_found_via_absolute_src_bootstrap": true
+    }
+  },
+  "component_sha256": {
+    "registry_process.py": "29e6f6f3039c67b031f698340f9e45cd7606e185856de2e1367412352a0c68e5",
+    "registry_worker.py": "5cd68a1be9ca50ece57ece94ff2d5fe95c86e977884014cc3d4d87fbe4a2a4a1",
+    "package_registry.py": "f6d244556ed92af8043c9c68b0a8225ccda79568aee1eacdae912af08295f7f4",
+    "discovery_workflow.py": "3754018ff1c83e91788ac0cef1af7b98e444e75bb4edf69b7837ce81e498e83e",
+    "package_workflow.py": "2f561e648d37f270b81c76a51e059e8051ef23957c804ac6dcab9f9f5cfcb792",
+    "discovery_runner.py": "b90b73ee880ca6c3e803a279f1b7d5958c0e58ead4047e9b3be99e0c586d0539",
+    "discovered_research.py": "d3945e6c50462a3baeb88c6986b21c0a79b5ca49737e27027f92ceeb39753666",
+    "cli_backend.py": "ee5b88d31780d217a9857527ef6ae13374006cd4008b0f089b612a9f1650650a"
+  },
+  "behavior": "Exactlyone child per registry GET; existing ProcessExecutor terminates only its child group on timeout with bounded cleanup. No partialresponse, fallback or retry. Collector keeps earlier global stop cause, else REGISTRY_REQUEST_TIMEOUT.",
+  "actual_network_reprobe": false,
+  "source_http_requests_in_validation": 0,
+  "model_calls_in_validation": 0,
+  "existing_scoped_probe_unchanged": true,
+  "Y_changed": false,
+  "training": false,
+  "limits": [
+    "Process isolation is termination control, not OS sandbox or permission reduction.",
+    "Observed0.768seconds includes cleanup for0.25second configured process wait; not hard real-time precision.",
+    "Raw low-level urllib client remains available for worker/tests; CLI defaults use isolation.",
+    "No new live registry availability, source admission or corporate fact is established.",
+    "HTTP worker processes are not model CLI attempts; managed internal inference/billing remain unknown."
+  ]
+}

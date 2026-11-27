@@ -1,0 +1,33 @@
+{
+  "status": "OPTIONAL_STANDALONE_ADAPTER_OFFLINE_VALIDATED",
+  "upstream_commit": "8c63f10d500c44efbf24fdb9e2920de2104c321c",
+  "reuse": "Two upstream instruction strings verbatim; decomposition -> NLI -> supported fraction flow. Adapter/schema/validation are project code; not whole Ragas package or paper replication.",
+  "instruction_literals_ast_verified": true,
+  "implementation": {
+    "primary": "Actual local Claude CLI",
+    "elapsed_seconds": 147.926,
+    "exit_code": 0,
+    "retry": false,
+    "Codex_review": "JSON payload boundaries, complete source/context hashes and two regressions"
+  },
+  "tests": {
+    "focused": 19,
+    "full_total": 678,
+    "passed": 675,
+    "skipped": 3,
+    "run_id": "ragas-reuse-20261124-001"
+  },
+  "runtime_integrated": false,
+  "live_checker_model_calls": 0,
+  "coding_CLI_invocations": 1,
+  "training": false,
+  "Y_changed": false,
+  "semantic_accuracy_measured": false,
+  "human_review_required_for_engineering": false,
+  "next": "Connect optional checker to saved argument/result review path with separate automatic diagnostics; do not overwrite supplied reviews or auto-release decisions.",
+  "files_sha256": {
+    "src/closed_loop/ragas_faithfulness.py": "524866e94bb9c93877af06c2931b9633661281096e1d884530e78952e5b5e3cc",
+    "tests/test_ragas_faithfulness.py": "2a63b9949fd1d3b1e0a31de0c2fae30408e34c0bee5ff5184f01a81e72ec448d",
+    "src/closed_loop/vendor/LICENSE-RAGAS": "664b930830f291c2936ab30bcd6ef9ca6c9c7384cc475ae0c526156a27d5a6c6"
+  }
+}

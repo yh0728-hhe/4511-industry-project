@@ -1,0 +1,60 @@
+{
+  "protocol_id": "FULL-EVIDENCE-FEEDBACK-20261124-001",
+  "execution_commit": "3a7d0b33b4e87af0019e6e1c31ed60ca216f7c7f",
+  "root_review_status": "REAL_ENGINEERING_PATH_EXECUTED_WITH_PLACEHOLDER_FINDING",
+  "execution": {
+    "protocol_id": "FULL-EVIDENCE-FEEDBACK-20261124-001",
+    "status": "PACKAGE_SOURCE_RUNTIME_EXECUTED",
+    "decision": "MORE_DILIGENCE",
+    "stop_reason": "NO_NEW_EVIDENCE",
+    "elapsed_seconds": 355.388,
+    "cli_process_attempts": 17,
+    "support_checks": 2,
+    "gap_events": 1,
+    "logical_call_budget": {
+      "used": {
+        "model": 17,
+        "search": 0
+      },
+      "caps": {
+        "model": 24,
+        "search": 0
+      },
+      "active": 0
+    },
+    "new_http": 0,
+    "retry": false,
+    "Y_changed": false,
+    "accuracy_measured": false
+  },
+  "stages": [
+    "generation",
+    "critique",
+    "score_and_select",
+    "refinement",
+    "final_aggregation",
+    "evidence_review"
+  ],
+  "support_scores": [
+    1.0,
+    0.0
+  ],
+  "essential_gap_count": 9,
+  "observed": "Support checking appended a new unverified-claim gap; lead selected follow-up tasks; same limited source supplied no new facts, result MORE_DILIGENCE/NO_NEW_EVIDENCE.",
+  "quality_findings": [
+    "Contra refinement returned exact placeholder test, syntactically valid but not a substantive argument. Checker rejected support, but follow-up on test is not useful diligence.",
+    "Pro support score1includes explicitly hypothetical/normative text; do not treat as independently certified business facts.",
+    "One publisher SDK README remains insufficient for company-level diligence."
+  ],
+  "next": "Reject recognized placeholder argument outputs before evaluator/research; preserve run and do not replay automatically.",
+  "raw_sha256": {
+    "plan.json": "03a657604ec210b2b258a3911de8cd61404500be3529010833efbbac99081c0c",
+    "proposal.json": "5f00b2667cf48e27adab610882ef3a249e520748d8d8200b85823ca527e8acdf",
+    "result.json": "d386ade8ed6f437e7f834ccd042eb66bbf9740a68116f4fd61f36d125f769968",
+    "receipt.json": "2b4500c7b670e8a5572dd7f2fa6bccc75bd051c250b66a2cd9d84c4080487e84",
+    "dispatch.jsonl": "1aa73f94690daa99d84a4a55c8ce316f65f3a00979cb9bd6dc71d7c2f1fdd4b2"
+  },
+  "Y_changed": false,
+  "training": false,
+  "general_accuracy_measured": false
+}

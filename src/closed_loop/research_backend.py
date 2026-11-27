@@ -30,6 +30,8 @@ class MeteredResearchProvider:
     consume logical model reservations only. ``archive_provider`` must be a
     trusted verifier with the same request, gateway and per-run HTTP budget.
     """
+    controls_historical_navigation = True
+
     def __init__(self, request, gateway, budget, backend, archive_provider,
                  max_navigation_steps=2):
         if backend is None:
@@ -161,7 +163,8 @@ class MeteredResearchProvider:
         try:
             self._fetch(task, found)
             for receipt in self.receipts:
-                if (receipt.get('subject_id'), receipt.get('source_id')) in self._admitted:
+                if (receipt.get('subject_id') == subject and
+                        (subject, receipt.get('source_id')) in self._admitted):
                     parsed = urlparse(receipt['original_url'])
                     visited.add((parsed.path or '/') + ('?' + parsed.query if parsed.query else ''))
             for _ in range(self.max_navigation_steps):
@@ -191,6 +194,6 @@ class MeteredResearchProvider:
         except BudgetStopped as exc:
             # Preserve earlier admitted evidence, but a provider/metering/schema
             # failure is terminal for this run: no later stage may spend again.
-            self.call_budget.stop()
+            self.call_budget.stop(str(exc))
             self.trace.append(dict(event='RESEARCH_STOP', reason=str(exc)))
         return tuple(found[key] for key in sorted(found))

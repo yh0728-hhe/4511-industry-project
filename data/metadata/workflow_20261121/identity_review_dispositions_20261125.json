@@ -1,0 +1,35 @@
+{
+  "status": "CLAUDE_READ_ONLY_REVIEW_COMPLETED_AND_DISPOSITIONED",
+  "worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 66.533,
+    "retry": false
+  },
+  "review_sha256": "4ad9f651c2aabcbf034d280dc945d2b63a297931b7f2fd05dd4982ccd705a71d",
+  "findings": [
+    {
+      "issue": "Unknown opaque subject token forwarded to research",
+      "disposition": "HARDENED",
+      "reason": "Lead now rejects unresolved own-format tokens before research; regression verifies no search reservation. Prior gateway still required independent matching verified records, so no wrong-peer admission was demonstrated."
+    },
+    {
+      "issue": "Tokens globally deterministic rather than primary-company scoped",
+      "disposition": "INTENTIONAL",
+      "reason": "Presentation removes semantic bookkeeping IDs, not cross-run anonymity. Equal canonical subjects intentionally have stable tokens. Explicit request, gateway and budget context guards remain; no isolation guarantee is claimed."
+    },
+    {
+      "issue": "Citation attribution not fully traced through vendor nodes",
+      "disposition": "REVIEW_LIMITATION",
+      "reason": "No concrete citation defect found; this is not semantic certification or proof of exhaustive audit."
+    }
+  ],
+  "validation": {
+    "total": 905,
+    "passed": 902,
+    "skipped": 3,
+    "readiness_run": "identity-review-hardening-20261125-001"
+  },
+  "new_company_live_run": false,
+  "Y_changed": false,
+  "training": false
+}

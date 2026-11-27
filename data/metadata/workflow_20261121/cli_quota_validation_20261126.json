@@ -1,0 +1,75 @@
+{
+  "status": "CLI_USAGE_REJECTION_CLASSIFICATION_VALIDATED",
+  "date": "2026-11-26",
+  "official_reference": "https://code.claude.com/docs/en/agent-sdk/typescript#sdkratelimitevent",
+  "claude_worker": {
+    "exit_code": 0,
+    "provider_is_error": false,
+    "quota_error": false,
+    "elapsed_seconds": 151.22,
+    "retry": false
+  },
+  "claude_contribution": "Created shared classifier, integrated both transports, added19tests and source fingerprint update.",
+  "codex_contribution": "Added disk/guard/negated-text/type protection, incremental rejection detection before malformed tail,5regressions and actual allowed-stream parser replay.",
+  "new_tests": 24,
+  "full_suite_base": {
+    "run": "cli-quota-classification-20261126-003",
+    "total": 1010,
+    "passed": 1007,
+    "skipped": 3
+  },
+  "final_focused_checks": {
+    "cli_limits": 13,
+    "cli_backend": 33,
+    "web_discovery": 30,
+    "passed": 76
+  },
+  "captured_real_stream_replay": {
+    "status": "CAPTURED_REAL_ALLOWED_RATE_STREAMS_REPLAYED",
+    "captures": [
+      {
+        "capture": "discovery_001",
+        "sha256": "d1706af6e2057fd4b301837fff5bba75e046f69196153d4dc878707f1b3281e6",
+        "primary_statuses": [
+          "allowed"
+        ],
+        "secondary_overage_rejection_present": true,
+        "all_utilization_unknown": true,
+        "parse_status": "HELD_FOR_VERIFICATION",
+        "false_quota_stop": false,
+        "original_unchanged": true
+      },
+      {
+        "capture": "discovery_002",
+        "sha256": "ba35a3e1d90b52ba0e8a51097150e811511d40a7c704f863c4689c15ba956599",
+        "primary_statuses": [
+          "allowed"
+        ],
+        "secondary_overage_rejection_present": true,
+        "all_utilization_unknown": true,
+        "parse_status": "HELD_FOR_VERIFICATION",
+        "false_quota_stop": false,
+        "original_unchanged": true
+      }
+    ],
+    "actual_new_model_calls": 0,
+    "actual_new_source_http": 0,
+    "remaining_token_balance": "UNKNOWN",
+    "current_account_quota_measured": false
+  },
+  "discovery_component_fingerprint_files": 21,
+  "actual_quota_exhaustion_forced": false,
+  "new_model_calls_for_validation": 0,
+  "source_http_for_validation": 0,
+  "automatic_retry": false,
+  "quota_reset": false,
+  "credit_purchase": false,
+  "automatic_wakeup": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Legacy CLI_QUOTA_EXHAUSTED is an operational provider usage/rate rejection code, not a measured zero token balance.",
+    "Missing utilization remains unknown; old captured allowed events do not establish current live allowance.",
+    "No actual rejection was induced; rejection cases are controlled fixtures."
+  ]
+}

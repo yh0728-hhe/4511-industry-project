@@ -1,0 +1,29 @@
+{
+  "protocol_id": "FULL-EVIDENCE-FEEDBACK-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Current full source-first lead/DIALECTIC/Ragas support-check/evidence-gap followup integration; not unchanged upstream,accuracy comparison or independent holdout",
+  "company": "Hatchet",
+  "selection": "First previously admitted historical package-backed cohort company; same limited source, new workflow variant, old experiments remain sealed",
+  "package": "hatchet-sdk",
+  "artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+  "cutoff": "2024-04-04T23:59:59+00:00",
+  "mandate": "Assess a seed software investment strictly from admitted historical evidence. The embedded package README supports only SDK identification and documentation links. Unknown business facts must remain unknown. Evaluate support for selected investment arguments, then request decision-changing missing evidence; do not infer team execution, traction or maturity from SDK publication.",
+  "model": "claude-sonnet-5",
+  "max_cli_processes": 24,
+  "max_http": 0,
+  "max_seconds": 480,
+  "per_call_timeout_seconds": 60,
+  "max_research_passes": 2,
+  "check_argument_support": true,
+  "retry": false,
+  "fallback": false,
+  "Y_changed": false,
+  "success_definition": "Record actual stages/stop cause under one budget; source gate before backend; check support of final arguments and return evidence gaps or explicit stop. No prescribed decision/score. A single publisher README cannot demonstrate broad diligence or model quality.",
+  "code_sha256": {
+    "src/closed_loop/package_runner.py": "11e45abeb86db96bde2e95f1478c27192204363bfc30e6602ce918ba6c014d81",
+    "src/closed_loop/evidence_checked_committee.py": "1e763b612508af2099e5e11f2f47dfce994d804744620f45b42a5e12e9631c11",
+    "src/closed_loop/ragas_faithfulness.py": "8b8f0847cff1fab9a2296d115bc5c44055f997e59152acddfb6a395c1b02f14f",
+    "src/closed_loop/native_committee.py": "ff17d95e9d17e88a0d10375c1fb79eb28a14a6039dbe7323c6afe75de3564ab7",
+    "src/closed_loop/cli_backend.py": "63aad2280d1303ccef7ddf4716786d32c8c0703b021d3526cadb27d8cb2b79fb"
+  }
+}

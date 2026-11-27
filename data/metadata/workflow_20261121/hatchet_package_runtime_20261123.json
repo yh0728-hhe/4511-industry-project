@@ -1,0 +1,85 @@
+{
+  "verified_utc": "2026-11-23T20:03:31.276094+00:00",
+  "run_id": "hatchet_package_live_001",
+  "mode": "REAL_CLAUDE_SUBSCRIPTION_WITH_REAL_HISTORICAL_PACKAGE_SOURCE",
+  "plan": {
+    "status": "SOURCE_ADMITTED_BEFORE_MODEL_CONSTRUCTION",
+    "company": {
+      "company_id": "w24:hatchet.run",
+      "name": "Hatchet",
+      "domain": "hatchet.run"
+    },
+    "as_of": "2024-04-04T23:59:59+00:00",
+    "mandate": "Assess a seed software investment strictly from admitted historical evidence. The package README proves only an SDK and documentation links. It supplies no revenue, retention, customer, team or market-size evidence. Treat those gaps as unknown and request decision-changing diligence. Do not use model memory or infer missingness as adverse evidence.",
+    "model": "claude-sonnet-5",
+    "source_policy": "pypi-artifact-v1",
+    "prompt_version": "ca44c38b9604cb0250c4d3fe52b6794ec4791891e21bec2d6a708bc9cf6ec25a",
+    "prompt_bundle_sha256": "ca44c38b9604cb0250c4d3fe52b6794ec4791891e21bec2d6a708bc9cf6ec25a",
+    "max_model_calls": 24,
+    "max_http_requests": 0,
+    "deadline": "2026-11-23T20:04:59.184416+00:00",
+    "source_id": "pypi-wheel:f4a9dbdb070deecb9693ff57d9f7ce1a1141587b1eb38872a916b9f3d0325bf5",
+    "source_sha256": "3fd4f668cf1665596084cd32ee1df33c48bdf54e7486ff55bd47ee02ffbb816f",
+    "artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+    "source_url": "https://files.pythonhosted.org/packages/5d/44/e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec/hatchet_sdk-0.21.1-py3-none-any.whl",
+    "uploaded": "2024-04-04T16:05:00.538145+00:00",
+    "evidence_scope": "Embedded SDK README only; no traction, revenue or funding inference",
+    "historical_domain_ownership_independently_proven": false,
+    "Y_read": false,
+    "pretrained_future_knowledge_exclusion_proven": false,
+    "fingerprint": "6aa14fd3f7441948c7d4a6f972e061c38feecd8d42579ac91ca372f3057d5196"
+  },
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "NO_NEW_EVIDENCE",
+  "essential_gaps": [
+    "Revenue/ARR: What is Hatchet's current revenue, growth rate, and revenue model? No admitted fact addresses this.",
+    "Customers: Who are Hatchet's actual customers (count, names, segment), and what evidence exists of paid adoption beyond a public SDK package? Unaddressed by the admitted fact.",
+    "Retention/engagement: What is customer or developer retention, churn, or active-usage data for the SDK? No admitted evidence.",
+    "Team: Who are the founders/engineers, what is their track record, and what is current headcount? No admitted evidence.",
+    "Market size/competition: What is the addressable market for workflow-orchestration tooling and how does Hatchet differentiate from incumbents? No admitted evidence.",
+    "Adoption signals: What are actual download counts, GitHub stars/commit cadence, or community activity, beyond the bare existence of a published package? The admitted fact shows only a README with two links, not usage telemetry.",
+    "Documentation-brevity conflict: Does the minimal PyPI README reflect a deliberate choice to host full docs externally versus an immature/unpolished product? The debate trace raises both readings as competing inferences; no admitted fact resolves which is correct, so this remains an open, unresolved question rather than settled either way.",
+    "Funding history/terms: What prior funding, valuation, or cap table details exist for this seed round? No admitted evidence."
+  ],
+  "cli_dispatch_attempts": 13,
+  "cli_successful_structured_results": 13,
+  "inner_inference_requests": "UNKNOWN",
+  "invoice": "UNKNOWN",
+  "http_requests_during_execution": 0,
+  "source_count": 1,
+  "fact_revision": 1,
+  "argument_revision": 1,
+  "committee_stages": [
+    "generation",
+    "critique",
+    "score_and_select",
+    "refinement",
+    "final_aggregation",
+    "evidence_review"
+  ],
+  "citation_ids_all_in_admitted_set": true,
+  "semantic_support_certified": false,
+  "semantic_audit_findings": [
+    "Generated contra argument inferred an unpolished pre-traction state from README brevity; unsupported. Critique challenged this and final result remained MORE_DILIGENCE.",
+    "Workflow-orchestration category appeared in analysis/gaps although embedded README does not establish the category; possible model-memory contribution.",
+    "Documentation links were present, but linked pages were not fetched. Existence of those URLs does not verify target body or product maturity."
+  ],
+  "acceptance": "TRANSPORT_AND_RUNTIME_EXECUTED; NOT_ACCEPTED_AS_GROUNDED_INVESTMENT_ANALYSIS",
+  "thesis_generated": false,
+  "predictive_accuracy_evaluated": false,
+  "training_run": false,
+  "Y_changed": false,
+  "result_sha256": "2d58eff1ca6a34986452083be158a9a1c86985f16ad9a8f196dd9bdec0cd76db",
+  "journal_sha256": "d10544aad2a1471beea48650a3be9e737523351a17b0ad1437c5399d48b8c137",
+  "execution_code_sha256": {
+    "src/closed_loop/package_runner.py": "f4b66795d4895646556f91f3f9ba2028babf4235763c488ee4cadc7cf5e0728d",
+    "src/closed_loop/cli_backend.py": "8a266f45a3602e9c67d27cb144eb2f850dc645ad480dd1ffa6e1038962126796",
+    "src/closed_loop/package_source.py": "48d58609aae5827f503b7b869dee80535e590a25ad2844e50e260bed2f0b80c8"
+  },
+  "offline_test_counts": {
+    "total": 544,
+    "passed": 541,
+    "skipped": 3
+  },
+  "raw_model_trace_committed": false
+}

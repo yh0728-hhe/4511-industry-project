@@ -1,0 +1,18 @@
+name: Shared workflow verification (offline)
+on:
+  pull_request:
+  push:
+    branches: [rose/workflow-progress-20261126]
+permissions:
+  contents: read
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify shared workflow without private provider inputs
+        run: python scripts/verify_shared_workflow.py --output-dir results/scratch/shared-ci-${{ github.run_id }}-${{ github.run_attempt }} --max-seconds 300

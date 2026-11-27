@@ -1,0 +1,40 @@
+{
+  "protocol_id": "FULL-DISCOVERY-WORKFLOW-20261124-001",
+  "execution_commit": "26be4b4",
+  "elapsed_seconds": 425.953,
+  "status": "DISCOVERY_RUNTIME_STOPPED",
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "CLI_PROCESS_FAILED",
+  "backend_process_attempts": 16,
+  "managed_discovery_process_attempts": 2,
+  "direct_archive_http_attempts": 2,
+  "logical_call_budget": {
+    "used": {
+      "model": 18,
+      "search": 4
+    },
+    "caps": {
+      "model": 24,
+      "search": 12
+    },
+    "active": 0
+  },
+  "admitted_fact_count": 1,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "REAL_DISCOVERY_ARCHIVE_DEBATE_EXECUTED_CHECKER_PROCESS_FAILED",
+  "research_quality_success": false,
+  "actual_inference_requests": "UNKNOWN",
+  "first_argument_automatic_verdicts": {
+    "total": 18,
+    "supported": 10,
+    "unsupported": 8
+  },
+  "second_argument_decomposition_count": 17,
+  "final_nli_failure_type": "UNKNOWN_NOT_RECORDED_BY_OLD_BACKEND",
+  "timeout_inference": "Consistent with per-call timeout, but original journal stores PROCESS_FAILED only; do not certify exact cause",
+  "failure_trace_finding": "Original discovery runner did not persist committee.last_trace when checker raised. Raw CLI captures retained; fixed offline by separate committee_trace and model_calls files.",
+  "scope_finding": "Unsupported diagnostics include recommendations/opinions; do not interpret all unsupported items as researchable factual gaps",
+  "human_accuracy_or_investment_effectiveness_evaluated": false
+}

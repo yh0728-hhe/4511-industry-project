@@ -1,0 +1,396 @@
+{
+  "status": "NEW_REGISTRY_AND_SCREEN_PATHS_EXECUTED_FOLLOWUP_STOPPED",
+  "date": "2026-11-26",
+  "protocol": "data\\metadata\\workflow_20261121\\guarded_package_discovery_protocol_20261126.json",
+  "execution": {
+    "Y_changed": false,
+    "acceptance": {
+      "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+      "decision": "MORE_DILIGENCE",
+      "packet": {
+        "admitted_fact_ids": [
+          "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+        ],
+        "analysis_sha256": "b839c303bce226958c1157e4ec1ea8e2c5424681b0ab34295780f5d446005f6b",
+        "claims": [
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "rationale",
+            "text": "Research incomplete; unresolved facts are unknown, not negative."
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/0",
+            "text": "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/1",
+            "text": "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/2",
+            "text": "Team composition, founder background, and execution history — none is present in the admitted evidence"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/3",
+            "text": "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/4",
+            "text": "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/5",
+            "text": "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/6",
+            "text": "Competitive landscape and differentiation — no evidence supplied"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/7",
+            "text": "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity"
+          },
+          {
+            "cited_fact_ids": [
+              "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+            ],
+            "claim_id": "essential_gaps/8",
+            "text": "Any evidence of actual usage, integrations, or production deployments of the SDK"
+          }
+        ],
+        "essential_gaps": [
+          "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+          "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+          "Team composition, founder background, and execution history — none is present in the admitted evidence",
+          "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+          "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+          "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+          "Competitive landscape and differentiation — no evidence supplied",
+          "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+          "Any evidence of actual usage, integrations, or production deployments of the SDK"
+        ],
+        "has_thesis": false,
+        "proposed_decision": "MORE_DILIGENCE",
+        "run_fingerprint": "4a2b8082356530817c34b7093e6a866465eea36d3b2f5412fcb51d8559af4ed4",
+        "source_run_fingerprint": "1b7817fc6c79b47e55abb3ccabc1e08ce98d074d32ba886ac21e3a6b407988dc"
+      },
+      "proposed_decision": "MORE_DILIGENCE",
+      "semantic_support_certified": false
+    },
+    "accounting_note": "Core counts logical dispatch reservations, not actual provider billing or hidden managed requests. Concrete runners report observed process and direct HTTP attempts separately; unknown counts remain unknown.",
+    "actual_model_calls": null,
+    "actual_network_calls": null,
+    "admitted_fact_ids": [
+      "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+    ],
+    "argument_revision": 1,
+    "backend_process_attempts": 3,
+    "committee_trace_file": "committee_trace.json",
+    "decision": "MORE_DILIGENCE",
+    "direct_archive_http_attempts": 3,
+    "direct_registry_http_attempts": 2,
+    "direct_source_http_attempts": 5,
+    "essential_gaps": [
+      "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+      "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+      "Team composition, founder background, and execution history — none is present in the admitted evidence",
+      "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+      "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+      "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+      "Competitive landscape and differentiation — no evidence supplied",
+      "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+      "Any evidence of actual usage, integrations, or production deployments of the SDK"
+    ],
+    "fact_revision": 1,
+    "internal_inference_requests": "UNKNOWN",
+    "invoice": "UNKNOWN",
+    "logical_call_budget": {
+      "active": 0,
+      "caps": {
+        "model": 8,
+        "search": 12
+      },
+      "used": {
+        "model": 5,
+        "search": 7
+      }
+    },
+    "managed_discovery_process_attempts": 2,
+    "managed_internal_http": "UNKNOWN",
+    "predictive_accuracy_evaluated": false,
+    "proposed_decision": "MORE_DILIGENCE",
+    "rationale": "Research incomplete; unresolved facts are unknown, not negative.",
+    "semantic_support_certified": false,
+    "status": "DISCOVERY_RUNTIME_STOPPED",
+    "stop_reason": "WEB_DISCOVERY_PROCESS_FAILED",
+    "thesis": null,
+    "trace": [
+      {
+        "event": "FACT_ADDED",
+        "new_fact_id": "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc",
+        "old_fact_id": null
+      },
+      {
+        "admitted_fact_ids": [
+          "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+        ],
+        "cache_hit": false,
+        "event": "RESEARCH",
+        "fact_revision": 1,
+        "question": "What does Hatchet (hatchet.run) publicly document as its product/service, intended users, and technical capability as of the cutoff, and is there dated evidence distinguishing a live, usable product from stated plans or demos?",
+        "role": "product"
+      },
+      {
+        "argument_revision": 1,
+        "cited_fact_ids": [],
+        "event": "COMMITTEE_REGENERATED",
+        "fact_revision": 1,
+        "proposed_decision": "MORE_DILIGENCE"
+      },
+      {
+        "automatic": true,
+        "event": "PROGRESSIVE_PRELIMINARY_ASSESSMENT",
+        "human": false,
+        "semantically_certified": false,
+        "untrusted_assessment": {
+          "actual_model_calls": null,
+          "admitted_fact_ids": [
+            "e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc"
+          ],
+          "analysis_review_status": "NOT_REVIEWED",
+          "decision": "MORE_DILIGENCE",
+          "essential_gaps": [
+            "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+            "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+            "Team composition, founder background, and execution history — none is present in the admitted evidence",
+            "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+            "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+            "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+            "Competitive landscape and differentiation — no evidence supplied",
+            "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+            "Any evidence of actual usage, integrations, or production deployments of the SDK"
+          ],
+          "instruction_sha256": "5ad38beb45a8b70196400ffb85d5554343ba87fd238679e971b3596caa82d4d2",
+          "invoice": "UNKNOWN",
+          "logical_call_budget": {
+            "active": 0,
+            "caps": {
+              "model": 8,
+              "search": 12
+            },
+            "used": {
+              "model": 3,
+              "search": 6
+            }
+          },
+          "mode": "FIXED_EVIDENCE_SINGLE_ANALYST",
+          "rationale": "The entire admitted evidentiary record for this subject consists of a single fact (fact_id e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc): a short README bundled inside a PyPI-hosted Python wheel for a package called the 'Hatchet Python SDK,' which links out to hatchet.run and docs.hatchet.run. This is a publisher-originated artifact (classified VERIFIED_ORIGINAL_PUBLICATION, meaning the record is verified as an original publication, not that its claims are independently corroborated). It establishes only: (a) a package named 'hatchet_sdk' version 0.21.1 existed and was distributed via PyPI as of the file's availability date (2024-04-04), and (b) the README text contains outbound links to hatchet.run and docs.hatchet.run. Per protocol, an outbound link proves only that the URL string was present in the text, not that the target was reachable, readable, or contained any particular content; a published SDK and a short README do not by themselves establish adoption, functional quality, team execution, maturity, product-market fit, or absence thereof. There is no admitted evidence of: the company/entity behind this package, its business model, funding, team composition or background, customers or usage metrics, competitive landscape, revenue, legal/corporate status, or any independent (non-self-published) commercial verification. Given the mandate requires assessing sufficiency of historically available public evidence for an early-stage investment assessment, a single self-published package README cannot support a substantive INVEST or PASS determination. The appropriate outcome is MORE_DILIGENCE, since essential facts remain unknown rather than negative.",
+          "raw_assessment": {
+            "decision": "MORE_DILIGENCE",
+            "essential_gaps": [
+              "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+              "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+              "Team composition, founder background, and execution history — none is present in the admitted evidence",
+              "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+              "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+              "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+              "Competitive landscape and differentiation — no evidence supplied",
+              "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+              "Any evidence of actual usage, integrations, or production deployments of the SDK"
+            ],
+            "rationale": "The entire admitted evidentiary record for this subject consists of a single fact (fact_id e53486bf9357cf935db128ad8d8df384c9b2fc1b1b861f935b6fb87ca3ed5bbc): a short README bundled inside a PyPI-hosted Python wheel for a package called the 'Hatchet Python SDK,' which links out to hatchet.run and docs.hatchet.run. This is a publisher-originated artifact (classified VERIFIED_ORIGINAL_PUBLICATION, meaning the record is verified as an original publication, not that its claims are independently corroborated). It establishes only: (a) a package named 'hatchet_sdk' version 0.21.1 existed and was distributed via PyPI as of the file's availability date (2024-04-04), and (b) the README text contains outbound links to hatchet.run and docs.hatchet.run. Per protocol, an outbound link proves only that the URL string was present in the text, not that the target was reachable, readable, or contained any particular content; a published SDK and a short README do not by themselves establish adoption, functional quality, team execution, maturity, product-market fit, or absence thereof. There is no admitted evidence of: the company/entity behind this package, its business model, funding, team composition or background, customers or usage metrics, competitive landscape, revenue, legal/corporate status, or any independent (non-self-published) commercial verification. Given the mandate requires assessing sufficiency of historically available public evidence for an early-stage investment assessment, a single self-published package README cannot support a substantive INVEST or PASS determination. The appropriate outcome is MORE_DILIGENCE, since essential facts remain unknown rather than negative.",
+            "thesis": null
+          },
+          "semantic_support_certified": false,
+          "thesis": null,
+          "untrusted_proposed_decision": "MORE_DILIGENCE"
+        }
+      },
+      {
+        "automatic": true,
+        "event": "PROGRESSIVE_SCREEN_MORE_DILIGENCE",
+        "human": false,
+        "screen_decision": "MORE_DILIGENCE",
+        "screen_essential_gaps": [
+          "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+          "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+          "Team composition, founder background, and execution history — none is present in the admitted evidence",
+          "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+          "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+          "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+          "Competitive landscape and differentiation — no evidence supplied",
+          "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+          "Any evidence of actual usage, integrations, or production deployments of the SDK"
+        ],
+        "semantically_certified": false
+      },
+      {
+        "event": "EVIDENCE_GAP",
+        "fact_revision": 1,
+        "questions": [
+          "Identity, legal structure, and incorporation status of the entity publishing the 'hatchet_sdk' package",
+          "Business model, product scope, and target market (beyond the self-described label 'SDK'), independent of any inference from the package or company name",
+          "Team composition, founder background, and execution history — none is present in the admitted evidence",
+          "Any independent (third-party) verification of the package's existence, functionality, or adoption (e.g., download counts, independent reviews, customer references) — not supplied",
+          "Funding history, revenue, or financial status as of or before the cutoff date (2024-04-04) — none supplied; future funding/status cannot be used per instructions even if it existed",
+          "Content and veracity of the linked hatchet.run and docs.hatchet.run pages — the admitted fact only shows the links were present in the README text, not that the pages were accessible or what they contained",
+          "Competitive landscape and differentiation — no evidence supplied",
+          "Version/release history beyond the single 0.21.1 wheel noted, to assess trajectory or maturity",
+          "Any evidence of actual usage, integrations, or production deployments of the SDK"
+        ]
+      },
+      {
+        "admitted_fact_ids": [],
+        "cache_hit": false,
+        "event": "RESEARCH",
+        "fact_revision": 1,
+        "question": "Search for independent, third-party evidence (e.g., GitHub repository activity, PyPI download counts, user/customer references) dated before 2024-04-04 that verifies actual usage or adoption of the hatchet_sdk package beyond its self-published PyPI README.",
+        "role": "traction"
+      }
+    ],
+    "training_run": false
+  },
+  "parent_process": {
+    "exit_code": 2,
+    "elapsed_seconds": 181.339,
+    "retry": false
+  },
+  "registry_receipts": [
+    {
+      "availability_upper_bound": "2024-04-04T16:05:00.538145+00:00",
+      "evidence_scope": "ATTRIBUTED_PACKAGE_DOCUMENTATION",
+      "format": "wheel",
+      "historical_domain_ownership_independently_proven": false,
+      "outcome": "admitted",
+      "package": "hatchet-sdk",
+      "source_id": "pypi-wheel:e5696157a163d4ab61ee372a783cbe692c6b0a7d0e8b8b8d165a091f042bb108",
+      "url": "https://files.pythonhosted.org/packages/5d/44/e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec/hatchet_sdk-0.21.1-py3-none-any.whl"
+    }
+  ],
+  "paths_observed": {
+    "dynamic_lead": true,
+    "managed_search": true,
+    "registry_metadata_and_artifact": true,
+    "historical_gateway": true,
+    "preliminary_screen": true,
+    "followup_lead_and_discovery_attempt": true,
+    "native_committee": false,
+    "argument_support_checker": false,
+    "final_substantive_acceptance": false
+  },
+  "observed_model_cli_attempts": 5,
+  "observed_direct_source_http_attempts": 5,
+  "native_backend_attempts": 3,
+  "managed_discovery_attempts": 2,
+  "latest_process_diagnostic": {
+    "error_type": "TimeoutExpired",
+    "timeout_seconds": 2.51834,
+    "interpretation": "Second managed invocation had only2.51834seconds remaining under the global deadline and timed out. Original result keeps generic WEB_DISCOVERY_PROCESS_FAILED; no provider quota exhaustion is established."
+  },
+  "artifact_audit": {
+    "findings": [],
+    "input_sha256": {
+      "committee_trace.json": "b5db4e52aa10cf57fba85ccd634e0e19f340924a37f0b62a09ca45d535385430",
+      "plan.json": "360050cfee6efe91ea5c0368ed52fc32ac885af475082d2cca1688014baea0db",
+      "proposal.json": "b9c91b990c9c4842204dea10de298606b35ac8dd9479aa5650c37ba3987bac9e",
+      "result.json": "f4e944c9833bf6806663b5c026c860c256fc87f3a976bbd14cb1239680424427"
+    },
+    "status": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION"
+  },
+  "five_model_inputs_checked_for_outcome_keys_and_literal_bookkeeping_id": true,
+  "future_pretrained_knowledge_exclusion_proven": false,
+  "source_code_hashes_reverified": 26,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "quality_or_speed_improvement_claim": false,
+  "limitations": [
+    "Purposive development case, previously known package availability, no blind/independent comparison.",
+    "Only embedded SDK documentation admitted; independent commercial or ownership facts remain unknown.",
+    "Run stopped rather than completing a full second research pass; explicit uncertainty retained.",
+    "No native debate or Ragas support stage was exercised in this screen-first case.",
+    "Managed internal HTTP and model inferences, and invoices, remain unknown."
+  ],
+  "artifact_sha256": {
+    "guarded_package_discovery_live_001\\archive_attempts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "guarded_package_discovery_live_001\\archive_http_001.body": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "guarded_package_discovery_live_001\\archive_http_001.json": "0a2cfe64f940944c90cc90a7a255021db9224c5459b282da02035a3b29771878",
+    "guarded_package_discovery_live_001\\archive_http_002.body": "be0c3dc6fcc3b26763b8146db3e75f20dce77aa236a99724b63e1208295dc16b",
+    "guarded_package_discovery_live_001\\archive_http_002.json": "8825ff2183ad41b4136e3f2e58ba1175dc4a97c946920bd63782e8dc2e7c6bfa",
+    "guarded_package_discovery_live_001\\archive_http_003.body": "52af26f78f009631359b01c62df89ae64e189627091be0c3d8caac8bc2ff34b0",
+    "guarded_package_discovery_live_001\\archive_http_003.json": "e8987b34f037b11c434deba9b417e15a8bca6bf21f394317af50635cf2306e26",
+    "guarded_package_discovery_live_001\\archive_receipts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "guarded_package_discovery_live_001\\committee_trace.json": "b5db4e52aa10cf57fba85ccd634e0e19f340924a37f0b62a09ca45d535385430",
+    "guarded_package_discovery_live_001\\config_snapshot.json": "f0a968c85f3a31fbb2bf48653fbff11506c5747469af9fa19b5ee326aa5b3fad",
+    "guarded_package_discovery_live_001\\dispatch.jsonl": "cf26f73a15db76a8023458bda272fd1422db6ee60955c3efa2638876419cf415",
+    "guarded_package_discovery_live_001\\model_calls.json": "00369b6fccba035c1936a213f36f36886a7a4251c964cbfa673e2f3cb82d8cc5",
+    "guarded_package_discovery_live_001\\plan.json": "360050cfee6efe91ea5c0368ed52fc32ac885af475082d2cca1688014baea0db",
+    "guarded_package_discovery_live_001\\proposal.json": "b9c91b990c9c4842204dea10de298606b35ac8dd9479aa5650c37ba3987bac9e",
+    "guarded_package_discovery_live_001\\provider_trace.json": "6edba8139ffffff9c490b101e79238fda95995cc90bc9f0955198fee7c16b6ae",
+    "guarded_package_discovery_live_001\\publisher_attempts.json": "25050979b5b7852ad3d4ca42279d1cb9639adfe69dff1a608eae45bebf484274",
+    "guarded_package_discovery_live_001\\publisher_receipts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "guarded_package_discovery_live_001\\registry_http_001.body": "32464dc8228bf1af0b1be3f566896cabac90bd0dd00f433200db3aa1e12b79d9",
+    "guarded_package_discovery_live_001\\registry_http_001.json": "d1ac087f9dfe144d066a33d61872603cf850d1bf4b72067b5bb972e6906bf014",
+    "guarded_package_discovery_live_001\\registry_http_002.body": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+    "guarded_package_discovery_live_001\\registry_http_002.json": "e21501306b47fbb277684ab0b6e5d3173f1c00454b120ba3af98ad7ff5b21eec",
+    "guarded_package_discovery_live_001\\registry_receipts.json": "32c06bb775706ea5faba2d20ed5fa1f5a6e7b7481076c0b72013100164c000ec",
+    "guarded_package_discovery_live_001\\registry_trace.json": "376b5ab5686fe5019e721b3a8d59ccf56a6a523babcad5e98db95154deabc2b1",
+    "guarded_package_discovery_live_001\\result.json": "f4e944c9833bf6806663b5c026c860c256fc87f3a976bbd14cb1239680424427",
+    "guarded_package_discovery_live_001\\backend_wire\\call_001.json": "6a540476c2d50159dd83da180f27e0d58438c31c2b6a5c677123e465c58f5833",
+    "guarded_package_discovery_live_001\\backend_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\backend_wire\\call_001.stdin": "99fa5e4e15ec2d54abf98eaeeae58ab80d8736e8330a008ef355fec92cca9f93",
+    "guarded_package_discovery_live_001\\backend_wire\\call_001.stdout": "642084c59437f0282290436c354f70b9e282e20b68609e668bbeb155a5eb87b1",
+    "guarded_package_discovery_live_001\\backend_wire\\call_002.json": "522920ecbe347a79cf18e085dc1f0a3f0a118888deff595d3a6879d432aa91d6",
+    "guarded_package_discovery_live_001\\backend_wire\\call_002.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\backend_wire\\call_002.stdin": "e94662354b2e16ee3cfacb22e1ca2d7120904118d90cc68de7060b9b04d027ac",
+    "guarded_package_discovery_live_001\\backend_wire\\call_002.stdout": "cffc491bcc01e03ee337065d10c13883be2d46d04e740ba3e7c7479d1a0430ee",
+    "guarded_package_discovery_live_001\\backend_wire\\call_003.json": "d5d1602eb4c893d5aabaefcc2cae253172175189213f1af81956729effeb3e8c",
+    "guarded_package_discovery_live_001\\backend_wire\\call_003.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\backend_wire\\call_003.stdin": "f260202eb1b077aef1ff2899d615da28a739f88f752ad9c9f28ce8543ebe1ea8",
+    "guarded_package_discovery_live_001\\backend_wire\\call_003.stdout": "c3c56b70e2588262841c577f5bde6c4d9551f6fce9f38e9bf21ed3831646a5a3",
+    "guarded_package_discovery_live_001\\discovery_001\\intent.json": "bee8f018b1f81836c9e121219d3c184063c2f5c8af691023aa166e68cdab1748",
+    "guarded_package_discovery_live_001\\discovery_001\\raw_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\discovery_001\\raw_stream.jsonl": "faa3ff7908975eca0170aea9a0096831d2a4049843ad7f4dd224bb8acb1f70ad",
+    "guarded_package_discovery_live_001\\discovery_001\\result.json": "cc97229b82f579f548421ca51c96bb0066ddb4b85d4a4af65ee44e4cbf72aaa6",
+    "guarded_package_discovery_live_001\\discovery_001_wire\\call_001.json": "4b5e477ff617f5b45f9613cda80d35652febacebda0d6d2808b218f0828761f0",
+    "guarded_package_discovery_live_001\\discovery_001_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\discovery_001_wire\\call_001.stdin": "e1c420e28f37d674255d0902a0075c46ab469d1db9665a957f212da2e4e7fbb6",
+    "guarded_package_discovery_live_001\\discovery_001_wire\\call_001.stdout": "faa3ff7908975eca0170aea9a0096831d2a4049843ad7f4dd224bb8acb1f70ad",
+    "guarded_package_discovery_live_001\\discovery_002\\intent.json": "3394f9131d899ed606c64239a49ca7623a5debebcc9b1b934b4ea41adf3212ca",
+    "guarded_package_discovery_live_001\\discovery_002\\result.json": "44ff7bd629aae5eff9cc814650347eedfb1c7bc41ad8a6f85a717b46cba6cfde",
+    "guarded_package_discovery_live_001\\discovery_002_wire\\call_001.json": "dc1b2c3f6eed2dc3b9d85d6a3e35bddbee36aefcb11495e62563943480bb267b",
+    "guarded_package_discovery_live_001\\discovery_002_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guarded_package_discovery_live_001\\discovery_002_wire\\call_001.stdin": "0da97b0bda8d135b9664b9e55a9695be355ffdb9b58a1b22e5e52a17cdecfb36",
+    "guarded_package_discovery_live_001\\discovery_002_wire\\call_001.stdout": "bd6502db5258b5fc7ee456a4079362889884229cc7491e6dfb77f55e66cf78aa",
+    "guarded_package_discovery_live_001\\registry_verification\\hatchet-sdk-wheel.jsonl": "0a8b11883be517fcacb56925573abda53b11968d5b536b1023b718015f75f76c",
+    "guarded_package_discovery_harness_001\\receipt.json": "13c6850aa9ee516fe8a891e32132fd3126a67c501ae4d08c31719c3d25ebaa38",
+    "guarded_package_discovery_harness_001\\intent.json": "556b0c4107385e5b1773ee17635fbf5929f8264bf73d7bcd105833a8c5187aa4",
+    "guarded_package_discovery_harness_001\\artifact_audit.json": "b08c8076133796d624f0c4be988ccf583ee13c88c1e57287c82d1c10a1c3ed9f"
+  }
+}

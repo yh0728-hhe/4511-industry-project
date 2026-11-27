@@ -1,0 +1,33 @@
+{
+  "status": "PAIRED_ORDER_AND_ACCOUNTING_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "claude_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 62.971,
+    "retry": false
+  },
+  "claude_contribution": "Implemented explicit arm_order, validation, fairness metadata, remaining-reservation accounting and4newtests.",
+  "codex_contribution": "Checked actual backend invocation chronology, strengthened exact-type validation and first-stop accounting tests, ran full offline readiness.",
+  "new_tests": 4,
+  "total_tests": 938,
+  "passed": 935,
+  "skipped": 3,
+  "readiness_run": "paired-order-20261126-001",
+  "prior_live_pair": {
+    "reference": "paired_evaluation_result_20261124.json",
+    "baseline_cli_attempts": 1,
+    "committee_cli_attempts": 11,
+    "both_completed": true,
+    "actual_starvation_observed": false
+  },
+  "fairness": {
+    "shared_budget": true,
+    "equal_per_arm_allowance": false,
+    "equal_cost": false,
+    "randomized_order": false,
+    "superiority_claim": false
+  },
+  "new_live_pair_run": false,
+  "Y_changed": false,
+  "training_run": false
+}

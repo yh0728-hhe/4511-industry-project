@@ -1,0 +1,41 @@
+{
+  "reviewed_commit": "708527f9",
+  "review_date": "2026-11-21",
+  "gate": "HOLD_NO_VERIFIED_PRECUTOFF_BODY",
+  "paid_experiment_started": false,
+  "training_started": false,
+  "outcome_labels_changed": false,
+  "independent_checks": [
+    {
+      "url": "https://www.hardwarefyi.com/startup-news/adagy-robotics-ycw24-have-launched/",
+      "http_status": 200,
+      "publication": "2024-03-05T12:00:00.000Z",
+      "finding": "Name and adagyrobotics.com present; founders not present. Supports dated name/domain claim, not all three identity fields independently."
+    },
+    {
+      "url": "https://www.ycombinator.com/launches/KVF-adagy-robotics-rescuing-robots",
+      "http_status": 200,
+      "final_url": "https://www.ycombinator.com",
+      "finding": "Redirect to homepage; not readable launch body and slug alone does not establish historical content."
+    },
+    {
+      "url": "https://www.ycombinator.com/launches/KZ3-aether-energy-ai-platform-for-rooftop-solar",
+      "http_status": 200,
+      "final_url": "https://www.ycombinator.com/launches/KZ3-aether-ai-platform-for-rooftop-solar",
+      "created_at": "2024-03-05T02:02:09.486Z",
+      "updated_at": "2026-11-21T21:51:12.037Z",
+      "finding": "Readable present launch body binds Shelby Bons, Zayne Sagar and aetherenergie.com. Creation timestamp establishes record age, not unchanged pre-cutoff body; current wrapper includes Feldy."
+    }
+  ],
+  "canonical_company_ids": {
+    "Adagy Robotics": "tuesday-labs",
+    "Aedilic": "aedilic",
+    "Aether Energy": "aether-energy"
+  },
+  "archive_limitations": {
+    "tuesday-labs": "Muse reports first CDX request 403; independently not reproduced this review. Earlier Codex 200/no eligible returned capture remains a separate observation.",
+    "aedilic": "No individual archive request executed by Muse after shared endpoint restriction; NOT_ATTEMPTED_ENDPOINT_RESTRICTED, not an observed company-specific 403.",
+    "aether-energy": "No individual archive request executed by Muse after shared endpoint restriction; NOT_ATTEMPTED_ENDPOINT_RESTRICTED, not an observed company-specific 403."
+  },
+  "next_action": "Do not expand outcome research or paid runs. Retain historical gate OPEN. Seek an already accessible dated original artifact or verified historical replay; current edited launch may support a separately labelled retrospective source-extraction check only, not the frozen historical baseline."
+}

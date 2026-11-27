@@ -1,0 +1,241 @@
+{
+  "protocol_id": "RAGTRUTH-WHOLE-RESPONSE-20261126-001",
+  "source_commit": "732403a0f491a1a68afbec91536f4b17e1517815",
+  "freeze_commit": "372882e",
+  "arm": "whole_response_single_nli",
+  "execution": {
+    "Y_changed": false,
+    "actual_source_http_requests": 0,
+    "aggregate_accuracy": null,
+    "all_rows_completed": true,
+    "arm": "whole_response_single_nli",
+    "case_ids": [
+      "ragtruth-response-11904",
+      "ragtruth-response-12012",
+      "ragtruth-response-12018",
+      "ragtruth-response-12044",
+      "ragtruth-response-12219",
+      "ragtruth-response-12233"
+    ],
+    "company_quality_gold": false,
+    "completed": [
+      {
+        "case_id": "ragtruth-response-11904",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12012",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12018",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12044",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12219",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12233",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      }
+    ],
+    "failed": [],
+    "input_sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a",
+    "invoice": "UNKNOWN",
+    "last_case_index": 5,
+    "limitation": "Single whole-response NLI call per case; no atomic-statement decomposition or recall; not an official Ragas metric; no label/gold agreement is computed or claimed here.",
+    "logical_call_budget": {
+      "active": 0,
+      "caps": {
+        "model": 6,
+        "search": 0
+      },
+      "used": {
+        "model": 6,
+        "search": 0
+      }
+    },
+    "managed_network_requests": "UNKNOWN",
+    "model_cli_attempts": 6,
+    "not_run": [],
+    "planned_rows": 6,
+    "prior_predictor_script_sha256": "a8c0c2dddf76a3e3eb4f9ab8e51d31617e4abdbe071146d4dc684bdcb118fa8e",
+    "protocol_id": "RAGTRUTH-WHOLE-RESPONSE-20261126-001",
+    "protocol_sha256": "866a6cb6723963b26f9a147c6d8baef441ae6c49b20c4a3b42d5b449cc80e1fd",
+    "status": "RAGTRUTH_WHOLE_RESPONSE_PREDICT_EXECUTED",
+    "stop_reason": null,
+    "training_run": false
+  },
+  "parent_receipt": {
+    "exit_code": 0,
+    "elapsed_seconds": 78.354,
+    "retry": false
+  },
+  "offline_grade": {
+    "status": "REFERENCE_AGREEMENT_COMPUTED",
+    "cases": [
+      {
+        "case_id": "ragtruth-response-11904",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12012",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12018",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12044",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12219",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12233",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      }
+    ],
+    "planned": 6,
+    "completed": 6,
+    "failed": 0,
+    "not_run": 0,
+    "reference_matches": 6,
+    "confusion_counts": {
+      "true_positive": 3,
+      "true_negative": 3,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "sample_agreement": {
+      "numerator": 6,
+      "denominator": 6,
+      "rate": 1.0
+    },
+    "constant_not_supported_matches": 3,
+    "external_reference_labels_human": true,
+    "company_quality_gold": false,
+    "aggregate_accuracy": null,
+    "training": false,
+    "Y_changed": false,
+    "model_calls": 0,
+    "source_http_requests": 0,
+    "limitations": [
+      "Six purposive public RAGTruth QA cases, not unseen holdout or representative startup evaluation.",
+      "Agreement is relative to supplied span annotations, not independently certified truth.",
+      "A failed or missing prediction is retained, never mapped to a negative factual label.",
+      "No general evaluator accuracy, investment performance or statistical superiority claim."
+    ],
+    "input_sha256": {
+      "predictions": "f1888abcbf4ef5aeae14f322fc59c08da5379bf7c4d3c8fe1ff05a84bdd21868",
+      "gold": "745bb96b5d3aa00ccce6442cf77e81324160772ed5dca23307c10d5382b256b2",
+      "protocol": "866a6cb6723963b26f9a147c6d8baef441ae6c49b20c4a3b42d5b449cc80e1fd"
+    }
+  },
+  "audit": {
+    "source_script_input_gold_hashes_match_protocol": true,
+    "recorded_stdin_count": 6,
+    "reference_label_keys_not_in_six_recorded_inputs": true,
+    "partial_or_dropped_cases": false,
+    "source_http_calls": 0,
+    "source_ci_success": true,
+    "ci_urls": [
+      "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45886156351/job/140137249909",
+      "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45886150456/job/140137229916"
+    ]
+  },
+  "private_artifacts_sha256": {
+    "backend_wire\\call_001.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_001.stdin": "8d25b21b142cce944603a87a24e5b34ed582973de57cb038fe626e6fd436df2d",
+    "backend_wire\\call_001.stdout": "72a78a6de101145bf9fa1a6621263ae257c4b4f0790d09e30077baf8feb34727",
+    "backend_wire\\call_002.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_002.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_002.stdin": "1e817072b57ea02b2b4b82ab1e65ef3aedf63b927f5ed0f753683055fdb9413e",
+    "backend_wire\\call_002.stdout": "533e46455f0b7190200d2ae13e99248d0ac31130bc7e16958ed2b843d3ae8bc1",
+    "backend_wire\\call_003.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_003.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_003.stdin": "79d007f2b7af4ea6b79a7f0270d7183f654276a2cde50dbb99e5fc3107802293",
+    "backend_wire\\call_003.stdout": "46d7f5d3e49063a898861cbf5420b7a9110b1e2b5fbde30ca2f2c5cd1e6f1df3",
+    "backend_wire\\call_004.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_004.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_004.stdin": "0e9c87e3489dfc05a73631f71a9837ca2e0532233ec80fde70021a7278520e91",
+    "backend_wire\\call_004.stdout": "78f06f42e988f562e0af2495ff3d88fc4c2cd578015ed8c665dc4ae911fe5c88",
+    "backend_wire\\call_005.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_005.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_005.stdin": "15eb17b966e5dd26cf1c8a0badd49ef807ad5964ade7711758fc0bf5b444a5e9",
+    "backend_wire\\call_005.stdout": "c92302069bb89d3444f034abdc92ddf3eb076af5f9dc3ed5adf7f30d9e121fe2",
+    "backend_wire\\call_006.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_006.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_006.stdin": "2f87221164e1827a48708b8e5c3f05e939c42d64e49ca1bab4efb4d9c5369405",
+    "backend_wire\\call_006.stdout": "7abf4dc85bd7d2b1d5e67db04a58f54a14f3c955c07b1d54a5d91f37facdbb21",
+    "completed_rows.json": "344d7e8feea650a209be5730e3d7bb4aac1932e0d40824ea184032bbb93ae355",
+    "dispatch.jsonl": "937829f544ddde20830b8c9ff32647c81e25402bf22f95b45d3719892e0f86e4",
+    "plan.json": "431196653a24828932756e039c7112d2f4c84441c49dc3e3cdc48b06cca468f4",
+    "result.json": "f1888abcbf4ef5aeae14f322fc59c08da5379bf7c4d3c8fe1ff05a84bdd21868",
+    "row_00_assessment.json": "a55411653e6a25a0e81c22f6e38c10d12f7a42753cf8131aad94ce4071262a17",
+    "row_00_calls.json": "97619490a0fef6e2ec51cfcd6f82b3adc723b89ae06478977d01e9e4811cb190",
+    "row_01_assessment.json": "d0f81b95b1aa8c8b5e4b041d4214807288f6967c329bc508e77ba8d136c32f28",
+    "row_01_calls.json": "84f6e9bbea1567c26deeef9bcb01032d786795fd35e8485e9d1e848096b530b2",
+    "row_02_assessment.json": "d6db4c8b2069e4a88c278dcdba414e3612e44e8bdefa6a5aa9cc52003ece2771",
+    "row_02_calls.json": "b8b882c0e24312cb64b3110588d713c18f18adb86c159551189ea8208dcde098",
+    "row_03_assessment.json": "560c94ca022b7190ef46b0a6146ac95c7e53fb43a7130ff19cddcd1146a01cb2",
+    "row_03_calls.json": "16b4fbb7e94aae0031b859aae8459926bce989ac6314fa30357c42a717458220",
+    "row_04_assessment.json": "fee166a941d01850c3821c3085f03d6382f2abae9a0b6408b78e645aec4e6bdb",
+    "row_04_calls.json": "2a3b5509044d2d87fb9de89b926a36e56f4da06d0c40d293e97f110ea6902cd4",
+    "row_05_assessment.json": "c22c2ec18bb05c9e2480f2dccf4b6a0a3bdd139c497fe812788eb93cd7544301",
+    "row_05_calls.json": "21e145787f1413a00e2c3497211384823082f255888dac302b32ddca5c11f810"
+  },
+  "limitations": [
+    "Different granularity from atomic decomposition",
+    "Not independent holdout; prior reference outcomes already available",
+    "No latency or accuracy superiority claim from six purposive known cases",
+    "CLI process counts exclude worker implementation and auth; internal inference and invoice unknown",
+    "Any incomplete arm preserves all six cases and null group agreement",
+    "Six of six supplied reference labels matched; not a general accuracy estimate.",
+    "No sentence/claim localization; direct whole-answer NLI can miss sparse unsupported details on other examples.",
+    "Do not pool this known exploratory arm with previous SNLI or incomplete decomposition results.",
+    "No model selection or production replacement is justified from this group alone."
+  ],
+  "production_changed": false,
+  "Y_changed": false,
+  "training": false
+}

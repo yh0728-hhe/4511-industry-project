@@ -1,0 +1,30 @@
+{
+  "status": "ODR_ROLE_PATTERN_OPTIONAL_PROVIDER_OFFLINE_INTEGRATED",
+  "upstream_commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+  "scope": "Verbatim five-step role instruction plus adapted navigation; actual execution reuses existing MeteredResearchProvider. NOT the full upstream agent graph.",
+  "upstream_text_verified": true,
+  "prompt_fingerprint": "4c506c2f256bcbac706da0a77c1d0384d35b976ab0409150f9c75dce6c7f8b0b",
+  "worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 115.636,
+    "configured_timeout_seconds": 180,
+    "retry": false
+  },
+  "attribution": "Actual Claude wrote provider and17tests. Codex fixed contradictory date-wording test via clearer adaptation text, added provider cache namespaces and2main runtime tests.",
+  "tests": {
+    "focused": 19,
+    "full": 709,
+    "passed": 706,
+    "skipped": 3,
+    "run_id": "odr-role-reuse-20261124-001"
+  },
+  "real_company_research_runs": 0,
+  "model_quality_measured": false,
+  "Y_changed": false,
+  "new_dependencies": false,
+  "code_sha256": {
+    "src/closed_loop/odr_research.py": "365a9b551068980f849258d1d7c01e95a9868d435ee260de3b9811e07f3e6da8",
+    "src/closed_loop/runtime.py": "6c3ff1c24881ff138fa4c0009212f26475af67366d2d58d27467b7488e31466e",
+    "tests/test_odr_research.py": "f8712144fc96cb585fe7a31084f1f411edafd672edb7270b4a2877cb1f5b1aaf"
+  }
+}

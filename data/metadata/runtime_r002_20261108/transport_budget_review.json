@@ -1,0 +1,83 @@
+{
+  "review": "R005_transport_budget_review",
+  "scope": [
+    "transport_review/src/closed_loop/archive_transport.py",
+    "transport_review/src/closed_loop/openai_backend.py",
+    "transport_review/tests/test_archive_transport.py",
+    "transport_review/tests/test_openai_backend.py"
+  ],
+  "method": "static read-only review; no execution/network/model calls; no re-run of the sealed single-model pilot",
+  "defects": [
+    {
+      "id": "D1",
+      "area": "budget_persistence_lease_lifecycle",
+      "title": "Lease file leaks if write fails after O_EXCL create",
+      "location": "openai_backend.py:APISpendEnvelope.__init__",
+      "failing_input": "os.fdopen/json.dump/os.fsync raises after os.open(O_CREAT|O_EXCL) succeeds (e.g. disk full, permission revoked mid-write)",
+      "impact": "orphaned .lock file blocks every future APISpendEnvelope on that journal_path, even after process exit, with no code path to clear it",
+      "fix": "wrap the os.fdopen write block in try/except that unlinks the lease path and re-raises",
+      "test": "monkeypatch os.fdopen to raise after os.open succeeds; assert the .lock file does not exist afterward"
+    },
+    {
+      "id": "D2",
+      "area": "per_physical_request_accounting",
+      "title": "Silent double reservation on CallBudget identity mismatch",
+      "location": "native_support.py:StructuredModel.reservation (line ~151)",
+      "failing_input": "OpenAIModelBackend constructed with a CallBudget object that is config-equal but not `is` the binding's budget object",
+      "impact": "every model call reserves against two separate counters instead of raising, silently doubling the effective per-run cap",
+      "fix": "assert backend.call_budget is call_budget at construction/binding time and raise ValueError on mismatch, instead of branching silently at call time via getattr identity check",
+      "test": "construct binding with two distinct-but-equal CallBudget instances; assert construction fails rather than double-reserving on first model call"
+    },
+    {
+      "id": "D3",
+      "area": "per_physical_request_accounting_concurrency",
+      "title": "ArchivedWebsiteProvider instance state unsynchronized under concurrency>1",
+      "location": "archive_transport.py:ArchivedWebsiteProvider._get",
+      "failing_input": "two threads call provider.search()/_get(same_url) concurrently when RunRequest.concurrency>1 and a single provider instance is shared across specialist tasks",
+      "impact": "TOCTOU race on self._request_count can exceed max_requests; TOCTOU race on self._responses cache can issue a duplicate physical HTTP call and a duplicate 'search' budget reservation for one logical URL, contradicting the sequential-only dedup proof in test_repeated_lookup_does_not_repeat_http_or_invent_new_evidence",
+      "fix": "add a Lock around the check-increment in _get and around cache get/insert, mirroring CallBudget's locking pattern; or explicitly document/enforce single-threaded-only provider instances",
+      "test": "two threads calling the same URL through a fake client with an internal barrier; assert exactly one physical call and no max_requests overrun"
+    },
+    {
+      "id": "D4",
+      "area": "schema_coercion",
+      "title": "decode_as rejects a schema-conformant integer for a float field",
+      "location": "openai_backend.py:decode_as",
+      "failing_input": "decode_as(float, 10)",
+      "impact": "a fully valid JSON Schema {\"type\":\"number\"} response using an integer-valued number fails closed with BudgetStopped('API_INVALID_STRUCTURED_OUTPUT'), no refund; currently latent because no shipped dataclass declares a float field",
+      "fix": "add `if kind is float and type(value) is int: return float(value)` before the strict type(value) is not kind check; keep bool rejected for int/float kinds",
+      "test": "decode_as(float, 10) == 10.0; decode_as(float, True) still raises ValueError"
+    }
+  ],
+  "verified_correct": [
+    {
+      "area": "redirects_domain_identity",
+      "claim": "at most one alternate capture is followed; alternate must match the same original URL and a different timestamp; alternate timestamp is independently re-verified via a fresh exact CDX query (not trusted from Location header); admitted fact is labeled with the alternate's own when/served_capture, never the originally requested capture's time",
+      "evidence": "archive_transport.py:_replay allow_reindex flag + regex match[2]!=original/match[1]==ts rejection + _capture(...,exact_timestamp=match[1]) reverification; test_alternate_capture_requires_new_index_check_and_uses_actual_date"
+    },
+    {
+      "area": "date_validation",
+      "claim": "as_of/deadline must be timezone-aware at RunRequest construction; CDX timestamps constrained to 14 digits and parsed with strptime (invalid calendar dates fail closed); Memento-Datetime is mandatory and must equal both the CDX-selected when and the requested replay URL before admission",
+      "evidence": "contracts.py:aware/RunRequest.__post_init__; archive_transport.py:_capture regex + strptime; archive_transport.py:_replay served!=when or response.url!=requested check"
+    },
+    {
+      "area": "per_request_budget_ordering",
+      "claim": "provider-level max_requests cap is checked before CallBudget.reserve('search'), so a capped/rejected request never consumes a budget slot",
+      "evidence": "archive_transport.py:_get request_count check precedes call_budget.reserve; test_provider_request_cap_is_enforced, test_each_http_request_reserved_before_dispatch"
+    },
+    {
+      "area": "failure_semantics",
+      "claim": "transport/CDX/decode failures produce distinct attempt statuses and are never coerced into a business conclusion; provider SDK errors are redacted before re-raising",
+      "evidence": "test_failure_not_converted_to_no_funding_or_death; test_failed_attempt_keeps_reservation_and_redacts_provider_error"
+    }
+  ],
+  "known_limitations_not_defects": [
+    "no liveness check on the .lock lease file; a crashed process leaves a stale lease blocking future runs on that journal until manually cleared",
+    "domain-anchor matching ignores port and is caller-supplied cohort metadata, not independently verified ownership (already documented in ArchivedWebsiteProvider docstring)",
+    "APISpendEnvelope/ArchiveHTTPClient are trusted in-process Python components, not an OS sandbox; recorded dollar figures are conservative estimates, not the provider's actual invoice"
+  ],
+  "excluded_by_instruction": [
+    "no re-run or re-pricing of the already-sealed single-model pilot",
+    "no repetition of already-fixed R004 concurrency/guard findings outside this transport/budget scope"
+  ]
+}

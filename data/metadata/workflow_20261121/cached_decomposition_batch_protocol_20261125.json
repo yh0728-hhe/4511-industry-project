@@ -1,0 +1,38 @@
+{
+  "protocol_id": "CACHED-DECOMPOSITION-BATCHED-NLI-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Validate bounded batched NLI on the two sealed actual arguments without repeating discovery, archive retrieval, debate or decomposition inference. Completion/performance probe, not semantic accuracy.",
+  "source_run": "full_discovery_workflow_live_001",
+  "source_run_sha256": {
+    "archive_http_001.json": "44f434225e4b857754f80ebd6f3038d50225e6bc0bb4163078aaa0d3da688da8",
+    "archive_http_001.body": "324ed138690a4a80cc24995e64c4af77e8a371d4bac160363de0f62d9de43df3",
+    "archive_http_002.json": "42c157a49d1f37b71efd0b776dd24d5b56480c89a7085cfbfaae9da076d6b4a5",
+    "archive_http_002.body": "80660b575936a8526fb5ff5a44af19d68c7e3cac95d69c30cf0fda5ce6fcb1bb",
+    "backend_capture/13_stdin.bin": "ae0aa56627c50f338432a4c3012d2eaa94f69843080211d5065ee92aa7cee865",
+    "backend_capture/13_stdout.raw": "cb85072d76b30c7f6d5541c21ba09f2553ee4984014cb73c18d992dd77e7348c",
+    "backend_capture/15_stdin.bin": "91da53ce622f512ec404655cfc4938640dbce7c544154167b262793605c57604",
+    "backend_capture/15_stdout.raw": "296fef52ad1900f28feb76ca198a285708b54b58d7ee0ab8ba901ef37d7898a8",
+    "result.json": "c50bfcc306d165a03aa341b9a1ec592ddc3453a5820be5116c0e5866a2397347",
+    "probe_receipt.json": "31ecd75039b193735364b6176420bdf3469a5d9ada2fbf66faee2f253b2bda32"
+  },
+  "checker_code_sha256": "dc27b1a4182756da0ce854f707a63a773b7b3edab49ffbd3a74f8683bc1132f4",
+  "as_of": "2024-04-04T23:59:59Z",
+  "captured_decomposition_statement_counts": [
+    18,
+    17
+  ],
+  "max_statements_per_nli_call": 8,
+  "max_actual_new_cli_processes": 6,
+  "max_actual_new_http": 0,
+  "max_logical_model_reservations": 8,
+  "max_logical_search_reservations": 2,
+  "max_seconds": 240,
+  "per_call_timeout_seconds": 60,
+  "retry": false,
+  "fallback": false,
+  "cached_stage_semantics": "Two captured decomposition envelopes consume logical fixture reservations;2capturedarchive responses consume logical search reservations. Actualnewmodels only NLI, actualHTTPZERO. Revalidate capturedarchiveproof/hashes before view assembly.",
+  "model": "claude-sonnet-5",
+  "interpretation": "No combined score on partial batch failure; preserve original full run unchanged. Unsupported recommendations are diagnostics, not automatically researchable gaps.",
+  "Y_changed": false,
+  "training": false
+}

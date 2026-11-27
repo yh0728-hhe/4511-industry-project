@@ -1,0 +1,29 @@
+{
+  "protocol_id": "DISCOVERY-RUNTIME-BOUNDS-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Exercise actual model-selected questions and managed discovery plus independent archive verification or honest terminal stop. Not research quality/accuracy evaluation.",
+  "company": {
+    "company_id": "hatchet",
+    "name": "Hatchet",
+    "domain": "hatchet.run"
+  },
+  "identity_anchor": "Precutoff hatchet-sdk0.21.1 embedded METADATA links https://hatchet.run; publisher/domain relation only, not independent legal ownership verification",
+  "identity_anchor_artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+  "as_of": "2024-04-04T23:59:59Z",
+  "mandate": "Assess whether the historical public evidence is sufficient to evaluate this early-stage software company. Choose material uncertainties and research questions dynamically; keep unknowns explicit.",
+  "model": "claude-sonnet-5",
+  "max_model_reservations": 4,
+  "max_search_reservations": 6,
+  "max_sources_per_discovery": 1,
+  "max_seconds": 180,
+  "per_cli_seconds": 60,
+  "search_cli_max_turns": 3,
+  "retry": false,
+  "fallback": false,
+  "source_input": "Identity seed+mandate only; no package text, current profiles, Y or curated fact packet sent to lead",
+  "resource_units": "Model reservations include backend+managed discovery outer processes. Search reservations include managed invocations+direct archive HTTP; managed inner HTTP/inferences UNKNOWN.",
+  "failure_policy": "403/429, quota, malformed output, or cap stop with retained artifacts; never alternate-route retry",
+  "expected_interpretation": "A4call limit may stop before debate/evaluator completion. Such stop is not quality success. No investment decision released without existing review gate.",
+  "training": false,
+  "Y_changed": false
+}

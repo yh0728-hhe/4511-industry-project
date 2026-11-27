@@ -1,0 +1,44 @@
+{
+  "protocol_id": "SCOPED-NPM-REGISTRY-PROBE-20261126-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "source_commit": "c20ac6d2a8c1f8e5f85f00dcc2df171b8cb09223",
+  "company": {
+    "company_id": "zep-ai",
+    "name": "Zep AI",
+    "domain": "getzep.com"
+  },
+  "identity_basis": "Original2024-03-25spreadsheet nameZepAI and website https://www.getzep.com/; declared identity anchor, not independent historical domain ownership certification.",
+  "identity_source_sha256": "9ac6b85e33e7f57b301a0b3acdd4e75a98642e4c781b3ca7a2e37639aa4b51fd",
+  "lead_source": "https://github.com/getzep/zep-js/blob/main/README.md",
+  "lead_is_current_not_historical_evidence": true,
+  "observed_package_url": "https://www.npmjs.com/package/@getzep/zep-cloud",
+  "selection": "Purposive SDK scoped-path acquisition test; chosen from observed official repository package link, not financing outcome. No substitute package if no eligible version.",
+  "as_of": "2024-04-04T23:59:59+00:00",
+  "max_http_attempts": 2,
+  "model_calls_allowed": 0,
+  "max_seconds": 45,
+  "parent_timeout_seconds": 60,
+  "retry": false,
+  "metadata_bytes_cap": 8000000,
+  "artifact_bytes_cap": 3000000,
+  "probe_script_private_path": "results\\scratch\\workflow_20261126\\scoped_registry_probe_001\\probe.py",
+  "probe_script_sha256": "7ea151f0f3297032ea71a67eb5403b3c06a576780c258d55891e325365bebf79",
+  "component_sha256": {
+    "contracts.py": "d4ee914ca415606ca8d915b5aa1685309828dc3b950ab15751689a6c9e938ef5",
+    "guards.py": "d8a0b22c036baa2f6dae549f81bf626cd59f6a7467b27585447c33008c0fb3e4",
+    "package_registry.py": "9f47246e984986689ae6c4524586eaa65b5e287f1a2917250ced2ad0d5d03773",
+    "package_source.py": "48d58609aae5827f503b7b869dee80535e590a25ad2844e50e260bed2f0b80c8",
+    "npm_source.py": "9ea6b907dac60f8d8173ca0ac077fffe67b1d865a60020144c51c74d29aca9a5",
+    "npm_names.py": "44e16d5f88a8616c2204db91fc205377efc9ec1cb03b51997e867074768807b2",
+    "discovered_package.py": "419122e3ecc0dd72933f03e07e91ea65459f86bdc63935fd66360793735bfc40",
+    "archive_transport.py": "41978a18884c8bb49fa8c30e0a0741acdd4c73bdddd1b606d0f4d5f80ce3af10"
+  },
+  "body_evidence": "Only verified embedded artifact README before cutoff, full text<=6000characters; current registry description excluded.",
+  "Y_changed": false,
+  "training": false,
+  "limits": [
+    "No fallback/retry/domain relaxation/alternate package",
+    "No funding, corporate ownership or traction inference",
+    "UNKNOWN or holding is an eligible outcome; no actual company result label produced"
+  ]
+}

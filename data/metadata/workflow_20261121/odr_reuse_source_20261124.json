@@ -1,0 +1,19 @@
+{
+  "upstream": "langchain-ai/open_deep_research",
+  "commit": "1b7d2e80db9faa586165c60e09096dbbfd483a64",
+  "status": "PINNED_SOURCE_NOT_EXECUTED",
+  "files": {
+    "src/open_deep_research/prompts.py": {
+      "sha256": "239774f8444860deab0ac0d86067002ef360068ad4c1f0b698373335e6b59579",
+      "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/src/open_deep_research/prompts.py"
+    },
+    "src/open_deep_research/deep_researcher.py": {
+      "sha256": "af128d5d8773008d021b6ef7562e9fb90a45f7eb5e886483d1e6e835223275e0",
+      "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/src/open_deep_research/deep_researcher.py"
+    },
+    "LICENSE": {
+      "sha256": "3404cb66935968edefe1149c9bfcb44bd8532c437c01ac095ec53b6e195ce110",
+      "url": "https://github.com/langchain-ai/open_deep_research/blob/1b7d2e80db9faa586165c60e09096dbbfd483a64/LICENSE"
+    }
+  }
+}

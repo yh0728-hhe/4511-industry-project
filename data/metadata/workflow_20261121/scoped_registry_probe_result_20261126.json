@@ -1,0 +1,48 @@
+{
+  "protocol_id": "SCOPED-NPM-REGISTRY-PROBE-20261126-001",
+  "status": "OUTER_TIMEOUT_SOURCE_AVAILABILITY_UNKNOWN",
+  "source_commit": "c20ac6d2a8c1f8e5f85f00dcc2df171b8cb09223",
+  "freeze_commit": "c8f099b",
+  "parent_receipt": {
+    "status": "OUTER_TIMEOUT",
+    "elapsed_seconds": 60.481,
+    "retry": false,
+    "freeze_commit": "c8f099b"
+  },
+  "direct_http_attempts_dispatched": 1,
+  "completed_http_responses": 0,
+  "attempt_records": [
+    {
+      "url": "https://registry.npmjs.org/@getzep/zep-cloud",
+      "timeout_seconds": 15,
+      "max_bytes": 8000000,
+      "stage": "DISPATCHED"
+    }
+  ],
+  "child_result_present": false,
+  "admission_result": "UNKNOWN_NO_COMPLETED_RESPONSE_OR_VERIFIER_RESULT",
+  "logical_deadline_seconds": 45,
+  "parent_timeout_seconds": 60,
+  "actual_model_calls": 0,
+  "no_request_retry": true,
+  "no_alternate_package_or_endpoint": true,
+  "source_and_probe_hashes_reverified": true,
+  "private_artifact_sha256": {
+    "acquisition\\http_attempts.json": "cb5c74701d990612d029f323224be109ad3813f361620a7db2fbeaef5fb41ee8",
+    "acquisition\\verification\\791f7263172634e7fbcd273d9c85655eb67456fe84aa14b298fff0f93a4fa56c-npm.jsonl": "701eaa778f7faf50074f8b9f2c7cb2c841c6f26c092684d20b060831e1ba038d",
+    "parent_receipt.json": "705cd8ac3a73835e3e765a04646cba4a453b9eb4c6e47bab58e7f23ad12ad5b0",
+    "probe.py": "7ea151f0f3297032ea71a67eb5403b3c06a576780c258d55891e325365bebf79",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.partial": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limitations": [
+    "A dispatched attempt is not a completed HTTP response or proof of server receipt.",
+    "No HTTP status means no verified access denial or rate-limit diagnosis.",
+    "Live scoped registry compatibility, historical version availability and admitted source are unverified.",
+    "Shared deadline is cooperative during transport; outer child-process ceiling stopped the blocked operation.",
+    "No funding, operating-status, corporate ownership or domain-history conclusion."
+  ],
+  "Y_changed": false,
+  "training": false,
+  "quota_exhaustion_observed": false
+}

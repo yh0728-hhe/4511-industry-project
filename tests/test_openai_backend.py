@@ -7,6 +7,7 @@ from types import SimpleNamespace
 import json
 import sys
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0,str(Path(__file__).parents[1]/'src'))
 from closed_loop.fixtures import request
@@ -131,4 +132,17 @@ class BackendTests(unittest.TestCase):
             with self.assertRaisesRegex(BudgetStopped,'ALREADY_COMPLETED'):APISpendEnvelope('0.20',path)
 
 
-if __name__=='__main__':unittest.main()
+
+
+class LiveBackendCapBindingTests(unittest.TestCase):
+    def test_live_factory_binds_physical_cap_to_explicit_run_budget(self):
+        budget=CallBudget(request(max_model_calls=3))
+        fake_sdk=SimpleNamespace(OpenAI=lambda **kwargs: FakeSDK())
+        with patch.dict('os.environ', {'OPENAI_API_KEY':'fake-test-value'}), patch.dict(sys.modules, {'openai':fake_sdk}):
+            backend=create_live_backend(approved=True,limit_usd='0.20',call_budget=budget)
+        try:
+            self.assertEqual(backend.envelope.request_cap,3)
+        finally:
+            backend.envelope.close()
+
+if __name__=='__main__': unittest.main()

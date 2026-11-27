@@ -202,7 +202,8 @@ class OpenAIModelBackend:
 
 def create_live_backend(*,approved,limit_usd,call_budget,env_file=None,journal_path=None,pilot_id='single-approved-pilot'):
     if approved is not True:raise PermissionError('Separate API-spend approval required; subscription quota is not API credit')
-    envelope=APISpendEnvelope(limit_usd,journal_path=journal_path,pilot_id=pilot_id)
+    envelope=APISpendEnvelope(limit_usd,journal_path=journal_path,pilot_id=pilot_id,
+        request_cap=call_budget.caps['model'])
     # Credential loading is delegated to normal application configuration only
     # after approval. Never print, copy, persist or pass keys to other agents.
     try:

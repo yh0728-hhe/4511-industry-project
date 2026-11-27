@@ -1,0 +1,53 @@
+{
+  "status": "READY_MANAGED_DISCOVERY_TOOL_VERIFIED_NOT_FACT_ADMISSION",
+  "execution": {
+    "protocol_id": "MANAGED-WEB-DISCOVERY-20261124-001",
+    "exit_code": 0,
+    "elapsed_seconds": 15.051,
+    "observed_tool_uses": [
+      {
+        "id": "toolu_01GWAYNP46LVNZ5VTU5gUGHv",
+        "name": "WebSearch"
+      },
+      {
+        "id": "toolu_01BwhJ21tbwkte1332Wuc6uH",
+        "name": "StructuredOutput"
+      }
+    ],
+    "observed_tool_results": [
+      {
+        "id": "toolu_01GWAYNP46LVNZ5VTU5gUGHv",
+        "is_error": false
+      },
+      {
+        "id": "toolu_01BwhJ21tbwkte1332Wuc6uH",
+        "is_error": false
+      }
+    ],
+    "result_subtype": "success",
+    "structured_output": {
+      "status": "Completed \u2014 single WebSearch call executed as instructed; results are unverified leads, not confirmed facts.",
+      "urls": [
+        "https://github.com/langchain-ai/open_deep_research",
+        "https://github.com/langchain-ai/open_deep_research/blob/main/src/open_deep_research/deep_researcher.py",
+        "https://github.com/langchain-ai/open_deep_research/issues"
+      ]
+    },
+    "actual_managed_HTTP": "UNKNOWN",
+    "admitted_company_facts": 0,
+    "research_decisions": 0,
+    "retry": false,
+    "Y_changed": false
+  },
+  "returned_urls_confirmed_in_WebSearch_toolresult": true,
+  "managed_tool_result_URLs_count": 9,
+  "source_scope": "Current search metadata is discovery-only; no date/identity verification or factual admission.",
+  "budgets": "One observedWebSearch,oneCLI,3agentturnlimit/90stimeout; underlyingmanagedHTTP and inferencecountsUNKNOWN,not claimed under package2HTTPcap.",
+  "raw_sha256": {
+    "stdout.jsonl": "a764bd006e1c48dc728677679bc74e42fdd648d4fe30a8c1dcac180f675f0b0e",
+    "argv.json": "548cb5fb0ae69d656c74d65877e0b2affd6ff99199a2bad6943b0cd49f149c3c",
+    "stdin.txt": "428a453db99e3f4c9303f97da233c3cfea5d62fd4441258199c17b384771f7fc",
+    "receipt.json": "d03a73e765d4cc1c055f8a8418598695403a02b08999ad632c26f8da1c54794d"
+  },
+  "next": "Reusable single-query discovery agent with held leads and observed-tool provenance, not automatic source verification."
+}

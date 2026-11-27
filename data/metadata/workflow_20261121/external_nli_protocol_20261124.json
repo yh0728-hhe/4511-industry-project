@@ -1,0 +1,37 @@
+{
+  "protocol_id": "EXTERNAL-NLI-SANITY-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "reference_manifest_sha256": "8e2a3b0d0c91466e7127bb0364139bea3dd8aba7c7f3e9342f3c61aa13aec70a",
+  "rows_sha256": "9876996bc5f2f644bd84817578d79f2767c59a6dfa7ded8cd861d40fa1f82b7c",
+  "case_indices": [
+    0,
+    1,
+    2
+  ],
+  "unique_premise_count": 1,
+  "purpose": "Check project-adapted Ragas source support against three externally human-labelled SNLI hypotheses. NOT startup or investment evaluation, not training.",
+  "selection": "First3nonambiguous test rows among first6; no model outputs used",
+  "max_cli_processes": 6,
+  "max_seconds": 240,
+  "per_call_timeout_seconds": 60,
+  "max_HTTP": 0,
+  "retry": false,
+  "fallback": false,
+  "model": "claude-sonnet-5",
+  "prediction_rule": "score==1.0 -> entailed;score<1 -> not_entailed, frozen before execution",
+  "reference_rule": "SNLI label0->entailed;1neutral/2contradiction->not_entailed",
+  "failure_rule": "Stop group on first failure; preserve failed and not-run rows, no budget reset",
+  "inputs": "Only premise/hypothesis/question; reference label excluded from all model input",
+  "date_scope": "Separate general-text reference task, as_of is captured dataset observation time. No company historical facts or240cohort inputs. Project company cutoff unchanged.",
+  "limits": [
+    "Three hypotheses share one premise; not independent broad sample",
+    "Public widely-used dataset may be in model training; no unseen-holdout claim",
+    "General caption entailment does not establish diligence performance",
+    "Captured unversioned rows hashed, repository revision correspondence not authenticated"
+  ],
+  "code_sha256": {
+    "src/closed_loop/ragas_faithfulness.py": "8b8f0847cff1fab9a2296d115bc5c44055f997e59152acddfb6a395c1b02f14f",
+    "src/closed_loop/native_support.py": "34ff37e3cc75d632e724e5f2bfad6fbedc26365f077d055bf3f17e7152ab84f9",
+    "src/closed_loop/cli_backend.py": "63aad2280d1303ccef7ddf4716786d32c8c0703b021d3526cadb27d8cb2b79fb"
+  }
+}

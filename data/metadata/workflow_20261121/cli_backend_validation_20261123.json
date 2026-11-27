@@ -1,0 +1,37 @@
+{
+  "verified_utc": "2026-11-23T19:41:22.090146+00:00",
+  "implementation_checkpoint": "c673381",
+  "primary_implementer": "actual local Claude Code CLI",
+  "reviewer": "Codex",
+  "offline_test_counts": {
+    "total": 524,
+    "passed": 521,
+    "skipped": 3
+  },
+  "readiness_status": "OFFLINE_CHECKS_PASSED_LIVE_AND_TRAINING_NOT_RUN",
+  "real_cli_probe": {
+    "status": "REAL_TYPED_CLI_CALL_PASSED",
+    "typed_nonempty_critique": true,
+    "cli_attempts": 1,
+    "elapsed_seconds": 7.582,
+    "budget": {
+      "used": {
+        "model": 1,
+        "search": 0
+      },
+      "caps": {
+        "model": 1,
+        "search": 0
+      },
+      "active": 0
+    },
+    "inner_inference_count": "UNKNOWN",
+    "invoice": "UNKNOWN",
+    "real_company_run": false,
+    "model_quality_evaluation": false
+  },
+  "historical_company_loop": "NOT_RUN_NO_ADMITTED_HISTORICAL_SOURCE",
+  "training_run": false,
+  "Y_changed": false,
+  "billing_note": "Existing Claude.ai Pro auth verified before dispatch; inner inference count and invoice unknown; no new API credentials."
+}

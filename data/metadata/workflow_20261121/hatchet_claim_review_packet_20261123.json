@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-11-23T20:13:56.783473+00:00",
+  "source_run": "hatchet_package_live_001",
+  "scope": "Two verbatim excerpts from initial generated arguments plus two reviewer-authored source checks; not exhaustive and not an independent human gold benchmark",
+  "admitted_fact_ids": [
+    "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+  ],
+  "claims": [
+    {
+      "claim_id": "generated-pro-execution",
+      "text": "it confirms execution capability and a genuine intent to serve an external developer audience",
+      "cited_fact_ids": [
+        "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+      ]
+    },
+    {
+      "claim_id": "generated-contra-maturity",
+      "text": "this threadbare packaging reflects a product still in an unpolished, pre-traction state rather than one showing demonstrated technical momentum.",
+      "cited_fact_ids": [
+        "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+      ]
+    },
+    {
+      "claim_id": "reviewer-document-link",
+      "text": "The admitted README contains a link to https://docs.hatchet.run/python-sdk.",
+      "cited_fact_ids": [
+        "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+      ]
+    },
+    {
+      "claim_id": "reviewer-sdk-label",
+      "text": "The admitted README identifies itself as the Hatchet Python SDK.",
+      "cited_fact_ids": [
+        "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+      ]
+    }
+  ],
+  "review": {
+    "run_fingerprint": "6aa14fd3f7441948c7d4a6f972e061c38feecd8d42579ac91ca372f3057d5196",
+    "reviewer_id": "Codex-source-review-20261123",
+    "items": [
+      {
+        "claim_id": "generated-pro-execution",
+        "claim_sha256": "ae4e168cfa4378a33b2e4a6518a8193d9e58f96ba5dd1f6e7a703ad2adcbcb9d",
+        "verdict": "UNSUPPORTED",
+        "rationale": "The README labels an SDK and links documents; it does not establish team execution capability or intent.",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ]
+      },
+      {
+        "claim_id": "generated-contra-maturity",
+        "claim_sha256": "dd988784f7d1ea5416c1e30f8519a057ba34ca0f48916ef9bf03156903802e71",
+        "verdict": "UNSUPPORTED",
+        "rationale": "README brevity does not establish product maturity, traction or momentum.",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ]
+      },
+      {
+        "claim_id": "reviewer-document-link",
+        "claim_sha256": "435c58448358d495732a49f5c40c3a98fb53c399199323f4c7b48a2ed294cef4",
+        "verdict": "SUPPORTED",
+        "rationale": "The URL string occurs in the actual admitted README; no linked target-content assertion is made.",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ]
+      },
+      {
+        "claim_id": "reviewer-sdk-label",
+        "claim_sha256": "012e86f8aa7431617eee45e7e2228f49e7e0668e77f7fda6b662ba8b832f618c",
+        "verdict": "SUPPORTED",
+        "rationale": "The README heading and text identify Hatchet Python SDK; no functioning, quality or adoption assertion is made.",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ]
+      }
+    ]
+  },
+  "Y_read": false,
+  "not_predictive_accuracy": true
+}

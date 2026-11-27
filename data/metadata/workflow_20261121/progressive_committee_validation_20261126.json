@@ -1,0 +1,63 @@
+{
+  "status": "OPTIONAL_PROGRESSIVE_COMMITTEE_OFFLINE_VALIDATED_NOT_DEFAULT",
+  "date": "2026-11-26",
+  "claude_worker": {
+    "exit_code": 0,
+    "provider_is_error": false,
+    "quota_error": false,
+    "elapsed_seconds": 140.169,
+    "retry": false
+  },
+  "claude_contribution": "Created optional wrapper and9tests reusing SingleAnalystBaseline and existing committee interface.",
+  "codex_contribution": "Corrected routing rationale, first-stop/error reporting, retained untrusted private assessment trace, fixed runtime test thesis, added2boundary tests and exact-byte captured-response replay.",
+  "new_tests": 11,
+  "total_tests": 977,
+  "passed": 974,
+  "skipped": 3,
+  "readiness_run": "progressive-committee-20261126-001",
+  "captured_real_response_replay": {
+    "status": "CAPTURED_REAL_SCREEN_RESPONSE_STRUCTURAL_REPLAY_ONLY",
+    "actual_new_model_cli_attempts": 0,
+    "actual_source_http_requests": 0,
+    "captured_executor_replays": 1,
+    "prompt_byte_exact_match": true,
+    "original_wire_hashes": {
+      ".stdin": "a48314bba7e6aec6a5bb92e2aa351a8ca42d950b544e469765f9f596553ee554",
+      ".stdout": "a098a3902678113f529f6f72a5f643a14af3efee7a05c98fdc23d055bcb6e951"
+    },
+    "original_wire_unchanged": true,
+    "screen_gap_count": 9,
+    "decision": "MORE_DILIGENCE",
+    "native_committee_invocations": 0,
+    "logical_fixture_budget": {
+      "used": {
+        "model": 1,
+        "search": 0
+      },
+      "caps": {
+        "model": 2,
+        "search": 0
+      },
+      "active": 0
+    },
+    "source_fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+    "new_source_facts_created": false,
+    "source_store_unchanged": true,
+    "performance_improvement_evaluated": false,
+    "model_accuracy_evaluated": false,
+    "preliminary_assessment_is_untrusted": true,
+    "Y_changed": false
+  },
+  "default_runner_changed": false,
+  "cli_flag_added": false,
+  "performance_improvement_evaluated": false,
+  "model_accuracy_evaluated": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Preliminary abstention may be wrong or over-conservative.",
+    "No screen recommendation can directly bypass committee deliberation and final acceptance.",
+    "Skipping committee in a replay is not measured end-to-end latency/cost/quality improvement.",
+    "Private preliminary assessment remains untrusted data, never source facts."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "company": {
+    "company_id": "tuesday-labs",
+    "name": "Adagy Robotics",
+    "domain": "adagyrobotics.com"
+  },
+  "mandate": "Assess whether historically available public evidence can support due diligence on this company. Choose the most material research question dynamically. Keep missing evidence unknown; do not infer business failure from unavailable sources.",
+  "as_of": "2024-04-04T23:59:59Z",
+  "model": "claude-sonnet-5",
+  "max_model_calls": 4,
+  "max_search_reservations": 6,
+  "max_seconds": 120,
+  "max_research_passes": 1,
+  "max_specialists": 1,
+  "max_sources": 2,
+  "check_argument_support": true,
+  "verify_publishers": true,
+  "publisher_max_body_bytes": 524288
+}

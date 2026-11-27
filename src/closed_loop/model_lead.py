@@ -7,6 +7,7 @@ from datetime import datetime
 
 from .contracts import ResearchRequest,aware
 from .guards import BudgetStopped
+from .model_identity import decode_subject_id
 from .agent_prompts import LEAD_INSTRUCTION, ROLE_BRIEFS
 from .native_support import NativeBinding,get_llm,HumanMessage
 
@@ -51,10 +52,18 @@ class ModelLead:
                     role_briefs=ROLE_BRIEFS,
                     instruction=LEAD_INSTRUCTION.format(max_specialists=self.max_specialists))))])
             finally:self.last_calls=list(binding.calls)
-        if not isinstance(plan.tasks,list) or len(plan.tasks)>self.max_specialists:raise BudgetStopped('SPECIALIST_PLAN_CAP')
-        tasks=[]
-        for item in plan.tasks:
-            if not isinstance(item,PlannedResearch) or not re.fullmatch(r'[a-z][a-z0-9_]{0,31}',item.role):raise BudgetStopped('INVALID_SPECIALIST_ROLE')
-            if not isinstance(item.question,str) or not item.question.strip() or len(item.question)>1024:raise BudgetStopped('INVALID_RESEARCH_QUESTION')
-            tasks.append(ResearchRequest(item.role,item.question,request.company.company_id,item.subject_id,item.source_path))
-        return tuple(tasks)
+        try:
+            if not isinstance(plan.tasks,list) or len(plan.tasks)>self.max_specialists:raise BudgetStopped('SPECIALIST_PLAN_CAP')
+            tasks=[]
+            for item in plan.tasks:
+                if not isinstance(item,PlannedResearch) or not re.fullmatch(r'[a-z][a-z0-9_]{0,31}',item.role):raise BudgetStopped('INVALID_SPECIALIST_ROLE')
+                if not isinstance(item.question,str) or not item.question.strip() or len(item.question)>1024:raise BudgetStopped('INVALID_RESEARCH_QUESTION')
+                known_subjects=tuple(dict.fromkeys(row['subject_id'] for row in (*qa_pairs,*safe_hints) if isinstance(row.get('subject_id'),str) and row['subject_id']))
+                subject=decode_subject_id(item.subject_id,request.company.company_id,known_subjects)
+                if isinstance(subject,str) and re.fullmatch(r'subject_[0-9a-f]{20}',subject):
+                    raise BudgetStopped('UNRESOLVED_RESEARCH_SUBJECT')
+                tasks.append(ResearchRequest(item.role,item.question,request.company.company_id,subject,item.source_path))
+            return tuple(tasks)
+        except BudgetStopped as exc:
+            self.call_budget.stop(str(exc))
+            raise

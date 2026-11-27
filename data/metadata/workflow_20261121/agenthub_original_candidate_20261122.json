@@ -1,0 +1,23 @@
+{
+  "retrieved_utc": "2026-11-22T21:52:55.220160+00:00",
+  "url": "https://hacker-news.firebaseio.com/v0/item/39302870.json",
+  "status": 200,
+  "requests": 1,
+  "retries": 0,
+  "selection": "Next alphabetical original cohort row after Adagy,Aedilic,Aether; identity-only selection, no Y used",
+  "admission": "NOT_ADMITTED_REVIEW_REQUIRED",
+  "no_wayback_retry": true,
+  "item_id": 39302870,
+  "type": "story",
+  "author": "murb",
+  "title": "Launch HN: AgentHub (YC W24) \u2013 A no-code automation platform",
+  "created_utc": "2024-02-08T15:17:05+00:00",
+  "body_characters": 4333,
+  "raw_sha256": "1b0e53e075c68145f9e67b40ced7600734726588a83c636e8ff7c95d8fdf9657",
+  "body_sha256": "1567a23b42c1ad16cca9c5fc07ccb0e6fdb9b1f7bab9e077f6b72c7cdd4e0c1a",
+  "domain_present": true,
+  "founder_first_names_present": true,
+  "deleted": false,
+  "dead": false,
+  "limitation": "Official item creation time is available, but API does not independently certify unchanged historical body; current comments, scores, modern branding, and Y are excluded."
+}

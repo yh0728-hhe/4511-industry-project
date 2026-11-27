@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-22",
+  "task_id": "CLAUDE-SOURCE-PREFLIGHT-20261122",
+  "primary_implementer": "actual local Claude Code CLI",
+  "worker_exit": 0,
+  "raw_report_sha256": "42f74b1a27f64ee37a9e89e9f2e447771ddfad37247f99018a2c32ec1f24b4ce",
+  "review_and_integration": "Codex root",
+  "validation": {
+    "runtime_tests": {
+      "total": 259,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "skipped": 0
+    }
+  },
+  "source_preflight": "Exact same provider,gateway,budget; source lookup before model dispatch; all source-free/restricted paths return explicit blocking result",
+  "scope_of_ready": "Admitted homepage content, NOT independent domain ownership verification",
+  "cache_and_deadline": "Reused root has zero extra HTTP; stopped or expired context cannot be ready",
+  "real_company_execution": "NOT_RUN; no newly approved paid model API execution",
+  "root_source_checks": {
+    "agenthub_HN": "HTTP200, dated original candidate NOT_ADMITTED, changed-body availability still unproven",
+    "CommonCrawl": "One independent index GET returned504; no retries or body download"
+  },
+  "new_paid_research_API_calls": 0,
+  "y_changed": false,
+  "training": false,
+  "goal_status": "ACTIVE_CONTINUING_NO_STEPWISE_CONFIRMATION",
+  "scheduler_enabled": false
+}

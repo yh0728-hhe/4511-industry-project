@@ -1,0 +1,84 @@
+{
+  "status": "CURRENT_VERSION_AETHER_TWO_PASS_COMMAND_EXECUTED",
+  "date": "2026-11-26",
+  "protocol_id": "GUARDED-CURRENT-WORKFLOW-AETHER-20261126-001",
+  "execution_commit": "afbfdd0",
+  "harness": {
+    "exit_code": 0,
+    "elapsed_seconds": 60.55,
+    "retry": false
+  },
+  "result_status": "DISCOVERY_RUNTIME_EXECUTED",
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "NO_ADMITTED_FACTS",
+  "admitted_fact_ids": [],
+  "essential_gaps": [
+    "Identify independently verifiable public sources describing Aether Energy's product and intended customers as of the cutoff, distinguishing demonstrated live capability from stated plans."
+  ],
+  "backend_process_attempts": 2,
+  "managed_discovery_process_attempts": 2,
+  "direct_archive_http_attempts": 5,
+  "logical_call_budget": {
+    "active": 0,
+    "caps": {
+      "model": 24,
+      "search": 12
+    },
+    "used": {
+      "model": 4,
+      "search": 7
+    }
+  },
+  "http_status_counts": {
+    "200": 5
+  },
+  "research_passes": 2,
+  "mechanical_empty_evidence_reviews": 1,
+  "evidence_model_debate_dispatched": false,
+  "artifact_consistency": "CONSISTENT_ARTIFACTS_NOT_SEMANTIC_CERTIFICATION",
+  "identity_input_audit": [
+    {
+      "file": "backend_wire/call_001.stdin",
+      "has_neutral_token": true,
+      "literal_canonical_id_count": 0,
+      "later_brand_marker_count": 0
+    },
+    {
+      "file": "backend_wire/call_002.stdin",
+      "has_neutral_token": true,
+      "literal_canonical_id_count": 0,
+      "later_brand_marker_count": 0
+    },
+    {
+      "file": "discovery_001_wire/call_001.stdin",
+      "has_neutral_token": true,
+      "literal_canonical_id_count": 0,
+      "later_brand_marker_count": 0
+    },
+    {
+      "file": "discovery_002_wire/call_001.stdin",
+      "has_neutral_token": true,
+      "literal_canonical_id_count": 0,
+      "later_brand_marker_count": 0
+    }
+  ],
+  "raw_hashes": {
+    "plan.json": "bb8355a2bf251994dc744b9d5ab305b4549130ad4e567536a81acb29f6a19240",
+    "result.json": "c1cb6126d9ced65fce680b72f1d92690a13c80dadf794a9883165692c63194c7",
+    "proposal.json": "c40859e7727f92ddaf3325f3b001330bdeb40ab46cb30b7db900090acd1fcf9b",
+    "committee_trace.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "current_live_scope": [
+    "neutral metadata on lead/search prompts",
+    "two authorized empty-evidence research passes",
+    "bounded guarded-command completion without fabricated facts"
+  ],
+  "not_validated": [
+    "Current source-rich argument/support/thesis path was not exercised in this sparse-source run.",
+    "No outcome, company accuracy, representative benchmark or pretrained-future-knowledge exclusion."
+  ],
+  "Y_changed": false,
+  "training_run": false,
+  "internal_inference_requests": "UNKNOWN",
+  "invoice": "UNKNOWN"
+}

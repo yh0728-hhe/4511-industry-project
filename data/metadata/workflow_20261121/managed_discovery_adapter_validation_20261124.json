@@ -1,0 +1,23 @@
+{
+  "component": "ManagedWebDiscoveryAgent",
+  "status": "OFFLINE_VALIDATED",
+  "claude_contribution": "Module draft; worker timed out after 180.63 seconds before tests",
+  "codex_contribution": "Corrected tool_use_id correlation, bound model version, persistence failures, URL validation, duplicate IDs, active budget snapshot; wrote 14 tests",
+  "focused_tests": 14,
+  "full_tests": 760,
+  "passed": 757,
+  "skipped": 3,
+  "captured_real_stream_replay": {
+    "actual_new_processes": 0,
+    "actual_new_http": 0,
+    "status": "HELD_FOR_VERIFICATION",
+    "source_url_count": 3
+  },
+  "limitations": [
+    "Exactly one observed WebSearch is a postcondition, not an internal HTTP hard cap",
+    "Internal managed requests and inference counts unknown",
+    "No new factual admission, historical verification, or research-quality claim"
+  ],
+  "training": false,
+  "y_changed": false
+}

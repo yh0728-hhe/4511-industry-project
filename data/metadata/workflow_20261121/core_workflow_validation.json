@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-21",
+  "user_scope": "Pause demo/slides work; implement/run/debug core workflow",
+  "mode": "ACTUAL_COMPONENTS_INJECTED_MODEL_AND_HTTP_NOT_LIVE",
+  "validation_run": "core-workflow-validation-005",
+  "validation": {
+    "runtime_tests": {
+      "total": 239,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "skipped": 0
+    }
+  },
+  "claude_review": {
+    "actual_local_cli": true,
+    "raw_review_sha256": "31d3ae3eac8d30e1e87596ece53983a16ea80f04d3618cadd6b5789b69bcac0e",
+    "dispositions": [
+      "Final thesis budget reason fix applied and budget-object assertion added",
+      "Thesis scope and nonempty citations enforced",
+      "Component request binding enforced",
+      "Claim specialist branch untested rejected: existing tests/test_specialist_loop.py exercises runtime specialist path"
+    ]
+  },
+  "debug_artifact": "results/candidates/core_workflow_debug_20261121/component_runs.json",
+  "debug_sha256": "6f11ae99fea0f23300ae950bfdc5194695f40ba979ec6f604758bc31f14edb3f",
+  "observations": {
+    "complete_fixture_model_dispatches": 26,
+    "complete_fixture_http_dispatches": 4,
+    "complete_fixture_thesis_generated": true,
+    "cap24_fixture": "CALL_CAP/MORE_DILIGENCE/no thesis; no budget increase",
+    "interpretation": "26 is this injected path count, not a universal minimum or real provider estimate"
+  },
+  "interrupted_validation": "core-workflow-validation-004 interrupted by tool connection; process absence checked, stale lock preserved, new run005 passed",
+  "actual_new_model_calls_in_core_runs": 0,
+  "actual_new_http_calls_in_core_runs": 0,
+  "new_paid_api_calls": 0,
+  "training": false,
+  "y_changed": false,
+  "real_company_historical_run": "NOT_RUN: no admitted readable pre-cutoff body for the selected company; no paid plan executed",
+  "debug_serialization": "UTF-8 LF preserved by gitattributes"
+}

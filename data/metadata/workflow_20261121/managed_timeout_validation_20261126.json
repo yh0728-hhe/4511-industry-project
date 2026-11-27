@@ -1,0 +1,49 @@
+{
+  "status": "MANAGED_TIMEOUT_AND_DEADLINE_CAUSES_DISTINGUISHED",
+  "date": "2026-11-26",
+  "observed_live_run": "data/metadata/workflow_20261121/guarded_package_discovery_result_20261126.json",
+  "original_live_reason_preserved": "WEB_DISCOVERY_PROCESS_FAILED",
+  "claude_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 102.185,
+    "retry": false,
+    "provider_is_error": false,
+    "response_sha256": "f72dd92929fd96ac31f0d0aa132a1e747ebec3017b96d31533e61438396cbe2d"
+  },
+  "claude_contribution": "Implemented explicit subprocess timeout/deadline classification, trusted complete-frame partial quota detection and5fake regressions.",
+  "codex_contribution": "Independently reproduced old behavior; preserved earlier quota frame even with invalidUTF8tail by decoding frames separately; added3further regressions and replayed actual saved partial stream with fake deadline.",
+  "offline_replay": {
+    "status": "CAPTURED_PARTIAL_STREAM_DEADLINE_CLASSIFICATION_REPLAYED",
+    "old_original_result_reason": "WEB_DISCOVERY_PROCESS_FAILED",
+    "new_offline_simulated_reason": "STOP_OR_DEADLINE",
+    "captured_stream_sha256": "bd6502db5258b5fc7ee456a4079362889884229cc7491e6dfb77f55e66cf78aa",
+    "old_bytes_unchanged": true,
+    "real_model_calls": 0,
+    "real_http": 0,
+    "fake_executor_invocations": 1,
+    "actual_quota_exhaustion_observed": false
+  },
+  "new_tests": 8,
+  "focused_passed": 124,
+  "full_suite": {
+    "total": 1041,
+    "passed": 1038,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "run_id": "managed-timeout-classification-20261126-001"
+  },
+  "future_reasons": {
+    "per_call_timeout_before_global_deadline": "WEB_DISCOVERY_PROCESS_TIMEOUT",
+    "expired_shared_deadline": "STOP_OR_DEADLINE",
+    "trusted_explicit_primary_rejection": "CLI_QUOTA_EXHAUSTED",
+    "other_executor_error": "WEB_DISCOVERY_PROCESS_FAILED"
+  },
+  "first_stopped_cause_preserved": true,
+  "partial_urls_admitted": false,
+  "retry": false,
+  "budget_refund": false,
+  "new_live_workflow_calls": 0,
+  "Y_changed": false,
+  "training": false,
+  "quota_balance_known": false
+}

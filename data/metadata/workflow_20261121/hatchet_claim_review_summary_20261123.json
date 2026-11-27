@@ -1,0 +1,23 @@
+{
+  "status": "REQUIRES_DILIGENCE",
+  "reviewer_id": "Codex-source-review-20261123",
+  "run_fingerprint": "6aa14fd3f7441948c7d4a6f972e061c38feecd8d42579ac91ca372f3057d5196",
+  "claim_count": 4,
+  "counts": {
+    "SUPPORTED": 2,
+    "UNSUPPORTED": 2,
+    "UNRESOLVED": 0
+  },
+  "unsupported_claim_ids": [
+    "generated-pro-execution",
+    "generated-contra-maturity"
+  ],
+  "unresolved_claim_ids": [],
+  "semantic_support_certified": false,
+  "automatic_entailment_check": false,
+  "source_run": "hatchet_package_live_001",
+  "review_scope": "Two verbatim excerpts from initial generated arguments plus two reviewer-authored source checks; not exhaustive and not an independent human gold benchmark",
+  "independent_human_gold": false,
+  "predictive_accuracy_evaluated": false,
+  "Y_changed": false
+}

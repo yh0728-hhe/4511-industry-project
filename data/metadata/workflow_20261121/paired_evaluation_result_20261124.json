@@ -1,0 +1,81 @@
+{
+  "verified_utc": "2026-11-24T18:13:20.892068+00:00",
+  "status": "ONE_REAL_FIXED_EVIDENCE_PAIR_EXECUTED_NOT_AN_ACCURACY_RESULT",
+  "protocol_id": "FIXED-EVIDENCE-PAIR-20261124-001",
+  "spec_sha256": "f71653ed5ee4aff5539ad538559dcc8b12d1d4aecb70f4296a6ec3a15f7bda5d",
+  "execution_commit": "73fb734",
+  "company_id": "w24:million.dev",
+  "source_sha256": "b022b3614c7ab13e0cbe3eeb2f63878e74b2729736d1eed3c8e5f9eb6038c447",
+  "evidence_sha256": "8f3daef88a5078544b10571dd7b3d0cb246469997be2d477a8f3aff7485bace5",
+  "plan_fingerprint": "9532af9fc0c8fdaea55ffd39e35873565f7d80bb692150d7d088563b69720108",
+  "arms": [
+    {
+      "arm": "single_analyst",
+      "status": "EXECUTED_REVIEW_PENDING",
+      "proposed_decision": "MORE_DILIGENCE",
+      "acceptance_decision": "MORE_DILIGENCE",
+      "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+      "cli_attempts": 1,
+      "elapsed_seconds": 48.808,
+      "essential_gap_count": 8
+    },
+    {
+      "arm": "committee",
+      "status": "EXECUTED_REVIEW_PENDING",
+      "proposed_decision": "MORE_DILIGENCE",
+      "acceptance_decision": "MORE_DILIGENCE",
+      "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+      "cli_attempts": 11,
+      "elapsed_seconds": 220.31,
+      "essential_gap_count": 9
+    }
+  ],
+  "total_cli_attempts": 12,
+  "all_dispatches_have_successful_structured_results": true,
+  "same_admitted_evidence_both_arms": true,
+  "committee_citation_ids_in_admitted_set": true,
+  "new_http_requests": 0,
+  "budget": {
+    "used": {
+      "model": 12,
+      "search": 0
+    },
+    "caps": {
+      "model": 24,
+      "search": 0
+    },
+    "active": 0
+  },
+  "semantic_review_observations": [
+    "Both final proposals preserve essential business unknowns; neither creates a substantive recommendation.",
+    "Committee generation implies active community and founder execution from documentation links/package structure; unsupported as established facts.",
+    "Committee generation frames unverified performance as company-wide value proposition and a red flag; unsupported extension from one publisher README.",
+    "Final committee evidence review explicitly marks those interpretations as hypotheses and missing evidence as unknown; draft claims are not thereby certified."
+  ],
+  "format_observations": {
+    "baseline_rationale_has_stray_parameter_suffix": true,
+    "final_refinements_contain_json_encoded_argument": true
+  },
+  "raw_file_sha256": {
+    "result.json": "2575c8e80931769e695002516e178472b8e85af84765373094d9dfdf3c13216f",
+    "dispatch.jsonl": "d999225cd9fd3bda504a873ab56813b05a80c13c5783ab115e8e8a89c21e5b93",
+    "single_analyst_raw.json": "72de1ac3f07e15463648975294c708a9de5d4702813bf79b5a1905cbc9a197c0",
+    "committee_draft_trace.json": "18e7852474bd09628480d98c4867fc92975502dac972864ee4573896a8b58c1e"
+  },
+  "invoice": "UNKNOWN",
+  "inner_inference_requests": "UNKNOWN",
+  "model_weight_snapshot_independently_verified": false,
+  "independent_human_gold": false,
+  "causal_or_population_quality_comparison": false,
+  "predictive_accuracy_evaluated": false,
+  "semantic_support_certified": false,
+  "Y_changed": false,
+  "training_run": false,
+  "raw_model_traces_committed": false,
+  "limitations": [
+    "One previously inspected technical source is not a holdout or representative company sample.",
+    "Invocation/time differences in this run are observations, not a statistical efficiency estimate.",
+    "Valid citation IDs do not establish semantic support.",
+    "This is fixed-evidence assessment, not end-to-end retrieval or an outcome backtest."
+  ]
+}

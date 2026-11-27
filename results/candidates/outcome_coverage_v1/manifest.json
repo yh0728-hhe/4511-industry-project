@@ -1,0 +1,36 @@
+{
+  "acquisition_alone_counts_as_covered": false,
+  "active_without_financing_counts_as_covered": false,
+  "cohort": 240,
+  "established_jeff_rule_presumed_dead": 0,
+  "extra_covered_without_financing": [
+    "aedilic",
+    "dgi-apparel",
+    "engines",
+    "glimmer",
+    "oddsview",
+    "patchwork",
+    "preloop",
+    "radmate-ai",
+    "thorntale",
+    "toolify",
+    "wuri"
+  ],
+  "financing_labels_modified": false,
+  "formula": "|financing observed UNION reviewed shutdown UNION reviewed provider business-cessation UNION established Jeff-rule presumed dead| / cohort",
+  "funding_coverage_pct": 63.75,
+  "funding_observed": 153,
+  "inputs_sha256": {
+    "data\\metadata\\user_evidence_20261115\\provider_status_reviews.json": "76713874ba495f82cd8489322f201f0804494dad7a4f9ca04edf364a2673b483",
+    "results\\candidates\\funding_y_source_grace_v1\\company_labels.csv": "ac7315415cdd21911c8ca83874f0b8850a887bcad23dc1b58fcb1dc224619c2b",
+    "results\\candidates\\supplementary_status_v1\\company_status.json": "64edf21b08bdb07e27f49088b05347af77f3a1ebd1a7618e7b54aeeeb0566556"
+  },
+  "note": "Rule-presumed death remains distinct from shutdown declaration. No-access, stale copyright or sparse captures alone do not establish the silence interval.",
+  "outcome_coverage_pct": 68.33333333333333,
+  "outcome_covered": 164,
+  "outcome_unresolved": 76,
+  "overlap_financing_and_shutdown": 0,
+  "reviewed_provider_out_of_business": 9,
+  "reviewed_shutdowns": 2,
+  "status_cutoff": "2026-04-04"
+}

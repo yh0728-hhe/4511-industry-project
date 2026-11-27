@@ -1,0 +1,160 @@
+{
+  "protocol_id": "EXTERNAL-NLI-DIVERSE-PREMISES-20261126-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "code_commit": "3baaeb4ce4b14f4102f041be5ed03e55204d95e0",
+  "reference_source": {
+    "status": "REFERENCE_CAPTURED",
+    "http_status": 200,
+    "url": "https://datasets-server.huggingface.co/rows?dataset=stanfordnlp%2Fsnli&config=plain_text&split=test&offset=0&length=100",
+    "final_url": "https://datasets-server.huggingface.co/rows?dataset=stanfordnlp%2Fsnli&config=plain_text&split=test&offset=0&length=100",
+    "captured_utc": "2026-11-26T18:26:05.772401+00:00",
+    "raw_sha256": "3371e85ccbe2e8fc0511851c40ac0dd5f9c04751071466ecc41849a5bb1fd579",
+    "revision_pinned": false,
+    "selection": {
+      "selection": "Scan test rows0..99 in increasing row_idx, exclude the previously tested premise hash, take the first two rows per original label0/1/2 with globally distinct premise hashes. No outcome/model output used.",
+      "exclude_premise_sha256": "685ddecd8a4d89755c8f35ffa257dcec758597eedc8e621ff6436670ebcbc4b1",
+      "max_http_requests": 1,
+      "max_response_bytes": 262144,
+      "retry": false
+    },
+    "case_indices": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      19
+    ],
+    "label_counts": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    },
+    "unique_premises": 6,
+    "model_calls": 0,
+    "license": "CC-BY-SA-4.0",
+    "source_card": "https://huggingface.co/datasets/stanfordnlp/snli",
+    "paper": "https://aclanthology.org/D15-1075/"
+  },
+  "case_file_sha256": "b5b40169861ed2c9c592be4e1ddb6d6801f8f8210c1e615bba2796ad94aa72a7",
+  "case_indices": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    19
+  ],
+  "case_hashes": [
+    {
+      "row_idx": 3,
+      "premise_sha256": "f40581c07861642dcaefa96bed77a8efa2bef9bc7ce7a1183f61ec97c963a986",
+      "hypothesis_sha256": "57b0af4b59d363663191779834f13ad13ce13fc6c3b09660786de5dd32cf17d4",
+      "reference_label": 1
+    },
+    {
+      "row_idx": 6,
+      "premise_sha256": "5e38676290908a52a6195f2c24921e982b7d27a4ab20ec361bc263a53ef4ed3e",
+      "hypothesis_sha256": "52a9fe00480b9e91cee779252249eef7d6cf3890f822db1f46a4e0c474ce5bcb",
+      "reference_label": 0
+    },
+    {
+      "row_idx": 9,
+      "premise_sha256": "b5454073afd5e47adbcfc3ee7080b7731172dade22529a1352ca9e82dfabbd9e",
+      "hypothesis_sha256": "43d7bd56b8eaf88060296ffcf24f9fbc8c202c66a2baf65d603eb5b1c9188ffe",
+      "reference_label": 1
+    },
+    {
+      "row_idx": 12,
+      "premise_sha256": "78d35070aee9b9eaa4f8dee98c76441f76f042dedcf7926b056177b33a14c7c6",
+      "hypothesis_sha256": "999e1e37245a7cd9f8a552260ef3a707942caaa3d8befef0b639782e31b58232",
+      "reference_label": 0
+    },
+    {
+      "row_idx": 15,
+      "premise_sha256": "e339b762fb1fc1ad7e23b4d9d98730e143a1aaece0e5b37be87f0b3136b120e2",
+      "hypothesis_sha256": "01b3f62c8f131ecfb8b45eb896d2e452160be112b6ed57256e9d24c409dd668d",
+      "reference_label": 2
+    },
+    {
+      "row_idx": 19,
+      "premise_sha256": "d3bfb19bf74fc0f9fd8290c6b0b10c562c76044dc991c7a7c1de17c7e73ee506",
+      "hypothesis_sha256": "f432343544a63c1dc523eb689eb85ac1c0a23a1bde8832e5887b5199834a04fc",
+      "reference_label": 2
+    }
+  ],
+  "as_of": "2026-11-26T18:26:05.772401+00:00",
+  "model": "claude-sonnet-5",
+  "max_model_cli_attempts": 18,
+  "max_seconds": 360,
+  "auth_seconds": 20,
+  "outer_seconds": 400,
+  "nli_batch_size": 8,
+  "max_new_source_http_requests": 0,
+  "question": "Is the answer entailed by the supplied reference text?",
+  "prediction_rule": "score == 1.0 -> supported; otherwise not_entailed",
+  "reference_rule": "SNLI0 entailment -> supported;1neutral and2contradiction -> not_entailed",
+  "selection_before_model_outputs": true,
+  "gold_join": "Reference labels excluded from all model-facing inputs; join only after completed assessment.",
+  "failure_policy": "Stop entire group on first failure; retain completed,failed and not-run cases. No complete-group metric if incomplete.",
+  "code_sha256": {
+    "ragas_faithfulness.py": "dc27b1a4182756da0ce854f707a63a773b7b3edab49ffbd3a74f8683bc1132f4",
+    "native_support.py": "447f2f68fd1364bb0eab26836b0f8516b68c2465ed2dbb0f2a7b713f906fe898",
+    "agent_prompts.py": "7a9720d7603e8c31776e5b7da16157e88e363587ace9fbf1771a5b05bb798c52",
+    "model_identity.py": "739827c51147c8228f58dc25cab6c6eab17a50998cd0091f0d189727d6a9cf46",
+    "cli_backend.py": "ee5b88d31780d217a9857527ef6ae13374006cd4008b0f089b612a9f1650650a",
+    "cli_limits.py": "441cdb392ed8ea92a72ed3c611ccb64596070780e25e1924be61652491c0bc6e",
+    "discovery_workflow.py": "e64010e4538dc443ee73197ae578a217594abd2bf24f2a1c46e6a0b8b44ec1f5",
+    "guards.py": "d8a0b22c036baa2f6dae549f81bf626cd59f6a7467b27585447c33008c0fb3e4",
+    "contracts.py": "d4ee914ca415606ca8d915b5aa1685309828dc3b950ab15751689a6c9e938ef5",
+    "runtime.py": "b71171172a6090b3039a22f70ef41127267bce10f58f16667c2beec8fa2e7e25"
+  },
+  "retry": false,
+  "fallback": false,
+  "training": false,
+  "Y_changed": false,
+  "project_historical_cutoff_changed": false,
+  "interpretation": [
+    "Six distinct premises with two cases per original class; selected mechanically before any model predictions.",
+    "This is a known public image-caption NLI dataset, not unseen holdout, company diligence or investment-quality evaluation.",
+    "Dataset rows endpoint is not revision-pinned; captured bytes and exact cases are hashed.",
+    "Case-level agreement and failure/completion counts only; no general evaluator accuracy certification.",
+    "Reference-task as_of denotes dataset capture; project company cutoff remains2024-04-04T23:59:59Z."
+  ],
+  "invoice": "UNKNOWN",
+  "harness_sha256": "b062ad6527e832d44eb543860d5c9b93edc7cd69f0bc5e0f2164725881f6aa1c",
+  "harness_offline_validation": {
+    "status": "HARNESS_OFFLINE_CONTROL_FLOW_VALIDATED",
+    "runs": [
+      {
+        "mode": "complete",
+        "completed": 6,
+        "failed": 0,
+        "not_run": 0,
+        "gold_keys_absent_from_messages": true,
+        "actual_models": 0,
+        "actual_http": 0,
+        "mocked_dispatches": 12
+      },
+      {
+        "mode": "stopped",
+        "completed": 1,
+        "failed": 1,
+        "not_run": 4,
+        "gold_keys_absent_from_messages": true,
+        "actual_models": 0,
+        "actual_http": 0,
+        "mocked_dispatches": 4
+      }
+    ],
+    "harness_sha256": "b062ad6527e832d44eb543860d5c9b93edc7cd69f0bc5e0f2164725881f6aa1c",
+    "fake_verdicts_not_accuracy": true
+  },
+  "claude_harness_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 80.695,
+    "retry": false,
+    "provider_is_error": false
+  },
+  "codex_harness_changes": "Added complete per-case assessment artifacts and external-human-reference/accounting distinctions; offline-tested both complete and first-failure paths with gold keys absent from messages."
+}

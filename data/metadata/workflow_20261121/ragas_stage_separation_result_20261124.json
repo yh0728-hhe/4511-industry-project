@@ -1,0 +1,52 @@
+{
+  "protocol_id": "RAGAS-STAGE-SEPARATION-20261124-001",
+  "root_review_status": "CONTROLLED_DEVELOPMENT_REGRESSION_MATCHED_EXPECTATION",
+  "transport_result": {
+    "status": "DIAGNOSTIC_COMPLETED",
+    "score": 0.5,
+    "statement_count": 2,
+    "protocol_id": "RAGAS-STAGE-SEPARATION-20261124-001",
+    "elapsed_seconds": 14.764,
+    "cli_attempts": 2,
+    "new_http": 0,
+    "budget": {
+      "used": {
+        "model": 2,
+        "search": 0
+      },
+      "caps": {
+        "model": 2,
+        "search": 0
+      },
+      "active": 0
+    },
+    "Y_changed": false,
+    "accuracy_measured": false,
+    "retry": false
+  },
+  "judgments": [
+    {
+      "statement_role": "SDK identification",
+      "verdict": 1
+    },
+    {
+      "statement_role": "intentionally unsupported100payingcustomers",
+      "verdict": 0
+    }
+  ],
+  "finding": "Two original propositions remained propositions; NLI checked source support rather than correctness of added assessments.",
+  "limits": [
+    "Previously failing controlled fixture reused; not independent holdout",
+    "One publisher README and two developer-authored claims",
+    "No model/evaluator general accuracy estimate or causal ablation",
+    "No investment recommendation or Y edit"
+  ],
+  "raw_sha256": {
+    "receipt.json": "59627a1bf806ce8db7f12772941577e13678b5a3bd969f8b1d790ec8593a67c5",
+    "assessment.json": "9c5d464071d5d06ed725028f504d9a428de1dbc4a489113dc0d1b57e35483496",
+    "stage_trace.json": "0d1cb373e5f719a81196ef2bb7cc218a5de30b5b7f0610d0ea5112fed1921791",
+    "1_stdout.json": "324fe918a087be6965b6ed5dd133e329c57ae9e6277cc668e7d048c9affe4bf9",
+    "2_stdout.json": "53ff193ac709f5bef460c141bd295f8d0e92cee3308e98b7b0929bd6835b76b1"
+  },
+  "upstream": "Ragas instructions and original decomposition example via project CLI adapter, not whole-framework benchmark replication"
+}

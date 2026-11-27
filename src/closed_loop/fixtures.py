@@ -62,10 +62,12 @@ class FixtureProvider:
         return ()
 
 
-def run_case(good=True,empty=False,driver='python',**request_updates):
+def run_case(good=True,empty=False,driver='python',budget=None,thesis_factory=None,**request_updates):
     req=request(**request_updates);provider=FixtureProvider(good,empty)
-    runtime=ClosedLoopRuntime(req,TemporalGateway(req,provider.ledger),CallBudget(req),
-        FixtureLead(),FixtureCommittee(),provider)
+    budget=budget if budget is not None else CallBudget(req)
+    thesis=thesis_factory(budget) if thesis_factory is not None else None
+    runtime=ClosedLoopRuntime(req,TemporalGateway(req,provider.ledger),budget,
+        FixtureLead(),FixtureCommittee(),provider,thesis=thesis)
     if driver=='python':result=runtime.run()
     elif driver=='langgraph':
         from .graph_driver import run_graph

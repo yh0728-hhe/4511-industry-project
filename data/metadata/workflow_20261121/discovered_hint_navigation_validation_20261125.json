@@ -1,0 +1,15 @@
+{
+  "component": "DiscoveredResearchProvider historical hint follow-up",
+  "status": "OFFLINE_INTEGRATED",
+  "claude_contribution": "Added hint forwarding/direct archived-path route and6tests before180.473s timeout",
+  "codex_contribution": "Reviewed reuse/stop/proof checks; strengthened runtime target-fact assertion and added managed-discovery-root-to-hint regression",
+  "focused_tests": 7,
+  "full_tests": 831,
+  "passed": 828,
+  "skipped": 3,
+  "effect": "Model lead receives dated link hints; selected observed path bypasses new managed search and reuses independent archive verification/cached homepage",
+  "scope": "No claim that a linked target is itself verified; target still requires own eligible replay",
+  "actual_new_model_or_http_in_tests": 0,
+  "Y_changed": false,
+  "training": false
+}

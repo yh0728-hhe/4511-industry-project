@@ -1,0 +1,153 @@
+{
+  "status": "SEPARATE_REFERENCE_PREPARE_PREDICT_GRADE_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "dataset": {
+    "phase": "schema_and_label_scope_review_only",
+    "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "max_http_requests": 2,
+    "response_jsonl_max_bytes": 25165824,
+    "source_info_jsonl_max_bytes": 16777216,
+    "retry": false,
+    "models": 0,
+    "training": false,
+    "Y_read": false,
+    "raw_redistribution": false,
+    "status": "PINNED_REFERENCE_CAPTURED_SCHEMA_REVIEW_PENDING",
+    "captured_utc": "2026-11-26T19:01:16.485873+00:00",
+    "files": [
+      {
+        "name": "response.jsonl",
+        "url": "https://raw.githubusercontent.com/ParticleMedia/RAGTruth/c103204b9ce28d6bbad859304bf30de72b8ed8fe/dataset/response.jsonl",
+        "bytes": 21458735,
+        "sha256": "e4c2e4ac24fff676d8984cc61c35d791612fadc58015335d97dd632375e18073",
+        "git_blob_sha1": "f9ae5913fb9976684f3e13be3cd3465062db54cc"
+      },
+      {
+        "name": "source_info.jsonl",
+        "url": "https://raw.githubusercontent.com/ParticleMedia/RAGTruth/c103204b9ce28d6bbad859304bf30de72b8ed8fe/dataset/source_info.jsonl",
+        "bytes": 15117971,
+        "sha256": "0dffc26ea9f3c1c3d7c7e8336b56ef1646e3cec876edffcca3c9c624d12d578b",
+        "git_blob_sha1": "119277774009f110aa58596b93f9512f62594a89"
+      }
+    ],
+    "response_count": 17790,
+    "source_count": 2965,
+    "response_fields": [
+      "id",
+      "labels",
+      "model",
+      "quality",
+      "response",
+      "source_id",
+      "split",
+      "temperature"
+    ],
+    "source_fields": [
+      "prompt",
+      "source",
+      "source_id",
+      "source_info",
+      "task_type"
+    ],
+    "split_counts": {
+      "train": 15090,
+      "test": 2700
+    },
+    "quality_values": {
+      "\"good\"": 17617,
+      "\"truncated\"": 29,
+      "\"incorrect_refusal\"": 144
+    },
+    "task_types": {
+      "Summary": 943,
+      "Data2txt": 1033,
+      "QA": 989
+    },
+    "repository_license": "MIT (Particle Media2023); upstream embedded-source rights not independently reviewed; raw context not redistributed",
+    "source": "https://github.com/ParticleMedia/RAGTruth",
+    "paper": "https://aclanthology.org/2024.acl-long.585/"
+  },
+  "selection": {
+    "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "responses_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\response.jsonl",
+      "size_bytes": 21458735,
+      "sha256": "e4c2e4ac24fff676d8984cc61c35d791612fadc58015335d97dd632375e18073",
+      "git_blob_sha1": "f9ae5913fb9976684f3e13be3cd3465062db54cc"
+    },
+    "sources_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\source_info.jsonl",
+      "size_bytes": 15117971,
+      "sha256": "0dffc26ea9f3c1c3d7c7e8336b56ef1646e3cec876edffcca3c9c624d12d578b",
+      "git_blob_sha1": "119277774009f110aa58596b93f9512f62594a89"
+    },
+    "output_files": {
+      "selected_inputs.json": {
+        "sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a"
+      },
+      "selected_gold.json": {
+        "sha256": "745bb96b5d3aa00ccce6442cf77e81324160772ed5dca23307c10d5382b256b2"
+      }
+    },
+    "case_ids": [
+      "ragtruth-response-11904",
+      "ragtruth-response-12012",
+      "ragtruth-response-12018",
+      "ragtruth-response-12044",
+      "ragtruth-response-12219",
+      "ragtruth-response-12233"
+    ],
+    "unique_source_count": 6,
+    "unique_source_ids": [
+      "14300",
+      "14318",
+      "14319",
+      "14323",
+      "14353",
+      "14355"
+    ],
+    "selection_rule": "scan response.jsonl in original order; keep split=test, quality=good, task_type=QA records with nonblank question/passages/response within UTF-8 byte limits and a labels list; expected_supported is 1 iff labels is empty (authors' baseline treats implicit_true spans as unsupported); take the first 3 supported and first 3 unsupported cases whose source_id has not already been selected, stopping once both quotas of 3 are filled",
+    "model_calls": 0,
+    "redistribution": false,
+    "training": false
+  },
+  "claude_workers": {
+    "predictor": {
+      "exit_code": 0,
+      "elapsed_seconds": 86.033,
+      "retry": false,
+      "provider_is_error": false,
+      "response_sha256": "a9091b1e57668fa2c2bf4cdff10238c788bfdb72cec8d665928e700dbb8ebf3c"
+    },
+    "preparer": {
+      "exit_code": 0,
+      "elapsed_seconds": 65.78,
+      "retry": false,
+      "provider_is_error": false,
+      "response_sha256": "d37c631915a9f16c33c24f5a27100ff221020c52aa53289b7220a56e2337d013"
+    }
+  },
+  "claude_contribution": "Implemented import-safe prediction script with no gold-file reads and pure pinned-source preparation script.",
+  "codex_contribution": "Hardened budgets/config-before-auth, strict approval, initialization-failure ledger and byte-bounded reads; added independent frozen offline grader;14new fake regressions and readiness fingerprint coverage; verified actual pinned-data preparation matches earlier pre-model selection.",
+  "tests": {
+    "new": 14,
+    "focused_passed": 32,
+    "full_total": 1055,
+    "full_passed": 1052,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "readiness_run": "ragtruth-reference-reproduction-20261126-001"
+  },
+  "new_reference_model_predictions": 0,
+  "case_count": 6,
+  "unique_sources": 6,
+  "split": "test",
+  "quality": "good",
+  "model_inputs_separate_from_gold": true,
+  "grade_only_after_prediction": true,
+  "raw_context_committed": false,
+  "new_dependencies": false,
+  "training": false,
+  "Y_changed": false,
+  "interpretation": "Control-flow verification and canonical data preparation only. No RAGTruth model result has been executed yet, no investment-quality or unseen-holdout claim."
+}

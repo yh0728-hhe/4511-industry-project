@@ -1,0 +1,388 @@
+{
+  "protocol_id": "RAGTRUTH-SOURCE-DISJOINT-12-20261126-001",
+  "source_commit": "0c17c06fa3dc5342d9eebe960b8fac5b6c20377b",
+  "freeze_commit": "ff31ae1",
+  "execution": {
+    "Y_changed": false,
+    "actual_source_http_requests": 0,
+    "aggregate_accuracy": null,
+    "all_rows_completed": true,
+    "arm": "whole_response_source_disjoint12",
+    "case_ids": [
+      "ragtruth-response-12066",
+      "ragtruth-response-12102",
+      "ragtruth-response-12132",
+      "ragtruth-response-12260",
+      "ragtruth-response-12297",
+      "ragtruth-response-12435",
+      "ragtruth-response-12180",
+      "ragtruth-response-12240",
+      "ragtruth-response-12330",
+      "ragtruth-response-12458",
+      "ragtruth-response-12518",
+      "ragtruth-response-12602"
+    ],
+    "company_quality_gold": false,
+    "completed": [
+      {
+        "case_id": "ragtruth-response-12066",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12102",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12132",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12260",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12297",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12435",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12180",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12240",
+        "prediction": 1,
+        "score": 1.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12330",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12458",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12518",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      },
+      {
+        "case_id": "ragtruth-response-12602",
+        "prediction": 0,
+        "score": 0.0,
+        "statement_count": 1
+      }
+    ],
+    "excluded_source_ids": [
+      "14300",
+      "14318",
+      "14319",
+      "14323",
+      "14353",
+      "14355"
+    ],
+    "failed": [],
+    "input_sha256": "9b7a1e0c5096c45d499340b1304fc69d023bde60ace319e88827f6cb4d81035b",
+    "invoice": "UNKNOWN",
+    "last_case_index": 11,
+    "limitation": "Single whole-response NLI call per case; no atomic-statement decomposition or recall; not an official Ragas metric; no label/gold agreement is computed or claimed here; gold grading, if any, must run in a separate later process that never shares this process.",
+    "logical_call_budget": {
+      "active": 0,
+      "caps": {
+        "model": 12,
+        "search": 0
+      },
+      "used": {
+        "model": 12,
+        "search": 0
+      }
+    },
+    "managed_network_requests": "UNKNOWN",
+    "model_cli_attempts": 12,
+    "not_run": [],
+    "planned_rows": 12,
+    "protocol_id": "RAGTRUTH-SOURCE-DISJOINT-12-20261126-001",
+    "protocol_sha256": "e3dd3249b409605b48f728d39951f3ffa8755f89c01538600f8cf37299822a7c",
+    "status": "RAGTRUTH_SOURCE_DISJOINT12_PREDICT_EXECUTED",
+    "stop_reason": null,
+    "training_run": false,
+    "whole_response_script_sha256": "d7d74d14f431c20366271da617638d628d3eb4d25eafc81b059432ec290877da"
+  },
+  "parent_receipt": {
+    "exit_code": 0,
+    "elapsed_seconds": 137.093,
+    "retry": false
+  },
+  "offline_grade": {
+    "status": "REFERENCE_AGREEMENT_COMPUTED",
+    "cases": [
+      {
+        "case_id": "ragtruth-response-12066",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12102",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12132",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12260",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12297",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12435",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12180",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12240",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 1,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12330",
+        "status": "COMPLETED",
+        "reference_supported": 1,
+        "prediction": 0,
+        "match": false
+      },
+      {
+        "case_id": "ragtruth-response-12458",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12518",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      },
+      {
+        "case_id": "ragtruth-response-12602",
+        "status": "COMPLETED",
+        "reference_supported": 0,
+        "prediction": 0,
+        "match": true
+      }
+    ],
+    "planned": 12,
+    "completed": 12,
+    "failed": 0,
+    "not_run": 0,
+    "reference_matches": 11,
+    "confusion_counts": {
+      "true_positive": 5,
+      "true_negative": 6,
+      "false_positive": 0,
+      "false_negative": 1
+    },
+    "sample_agreement": {
+      "numerator": 11,
+      "denominator": 12,
+      "rate": 0.9166666666666666
+    },
+    "constant_not_supported_matches": 6,
+    "aggregate_accuracy": null,
+    "company_quality_gold": false,
+    "external_reference_labels_human": true,
+    "model_calls": 0,
+    "source_http_requests": 0,
+    "Y_changed": false,
+    "training": false,
+    "limitations": [
+      "New sourceIDs disjoint from previous6, not proven disjoint underlying passages or model pretraining.",
+      "Twelve mechanically selected balanced public cases, not representative startup diligence or statistical superiority.",
+      "No model tuning or production substitution; any failure retains all12 and null group agreement."
+    ],
+    "input_sha256": {
+      "predictions": "934104cc56f1b8ad1f532129d805552e66acc70349413b332d1372445d0acc54",
+      "gold": "0df630382878b993682ea29a244c8c86081a7beb7bcb6e7fca74b31cde2b3bdc",
+      "protocol": "e3dd3249b409605b48f728d39951f3ffa8755f89c01538600f8cf37299822a7c"
+    }
+  },
+  "audit": {
+    "all_frozen_code_script_input_reference_hashes_match": true,
+    "recorded_cli_inputs": 12,
+    "reference_field_names_absent_from_recorded_inputs": true,
+    "old_source_id_overlap": 0,
+    "old_exact_context_hash_overlap": 0,
+    "all_twelve_retained": true,
+    "source_http_requests": 0,
+    "source_ci_success": true,
+    "ci_urls": [
+      "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45890970904/job/140153247117",
+      "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45890962479/job/140153218772"
+    ]
+  },
+  "disagreements": [
+    {
+      "case_id": "ragtruth-response-12330",
+      "status": "COMPLETED",
+      "reference_supported": 1,
+      "prediction": 0,
+      "match": false
+    }
+  ],
+  "disagreement_notes": [
+    {
+      "case_id": "ragtruth-response-12330",
+      "type": "LITERAL_PRONOUN_GENERALIZATION_DISAGREEMENT",
+      "observation": "Reference annotations accept the response, while NLI rejects transfer of cues from gendered source wording to a differently phrased subject. This is a stricter source interpretation, not proof the reference or a real-company fact is false.",
+      "label_changed": false,
+      "prompt_changed": false,
+      "case_retried": false
+    }
+  ],
+  "private_artifacts_sha256": {
+    "backend_wire\\call_001.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_001.stdin": "2c5855aa81c2057b335fb20b683c1bf6a7c253bf099fc2b588fe91680a6cc2f9",
+    "backend_wire\\call_001.stdout": "b80e320a757a97997b2eceadc714f6bfcba8b8dc4aab7f14864c8f832faf1605",
+    "backend_wire\\call_002.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_002.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_002.stdin": "30d85d24eecff57e15265816c7fc4e1707b55b546516274e0edca4255a91313c",
+    "backend_wire\\call_002.stdout": "24af943814c0287ff47e777a8ad241184e9e095d0f77a1d0e0b373f446b2fa23",
+    "backend_wire\\call_003.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_003.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_003.stdin": "598f49c43ecc714cac4067a17e1ab44bc78b68c10d03b1c9e00f328911448d6a",
+    "backend_wire\\call_003.stdout": "ded1678efa1b5f344f90f99d84eeecf64d58ac244a89fb7a08f52066eb25ea8a",
+    "backend_wire\\call_004.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_004.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_004.stdin": "248b6404da3bc0db00909ecf8a54e7a832b38fb75a199705438047e0a7ebee6b",
+    "backend_wire\\call_004.stdout": "83d70b2fc4078909f78e2ff922918a9fd0109eebfcc3b665bb34e693ec3c48ac",
+    "backend_wire\\call_005.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_005.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_005.stdin": "9712251f391e5e533487a40049c17662782c29c9d505bdd5d81d5d1b13ef9a2f",
+    "backend_wire\\call_005.stdout": "5bb24886f37ee83736910f953da6aca09af42a436b125eebdfca5f0c962864f6",
+    "backend_wire\\call_006.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_006.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_006.stdin": "74cdc6a2903aa9e634bc685bcfc9943ee2caa71b2a399984850e2937b63ff590",
+    "backend_wire\\call_006.stdout": "7c4ae49400e82950cf08717be904970b443c57ab4886c29ff403387896a52b86",
+    "backend_wire\\call_007.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_007.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_007.stdin": "9810bfcf28234e41eba740279726c9c147f4a1ac79b2580088058531e2df5dbe",
+    "backend_wire\\call_007.stdout": "85df18df7810c22e8645e09b0e5a83032b71d8e5bc97f854b1844b1f3ea5c607",
+    "backend_wire\\call_008.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_008.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_008.stdin": "9cfb02a540ad03b864f71afc88bd8f6bbb405b2fa681e344633b1ca009d0dcfb",
+    "backend_wire\\call_008.stdout": "3bd759e2452eb25fe3b9344267cb5e3f7a1d575c934f39d07691f959017af3fc",
+    "backend_wire\\call_009.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_009.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_009.stdin": "763907472fa5d8d7dbe2ea7e23a1bb1f77f96240efcc151358f89543c2f84c5f",
+    "backend_wire\\call_009.stdout": "bc79368fd86460af5d7c944cf38cf741916d300fd62609916334b7926f81ac3b",
+    "backend_wire\\call_010.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_010.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_010.stdin": "f63e39301bad1b94776daa2e2beea3276e5c07ca72de659b8a2aac1e51736bc8",
+    "backend_wire\\call_010.stdout": "85024671060e97919a4e47ad4b58707d57642400d97833f1c2a445241bbd48bb",
+    "backend_wire\\call_011.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_011.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_011.stdin": "63546ec18195c203f9f17a1f4a605b87a8b4ce95dd29c24e3e5b518bfd0faa84",
+    "backend_wire\\call_011.stdout": "ce36f819fb1f4908a96b577dfc9c836b4d297a7768cd1676c08b49980389d7c0",
+    "backend_wire\\call_012.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "backend_wire\\call_012.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_wire\\call_012.stdin": "cfb0b79a28a5bd81d27b7314502dcd1c038be0923cc8e0f01526d7b16fa0e894",
+    "backend_wire\\call_012.stdout": "d7d445399acf4b844c6bc0f65a1378d5b1c3b96d2377ad3f22a121e05f91d0ac",
+    "completed_rows.json": "676508cffc63c77627ef735ff7a2d0b414e95af428c1c3683fdba250ba49124a",
+    "dispatch.jsonl": "fdc5e87750fd1de5e61f1778d4220ace0fc5c96c4eaf1c169e5fd7730c4ae213",
+    "plan.json": "d3889f2c124b429818cd1116e5367dc941d2056d048036ff3d9868dfe8cc6fba",
+    "result.json": "934104cc56f1b8ad1f532129d805552e66acc70349413b332d1372445d0acc54",
+    "row_00_assessment.json": "20109b658d2363a8d022b421d0fe1c7d02dfc60254042f58bc4bc57a9955ce35",
+    "row_00_calls.json": "97619490a0fef6e2ec51cfcd6f82b3adc723b89ae06478977d01e9e4811cb190",
+    "row_01_assessment.json": "2c2b393858a8ac638d5e8a2ad4b4d2eb10de386bf6aa3d57debf35b971864bb8",
+    "row_01_calls.json": "84f6e9bbea1567c26deeef9bcb01032d786795fd35e8485e9d1e848096b530b2",
+    "row_02_assessment.json": "62a978b25a7dffec7e69c030d5e39bd95490dfda074f5301d473a4c88bd934b7",
+    "row_02_calls.json": "b8b882c0e24312cb64b3110588d713c18f18adb86c159551189ea8208dcde098",
+    "row_03_assessment.json": "6728aed664ba1ba038eab1c3b696ec16c1068e58d8bea5c1e65f392c9eef793a",
+    "row_03_calls.json": "16b4fbb7e94aae0031b859aae8459926bce989ac6314fa30357c42a717458220",
+    "row_04_assessment.json": "4a80a83c22e919cb0ff39ef29d5b97eca7c74b07b6f1a1054fc255d9dd28680e",
+    "row_04_calls.json": "2a3b5509044d2d87fb9de89b926a36e56f4da06d0c40d293e97f110ea6902cd4",
+    "row_05_assessment.json": "ec2f404e7c0f621c1bc0a2b6dd79c243c7a582219cc3b2ecea6ceadae6c58c02",
+    "row_05_calls.json": "21e145787f1413a00e2c3497211384823082f255888dac302b32ddca5c11f810",
+    "row_06_assessment.json": "4d4eda89c11daaeb5d1910a7dc4d9f9223b692535890d21f31330f5b5c466e8b",
+    "row_06_calls.json": "cda2fd5d27b6e4ccfb068f20d0e65fe402a7781ebc48be033459de5ba8b2398d",
+    "row_07_assessment.json": "5dc0991fd7d5ed0244322efec05a8e96b7cbc0e069ffdf053c25483844b753bb",
+    "row_07_calls.json": "75166b02cca95cefb30b4f71f3414ac8a3213652c8eb776dbc7bfc1d23361310",
+    "row_08_assessment.json": "b127de2d7e468c60113581da9de641963c6c5d1c3c2ea5adf4f2139f05b9c0b0",
+    "row_08_calls.json": "f51cbd9e6cb6a642d204349409f88d1d775bab694825eb685f424edcc48ae84d",
+    "row_09_assessment.json": "608e7c310e048998d7aba6c5b885d6cffc96b4b5a9c0e48ea5096dff569db421",
+    "row_09_calls.json": "4c025e0cb526ff54c20066d38b0b08ad52106d6f1a3b2fa469dfae8d2f8d179c",
+    "row_10_assessment.json": "27e2985b08af95aea8447a3164047d5af24325b467985b6f45d4d9065800df75",
+    "row_10_calls.json": "7554ee0a515447c59a047ccafd914b9ab3ec41e804e4afc9e0438815600ff81f",
+    "row_11_assessment.json": "46727d724882e0aa71d687e0b512ecbba633920dd38624a8afa3ac0fa39e07ad",
+    "row_11_calls.json": "35b5a876006432e56dac190df11676d48188c36f8e7e5180f57b1a312b18fee6"
+  },
+  "limitations": [
+    "Public data may already be in model pretraining; source-ID/context disjoint is not an unseen holdout guarantee.",
+    "Balanced mechanically selected12QA cases, not representative startup/investment evidence.",
+    "Whole-response NLI lacks atomic unsupported-claim localization.",
+    "Prior6exploratory results not pooled into this group or used to tune prompt.",
+    "Any failure retains12-case ledger and null group agreement; no cap expansion or retry.",
+    "Managed internal inference counts, temperature enforcement, remaining quota and invoice unknown.",
+    "11of12reference agreements with5TP6TN0FP1FN on this declared mapping.",
+    "Do not pool prior6exploratory cases into this follow-up metric.",
+    "No general accuracy, statistically established superiority or investment-quality claim."
+  ],
+  "production_changed": false,
+  "Y_changed": false,
+  "training": false
+}

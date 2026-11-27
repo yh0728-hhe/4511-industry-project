@@ -1,0 +1,116 @@
+{
+  "packet_id": "SOURCE-STATEMENT-REVIEW-20261124-001",
+  "status": "UNREVIEWED",
+  "purpose": "Retrospective source-entailment exercise, not investment accuracy, training data or an unseen holdout. Statements curated by Codex; not verbatim model outputs.",
+  "scope": "Judge only the indicated historical artifact text. Publication timestamps supplied as provenance, not themselves review questions. Do not execute packages or fetch linked dynamic badges/current websites.",
+  "independence": "Reviewer must not be the implementing agents; no adjudication supplied. Independent human review not yet obtained.",
+  "allowed_verdicts": [
+    "SUPPORTED",
+    "UNSUPPORTED",
+    "UNRESOLVED"
+  ],
+  "sources": [
+    {
+      "id": "H",
+      "name": "Hatchet SDK 0.21.1",
+      "artifact_url": "https://files.pythonhosted.org/packages/5d/44/e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec/hatchet_sdk-0.21.1-py3-none-any.whl",
+      "artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+      "member": "hatchet_sdk-0.21.1.dist-info/METADATA",
+      "publication_timestamp": "2024-04-04T16:05:00.538145Z",
+      "local_reference": "results/scratch/workflow_20261123/pypi_source_probe_001/METADATA.txt",
+      "local_reference_sha256": "c0c45c57376a1b3aeb93fad89a12ae97cbab636b1e94700d2a8cd8a9b2c04a7e"
+    },
+    {
+      "id": "M",
+      "name": "Million.js 3.0.6",
+      "artifact_url": "https://registry.npmjs.org/million/-/million-3.0.6.tgz",
+      "artifact_sha256": "12a4b412033dc15974a66768ae724ab54988ce86d6136cbcefd32439f73a175a",
+      "member": "package/README.md",
+      "publication_timestamp": "2024-03-09T06:58:28.338Z",
+      "local_reference": "results/scratch/workflow_20261123/richer_package_probe_001/README.md",
+      "local_reference_sha256": "80427e65df6593ddf7ee6b1ac238449e1cf9519646efdad9bb84963c91ce6bdf"
+    }
+  ],
+  "items": [
+    {
+      "item_id": "H1",
+      "source_id": "H",
+      "statement": "该版本的说明将其称为 Hatchet 的 Python SDK。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "H2",
+      "source_id": "H",
+      "statement": "该版本说明包含指向 Python SDK 使用文档的链接。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "H3",
+      "source_id": "H",
+      "statement": "该版本说明足以证明团队执行能力强。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "H4",
+      "source_id": "H",
+      "statement": "该版本说明证明公司已有付费客户。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "M1",
+      "source_id": "M",
+      "statement": "该版本说明宣称可以让 React 组件最多快 70%。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "M2",
+      "source_id": "M",
+      "statement": "该版本说明介绍了通过 CLI 安装并配置项目的方法。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "M3",
+      "source_id": "M",
+      "statement": "该版本说明足以独立验证所有应用均能获得 70% 的性能提升。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    },
+    {
+      "item_id": "M4",
+      "source_id": "M",
+      "statement": "该版本说明足以证明项目有活跃且持续增长的用户社区。",
+      "verdict": "PENDING",
+      "reason": "",
+      "supporting_location": "",
+      "reviewer": "",
+      "reviewed_at": ""
+    }
+  ]
+}

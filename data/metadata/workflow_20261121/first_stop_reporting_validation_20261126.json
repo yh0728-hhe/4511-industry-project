@@ -1,0 +1,29 @@
+{
+  "status": "FIRST_TERMINAL_STOP_REPORTING_FIXED",
+  "date": "2026-11-26",
+  "reproduction_before": {
+    "recorded_budget_stop": "FIRST_STOP_CAUSE",
+    "reported_runtime_stop": "SECONDARY_EXCEPTION"
+  },
+  "fix": "Runtime stage and final-thesis reporting now use the recorded first terminal cause if present; otherwise preserve the specific raised BudgetStopped reason.",
+  "new_tests": 4,
+  "total_tests": 954,
+  "passed": 951,
+  "skipped": 3,
+  "readiness_run": "first-stop-reporting-20261126-001",
+  "actual_model_calls": 0,
+  "actual_network_calls": 0,
+  "Y_changed": false,
+  "training_run": false,
+  "claude_review": {
+    "status": "INCOMPLETE_TIMEOUT_NOT_AN_APPROVAL",
+    "elapsed_seconds": 90.568,
+    "retry": false,
+    "scope": "Evidence binding/support paths; no completed verdict returned"
+  },
+  "contribution": "Codex independently reproduced and fixed the reporting mismatch; no claim of Claude approval for this patch.",
+  "limitations": [
+    "Deterministic reproduction, not proof of a prior misreported real run.",
+    "Existing sealed run reasons remain unchanged."
+  ]
+}

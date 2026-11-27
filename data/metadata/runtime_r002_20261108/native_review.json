@@ -1,0 +1,85 @@
+{
+  "review_round": "R004_native_committee",
+  "scope": [
+    "native_review/src/closed_loop/native_committee.py",
+    "native_review/src/closed_loop/native_support.py",
+    "native_review/src/closed_loop/graph_driver.py",
+    "native_review/src/closed_loop/offline_network.py",
+    "native_review/tests/test_native_committee.py",
+    "native_review/tests/test_offline_network.py"
+  ],
+  "method": "static read-only review; no code executed, no models run",
+  "findings": [
+    {
+      "id": "R004-1",
+      "status": "defect",
+      "severity": "high_if_reused_concurrently",
+      "component": "native_committee.py:NativeDialecticCommittee",
+      "description": "self.last_trace/self.last_calls are instance attributes reset and appended per evaluate_async call, not call-scoped. Reusing one committee instance for two concurrent evaluate_async calls (not done today but not prevented) corrupts/truncates both companies' trace and call-accounting silently.",
+      "not_a_bug_because": "NativeBinding itself (ContextVar-scoped) is correctly isolated per call; the defect is narrowly the instance attributes on the committee object.",
+      "test_proposed": "asyncio.gather two evaluate_async calls on one NativeDialecticCommittee with distinct CommitteeInput views; assert last_trace/last_calls/cited_fact_ids partition cleanly per company_id and neither call's data is lost.",
+      "fix_direction": "return trace/calls from evaluate_async instead of storing on self, or document+assert one-instance-per-concurrent-call."
+    },
+    {
+      "id": "R004-2",
+      "status": "defect",
+      "severity": "latent_low_current_exposure",
+      "component": "offline_network.py:OfflineSocketGuard",
+      "description": "install() only guards against double-install on the SAME instance (self._original check). Two independent instances installed while one is still active capture each other's already-patched methods as 'original', so restore() ordering determines whether the socket module ends up truly unpatched or still wrapped.",
+      "current_exposure": "not hit by existing tests (only one instance per test class), but a landmine for future nested/leaked guard usage.",
+      "test_proposed": "install g1, install g2 (should not silently succeed with corrupted original capture, or must compose safely), restore in both orders, assert final socket.socket.connect/bind identity equals the true pre-g1 original after both are restored regardless of order.",
+      "fix_direction": "module-level installed-guard stack/lock, or refuse second install process-wide, or capture true originals via a persistent module-level reference set once."
+    },
+    {
+      "id": "R004-3",
+      "status": "limitation_confirmed_not_a_bug",
+      "component": "offline_network.py:OfflineSocketGuard._loopback",
+      "description": "ipaddress.ip_address(address[0]) raises ValueError for hostnames (e.g. 'localhost'), treated as not-loopback and denied. Fails closed, not a security hole; just means test authors must use literal 127.0.0.1/::1.",
+      "action": "document as constraint; no fix required."
+    },
+    {
+      "id": "R004-4",
+      "status": "confirmed_correct_needs_test",
+      "component": "native_committee.py + guards.CallBudget",
+      "description": "On BudgetStopped raised inside one asyncio.gather sibling (e.g. mid score_and_select_best_k), CallBudget.reserve's finally:active-=1 still fires for cancelled siblings since cancellation arrives as an exception inside the active 'with' block.",
+      "gap": "reasoned correct from code inspection only; no existing test forces a mid-gather failure.",
+      "test_proposed": "fixture backend raising BudgetStopped on the Nth of several parallel score_single_argument calls; assert budget.active==0 afterward and used['model'] reflects only completed reservations."
+    },
+    {
+      "id": "R004-5",
+      "status": "confirmed_correct",
+      "component": "native_support.py:StructuredModel.ainvoke retries",
+      "description": "Every retry of score_single_argument's wrong-criterion-count loop goes through ainvoke and is metered; already covered by test_original_internal_score_count_retry_is_metered."
+    },
+    {
+      "id": "R004-6",
+      "status": "minor_observability_gap",
+      "component": "native_committee.py:evaluate_async final EvidenceReviewOutput call",
+      "description": "Final evidence-review call is metered in last_calls but has no matching event(stage) trace row, unlike generation/critique/score_and_select/refinement/final_aggregation.",
+      "fix_direction": "add event('evidence_review') for audit parity; not a correctness issue."
+    },
+    {
+      "id": "R004-7",
+      "status": "analysis_resolved_add_regression_test",
+      "component": "graph_driver.py recursion_limit vs runtime.py loop",
+      "description": "Worst-case node executions = 4*max_research_passes+1; configured recursion_limit=4*max_research_passes+4 has margin, not a deficit as initially suspected. No bug found on recount.",
+      "test_proposed": "run both ClosedLoopRuntime.run() and graph_driver.run_graph() against an always-gaps fixture that exhausts every research pass; assert identical stop_reason/decision/argument_revision and no GraphRecursionError, to lock in the margin against future stage additions."
+    }
+  ],
+  "out_of_scope_restated": [
+    "OfflineSocketGuard is not an OS sandbox against arbitrary native code (e.g. subprocess raw syscalls); already disclosed in its own docstring, not newly found here.",
+    "No live model/API quality assessed; backend this round is deterministic by design."
+  ],
+  "not_reiterated": "R002 findings already fixed are not repeated here.",
+  "executed_code": false,
+  "models_run": false,
+  "root_dispositions": {
+    "R004-1": "fixed single-instance overlap rejection + regression",
+    "R004-2": "fixed process-wide guard ownership + regression",
+    "R004-3": "literal loopback constraint retained",
+    "R004-4": "mid-gather cancellation regression passes",
+    "R004-5": "retained retry metering regression",
+    "R004-6": "evidence_review trace event added",
+    "R004-7": "no defect found; existing recursion margin retained"
+  }
+}

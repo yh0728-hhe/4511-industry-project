@@ -1,0 +1,100 @@
+{
+  "status": "CLEAN_TRACKED_EXPORT_OFFLINE_REPRODUCED",
+  "parent": {
+    "source_commit": "ee5c762e2dc0f53ae0a7275f2837203f122f94c2",
+    "archive_sha256": "fdd6fc1ec1510cf6e150c01935d7dc54dc4b471b1c8e42145a308b7029ee3cc8",
+    "archive_entries": 1279,
+    "expanded_bytes": 18909512,
+    "tracked_export_only": true,
+    "original_scratch_copied": false,
+    "same_host_python": "3.13.0",
+    "user_site_disabled": true,
+    "not_os_or_dependency_isolation": true,
+    "models_or_source_http_requested": false,
+    "exit_code": 0,
+    "elapsed_seconds": 12.737,
+    "retry": false
+  },
+  "plan_fingerprint_matches_original": true,
+  "plan_fingerprint": "ea4a66125d0f80be9eb03bc656739eb102bd58f8a4f95b0f241f2f34dc2759ed",
+  "tests": 1071,
+  "passed": 1068,
+  "skipped": 3,
+  "step_receipts": {
+    "adagy_preflight": {
+      "elapsed_seconds": 0.144,
+      "exit_code": 0,
+      "sha256": {
+        "adagy_plan.json": "667c92d878e94ff41cd94b4d60f152caae8c40e140a9c327a5bb135f9f0000b4",
+        "adagy_preflight.log": "69eef021d47996b58f5c5ba7840f86a789adfa58499e18d1a9104326b48fe0c9"
+      },
+      "status": "PASSED"
+    },
+    "funding_tests": {
+      "elapsed_seconds": 2.371,
+      "exit_code": 0,
+      "sha256": {
+        "funding_tests.log": "e41e56e9e2273cbe0c856a19bc7d10e980be261e0ce34225cacdacae1377a805"
+      },
+      "status": "PASSED"
+    },
+    "outcome_tests": {
+      "elapsed_seconds": 0.238,
+      "exit_code": 0,
+      "sha256": {
+        "outcome_tests.log": "f038c69d5b5a68be1e6eb04d2759918fab8bf16ed79af2499ea3d7a3e12f01c2"
+      },
+      "status": "PASSED"
+    },
+    "runtime_tests": {
+      "elapsed_seconds": 9.723,
+      "exit_code": 0,
+      "sha256": {
+        "runtime_tests.log": "5300fced49dcc90c34ab58fdf00a3f70a8d2ac5f2f7b68a40b2eef185c6217e5"
+      },
+      "status": "PASSED"
+    },
+    "snapshot_validation": {
+      "elapsed_seconds": 0.049,
+      "exit_code": 0,
+      "sha256": {
+        "snapshot_validation.log": "0135895615a080ed92c313e985dbcaf57b73851abc14c27468911abdc57d73a0"
+      },
+      "status": "PASSED"
+    },
+    "synthetic_loop": {
+      "elapsed_seconds": 0.075,
+      "exit_code": 0,
+      "sha256": {
+        "fixtures.json": "f969850a7048b54747813bb82f08f1ccb2831636119675b2c0d76963ec71f822",
+        "synthetic_loop.log": "2cf723146598ad6b39f5e6eaea0acdf8287efbdc91f3c9a50d96a6b5fc584e9f"
+      },
+      "status": "PASSED"
+    }
+  },
+  "private_child_receipt_sha256": "d56307fdefddbbb34ac2aaa4f0b72ea2bc89aed963871a54a2f086c5a5ca97b3",
+  "private_plan_sha256": "459b1d6f3858609fe129c4e75a5186d3276f4fb81804d259b5d196f231fe9616",
+  "no_raw_experiment_cache_copied": true,
+  "no_model_calls_requested": true,
+  "no_source_http_requested": true,
+  "Y_changed": false,
+  "training": false,
+  "limitations": [
+    "Same Windows host and Python3.13.0; not a clean OS or independently installed dependency environment",
+    "User site disabled; system interpreter packages and OS tooling remain shared",
+    "Offline reproduction does not reproduce sealed model outputs, provider billing or historical source availability",
+    "Raw local archive and logs remain ignored private artifacts"
+  ],
+  "runbook_worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 66.286,
+    "retry": false
+  },
+  "codex_runbook_corrections": [
+    "64-character run-id limit and explicit180second offline ceiling",
+    "Distinguish offline checks from live CLI consumption",
+    "Do not show a copyable replay of sealed Hatchet model experiment",
+    "UNKNOWN is missing admissible result evidence, not a verified negative"
+  ]
+}

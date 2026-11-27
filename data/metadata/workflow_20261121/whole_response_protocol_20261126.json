@@ -1,0 +1,103 @@
+{
+  "dataset_repository": "https://github.com/ParticleMedia/RAGTruth",
+  "dataset_commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+  "paper": "https://aclanthology.org/2024.acl-long.585/",
+  "model": "claude-sonnet-5",
+  "case_ids": [
+    "ragtruth-response-11904",
+    "ragtruth-response-12012",
+    "ragtruth-response-12018",
+    "ragtruth-response-12044",
+    "ragtruth-response-12219",
+    "ragtruth-response-12233"
+  ],
+  "input_sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a",
+  "gold_sha256": "745bb96b5d3aa00ccce6442cf77e81324160772ed5dca23307c10d5382b256b2",
+  "source_manifest": {
+    "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "responses_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\response.jsonl",
+      "size_bytes": 21458735,
+      "sha256": "e4c2e4ac24fff676d8984cc61c35d791612fadc58015335d97dd632375e18073",
+      "git_blob_sha1": "f9ae5913fb9976684f3e13be3cd3465062db54cc"
+    },
+    "sources_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\source_info.jsonl",
+      "size_bytes": 15117971,
+      "sha256": "0dffc26ea9f3c1c3d7c7e8336b56ef1646e3cec876edffcca3c9c624d12d578b",
+      "git_blob_sha1": "119277774009f110aa58596b93f9512f62594a89"
+    },
+    "output_files": {
+      "selected_inputs.json": {
+        "sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a"
+      },
+      "selected_gold.json": {
+        "sha256": "745bb96b5d3aa00ccce6442cf77e81324160772ed5dca23307c10d5382b256b2"
+      }
+    },
+    "case_ids": [
+      "ragtruth-response-11904",
+      "ragtruth-response-12012",
+      "ragtruth-response-12018",
+      "ragtruth-response-12044",
+      "ragtruth-response-12219",
+      "ragtruth-response-12233"
+    ],
+    "unique_source_count": 6,
+    "unique_source_ids": [
+      "14300",
+      "14318",
+      "14319",
+      "14323",
+      "14353",
+      "14355"
+    ],
+    "selection_rule": "scan response.jsonl in original order; keep split=test, quality=good, task_type=QA records with nonblank question/passages/response within UTF-8 byte limits and a labels list; expected_supported is 1 iff labels is empty (authors' baseline treats implicit_true spans as unsupported); take the first 3 supported and first 3 unsupported cases whose source_id has not already been selected, stopping once both quotas of 3 are filled",
+    "model_calls": 0,
+    "redistribution": false,
+    "training": false
+  },
+  "protocol_id": "RAGTRUTH-WHOLE-RESPONSE-20261126-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "code_commit": "732403a0f491a1a68afbec91536f4b17e1517815",
+  "as_of": "2026-11-26T19:46:40.375828+00:00",
+  "max_model_cli_attempts": 6,
+  "max_seconds": 240,
+  "auth_seconds": 20,
+  "outer_timeout_seconds": 300,
+  "script_sha256": "d7d74d14f431c20366271da617638d628d3eb4d25eafc81b059432ec290877da",
+  "prior_predictor_script_sha256": "a8c0c2dddf76a3e3eb4f9ab8e51d31617e4abdbe071146d4dc684bdcb118fa8e",
+  "grader_sha256": "e103ef3471bb4997634e81cbf90e99cf8ffd7004276fcf0f0c25a2f7ae1e875d",
+  "code_sha256": {
+    "ragas_faithfulness.py": "dc27b1a4182756da0ce854f707a63a773b7b3edab49ffbd3a74f8683bc1132f4",
+    "native_support.py": "447f2f68fd1364bb0eab26836b0f8516b68c2465ed2dbb0f2a7b713f906fe898",
+    "agent_prompts.py": "7a9720d7603e8c31776e5b7da16157e88e363587ace9fbf1771a5b05bb798c52",
+    "model_identity.py": "739827c51147c8228f58dc25cab6c6eab17a50998cd0091f0d189727d6a9cf46",
+    "cli_backend.py": "ee5b88d31780d217a9857527ef6ae13374006cd4008b0f089b612a9f1650650a",
+    "cli_limits.py": "441cdb392ed8ea92a72ed3c611ccb64596070780e25e1924be61652491c0bc6e",
+    "guards.py": "d8a0b22c036baa2f6dae549f81bf626cd59f6a7467b27585447c33008c0fb3e4",
+    "contracts.py": "d4ee914ca415606ca8d915b5aa1685309828dc3b950ab15751689a6c9e938ef5",
+    "runtime.py": "b71171172a6090b3039a22f70ef41127267bce10f58f16667c2beec8fa2e7e25",
+    "discovery_workflow.py": "b8aabfa1085507dba4a21668170ddfc1f763cf49cf44b4ebac825dbc705e3f0c",
+    "package_workflow.py": "6ac3f5509a34879902975c6eb8532f2c42233378ac93989116752c47b8ba642a",
+    "output_text.py": "74cedddc992d952ca746f42cb3db74a642a4b757f32d0fbb6c5e73ad77c9b18a",
+    "analysis_acceptance.py": "69eff6e9f8b3f92602b9598b3b984ede6f344fabed22dea39e1aa9c354181ab5"
+  },
+  "arm": "whole_response_single_nli",
+  "source_http_cap": 0,
+  "retry": false,
+  "exploratory_after_prior_run": true,
+  "official_ragas_metric": false,
+  "production_integration": false,
+  "training": false,
+  "Y_changed": false,
+  "company_quality_gold": false,
+  "selection": "Same already frozen six public cases; no resampling or tuning to gold.",
+  "comparison_limits": [
+    "Different granularity from atomic decomposition",
+    "Not independent holdout; prior reference outcomes already available",
+    "No latency or accuracy superiority claim from six purposive known cases",
+    "CLI process counts exclude worker implementation and auth; internal inference and invoice unknown",
+    "Any incomplete arm preserves all six cases and null group agreement"
+  ]
+}

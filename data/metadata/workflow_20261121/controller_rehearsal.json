@@ -1,0 +1,60 @@
+{
+  "as_of": "2026-11-21",
+  "run_id": "live-rehearsal-001",
+  "status": "DONE",
+  "task": "draft-and-review-evidence-rubric-v1",
+  "config_hash": "b92c3ae3a684a0806e7f0fa993d514f46b63d389e0a3fa35dacf1eb92239e950",
+  "sources": {
+    "data/metadata/workflow_20261121/historical_gate_codex_review.json": "5bb18ab572dc9a0034cf98396ecacd186dcb804f9afd4c4f2a6a423e4dcecba9",
+    "docs/workflow_automation_20261121/evaluation_gate.json": "310d71039d1d2250e9e3210dc8005492f7ab69a7c23aed58b7768b4230c5eb14",
+    "src/workflow_automation/__init__.py": "8c435917a46f78c40e3db6d4dde2b08ac75e177170224b7812c94289c3cb0b2b",
+    "src/workflow_automation/archive_probe.py": "a927d89a60fda6e19d1207bdfa9863e93e83b4a536c521e783bbd89c57cad69b",
+    "src/workflow_automation/controller.py": "41ef69374c8b29532e8dc74d037199b21aeeb6d4185c88cefda35969a94488be",
+    "src/workflow_automation/readiness.py": "fcca192c2c092ccea66c03607a3c5cabdada6296f84ddda65545ae3f5dca63b6"
+  },
+  "invocations": 2,
+  "events": [
+    {
+      "attempt": 1,
+      "intent_utc": "2026-11-21T23:53:43.414697+00:00",
+      "role": "codex"
+    },
+    {
+      "attempt": 2,
+      "intent_utc": "2026-11-21T23:53:56.692684+00:00",
+      "role": "claude"
+    }
+  ],
+  "artifacts": {
+    "claude": {
+      "path": "claude.json",
+      "sha256": "6c12b1a75861102e2eb68c083886753ddd8361e805a43cf604c422d183577f55"
+    },
+    "codex": {
+      "path": "codex.md",
+      "sha256": "ac75e80a61ee9c226abc3e0b1b7290891e2792f312a7e1360e692370e9b720f8"
+    }
+  },
+  "resume_verified_no_additional_invocation": true,
+  "review_verdict": "ACCEPT",
+  "offline_tests": {
+    "runtime": 205,
+    "funding": 205,
+    "outcome": 33,
+    "total": 443,
+    "passed": 440,
+    "skipped": 3
+  },
+  "no_tool_commands_in_codex_events": true,
+  "research_api_calls": 0,
+  "training_run": false,
+  "scheduler_enabled": false,
+  "quota_reset_resume_verified": false,
+  "cli_subscription_usage": "Real CLI usage occurred. Two process invocations is not two inference requests. Actual bill not independently verified; no experiment API keys were added.",
+  "writeback_verified": false,
+  "writeback_note": "Controller did not commit/push. Codex root publishes reviewed artifacts separately; check a later remote commit/readback, never infer push success from this local receipt.",
+  "raw_log_hashes": {
+    "claude-stdout.log": "16e44b6138df76c65c6777a95acb608775c7979b2d234bf5e1ec83c0e9dce1b7",
+    "codex-stdout.log": "d47fa1031b730e4276aed9213dfabd05c9a52230ace5031486493d4bf97a4c74"
+  }
+}

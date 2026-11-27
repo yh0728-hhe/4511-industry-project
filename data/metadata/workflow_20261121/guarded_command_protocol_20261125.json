@@ -1,0 +1,20 @@
+{
+  "protocol_id": "GUARDED-DISCOVERY-COMMAND-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "First actual guarded-command run on a historically seeded sparse-source case, not a replay ofthe completedHatchetcycle or a coverage/outcomeclassification exercise",
+  "config_file": "guarded_command_adagy_config_20261125.json",
+  "config_sha256": "c5aad7dfc25b3f25679a2e021d0220b696f8eb2cd7e7dc4e56ebae08f584e780",
+  "code_commit": "ad82025",
+  "identity_reference": "historical_gate_codex_review.json / historical_gate_results.csv: Adagy historicalname/domain established, full readableprecutoffarchive previouslyUNKNOWN; no claimofindependentlyprovenlegalownership",
+  "max_new_claude_process_reservations": 4,
+  "max_search_reservations": 6,
+  "max_research_seconds": 120,
+  "auth_check_seconds": 20,
+  "outer_timeout_seconds": 160,
+  "retry": false,
+  "fallback": false,
+  "initial_inputs": "Identityseed+mandate only; no oldpagecontent/modeloutput/Yinjection",
+  "interpretation": "No admittedfacts should yield validMORE_DILIGENCE/NO_ADMITTED_FACTS withoutdebate. Newlyverifiedsource instead takes ordinaryboundedpath and maystopatcap. Neitheroutcome isfinancingnegative.",
+  "Y_changed": false,
+  "training": false
+}

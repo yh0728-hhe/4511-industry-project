@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Closed-Loop Due Diligence — Cumulative Progress</title>
+<style>
+  :root {
+    --bg: #F7F7F5;
+    --fg: #1A1C1A;
+    --muted: #5C615B;
+    --rule: #D4D7D0;
+    --surface: #FFFFFF;
+    --signal: #9C4A14;
+    --signal-soft: #F5E6D9;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "Consolas", "Courier New", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#131513; --fg:#E8EAE5; --muted:#99A094; --rule:#2E332D; --surface:#1C1F1C; --signal:#DD9E5E; --signal-soft:#322314; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background: var(--bg); color: var(--fg); font-family: var(--sans); font-size:16px; line-height:1.65; }
+  .wrap { max-width: 800px; margin: 0 auto; padding: 0 24px 80px; }
+  header.top { padding: 44px 0 22px; }
+  .eyebrow { font-family: var(--mono); font-size:11.5px; letter-spacing:.08em; color: var(--muted); margin-bottom:14px; text-transform: uppercase; }
+  h1 { font-family: var(--serif); font-size: clamp(28px,5vw,42px); line-height:1.1; font-weight:700; margin:0 0 16px; }
+  .sub { font-size:17px; color: var(--muted); margin:0; }
+  .byline { font-family: var(--mono); font-size:12px; color: var(--muted); margin-top:20px; padding-top:14px; border-top:1px solid var(--rule); }
+  section { padding-top: 32px; }
+  h2 { font-family: var(--serif); font-size: clamp(21px,3.4vw,27px); font-weight:700; margin: 0 0 12px; }
+  h3 { font-size:16px; font-weight:600; margin: 22px 0 6px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--signal); text-decoration: underline; word-break: break-word; }
+  strong { font-weight:600; }
+  .note { background: var(--surface); border:1px solid var(--rule); border-left:3px solid var(--signal); padding:14px 16px; margin: 16px 0; font-size:15px; }
+  .note .lbl { font-family: var(--mono); font-size:10.5px; letter-spacing:.08em; color: var(--signal); margin-bottom:8px; text-transform:uppercase; }
+  table { width:100%; border-collapse: collapse; margin: 14px 0; font-size:14.5px; }
+  th, td { text-align:left; padding:7px 10px; border-bottom:1px solid var(--rule); vertical-align: top; }
+  th { font-family: var(--mono); font-size:11.5px; letter-spacing:.05em; color: var(--muted); text-transform:uppercase; }
+  .table-scroll { max-width:100%; overflow-x:auto; }
+  .table-scroll.wide table { min-width:620px; }
+  code { overflow-wrap:anywhere; }
+  figure { margin: 22px 0 0; }
+  .figbox { overflow-x:auto; background: var(--surface); border:1px solid var(--rule); padding:16px 10px; }
+  .figbox svg { display:block; min-width: 520px; width:100%; height:auto; color: var(--muted); }
+  .bx { fill: var(--surface); stroke: currentColor; stroke-width:1.2; }
+  .bx-n { fill: var(--signal-soft); stroke: var(--signal); stroke-width:1.6; }
+  .bx-g { fill:none; stroke:currentColor; stroke-width:1; stroke-dasharray:4 3; }
+  .ar { stroke: currentColor; stroke-width:1.2; fill:none; }
+  .ar-n { stroke: var(--signal); stroke-width:1.6; fill:none; }
+  .t { fill: var(--fg); font-family: var(--sans); font-size:11.5px; }
+  .t-b { fill: var(--fg); font-family: var(--sans); font-size:11.5px; font-weight:600; }
+  .t-n { fill: var(--signal); font-family: var(--sans); font-size:11.5px; font-weight:600; }
+  .t-s { fill: currentColor; font-family: var(--sans); font-size:10px; }
+  figcaption { font-size:13.5px; color: var(--muted); margin-top:10px; }
+  ul.index { list-style:none; margin:10px 0 0; padding:0; }
+  ul.index li { font-size:14.5px; padding:6px 0; border-bottom:1px solid var(--rule); }
+  code { font-family: var(--mono); font-size:13px; background: var(--signal-soft); padding:1px 5px; border-radius:3px; }
+  footer { margin-top:44px; padding-top:16px; border-top:1px solid var(--rule); font-size:12.5px; color:var(--muted); font-family: var(--mono); line-height:1.8; }
+  @media print {
+    body { background:#fff; color:#000; }
+    .wrap { max-width:100%; }
+    a { color:#000; text-decoration: underline; }
+    .figbox { border-color:#999; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">Cumulative progress report</div>
+  <h1>Closed-Loop Due Diligence</h1>
+  <p class="sub">Cumulative progress as of November 26, 2026. What has actually run, what the numbers mean, and what is still open before the December 11 presentation.</p>
+  <div class="byline">Yue Yu &middot; Yi-Nung Hwang &nbsp;|&nbsp; Columbia IEOR 4511E &nbsp;|&nbsp; Golden Gate Ventures</div>
+</header>
+
+<section>
+<h2>What this is</h2>
+<p>The original proposal described an AI-assisted investment committee rather than an AI that invests: a mandate is set, a lead agent decides what most needs checking, specialists return evidence instead of verdicts, a pro/con debate finds the weak points, and a gap found during debate sends the system back to research before a final <strong>Invest / Pass / More Diligence</strong> call. The work has progressed from that proposal to an executable, bounded research prototype. This update separates observed results from the questions still requiring evidence.</p>
+
+</section>
+
+<section>
+<h2>The intended closed loop</h2>
+<figure>
+<div class="figbox">
+<svg viewBox="0 0 520 680" role="img" aria-label="Workflow diagram">
+<title>Closed-loop due diligence workflow</title>
+<desc>A mandate leads to a lead agent that selects specialists, who return evidence into a shared fact base. A pro/con debate with critique and refinement follows. An evidence-support and gap-triage step either routes back to new research or proceeds to a thesis and final Invest, Pass, or More Diligence recommendation, preserving More Diligence when evidence is insufficient. A historical feature cutoff of 2024-04-04T23:59:59Z applies to all admitted evidence.</desc>
+
+<rect class="bx-n" x="160" y="8" width="200" height="34" rx="3"/>
+<text class="t-n" x="260" y="30" text-anchor="middle">Mandate</text>
+<path class="ar" d="M260 42 L260 64"/><polygon fill="currentColor" points="260,66 256,58 264,58"/>
+
+<rect class="bx-n" x="140" y="68" width="240" height="40" rx="3"/>
+<text class="t-n" x="260" y="92" text-anchor="middle">Lead agent selects specialists</text>
+<path class="ar" d="M190 108 C 160 122, 140 126, 128 138"/>
+<path class="ar" d="M330 108 C 360 122, 380 126, 392 138"/>
+
+<rect class="bx" x="80" y="140" width="110" height="30" rx="3"/>
+<text class="t" x="135" y="159" text-anchor="middle">Specialist</text>
+<rect class="bx" x="310" y="140" width="110" height="30" rx="3"/>
+<text class="t" x="365" y="159" text-anchor="middle">Specialist</text>
+<text class="t-s" x="260" y="186" text-anchor="middle">source discovery, never an investment verdict</text>
+
+<path class="ar" d="M135 170 C 150 202, 220 208, 240 214"/>
+<path class="ar" d="M365 170 C 345 202, 300 208, 280 214"/>
+<polygon fill="currentColor" points="260,216 256,208 264,208"/>
+
+<rect class="bx-n" x="130" y="218" width="260" height="36" rx="3"/>
+<text class="t-n" x="260" y="236" text-anchor="middle">Independent identity / date / source gate</text>
+<text class="t-s" x="260" y="248" text-anchor="middle">cutoff 2024-04-04T23:59:59Z</text>
+<path class="ar" d="M260 254 L260 276"/><polygon fill="currentColor" points="260,278 256,270 264,270"/>
+
+<rect class="bx" x="160" y="280" width="200" height="30" rx="3"/>
+<text class="t-b" x="260" y="299" text-anchor="middle">Shared evidence base</text>
+<path class="ar" d="M260 310 L260 332"/><polygon fill="currentColor" points="260,334 256,326 264,326"/>
+
+<rect class="bx-g" x="86" y="336" width="348" height="112" rx="4"/>
+<text class="t-s" x="100" y="352">DEBATE</text>
+<rect class="bx" x="128" y="360" width="104" height="28" rx="3"/>
+<text class="t" x="180" y="378" text-anchor="middle">Pro</text>
+<rect class="bx" x="288" y="360" width="104" height="28" rx="3"/>
+<text class="t" x="340" y="378" text-anchor="middle">Con</text>
+<path class="ar" d="M180 388 L180 404"/>
+<path class="ar" d="M340 388 L340 404"/>
+<rect class="bx" x="128" y="406" width="104" height="28" rx="3"/>
+<text class="t" x="180" y="424" text-anchor="middle">Critique + refine</text>
+<rect class="bx" x="288" y="406" width="104" height="28" rx="3"/>
+<text class="t" x="340" y="424" text-anchor="middle">Critique + refine</text>
+
+<path class="ar" d="M180 434 C 200 448, 230 450, 248 452"/>
+<path class="ar" d="M340 434 C 320 448, 290 450, 272 452"/>
+<polygon fill="currentColor" points="260,454 252,450 260,446"/>
+<text class="t-s" x="260" y="466" text-anchor="middle">evaluator (argument quality, not truth)</text>
+
+<path class="ar-n" d="M260 472 L260 492"/><polygon fill="var(--signal)" points="260,494 256,486 264,486"/>
+<polygon class="bx-n" points="260,496 356,528 260,560 164,528"/>
+<text class="t-n" x="260" y="524" text-anchor="middle">Evidence support</text>
+<text class="t-n" x="260" y="536" text-anchor="middle">&amp; gap triage</text>
+
+<path class="ar-n" d="M164 528 L30 528 L30 92 L138 92"/>
+<polygon fill="var(--signal)" points="140,92 132,88 132,96"/>
+<text class="t-n" x="17" y="300" text-anchor="start" transform="rotate(-90 17 300)">gap -&gt; new research</text>
+
+<text class="t-n" x="272" y="572" text-anchor="start">sufficient</text>
+<path class="ar" d="M260 560 L260 582"/><polygon fill="currentColor" points="260,584 256,576 264,576"/>
+
+<rect class="bx" x="125" y="588" width="270" height="46" rx="3"/>
+<text class="t-b" x="260" y="607" text-anchor="middle">Thesis + source-bound claim review</text>
+<text class="t-s" x="260" y="624" text-anchor="middle">Invest · Pass · More Diligence</text>
+<path class="ar" d="M260 634 L260 654"/><polygon fill="currentColor" points="260,656 256,648 264,648"/>
+<text class="t-s" x="260" y="674" text-anchor="middle">Partner retains decision authority</text>
+</svg>
+</div>
+<figcaption>Intended control flow, including conditional thesis and review paths. Highlighted boxes extend the reused debate stages. Observed research runs requested more diligence; they did not release an investment recommendation.</figcaption>
+</figure>
+</section>
+
+<section>
+<h2>What is reused, what is original</h2>
+<p>The debate stage bodies (pro/con argument, critique, refinement, argument-quality evaluation) are reused from the DIALECTIC skill described in the original proposal, not rewritten from scratch. The evidence-support instruction used by the diagnostics below is adapted from Ragas' faithfulness/NLI prompting through the project's existing bounded model binding; this project does not reproduce the Ragas package or certify investment outcomes with it. The idea of a lead agent delegating to specialists is inspired by the Virtual Biotech's chief-scientist pattern — an inspiration, not a claim that Virtual Biotech's system is installed or benchmarked here. The team's bounded historical-website research backend was integrated with the newer specialist and thesis runtime. Source adapters, evidence boundaries, execution controls, and reproducibility checks were developed around that integration.</p>
+<p>Three roles serve different purposes and should not be conflated: the <strong>lead/specialist research agents</strong> gather and cite evidence; the <strong>argument evaluator</strong> scores debate quality on structural criteria, not factual truth; the <strong>source-support diagnostics</strong> (described below) check whether a response is grounded in its supplied context. None of the three is a predictor of investment success.</p>
+</section>
+
+<section>
+<h2>Cohort and outcome labels (Y)</h2>
+<p>The 240-company W24 cohort and its raw outcome dimensions were frozen before this week's workflow engineering and were not touched by it. No fresh label gains are claimed this week, and no UNKNOWN value was converted to a negative.</p>
+<div class="table-scroll" role="region" aria-label="Cohort evidence coverage" tabindex="0"><table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Cohort size</td><td>240</td></tr>
+<tr><td>Composite outcome observed</td><td>164 / 240 (68.33%)</td></tr>
+<tr><td>Financing outcome observed</td><td>153 / 240 (63.75%)</td></tr>
+<tr><td>Composite UNKNOWN</td><td>76</td></tr>
+<tr><td>Verified financing negatives</td><td>0</td></tr>
+</table></div>
+<p>These are counts of <em>observed result evidence</em>, not accuracy or success rates. "Composite observed" can include either a financing event or a verified shutdown; the two are tracked separately and must not be summed as "success."</p>
+</section>
+
+<section>
+<h2>Actually executed research-cycle runs</h2>
+<p>Two prior live workflow executions remain the project's reference for what the full loop looks like end to end. Both are retained as runs, not as hypothetical illustrations, and neither is a positive investment recommendation.</p>
+<div class="note">
+<div class="lbl">Complete bounded research cycle</div>
+23 model CLI attempts, 431.369 seconds, 1 historical repository context admitted, and 14 unresolved questions recorded. Research, debate, critique, refinement, argument-support checks, gap triage, and a follow-up search all ran. Outcome: <strong>MORE_DILIGENCE</strong>, ending with <code>NO_NEW_EVIDENCE</code> after the bounded follow-up found no additional admissible evidence.
+</div>
+<div class="note">
+<div class="lbl">Sparse-source command</div>
+2 CLI attempts, 35.134 seconds, 0 facts admitted. Outcome: <strong>MORE_DILIGENCE</strong>, stop reason <code>NO_ADMITTED_FACTS</code>.
+</div>
+<p>A separate fixed-evidence comparison also completed: the committee and a single analyst received the same admitted publisher evidence and both requested more diligence. They used 11 and 1 model CLI attempts, respectively. Because resource use differed and no independent quality reference was supplied, this development comparison does not establish superiority.</p>
+</section>
+
+<section>
+<h2>Independent reference diagnostics (this week)</h2>
+<p>These are source-grounding diagnostics on public question-answering data, used to sanity-check the evidence-support instruction's behavior under controlled conditions. They are not investment-accuracy tests, and these are small slices of the public RAGTruth benchmark, which may already be represented in model pretraining. Agreement on these cases does not establish general accuracy or company-diligence quality.</p>
+<div class="table-scroll wide" role="region" aria-label="Reference diagnostic results" tabindex="0"><table>
+<tr><th>Run</th><th>Cases</th><th>Time</th><th>Result</th></tr>
+<tr><td>Initial exploratory arm</td><td>6</td><td>78.354s (6 CLI attempts)</td><td>6/6 matched; separate, not pooled into later runs</td></tr>
+<tr><td>Decomposed statement-level run</td><td>6 cases planned</td><td>240.094s, 18 CLI attempts</td><td>5 completed, 1 failed at process cap; <code>INCOMPLETE_NO_GROUP_AGREEMENT</code>, no group score; cap not raised</td></tr>
+<tr><td>Source-ID/context-hash-disjoint follow-up</td><td>12</td><td>137.093s, 12 CLI attempts</td><td>11/12 agreement (5 TP, 6 TN, 0 FP, 1 FN)</td></tr>
+</table></div>
+<p>The 12-case follow-up used source IDs and exact context hashes fully disjoint from the earlier 6 cases, selected and frozen before predictions, with labels read only after the prediction process exited. There was no retry, relabeling, or prompt tuning. The sole disagreement (case <code>ragtruth-response-12330</code>) is a literal-pronoun/generalization scope dispute: the human reference accepted a generalization across gendered wording that the model's evidence-support check rejected as insufficiently literal. That disagreement is retained as a diagnostic note, not resolved by relabeling. The initial 6-case exploration and the 12-case follow-up are reported separately and are never pooled into a combined "17/18" or similar statistic. The earlier 6-case decomposed (statement-level) run remains incomplete at 5 of 6 cases completed, 1 failed, with no group score, and the local CLI process cap was not raised to force completion.</p>
+</section>
+
+<section>
+<h2>Engineering validation</h2>
+<p>The 1,108-check result below refers to the pinned private development snapshot. This shared review branch preserves the team's legacy data modules and provides a separate workflow-only verification profile; it does not bundle private provider inputs or claim to rerun those legacy data suites.</p>
+<p>Automated test suites verify that the control logic behaves as specified (budgets, timeouts, stop reasons, isolation boundaries) — they confirm behavior, not research or investment quality.</p>
+<div class="table-scroll wide" role="region" aria-label="Engineering validation" tabindex="0"><table>
+<tr><th>Snapshot</th><th>Tests</th><th>Result</th></tr>
+<tr><td>Private development readiness</td><td>1,108</td><td>1,105 passed, 3 skipped, all six stages passed; source CI passed on both checks</td></tr>
+<tr><td>Clean tracked-export reproduction</td><td>1,071</td><td>Same result reproduced offline in 12.737s from a tracked export (commit ee5c762), on the same Windows/Python 3.13 host — not an OS or dependency isolation test, and distinct from the latest 1,108-test count above</td></tr>
+</table></div>
+<p>The shared team profile separately passed 878 runtime checks (877 passed, 1 skipped) and all five workflow, snapshot, synthetic, preflight and integration stages, without private provider inputs.</p>
+</section>
+
+<section>
+<h2>Budget, isolation, and availability work (this week)</h2>
+<p>This week's engineering fixed empty-screen gaps, added neutral model-facing metadata, extended scoped npm package-name handling, and shared budget/hash bookkeeping across verification paths. Two small, deliberately bounded network/process checks were run as part of this; both are kept short here because neither establishes live source availability.</p>
+<div class="note">
+<div class="lbl">Scoped registry acquisition probe</div>
+1 HTTP attempt dispatched, 0 completed responses, parent process stopped at 60.481s against a 45-second cooperative deadline and 60-second outer ceiling. Result: availability <strong>UNKNOWN</strong> — not success, not denial. No retry, no alternate package.
+</div>
+<div class="note">
+<div class="lbl">Per-GET child-process termination</div>
+A controlled sleeping child process (standing in for a real network worker, zero HTTP/model calls) was configured with a 0.25-second wait and observed to terminate with cleanup in 0.768 seconds. This demonstrates the project's own process-termination control path, not live registry availability or OS-level sandboxing.
+</div>
+</section>
+
+<section>
+<h2>Automation scope and limits</h2>
+<p>What is proven is bounded, on-demand CLI automation: an active orchestrator starts a local CLI worker with explicit budgets, deadlines, and stop conditions, and the worker runs to completion or a recorded failure. Unattended mutual wake-up or quota-reset recovery has not been demonstrated. Muse has no verified external wake-up interface in the tested environment. This is not a cloud production system and not an always-running daemon. No new external services or API keys were provisioned, and no model training was conducted. A lightweight local token-output contract guard has been implemented and tested — no detector weights are installed and no such detector has been executed.</p>
+</section>
+
+<section>
+<h2>What is next</h2>
+<p>The open work before any performance claim can be made: broaden substantive historical evidence beyond the single-repository cases exercised so far, run independent per-company claim evaluation, and compare against a defined baseline under equal resources — these remain open evaluation milestones and do not by themselves justify model training. A user presentation is scheduled for December 11, 2026; slides have not been created as part of this report. The project is not finished, and this report should not be read as a completion claim.</p>
+</section>
+
+<section>
+<h2>Evidence index</h2>
+<p>Direct links to the verified sources behind this report, on the shared review branch <code>rose/workflow-progress-20261126</code>:</p>
+<p>These receipts are included in the shared team review branch.</p>
+<ul class="index">
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/docs/workflow_automation_20261121/PROGRESS.md">PROGRESS.md</a> — dated verified progress log</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/docs/workflow_automation_20261121/reference_diagnostics.md">reference_diagnostics.md</a> — RAGTruth/SNLI diagnostic methodology and results</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/full_discovery_workflow_regression_result_20261125.json">Full research-cycle receipt</a> — executed research, debate, support checks and follow-up</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/verified_publisher_pair_result_20261126.json">Fixed-evidence baseline comparison</a> — completed unequal-resource development comparison</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/followup_reference_result_20261126.json">followup_reference_result_20261126.json</a> — 12-case disjoint reference result</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/registry_isolation_validation_20261126.json">registry_isolation_validation_20261126.json</a> — per-GET child-process isolation receipt</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/clean_export_reproduction_20261126.json">clean_export_reproduction_20261126.json</a> — clean tracked-export offline reproduction</li>
+<li><a href="https://github.com/yh0728-hhe/4511-industry-project/blob/rose/workflow-progress-20261126/data/metadata/workflow_20261121/scoped_registry_probe_result_20261126.json">scoped_registry_probe_result_20261126.json</a> — scoped registry availability probe (UNKNOWN)</li>
+</ul>
+</section>
+
+<footer>
+Measured results: 240-company cohort frozen; 164/240 composite and 153/240 financing observed, 0 verified negatives; 11/12 agreement on a disjoint 12-case reference follow-up; 1,108 engineering tests (1,105 passed, 3 skipped); a 23-call and a 2-call live research cycle, both returning More Diligence without an accepted investment recommendation.<br>
+Open quality questions: no independent company-evidence gold set; no baseline comparison under equal resources; live source availability unresolved in the scoped registry probe; no claim of unattended automation, trained model, or investment accuracy.
+<p style="margin-top:14px">AI-assisted draft: Claude Code. Evidence and layout review: Codex.</p>
+</footer>
+
+</div>
+</body>
+</html>

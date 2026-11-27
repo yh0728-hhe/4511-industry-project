@@ -1,0 +1,19 @@
+{
+  "status": "EVIDENCE_GAP_TRIAGE_OFFLINE_INTEGRATED",
+  "claude_contribution": "Created triage role adapter, wrapper hook and9tests before180.496s timeout",
+  "codex_contribution": "Fixed invalid test assumption; added company/time context guards, incremental row bound, failure trace, output schema guard and6wrapper regressions; wired discovery+package optional-support paths",
+  "reuse": "Existing EvidenceReviewOutput/NativeBinding/EVIDENCE_REVIEW_INSTRUCTION; no new framework or fact source",
+  "tests": {
+    "triage": 15,
+    "full_total": 824,
+    "passed": 821,
+    "skipped": 3
+  },
+  "limitations": [
+    "Mocked outputs do not prove semantic classification accuracy",
+    "Triage never verifies facts or certifies investment decisions",
+    "No live triage/lead feedback check yet"
+  ],
+  "Y_changed": false,
+  "training": false
+}

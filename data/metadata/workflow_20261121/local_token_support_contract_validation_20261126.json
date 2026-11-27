@@ -1,0 +1,34 @@
+{
+  "status": "STRUCTURAL_CONTRACT_ONLY_NO_LOCAL_DETECTOR",
+  "date": "2026-11-26",
+  "worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 58.746,
+    "retry": false
+  },
+  "focused_tests": 42,
+  "local_detector_installed": false,
+  "local_detector_executed": false,
+  "Y_changed": false,
+  "training": false,
+  "upstream_source_revision": "dcce161ff7c8a46147cae5f0bda14118bef7a2d6",
+  "source_sha256": {
+    "scripts/experiments/local_token_support_contract.py": "df96e5c77cad8f7805396f9fad8e7daf813fc806d5f6cfabce5453191618b859",
+    "tests/test_local_token_support_contract.py": "1e36d60e08325655aa72fd78c2b6027d110d28d635da670aa088670fb0529c08",
+    "src/workflow_automation/readiness.py": "5d87bef10cb838c93e5f72a7ad202463559f77a134edf5d12e4025f444ac1e56"
+  },
+  "limitations": [
+    "No tokenizer/offset bridge yet",
+    "Model artifact version and license unverified",
+    "No local quality or latency claim",
+    "Frozen incomplete reference run is not retried"
+  ],
+  "full_readiness": {
+    "tests": 1065,
+    "passed": 1062,
+    "skipped": 3,
+    "stages_passed": 6,
+    "run_id": "local-token-contract-20261126-001"
+  }
+}

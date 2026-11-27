@@ -1,0 +1,50 @@
+{
+  "version": "retrospective-extraction-protocol-draft-v1",
+  "status": "DESIGN_READY_PACKETS_NOT_FROZEN_RUN_NOT_STARTED",
+  "task": "Extract company claims with citations and explicit abstention from frozen supplied evidence",
+  "not_task": [
+    "Predict investment success",
+    "Treat composite coverage as target",
+    "Training or fine-tuning"
+  ],
+  "arms": {
+    "baseline": "Single prompted extraction on supplied packet",
+    "guarded": "Explicit identity/date/provenance gate plus extraction, citation review and abstention"
+  },
+  "fairness": {
+    "same_packet_hash": true,
+    "same_company_case_ids": true,
+    "same_model_version_required": true,
+    "same_total_input_and_output_budget_ceiling_required": true,
+    "same_external_tool_permissions": "no browsing in frozen-packet comparison",
+    "order": "alternate arm order across fixed case order; record actual execution order",
+    "no_optional_stopping": "report every fixed case including errors, no cherry-picking",
+    "pilot_scope": "diagnostic, not representative; no population accuracy claim",
+    "shared_task_instructions": "Both arms explicitly allowed and instructed to return UNKNOWN/abstain when evidence is insufficient; identical factual task, output schema and scoring rubric. Only the guard/review mechanism differs."
+  },
+  "separate_gold": {
+    "model_visible": "packet facts and extraction instructions only, no admissibility labels or gold IDs",
+    "reviewer_only": "adjudicated canonical claim/source pairs; source date and identity support; actual text passages",
+    "freeze_requires": [
+      "packet_sha256",
+      "gold_sha256",
+      "prompt hashes",
+      "model version",
+      "case order",
+      "physical call ceilings and wall deadline",
+      "budget approval if an experiment API is used"
+    ],
+    "mapping": "blinded independent mapping of free text to canonical claim IDs; record unsupported/unmappable claims, not just IDs matching gold",
+    "no_self_grade": "generating model cannot certify its own answer as gold",
+    "second_adjudication": "A second independent blinded adjudicator checks gold and free-text mapping; record pairwise agreement, disagreements and their resolution. If unavailable, report single-rater limitation and do not claim robust comparative superiority."
+  },
+  "metrics": [
+    "structural citation precision and admissible-claim recall with denominators",
+    "blinded passage entailment and identity/date correctness, adjudicated separately",
+    "abstention, excess abstention and failure rates",
+    "elapsed time, actual provider calls/tokens and usage cost or UNKNOWN, not logical calls as billing"
+  ],
+  "historical_boundary": "Retrospective extraction may assess source handling; cannot claim unchanged pre-cutoff content or run historical investment baseline from edited current pages. Existing historical gate remains HOLD.",
+  "usage": "Design only; this JSON starts no model, scheduler or paid request.",
+  "success_interpretation": "Report observed outcomes and failures; no required positive uplift. Fix defects using a separate dev set, then re-freeze holdout rather than tune on scored cases."
+}

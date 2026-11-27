@@ -1,0 +1,61 @@
+{
+  "verified_utc": "2026-11-24T00:37:37.478392+00:00",
+  "status": "REGISTRY_COLLECTOR_AND_SHARED_BUDGET_OFFLINE_VALIDATED",
+  "implementation": "Claude partial collector draft after timeout; Codex hardening, tests and runner integration",
+  "live_acquisition": {
+    "status": "STOPPED_NO_RETRY",
+    "model_calls": 0,
+    "Y_changed": false,
+    "code_installed_or_executed": false,
+    "reason": "REGISTRY_ARTIFACT_INVALID",
+    "budget": {
+      "used": {
+        "model": 0,
+        "search": 2
+      },
+      "caps": {
+        "model": 0,
+        "search": 2
+      },
+      "active": 0
+    }
+  },
+  "captured_real_response_replay": {
+    "status": "AUTOMATED_SELECTION_AND_VERIFICATION_PASSED_ON_CAPTURED_REAL_RESPONSES",
+    "replay_not_live_http": true,
+    "network_calls": 0,
+    "model_calls": 0,
+    "transport_attempts": 2,
+    "budget": {
+      "used": {
+        "model": 0,
+        "search": 2
+      },
+      "caps": {
+        "model": 0,
+        "search": 2
+      },
+      "active": 0
+    },
+    "selected_version": "3.0.6",
+    "artifact_bytes": 419690,
+    "mutable_latest_description_used_as_evidence": false,
+    "Y_changed": false
+  },
+  "offline_tests": {
+    "total": 638,
+    "passed": 635,
+    "skipped": 3
+  },
+  "collector_tests": 16,
+  "package_runner_tests": 13,
+  "new_company_model_calls": 0,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Lantern artifact rejected; exact internal verifier failure not established and no source-admission claim made.",
+    "Million success is offline replay of previously captured real responses, not a fresh network success.",
+    "Registry metadata identity/ownership and publisher claims are not independent business truth.",
+    "Shared HTTP reservation counts are conservative transport attempts, not proof that fixture requests contacted a network."
+  ]
+}
