@@ -1,4 +1,6 @@
-# Current verified progress — 2026-11-26
+# Current verified progress — 2026-11-27
+
+November27 team update: equal-allowance API and unscored company-review exporter implemented; 22new regression tests. Shared profile900tests(899pass,1skip), all5stages. Private full profile1,130tests(1,127pass,3skip), all6stages; these are distinct scopes. No new live comparison or human reference labels; equal actual tokens/cost remain unverified. NoY/training changes. Details: docs/updates/2026-11-27-workflow-comparison/README.md. Prior November26 milestones follow.
 
 Source-ID-disjoint12case execution completed:12actualmodelCLI attempts,137.093seconds,0sourceHTTP. After child exit, offline grader found11of12agreement with reference labels (5TP6TN0FP1FN). All12retained; frozen hashes and12saved inputs audited. The one disagreement is literal pronoun/generalization scope, retained without relabelling, prompt changes or retry. Not general accuracy, company-quality validation or superiority; no pooling with prior6. NoY/training/main-workflow change. See followup_reference_result_20261126.json.
 

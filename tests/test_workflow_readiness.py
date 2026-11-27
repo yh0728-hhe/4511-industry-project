@@ -148,6 +148,8 @@ class ReadinessTests(unittest.TestCase):
     def test_real_assessment_keeps_unknown_separate_and_blocks_training(self):
         self.assessment_patch.stop()
         result=w.training_assessment()
+        self.assertIn('No independently adjudicated company-quality reference set or matched-budget quality result.',result['blockers'])
+        self.assertNotIn('No end-to-end real-run evidence for this newly integrated backend.',result['blockers'])
         self.assertEqual(result['cohort'], 240)
         self.assertEqual(result['verified_financing_negatives'], 0)
         self.assertFalse(result['supervised_training_ready'])

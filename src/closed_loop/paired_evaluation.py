@@ -118,18 +118,7 @@ def _run_pair_core(*,request,facts,plan_extra,output_dir,backend_factory,arm_ord
         start=time.monotonic();committee=None
         try:
             budget.check()
-            if arm=='single_analyst':
-                raw=SingleAnalystBaseline(backend,budget).assess(view)
-                (root/'single_analyst_raw.json').write_text(json.dumps(raw,indent=2)+'\n',encoding='utf-8')
-                proposal={key:raw[key] for key in ('decision','rationale','essential_gaps','thesis','admitted_fact_ids')}
-            else:
-                committee=NativeDialecticCommittee(backend,budget,config)
-                value=committee.evaluate(view)
-                thesis=None
-                if value.decision.value!='MORE_DILIGENCE' and not value.essential_gaps:
-                    thesis=asdict(ThesisSynthesizer(backend,budget).synthesize(request,RunContext(store=store,argument_revision=1),value))
-                proposal=dict(decision=value.decision.value,rationale=value.rationale,
-                    essential_gaps=list(value.essential_gaps),thesis=thesis,admitted_fact_ids=list(admitted_fact_ids))
+            proposal,committee=_assess_arm(arm,backend,budget,view,request,store,config,root,admitted_fact_ids)
             acceptance=gate_analysis(proposal,plan['fingerprint']+':'+arm)
             entry=dict(arm=arm,status='EXECUTED_REVIEW_PENDING',proposal=proposal,acceptance=acceptance)
         except BudgetStopped as exc:
@@ -152,3 +141,25 @@ def _run_pair_core(*,request,facts,plan_extra,output_dir,backend_factory,arm_ord
         arm_order=list(arm_order),fairness=plan['fairness'],stop_reason=budget.stop_reason if budget.stopped else None)
     (root/'result.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
     return result
+
+
+def _assess_arm(arm,backend,budget,view,request,store,config,root,admitted_fact_ids):
+    """Shared assessment path; caller owns allocation and failure policy."""
+    committee=None
+    if arm=='single_analyst':
+        raw=SingleAnalystBaseline(backend,budget).assess(view)
+        (root/'single_analyst_raw.json').write_text(json.dumps(raw,indent=2)+'\n',encoding='utf-8')
+        proposal={key:raw[key] for key in ('decision','rationale','essential_gaps','thesis','admitted_fact_ids')}
+    else:
+        committee=NativeDialecticCommittee(backend,budget,config)
+        try:
+            value=committee.evaluate(view)
+            thesis=None
+            if value.decision.value!='MORE_DILIGENCE' and not value.essential_gaps:
+                thesis=asdict(ThesisSynthesizer(backend,budget).synthesize(request,RunContext(store=store,argument_revision=1),value))
+            proposal=dict(decision=value.decision.value,rationale=value.rationale,
+                essential_gaps=list(value.essential_gaps),thesis=thesis,admitted_fact_ids=list(admitted_fact_ids))
+        finally:
+            # Preserve partial trace even if evaluate fails before returning.
+            (root/'committee_draft_trace.json').write_text(json.dumps(committee.last_trace,indent=2)+'\n',encoding='utf-8')
+    return proposal,committee

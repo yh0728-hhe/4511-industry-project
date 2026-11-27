@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-27",
+  "profile": "SHARED_WORKFLOW_ONLY",
+  "private_source_commit": "356a57250817862e2226be0d0f855e000aeba549",
+  "status": "PASSED",
+  "runtime_tests": 900,
+  "passed": 899,
+  "skipped": 1,
+  "all_five_stages_passed": true,
+  "steps": [
+    {
+      "name": "runtime_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 9.789
+    },
+    {
+      "name": "snapshot_integrity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.054
+    },
+    {
+      "name": "synthetic_loop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08
+    },
+    {
+      "name": "plan_only_preflight",
+      "exit_code": 0,
+      "elapsed_seconds": 0.199
+    },
+    {
+      "name": "injected_research_workflow",
+      "exit_code": 0,
+      "elapsed_seconds": 0.233
+    }
+  ],
+  "model_calls_requested": 0,
+  "source_http_requested": 0,
+  "private_funding_suites_executed": false,
+  "Y_changed": false,
+  "training_run": false,
+  "private_full_profile": {
+    "total": 1130,
+    "passed": 1127,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "source_ci": "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/46068037562"
+  },
+  "prior_shared_runtime_tests": 878,
+  "new_regressions": 22,
+  "comparison_live_model_run": false,
+  "independent_company_review_completed": false,
+  "raw_provider_payloads_or_model_text_shared": false
+}

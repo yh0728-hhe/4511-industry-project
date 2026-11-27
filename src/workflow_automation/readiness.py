@@ -37,6 +37,7 @@ def plan(root=ROOT):
     paths = list((root / 'src').rglob('*.py'))
     paths += list((root / 'tests').glob('test_*.py'))
     paths += [root / name for name in (
+        'scripts/experiments/prepare_company_review.py',
         'scripts/experiments/ragtruth_reference_prepare_20261126.py',
         'scripts/experiments/ragtruth_reference_predict_20261126.py',
         'scripts/experiments/ragtruth_reference_grade_20261126.py',
@@ -83,7 +84,7 @@ def training_assessment(root=ROOT):
                 blockers=['Success target and source-specific windows need team/sponsor agreement.',
                           'No approved two-class outcome dataset or historical feature manifest.',
                           'No frozen holdout or leakage-reviewed evaluation protocol.',
-                          'No end-to-end real-run evidence for this newly integrated backend.'],
+                          'No independently adjudicated company-quality reference set or matched-budget quality result.'],
                 next_step='Validate the retrieval/decision baseline before considering training.')
 
 
