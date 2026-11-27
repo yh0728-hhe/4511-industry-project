@@ -39,3 +39,25 @@ MORE_DILIGENCE. Cache counters remain separately recorded. These figures are
 not invoices, verified subscription debit, visible-text length or quality scores.
 No model was rerun for this audit. See
 `data/metadata/workflow_20261121/shared_usage_audit_validation_20261127.json`.
+
+## Independent archive source feasibility
+
+A new identity-only archive probe found two pre-cutoff AgentHub homepage capture
+pointers in Common Crawl (February23 and March2 2024). They are index records,
+not source bodies. The Agentic Labs index request returned502, and the separate
+single AgentHub WARC-range request timed out. No request was retried, no body
+was admitted and no financing/status inference was made. A current PyPI package
+lead was also held because its displayed releases were all after the cutoff.
+
+The pure offline index planner validates URL, date, digest syntax, safe archive
+filename and byte-range metadata, and cannot create source proof. Fourteen new
+regressions and cached real-index replay passed. It is not enabled in the
+default workflow. The actual Claude coding task returned no files or verdict
+before its180.927second timeout; Codex completed implementation and testing.
+
+Latest shared profile:921tests,920passed,1skipped, all five stages. Latest private
+full profile:1,151tests,1,148passed,3skipped, all six stages. These supersede the
+earlier validation counts above and remain different scopes. No X/Y labels,
+training, investment-quality claims or default source policy changed. See
+[archive feasibility details](../../workflow_automation_20261121/commoncrawl_feasibility.md)
+and `data/metadata/workflow_20261121/shared_commoncrawl_validation_20261127.json`.

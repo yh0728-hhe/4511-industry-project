@@ -1,0 +1,16 @@
+import json,sys,urllib.request,urllib.error,base64,hashlib
+p=json.load(sys.stdin);url=p['url']
+if not url.startswith('https://data.commoncrawl.org/crawl-data/CC-MAIN-2024-10/segments/'):raise ValueError('FROZEN_HOST_PATH_ONLY')
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+ def redirect_request(self,*args,**kwargs):return None
+request=urllib.request.Request(url,headers={'User-Agent':'4511HistoricalSourceProbe/0.1','Range':p['range'],'Accept-Encoding':'identity'})
+print(json.dumps({'event':'HTTP_INTENT','url':url,'range':p['range']}),flush=True)
+try:
+ with urllib.request.build_opener(NoRedirect()).open(request,timeout=8) as response:
+  raw=response.read(p['max_bytes']+1)
+  value=dict(event='HTTP_RESULT',http_status=response.status,url=response.url,
+    content_range=response.headers.get('Content-Range'),content_length=response.headers.get('Content-Length'),
+    body_sha256=hashlib.sha256(raw).hexdigest(),body_bytes=len(raw),body_b64=base64.b64encode(raw).decode())
+except urllib.error.HTTPError as exc:value=dict(event='HTTP_RESULT',http_status=exc.code,error_type=type(exc).__name__)
+except Exception as exc:value=dict(event='HTTP_FAILED',error_type=type(exc).__name__)
+print(json.dumps(value),flush=True)

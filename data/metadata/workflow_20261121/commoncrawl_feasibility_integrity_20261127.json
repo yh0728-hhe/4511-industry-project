@@ -1,0 +1,15 @@
+{
+  "status": "LOCAL_RECEIPT_CHAIN_AND_SELECTION_VERIFIED",
+  "source_request_attempts": 3,
+  "index_queries": 2,
+  "warc_range_attempts": 1,
+  "admitted_facts": 0,
+  "research_model_cli_attempts": 0,
+  "original_identity_hash_verified": true,
+  "parent_protocol_hashes_verified": true,
+  "candidate_selection": "latest eligible exact homepage pointer from frozen first selected company",
+  "raw_index_hash_verified": true,
+  "body_verification_completed": false,
+  "Y_changed": false,
+  "training": false
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-27",
+  "status": "EXISTING_LOCAL_SEED_PACKETS_NOT_RECLASSIFIED_AS_HISTORICAL_PROOF",
+  "source_file": "data/metadata/pilot_20/pilot_20_local_seed_packets.json",
+  "source_sha256": "aaa28b3e3915f6a61f1ca5d45c255d33681c4afd556833000c4c074c51f90675",
+  "packet_count": 20,
+  "packet_status_counts": {
+    "PENDING": 20
+  },
+  "evidence_items": 20,
+  "non_null_dates": {
+    "publication_date": 0,
+    "capture_date": 0,
+    "availability_date": 0
+  },
+  "finding": "Twenty local observation seeds remain PENDING with null evidence dates; spreadsheet snapshot labels are not externally verified capture/publication dates.",
+  "bounded_legacy_code_observation": "The inspected older snapshot_text helper returns decoded text/status but does not expose final replay URL, Memento date, response headers or raw response bytes for the current verifier.",
+  "legacy_archive_totals_revalidated": false,
+  "raw_original_archival_bundle_located_in_inspected_roots": false,
+  "limitations": "A bounded local inspection does not prove files are absent elsewhere or invalidate the earlier historical archive counts. No old network probe or packet builder was rerun.",
+  "admitted_facts": 0,
+  "new_model_calls": 0,
+  "new_source_http": 0,
+  "Y_changed": false
+}

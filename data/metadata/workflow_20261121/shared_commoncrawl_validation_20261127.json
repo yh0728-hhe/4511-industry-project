@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-27",
+  "status": "PASSED",
+  "profile": "SHARED_WORKFLOW_ONLY",
+  "runtime_tests": 921,
+  "passed": 920,
+  "skipped": 1,
+  "all_five_stages_passed": true,
+  "steps": [
+    {
+      "name": "runtime_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 9.602
+    },
+    {
+      "name": "snapshot_integrity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.049
+    },
+    {
+      "name": "synthetic_loop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.075
+    },
+    {
+      "name": "plan_only_preflight",
+      "exit_code": 0,
+      "elapsed_seconds": 0.158
+    },
+    {
+      "name": "injected_research_workflow",
+      "exit_code": 0,
+      "elapsed_seconds": 0.293
+    }
+  ],
+  "new_offline_planner_tests": 14,
+  "private_full_profile": {
+    "total_tests": 1151,
+    "passed": 1148,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "source_commit": "54eeb62da6ad45b276a08b48f3bd42dcd08c93eb",
+    "source_ci_run": 46072738970
+  },
+  "validation_model_calls_requested": 0,
+  "validation_source_http_requested": 0,
+  "actual_feasibility_source_attempts": {
+    "index": 2,
+    "warc_range": 1
+  },
+  "historical_capture_pointers_found": 2,
+  "readable_bodies_admitted": 0,
+  "company_research_model_cli_calls": 0,
+  "claude_coding_attempts": 1,
+  "coding_outcome": "180.927second timeout, no files/verdict; Codex implemented parser and tests.",
+  "default_workflow_changed": false,
+  "Y_changed": false,
+  "training": false,
+  "main_merged": false,
+  "raw_archive_bodies_and_model_prompts_shared": false
+}

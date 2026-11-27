@@ -1,0 +1,11 @@
+{
+  "status": "UNKNOWN_TRANSPORT_TIMEOUT_NO_RETRY",
+  "protocol_id": "COMMONCRAWL-RECORD-BODY-20261127-001",
+  "protocol_sha256": "6912307496fbf9b688e49c0691b00d635b5688551f7272d82307d3e22148180a",
+  "elapsed_seconds": 12.884,
+  "source_request_attempts": 1,
+  "model_cli_attempts": 0,
+  "admitted_facts": 0,
+  "Y_changed": false,
+  "training": false
+}

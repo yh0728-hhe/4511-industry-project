@@ -1,5 +1,7 @@
 # Current verified progress — 2026-11-27
 
+Latest archive checkpoint: CommonCrawl index2pre-cutoff AgentHub capture pointers,0bodyfacts; AgenticLabs502 and singleWARCtimeout retained without retry. Codex pure index planner14new tests plus cached real replay passed; actualClaude coding180.927s timeout returnedno files/verdict. Shared921tests(920pass,1skip),all5stages; privatefull1,151tests(1,148pass,3skip),all6stages. Defaultsourcepolicy/X/Y unchanged. Existing20seed packets remainPENDING withnull dates; no automatic proof promotion. See shared_commoncrawl_validation_20261127.json.
+
 Latest saved-usage audit: all12old CLI envelopes reconcile with recorded usage; committee11calls/output21,266 vs single1call/output1,274, both MORE_DILIGENCE. No new model/source calls or billing/quality claim. Seven further regressions; shared907tests(906pass,1skip), all5stages; privatefull1,137tests(1,134pass,3skip), all6stages. See shared_usage_audit_validation_20261127.json. Earlier checkpoints follow.
 
 November27 team update: equal-allowance API and unscored company-review exporter implemented; 22new regression tests. Shared profile900tests(899pass,1skip), all5stages. Private full profile1,130tests(1,127pass,3skip), all6stages; these are distinct scopes. No new live comparison or human reference labels; equal actual tokens/cost remain unverified. NoY/training changes. Details: docs/updates/2026-11-27-workflow-comparison/README.md. Prior November26 milestones follow.
