@@ -110,3 +110,21 @@ that does not establish global file absence or invalidate the earlier archive
 counts. No old probe was rerun. See `local_seed_reuse_audit_20261127.json`.
 An optional single-record Muse handoff was drafted privately but not dispatched;
 no user action or Muse scheduler is required for the completed offline work.
+
+## Additional finite package-source probe
+
+A separately frozen identity-only diagnostic selected Corefin and Danswer, the
+first two original spreadsheet descriptions containing the open-source marker.
+That description was used for diagnostic selection only, not as verified
+historical content. Lowercase names were explicit package lookup hypotheses,
+not discovered ownership or publication evidence. Model allowance was zero.
+
+The existing isolated registry collector requested Corefin metadata once and
+stopped on REGISTRY_REQUEST_TIMEOUT after15.428seconds. Danswer was not
+attempted after that shared stop. No artifact was downloaded, installed,
+executed or admitted; no package nonexistence, financing or business judgment
+follows. The complete probe lasted15.429seconds and preserved one search
+reservation without refund. No alternate registry or package guess was tried.
+See `identity_package_probe_protocol_20261127.json` and
+`identity_package_probe_result_20261127.json`. The separate browser-only lookup
+results and documentation reads do not have a verified physical request count.

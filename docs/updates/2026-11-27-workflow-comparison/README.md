@@ -61,3 +61,10 @@ earlier validation counts above and remain different scopes. No X/Y labels,
 training, investment-quality claims or default source policy changed. See
 [archive feasibility details](../../workflow_automation_20261121/commoncrawl_feasibility.md)
 and `data/metadata/workflow_20261121/shared_commoncrawl_validation_20261127.json`.
+
+An additional zero-model source diagnostic selected Corefin and Danswer from
+the original open-source description marker without joining Y. The one Corefin
+registry-metadata request timed out; Danswer was not attempted after the shared
+stop. No package was downloaded, installed, executed or admitted. This is a
+source-availability observation, not company or financing evidence. No code
+changed after the921shared/1,151private validation checkpoint.

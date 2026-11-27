@@ -1,0 +1,37 @@
+{
+  "protocol_id": "OPEN-SOURCE-IDENTITY-PACKAGE-PROBE-20261127-001",
+  "protocol_sha256": "f93c5d55017dc210f8c3f4fc3e7fead234e45056a476732037f3af409ed8ade0",
+  "companies": [
+    {
+      "name": "Corefin",
+      "package_hypothesis": "corefin",
+      "status": "STOPPED_NO_RETRY",
+      "reason": "REGISTRY_REQUEST_TIMEOUT",
+      "admitted_facts": 0,
+      "elapsed_seconds": 15.428,
+      "budget": {
+        "used": {
+          "model": 0,
+          "search": 1
+        },
+        "caps": {
+          "model": 0,
+          "search": 2
+        },
+        "active": 0
+      }
+    },
+    {
+      "name": "Danswer",
+      "status": "NOT_ATTEMPTED_AFTER_SHARED_STOP",
+      "reason": "REGISTRY_REQUEST_TIMEOUT"
+    }
+  ],
+  "elapsed_seconds": 15.429,
+  "global_stop_reason": "REGISTRY_REQUEST_TIMEOUT",
+  "model_calls": 0,
+  "source_request_reservations": 1,
+  "package_code_installed_or_executed": false,
+  "Y_changed": false,
+  "training": false
+}
