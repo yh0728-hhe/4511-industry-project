@@ -26,6 +26,11 @@ class RetrievalFailed(RuntimeError):
     pass
 
 
+class ArchiveRestricted(BudgetStopped):
+    """Terminal archive-side 403/429; caller must stop, never retry alternates."""
+    pass
+
+
 def serialized(method):
     @wraps(method)
     def guarded(self,*args,**kwargs):
@@ -107,7 +112,11 @@ class ArchivedWebsiteProvider:
     def __init__(self, request, gateway, budget, client=None, domain_anchors=None,
                  max_requests=8,per_request_timeout=12,max_body_bytes=262144,max_text_chars=6000):
         self.request=request;self.gateway=gateway;self.call_budget=budget
-        self.client=client or ArchiveHTTPClient()
+        if client is None:
+            from .archive_process import IsolatedArchiveHTTPClient
+            self.client=IsolatedArchiveHTTPClient()
+        else:
+            self.client=client
         self.domain_anchors=dict(domain_anchors or {request.company.company_id:request.company.domain})
         for subject,domain in self.domain_anchors.items():CompanySeed(subject,subject,domain)
         if type(max_requests) is not int or max_requests<1:raise ValueError('request cap required')
@@ -148,6 +157,13 @@ class ArchivedWebsiteProvider:
         if len(response.body)>self.max_body_bytes:raise RetrievalFailed('BODY_LIMIT')
         self.attempts.append(dict(url_sha256=digest(url),status='HTTP_'+str(response.status)))
         self._responses[url]=response
+        if response.status in (403,429):
+            # Explicit archive-side restriction, not an ordinary missing capture;
+            # never inferred as company absence and never retried differently.
+            cause='ARCHIVE_RATE_LIMITED' if response.status==429 else 'ARCHIVE_ACCESS_RESTRICTED'
+            self.attempts.append(dict(url_sha256=digest(url),status=cause))
+            self.call_budget.stop(cause)
+            raise ArchiveRestricted(cause)
         return response
 
     def _capture(self,domain,path,exact_timestamp=None):
@@ -245,36 +261,86 @@ class ArchivedWebsiteProvider:
         return candidate
 
     @serialized
+    def verify_discovered_url(self,task,url):
+        """Independently re-verify one caller-supplied discovered URL.
+
+        Unlike ``search``, the target need not already appear as a discovered
+        homepage href: this exists for externally-sourced leads (e.g. managed
+        web discovery) that must still pass the full exact-anchor/CDX/Memento
+        replay chain, never a current-page fetch or inferred publication date.
+        """
+        if task.company_id!=self.request.company.company_id:
+            raise ValueError('task must match run company')
+        subject=task.subject_id or task.company_id
+        domain=self.domain_anchors.get(subject)
+        if domain is None:
+            self.attempts.append(dict(status='SUBJECT_DOMAIN_UNRESOLVED'));return None
+        if not isinstance(url,str) or not url or any(ch.isspace() or ord(ch)<32 for ch in url):
+            self.attempts.append(dict(url_sha256=digest(url if isinstance(url,str) else ''),
+                status='DISCOVERED_URL_REJECTED'));return None
+        try:
+            parsed=urlparse(url)
+            port=parsed.port
+        except ValueError:
+            self.attempts.append(dict(url_sha256=digest(url),status='DISCOVERED_URL_REJECTED'));return None
+        hostname=parsed.hostname
+        if (parsed.scheme not in ('http','https') or parsed.username is not None or
+                parsed.password is not None or port not in (None,443 if parsed.scheme=='https' else 80) or parsed.fragment or
+                hostname is None or hostname.lower()!=domain.lower()):
+            self.attempts.append(dict(url_sha256=digest(url),status='DISCOVERED_URL_REJECTED'));return None
+        path=parsed.path or '/'
+        full=path+('?'+parsed.query if parsed.query else '')
+        if len(full)>512 or any(part in ('.','..') for part in path.split('/')) or '%' in path or path.startswith('//') or ';' in url:
+            self.attempts.append(dict(url_sha256=digest(url),status='DISCOVERED_URL_REJECTED'));return None
+        try:
+            capture=self._capture(domain,full)
+            if capture is None:return None
+            returned=urlparse(capture[2])
+            if returned.hostname != domain or (returned.path or '/') != path or returned.query != parsed.query:
+                self.attempts.append(dict(url_sha256=digest(url),status='DISCOVERED_CAPTURE_URL_MISMATCH'))
+                return None
+            return self._replay(subject,capture)
+        except ArchiveRestricted:
+            # Terminal for this run; caller must stop, never try another URL.
+            return None
+
+    @serialized
     def search(self,task):
         subject=task.subject_id or task.company_id
         domain=self.domain_anchors.get(subject)
         if domain is None:
             self.attempts.append(dict(status='SUBJECT_DOMAIN_UNRESOLVED'));return ()
         found=[]
-        # Bootstrap link discovery from a dated homepage. A discovered href is
-        # not itself proof of its target content; every selected target is re-indexed.
-        if subject not in self._root_candidates:
-            capture=self._capture(domain,'/')
-            self._root_candidates[subject]=self._replay(subject,capture) if capture else None
-        root=self._root_candidates[subject]
-        if root:found.append(root)
-        links=tuple(link for (owner,_),link in self._links.items() if owner==subject and link.path!='/')
-        if task.source_path is not None:
-            if task.source_path not in {link.path for link in links}:
-                self.attempts.append(dict(status='REQUESTED_PATH_NOT_OBSERVED_HISTORICALLY'));return tuple(found)
-            paths=(task.source_path,)
-        else:
-            ranked=rank_links(links,task.role,task.question,limit=1)
-            paths=tuple(link.path for link in ranked)
-            if not paths and task.role in ('team','founder'):paths=('/about','/team')
-        for path in paths:
-            # Do not start an optional CDX+replay pair that cannot fit. Existing
-            # admitted evidence remains available to the committee/review.
-            remaining=self.call_budget.caps['search']-self.call_budget.used['search']
-            if self.max_requests-self._request_count<2 or remaining<2:
-                self.attempts.append(dict(status='OPTIONAL_LOOKUP_SKIPPED_BUDGET'));break
-            capture=self._capture(domain,path)
-            if capture:
-                candidate=self._replay(subject,capture)
-                if candidate:found.append(candidate);break
+        try:
+            # Bootstrap link discovery from a dated homepage. A discovered href is
+            # not itself proof of its target content; every selected target is re-indexed.
+            if subject not in self._root_candidates:
+                capture=self._capture(domain,'/')
+                self._root_candidates[subject]=self._replay(subject,capture) if capture else None
+            root=self._root_candidates[subject]
+            if root:found.append(root)
+            if task.source_path == '/':return tuple(found)
+            links=tuple(link for (owner,_),link in self._links.items() if owner==subject and link.path!='/')
+            if task.source_path is not None:
+                if task.source_path not in {link.path for link in links}:
+                    self.attempts.append(dict(status='REQUESTED_PATH_NOT_OBSERVED_HISTORICALLY'));return tuple(found)
+                paths=(task.source_path,)
+            else:
+                ranked=rank_links(links,task.role,task.question,limit=1)
+                paths=tuple(link.path for link in ranked)
+                if not paths and task.role in ('team','founder'):paths=('/about','/team')
+            for path in paths:
+                # Do not start an optional CDX+replay pair that cannot fit. Existing
+                # admitted evidence remains available to the committee/review.
+                remaining=self.call_budget.caps['search']-self.call_budget.used['search']
+                if self.max_requests-self._request_count<2 or remaining<2:
+                    self.attempts.append(dict(status='OPTIONAL_LOOKUP_SKIPPED_BUDGET'));break
+                capture=self._capture(domain,path)
+                if capture:
+                    candidate=self._replay(subject,capture)
+                    if candidate:found.append(candidate);break
+        except ArchiveRestricted as exc:
+            # Terminal for this run: preserve whatever was already verified
+            # (e.g. the homepage root) instead of discarding it by propagating.
+            self.call_budget.stop(str(exc))
         return tuple(found)

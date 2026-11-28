@@ -1,0 +1,94 @@
+{
+  "observed_utc": "2026-11-23T19:43:54.872925+00:00",
+  "sampling": {
+    "selection": "First three alphabetical original cohort rows with Open in Tags; no outcomes read",
+    "companies": [
+      {
+        "name": "Corefin",
+        "domain": "https://corefin.com"
+      },
+      {
+        "name": "Danswer",
+        "domain": "https://www.danswer.ai/"
+      },
+      {
+        "name": "Hatchet",
+        "domain": "https://hatchet.run"
+      }
+    ],
+    "package_hypotheses": [
+      "corefin",
+      "danswer",
+      "hatchet-sdk"
+    ],
+    "max_metadata_requests": 3,
+    "max_metadata_bytes_each": 5000000,
+    "cutoff": "2024-04-04T23:59:59Z",
+    "purpose": "feasibility only; metadata is not admitted historical body"
+  },
+  "queries": [
+    {
+      "company": {
+        "name": "Corefin",
+        "domain": "https://corefin.com"
+      },
+      "package_hypothesis": "corefin",
+      "status": "HTTP_404",
+      "eligible_wheels": null
+    },
+    {
+      "company": {
+        "name": "Danswer",
+        "domain": "https://www.danswer.ai/"
+      },
+      "package_hypothesis": "danswer",
+      "status": "HTTP_404",
+      "eligible_wheels": null
+    },
+    {
+      "company": {
+        "name": "Hatchet",
+        "domain": "https://hatchet.run"
+      },
+      "package_hypothesis": "hatchet-sdk",
+      "status": "READ",
+      "eligible_wheels": 30
+    }
+  ],
+  "selected_artifact": {
+    "comment_text": "",
+    "core-metadata": {
+      "sha256": "a2b117b044ae2f264fe8691909cbdcad8f40f9f15dffe945dbabed062083bc41"
+    },
+    "digests": {
+      "blake2b_256": "5d44e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec",
+      "md5": "4bd41b9fb125a8c5214098be257f6e46",
+      "sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8"
+    },
+    "downloads": -1,
+    "filename": "hatchet_sdk-0.21.1-py3-none-any.whl",
+    "has_sig": false,
+    "md5_digest": "4bd41b9fb125a8c5214098be257f6e46",
+    "packagetype": "bdist_wheel",
+    "python_version": "py3",
+    "requires_python": "<4.0,>=3.8",
+    "size": 200917,
+    "upload_time": "2024-04-04T16:05:00",
+    "upload_time_iso_8601": "2024-04-04T16:05:00.538145Z",
+    "url": "https://files.pythonhosted.org/packages/5d/44/e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec/hatchet_sdk-0.21.1-py3-none-any.whl",
+    "yanked": false,
+    "yanked_reason": null,
+    "version": "0.21.1"
+  },
+  "artifact_download_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+  "artifact_digest_verified": true,
+  "metadata_body_sha256": "a2b117b044ae2f264fe8691909cbdcad8f40f9f15dffe945dbabed062083bc41",
+  "source_scope": "Hatchet Python SDK existence and official documentation links only; no revenue/traction/financing claims",
+  "identity_link": "https://hatchet.run",
+  "status": "CANDIDATE_PENDING_INDEPENDENT_VERIFIER",
+  "domain_ownership_independently_proven": false,
+  "source_documentation": "https://docs.pypi.org/api/json/",
+  "raw_artifact_committed": false,
+  "Y_read": false,
+  "code_installed_or_executed": false
+}

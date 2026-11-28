@@ -1,0 +1,121 @@
+{
+  "status": "POSTHOC_SUPPORT_AUDIT_INCOMPLETE",
+  "date": "2026-11-26",
+  "protocol": "data/metadata/workflow_20261121/posthoc_argument_support_protocol_20261126.json",
+  "result": {
+    "Y_changed": false,
+    "actual_source_http_requests": 0,
+    "aggregate_accuracy": null,
+    "all_argument_checks_completed": false,
+    "completed_arguments": [
+      {
+        "automatic_score": 0.9166666666666666,
+        "role": "pro",
+        "statement_count": 12,
+        "supported": 11,
+        "tracking_id": "arg_1"
+      }
+    ],
+    "human_gold": false,
+    "invoice": "UNKNOWN",
+    "last_argument_index": 1,
+    "last_stage": "support",
+    "local_cache_gets": 2,
+    "logical_call_budget": {
+      "active": 0,
+      "caps": {
+        "model": 12,
+        "search": 0
+      },
+      "used": {
+        "model": 6,
+        "search": 0
+      }
+    },
+    "managed_network_requests": "UNKNOWN",
+    "model_cli_attempts": 6,
+    "novel_factual_questions": [],
+    "semantic_support_certified": false,
+    "status": "POSTHOC_SUPPORT_AUDIT_STOPPED",
+    "stop_reason": "CLI_PROCESS_TIMEOUT",
+    "total_selected_arguments": 2,
+    "training_run": false
+  },
+  "parent_process": {
+    "exit_code": 0,
+    "elapsed_seconds": 156.781,
+    "retry": false
+  },
+  "partial_second_argument": {
+    "decomposed_statements": 15,
+    "judgments_completed": 8,
+    "score": null
+  },
+  "triage_executed": false,
+  "retry": false,
+  "interpretation": [
+    "Completed argument score is an automatic support diagnostic, not accuracy.",
+    "One rejected pro statement concerns normative maturity-risk advice, not independently established falsehood.",
+    "Pre-traction wording is not present in the source and remains an unsupported premise, even inside normative prose.",
+    "Admitted-record absence must not become a world-wide absence claim.",
+    "No aggregate or second-argument score; no quality superiority claim."
+  ],
+  "timeout_output_bytes": {
+    "stdout": 0,
+    "stderr": 0
+  },
+  "artifact_sha256": {
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\argument_00_calls.json": "35fb5d8d1bf65b965da03061d1aa63cea8dae1efc781bc4c8642b0d8a7ca7556",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\argument_00_trace.json": "982bd36aa47fc87dc27ef875681cad50c3365f1ff3b0636863b44c9a1455edfc",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\argument_01_calls.json": "35fb5d8d1bf65b965da03061d1aa63cea8dae1efc781bc4c8642b0d8a7ca7556",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\argument_01_trace.json": "b22d75812cf1d7e98eb77cc9987e194a85361f1c72048320d2a77859433fd2b5",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\completed_arguments.json": "6efa1123b4fb4d3c0b2b083321ff2821173b715e5fd32095549600f76f2b2489",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\plan.json": "334aaf1b707a8f909f2564eccdaa48d48382359d2cf9f1d95e7c42df9424095b",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\result.json": "ab4f09bec923d68dd08354f471b0cc6511330c53b8effb58447946feed72cc02",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\dispatch.jsonl": "e5e30e83966a061e0df9c57130e0a6b23f512fe649d50d12b22b3a6171cf5fa4",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_harness_001\\receipt.json": "cf42b9d38bc6ac508d71567524d5fe7a3e2176385a0f46f763c2b5ee65760812",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_harness_001\\codex_source_notes_not_gold.json": "5abe7498b8a50922627aea135baa81be43c6b6a434424dcc16eb2d631cb25d90",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_001.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_001.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_001.stdin": "17280116735204d8e729a6c5e7fc6265509c5af26c7d7b3d22da3fa3978cd3ed",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_001.stdout": "ae4c8499586a1817fe125d86d659b107645b74be3cda89a936afb8128f2ff0de",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_002.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_002.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_002.stdin": "676d834d4994bbbd9b7916b722d822f90d022800738a83c58510347e233ce844",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_002.stdout": "e0cf5b07ee56490d09af8b4a0ea370639ffae1445219e7db279254188c7c7e87",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_003.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_003.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_003.stdin": "a298262016205d295225c3790367e3ea09775f25e86e5874f1fed81790c7a638",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_003.stdout": "d245d5af9a17f3537adcaddef7d475fb369d0cfc152245aa31a405c1ce289e2d",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_004.json": "c2e0cea1a4b25028402daf57bbb2cbc2266f4b4d062e7c0df062fc0ad274da49",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_004.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_004.stdin": "efe458946763025757e8078c7dc312edf4845f39a46918658bc8b573be3180c7",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_004.stdout": "ad7eb6a57fa1fe96be36095280bb78c5cd33366e84ccabbaafd4949c04ad64ed",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_005.json": "d9f50e639d02bf71ca4c18a8faa4cd19c34fdfa02973754d0ea4b708ce28267f",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_005.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_005.stdin": "1770b0277865d516b1f7d80116200f79306b274d6a6b192570d75a5064c2c07c",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_005.stdout": "09007108ea3d2f81719b7527153985f65c35c632d3be82509f14881ad4ec82a8",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_006.json": "375e00c10db185792d144d8dd929bfd52c0ac45a783d7e2b27dbcf9412d2c376",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_006.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_006.stdin": "19d98e4235e4160bdb1ef715930ce4cd85e3703496078cce5e82d2a4e023ed38",
+    "results\\scratch\\workflow_20261126\\posthoc_argument_support_live_001\\backend_wire\\call_006.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "claude_read_only_review": {
+    "exit_code": 0,
+    "elapsed_seconds": 59.873,
+    "retry": false,
+    "provider_is_error": false,
+    "response_sha256": "a324197023c848a6dc28e5cfd0ae01821c816f6801094f71df274650955fb316",
+    "finding": "No code defect established from the partial traces; do not change prompts or retry based on one timeout.",
+    "codex_qualification": "Review is an AI development opinion, not independent gold. Record-absence statements must remain limited to admitted evidence; evaluative statements are not automatically false facts."
+  },
+  "offline_regression": {
+    "tests": 43,
+    "passed": 43,
+    "new_test": "later backend timeout retains completed batch but raises without full score",
+    "real_model_calls": 0,
+    "source_http_requests": 0,
+    "full_suite_repeated": false
+  },
+  "frozen_code_hashes_reverified": 11
+}

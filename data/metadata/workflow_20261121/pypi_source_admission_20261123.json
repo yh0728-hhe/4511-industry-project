@@ -1,0 +1,16 @@
+{
+  "status": "REAL_HISTORICAL_PACKAGE_GATEWAY_ADMITTED",
+  "company_id": "w24:hatchet.run",
+  "source_id": "pypi-wheel:f4a9dbdb070deecb9693ff57d9f7ce1a1141587b1eb38872a916b9f3d0325bf5",
+  "fact_id": "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1",
+  "text_sha256": "3fd4f668cf1665596084cd32ee1df33c48bdf54e7486ff55bd47ee02ffbb816f",
+  "availability_upper_bound": "2024-04-04T16:05:00.538145+00:00",
+  "proof_kind": "VERIFIED_ORIGINAL_PUBLICATION",
+  "source_scope": "SDK identity and documentation links only",
+  "domain_ownership_independently_proven": false,
+  "network_calls_this_validation": 0,
+  "model_calls": 0,
+  "Y_read": false,
+  "code_execution_from_package": false,
+  "raw_artifact_committed": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "DISCOVERY_TO_ARCHIVE_RUNTIME_OFFLINE_VALIDATED",
+  "claude_contribution": "Archive verification method, provider and 17 tests; 180.652 second timeout",
+  "codex_contribution": "Terminal malformed-result handling; partial-evidence retention; component cache fingerprint; URL bounds; 5 integration/regression tests; 4 discovery-parser regressions",
+  "tests": {
+    "discovery": 18,
+    "bridge": 22,
+    "total": 786,
+    "passed": 783,
+    "skipped": 3
+  },
+  "actual_new_model_calls_for_validation": 0,
+  "actual_new_http_for_validation": 0,
+  "scope": "Managed URL discovery can feed existing independently verified domain-anchored archive evidence into main runtime",
+  "limitations": [
+    "Third-party publisher/entity attribution not implemented",
+    "No live company research result for this bridge",
+    "Caller-supplied historical domain anchor still needs justification",
+    "Managed search internals are unknown"
+  ],
+  "y_changed": false,
+  "training": false
+}

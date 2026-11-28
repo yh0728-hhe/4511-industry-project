@@ -1,0 +1,29 @@
+{
+  "protocol_id": "ARCHIVED-PUBLISHER-CONTEXT-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Inspect two alreadyobserved public-source leads with strict historical publisher binding; no new search/inference or source whitelist",
+  "company": {
+    "company_id": "hatchet",
+    "name": "Hatchet",
+    "domain": "hatchet.run"
+  },
+  "urls": [
+    "https://www.ycombinator.com/companies/hatchet-run",
+    "https://github.com/hatchet-dev/hatchet"
+  ],
+  "lead_provenance": [
+    "discovery_runtime_bounds_live_001/discovery_01/result.json",
+    "discovery_runtime_bounds_live_001/discovery_02/result.json"
+  ],
+  "as_of": "2024-04-04T23:59:59Z",
+  "max_actual_new_model_calls": 0,
+  "max_direct_archive_http_attempts": 4,
+  "max_seconds": 60,
+  "max_body_bytes": 262144,
+  "retry": false,
+  "fallback": false,
+  "restriction_policy": "Any403/429 stops entireprobe; no alternatecandidate/parameters afterrestriction. Emptyeligiblecapture isUNKNOWN, notsource/companyabsence.",
+  "interpretation": "Only archived thirdparty-hosted context with exactdate/entitylink binding may entergateway. No editorialindependence, legalidentity orclaimtruth guarantee.",
+  "Y_changed": false,
+  "training": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "STAGE_SEPARATION_OFFLINE_VALIDATED",
+  "implementation": {
+    "exit_code": 0,
+    "elapsed_seconds": 139.394,
+    "configured_timeout_seconds": 180,
+    "retry": false
+  },
+  "primary": "Actual Claude CLI",
+  "reviewer": "Codex",
+  "upstream_example_ast_verified": true,
+  "tests": {
+    "focused_ragas": 21,
+    "full_total": 710,
+    "passed": 707,
+    "skipped": 3
+  },
+  "prior_live_score_valid": false,
+  "change": "Decomposition receives only question/answer, extraction system and pinned upstream example, no evidence or investment mandate; NLI receives cited evidence. Guard/date validation still occurs before first dispatch.",
+  "new_live_quality_measured": false
+}

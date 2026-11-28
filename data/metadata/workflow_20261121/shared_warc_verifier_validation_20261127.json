@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-27",
+  "status": "PASSED",
+  "profile": "SHARED_WORKFLOW_ONLY",
+  "runtime_tests": 935,
+  "passed": 934,
+  "skipped": 1,
+  "all_five_stages_passed": true,
+  "steps": [
+    {
+      "name": "runtime_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 9.611
+    },
+    {
+      "name": "snapshot_integrity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.056
+    },
+    {
+      "name": "synthetic_loop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08
+    },
+    {
+      "name": "plan_only_preflight",
+      "exit_code": 0,
+      "elapsed_seconds": 0.146
+    },
+    {
+      "name": "injected_research_workflow",
+      "exit_code": 0,
+      "elapsed_seconds": 0.244
+    }
+  ],
+  "private_full_profile": {
+    "total": 1165,
+    "passed": 1162,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "source_commit": "c3090dade189e9fd660664ad3f6826200d6ae2f8",
+    "source_ci_run": 46105130206
+  },
+  "new_focused_warc_tests": 14,
+  "default_workflow_integration": false,
+  "real_bodies_tested": 0,
+  "synthetic_archive_to_review_boundary_tested": true,
+  "model_calls_requested": 0,
+  "source_http_requested": 0,
+  "raw_real_archive_payloads_shared": false,
+  "Y_changed": false,
+  "training": false
+}

@@ -1,0 +1,21 @@
+{
+  "as_of": "2024-04-04T23:59:59Z",
+  "check_argument_support": true,
+  "company": {
+    "company_id": "hatchet",
+    "domain": "hatchet.run",
+    "name": "Hatchet"
+  },
+  "mandate": "Assess whether historically available public evidence is sufficient for an early-stage software investment assessment. Choose material factual questions and specialists dynamically, seek original historical sources using available verification capabilities, distinguish attributed documentation from independent commercial evidence, and preserve missing facts as unknown.",
+  "max_model_calls": 8,
+  "max_research_passes": 2,
+  "max_search_reservations": 12,
+  "max_seconds": 180,
+  "max_sources": 3,
+  "max_specialists": 1,
+  "model": "claude-sonnet-5",
+  "preliminary_screen": true,
+  "publisher_max_body_bytes": 524288,
+  "verify_packages": true,
+  "verify_publishers": true
+}

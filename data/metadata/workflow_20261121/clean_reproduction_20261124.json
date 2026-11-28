@@ -1,0 +1,26 @@
+{
+  "clean_commit": "aa0c59315ece2405b32d75878e91196a42326006",
+  "status": "OFFLINE_CHECKS_PASSED_LIVE_AND_TRAINING_NOT_RUN",
+  "completed_artifact_count": 8,
+  "resume_completed_artifact_hashes_and_mtimes_unchanged": true,
+  "source_cache_from_main_checkout_present": false,
+  "new_model_calls": 0,
+  "new_research_http": 0,
+  "offline_tests": {
+    "total": 659,
+    "passed": 656,
+    "skipped": 3
+  },
+  "receipt_sha256": "682c12e3500df21c22ab3b2179dbcd4e40bb934fef1749484c1d60af6174a10a",
+  "step_hashes": {
+    "adagy_plan.json": "0d2be6b46e79248511ace2c6ec0e73f3b7b9e82d4f5019e47dd2146ce5262ca6",
+    "adagy_preflight.log": "f5c146dd78c72f3f978c41967f220b2ad9f4d3eef9d7ad594a9a80394406c20b",
+    "fixtures.json": "f969850a7048b54747813bb82f08f1ccb2831636119675b2c0d76963ec71f822",
+    "funding_tests.log": "1208c3d29988a82953abfa0edcf72db872c6ad7c73bf8316669a9c70131b913c",
+    "outcome_tests.log": "c0909bc6113f35700cd168b2a6f40984e4515fab6133ba5bfeed3ee67f5ba521",
+    "runtime_tests.log": "4301acc68a3f676e0fb399a1e57a1c8ad13cdc35f09dfd352fa11e137e53c84e",
+    "snapshot_validation.log": "0135895615a080ed92c313e985dbcaf57b73851abc14c27468911abdc57d73a0",
+    "synthetic_loop.log": "2cf723146598ad6b39f5e6eaea0acdf8287efbdc91f3c9a50d96a6b5fc584e9f"
+  },
+  "verified_utc": "2026-11-24T18:27:38.724624+00:00"
+}

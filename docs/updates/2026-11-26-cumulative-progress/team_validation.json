@@ -1,0 +1,42 @@
+{
+  "profile": "SHARED_WORKFLOW_ONLY",
+  "private_funding_suites_executed": false,
+  "model_calls_requested": 0,
+  "source_http_requested": 0,
+  "Y_changed": false,
+  "training": false,
+  "steps": [
+    {
+      "name": "runtime_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 9.325
+    },
+    {
+      "name": "snapshot_integrity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.052
+    },
+    {
+      "name": "synthetic_loop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.081
+    },
+    {
+      "name": "plan_only_preflight",
+      "exit_code": 0,
+      "elapsed_seconds": 0.203
+    },
+    {
+      "name": "injected_research_workflow",
+      "exit_code": 0,
+      "elapsed_seconds": 0.319
+    }
+  ],
+  "status": "PASSED",
+  "runtime_tests": {
+    "total": 878,
+    "passed": 877,
+    "skipped": 1
+  },
+  "initial_full_private_profile_attempt": "STOPPED: private funding inputs are not included. Team legacy modules restored; explicit shared verification profile used rather than silently skipping tests."
+}

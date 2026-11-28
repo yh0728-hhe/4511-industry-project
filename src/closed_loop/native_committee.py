@@ -15,6 +15,7 @@ from .contracts import CommitteeResult, Decision, aware
 from .native_support import NativeBinding, get_llm, EvidenceReviewOutput, HumanMessage
 from .guards import BudgetStopped
 from .agent_prompts import EVIDENCE_REVIEW_INSTRUCTION
+from .model_identity import present_payload
 from .vendor import dialectic_committee_nodes as nodes
 
 
@@ -42,7 +43,7 @@ class NativeState(SimpleNamespace):
 
 
 def new_state(view,config):
-    values=dict(config=config,all_qa_pairs=[dict(row) for row in view.qa_pairs],current_iteration=0,
+    values=dict(config=config,all_qa_pairs=[present_payload(dict(row),view.company_id) for row in view.qa_pairs],current_iteration=0,
         arguments_history=[],is_final=False,final_decision=None)
     for name in ('pro_arguments','contra_arguments','current_arguments','selected_arguments','refined_arguments',
             'devils_advocate_pro_arguments','devils_advocate_contra_arguments','refined_pro_arguments',

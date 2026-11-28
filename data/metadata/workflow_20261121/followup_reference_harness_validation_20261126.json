@@ -1,0 +1,150 @@
+{
+  "status": "TWELVE_SOURCE_DISJOINT_REFERENCE_CASES_PREPARED_NOT_PREDICTED",
+  "preparer_worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 39.591,
+    "retry": false
+  },
+  "predictor_worker_receipt": {
+    "exit_code": 0,
+    "is_error": false,
+    "elapsed_seconds": 61.93,
+    "retry": false
+  },
+  "claude_contribution": "Prepared source-excluding data selection and12casepredictor reusing existing selection/NLIhelpers, without model/dataexecution.",
+  "codex_contribution": [
+    "Independent12caseofflinegrader reusing legacy mapping/partitionvalidator",
+    "Transitive predictor hash and absolute source-directory binding",
+    "12fake regressions covering source exclusion, role separation, caps and failures",
+    "Executed offline preparation and provenance/context-overlap checks"
+  ],
+  "focused_tests": 50,
+  "new_tests": 12,
+  "full_readiness": {
+    "tests": 1108,
+    "passed": 1105,
+    "skipped": 3,
+    "stages_passed": 6,
+    "run_id": "source-disjoint-reference-20261126-001"
+  },
+  "selection_manifest": {
+    "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "responses_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\response.jsonl",
+      "size_bytes": 21458735,
+      "sha256": "e4c2e4ac24fff676d8984cc61c35d791612fadc58015335d97dd632375e18073",
+      "git_blob_sha1": "f9ae5913fb9976684f3e13be3cd3465062db54cc"
+    },
+    "sources_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\source_info.jsonl",
+      "size_bytes": 15117971,
+      "sha256": "0dffc26ea9f3c1c3d7c7e8336b56ef1646e3cec876edffcca3c9c624d12d578b",
+      "git_blob_sha1": "119277774009f110aa58596b93f9512f62594a89"
+    },
+    "previous_inputs_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_prepared_cases_001\\selected_inputs.json",
+      "size_bytes": 13873,
+      "sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a"
+    },
+    "preparer_scripts": {
+      "ragtruth_reference_prepare_20261126.py": {
+        "sha256": "97ca895d55240bb8915d7fe825b9741321c3c47729738ab8e188a6532493dc37"
+      },
+      "ragtruth_followup_prepare_20261126.py": {
+        "sha256": "0acef544edf34704d0d7c5fcaebb50f186e5c90a779be16eb3e02b1bc789a868"
+      }
+    },
+    "output_files": {
+      "selected_inputs.json": {
+        "sha256": "9b7a1e0c5096c45d499340b1304fc69d023bde60ace319e88827f6cb4d81035b"
+      },
+      "selected_gold.json": {
+        "sha256": "0df630382878b993682ea29a244c8c86081a7beb7bcb6e7fca74b31cde2b3bdc"
+      }
+    },
+    "case_ids": [
+      "ragtruth-response-12066",
+      "ragtruth-response-12102",
+      "ragtruth-response-12132",
+      "ragtruth-response-12260",
+      "ragtruth-response-12297",
+      "ragtruth-response-12435",
+      "ragtruth-response-12180",
+      "ragtruth-response-12240",
+      "ragtruth-response-12330",
+      "ragtruth-response-12458",
+      "ragtruth-response-12518",
+      "ragtruth-response-12602"
+    ],
+    "batch_1_case_ids": [
+      "ragtruth-response-12066",
+      "ragtruth-response-12102",
+      "ragtruth-response-12132",
+      "ragtruth-response-12260",
+      "ragtruth-response-12297",
+      "ragtruth-response-12435"
+    ],
+    "batch_2_case_ids": [
+      "ragtruth-response-12180",
+      "ragtruth-response-12240",
+      "ragtruth-response-12330",
+      "ragtruth-response-12458",
+      "ragtruth-response-12518",
+      "ragtruth-response-12602"
+    ],
+    "unique_source_count": 12,
+    "unique_source_ids": [
+      "14327",
+      "14334",
+      "14339",
+      "14347",
+      "14357",
+      "14360",
+      "14366",
+      "14373",
+      "14390",
+      "14394",
+      "14404",
+      "14418"
+    ],
+    "previously_excluded_source_ids": [
+      "14300",
+      "14318",
+      "14319",
+      "14323",
+      "14353",
+      "14355"
+    ],
+    "selection_rule": "exclude the 6 previously selected source_ids, then apply the prior script's select_cases() mechanical rule twice in original response order: once over the filtered stream for batch 1 (first 3 supported + 3 unsupported, 6 unique sources), then again over the remainder with batch 1's sources also excluded for batch 2 (another 3 + 3, 6 more unique sources); no resampling after viewing outputs; no model predictions are read or produced",
+    "references_provenance": "human-annotated, publicly released RAGTruth dataset; pretraining exclusion is not established",
+    "model_calls": 0,
+    "http_requests": 0,
+    "training": false,
+    "Y_changed": false,
+    "modifies_production": false,
+    "raw_redistribution": false
+  },
+  "old_source_overlap": 0,
+  "old_exact_context_hash_overlap": 0,
+  "reference_class_counts": {
+    "supported": 6,
+    "unsupported": 6
+  },
+  "source_sha256": {
+    "scripts/experiments/ragtruth_followup_prepare_20261126.py": "0acef544edf34704d0d7c5fcaebb50f186e5c90a779be16eb3e02b1bc789a868",
+    "scripts/experiments/ragtruth_followup_predict_20261126.py": "0ed3359f72ed93f51d5726cae50718df6c49b5f8348e0d37344aef7d318785c4",
+    "scripts/experiments/ragtruth_followup_grade_20261126.py": "d69dc3fe6972a4c7ed84f34b984fa6a634560f35c234320f36e4ba31ddb9e986",
+    "src/workflow_automation/readiness.py": "33f3115b9e3b7a14bd833c46b25169a8ff5776ee85981c48e99ed3886f45b52b",
+    "tests/test_ragtruth_followup.py": "020f3b016adb8da07e044dcdca5a710d7d6f01e34e3028ca5d9b5a6aa104bb69"
+  },
+  "model_predictions_run": false,
+  "company_quality_gold": false,
+  "Y_changed": false,
+  "training": false,
+  "limitations": [
+    "New IDs/context hashes disjoint, not proven independent underlying topics or excluded from pretraining.",
+    "Known balanced publicQA slice, not representative company diligence or official Ragas span benchmark.",
+    "No tuning after new outputs; source selection fixed before predictions."
+  ]
+}

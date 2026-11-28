@@ -1,0 +1,40 @@
+{
+  "profile": "SHARED_WORKFLOW_ONLY",
+  "private_funding_suites_executed": false,
+  "model_calls_requested": 0,
+  "source_http_requested": 0,
+  "Y_changed": false,
+  "training": false,
+  "steps": [
+    {
+      "name": "runtime_tests",
+      "exit_code": 0,
+      "elapsed_seconds": 9.559
+    },
+    {
+      "name": "snapshot_integrity",
+      "exit_code": 0,
+      "elapsed_seconds": 0.113
+    },
+    {
+      "name": "synthetic_loop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.092
+    },
+    {
+      "name": "plan_only_preflight",
+      "exit_code": 0,
+      "elapsed_seconds": 0.152
+    },
+    {
+      "name": "injected_research_workflow",
+      "exit_code": 0,
+      "elapsed_seconds": 0.247
+    }
+  ],
+  "status": "PASSED",
+  "total_tests": 939,
+  "passed_tests": 938,
+  "skipped_tests": 1,
+  "real_bodies_verified": 0
+}

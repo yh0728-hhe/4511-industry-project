@@ -27,6 +27,7 @@ from closed_loop.model_lead import ModelLead
 from closed_loop.native_committee import NativeConfig, NativeDialecticCommittee
 from closed_loop.openai_backend import MODEL, RATE_SOURCE, create_live_backend
 from closed_loop.runtime import ClosedLoopRuntime
+from closed_loop.source_preflight import source_readiness_preflight
 
 COHORT = ROOT / 'data/processed/w24_spreadsheet_2024-03-25.csv'
 PLAN_DIR = ROOT / 'data/weekly_smoke_20261119'
@@ -86,6 +87,7 @@ def prepare_plan(cohort=COHORT):
         max_wall_minutes=MAX_MINUTES,
         max_research_passes=2,
         research_backend='MeteredResearchProvider',
+        source_preflight_before_model_dispatch=True,
         max_navigation_steps_per_task=2,
         max_output_tokens_per_request=1000,
         max_request_bytes=32768,
@@ -140,11 +142,11 @@ class UsageRequiredBackend:
                     attempt['status'] = 'USAGE_UNKNOWN_OR_INVALID'
                 raise BudgetStopped('API_USAGE_UNKNOWN_OR_INVALID')
             return value
-        except BaseException:
+        except BaseException as exc:
             # Native committee stages queue asynchronous siblings. Stop before
             # unwinding/releasing their semaphore so none can dispatch after a
             # provider, accounting, schema or unexpected backend failure.
-            self.call_budget.stop()
+            self.call_budget.stop(str(exc) if isinstance(exc,BudgetStopped) else 'API_BACKEND_ERROR')
             raise
 
 
@@ -198,25 +200,34 @@ def run_live(plan, *, limit, approved_plan_sha256, env_file=None):
         return result
     archive = None
     provider = None
+    preflight = None
     try:
         try:
             from closed_loop.research_backend import MeteredResearchProvider
             metered_backend = UsageRequiredBackend(backend)
             archive = ArchivedWebsiteProvider(request, gateway, budget, max_requests=MAX_HTTP_REQUESTS,
                                               max_body_bytes=2097152)
-            provider = MeteredResearchProvider(request, gateway, budget, metered_backend,
-                                               archive, max_navigation_steps=2)
-            committee = NativeDialecticCommittee(metered_backend, budget,
-                                                 NativeConfig(selection_policy='balanced_per_side'))
-            runtime = ClosedLoopRuntime(request, gateway, budget,
-                                        ModelLead(metered_backend, budget), committee, provider)
-            result = runtime.run()
+            preflight = source_readiness_preflight(request, gateway, budget, archive)
+            if not preflight.ready_for_dispatch:
+                result = dict(decision='MORE_DILIGENCE',
+                              stop_reason=preflight.stop_reason or 'SOURCE_PREFLIGHT_NO_ADMISSIBLE_SOURCE',
+                              rationale='Historical source preflight did not pass; no model was dispatched. Missing evidence is unknown.')
+            else:
+                provider = MeteredResearchProvider(request, gateway, budget, metered_backend,
+                                                   archive, max_navigation_steps=2)
+                committee = NativeDialecticCommittee(metered_backend, budget,
+                                                     NativeConfig(selection_policy='balanced_per_side'))
+                runtime = ClosedLoopRuntime(request, gateway, budget,
+                                            ModelLead(metered_backend, budget), committee, provider)
+                result = runtime.run()
         except Exception as exc:
             # Do not save provider exception text, which can contain credentials.
             result = dict(decision='MORE_DILIGENCE', stop_reason='VALIDATION_OR_RUNTIME_FAILURE',
                           error_type=type(exc).__name__, rationale='No supported decision after failure.')
         result.update(
-            status='ONE_COMPANY_SMOKE_NOT_A_BACKTEST', company=plan['company'],
+            status=('NOT_RUN_SOURCE_PREFLIGHT_BLOCKED' if preflight is not None and not preflight.ready_for_dispatch
+                    else 'ONE_COMPANY_SMOKE_NOT_A_BACKTEST'), company=plan['company'],
+            source_preflight=asdict(preflight) if preflight is not None else None,
             plan_sha256=plan['plan_sha256'], input_seed_sha256=plan['input_seed_sha256'],
             started_utc=started.isoformat(), finished_utc=datetime.now(timezone.utc).isoformat(),
             actual_api_request_attempts=len(backend.attempts),

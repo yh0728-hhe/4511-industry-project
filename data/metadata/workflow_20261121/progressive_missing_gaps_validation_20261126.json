@@ -1,0 +1,50 @@
+{
+  "status": "PROGRESSIVE_MISSING_GAPS_EXPLICIT_STOP_VALIDATED",
+  "date": "2026-11-26",
+  "workers": {
+    "audit": {
+      "exit_code": 0,
+      "elapsed_seconds": 99.844,
+      "retry": false,
+      "pre_dispatch_setup_failures": 2,
+      "provider_is_error": false,
+      "response_sha256": "7387e1f6c9926ef8eb74c6b5d401cb5aba457b0b5cd8e4dc29051c25d42b47e8"
+    },
+    "implementation": {
+      "exit_code": 0,
+      "elapsed_seconds": 44.739,
+      "retry": false,
+      "provider_is_error": false,
+      "response_sha256": "34a0f403b12fce9d39aa74425b4f0e8b620dbc56f6b7bdcb5fe1886b58dd76f8"
+    }
+  },
+  "pre_fix": {
+    "decision": "MORE_DILIGENCE",
+    "stop_reason": "EVIDENCE_REVIEW_COMPLETE",
+    "essential_gaps": [],
+    "committee_invocations": 0,
+    "reproduction_sha256": "df00baa25179accdbcb305a2ef69331a266283e0dc52908c4c5a33a23ec871b7"
+  },
+  "fix": "Validated More screen without gaps now retains raw private assessment and stops with PROGRESSIVE_SCREEN_MISSING_GAPS. No invented research question or committee fallback.",
+  "claude_contribution": "Read-only audit identified the path; implemented the minimal wrapper guard and two regressions.",
+  "codex_contribution": "Independently reproduced before fix, reviewed implementation, added real runner persistence regression, ran focused and full readiness.",
+  "focused_tests_passed": 53,
+  "readiness_run": "progressive-missing-gaps-20261126-001",
+  "full_suite": {
+    "total": 1014,
+    "passed": 1011,
+    "skipped": 3,
+    "stages_passed": 6
+  },
+  "new_tests": 3,
+  "Y_changed": false,
+  "training": false,
+  "model_quality_claim": false,
+  "live_workflow_rerun": false,
+  "default_strategy_changed": false,
+  "prior_commit_ci": {
+    "commit": "e8752df",
+    "push": "success",
+    "pull_request": "success"
+  }
+}

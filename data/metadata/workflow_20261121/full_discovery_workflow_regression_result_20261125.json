@@ -1,0 +1,90 @@
+{
+  "protocol_id": "FULL-DISCOVERY-WORKFLOW-20261125-002",
+  "execution_commit": "0e2f9fd",
+  "elapsed_seconds": 431.369,
+  "status": "DISCOVERY_RUNTIME_EXECUTED",
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "NO_NEW_EVIDENCE",
+  "backend_process_attempts": 21,
+  "managed_discovery_process_attempts": 2,
+  "direct_archive_http_attempts": 7,
+  "logical_call_budget": {
+    "used": {
+      "model": 23,
+      "search": 9
+    },
+    "caps": {
+      "model": 24,
+      "search": 12
+    },
+    "active": 0
+  },
+  "admitted_fact_count": 1,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "FRESH_BOUNDED_DISCOVERY_RESEARCH_CYCLE_COMPLETED",
+  "engineering_cycle_completed": true,
+  "quality_or_predictive_accuracy_certified": false,
+  "stages_executed": [
+    "model_selected_research",
+    "managed_source_discovery",
+    "independent_archived_publisher_verification",
+    "debate_generation",
+    "critique",
+    "scoring_selection",
+    "refinement",
+    "evidence_review",
+    "batched_argument_support",
+    "factual_gap_triage",
+    "followup_lead",
+    "new_managed_research",
+    "normal_no_new_admissible_evidence_finish"
+  ],
+  "optional_thesis_synthesis_executed": false,
+  "essential_gap_count": 14,
+  "source_scope": "Onehistoricalrepositorycontext, captured2024-04-02T08:47:16UTC; publisherclaims/editorialindependence/ownershipnotindependentlycertified",
+  "support_diagnostics": [
+    {
+      "statements": 21,
+      "supported": 15,
+      "batches": 3
+    },
+    {
+      "statements": 16,
+      "supported": 13,
+      "batches": 2
+    }
+  ],
+  "dataset_input_audit": {
+    "scanned_backend_prompts": 21,
+    "markers_present": {
+      "\"funding_y\"": false,
+      "\"outcome_covered\"": false,
+      "\"negative_label_approved\"": false,
+      "company_labels.csv": false,
+      "w24_spreadsheet_2024-03-25.csv": false
+    },
+    "interpretation": "Absentfile/columnmarkers are input-boundary evidence, not proof of excluding pretrainedknowledge"
+  },
+  "pretrained_future_knowledge_exclusion_proven": false,
+  "artifact_sha256": {
+    "plan.json": "3d493b2ff18f71970451484a6f0ed9961ead81a42dec28b38d872ddd27eb758e",
+    "proposal.json": "e3c293c93d45839a0fcb41a81d687ae31ce6ea0b681507597261e996c4da26f7",
+    "result.json": "e8fad51c8c595cf32b724354d07a27b4839c0e411716e05879e4d780a892c3eb",
+    "committee_trace.json": "1cc4b01cc12eb13f077c92b3715dc919360d1edb4a6162f15c8e233568e9a626",
+    "model_calls.json": "edca4fbb307171cac6d6152b5a484b9763501198a23694617c188f4bf5f6c0dc",
+    "provider_trace.json": "cda0584fbb2e6a0c47f9406125cbeee6fe26cef3cf196ccf2b9bb6e6e9f1fb5f",
+    "archive_receipts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "archive_attempts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "publisher_receipts.json": "187040eb66f18c2aef14e01b59d41cf7eccde3221e855e48694e61ba367bf66b",
+    "publisher_attempts.json": "b16d52bd65334f7f67f50b7ed85208eca97418b97809b1bce5de6344bf4688dc",
+    "probe_receipt.json": "0113f4a6da6023baeb917c4095a4ab5244f3c329377d73777bb18d9cd140ea8d"
+  },
+  "limitations": [
+    "Known archive-available engineering case, not independentholdout orbacktest",
+    "No newlyadmissibleevidence in boundedfollowup is notproof ofabsence",
+    "No accepted investment recommendation; finalMORE_DILIGENCE with14questions",
+    "No Ychange, training, benchmarkaccuracy, or editorialindependence certificate"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "SAVED_REAL_INDEX_REPLAY_ONLY_NO_BODY",
+  "index_sha256": "7b226b80b63fe2025ea3bf4c510639d217eac1204d5c7342061b26e2194be922",
+  "raw_rows": 1,
+  "eligible_pointers": 1,
+  "captures": [
+    {
+      "url": "https://www.danswer.ai/",
+      "captured_at": "2024-02-27T19:40:51+00:00",
+      "compressed_bytes": 11316,
+      "range_header": "bytes=713252897-713264212"
+    }
+  ],
+  "new_http_requests": 0,
+  "new_model_calls": 0,
+  "admitted_facts": 0
+}

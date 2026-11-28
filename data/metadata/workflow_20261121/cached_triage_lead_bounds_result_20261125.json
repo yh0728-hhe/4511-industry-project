@@ -1,0 +1,38 @@
+{
+  "protocol_id": "CACHED-TRIAGE-LEAD-QUESTION-BOUNDS-20261125-001",
+  "execution_commit": "678897f",
+  "status": "CACHED_TRIAGE_LEAD_COMPLETED",
+  "selected_tasks": 2,
+  "question_lengths": [
+    381,
+    321
+  ],
+  "elapsed_seconds": 15.784,
+  "actual_new_cli_process_attempts": 1,
+  "actual_new_http": 0,
+  "logical_budget": {
+    "used": {
+      "model": 1,
+      "search": 2
+    },
+    "caps": {
+      "model": 1,
+      "search": 2
+    },
+    "active": 0
+  },
+  "failure": null,
+  "old_inputs_unchanged": true,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "TYPED_FACTUAL_RESEARCH_TASK_GENERATION_COMPLETED_WITH_CUTOFF_WORDING_FINDING",
+  "selected_roles": [
+    "traction",
+    "founder"
+  ],
+  "literal_author_opinion_tasks": false,
+  "full_workflow_completion": false,
+  "source_quality_accuracy_evaluated": false,
+  "remaining_finding": "Tasks narrowed date to March29 snapshot instead of April4 run cutoff, and used already-admitted wording. Inputs/gateway stilllocked toApril4. Prompt clarified offline; no task dates rewritten and no rerun ofsealedstage."
+}

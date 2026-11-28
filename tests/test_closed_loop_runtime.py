@@ -93,7 +93,8 @@ class TemporalTests(unittest.TestCase):
         store=FactStore();store.merge([fact])
         view=committee_input(request(),store,1)
         self.assertEqual(view.qa_pairs[0]['subject_id'],'PEER')
-        self.assertIn('PEER',view.qa_pairs[0]['question'])
+        self.assertEqual(view.qa_pairs[0]['subject_id'],'PEER')
+        self.assertNotIn('PEER',view.qa_pairs[0]['question'])
 
     def test_qa_row_carries_gateway_verified_reliability_tier_not_a_fabricated_score(self):
         candidate,record=source('reliability-check','traction','reliability-bearing fact')

@@ -1,0 +1,97 @@
+{
+  "status": "EQUAL_ALLOWANCES_AND_PRIVATE_REVIEW_EXPORT_OFFLINE_VERIFIED",
+  "date": "2026-11-27",
+  "source_parent": "f783906",
+  "code_sha256": {
+    "src/closed_loop/paired_evaluation.py": "ab56e5e0ba957f3ebdde167261631b9099a3e4b5c8456fc63e137ba7543cba6c",
+    "src/closed_loop/equal_allowance_pair.py": "8ceea665ddc63a5d8a68e40b31ac9ebe3e3f7f63dd9762ecd0989aa7a40826a0",
+    "src/workflow_automation/readiness.py": "c0b4e3c635ae0626a2573c68511f2037506506e7dfb1c6bdab6f1b56cba766df",
+    "scripts/experiments/prepare_company_review.py": "08ea90101633feaaa8b3159ebbcf5149f545822421f959d959bc7fddee35f843",
+    "tests/test_equal_allowance_pair.py": "2bd3ca0e63c93eaff9c97c91b99e00db95ae739b27f45992b13dc4b710c6080e",
+    "tests/test_company_review_export.py": "ce7076b95e4c2e3876cf5952482a3a0a2e6c961881a4b3c90e5300d356965167",
+    "tests/test_workflow_readiness.py": "a42978ece811ad6a115aa55093504904fedabe09d2631a94a25d18f222420ef4"
+  },
+  "tests": {
+    "runtime_tests": {
+      "total": 892,
+      "passed": 891,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "passed": 203,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "passed": 33,
+      "skipped": 0
+    }
+  },
+  "total_tests": 1130,
+  "passed": 1127,
+  "skipped": 3,
+  "readiness_run": "equal-allowance-review-20261127-002",
+  "readiness_receipt_sha256": "205dc37ed7518ba3624ee3e825250adab5337d9a31590bcdde856864fe29292e",
+  "readiness_stages": {
+    "adagy_preflight": "PASSED",
+    "funding_tests": "PASSED",
+    "outcome_tests": "PASSED",
+    "runtime_tests": "PASSED",
+    "snapshot_validation": "PASSED",
+    "synthetic_loop": "PASSED"
+  },
+  "claude_design_review": {
+    "status": "TIMEOUT_NO_RETRY",
+    "elapsed_seconds": 120.738,
+    "actual_cli_attempts": 1
+  },
+  "claude_review_approval": false,
+  "reviewer_packet_manifest": {
+    "status": "PREPARED_NOT_REVIEWED",
+    "case_count": 1,
+    "passage_count": 4,
+    "source_record_count": 1,
+    "source_input_sha256": {
+      "plan.json": "b3fa93275c37b69288d5c596fc6b50cf43b2028ba6cff3457500d81df58367f4",
+      "result.json": "ec5f87c58dfb74a85506d873f1fc694496db611c9d8abb655234aa9347fdaf1d",
+      "arms.json": "25605ee795d0e732c0e7c83a0bd76181328d11b8b9242ae158e4f1f4aa32d539",
+      "committee_draft_trace.json": "37e9ba810e0e29b604e3fd53d3690b7d811b0c46beaa4d706e42be99ac22cc2a",
+      "single_analyst_raw.json": "a0c5a6da26fb86c6a9e775bc9ca7f511ec0e8b9b1c83a333da8997d451277ae8"
+    },
+    "wire_sha256": {
+      "call_001.stdin": "c5e34c4cb0233ad2f9f2bb0a64a7340a3d0a7871357c5849667897476624d10f",
+      "call_012.stdin": "a48314bba7e6aec6a5bb92e2aa351a8ca42d950b544e469765f9f596553ee554"
+    },
+    "files_sha256": {
+      "operator/arm_mapping.json": "736fce5c63666a7d1b1a5d404c96aaab48524ee9c9014ef542d2fe1399286289",
+      "reviewer/outputs_second.json": "b263f7ef50916f64ea36790605ae18ff77b25e9026201924670281a153596f39",
+      "reviewer/README.md": "d99cbdfe69f1713a967ca91e58cd33c975d14c2e4642666f04a3d80cf2f15199",
+      "reviewer/reference_first.json": "2709364c47d6feddc2f4472da1f71bd51f4ece2e35d5705950e65bb9500bdb67",
+      "reviewer/source_context.json": "137d5da6c592751c609c987402c549a7ea4ea8bff9cb11218eec23b978f8a982"
+    },
+    "reference_labels_created": false,
+    "source_http_requests": 0,
+    "model_cli_attempts": 0,
+    "independent_review_completed": false,
+    "quality_score": null,
+    "investment_accuracy": null,
+    "Y_changed": false
+  },
+  "reviewer_packet_path": "results/scratch/workflow_20261127/company_review_packet_001",
+  "new_comparison_real_model_runs": 0,
+  "live_source_http_requests": 0,
+  "total_task_model_cli_attempts": 1,
+  "task_model_outcome": "DESIGN_REVIEW_TIMEOUT_NO_RETRY",
+  "private_provider_payloads_promoted": false,
+  "Y_changed": false,
+  "training_run": false,
+  "semantic_support_certified": false,
+  "predictive_accuracy_evaluated": false,
+  "limitations": [
+    "Equal call/process ceilings and requested time are not equal actual tokens or cost.",
+    "Transport timeout enforcement is delegated to the explicitly bound trusted backend; no OS sandbox claim.",
+    "Company review packet has one previously inspected development case and four correlated passages; no completed human review or quality score.",
+    "Raw local sealed artifacts are required to regenerate the private packet; only hashes and code are promoted."
+  ]
+}

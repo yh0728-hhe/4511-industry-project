@@ -1,0 +1,98 @@
+{
+  "doc": "docs/architecture/R003_prior_test_handoff.md",
+  "scope": "narrow handoff, not a repeat security review, no live model/API reruns",
+  "prior_run": {
+    "company": "Humane",
+    "final_decision": "not_invest",
+    "iterations_completed": 2,
+    "scores_contra_only": [
+      75,
+      71,
+      72
+    ],
+    "source_file_sha256": "ad50c264e11a171344e398d5f0cd0ca5395c97ffdbc8c7dad0f208b7ee1ed0c3",
+    "original_message_timestamp": "2026-10-29T01:19:49.271Z",
+    "verified_directly_from_artifact": [
+      "company",
+      "decision",
+      "iterations",
+      "argument text and scores"
+    ],
+    "reported_only_not_independently_verified": {
+      "runtime_seconds": 37,
+      "llm_calls": 79,
+      "total_tokens": 50947,
+      "estimated_usd": 0.12,
+      "search_usd": 0.11,
+      "model_usd": 0.01
+    },
+    "missing_from_artifact": [
+      "exact model/config",
+      "QA facts and full retrieval provenance",
+      "historical cutoff proof",
+      "auditable billing or full token accounting"
+    ],
+    "classification": "real-company smoke test (live tools, one company, one run)"
+  },
+  "current_closed_loop_work": {
+    "nature": "offline control-flow/gating hardening with a fixture (non-LLM) committee",
+    "adds": [
+      "trusted fixture retrieval ledger authorization independent of LLM assertions",
+      "temporal gateway rejects future/undated/mismatched replay before committee sees text",
+      "strict RunRequest/CompanySeed validation",
+      "atomic model/search budget reservation under concurrent inflight attempts",
+      "deadline-blocked dispatch",
+      "sandboxed file tool anchored to explicit empty workspace + allowlist",
+      "stale committee/argument-revision rejection",
+      "OFFLINE_FIXTURE_ONLY_NOT_AN_INVESTMENT_PREDICTION status label"
+    ],
+    "does_not_add": [
+      "a second proof that the real DIALECTIC agent can execute end-to-end",
+      "validation of the prior run's reported cost/call/token accounting",
+      "any real or synthetic company investment judgment of consequence",
+      "a historical backtest"
+    ],
+    "committee_used": "fixture committee in fixtures.py, hardcoded synthetic decisions keyed on toy retention fact; not the real LLM committee"
+  },
+  "test_type_distinctions": {
+    "smoke_test": "one real company, live tools, no historical-cutoff proof, no repetition -- this is what exists (Humane)",
+    "historical_backtest": "requires dated verifiable cutoff, frozen source snapshot as-of that date, independently collected outcome label, meaningful sample size -- does not exist yet",
+    "new_evidence_driven_loop": "fact-store -> QA adapter -> essential gap -> targeted research -> regenerated argument cycle now being hardened offline with fixtures; not yet connected to real committee, real retrieval, or any company"
+  },
+  "retracted_or_unsupported_claims": [
+    {
+      "claim": "Humane score trajectory (75->71->72) proves critique/argumentation is harmful",
+      "status": "unsupported",
+      "reason": "N=1 trajectory, contra-only (no pro-side present), cannot distinguish helped/hurt/noise"
+    },
+    {
+      "claim": "Humane run matches a T>=3 paper result",
+      "status": "unsupported",
+      "reason": "run only reached T=2 (iterations 0,1,2); condition T>=3 was never reached so match/mismatch is undefined"
+    }
+  ],
+  "corrections_carried_from_root": [
+    "real decision.py aggregates scores per side using MEAN, not always SUM; Humane case has exactly one argument per side per iteration so mean and sum coincide there by coincidence, not because aggregation is sum-based generally",
+    "any multi-argument-per-side fixture/test must use mean-per-side to match real implementation"
+  ],
+  "reuse_not_redo": [
+    "run1_humane.json artifact itself -- do not regenerate",
+    "already-verified company/decision/iteration/score fields",
+    "real DIALECTIC committee contracts (Decision enum, fact/argument revision semantics) that closed_loop fixtures must stay compatible with",
+    "mean-per-side aggregation semantics from decision.py"
+  ],
+  "shortest_reconnection_path": [
+    "treat run1_humane.json as fixed reference point, no re-run",
+    "define explicit dated historical cutoff and snapshot retrievable sources as-of that date via the trusted fixture retrieval ledger mechanism",
+    "swap fixture committee in fixtures.py for adapter calling real Committee.evaluate(CommitteeInput) contract against that snapshot, keeping all current gates in front unchanged",
+    "run once offline-gated against the snapshot; compare trajectory to original only as plumbing sanity check, not judgment validation",
+    "only after that succeeds mechanically consider a second company or larger backtest, with explicit user authorization for any paid API usage"
+  ],
+  "constraints_honored": [
+    "no live model/API-backed DIALECTIC reruns",
+    "no secrets, tool approvals, installs, or external data APIs used",
+    "no edits to root code or R002 review doc",
+    "no claim that this worker recalls the original desktop conversation"
+  ],
+  "root_note": "Worker review only; root log records tested fixes and outstanding limitations."
+}

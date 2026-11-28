@@ -1,0 +1,19 @@
+{
+  "status": "REAL_HISTORICAL_NPM_DOCUMENT_ADMITTED",
+  "company_id": "w24:million.dev",
+  "source_id": "npm-tarball:e4dbe8cf41e2c7c261c396e2823fb9de7b162d4ba0d834a294c484e2a3874f0c",
+  "fact_id": "7c891ee2c31bf5d911cfe639661177d4a7465acf89b9dc53d1d47a06414fd4ab",
+  "source_sha256": "b022b3614c7ab13e0cbe3eeb2f63878e74b2729736d1eed3c8e5f9eb6038c447",
+  "availability_upper_bound": "2024-03-09T06:58:28.338000+00:00",
+  "proof_kind": "VERIFIED_ORIGINAL_PUBLICATION",
+  "text_bytes": 10707,
+  "artifact_sha256": "12a4b412033dc15974a66768ae724ab54988ce86d6136cbcefd32439f73a175a",
+  "source_scope": "Publisher-provided technical package documentation; no independent performance/adoption/financial verification",
+  "historical_domain_ownership_independently_proven": false,
+  "technical_project_to_company_legal_identity_independently_proven": false,
+  "http_requests_this_validation": 0,
+  "model_calls_this_validation": 0,
+  "code_installed_or_executed": false,
+  "Y_changed": false,
+  "raw_document_committed": false
+}

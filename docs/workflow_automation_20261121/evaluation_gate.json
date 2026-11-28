@@ -1,0 +1,113 @@
+{
+  "status": "NO_TRAINING_NOW",
+  "as_of": "2026-11-26",
+  "cohort": 240,
+  "financing_observed": 153,
+  "composite_observed": 164,
+  "composite_unknown": 76,
+  "verified_financing_negatives": 0,
+  "not_training_targets": [
+    "outcome_covered",
+    "source count",
+    "current Active/Inactive without historicaldate",
+    "UNKNOWN mapped to0"
+  ],
+  "distinct_possible_targets": [
+    {
+      "name": "subsequent financing",
+      "requires": "approved event/date semantics and verified negatives or a positive-unlabelled design explicitly justified; shutdown is not automatically a financing negative"
+    },
+    {
+      "name": "operational survival/cessation",
+      "requires": "separate cutoff-specific status label; do not mix financing positives and cessation positives as success"
+    },
+    {
+      "name": "investment recommendation",
+      "requires": "explicit mandate, decision rationale rubric and separate outcome evaluation; no automatic mapping from coverage"
+    }
+  ],
+  "next_steps": [
+    {
+      "stage": "offline integration",
+      "state": "IMPLEMENTED_AND_RUN",
+      "meaning": "workflow control, not empirical model quality"
+    },
+    {
+      "stage": "historical identity and archive gate",
+      "state": "ARCHIVED_WEBSITE_AND_PUBLISHER_CONTEXT_PATHS_EXECUTED_NOT_UNIVERSAL_AVAILABILITY",
+      "owner": "Codex trusted verifier; original Muse archive findings retained, no automatic Muse wakeup",
+      "evidence": [
+        "data/metadata/workflow_20261121/full_discovery_workflow_regression_result_20261125.json",
+        "data/metadata/workflow_20261121/guarded_command_live_result_20261125.json"
+      ],
+      "limitation": "One archived repository context does not establish independent business facts; empty exact-domain results do not prove archive absence. Historical domain ownership remains caller-justified, not universally certified."
+    },
+    {
+      "stage": "bounded real-company smoke",
+      "state": "LEGACY_API_PLAN_NOT_REEXECUTED_SEPARATE_DYNAMIC_CLI_AND_COMMAND_PATHS_EXECUTED",
+      "limits": {
+        "companies": 1,
+        "api_requests": 24,
+        "reserved_usd": "0.20",
+        "archive_http": 6,
+        "minutes": 8
+      },
+      "meaning": "CLI executions are separately frozen and measured. Legacy API approval/dollar/call budgets are neither reset nor transferred. Latest engineering fixes were offline-verified, not another live company run."
+    },
+    {
+      "stage": "frozen baseline comparison",
+      "state": "TWO_DEVELOPMENT_FIXED_EVIDENCE_PAIRS_EXECUTED_NOT_QUALITY_VALIDATION",
+      "design": "Choose a small pilot from identity-only cohort before reading Y; compare simple prompted baseline and guarded workflow with the same admissible historical sources and budget. Freeze prompts/features/split hashes before outcomes are joined.",
+      "evidence": "data/metadata/workflow_20261121/paired_evaluation_result_20261124.json",
+      "limitation": "Purposive development cases, no independent gold/holdout, no equal-resource or statistical-superiority result.",
+      "additional_evidence": "data/metadata/workflow_20261121/verified_publisher_pair_result_20261126.json"
+    },
+    {
+      "stage": "supervised model/finetuning",
+      "state": "NOT_AUTHORIZED_OR_JUSTIFIED",
+      "gate": "Approved targets, sufficient appropriate labelled data, reproducible feature provenance and holdout evaluation demonstrating a baseline gap."
+    }
+  ],
+  "proposed_process_metrics": [
+    "historical source admission/rejection correctness",
+    "unsupported factual claims and citation validity",
+    "explicit unknown/abstention rate",
+    "source retrieval availability",
+    "completion and stop reason",
+    "model/HTTP usage and cost ceiling"
+  ],
+  "not_claimed": [
+    "investment prediction accuracy",
+    "causal future-knowledge exclusion",
+    "OS security isolation",
+    "statistical performance from synthetic fixtures"
+  ],
+  "sharing": "private first; selected reviewed code/docs only to public team PR; no raw Claude transcript or provider payload",
+  "current_engineering_audit": "data/metadata/workflow_20261121/followup_reference_harness_validation_20261126.json",
+  "current_prompt_live_revalidated": false,
+  "quality_reference_set_ready": false,
+  "engineering_validation": {
+    "total_tests": 1108,
+    "passed": 1105,
+    "skipped": 3,
+    "readiness_run": "source-disjoint-reference-20261126-001",
+    "all_six_stages_passed": true,
+    "final_source_ci": "SOURCE_0c17c06_BOTH_CHECKS_PASSED"
+  },
+  "latest_live_integration": "data/metadata/workflow_20261121/guarded_command_aether_result_20261126.json",
+  "live_revalidated_components": [
+    "neutral metadata on lead/search prompts",
+    "two authorized empty-evidence research passes",
+    "bounded guarded-command completion without fabricated facts",
+    "Native argument/critique/refinement/scoring/review on one verified publisher context",
+    "SingleAnalystBaseline against identical admitted publisher evidence"
+  ],
+  "current_prompt_live_revalidated_meaning": "Full source-rich current-policy flow not yet live-revalidated; Aether validated only the explicitly listed sparse-source components.",
+  "default_analysis_strategy": "full_committee",
+  "optional_analysis_strategy": "baseline_first",
+  "latest_live_execution": "data/metadata/workflow_20261121/guarded_package_discovery_result_20261126.json",
+  "latest_live_source_commit": "9146b5e",
+  "external_reference_diagnostic": "data/metadata/workflow_20261121/followup_reference_result_20261126.json",
+  "external_reference_scope": "SourceID/context-hash-disjoint12case known publicQA followup:11matches,1literal-generalization disagreement; not company-quality gold or general accuracy.",
+  "latest_source_acquisition_probe": "data/metadata/workflow_20261121/scoped_registry_probe_result_20261126.json"
+}

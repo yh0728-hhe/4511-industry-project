@@ -1,0 +1,93 @@
+{
+  "protocol_id": "EXTERNAL-NLI-SANITY-20261124-001",
+  "root_review_status": "TINY_EXTERNAL_REFERENCE_SANITY_MATCHED",
+  "execution": {
+    "protocol_id": "EXTERNAL-NLI-SANITY-20261124-001",
+    "status": "COMPLETED",
+    "cases": [
+      {
+        "row_idx": 0,
+        "status": "COMPLETED",
+        "score": 0.0,
+        "predicted_supported": 0,
+        "expected_supported": 0,
+        "matches_external_reference": true
+      },
+      {
+        "row_idx": 1,
+        "status": "COMPLETED",
+        "score": 1.0,
+        "predicted_supported": 1,
+        "expected_supported": 1,
+        "matches_external_reference": true
+      },
+      {
+        "row_idx": 2,
+        "status": "COMPLETED",
+        "score": 0.0,
+        "predicted_supported": 0,
+        "expected_supported": 0,
+        "matches_external_reference": true
+      }
+    ],
+    "planned": 3,
+    "completed": 3,
+    "not_run": 0,
+    "reference_matches": 3,
+    "unique_premises": 1,
+    "cli_process_attempts": 6,
+    "elapsed_seconds": 36.225,
+    "new_HTTP": 0,
+    "logical_call_budget": {
+      "used": {
+        "model": 6,
+        "search": 0
+      },
+      "caps": {
+        "model": 6,
+        "search": 0
+      },
+      "active": 0
+    },
+    "training": false,
+    "Y_changed": false,
+    "investment_accuracy_evaluated": false,
+    "retry": false
+  },
+  "reference_labels_source": "SNLI human annotations, stanfordnlp/snli, CC-BY-SA4.0, https://huggingface.co/datasets/stanfordnlp/snli",
+  "reference_label_keys_absent_from6modelinputs": true,
+  "input_builder_omits_reference_fields": true,
+  "project_company_cutoff_changed": false,
+  "interpretation": "All3binary supported/not-entailed judgments match supplied external human labels. They share1premise and come from a widely-known public dataset, so this is not general accuracy or an unseen holdout.",
+  "raw_sha256": {
+    "01_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "01_stdin.bin": "8578fb3dd4137a5f067f51fcbe85f7958b54aba00d5d9a0a65a28f399a316d41",
+    "01_stdout.json": "3a784205e58de69a7b03ec08ecd03996fbfa84115b0ecaaf36a4c99c54e2ede7",
+    "02_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "02_stdin.bin": "475e73b6d93170c6c7c3bedeed12db3fcee9eb60a24b8a754abb8b23b1e99193",
+    "02_stdout.json": "fa0785734b8b60bda0c022612ba25a53d71c1440e61a6cbdce79d1b29ed874a5",
+    "03_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "03_stdin.bin": "b9d949e3a5d1024e1bb53ccdff5339997c3f27abbc919ab97c5313ab63acf253",
+    "03_stdout.json": "937b15b4f06dea76964a715b5f458e20f7928e5bb0ff6b84ada96d79b6ba1859",
+    "04_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "04_stdin.bin": "303d2378eea6a51ee1c1a3dc896d704bcd8c67f26aea0b04b4d0ff8bfcbfb618",
+    "04_stdout.json": "4f78ce2f112f1337964062d4f075e101daccef98a578dd4d24050e4f1120a98f",
+    "05_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "05_stdin.bin": "cc07bc530cf82328862f0d8fc747cafedb1561e26cb1c56faf842f81838952f6",
+    "05_stdout.json": "3a6bed5ff6bac718b530619386615be121efa9c7997c20978e3f4ce2088229ce",
+    "06_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "06_stdin.bin": "ceef7154f86372895e75fc844a0f7827da77d1b85b6bc8cbe5faacd6b9814d04",
+    "06_stdout.json": "e03222f267c126fb113ed53107c069b4538046641e60e682ae516394bbba05c5",
+    "case_0_assessment.json": "8559f123b0fafe34f988ab6401d5067f3c93c5827452118a6c9712835b1077b8",
+    "case_0_trace.json": "e30d899ef61b44f01e494bb21d3e1efc6299f46ed917e57372d6601c88516e03",
+    "case_1_assessment.json": "6747acd38fd7d5ef73a6cdc7847518fd7785827fc884985f42ba3a40c145fa6b",
+    "case_1_trace.json": "88908bd8cbdee8f3e1e12e5f0ca8bf0b514c84754af2fea2d10ed1db34ac166c",
+    "case_2_assessment.json": "244a4ce8a3b9aca85b3c3d547a778c9155c0422f4bcaf7103e76124a57351426",
+    "case_2_trace.json": "dd11c50601b73aa6af9d2057241d299e07a41cc513407929f0b16e83de0b60a5",
+    "dispatch.jsonl": "bdf8291ef4b1a5bf155fa270804f6e6b3e4fe1714d0d2ef81754e1e5c6409ed5",
+    "receipt.json": "b1eec1286e7ab968521f77a5f563f180c46c0408a469875f5cf95e61c8b174bf"
+  },
+  "training": false,
+  "Y_changed": false,
+  "company_diligence_quality_certified": false
+}

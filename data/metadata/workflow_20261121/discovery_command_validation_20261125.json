@@ -1,0 +1,22 @@
+{
+  "status": "GUARDED_DISCOVERY_COMMAND_OFFLINE_VALIDATED",
+  "claude_contribution": "Wrote command module before180.524s timeout; no tests produced",
+  "codex_contribution": "Completed12tests, authseparate-deadline correction, predispatch recordingintent, configsnapshot and3no-fact runtime regressions",
+  "tests": {
+    "command": 12,
+    "no_fact_regressions": 3,
+    "full_total": 884,
+    "passed": 881,
+    "skipped": 3
+  },
+  "actual_help_smoke": "python -m closed_loop.discovery_workflow --help exited0 withnoauth/model/network",
+  "command_live_run": false,
+  "fresh_library_run_reference": "full_discovery_workflow_regression_result_20261125.json",
+  "limitations": [
+    "CLI needs callerjustifiedhistoricalidentityseed",
+    "No new supervisedmodel or companyaccuracy claim",
+    "Normalunknown is not a verified financingnegative"
+  ],
+  "Y_changed": false,
+  "training": false
+}

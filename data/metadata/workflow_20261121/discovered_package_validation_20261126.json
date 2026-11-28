@@ -1,0 +1,118 @@
+{
+  "status": "DYNAMIC_PACKAGE_SOURCE_OPTIN_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "claude_implementation": {
+    "status": "TIMEOUT",
+    "elapsed_seconds": 150.468,
+    "retry": false
+  },
+  "claude_review": {
+    "status": "TIMEOUT",
+    "elapsed_seconds": 120.419,
+    "retry": false
+  },
+  "claude_contribution": "Created adapter draft; process timed out before tests. Later read-only review also timed out, no final review verdict is claimed.",
+  "codex_contribution": "Completed candidate interface, capability method, URL hardening, normalized alias caching before dispatch, exact gateway context, exclusive journals, default-off provider/runner/CLI integration, separate HTTP counters and16new offline regressions.",
+  "offline_tests": {
+    "focused": 128,
+    "new": 16,
+    "full_total": 1030,
+    "passed": 1027,
+    "skipped": 3,
+    "readiness_run": "discovered-package-integration-20261126-001",
+    "all_six_stages_passed": true,
+    "subsequent_change": "Provider docstring clarification only; exact final source CI pending."
+  },
+  "captured_real_bytes_replay": {
+    "status": "CAPTURED_REGISTRY_BRIDGE_CHECKED",
+    "cases": [
+      {
+        "case": "hatchet",
+        "admitted": true,
+        "fact_id": "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1",
+        "local_cache_gets": 2,
+        "actual_http": 0,
+        "actual_models": 0,
+        "receipts": [
+          {
+            "package": "hatchet-sdk",
+            "format": "wheel",
+            "url": "https://files.pythonhosted.org/packages/5d/44/e22073e4b674c71f56c2024dcc2e8fbced5eb38baa15ea868498dc388dec/hatchet_sdk-0.21.1-py3-none-any.whl",
+            "outcome": "admitted",
+            "source_id": "pypi-wheel:f4a9dbdb070deecb9693ff57d9f7ce1a1141587b1eb38872a916b9f3d0325bf5",
+            "availability_upper_bound": "2024-04-04T16:05:00.538145+00:00",
+            "evidence_scope": "ATTRIBUTED_PACKAGE_DOCUMENTATION",
+            "historical_domain_ownership_independently_proven": false
+          }
+        ],
+        "input_sha256": {
+          "results\\scratch\\workflow_20261123\\pypi_source_probe_001\\hatchet-sdk.json": "cb45237c5d4b0e392b53993b93878a33129247066b4064714c9060088549ca80",
+          "results\\scratch\\workflow_20261123\\pypi_source_probe_001\\artifact.whl": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8"
+        },
+        "original_bytes_unchanged": true
+      },
+      {
+        "case": "million",
+        "admitted": false,
+        "fact_id": null,
+        "local_cache_gets": 2,
+        "actual_http": 0,
+        "actual_models": 0,
+        "receipts": [
+          {
+            "package": "million",
+            "format": "npm",
+            "url": "https://registry.npmjs.org/million/-/million-3.0.6.tgz",
+            "outcome": "held_oversized",
+            "chars": 10668
+          }
+        ],
+        "input_sha256": {
+          "results\\scratch\\workflow_20261123\\richer_package_probe_001\\million.json": "8e1d4649a68bfcdac8d047f5fb9b80d47033909677ff61cd8515d12aea07ce0f",
+          "results\\scratch\\workflow_20261123\\richer_package_probe_001\\million.tgz": "12a4b412033dc15974a66768ae724ab54988ce86d6136cbcefd32439f73a175a"
+        },
+        "original_bytes_unchanged": true
+      }
+    ],
+    "interpretation": "New adapter path over old captured bytes only. No live search/retrieval/model rerun or business-quality claim. Million held because full README exceeds6000char bound; not evidence of company failure.",
+    "Y_changed": false
+  },
+  "default_enabled": false,
+  "explicit_option": "verify_packages",
+  "same_budget": true,
+  "no_installed_package_code": true,
+  "source_text_max_chars": 6000,
+  "fingerprinted_component_files": 25,
+  "registry_http_limit_scope": "Existing shared search cap and deadline; at most2registryGETs per uncached package attempt. Current registry metadata never enters QA.",
+  "limitations": [
+    "Only exact unversioned lowercase unscoped package URL forms supported; unsupported leads remain unknown.",
+    "Source proof binds artifact bytes and registry upload date. Embedded domain links do not independently prove historical ownership or legal-company affiliation.",
+    "Package docs remain attributed maintainer claims, not independent performance, adoption or financial evidence.",
+    "Long README is held whole, not truncated or replaced by an older version.",
+    "Tests and captured-byte replay do not establish new live discovery success or model quality.",
+    "Both Claude timeouts retained, no claimed independent review approval and no retry."
+  ],
+  "Y_changed": false,
+  "training": false,
+  "new_actual_workflow_models": 0,
+  "new_actual_source_http": 0,
+  "capability_advertisement": {
+    "enabled_only_with_package_optin": true,
+    "default_discovery_prompt_unchanged": true,
+    "preset_package_name": false,
+    "new_tests": 3,
+    "focused_passed": 89,
+    "full_total": 1033,
+    "full_passed": 1030,
+    "skipped": 3,
+    "readiness_run": "discovered-package-capability-20261126-002",
+    "all_six_stages_passed": true,
+    "initial_failed_run": "discovered-package-capability-20261126-001",
+    "failure_disposition": "Old injected test factory lacked new optional keyword; corrected fixture to accept and assert defaultfalse. Failed artifacts retained, no model calls."
+  },
+  "exact_prior_source_ci": {
+    "commit": "31954a8",
+    "push": "success",
+    "pull_request": "success"
+  }
+}

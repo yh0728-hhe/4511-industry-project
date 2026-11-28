@@ -1,0 +1,41 @@
+{
+  "protocol_id": "RAGAS-MIXED-CLAIM-20261124-001",
+  "transport_result": {
+    "status": "DIAGNOSTIC_COMPLETED",
+    "score": 1.0,
+    "statement_count": 3,
+    "protocol_id": "RAGAS-MIXED-CLAIM-20261124-001",
+    "elapsed_seconds": 44.36,
+    "cli_attempts": 2,
+    "new_http": 0,
+    "budget": {
+      "used": {
+        "model": 2,
+        "search": 0
+      },
+      "caps": {
+        "model": 2,
+        "search": 0
+      },
+      "active": 0
+    },
+    "Y_changed": false,
+    "accuracy_measured": false,
+    "retry": false
+  },
+  "root_review_status": "FAILED_INTENDED_STAGE_SEMANTICS",
+  "valid_faithfulness_score": null,
+  "observed_score_not_valid_for_original_response": 1.0,
+  "finding": "Decomposition returned3assessment/meta paragraphs, including NOT SUPPORTED judgment of100-paying-customers. NLI judged the correctness of those assessments, not the original2propositions. Expected mixed-claim fixture behavior was not met.",
+  "cause_limits": "Evidence and analysis guard were passed to decomposition; stage contamination observed. Their causal contribution has not been isolated experimentally.",
+  "next_action": "Separate extraction from evidence judgment and restore upstream decomposition example; no old-output rewrite or automatic retry.",
+  "raw_sha256": {
+    "receipt.json": "70107d057d0ddb00093f18bb48627feb1f0a3eeb74d1232e5178ea757de369e4",
+    "assessment.json": "74235a949abd9652a69c9775718eafbc3016f619e3c1001703869ff97639bba4",
+    "stage_trace.json": "7238c13286d3de76430834898f0a0f4624bad3491d009f8443e1e09da1493164",
+    "1_stdout.json": "56294be3239bb541a73e93584274582d4c315681fee176c97c9114b16a6ec779",
+    "2_stdout.json": "0331af7e33cd52b9d66898e28200b7c4ef72726124a2842f437bb238f0d2c302"
+  },
+  "accuracy_claim": false,
+  "Y_changed": false
+}

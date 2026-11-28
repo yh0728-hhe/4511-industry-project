@@ -1,0 +1,16 @@
+{
+  "code_commit": "dc8e7e1",
+  "checks": [
+    {
+      "name": "readiness",
+      "conclusion": "success",
+      "url": "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45855560542/job/140032861100"
+    },
+    {
+      "name": "readiness",
+      "conclusion": "success",
+      "url": "https://github.com/YueYu-Rose/4511-industry-project/actions/runs/45855547271/job/140032815182"
+    }
+  ],
+  "verified_date": "2026-11-26"
+}

@@ -1,0 +1,75 @@
+{
+  "verified_utc": "2026-11-23T20:25:50.637882+00:00",
+  "probe_id": "grounding_generation_probe_001",
+  "protocol_sha256": "c82014bdfcec027a8dbec4c4261826c671c8b0b564ef624db59e3bceec5b3604",
+  "prompt_fingerprint": "8f68810003b80d51f270582cab3ffdd15789d590791aa0d4c17f1c3021ce612a",
+  "status": "GENERATION_COMPLETED_GROUNDING_REGRESSION_NOT_PASSED",
+  "cli_dispatch_attempts": 2,
+  "elapsed_seconds": 30.472,
+  "logical_budget": {
+    "used": {
+      "model": 2,
+      "search": 0
+    },
+    "caps": {
+      "model": 2,
+      "search": 0
+    },
+    "active": 0
+  },
+  "http_requests": 0,
+  "result_sha256": "1343f9dc910ffba2b0b09272a4b4ab564692422c78c015ca15bceb5ee2bab0b3",
+  "journal_sha256": "4419f876ffd0f1345f0aefedccab47524dc89a835f6d4a2063c9f8328e055e78",
+  "review": {
+    "run_fingerprint": "c82014bdfcec027a8dbec4c4261826c671c8b0b564ef624db59e3bceec5b3604",
+    "reviewer_id": "Codex-source-review-20261123-generation-regression",
+    "items": [
+      {
+        "claim_id": "new-pro",
+        "claim_sha256": "aeea13849dd8e8bee015b58ec83b2ee71b7e9dd144ecdc830a846d8ba2013b64",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ],
+        "verdict": "UNSUPPORTED",
+        "rationale": "Unsupported: documentation URL is not verified target content; the argument states team progression/execution and third-party integration intent as evidence-based indications beyond the admitted README. Plausible qualifiers do not establish those facts."
+      },
+      {
+        "claim_id": "new-contra",
+        "claim_sha256": "17decdb322e58b12f62e782b5955107d70c31a39b38688a328baaf4ac816ee9e",
+        "cited_fact_ids": [
+          "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1"
+        ],
+        "verdict": "SUPPORTED",
+        "rationale": "The argument confines the observation to README labels/links and explicitly preserves missing business facts as unknown; it declines to manufacture a negative investment premise. This is a conditional supplied review, not independent semantic certification."
+      }
+    ]
+  },
+  "review_summary": {
+    "status": "REQUIRES_DILIGENCE",
+    "reviewer_id": "Codex-source-review-20261123-generation-regression",
+    "run_fingerprint": "c82014bdfcec027a8dbec4c4261826c671c8b0b564ef624db59e3bceec5b3604",
+    "claim_count": 2,
+    "counts": {
+      "SUPPORTED": 1,
+      "UNSUPPORTED": 1,
+      "UNRESOLVED": 0
+    },
+    "unsupported_claim_ids": [
+      "new-pro"
+    ],
+    "unresolved_claim_ids": [],
+    "semantic_support_certified": false,
+    "automatic_entailment_check": false
+  },
+  "selected_unsupported_excerpt": "This indicates the team has moved beyond an idea stage to produce an external-facing, documented software interface",
+  "full_raw_model_output_committed": false,
+  "actual_revised_static_system_prompt_used": true,
+  "automatic_entailment_check": false,
+  "independent_human_gold": false,
+  "comparative_accuracy_or_causal_improvement_established": false,
+  "Y_changed": false,
+  "training_run": false,
+  "inner_inference_count": "UNKNOWN",
+  "invoice": "UNKNOWN",
+  "next_action": "Do not repeat this probe. Preserve review-required status. Prioritize richer dated evidence and fail-closed analysis acceptance rather than more prompt-only tuning."
+}

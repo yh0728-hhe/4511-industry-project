@@ -1,0 +1,18 @@
+{
+  "protocol_id": "CAPTURED-DISCOVERY-LIVE-ARCHIVE-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Reuse sealed real search output to test corrected eligible-source selection against independent live archive, without new inference or repeat search",
+  "captured_stream_sha256": "1450a3b1865b041753ab8b05899af03df321c3b6f0f47b980e8a7057bfa092e8",
+  "captured_stream": "discovery_runtime_bounds_live_001/discovery_02/raw_stream.jsonl",
+  "identity_source": "Same hatchet-sdk0.21.1 domain anchor as bounds protocol",
+  "max_new_cli_processes": 0,
+  "max_new_managed_searches": 0,
+  "max_direct_archive_http_attempts": 2,
+  "max_seconds": 60,
+  "max_sources": 1,
+  "retry": false,
+  "fallback": false,
+  "interpretation": "Parser reserves logical model/search slots for injected old output; actual new model/managed search counts ZERO. Only independently verified replay could admit facts.403/429 ends task.",
+  "Y_changed": false,
+  "training": false
+}

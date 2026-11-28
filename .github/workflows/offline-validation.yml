@@ -20,8 +20,8 @@ jobs:
       - name: Rebuild date audit and no-network smoke plan
         run: |
           python3 scripts/audit_funding_dates.py
-          python3 scripts/analyze_weekly_report.py
-          python3 experiments/closed_loop_offline/weekly_smoke.py
+          # The Nov19 visual report uses frozen test-group counts; current validation is in shared-workflow.yml.
+          python3 experiments/closed_loop_offline/weekly_smoke.py --plan-output /tmp/4511-current-smoke-plan.json
           git diff --exit-code -- data/weekly_audit_20261119 data/weekly_smoke_20261119
       - name: Exercise synthetic closed-loop outcomes
         run: python3 experiments/closed_loop_offline/run_fixtures.py /tmp/4511-fixture-runs.json

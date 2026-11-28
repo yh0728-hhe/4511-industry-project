@@ -1,0 +1,48 @@
+{
+  "status": "CLEAN_CHECKOUT_AND_COMPLETED_STEP_RESUME_VERIFIED",
+  "commit": "313d01ff8574e40fc639d645f83dfd32c172c39f",
+  "full_tests": 746,
+  "passed": 743,
+  "skipped": 3,
+  "step_artifacts_unchanged_count": 8,
+  "sha256_and_mtime_preserved": true,
+  "module_import_from_clean_checkout": true,
+  "untracked_captured_research_inputs_present": false,
+  "git_worktree_clean": true,
+  "new_model_calls": 0,
+  "new_research_HTTP": 0,
+  "completed_step_artifacts": {
+    "adagy_plan.json": {
+      "sha256": "0d2be6b46e79248511ace2c6ec0e73f3b7b9e82d4f5019e47dd2146ce5262ca6",
+      "mtime_ns": 1795566219664539500
+    },
+    "adagy_preflight.log": {
+      "sha256": "f5c146dd78c72f3f978c41967f220b2ad9f4d3eef9d7ad594a9a80394406c20b",
+      "mtime_ns": 1795566219684999900
+    },
+    "fixtures.json": {
+      "sha256": "f969850a7048b54747813bb82f08f1ccb2831636119675b2c0d76963ec71f822",
+      "mtime_ns": 1795566219514837600
+    },
+    "funding_tests.log": {
+      "sha256": "9b6fb3d0135da014af6e5b2a98f1463844b2b719f4e5e93a8429d99db92af936",
+      "mtime_ns": 1795566219135624100
+    },
+    "outcome_tests.log": {
+      "sha256": "6271d6bd43e4e87b7334733712b09462f19e8724d8e03bc9848c3e299b0a11e9",
+      "mtime_ns": 1795566219391465200
+    },
+    "runtime_tests.log": {
+      "sha256": "e60668be1f3263f003d8a1b345ea77ed47a64e0825331f0be616969aff26b95c",
+      "mtime_ns": 1795566216678257800
+    },
+    "snapshot_validation.log": {
+      "sha256": "0135895615a080ed92c313e985dbcaf57b73851abc14c27468911abdc57d73a0",
+      "mtime_ns": 1795566219445267200
+    },
+    "synthetic_loop.log": {
+      "sha256": "2cf723146598ad6b39f5e6eaea0acdf8287efbdc91f3c9a50d96a6b5fc584e9f",
+      "mtime_ns": 1795566219525478100
+    }
+  }
+}

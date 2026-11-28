@@ -1,0 +1,15 @@
+{
+  "protocol_id": "SEALED-REAL-ARCHIVE-REPLAY-20261128-001",
+  "purpose": "First use of sealed replay client with existing real bytes through unchanged publisher and temporal verifier. Not fresh acquisition, model experiment, quality test, or retry.",
+  "manifest_sha256": "40b48996d0d373964e9eabda1834aaf96b544c5a6389e93b44a9eef76c57de13",
+  "source_client_sha256": "0acf8f027b8b7d04ca5ddb3eced2b3460dec5dcaeec10b107b9c96d5063a8029",
+  "original_metadata_sha256": {
+    "results\\scratch\\workflow_20261125\\archived_publisher_live_001\\http_02.json": "614b0df421779f0bc3341cc9f1e26f33d74b7abd97b99a3d6fbadf48fd43fb68",
+    "results\\scratch\\workflow_20261125\\publisher_body_bound_live_001\\replay.json": "aec7fe036d6ce46ccdcd29de75adb0429056dd901b919fa5869615af797a98af"
+  },
+  "max_local_gets": 2,
+  "max_source_http_requests": 0,
+  "max_model_calls": 0,
+  "expected_existing_fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+  "Y_read": false
+}

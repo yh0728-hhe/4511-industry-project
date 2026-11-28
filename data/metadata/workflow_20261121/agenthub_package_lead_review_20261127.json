@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-27",
+  "company_seed": "AgentHub / www.agenthub.dev from original March25spreadsheet",
+  "source": "https://pypi.org/project/agenthub-sdk/",
+  "source_type": "OFFICIAL_PYPI_PROJECT_PAGE_READ",
+  "visible_release_history": [
+    {
+      "version": "0.1.1",
+      "date": "2025-09-17"
+    },
+    {
+      "version": "0.1.2",
+      "date": "2025-09-17"
+    },
+    {
+      "version": "0.1.3",
+      "date": "2025-09-17"
+    },
+    {
+      "version": "0.1.4",
+      "date": "2025-10-03"
+    }
+  ],
+  "cutoff": "2024-04-04T23:59:59Z",
+  "decision": "HOLD_POSTCUTOFF_RELEASES_AND_UNRESOLVED_COMPANY_BINDING",
+  "reason": "All four displayed releases are after the historical cutoff. Similar name/domain contact does not certify identity with the YC company.",
+  "current_description_used_as_historical_evidence": false,
+  "package_downloaded": false,
+  "package_installed": false,
+  "historical_source_admitted": false,
+  "Y_changed": false,
+  "limitation": "A displayed release history is not proof that no deleted or otherwise unavailable older release ever existed.",
+  "tools": "Browser search and official project-page read; provider internal HTTP count unknown. No direct registry client request, model inference or artifact download."
+}

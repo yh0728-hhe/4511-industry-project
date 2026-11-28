@@ -1,0 +1,66 @@
+{
+  "status": "VERIFIED_HISTORICAL_SOURCE_PAIR_PATH_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "claude_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 146.645,
+    "retry": false
+  },
+  "claude_contribution": "Refactored common pair core; added trusted typed source-item route, provenance plan fields, and6tests.",
+  "codex_contribution": "Added multi-source/all-or-nothing/container/first-stop and strict boolean-proof tests; preserved first cause and null success stop, validated captured historical publisher bridge and full offline readiness.",
+  "new_tests": 11,
+  "total_tests": 965,
+  "passed": 962,
+  "skipped": 3,
+  "readiness_run": "verified-evidence-pair-20261126-003",
+  "captured_archive_structural_replay": {
+    "status": "CAPTURED_ARCHIVE_TO_PAIRED_EVALUATOR_STRUCTURAL_REPLAY_ONLY",
+    "actual_http_requests": 0,
+    "actual_model_calls": 0,
+    "local_cache_gets": 2,
+    "source_id": "b17c1685eb58c53d977a20436cc1363920698d3df4ab6fe470ecf40bc4ffb72e",
+    "fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+    "source_hashes": {
+      "archive_http_003.json": "02568352245cb403cddee3338355c3069f60daba363544e48a9015ce82dd530d",
+      "archive_http_003.body": "14d272d6ba7cd025c3dd5e63085c4bc2c37832458726499609e3c3e1bc2127f9",
+      "archive_http_004.json": "e54a3c2cf2361197ce239fef9b095ae1736c700485bce4fbacb942f9dbdd84a0",
+      "archive_http_004.body": "d0b7e66a7b1a9c53e33beab731a1b1d40aab4d57e75db99f89df98ceee0d5c32"
+    },
+    "sealed_inputs_unchanged": true,
+    "source_identity_matches_original": true,
+    "same_model_evidence": true,
+    "arm_statuses": [
+      {
+        "arm": "single_analyst",
+        "status": "EXECUTED_REVIEW_PENDING"
+      },
+      {
+        "arm": "committee",
+        "status": "EXECUTED_REVIEW_PENDING"
+      }
+    ],
+    "logical_fixture_budget": {
+      "used": {
+        "model": 12,
+        "search": 0
+      },
+      "caps": {
+        "model": 24,
+        "search": 0
+      },
+      "active": 0
+    },
+    "semantic_support_certified": false,
+    "model_quality_evaluated": false,
+    "Y_changed": false
+  },
+  "new_live_pair_run": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Fixed-evidence comparison is a separate diagnostic, not an upfront packet requirement for dynamic research.",
+    "Trusted typed records remain an internal application boundary, not model-supplied proof or independent authentication.",
+    "Shared analysis budget is not equal per-arm allowance/cost.",
+    "Captured HTTP plus fake model outputs demonstrates integration, not real model quality."
+  ]
+}

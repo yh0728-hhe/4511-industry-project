@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-21",
+  "reviewer": "actual local Claude Code read-only review; Codex executed tests",
+  "raw_review_sha256": "e9158e64bb5aa278b53feb1d21e41ab4f6390831e9b278cbe012210cdf6cc5cb",
+  "accepted_fixes": [
+    "Same abstention instructions for both experiment arms",
+    "Second independent blinded adjudication and disagreements",
+    "Pinned historical receipt canonical hash and original commit",
+    "Explicit checkout-byte versus LF-normalized hash policy",
+    "Protect new outputs under source/data/docs/tests/coordination directories"
+  ],
+  "validation": {
+    "runtime_tests": {
+      "total": 227,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "skipped": 0
+    }
+  },
+  "browser_qa": {
+    "browser": "installed Edge via Playwright",
+    "desktop": "1200x900",
+    "mobile": "390x844",
+    "observed_mobile_scroll_width": 390,
+    "sections": 5,
+    "broken_local_links": 0,
+    "external_resource_elements": 0
+  },
+  "new_model_effectiveness_experiment": false,
+  "new_paid_research_calls": 0,
+  "training": false,
+  "scheduler_enabled": false,
+  "y_changed": false,
+  "candidate_directory": "results/candidates/presentation_demo_20261121"
+}

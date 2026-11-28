@@ -1,0 +1,19 @@
+{
+  "as_of": "2024-04-04T23:59:59Z",
+  "check_argument_support": true,
+  "company": {
+    "company_id": "aether-energy",
+    "domain": "aetherenergie.com",
+    "name": "Aether Energy"
+  },
+  "mandate": "Evaluate whether historically available public evidence is sufficient for an early-stage investment assessment. Choose specialists and material factual questions dynamically, seek original historical sources, distinguish publisher claims from independent verification, and leave missing evidence unknown.",
+  "max_model_calls": 24,
+  "max_research_passes": 2,
+  "max_search_reservations": 12,
+  "max_seconds": 480,
+  "max_sources": 3,
+  "max_specialists": 1,
+  "model": "claude-sonnet-5",
+  "publisher_max_body_bytes": 524288,
+  "verify_publishers": true
+}

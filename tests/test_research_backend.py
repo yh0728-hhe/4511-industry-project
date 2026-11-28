@@ -66,6 +66,29 @@ def task(question='Find a dated business fact'):
 
 
 class ResearchBackendTests(unittest.TestCase):
+    def test_runtime_rejects_overlapping_specialist_navigation_controllers(self):
+        from closed_loop.fixtures import FixtureLead, FixtureCommittee
+        from closed_loop.runtime import ClosedLoopRuntime
+        from closed_loop.specialist_loop import SpecialistResearchLoop
+        provider, backend, client, budget, gateway = setup()
+        specialist = SpecialistResearchLoop(backend, budget)
+        with self.assertRaisesRegex(ValueError, 'Choose one research navigation controller'):
+            ClosedLoopRuntime(provider.request, gateway, budget, FixtureLead(), FixtureCommittee(), provider,
+                              specialist=specialist)
+
+
+    def test_peer_receipts_do_not_hide_current_subject_same_path(self):
+        plans = [ResearchNavigationPlan('FETCH', '/pricing'), ResearchNavigationPlan('STOP', None),
+                 ResearchNavigationPlan('FETCH', '/pricing'), ResearchNavigationPlan('STOP', None)]
+        provider, backend, client, budget, gateway = setup(cap=12, model_cap=8, plans=plans)
+        provider.archive_provider.domain_anchors['PEER_COMPANY'] = 'peer.example'
+        peer = provider.search(ResearchRequest('other', 'Inspect historical business fact', 'SYNTHETIC_COMPANY', 'PEER_COMPANY'))
+        target = provider.search(task('Inspect historical business fact'))
+        self.assertTrue(any(x.url.endswith('/pricing') and x.company_id == 'PEER_COMPANY' for x in peer))
+        self.assertTrue(any(x.url.endswith('/pricing') and x.company_id == 'SYNTHETIC_COMPANY' for x in target))
+        self.assertEqual(sum('/pricing' in x and '/cdx/' not in x for x in client.calls), 2)
+
+
     def test_iterative_model_selection_retrieves_and_readmits_historical_target(self):
         provider, backend, client, budget, gateway = setup()
         candidates = provider.search(task())
@@ -194,9 +217,9 @@ class ResearchBackendTests(unittest.TestCase):
                 self.assertEqual(len(provider.search(task())), 1)
                 self.assertTrue(budget.stopped)
                 self.assertEqual(provider.trace[-1]['reason'], reason)
-                with self.assertRaisesRegex(BudgetStopped, 'STOP_OR_DEADLINE'):
+                with self.assertRaisesRegex(BudgetStopped, reason):
                     provider.search(task())
-                with self.assertRaisesRegex(BudgetStopped, 'STOP_OR_DEADLINE'):
+                with self.assertRaisesRegex(BudgetStopped, reason):
                     with budget.reserve('model'):
                         self.fail('terminal provider error allowed another stage to dispatch')
                 self.assertEqual(len(client.calls), 2)
@@ -247,6 +270,27 @@ class ResearchBackendTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'share request/gateway/budget'):
             MeteredResearchProvider(provider.request, TemporalGateway(provider.request, []), budget,
                                     backend, provider.archive_provider)
+
+    def test_archive_restriction_preserves_root_and_prevents_planner_dispatch(self):
+        from closed_loop.archive_transport import HTTPResponse
+        class RestrictedTargetHTTP(HistoricalHTTP):
+            def get(self,url,timeout,max_bytes,check_deadline=lambda:None):
+                if url.endswith('/pricing') and '/cdx/' not in url:
+                    check_deadline();self.calls.append(url)
+                    return HTTPResponse(429,url,{},b'')
+                return super().get(url,timeout,max_bytes,check_deadline)
+        provider,backend,_,budget,gateway=setup()
+        client=RestrictedTargetHTTP();provider.archive_provider.client=client
+        got=provider.search(task('Inspect pricing plans'))
+        self.assertEqual(len(got),1)
+        self.assertIsNotNone(gateway.admit(got[0])[0])
+        self.assertEqual(len(client.calls),4)
+        self.assertEqual(backend.calls,[])
+        self.assertEqual(budget.stop_reason,'ARCHIVE_RATE_LIMITED')
+        with self.assertRaisesRegex(BudgetStopped,'ARCHIVE_RATE_LIMITED'):
+            provider.search(task('Inspect other path'))
+        self.assertEqual(len(client.calls),4)
+        self.assertEqual(backend.calls,[])
 
 
 if __name__ == '__main__':

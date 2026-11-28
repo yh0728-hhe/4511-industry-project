@@ -1,0 +1,241 @@
+company_id,name_at_decision,financing_y,shutdown_declaration_by_status_cutoff,jeff_rule_presumed_dead_by_cutoff,provider_reported_status,provider_reported_status_date,provider_status_source,provider_status_accepted_for_coverage,provider_status_note,outcome_covered,coverage_basis,status_outcome_cutoff,shutdown_evidenced_by,status_evidence_urls,directory_status_proxy,acquisition_announcement_by_cutoff,financing_negative_inferred
+RM-agenthub,AgentHub,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,UNKNOWN,UNKNOWN,NO
+RM-airfront,Airfront,YES,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-05-10,https://pitchbook.com/profiles/company/592283-89,NO,"ProviderstatusretainedbutcohortYCslugnowservesCopperHealth;companycontinuityconflictnotresolved. FinancingMay1,2024independentlyqualifiescoverage,so no relianceonclosure forY.",YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-assembly-2,Assembly,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-dawn,dawn,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-delve,Delve,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-double-2,Double,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-hona-2,Hona,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-just-words,just words,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-lumina-2,Lumina,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-maihem,MAIHEM,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-nowhouse,NowHouse,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-quantic,Quantic,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.ycombinator.com/companies/quantic|https://www.ycombinator.com/companies/crmcopilot|https://www.crmcopilot.co|https://quanticresearch.com,Active,UNKNOWN,NO
+RM-sevnai,SevnAI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,UNKNOWN,UNKNOWN,NO
+RM-skygaze,Skygaze,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://skygaze.io|https://www.ycombinator.com/companies/skygaze|https://www.linkedin.com/posts/avellal_launch-yc-skygaze-building-the-for-you-activity-7164508899788644352-Cqoo,UNKNOWN,UNKNOWN,NO
+RM-tatara,Tatara,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,UNKNOWN,UNKNOWN,NO
+RM-tensorfuse,Tensorfuse,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-tile,Tile,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-titan-2,Titan,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+RM-trellis,Trellis,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+abel,Abel,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.tryabel.com/about/|https://www.ycombinator.com/companies/abel,Inactive,UNKNOWN,NO
+adapted,Corefin,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+aedilic,Aedilic,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-11-05,https://pitchbook.com/profiles/company/593060-95,YES,"User screenshot explicitly dated Completed Out of Business. Provider status, not issuer declaration or legal certificate; no funding-negative inference.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.ycombinator.com/companies/aedilic|https://gpudeploy.com|https://tesseracted.com/gpudeploy_com,UNCERTAIN,UNKNOWN,NO
+aftercare,Kontractify,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+agentic-labs-2,Agentic Labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+aidy,Aidy,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+alai,Alai,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+alex-com,Apriora,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+andon-labs,Vectorview,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+andy-ai,Andy AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+aqua-voice,Aqua Voice,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+arcane,Arcane,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Acquired,UNKNOWN,NO
+argon-ai-inc,"Argon AI, Inc.",YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+arini,Arini,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+artisan,Artisan AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+artos,Artos,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+atopile,atopile,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+attunement,Attunement,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+averyiq,Starlight Charging,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+basalt,Basalt Tech,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+basepilot,Basepilot,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+betterbasket,BetterBasket,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+bilanc,Bilanc,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+bitesight,BiteSight,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,UNCERTAIN,UNKNOWN,NO
+blacksmith,Blacksmith,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+blume-benefits,Blume Benefits,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,https://www.blumebenefits.com/|https://www.ycombinator.com/companies/blume-benefits|https://reforgers.com/startups/blume-benefits,Inactive,UNKNOWN,NO
+brainbase-labs,Brainbase,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+breez-labs,MathDash,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+browser-buddy,Browser Buddy,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.linkedin.com/posts/william-bryk_excited-to-announce-exas-first-acquisition-activity-7443361202027610112-AJqp|https://www.suhjeremy.com/|https://www.ycombinator.com/companies/browser-buddy,UNCERTAIN,YES,NO
+camelai,camelQA,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+carma,Carma,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+carousel-technologies,Carousel Technologies,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+celest,Celest,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2024-11-12,https://pitchbook.com/profiles/company/551390-59,NO,"Provider status retained but pivot or domain-reuse conflict: celest.dev now shows a different Microsoft AI-agent business linking a YC profile and the celest-dev GitHub org, no shutdown notice. Not accepted for coverage.",NO,UNRESOLVED,2026-04-04,,https://celest.dev|https://www.ycombinator.com/companies/celest|https://news.ycombinator.com/item?id=39894274,Inactive,UNKNOWN,NO
+centauri-ai,Centauri AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+centralize,Centralize,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+circleback,Circleback,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+clarion,Anaphero,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+clarum,Clarum,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+cleva,Cleva,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+cloudcruise,CloudCruise,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+cocrafter,CoCrafter,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+codeant-ai,CodeAnt AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+commodityai,CommodityAI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+conduit-ai,HostAI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+consul,Swift,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.ycombinator.com/companies/consul|https://onconsul.com/,Active,UNKNOWN,NO
+cora,HeyPurple,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+cpgscout,Intercept,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+crowdvolt,CrowdVolt,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+datacurve,Datacurve,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+decipher-ai,Decipher AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+deep24,Amber AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+deepnight,DeepNight,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+dgi-apparel,DGI Apparel,UNKNOWN,YES,NOT_ESTABLISHED,,,,NO,,YES,COMPANY_SHUTDOWN_DECLARATION,2026-04-04,2026-03-08,https://www.dgiapparel.com/|https://web.archive.org/web/20260214044304id_/https://www.dgiapparel.com/|https://web.archive.org/web/20260214044304id_/https://www.dgiapparel.com/assets/index-xcF-baTS.js,Inactive,UNKNOWN,NO
+diana,DianaHR,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+dime-2,Dime,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+draftaid,Draftaid,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+dragoneye,Dragoneye,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+driver,Driver AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+dropback,FanCave,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+drymerge,DryMerge,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+duckie,Duckie,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ecliptor,Ecliptor,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+edgetrace,edgetrace,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+eggnog,Eggnog,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+ego,ego,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ellipsis,Ellipsis,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+elodin,Elodin,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+engines,Parasale,UNKNOWN,YES,NOT_ESTABLISHED,,,,NO,,YES,COMPANY_SHUTDOWN_DECLARATION,2026-04-04,2026-03-12,https://www.engines.dev/|https://web.archive.org/web/20260312231513id_/https://www.engines.dev/,Inactive,UNKNOWN,NO
+eris-biotech,Eris Biotech,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+event-horizon-labs,SciPhi,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+feldy,Aether Energy,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+fileforge,Onedoc,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,https://fileforge.com|https://www.ycombinator.com/companies/fileforge,Inactive,UNKNOWN,NO
+firebender,Firebender,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+fluently,Fluently,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+focal,Focal,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.ycombinator.com/companies/focal|https://focalml.com/,Active,UNKNOWN,NO
+forge,Forge,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+forge-rewards,Forge Rewards,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+fractal-labs,DaLMatian,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+garage-2,Garage,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+getcrux,Crux,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+givefront,Givefront,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+glimmer,Glimmer,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2026-03-22,https://pitchbook.com/profiles/company/593069-41,YES,"Provider-reported business cessation 2026-03-22, before the 2026-04-04 endpoint; not a company declaration or legal dissolution. Continuity not checked beyond the domain match. Funding stays UNKNOWN, no negative inferred.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://pitchbook.com/profiles/company/593069-41|https://www.ycombinator.com/companies/glimmer,UNCERTAIN,UNKNOWN,NO
+gloglo,Markprompt,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+governgpt,GovernGPT,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+granza-bio,Granza Bio,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+greenboard,Greenboard,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+greptile,Greptile,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+guide-labs,Guide Labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+haplotype-labs,Haplotype Labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+hatchet-run,Hatchet,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+hazel-2,Hazel,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+healia,Healia,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+heartbyte,HeartByte,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+indemni,Alacrity,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+infinity,Infinity,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+inquery-2,InQuery,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+inspectmind-ai,InspectMind AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+integuru,Taiki,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ion-design,ion design,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+junction-bioscience,Junction Bioscience,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+kabilah,Kabilah,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+kater-ai,kater.ai,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+keystroke,Buster,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+lantern-2,Lantern,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Inactive,UNKNOWN,NO
+latted,Fume,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+leaping,Leaping,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+legora,Leya,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+lemonslice,Infinity AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+lucite,Lucite,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://finance.yahoo.com/technology/ai/articles/sterling-brokers-acquires-lucite-bringing-140000890.html|https://www.businesswire.com/news/home/20261106157362/en/|https://ca.linkedin.com/company/sterlingbrokers|https://www.lucite.ai/,Active,UNKNOWN,NO
+lumetric,PocketPod,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,https://app.lumetric.ai/resources/blog/lumetric-is-joining-factory|https://www.ycombinator.com/companies/lumetric,Active,UNKNOWN,NO
+lumona,Lumona,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2026-04-24,https://pitchbook.com/profiles/company/551380-33,NO,"Provider date 2026-04-24 is after the 2026-04-04 status endpoint, so it is not counted. Kept as a post-endpoint fact; not backdated.",NO,UNRESOLVED,2026-04-04,,https://pitchbook.com/profiles/company/551380-33|https://www.therundown.ai/tools/lumona|https://www.ycombinator.com/companies/lumona,Inactive,UNKNOWN,NO
+magic-hour,Magic Hour,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+maia,Maia,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+malibou,malibou,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+mango-health,Mango Health,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://themangohealth.com|https://www.ycombinator.com/companies/mango-health|https://www.ycombinator.com/founders/jamison-mercurio,Inactive,UNKNOWN,NO
+manifold-freight,Manifold Freight,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+marblism,Marblism,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+marr-labs,Marr Labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+meticulate,Meticulate,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+metofico,Metofico,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+miden,Miden,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+million,Million.js,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+model-ml,Model ML,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+momentic,Momentic,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+monumint,OmniAI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+nanocorp,phospho,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+navier-ai,NavierAI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ncompass-technologies,nCompass Technologies,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+newton,Hemingway,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+nuanced,"Nuanced, Inc.",YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+octolane-ai,Octolane AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ocular-ai,Ocular AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+oddsview,OddsView,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2026-03-03,https://pitchbook.com/profiles/company/593005-96,YES,"Provider-reported business cessation 2026-03-03, before the 2026-04-04 endpoint. First-party notice also recovered from Wayback captures of oddsview.com: 'Shutting Down' with prorated refunds on the 2025-12-10 capture, 'decided to shut OddsView down' on 2026-01-19 and 2026-02-09. Counted through the provider route, not entered in the survival triage. Funding stays UNKNOWN, no negative inferred.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.oddsview.com/|https://x.com/GMGoBetting/status/1995980485923586139|https://www.betsmart.co/tool-reviews/oddsview,Active,UNKNOWN,NO
+offdeal,OffDeal,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+oma-care,Oma Care,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+onegrep,OneGrep,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+onyx,Danswer,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+open,OpenCopilot,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+opencall,Opencall.ai,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+openmart,Openmart,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+overheard,OpenFoundry,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+paradigm,Paradigm,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+parallel,Kiosk,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+parcelbio,ParcelBio,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+partnerhq,PartnerHQ,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+patchwork,Patchwork,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2024-08-27,https://pitchbook.com/profiles/company/596148-31,YES,"Provider-reported business cessation,not a company-issued shutdown declaration or legal dissolution. Duplicateimagescountonce.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.ycombinator.com/companies/patchwork,Inactive,UNKNOWN,NO
+pazi,Pythagora (GPT Pilot),YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+penciled,Somn,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+piramidal,Piramidal,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+pivot-robotics,Pivot Robots,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+pointone,PointOne,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+polar,GoldenBasis,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+powder,Powder,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+precip,Precip,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+preloop,Preloop,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-02-18,https://pitchbook.com/profiles/company/551386-54,YES,"Provider-reported business cessation, not a company declaration or legal dissolution. Wayback: Coming soon page Oct 2024, 404 Mar 2025. YC directory proxy Active came from the 2026-02-08 snapshot; live YC page now Inactive. Live preloop.com could not be opened in the browser pane. Funding stays UNKNOWN, no negative inferred.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.crunchbase.com/organization/preloop|https://www.cbinsights.com/company/preloop|https://www.ycombinator.com/companies/preloop,Active,UNKNOWN,NO
+pretzel-ai,Pretzel AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+promptarmor,PromptArmor,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+prosights,ProSights,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+quary,Quary,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.tobikodata.com/blog/tobiko-acquires-quary|https://www.ycombinator.com/companies/quary|https://web.archive.org/web/20251214144740id_/https://www.tobikodata.com/blog/tobiko-acquires-quary,Inactive,YES,NO
+quivr,Quivr,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://web.archive.org/web/20260314001204id_/https://www.quivr.com/blog/how-we-pivoted-using-the-yc-playbook|https://web.archive.org/web/20260313233433id_/https://www.quivr.com/blog/quivr-vs-zendesk-ai|https://www.thevibecompany.co/en/resources/articles/quivr-to-the-vibe-company|https://www.ycombinator.com/companies/quivr,Active,UNKNOWN,NO
+radmate-ai,RadMate AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-06-21,https://pitchbook.com/profiles/company/593104-15,YES,June21fromuserimage supersedesearlierunverifiedAug14claim. Hiddenamountsnotinferred.,YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://doomscrollr.com/|https://www.ycombinator.com/companies/radmate-ai,Inactive,UNKNOWN,NO
+reducto,Reducto,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+reform,Reform,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+relari,Relari,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+renderlet,renderlet,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+reprompt,Reprompt,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+resonance,Resonance,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.ycombinator.com/companies/resonance|https://www.useresonance.com/,UNCERTAIN,UNKNOWN,NO
+respan,Keywords AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+retailready,RetailReady,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+retell-ai,Retell AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+risotto,Risotto,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+roe,Roe AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+rove,Rove,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+salvy,Salvy,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+scritch,Scritch,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+selera-medical,Selera Medical,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.ycombinator.com/companies/selera-medical|https://www.mapquest.com/us/california/selera-medical-536431548,Inactive,UNKNOWN,NO
+senso,Senso,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+shepherd-2,Shepherd,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+shiboleth,Shiboleth,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+silogy,SiLogy,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+solari-ai,SpareChange,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+sonia,Sonia,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+soundry-ai,Soundry AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://www.crunchbase.com/organization/soundry-ai|https://www.ycombinator.com/companies/soundry-ai,Active,UNKNOWN,NO
+spark,Spark,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+speck,Speck,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-08-16,https://pitchbook.com/profiles/company/593068-24,NO,Provider status retained but continuity conflict: speck.sh has dated captures 2025-09-06 and 2025-11-14 showing an operating product and a 2026-04-02 acquisition banner. Acquisition alone is not counted. Not accepted for coverage.,NO,UNRESOLVED,2026-04-04,,https://speck.sh/contact|https://www.ycombinator.com/companies/speck|https://web.archive.org/web/20260402235659id_/https://speck.sh/,UNCERTAIN,YES,NO
+stacksync,Stacksync,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+stitch-technologies,Stitch Technologies,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,https://find-and-update.company-information.service.gov.uk/company/15054976|https://find-and-update.company-information.service.gov.uk/company/15054976/officers|https://www.ycombinator.com/companies/stitch-technologies|https://www.linkedin.com/posts/rdosanjh_as-some-of-you-may-know-after-more-than-4-activity-7135234014507851776-SVmD,Inactive,UNKNOWN,NO
+superagent,Superagent.sh,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+suretynow,BondCenter,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+sync-2,sync labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+synsorybio,SynsoryBio,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+tamarind-bio,Tamarind Bio,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+terrakotta,Terrakotta,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+tesseral,Okapi,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,UNCERTAIN,UNKNOWN,NO
+the-new-money-company,Numo,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+thorntale,thorntale,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-12-01,https://pitchbook.com/profiles/company/593027-29,YES,"User screenshot explicitly dated Completed Out of Business. Provider status, not issuer declaration or legal certificate; no funding-negative inference.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.thorntale.com/blog/2025-12-11-thorntale-presentations-shutting-down/|https://www.thorntale.com/,UNCERTAIN,UNKNOWN,NO
+toma,Toma,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+toolify,Creo,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-06-04,https://pitchbook.com/profiles/company/593012-26,YES,"Provider-reported business cessation 2025-06-04, before the 2026-04-04 endpoint; not a company declaration or legal dissolution. Used the dated provider record, not the disappearance of the old brand. No operation after that date found: toolify.sh later resolved to an unrelated site and trycreo.com has no captures after 2024-08-25. Creo rename rests on one aggregator and is unconfirmed. Funding stays UNKNOWN, no negative inferred.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://www.toolify.sh/|https://www.ycombinator.com/companies/toolify|https://www.linkedin.com/company/trycreo,Inactive,UNKNOWN,NO
+topo,Topo AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+tracecat,Tracecat,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+treblo,Sonauto,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+trieve,Trieve,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Acquired,UNKNOWN,NO
+trueclaim,TrueClaim,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+tuesday-labs,Adagy Robotics,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+tusk,Tusk,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+ubicloud,Ubicloud,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+upsolve-ai,Upsolve AI,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+veles,Veles,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+velorum-therapeutics,Velorum Therapeutics,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+vibrant-labs,Ragas,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+vista-power,Vista Space,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+voicepanel,Voicepanel,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+voxops-ai,Konstructly,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+wuri,Wuri,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,Out of Business,2025-07-29,https://economictimes.indiatimes.com/tech/artificial-intelligence/the-ai-start-dilemma-to-pivot-or-perish/articleshow/122959372.cms?trk=article-ssr-frontend-pulse_little-text-block,YES,"Normalizedreviewedsecondarybusinesscessationforcoverage. ETJuly29,2025reportsWuriannouncedshutdownrecently; noexactclosingdayorlegaldissolutionasserted. Founderquoteconcernsbusinessconditions, notdirectshutdownquotation. NotARCHIVED_FIRST_PARTY_STATEMENT. BareacquihirelabelandlegalActivealone donotcontradictreportedoperationalshutdown.",YES,REVIEWED_PROVIDER_OUT_OF_BUSINESS,2026-04-04,,https://techstartups.com/2025/12/09/top-ai-startups-that-shut-down-in-2025-what-founders-can-learn/|https://ycombinator.fyi/exhibit/wuri|https://www.ycombinator.com/companies/wuri,Inactive,UNKNOWN,NO
+xpay,xPay,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+yarn-2,Yarn,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+yenmo,Yenmo,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+yondu,Yondu,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+yoneda-labs,Yoneda Labs,YES,UNKNOWN,NOT_ESTABLISHED,,,,NO,,YES,FINANCING_OBSERVED,2026-04-04,,,Active,UNKNOWN,NO
+zaymo,Zaymo,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO
+zep-ai,Zep AI,UNKNOWN,UNKNOWN,NOT_ESTABLISHED,,,,NO,,NO,UNRESOLVED,2026-04-04,,,Active,UNKNOWN,NO

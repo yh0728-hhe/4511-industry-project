@@ -1,0 +1,31 @@
+{
+  "protocol_id": "CACHED-TRIAGE-LEAD-QUESTION-BOUNDS-20261125-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "One new lead invocation with fixed scalar bounds; reuse already successful4-question triage and revalidated capturedsource, no redoingtriage/search/NLI/debate.",
+  "input_sha256": {
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_001.json": "44f434225e4b857754f80ebd6f3038d50225e6bc0bb4163078aaa0d3da688da8",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_001.body": "324ed138690a4a80cc24995e64c4af77e8a371d4bac160363de0f62d9de43df3",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_002.json": "42c157a49d1f37b71efd0b776dd24d5b56480c89a7085cfbfaae9da076d6b4a5",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\archive_http_002.body": "80660b575936a8526fb5ff5a44af19d68c7e3cac95d69c30cf0fda5ce6fcb1bb",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\backend_capture\\12_stdout.raw": "b95b04c579444f205750e0b0547493cc5f845032c723a8ee8d832604329fd6bc",
+    "results\\scratch\\workflow_20261124\\full_discovery_workflow_live_001\\plan.json": "42e9feab98bd7f8fb41f0c3487d00acc8fce7fe19a1c0f4cd6a31ce0552f6957",
+    "results\\scratch\\workflow_20261125\\triage_lead_feedback_live_002\\triage_questions.json": "8acd569726a0f36b37ae1cdeea5a6b5afc6c690f7b4a987bacdb9c485d620bd0"
+  },
+  "code_sha256": {
+    "model_lead.py": "876e3b39002073db2b0373df8bf1d296daf8a4054cdd998f68942d88c6eff97e",
+    "agent_prompts.py": "6157c3e63b9c5e0f08d8c129ae883b6ff4442b5f87f9b15beeeb3fd2526d9556"
+  },
+  "max_actual_new_cli_processes": 1,
+  "max_actual_new_http": 0,
+  "max_logical_model_reservations": 1,
+  "max_logical_search_reservations": 2,
+  "max_seconds": 75,
+  "per_call_seconds": 60,
+  "max_selected_tasks": 2,
+  "max_question_characters": 1024,
+  "retry": false,
+  "fallback": false,
+  "interpretation": "Research task generation only, not researchcompletion/factverification/accuracy. AllsavedJSON read explicitlyUTF8; originalrunsunchanged.",
+  "Y_changed": false,
+  "training": false
+}

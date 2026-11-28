@@ -1,0 +1,45 @@
+{
+  "closing_confirmation_required_for_non_sec": false,
+  "cohort": 240,
+  "coverage_pct": 63.75,
+  "funding_y_positive": 153,
+  "inputs_sha256": {
+    "data\\metadata\\source_aware_y_20261113\\late_disclosure_events.json": "4a43c91ce1756324ec166da61617da1ef6e20e381a2e54808befc150495ec91a",
+    "data\\metadata\\y_four_conflicts_resolution_20261114\\source_choices.json": "f1e45f7963a6d25b95adea1ad56125dcd91b4882d4a2ec87f2fd25b0099db0ff",
+    "data\\metadata\\y_july_sweep_20261114\\approved_additional_disclosures.json": "f6d850d35e93f0dc320597577c65fa705c2482f5824674e2289922784a3a43b3",
+    "docs\\source_specific_timing_policy.md": "2ffb12a43c2c6dcbc838fda805922b653f26801f4fdb9c1a194e0558379b67af",
+    "results\\candidates\\funding_y_evidence_expansion_v1\\company_labels.csv": "69b1d4a63f48617f0a742e4609c857c663d53f37ea002053eae5e123b9520332",
+    "results\\candidates\\funding_y_multisource_v1\\company_labels.csv": "03b2ee5022dca9f336e93752001b238c2135d5134f8d25e513285a09543c2a45"
+  },
+  "mechanical_backshift": false,
+  "new_disclosure_companies_from_grace": [
+    "arini",
+    "attunement",
+    "eris-biotech",
+    "greenboard",
+    "marr-labs",
+    "nanocorp"
+  ],
+  "non_sec_disclosure_positive": 152,
+  "non_sec_end": "2026-07-04",
+  "restored_provider_date_companies": [
+    "agentic-labs-2",
+    "arcane",
+    "artos",
+    "commodityai",
+    "haplotype-labs",
+    "marblism",
+    "overheard",
+    "polar",
+    "terrakotta",
+    "trueclaim",
+    "upsolve-ai",
+    "yarn-2"
+  ],
+  "scope": "Existing reviewed mapped evidence plus root-reviewed July-sweep additions; search coverage reported separately",
+  "sec_end": "2026-04-04",
+  "sec_first_sale_positive": 12,
+  "start": "2024-04-05",
+  "unknown": 87,
+  "verified_negatives": 0
+}

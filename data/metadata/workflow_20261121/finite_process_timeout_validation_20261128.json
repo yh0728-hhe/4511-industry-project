@@ -1,0 +1,32 @@
+{
+  "status": "INVALID_PROCESS_TIMEOUT_REJECTED_BEFORE_DISPATCH",
+  "date": "2026-11-28",
+  "new_regression_tests": 1,
+  "reproduced_before_fix": {
+    "failed_subcases": 3,
+    "real_children_started": 0,
+    "model_calls": 0
+  },
+  "fixed_values": [
+    "NaN",
+    "positive infinity",
+    "negative infinity",
+    "1e300",
+    "unrepresentable integer"
+  ],
+  "private_profile": {
+    "run_id": "finite-process-timeout-20261128-004",
+    "total": 1184,
+    "passed": 1181,
+    "skipped": 3,
+    "stages_passed": 6
+  },
+  "focused_tests": 29,
+  "source_http_requests": 0,
+  "model_calls": 0,
+  "Y_changed": false,
+  "sha256": {
+    "src/closed_loop/cli_backend.py": "5bad81e1ac53ddf8d95d0f9aa37bcb7f8716dd67c8f1843806d4708ceb5334ec",
+    "tests/test_cli_backend.py": "97ae83daeb24cdece947399a06634ffeae2a9f6c6111ec2115e42ac9c7685e74"
+  }
+}

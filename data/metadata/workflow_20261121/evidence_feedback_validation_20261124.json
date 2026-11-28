@@ -1,0 +1,22 @@
+{
+  "status": "OPTIONAL_RAGAS_TO_RESEARCH_FEEDBACK_INTEGRATED_OFFLINE",
+  "worker": {
+    "error_type": "TimeoutExpired",
+    "elapsed_seconds": 180.634,
+    "configured_timeout_seconds": 180,
+    "retry": false
+  },
+  "attribution": "Actual Claude wrote wrapper and15tests, timed out during completion. Codex repaired2incorrect fixture expectations, added3failure/admission tests, hardened prevalidation/failure retention, and connected package runner with2tests. No worker retry.",
+  "tests": {
+    "wrapper": 18,
+    "package_runner": 15,
+    "full_total": 730,
+    "passed": 727,
+    "skipped": 3
+  },
+  "behavior": "Only selected final argument text is checked; unsupported statements become targeted evidence gaps and MORE_DILIGENCE, triggering existing research loop. Missing support is not PASS.",
+  "automatic_review_not_human": true,
+  "final_acceptance_gate_unchanged": true,
+  "runner_default_enabled": false,
+  "real_full_feedback_run": "NOT_YET_EXECUTED"
+}

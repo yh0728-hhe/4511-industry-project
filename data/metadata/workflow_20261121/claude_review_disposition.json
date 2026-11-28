@@ -1,0 +1,62 @@
+{
+  "reviews": [
+    {
+      "worker": "Claude Code local CLI",
+      "mode": "read-only Read/Grep/Glob, default subscription model; no tests/code execution by reviewer",
+      "raw_result_sha256": "27896cf0ba2d0e9e351fe629f76c87f7397ccf0acc5a7fd1c2ab16ba901d53d7",
+      "completed": true,
+      "raw_transcript_committed": false
+    },
+    {
+      "worker": "Claude Code local CLI",
+      "mode": "read-only Read/Grep/Glob, default subscription model; no tests/code execution by reviewer",
+      "raw_result_sha256": "ca6a2bbd13f7eeaef9110f6a055f78065e5eb2577cabe492411668c4c63a739f",
+      "completed": true,
+      "raw_transcript_committed": false
+    }
+  ],
+  "root_dispositions": [
+    {
+      "finding": "Cross-subject visited path pollution",
+      "status": "FIXED_AND_REGRESSION_TESTED",
+      "files": [
+        "src/closed_loop/research_backend.py",
+        "tests/test_research_backend.py"
+      ]
+    },
+    {
+      "finding": "Physical model request cap not bound to run budget",
+      "status": "FIXED_AND_REGRESSION_TESTED",
+      "files": [
+        "src/closed_loop/openai_backend.py",
+        "tests/test_openai_backend.py"
+      ]
+    },
+    {
+      "finding": "Potential duplicate research navigation controllers",
+      "status": "EXPLICIT_CONSTRUCTION_GUARD_ADDED",
+      "note": "Existing specialist loop remains usable with compatible non-navigation provider."
+    },
+    {
+      "finding": "New test class after unittest.main guard",
+      "status": "FIXED_AND_DIRECT_FILE_EXECUTION_VERIFIED"
+    },
+    {
+      "finding": "Lock error surfaced as traceback",
+      "status": "CLI_RETURNS_STRUCTURED_REFUSAL"
+    },
+    {
+      "finding": "Training readiness needs target-appropriate labels",
+      "status": "ACCEPTED_WITH_CORRECTION",
+      "note": "Shutdown/failed-raise are not automatically no-financing negatives. Existing firstpartyshutdown count is2; do not repeat reviewer speculative count4. Outcomes and financing labels must remain distinct."
+    }
+  ],
+  "root_additional_checks": [
+    "all240 real cohort rows project onlycompany_id/name/domain",
+    "actual subprocess timeout saves checkpoint and releases lock",
+    "run identity and changed input/artifact resume rejection",
+    "failed child exitcode retained even if output missing",
+    "concurrent archive probe lease protection"
+  ],
+  "review_limitations": "Static independent reviews, not a security certificate or predictive-model evaluation."
+}

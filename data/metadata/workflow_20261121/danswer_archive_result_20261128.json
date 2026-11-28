@@ -1,0 +1,11 @@
+{
+  "protocol_id": "DANSWER-ORIGINAL-DOMAIN-ARCHIVE-20261128-001",
+  "status": "PARENT_DEADLINE_STOP_NO_RETRY",
+  "model_calls": 0,
+  "Y_changed": false,
+  "training": false,
+  "admitted_facts": 0,
+  "physical_http_intents": 2,
+  "elapsed_seconds": 45.647,
+  "protocol_sha256": "523182feeedaa066f22ea4f7da6d6ab13d1905e6eea9fcc933bce0b2a8647387"
+}

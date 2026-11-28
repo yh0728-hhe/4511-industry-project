@@ -1,0 +1,32 @@
+{
+  "protocol_id": "DISCOVERY-RUNTIME-BOUNDS-20261124-001",
+  "execution_commit": "e0d5901",
+  "elapsed_seconds": 68.775,
+  "status": "DISCOVERY_RUNTIME_STOPPED",
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "CALL_CAP",
+  "backend_process_attempts": 2,
+  "managed_discovery_process_attempts": 2,
+  "direct_archive_http_attempts": 0,
+  "logical_call_budget": {
+    "used": {
+      "model": 4,
+      "search": 3
+    },
+    "caps": {
+      "model": 4,
+      "search": 6
+    },
+    "active": 0
+  },
+  "admitted_fact_count": 0,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "BOUND_ENFORCED_WITH_ELIGIBLE_SOURCE_SELECTION_FINDING",
+  "quality_success": false,
+  "finding": "Both managed search outputs included eligible official-domain URLs after foreign-domain entries, but max_sources sliced the first URL before capability filtering; zero archive HTTP attempted. Must prioritize verifier-compatible leads without trusting current text.",
+  "debate_and_ragas_executed": false,
+  "managed_internal_requests": "UNKNOWN",
+  "source_selection_fix_not_in_execution": true
+}

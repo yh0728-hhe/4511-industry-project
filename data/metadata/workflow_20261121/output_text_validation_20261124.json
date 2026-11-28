@@ -1,0 +1,42 @@
+{
+  "verified_utc": "2026-11-24T18:18:16.931539+00:00",
+  "status": "OFFLINE_STRUCTURED_TEXT_FIX_VALIDATED",
+  "implementation": "Codex offline integration/debug",
+  "prompt_version": "agent-roles-v0.5-structured-text",
+  "prompt_fingerprint": "f7bb0027fd1ceac3b788120845ea529be12ef365bd8f0e9d4f180a7dcc43611f",
+  "actual_old_output_rechecks": [
+    {
+      "field": "baseline-rationale",
+      "text_sha256": "a758ff6586cc14177a9cba18644494103d12c2f2ff77021d70d5bed36640f12c",
+      "status": "REJECTED_INVALID_ANALYSIS_TEXT_FORMAT"
+    },
+    {
+      "field": "final-pro",
+      "text_sha256": "d7037af71f1303b1fb4545f4670919a074e53116beea1d991857a38d95e1bd42",
+      "status": "REJECTED_INVALID_ANALYSIS_TEXT_FORMAT"
+    },
+    {
+      "field": "final-contra",
+      "text_sha256": "f0761d8c0fa95270df439af67c2d7450b686db8cacd63a749100bc2376fc8bae",
+      "status": "REJECTED_INVALID_ANALYSIS_TEXT_FORMAT"
+    }
+  ],
+  "sealed_raw_files_match_previous_hashes": true,
+  "old_run_rewritten": false,
+  "new_model_calls": 0,
+  "new_network_calls": 0,
+  "offline_tests": {
+    "total": 659,
+    "passed": 656,
+    "skipped": 3
+  },
+  "focused_tests": 5,
+  "template_schema_mismatch_verified": true,
+  "mismatch_proven_as_sole_cause": false,
+  "new_live_behavior_verified": false,
+  "semantic_support_improvement_verified": false,
+  "Y_changed": false,
+  "training_run": false,
+  "policy": "Reject encoded JSON objects/arrays in narrative fields and trailing tool-control markup; never strip/repair source claims or overwrite raw model output",
+  "scope_limits": "Syntactic validation only. Ordinary prose, inline JSON and quoted markup remain allowed. Vendor prompt files unchanged; shared refinement overlay states schema fields explicitly."
+}

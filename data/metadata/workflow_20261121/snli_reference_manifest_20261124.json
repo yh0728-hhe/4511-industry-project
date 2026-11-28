@@ -1,0 +1,41 @@
+{
+  "dataset": "stanfordnlp/snli",
+  "repository_revision_observed": "cdb5c3d5eed6ead6e5a341c8e56e669bb666725b",
+  "rows_endpoint": "https://datasets-server.huggingface.co/rows?dataset=stanfordnlp%2Fsnli&config=plain_text&split=test&offset=0&length=6",
+  "rows_endpoint_revision_pinned": false,
+  "captured_rows_sha256": "9876996bc5f2f644bd84817578d79f2767c59a6dfa7ded8cd861d40fa1f82b7c",
+  "observed_utc": "2026-11-25T00:31:09.961153+00:00",
+  "license": "CC-BY-SA-4.0 (SNLI source data; project code separate)",
+  "source_card": "https://huggingface.co/datasets/stanfordnlp/snli",
+  "paper": "https://aclanthology.org/D15-1075/",
+  "selection": "First3nonambiguous test rows among first6, ascending row index; no model outputs used in selection",
+  "human_reference_mapping": "0 entailment -> supported;1neutral/2contradiction -> not_entailed",
+  "limits": [
+    "Very small published benchmark sanity check, not unseen holdout",
+    "General caption entailment, not startup investment or company fact adjudication",
+    "Unversioned rows response retained by exact hash; do not assert it cryptographically matches repository revision"
+  ],
+  "cases": [
+    {
+      "row_idx": 0,
+      "gold_original_label": 1,
+      "expected_supported": 0,
+      "premise_sha256": "685ddecd8a4d89755c8f35ffa257dcec758597eedc8e621ff6436670ebcbc4b1",
+      "hypothesis_sha256": "06f51c4e805b91564ed0a5030943cba0136266b88bb45839ec63dd2f2460d28c"
+    },
+    {
+      "row_idx": 1,
+      "gold_original_label": 0,
+      "expected_supported": 1,
+      "premise_sha256": "685ddecd8a4d89755c8f35ffa257dcec758597eedc8e621ff6436670ebcbc4b1",
+      "hypothesis_sha256": "95e9fd1cb96e8d132a80364f68c02c9e624239c351d6fd60c5768faf1f83f770"
+    },
+    {
+      "row_idx": 2,
+      "gold_original_label": 2,
+      "expected_supported": 0,
+      "premise_sha256": "685ddecd8a4d89755c8f35ffa257dcec758597eedc8e621ff6436670ebcbc4b1",
+      "hypothesis_sha256": "71f414826377ee2f4e2d6a8dc7f157d49b6ee62de9411d17b7b0751e36390acb"
+    }
+  ]
+}

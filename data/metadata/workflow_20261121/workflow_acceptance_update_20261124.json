@@ -1,0 +1,116 @@
+{
+  "verified_utc": "2026-11-24T18:41:56.918943+00:00",
+  "code_commit": "aa0c59315ece2405b32d75878e91196a42326006",
+  "status": "UPDATED_EVIDENCE_AUDIT_NOT_COMPLETE",
+  "requirements": [
+    {
+      "id": "historical_source_ingress",
+      "state": "PROVEN_LIMITED_PROJECT_SCOPE",
+      "evidence": "data/metadata/workflow_20261121/npm_source_admission_20261123.json",
+      "finding": "Immutable package bodies admitted for Hatchet/Million; not independent business metrics or legal ownership."
+    },
+    {
+      "id": "automatic_acquisition",
+      "state": "ONE_FRESH_SOURCE_TO_CURRENT_BASELINE_PROVEN",
+      "evidence": "data/metadata/workflow_20261121/live_acquisition_analyst_result_20261124.json",
+      "finding": "Two fresh HTTP200 responses and one current baseline CLI call shared one budget; 17.135seconds, MORE_DILIGENCE. Full current committee path not tested."
+    },
+    {
+      "id": "real_core_runtime",
+      "state": "PROVEN_LIMITED_SOURCE_OLD_PROMPT",
+      "evidence": "data/metadata/workflow_20261121/hatchet_package_runtime_20261123.json",
+      "finding": "One real lead/research/committee/gap-followup run,13CLI attempts,MORE_DILIGENCE; no forced thesis."
+    },
+    {
+      "id": "fixed_evidence_comparison",
+      "state": "PROVEN_PROCESS_NOT_QUALITY",
+      "evidence": "data/metadata/workflow_20261121/paired_evaluation_result_20261124.json",
+      "finding": "Single analyst1call48.808s vscommittee11calls220.310s; bothMORE_DILIGENCE; one non-holdout source."
+    },
+    {
+      "id": "current_format_guard",
+      "state": "OFFLINE_AND_ONE_CURRENT_BASELINE_LIVE_PROVEN_REFINEMENT_UNVERIFIED",
+      "evidence": "data/metadata/workflow_20261121/output_text_validation_20261124.json",
+      "finding": "Current baseline passed live; specific updated committee refinement overlay remains offline-only. No new full committee result."
+    },
+    {
+      "id": "semantic_grounding",
+      "state": "NOT_PROVEN",
+      "evidence": "data/metadata/workflow_20261121/grounding_generation_result_20261123.json",
+      "finding": "Unsupported execution/community claims observed; prompt-only mitigation insufficient."
+    },
+    {
+      "id": "final_acceptance",
+      "state": "CONTROL_PROVEN_NOT_TRUTH_CERTIFICATION",
+      "evidence": "data/metadata/workflow_20261121/analysis_acceptance_validation_20261123.json",
+      "finding": "Complete bound review required; conditional reviewer judgments can be wrong."
+    },
+    {
+      "id": "saved_run_review",
+      "state": "PROVEN_OFFLINE",
+      "evidence": "data/metadata/workflow_20261121/saved_analysis_review_validation_20261123.json",
+      "finding": "Review without replay or source-run modification."
+    },
+    {
+      "id": "clean_checkout_and_resume",
+      "state": "PROVEN_OFFLINE",
+      "evidence": "data/metadata/workflow_20261121/clean_reproduction_20261124.json",
+      "finding": "659tests656pass3skip without real-run cache;8completed artifact hashes/mtimes unchanged on resume."
+    },
+    {
+      "id": "claude_implementation_role",
+      "state": "PARTIAL_HONEST_ATTRIBUTION",
+      "evidence": "coordination/workflow_20261122/claude_acceptance_gate_task.json",
+      "finding": "Actual Claude implemented core components; several timeouts required Codex completion. Not every task completed by Claude."
+    },
+    {
+      "id": "private_writeback",
+      "state": "PROVEN",
+      "evidence": "ffdcffb",
+      "finding": "Private writeback succeeded through ffdcffb. CI assertions below apply to audited aa0c593 only, not newly inspected CI."
+    },
+    {
+      "id": "effectiveness_reference_set",
+      "state": "EXTERNAL_REVIEW_PENDING",
+      "evidence": "data/metadata/workflow_20261121/independent_review_packet_20261124/review_packet.json",
+      "finding": "Eight curated retrospective source statements, all PENDING; no reviewer assigned or independent adjudication. Not model-output accuracy or unseen holdout."
+    },
+    {
+      "id": "training_gate",
+      "state": "UNCHANGED_NO_TRAINING",
+      "evidence": "docs/workflow_automation_20261121/evaluation_gate.json",
+      "finding": "No verified financing negatives,approved two-class target or holdout; missing is not zero."
+    },
+    {
+      "id": "travel_scheduler",
+      "state": "NOT_DEPLOYED",
+      "evidence": "docs/workflow_automation_20261121/delivery_plan_20261211.md",
+      "finding": "No installed unattended scheduler/quota-reset wakeup; current goal continuation is not proof of a deployed service."
+    }
+  ],
+  "CI_checks": [
+    "readiness push:completed success",
+    "readiness PR:completed success"
+  ],
+  "Y_scope_diff": "No tracked changes from research base e22d58d4 in data/processed or src/outcome_tracking; src/funding change is isolated reproducibility test only, not label/rule logic.",
+  "new_model_calls": 0,
+  "new_research_http": 0,
+  "tests_run": "No rerun: documentation/evidence reconciliation only. Prior clean-checkout test counts retained as historical evidence.",
+  "remaining_priority": [
+    "External reviewer ownership and completed independent source judgments before semantic quality claims.",
+    "Current full committee/refinement live behavior remains unverified; any later run requires separately bounded protocol, no replay of sealed comparisons.",
+    "Business evidence and legal-entity binding remain limited; package sources alone cannot settle investment decisions."
+  ],
+  "not_authorized_actions": [
+    "Y/rule changes",
+    "new paid API budget",
+    "slides/demo work",
+    "unbounded retry or quota switching"
+  ],
+  "controller_context_regression_tests": {
+    "passed": 24,
+    "model_calls": 0
+  },
+  "evidence_tip": "ffdcffb",
+  "prior_snapshot": "data/metadata/workflow_20261121/workflow_acceptance_audit_20261124.json"
+}

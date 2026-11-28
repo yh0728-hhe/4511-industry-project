@@ -11,8 +11,10 @@ from datetime import datetime
 import json
 
 from .contracts import digest,aware
-from .agent_prompts import HISTORICAL_GUARD, VERSION, prompt_fingerprint
+from .agent_prompts import HISTORICAL_GUARD, VERSION, prompt_fingerprint, STRUCTURED_TEXT_INSTRUCTION
+from .output_text import validate_plain_analysis_text
 from .guards import BudgetStopped
+from .model_identity import present_payload
 
 
 @dataclass
@@ -117,11 +119,11 @@ class NativeBinding:
         try:
             if terminal:self.budget.check()
             yield
-        except Exception:
-            if terminal:self.budget.stop()
+        except Exception as exc:
+            if terminal:self.budget.stop(str(exc) if isinstance(exc,BudgetStopped) else 'MODEL_PROVIDER_ERROR')
             raise
 
-    def messages(self, supplied):
+    def messages(self, supplied, schema=None):
         cutoff=aware(datetime.fromisoformat(self.view.as_of))
         for row in self.view.qa_pairs:
             try:available=aware(datetime.fromisoformat(row['available_by']))
@@ -131,8 +133,18 @@ class NativeBinding:
             as_of=self.view.as_of,fact_revision=self.view.fact_revision,
             evidence=list(self.view.qa_pairs))
         context['prompt_bundle']=dict(version=VERSION, fingerprint=prompt_fingerprint())
+        context=present_payload(context,self.view.company_id)
         guard=SystemMessage(HISTORICAL_GUARD+json.dumps(context,sort_keys=True))
-        messages=[guard,*supplied]
+        encoded=[]
+        for message in supplied:
+            try:parsed=json.loads(message.content)
+            except (TypeError,ValueError):encoded.append(message);continue
+            if isinstance(parsed,(dict,list)):
+                encoded.append(type(message)(json.dumps(present_payload(parsed,self.view.company_id))))
+            else:encoded.append(message)
+        messages=[guard,*encoded]
+        if schema is IndividualRefinedArgumentOutput:
+            messages[-1]=HumanMessage(messages[-1].content+"\n\n"+STRUCTURED_TEXT_INSTRUCTION)
         if sum(len(m.content.encode('utf-8')) for m in messages)>self.prompt_byte_cap:
             raise BudgetStopped('PROMPT_BYTE_CAP')
         return messages
@@ -146,6 +158,10 @@ class NativeBinding:
         else:arguments=[]
         for argument in arguments:
             if not isinstance(argument.content,str) or not argument.content.strip():raise BudgetStopped('EMPTY_ARGUMENT')
+            if argument.content.strip().lower().rstrip('.!?') in {'test','placeholder','todo','tbd','lorem ipsum'}:
+                raise BudgetStopped('PLACEHOLDER_ARGUMENT')
+            try:validate_plain_analysis_text(argument.content)
+            except ValueError:raise BudgetStopped('INVALID_ANALYSIS_TEXT_FORMAT') from None
             indices=argument.qa_indices
             if not isinstance(indices,list) or not indices or any(type(i) is not int or not 0<=i<len(self.view.qa_pairs) for i in indices):
                 raise BudgetStopped('INVALID_QA_CITATION')
@@ -159,6 +175,12 @@ class NativeBinding:
             if not isinstance(value.essential_gaps,list) or not all(isinstance(x,str) and x.strip() for x in value.essential_gaps):
                 raise BudgetStopped('INVALID_EVIDENCE_REVIEW')
             if not isinstance(value.rationale,str) or not value.rationale.strip():raise BudgetStopped('EMPTY_EVIDENCE_REVIEW')
+        texts=[]
+        if isinstance(value,ArgumentCritique):texts.append(value.critique)
+        if isinstance(value,EvidenceReviewOutput):texts.extend([value.rationale,*value.essential_gaps])
+        try:
+            for text in texts:validate_plain_analysis_text(text)
+        except ValueError:raise BudgetStopped('INVALID_ANALYSIS_TEXT_FORMAT') from None
         return value
 
 
@@ -174,7 +196,7 @@ class StructuredModel:
 
     def invoke(self, supplied):
         with self.binding.failure_boundary():
-            messages=self.binding.messages(supplied)
+            messages=self.binding.messages(supplied,self.schema)
             with self.reservation():
                 self.binding.calls.append(dict(schema=self.schema.__name__,temperature=self.temperature,
                     fact_revision=self.binding.view.fact_revision,argument_revision=self.binding.view.argument_revision))
@@ -185,7 +207,7 @@ class StructuredModel:
 
     async def ainvoke(self, supplied):
         with self.binding.failure_boundary():
-            messages=self.binding.messages(supplied)
+            messages=self.binding.messages(supplied,self.schema)
             if self.binding.semaphore is None:self.binding.semaphore=asyncio.Semaphore(self.binding.budget.concurrency)
             async with self.binding.semaphore:
                 # Stop opted-in pilots before releasing this semaphore. A

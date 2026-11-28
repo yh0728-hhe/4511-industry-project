@@ -1,0 +1,68 @@
+{
+  "status": "UNRESOLVED_SUPPORT_EMPTY_TRIAGE_POLICY_FIXED",
+  "date": "2026-11-26",
+  "claude_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 68.846,
+    "retry": false
+  },
+  "claude_contribution": "Implemented conservative empty-triage support policy, diagnostic trace, and4tests.",
+  "codex_contribution": "Reproduced old behavior from pinnedeeef136; retained unchanged original MORE_DILIGENCE; added empty-gap and actual-runtime no-thesis/no-repeat-search tests; full readiness and before/after fixtures.",
+  "before": {
+    "commit": "eeef136",
+    "wrapper_sha256": "d27e7156e4780779308dc41c31e697f89dcfd096050228a7e4aa0669743e01e6",
+    "cases": [
+      {
+        "proposed": "INVEST",
+        "unsupported_checker_verdict": 0,
+        "new_questions": [],
+        "old_output": "INVEST"
+      },
+      {
+        "proposed": "PASS",
+        "unsupported_checker_verdict": 0,
+        "new_questions": [],
+        "old_output": "PASS"
+      }
+    ],
+    "actual_model_calls": 0,
+    "actual_network_calls": 0
+  },
+  "after": {
+    "cases": [
+      {
+        "proposed": "INVEST",
+        "unsupported_checker_verdict": 0,
+        "new_questions": [],
+        "output": "MORE_DILIGENCE",
+        "gaps": [],
+        "automatic_unresolved_trace": true
+      },
+      {
+        "proposed": "PASS",
+        "unsupported_checker_verdict": 0,
+        "new_questions": [],
+        "output": "MORE_DILIGENCE",
+        "gaps": [],
+        "automatic_unresolved_trace": true
+      }
+    ],
+    "actual_model_calls": 0,
+    "actual_network_calls": 0
+  },
+  "new_tests": 6,
+  "total_tests": 950,
+  "passed": 947,
+  "skipped": 3,
+  "readiness_run": "unresolved-support-20261126-001",
+  "prior_real_runs_replayed": false,
+  "new_company_model_calls": 0,
+  "new_archive_requests": 0,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "An automatic unsupported verdict is not proof a claim is false.",
+    "The conservative hold may over-abstain; no accuracy improvement or optimal threshold is claimed.",
+    "No real prior recommendation was shown to have been wrongly released; existing real full runs were MORE_DILIGENCE."
+  ]
+}

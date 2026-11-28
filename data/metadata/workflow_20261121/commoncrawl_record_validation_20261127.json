@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-27",
+  "status": "STRICT_SUBSET_WARC_VERIFIER_OFFLINE_ONLY",
+  "tests": {
+    "runtime_tests": {
+      "total": 927,
+      "passed": 926,
+      "skipped": 1
+    },
+    "funding_tests": {
+      "total": 205,
+      "passed": 203,
+      "skipped": 2
+    },
+    "outcome_tests": {
+      "total": 33,
+      "passed": 33,
+      "skipped": 0
+    }
+  },
+  "total_tests": 1165,
+  "passed": 1162,
+  "skipped": 3,
+  "new_focused_regressions": 14,
+  "readiness_run": "commoncrawl-record-20261127-008",
+  "all_six_stages_passed": true,
+  "code_sha256": "84e8e12bee10146f433c30f257f7dd0100de359c54fa89dadb80e4f792a6d9ed",
+  "test_sha256": "73d075c89e483efb4f25a2a0b34da26158c807c93956278c56011150328d4d91",
+  "implemented_by": "Codex",
+  "claude_called_for_this_phase": false,
+  "validation_source_http_requests": 0,
+  "validation_model_calls": 0,
+  "real_archive_bodies_tested": 0,
+  "default_workflow_integration": false,
+  "new_real_source_facts_admitted": 0,
+  "Y_changed": false,
+  "training": false,
+  "supported_subset": "One complete gzip member containing an unsegmented WARC1.0/1.1 response with nonchunked identity-encoded UTF8/ASCII HTML, exact byte range and date/digest checks.",
+  "independent_claim_review_boundary_tested": true,
+  "limits": "Caller must independently authenticate index and range metadata. Matching digests are consistency checks, not claim truth or domain ownership certification.",
+  "preliminary_fixture_correction": "Initial positive fixture used request Range syntax in response Content-Range; corrected synthetic fixture, production parser retained standard response syntax."
+}

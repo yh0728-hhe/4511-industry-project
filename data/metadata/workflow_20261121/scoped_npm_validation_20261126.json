@@ -1,0 +1,58 @@
+{
+  "status": "SCOPED_NPM_EXTENSION_OFFLINE_VERIFIED",
+  "date": "2026-11-26",
+  "upstream_spec": "https://docs.npmjs.com/cli/v11/using-npm/scope/",
+  "worker_receipt": {
+    "status": "TIMEOUT",
+    "elapsed_seconds": 180.418,
+    "retry": false
+  },
+  "independent_claude_approval": false,
+  "claude_contribution": "Shared name helper and scoped verifier/discovery integration plus7fake tests drafted before timeout; no executed tests or completion verdict from worker.",
+  "codex_contribution": [
+    "Canonical scoped transport path enforcement",
+    "4additional cross-scope/digest/URL/wheel isolation regressions",
+    "Package workflow source fingerprint and2integration/fingerprint regressions",
+    "26component plan expectation and npm_names hash assertion",
+    "Independent execution and documentation"
+  ],
+  "focused_tests": 123,
+  "new_tests": 13,
+  "full_readiness": {
+    "tests": 1084,
+    "passed": 1081,
+    "skipped": 3,
+    "stages_passed": 6,
+    "run_id": "scoped-npm-support-20261126-002"
+  },
+  "earlier_checks": [
+    {
+      "run_id": "scoped-npm-support-20261126-001",
+      "tests": 1082,
+      "passed": 1079,
+      "skipped": 3,
+      "meaning": "Before2additional source-fingerprint/package-workflow regressions; superseded after code change."
+    },
+    {
+      "status": "INITIAL_FOCUSED_FIXTURE_COUNT_FAILURE",
+      "reason": "Expected25fingerprinted components; intentional extension added npm_names.py as26th. Updated assertion now explicitly checks new helper."
+    }
+  ],
+  "component_sha256": {
+    "npm_names.py": "44e16d5f88a8616c2204db91fc205377efc9ec1cb03b51997e867074768807b2",
+    "npm_source.py": "9ea6b907dac60f8d8173ca0ac077fffe67b1d865a60020144c51c74d29aca9a5",
+    "package_registry.py": "9f47246e984986689ae6c4524586eaa65b5e287f1a2917250ced2ad0d5d03773",
+    "discovered_package.py": "419122e3ecc0dd72933f03e07e91ea65459f86bdc63935fd66360793735bfc40",
+    "discovered_research.py": "010e534015f125907159f70ef924b4ef0f4f472acba3488a84c18d3a11a8f50f",
+    "discovery_runner.py": "b21b1f8839964885c6e6923b4a851cd12c8dba60626ea2fd9f30d57bc0a66b43",
+    "package_workflow.py": "d06a4d2622eb85269f4b48887f20278655193f19bc7afed8c61dfcd04b886539"
+  },
+  "transport_forms": "Only canonical lowercase unencoded @scope/name; no percent-encoded slash, versioned lead, alternate host, credentials, redirect or retry.",
+  "evidence_scope": "ATTRIBUTED_PACKAGE_DOCUMENTATION_NOT_CORPORATE_OWNERSHIP_OR_TRACTION",
+  "default_discovery_package_verification": false,
+  "source_temporal_identity_digest_gates_preserved": true,
+  "live_scoped_registry_probe_executed": false,
+  "Y_changed": false,
+  "training": false,
+  "models_or_network_in_tests": false
+}

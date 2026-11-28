@@ -17,6 +17,23 @@ SPEC.loader.exec_module(smoke)
 
 
 class WeeklySmokeTests(unittest.TestCase):
+    def test_every_real_cohort_row_projects_only_identity_into_seed(self):
+        import csv
+        from dataclasses import asdict
+        from urllib.parse import urlparse
+        from closed_loop.contracts import CompanySeed
+        with smoke.COHORT.open(encoding='utf-8-sig', newline='') as stream:
+            rows = list(csv.DictReader(stream))
+        self.assertEqual(len(rows), 240)
+        seeds = []
+        for row in rows:
+            domain = urlparse(row['Company Website']).hostname.lower()
+            seed = CompanySeed('w24:' + domain, row['Company Name'].strip(), domain)
+            self.assertEqual(set(asdict(seed)), {'company_id', 'name', 'domain'})
+            seeds.append(seed.company_id)
+        self.assertEqual(len(seeds), len(set(seeds)))
+
+
     def test_company_selection_is_historical_deterministic_and_separate_from_abel(self):
         plan = smoke.prepare_plan()
         self.assertEqual(plan['company']['name'], 'Adagy Robotics')
@@ -97,7 +114,7 @@ class WeeklySmokeTests(unittest.TestCase):
             def __init__(self, usage):
                 self.attempts = []
                 self.call_budget = SimpleNamespace(check=lambda: None,
-                                                   stop=lambda: setattr(self, 'stopped', True))
+                                                   stop=lambda reason='STOP_OR_DEADLINE': setattr(self, 'stopped', True))
                 self.usage = usage
                 self.stopped = False
             def generate(self, *args):
@@ -144,7 +161,8 @@ class WeeklySmokeTests(unittest.TestCase):
             self.assertEqual(budget.used['model'], 1)
             self.assertTrue(budget.stopped)
             self.assertEqual(budget.active, 0)
-            self.assertTrue(all(str(outcome) == 'STOP_OR_DEADLINE' for outcome in outcomes[1:]))
+            expected=str(failure) if isinstance(failure,smoke.BudgetStopped) else 'API_BACKEND_ERROR'
+            self.assertTrue(all(str(outcome) == expected for outcome in outcomes[1:]))
 
         for failure in [smoke.BudgetStopped('API_PROVIDER_ERROR'),
                         smoke.BudgetStopped('API_ACCOUNTING_BOUND_BREACH'),
@@ -181,7 +199,7 @@ class WeeklySmokeTests(unittest.TestCase):
                     *(model.ainvoke([HumanMessage('synthetic sibling')]) for _ in range(3)),
                     return_exceptions=True)
             self.assertEqual(str(outcomes[0]), expected_reason)
-            self.assertTrue(all(str(outcome) == 'STOP_OR_DEADLINE' for outcome in outcomes[1:]))
+            self.assertTrue(all(str(outcome) == expected_reason for outcome in outcomes[1:]))
             self.assertEqual(len(backend.attempts), 1)
             self.assertEqual(budget.used['model'], 1)
             self.assertTrue(budget.stopped)
@@ -237,6 +255,12 @@ class WeeklySmokeTests(unittest.TestCase):
             self.assertEqual(kwargs['pilot_id'], smoke.PILOT_ID)
             self.assertEqual(kwargs['journal_path'], smoke.LIVE_DIR / 'api_budget.jsonl')
             return backend
+        def preflight_factory(request, gateway, budget, archive):
+            from closed_loop.source_preflight import PreflightResult,PreflightState
+            self.assertIs(archive.gateway,gateway)
+            self.assertIs(archive.call_budget,budget)
+            self.assertEqual(budget.used['model'],0)
+            return PreflightResult(PreflightState.ADMITTED_SOURCE,True,('injected-fact',),None,0,0)
         def runtime_factory(request, gateway, budget, lead, committee, provider):
             from closed_loop.research_backend import MeteredResearchProvider
             self.assertIsInstance(provider, MeteredResearchProvider)
@@ -250,7 +274,8 @@ class WeeklySmokeTests(unittest.TestCase):
             return SimpleNamespace(run=lambda: dict(decision='MORE_DILIGENCE', stop_reason='FIXTURE_ONLY'))
         with tempfile.TemporaryDirectory() as folder, patch.object(smoke, 'LIVE_DIR', Path(folder)), \
                 patch.object(smoke, 'create_live_backend', side_effect=backend_factory), \
-                patch.object(smoke, 'ClosedLoopRuntime', side_effect=runtime_factory):
+                patch.object(smoke, 'ClosedLoopRuntime', side_effect=runtime_factory), \
+                patch.object(smoke, 'source_readiness_preflight', side_effect=preflight_factory):
             plan = smoke.prepare_plan()
             result = smoke.run_live(plan, limit='0.20', approved_plan_sha256=plan['plan_sha256'])
             self.assertEqual(result['actual_api_request_attempts'], 0)
@@ -285,6 +310,37 @@ class WeeklySmokeTests(unittest.TestCase):
                     self.assertEqual(result['actual_api_request_attempts'], 0)
                     self.assertTrue((Path(folder) / result['output_file']).exists())
             self.assertEqual(len(set(failure_paths)), 2)
+
+    def test_real_assembly_blocks_before_model_construction_without_source(self):
+        from closed_loop.archive_transport import HTTPResponse
+        for status,expected in [(403,'ACCESS_RESTRICTED'),(200,'NO_ADMISSIBLE_SOURCE')]:
+            with self.subTest(http_status=status), tempfile.TemporaryDirectory() as folder:
+                events=[];clients=[]
+                class SourceHTTP:
+                    def __init__(self):self.calls=[]
+                    def get(self,url,*args,**kwargs):
+                        self.calls.append(url);return HTTPResponse(status,url,{},b'[]')
+                actual_archive=smoke.ArchivedWebsiteProvider
+                def archive_factory(*args,**kwargs):
+                    client=SourceHTTP();clients.append(client)
+                    return actual_archive(*args,client=client,**kwargs)
+                def backend_factory(**kwargs):
+                    return SimpleNamespace(call_budget=kwargs['call_budget'],attempts=[],
+                        envelope=SimpleNamespace(snapshot=lambda:{},seal_completed=lambda:events.append('sealed'),close=lambda:events.append('closed')))
+                with patch.object(smoke,'LIVE_DIR',Path(folder)), \
+                     patch.object(smoke,'create_live_backend',side_effect=backend_factory), \
+                     patch.object(smoke,'ArchivedWebsiteProvider',side_effect=archive_factory), \
+                     patch.object(smoke,'ModelLead',side_effect=AssertionError('must not construct model lead')), \
+                     patch.object(smoke,'ClosedLoopRuntime',side_effect=AssertionError('must not start runtime')):
+                    plan=smoke.prepare_plan()
+                    result=smoke.run_live(plan,limit='0.20',approved_plan_sha256=plan['plan_sha256'])
+                self.assertEqual(result['status'],'NOT_RUN_SOURCE_PREFLIGHT_BLOCKED')
+                self.assertEqual(result['source_preflight']['state'],expected)
+                self.assertEqual(result['actual_api_request_attempts'],0)
+                self.assertEqual(result['archive_http_requests'],1)
+                self.assertEqual(len(clients[0].calls),1)
+                self.assertEqual(events,['sealed','closed'])
+                self.assertEqual(result['decision'],'MORE_DILIGENCE')
 
 
 if __name__ == '__main__':

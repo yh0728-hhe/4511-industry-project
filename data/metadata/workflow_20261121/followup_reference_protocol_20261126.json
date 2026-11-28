@@ -1,0 +1,210 @@
+{
+  "protocol_id": "RAGTRUTH-SOURCE-DISJOINT-12-20261126-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "code_commit": "0c17c06fa3dc5342d9eebe960b8fac5b6c20377b",
+  "as_of": "2026-11-26T20:25:50.272490+00:00",
+  "model": "claude-sonnet-5",
+  "max_model_cli_attempts": 12,
+  "max_seconds": 240,
+  "auth_seconds": 20,
+  "outer_timeout_seconds": 300,
+  "case_ids": [
+    "ragtruth-response-12066",
+    "ragtruth-response-12102",
+    "ragtruth-response-12132",
+    "ragtruth-response-12260",
+    "ragtruth-response-12297",
+    "ragtruth-response-12435",
+    "ragtruth-response-12180",
+    "ragtruth-response-12240",
+    "ragtruth-response-12330",
+    "ragtruth-response-12458",
+    "ragtruth-response-12518",
+    "ragtruth-response-12602"
+  ],
+  "excluded_source_ids": [
+    "14300",
+    "14318",
+    "14319",
+    "14323",
+    "14353",
+    "14355"
+  ],
+  "input_sha256": "9b7a1e0c5096c45d499340b1304fc69d023bde60ace319e88827f6cb4d81035b",
+  "gold_sha256": "0df630382878b993682ea29a244c8c86081a7beb7bcb6e7fca74b31cde2b3bdc",
+  "script_sha256": "0ed3359f72ed93f51d5726cae50718df6c49b5f8348e0d37344aef7d318785c4",
+  "whole_response_script_sha256": "d7d74d14f431c20366271da617638d628d3eb4d25eafc81b059432ec290877da",
+  "prior_predictor_script_sha256": "a8c0c2dddf76a3e3eb4f9ab8e51d31617e4abdbe071146d4dc684bdcb118fa8e",
+  "grader_sha256": "d69dc3fe6972a4c7ed84f34b984fa6a634560f35c234320f36e4ba31ddb9e986",
+  "legacy_grader_sha256": "e103ef3471bb4997634e81cbf90e99cf8ffd7004276fcf0f0c25a2f7ae1e875d",
+  "preparer_sha256": "0acef544edf34704d0d7c5fcaebb50f186e5c90a779be16eb3e02b1bc789a868",
+  "code_sha256": {
+    "__init__.py": "0e1cb875f134beb6977e44cfebcd4d149bd1ad21592cd26e00f34528ab4564f1",
+    "agent_prompts.py": "7a9720d7603e8c31776e5b7da16157e88e363587ace9fbf1771a5b05bb798c52",
+    "analysis_acceptance.py": "69eff6e9f8b3f92602b9598b3b984ede6f344fabed22dea39e1aa9c354181ab5",
+    "archive_transport.py": "41978a18884c8bb49fa8c30e0a0741acdd4c73bdddd1b606d0f4d5f80ce3af10",
+    "archived_publisher.py": "a7d7a048b49bac91d9b172a3772149a22b8de6aa4dc9d8420b63bd2fb29451d9",
+    "claim_review.py": "1874586af2b427880e469006cc405d544a8a4ec6e02361ee62a5742167f17d5f",
+    "cli_backend.py": "ee5b88d31780d217a9857527ef6ae13374006cd4008b0f089b612a9f1650650a",
+    "cli_limits.py": "441cdb392ed8ea92a72ed3c611ccb64596070780e25e1924be61652491c0bc6e",
+    "contracts.py": "d4ee914ca415606ca8d915b5aa1685309828dc3b950ab15751689a6c9e938ef5",
+    "dialectic_adapter.py": "1285c8b4d741b8c8506e6e01e7b3d9ab1df28a572571c9c16c959d6300a0bddf",
+    "discovered_package.py": "419122e3ecc0dd72933f03e07e91ea65459f86bdc63935fd66360793735bfc40",
+    "discovered_research.py": "d3945e6c50462a3baeb88c6986b21c0a79b5ca49737e27027f92ceeb39753666",
+    "discovery_runner.py": "b90b73ee880ca6c3e803a279f1b7d5958c0e58ead4047e9b3be99e0c586d0539",
+    "discovery_workflow.py": "3754018ff1c83e91788ac0cef1af7b98e444e75bb4edf69b7837ce81e498e83e",
+    "evidence_checked_committee.py": "2471d7cf1cac7cb643e65523bcff0f357578fa216400517d624e703ec13ca2aa",
+    "evidence_gap_triage.py": "aa9cd81aec0bc74604157c0977f849f19e1e0e623e0944b7d182af316b2dd33f",
+    "fixtures.py": "b9d974d3eb5f74029fdb1d87e903430f9878ce78c55b9033b6a08f32d7e6114b",
+    "graph_driver.py": "125bed06683399d37a784e60a43a1eb89a454b1ddf5e69b199fc572fa93b1893",
+    "guards.py": "d8a0b22c036baa2f6dae549f81bf626cd59f6a7467b27585447c33008c0fb3e4",
+    "historical_links.py": "4b43644e2428c633d9b647454ec14431e5822ac15921998e462eeb707d2db8d6",
+    "integration_debug.py": "475d8ad4654ba2535f70c2833ba89ac5ab349d5db24f8586942fceb3bdf69209",
+    "meeting_demo.py": "f0e61e4f6426269ad4b19ce95bc2026e3b1037961845975d23e593f70840c6ac",
+    "model_identity.py": "739827c51147c8228f58dc25cab6c6eab17a50998cd0091f0d189727d6a9cf46",
+    "model_lead.py": "cbea3a7910066046bee30f36454e7a425a5afbf0a8de58926bacd97691921f22",
+    "native_committee.py": "e6c2dd21942b763790296dc2c7caf4918008316711fe438cd95e8b3062ed9577",
+    "native_fixture.py": "9fde747b018f34f44e60b8924c63479a485dff9673935b6ee32b0d57c5fb24ab",
+    "native_support.py": "447f2f68fd1364bb0eab26836b0f8516b68c2465ed2dbb0f2a7b713f906fe898",
+    "npm_names.py": "44e16d5f88a8616c2204db91fc205377efc9ec1cb03b51997e867074768807b2",
+    "npm_source.py": "9ea6b907dac60f8d8173ca0ac077fffe67b1d865a60020144c51c74d29aca9a5",
+    "odr_research.py": "365a9b551068980f849258d1d7c01e95a9868d435ee260de3b9811e07f3e6da8",
+    "offline_network.py": "bab2f05c0e94c7195763a92e90f3927a7d12c7b96fbff034e19217145a4b4b67",
+    "openai_backend.py": "d2f1ea57e9d213c66afa0be4330142136a6f5ec5cb01c6636e6954436b6d68a5",
+    "output_text.py": "74cedddc992d952ca746f42cb3db74a642a4b757f32d0fbb6c5e73ad77c9b18a",
+    "package_registry.py": "f6d244556ed92af8043c9c68b0a8225ccda79568aee1eacdae912af08295f7f4",
+    "package_runner.py": "88e6c410af733df8d3987f86bfae665ca981963f5c4ddaca6cce44b09a20d28d",
+    "package_source.py": "48d58609aae5827f503b7b869dee80535e590a25ad2844e50e260bed2f0b80c8",
+    "package_workflow.py": "2f561e648d37f270b81c76a51e059e8051ef23957c804ac6dcab9f9f5cfcb792",
+    "paired_evaluation.py": "55765cd8e9f86f11b6b5e21f0a3a482482a4beb38dc5e4143276e4d801e9c607",
+    "progressive_committee.py": "356b8f2c2259280ecd1dd1557d96110e37fa1622fe451dccfba88cddd08626c1",
+    "ragas_faithfulness.py": "dc27b1a4182756da0ce854f707a63a773b7b3edab49ffbd3a74f8683bc1132f4",
+    "registry_process.py": "29e6f6f3039c67b031f698340f9e45cd7606e185856de2e1367412352a0c68e5",
+    "registry_worker.py": "5cd68a1be9ca50ece57ece94ff2d5fe95c86e977884014cc3d4d87fbe4a2a4a1",
+    "research_backend.py": "5925841ae48d5816893a9e432c0ff05a979fa97de1d35d1d7a8dd8769b888ffc",
+    "runtime.py": "b71171172a6090b3039a22f70ef41127267bce10f58f16667c2beec8fa2e7e25",
+    "saved_analysis_review.py": "af62143ed84e7190bf3cddbf32dec294ea825d0508540cb750186bfe56efdd1d",
+    "saved_faithfulness.py": "b180967ea3ffda8f433be6d473a4162e67b033cb9f4053050619b5c3730b97b7",
+    "saved_run_audit.py": "86eda5d27962dcce74b3b9ef6c4c7d2ccd554d769f21a1185cd775ba191a37a2",
+    "single_analyst.py": "f5a36d257cfb84907c2ddb99025de8bd7668856e3593144e0ac9f4be7452b405",
+    "source_preflight.py": "a756a49807a6e4390f8af65e9129295d078c8d91b608338ca2ce460cec8e86ca",
+    "specialist_loop.py": "48ff4f22467c83f2d9b49d1bff0b034685d0a50b1f3e2f1e98e07f1c75dee6ea",
+    "thesis_synthesis.py": "ab345a473bdbe971e96f1cb3039361c37fa49b4292c6679bc2ea5b519a262fc1",
+    "web_discovery.py": "a27308126dc7e836ffa067f91e6f8810f9ceb909a7a1a3b124d98753462fb46c"
+  },
+  "selection_manifest": {
+    "commit": "c103204b9ce28d6bbad859304bf30de72b8ed8fe",
+    "responses_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\response.jsonl",
+      "size_bytes": 21458735,
+      "sha256": "e4c2e4ac24fff676d8984cc61c35d791612fadc58015335d97dd632375e18073",
+      "git_blob_sha1": "f9ae5913fb9976684f3e13be3cd3465062db54cc"
+    },
+    "sources_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_reference_probe_001\\source_info.jsonl",
+      "size_bytes": 15117971,
+      "sha256": "0dffc26ea9f3c1c3d7c7e8336b56ef1646e3cec876edffcca3c9c624d12d578b",
+      "git_blob_sha1": "119277774009f110aa58596b93f9512f62594a89"
+    },
+    "previous_inputs_file": {
+      "path": "results\\scratch\\workflow_20261126\\ragtruth_prepared_cases_001\\selected_inputs.json",
+      "size_bytes": 13873,
+      "sha256": "d4b4fe4fd4f9833e7c581b9fc5e1cfcfeb8a63d1ca6ff48fa01aeb349817e60a"
+    },
+    "preparer_scripts": {
+      "ragtruth_reference_prepare_20261126.py": {
+        "sha256": "97ca895d55240bb8915d7fe825b9741321c3c47729738ab8e188a6532493dc37"
+      },
+      "ragtruth_followup_prepare_20261126.py": {
+        "sha256": "0acef544edf34704d0d7c5fcaebb50f186e5c90a779be16eb3e02b1bc789a868"
+      }
+    },
+    "output_files": {
+      "selected_inputs.json": {
+        "sha256": "9b7a1e0c5096c45d499340b1304fc69d023bde60ace319e88827f6cb4d81035b"
+      },
+      "selected_gold.json": {
+        "sha256": "0df630382878b993682ea29a244c8c86081a7beb7bcb6e7fca74b31cde2b3bdc"
+      }
+    },
+    "case_ids": [
+      "ragtruth-response-12066",
+      "ragtruth-response-12102",
+      "ragtruth-response-12132",
+      "ragtruth-response-12260",
+      "ragtruth-response-12297",
+      "ragtruth-response-12435",
+      "ragtruth-response-12180",
+      "ragtruth-response-12240",
+      "ragtruth-response-12330",
+      "ragtruth-response-12458",
+      "ragtruth-response-12518",
+      "ragtruth-response-12602"
+    ],
+    "batch_1_case_ids": [
+      "ragtruth-response-12066",
+      "ragtruth-response-12102",
+      "ragtruth-response-12132",
+      "ragtruth-response-12260",
+      "ragtruth-response-12297",
+      "ragtruth-response-12435"
+    ],
+    "batch_2_case_ids": [
+      "ragtruth-response-12180",
+      "ragtruth-response-12240",
+      "ragtruth-response-12330",
+      "ragtruth-response-12458",
+      "ragtruth-response-12518",
+      "ragtruth-response-12602"
+    ],
+    "unique_source_count": 12,
+    "unique_source_ids": [
+      "14327",
+      "14334",
+      "14339",
+      "14347",
+      "14357",
+      "14360",
+      "14366",
+      "14373",
+      "14390",
+      "14394",
+      "14404",
+      "14418"
+    ],
+    "previously_excluded_source_ids": [
+      "14300",
+      "14318",
+      "14319",
+      "14323",
+      "14353",
+      "14355"
+    ],
+    "selection_rule": "exclude the 6 previously selected source_ids, then apply the prior script's select_cases() mechanical rule twice in original response order: once over the filtered stream for batch 1 (first 3 supported + 3 unsupported, 6 unique sources), then again over the remainder with batch 1's sources also excluded for batch 2 (another 3 + 3, 6 more unique sources); no resampling after viewing outputs; no model predictions are read or produced",
+    "references_provenance": "human-annotated, publicly released RAGTruth dataset; pretraining exclusion is not established",
+    "model_calls": 0,
+    "http_requests": 0,
+    "training": false,
+    "Y_changed": false,
+    "modifies_production": false,
+    "raw_redistribution": false
+  },
+  "selection_frozen_before_new_predictions": true,
+  "same_prompt_and_model_alias_as_prior_whole_response": true,
+  "old_source_overlap": 0,
+  "old_exact_context_hash_overlap": 0,
+  "raw_source_redistribution": false,
+  "Y_changed": false,
+  "training": false,
+  "source_http_cap": 0,
+  "retry": false,
+  "company_quality_gold": false,
+  "limitations": [
+    "Public data may already be in model pretraining; source-ID/context disjoint is not an unseen holdout guarantee.",
+    "Balanced mechanically selected12QA cases, not representative startup/investment evidence.",
+    "Whole-response NLI lacks atomic unsupported-claim localization.",
+    "Prior6exploratory results not pooled into this group or used to tune prompt.",
+    "Any failure retains12-case ledger and null group agreement; no cap expansion or retry.",
+    "Managed internal inference counts, temperature enforcement, remaining quota and invoice unknown."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "verified_utc": "2026-11-23T20:11:08.889574+00:00",
+  "status": "PROTOCOL_AND_CLI_ROLE_MITIGATION_OFFLINE_VALIDATED",
+  "previous_real_run": "hatchet_package_live_001",
+  "previous_prompt_sha256": "ca44c38b9604cb0250c4d3fe52b6794ec4791891e21bec2d6a708bc9cf6ec25a",
+  "new_prompt_version": "agent-roles-v0.4-evidence-scope",
+  "new_prompt_sha256": "8f68810003b80d51f270582cab3ffdd15789d590791aa0d4c17f1c3021ce612a",
+  "claude_implementation_attempt": "TIMEOUT_240_SECONDS_NO_FILES_NO_RETRY",
+  "implementation": "Codex fallback",
+  "offline_tests": {
+    "total": 548,
+    "passed": 545,
+    "skipped": 3
+  },
+  "focused_protocol_tests": 4,
+  "real_company_rerun": false,
+  "new_system_prompt_live_validated": false,
+  "semantic_support_improvement_proven": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limits": [
+    "Guidance and role wiring cannot certify semantic entailment.",
+    "Pretrained future knowledge exclusion is not proven.",
+    "Prior run and failed arguments remain retained; changed fingerprint does not authorize replay."
+  ]
+}

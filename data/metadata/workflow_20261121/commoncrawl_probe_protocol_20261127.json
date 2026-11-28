@@ -1,0 +1,47 @@
+{
+  "protocol_id": "COMMONCRAWL-IDENTITY-SOURCE-PROBE-20261127-001",
+  "status": "FROZEN_BEFORE_NETWORK",
+  "purpose": "Check independent public archive index availability before investing in a collector; not model/outcome evaluation.",
+  "selection": "First two rows of original alphabetic identity spreadsheet after excluding four previously examined names; no Y join.",
+  "identity_source": "data/processed/w24_spreadsheet_2024-03-25.csv",
+  "identity_source_sha256": "9ac6b85e33e7f57b301a0b3acdd4e75a98642e4c781b3ca7a2e37639aa4b51fd",
+  "cases": [
+    {
+      "name": "AgentHub",
+      "historical_declared_url": "https://www.agenthub.dev/",
+      "query_url": "https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=www.agenthub.dev%2F&output=json"
+    },
+    {
+      "name": "Agentic Labs",
+      "historical_declared_url": "https://agenticlabs.com",
+      "query_url": "https://index.commoncrawl.org/CC-MAIN-2024-10-index?url=agenticlabs.com%2F&output=json"
+    }
+  ],
+  "excluded_names": [
+    "Abel",
+    "Adagy Robotics",
+    "Aedilic",
+    "Aether Energy"
+  ],
+  "collection": "CC-MAIN-2024-10",
+  "cutoff": "2024-04-04T23:59:59Z",
+  "max_index_requests": 2,
+  "max_body_bytes": 65536,
+  "per_worker_seconds": 12,
+  "global_seconds": 35,
+  "outer_seconds": 45,
+  "stop_on_first_restriction_or_transport_failure": true,
+  "retry": false,
+  "variants": false,
+  "warc_downloads": 0,
+  "model_cli_calls": 0,
+  "Y_read": false,
+  "Y_changed": false,
+  "training": false,
+  "worker_sha256": "4dbf350c199fdfcdcfb8e0472d43dac3b6330d6de8c6941b0d4c461bd344b28e",
+  "identity_limit": "Contemporaneous spreadsheet name/domain assertion, not independent corporate ownership certification.",
+  "docs": [
+    "https://www.commoncrawl.org/cdxj-index",
+    "https://www.commoncrawl.org/get-started"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "protocol_id": "RAGAS-STAGE-SEPARATION-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "New-code development regression using prior failing controlled fixture; not independent holdout, not original experiment retry or rewritten result",
+  "input_response": "The admitted README identifies this as the Hatchet Python SDK. Hatchet has 100 paying customers.",
+  "response_sha256": "d5bbc42426a9c0d7a7f60e793ec95390db82060a0f809dd96ad60499065bab8d",
+  "question": "Which parts of this response are supported by the admitted package README?",
+  "selection": "First admitted historical package source, Hatchet0.21.1, unchanged artifact",
+  "cutoff": "2024-04-04T23:59:59+00:00",
+  "expected_fixture_behavior": "SDK identification has source support; the intentionally added100-paying-customers statement must not be accepted as source-supported. These are developer-authored fixture expectations, NOT independently adjudicated gold.",
+  "max_cli_processes": 2,
+  "per_call_timeout_seconds": 60,
+  "max_seconds": 180,
+  "max_http": 0,
+  "retry": false,
+  "fallback": false,
+  "model": "claude-sonnet-5",
+  "acceptance_changed": false,
+  "Y_changed": false,
+  "code_sha256": {
+    "src/closed_loop/ragas_faithfulness.py": "8b8f0847cff1fab9a2296d115bc5c44055f997e59152acddfb6a395c1b02f14f",
+    "src/closed_loop/cli_backend.py": "63aad2280d1303ccef7ddf4716786d32c8c0703b021d3526cadb27d8cb2b79fb"
+  },
+  "prior_failure": "ragas_mixed_claim_result_20261124.json"
+}

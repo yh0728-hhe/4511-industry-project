@@ -1,0 +1,63 @@
+{
+  "protocol_id": "COMMONCRAWL-IDENTITY-SOURCE-PROBE-20261127-001",
+  "status": "PROBE_COMPLETED_NO_BODY_ADMISSION",
+  "protocol_sha256": "30986ca907fff71b3f0ab4d8521ca2a20dc06014dd6ad620c3d568b420089b3d",
+  "elapsed_seconds": 9.794,
+  "worker_process_attempts": 2,
+  "source_request_attempts": 2,
+  "physical_transport_requests": "UNKNOWN",
+  "stop_reason": "UNSUPPORTED_OR_OVERSIZED_RESPONSE",
+  "companies": [
+    {
+      "name": "AgentHub",
+      "http_status": 200,
+      "elapsed_seconds": 3.498,
+      "status": "INDEX_READ_NOT_BODY_EVIDENCE",
+      "index_record_count": 3,
+      "eligible_exact_homepage_records": 2,
+      "body_sha256": "07b9f0a7bf4b53d1a91fa7f32620ff034b1a3da9f3e00139e7d9f556162a3b8e",
+      "records": [
+        {
+          "urlkey": "dev,agenthub)/",
+          "timestamp": "20240223233145",
+          "url": "https://www.agenthub.dev/",
+          "mime": "text/html",
+          "mime-detected": "text/html",
+          "status": "200",
+          "digest": "6HQCDKJTVZOG56EXJ2VLX3HIBVY4YWJV",
+          "length": "3559",
+          "offset": "662176529",
+          "filename": "crawl-data/CC-MAIN-2024-10/segments/1707947474470.37/warc/CC-MAIN-20240223221041-20240224011041-00381.warc.gz",
+          "languages": "eng",
+          "encoding": "UTF-8"
+        },
+        {
+          "urlkey": "dev,agenthub)/",
+          "timestamp": "20240302075821",
+          "url": "https://www.agenthub.dev/",
+          "mime": "text/html",
+          "mime-detected": "text/html",
+          "status": "200",
+          "digest": "K6LB3RHRWMWGHZSLBFZPWFIJT4EJA4KY",
+          "length": "3598",
+          "offset": "615755361",
+          "filename": "crawl-data/CC-MAIN-2024-10/segments/1707947475757.50/warc/CC-MAIN-20240302052634-20240302082634-00381.warc.gz",
+          "languages": "eng",
+          "encoding": "UTF-8"
+        }
+      ]
+    },
+    {
+      "name": "Agentic Labs",
+      "http_status": 502,
+      "elapsed_seconds": 6.293,
+      "status": "UNKNOWN_RESPONSE"
+    }
+  ],
+  "warc_downloads": 0,
+  "admitted_facts": 0,
+  "model_cli_attempts": 0,
+  "Y_changed": false,
+  "training": false,
+  "limitation": "Index records are capture pointers only. No readable historical page was retrieved or admitted. No absence/exhaustiveness conclusion."
+}

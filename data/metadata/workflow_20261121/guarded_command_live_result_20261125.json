@@ -1,0 +1,39 @@
+{
+  "status": "GUARDED_COMMAND_LIVE_SPARSE_SOURCE_COMPLETED",
+  "execution_commit": "4bbded4",
+  "protocol": "guarded_command_protocol_20261125.json",
+  "harness": {
+    "exit_code": 0,
+    "elapsed_seconds": 35.134,
+    "retry": false
+  },
+  "decision": "MORE_DILIGENCE",
+  "stop_reason": "NO_ADMITTED_FACTS",
+  "backend_process_attempts": 1,
+  "managed_discovery_process_attempts": 1,
+  "direct_archive_http_attempts": 2,
+  "logical_call_budget": {
+    "active": 0,
+    "caps": {
+      "model": 4,
+      "search": 6
+    },
+    "used": {
+      "model": 2,
+      "search": 3
+    }
+  },
+  "admitted_fact_ids": [],
+  "essential_gaps": [
+    "What product, intended users, and technical capabilities did Adagy Robotics publicly describe as of 2024-04-04, and does any admitted source distinguish live/demonstrated capability from stated plans?"
+  ],
+  "result_sha256": "46593f8964e05ae203dbaf9c722e2ed15132a8bb4491d389dfddb0c18d8b3eae",
+  "limitations": [
+    "Canonical bookkeeping company_id tuesday-labs exposed a later brand in model inputs; historical-input purity is not claimed. Corrected separately by neutral metadata presentation; this sealed run was not replayed.",
+    "No admitted facts is an engineering unknown, not a verified financing negative or closure.",
+    "Managed internal HTTP, exact inference count and invoice remain UNKNOWN."
+  ],
+  "Y_changed": false,
+  "training": false,
+  "predictive_accuracy_evaluated": false
+}

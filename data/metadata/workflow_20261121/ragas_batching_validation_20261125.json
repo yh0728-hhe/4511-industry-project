@@ -1,0 +1,24 @@
+{
+  "status": "BATCHED_NLI_AND_FAILURE_TRACE_OFFLINE_VALIDATED",
+  "claude": {
+    "exit_code": 0,
+    "elapsed_seconds": 114.295,
+    "contribution": "Implemented configurable default8statement NLI batches and6tests"
+  },
+  "codex_contribution": "Fixed test helper import; added committee/checker failure trace persistence, sanitized executor error type and3regressions; expanded runner code fingerprint",
+  "tests": {
+    "full_total": 809,
+    "passed": 806,
+    "skipped": 3,
+    "batching": 6,
+    "existing_ragas": 21
+  },
+  "limitations": [
+    "No new live batched checker run yet",
+    "No complete second-argument verdict from sealed failed run",
+    "Automatic support diagnostics can include nonfactual advice; factual-gap triage remains next"
+  ],
+  "actual_new_calls_in_offline_validation": 0,
+  "Y_changed": false,
+  "training": false
+}

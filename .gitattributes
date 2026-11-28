@@ -2,3 +2,7 @@
 *.pdf binary
 # Matplotlib's generated SVG path commands include harmless trailing spaces.
 *.svg -whitespace
+
+# These forensic source snapshots are bound by raw-byte protocol hashes.
+docs/workflow_automation_20261121/probe_worker_sources/danswer_archive_worker_20261128.py.txt -text whitespace=cr-at-eol
+docs/workflow_automation_20261121/probe_worker_sources/sealed_replay_initial_client_20261128.py.txt -text whitespace=cr-at-eol

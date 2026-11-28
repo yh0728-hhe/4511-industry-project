@@ -28,23 +28,28 @@ class CallBudget:
         self.clock=clock
         self.lock=Lock()
         self.stopped=False
+        self.stop_reason='STOP_OR_DEADLINE'
 
     def remaining_seconds(self):
         with self.lock:return max(0,(self.deadline-aware(self.clock())).total_seconds())
 
     def check(self):
         with self.lock:
-            if self.stopped or aware(self.clock())>=self.deadline:
-                raise BudgetStopped('STOP_OR_DEADLINE')
+            if self.stopped:raise BudgetStopped(self.stop_reason)
+            if aware(self.clock())>=self.deadline:raise BudgetStopped('STOP_OR_DEADLINE')
 
-    def stop(self):
-        with self.lock:self.stopped=True
+    def stop(self,reason='STOP_OR_DEADLINE'):
+        if not isinstance(reason,str) or not reason.strip():raise ValueError('explicit stop reason required')
+        with self.lock:
+            if not self.stopped:self.stop_reason=reason
+            self.stopped=True
 
     @contextmanager
     def reserve(self, kind):
         with self.lock:
             if kind not in self.caps:raise ValueError('unknown call kind')
-            if self.stopped or aware(self.clock())>=self.deadline:raise BudgetStopped('STOP_OR_DEADLINE')
+            if self.stopped:raise BudgetStopped(self.stop_reason)
+            if aware(self.clock())>=self.deadline:raise BudgetStopped('STOP_OR_DEADLINE')
             if self.used[kind]>=self.caps[kind]:raise BudgetStopped('CALL_CAP')
             if self.active>=self.concurrency:raise BudgetStopped('CONCURRENCY_CAP')
             self.used[kind]+=1
@@ -112,7 +117,7 @@ class TemporalGateway:
         record=self._ledger.get((candidate.company_id,candidate.source_id,candidate.topic))
         reason=None
         if record is None:reason='UNVERIFIED_SOURCE'
-        elif not record.body_read:reason='BODY_NOT_VERIFIED'
+        elif record.body_read is not True:reason='BODY_NOT_VERIFIED'
         elif (candidate.source_id,candidate.company_id,candidate.topic,candidate.url)!=(
                 record.source_id,record.company_id,record.topic,record.url):reason='IDENTITY_OR_METADATA_MISMATCH'
         elif candidate.company_id!=(subject_id or self.request.company.company_id):reason='IDENTITY_MISMATCH'

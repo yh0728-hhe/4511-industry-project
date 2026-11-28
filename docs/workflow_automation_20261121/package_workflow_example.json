@@ -1,0 +1,15 @@
+{
+  "company": {
+    "company_id": "w24:hatchet.run",
+    "name": "Hatchet",
+    "domain": "hatchet.run"
+  },
+  "mandate": "Assess a seed software investment only from admitted historical evidence. Treat package documentation as publisher claims; do not infer adoption, team quality or business traction from it. Preserve missing facts as unknown and request decision-changing diligence.",
+  "as_of": "2024-04-04T23:59:59+00:00",
+  "package_name": "hatchet-sdk",
+  "artifact_format": "wheel",
+  "model": "claude-sonnet-5",
+  "max_model_calls": 24,
+  "max_seconds": 480,
+  "check_argument_support": true
+}

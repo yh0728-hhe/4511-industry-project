@@ -1,0 +1,85 @@
+{
+  "protocol_id": "CAPTURED-DISCOVERY-LIVE-ARCHIVE-20261124-001",
+  "execution_commit": "ab2d1a2",
+  "elapsed_seconds": 1.752,
+  "actual_new_cli_processes": 0,
+  "actual_new_managed_searches": 0,
+  "actual_direct_archive_http_attempts": 2,
+  "admitted_fact_count": 1,
+  "stop_reason": "SOURCE_VERIFIED",
+  "logical_budget": {
+    "used": {
+      "model": 1,
+      "search": 3
+    },
+    "caps": {
+      "model": 1,
+      "search": 3
+    },
+    "active": 0
+  },
+  "archive_attempts": [
+    {
+      "url_sha256": "b77eeb985c5f936b1b2c190b8f39b1cfc56f0ede002251c3417ce3613dffff9a",
+      "status": "HTTP_200"
+    },
+    {
+      "url_sha256": "61683803aff516db5c6d4fe086ce96f774219f2446fae0419edb3aa5814dd300",
+      "status": "HTTP_200"
+    }
+  ],
+  "archive_receipts": [
+    {
+      "source_id": "c703c0754cc0984b1d252df84feacec1ec80f9508cea750785eb541bc48605fa",
+      "subject_id": "hatchet",
+      "original_url": "https://hatchet.run/",
+      "replay_url": "https://web.archive.org/web/20240329103148id_/https://hatchet.run/",
+      "selected_capture": "20240329103148",
+      "memento_datetime": "2024-03-29T10:31:48+00:00",
+      "body_sha256": "80660b575936a8526fb5ff5a44af19d68c7e3cac95d69c30cf0fda5ce6fcb1bb",
+      "visible_text_sha256": "543e462d9f7f091f2ad0c73b6df9dd656bd6a1ae56cee015a49869d53d536e9f",
+      "extractor": "stdlib-visible-text-v1",
+      "truncated": false,
+      "availability_proof": "READABLE_REPLAY_MATCHING_MEMENTO",
+      "identity_proof": "CALLER_SUPPLIED_DOMAIN_ANCHOR_NOT_INDEPENDENT_OWNERSHIP_CHECK"
+    }
+  ],
+  "provider_trace": [
+    {
+      "event": "DISCOVERY_COMPLETE",
+      "status": "HELD_FOR_VERIFICATION",
+      "lead_count": 5
+    },
+    {
+      "event": "DISCOVERED_URL_HELD",
+      "url_sha256": "b94a7bf7e5f13def1cf9931fa10ba3a27958f94576311af6b385334195e23053",
+      "reason": "INDEPENDENT_PUBLISHER_OR_IDENTITY_VERIFIER_REQUIRED"
+    },
+    {
+      "event": "DISCOVERED_URL_HELD",
+      "url_sha256": "232d8b150966bc0687cff323be9cec03be9bd5ba32d86c2863bbb3805d0b188a",
+      "reason": "INDEPENDENT_PUBLISHER_OR_IDENTITY_VERIFIER_REQUIRED"
+    },
+    {
+      "event": "DISCOVERED_URL_HELD",
+      "url_sha256": "47aaa6c21ae8f33f676341bb9d7f55dabd12b974eaa40f1bdda88855441652f8",
+      "reason": "INDEPENDENT_PUBLISHER_OR_IDENTITY_VERIFIER_REQUIRED"
+    },
+    {
+      "event": "DISCOVERED_URL_HELD",
+      "url_sha256": "57eb0e68db7e593a5ca87d21191e5cdeea9d7ce1c4dd958051cf9ba189db2d03",
+      "reason": "INDEPENDENT_PUBLISHER_OR_IDENTITY_VERIFIER_REQUIRED"
+    },
+    {
+      "event": "DISCOVERED_SOURCE_VERIFIED",
+      "url_sha256": "28f1f08fb3c163a51939ca6e8f658f14e298b84322f183ec3e34019c1271d290",
+      "source_id": "c703c0754cc0984b1d252df84feacec1ec80f9508cea750785eb541bc48605fa"
+    }
+  ],
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "HISTORICAL_OFFICIAL_PAGE_VERIFIED",
+  "evidence_scope": "Archived publisher product claims only, not independently measured technical/business metrics or legal ownership certification",
+  "source_quality_accuracy_evaluated": false
+}

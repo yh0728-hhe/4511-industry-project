@@ -1,0 +1,23 @@
+{
+  "WikiEval": {
+    "source": "https://huggingface.co/datasets/vibrantlabsai/WikiEval",
+    "rows_reviewed": 50,
+    "public_fields": [
+      "answer",
+      "question",
+      "context_v1",
+      "context_v2",
+      "ungrounded_answer",
+      "source",
+      "poor_answer"
+    ],
+    "finding": "Paper reports human comparative judgments, but public table has no per-row human preference field. Answer generation condition must not be silently relabelled as human gold.",
+    "dataset_card_license": "NOT_SPECIFIED",
+    "raw_data_published_to_repo": false
+  },
+  "SNLI": {
+    "source": "https://huggingface.co/datasets/stanfordnlp/snli",
+    "finding": "Official source includes human entailment/neutral/contradiction labels and CC-BY-SA4.0 declaration. Reuse a3hypothesis sanity check, not financial labels or general accuracy.",
+    "manifest": "snli_reference_manifest_20261124.json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "TIMEOUT_DIAGNOSTICS_IMPLEMENTED_AND_OFFLINE_VALIDATED",
+  "date": "2026-11-26",
+  "claude_worker": {
+    "exit_code": 0,
+    "elapsed_seconds": 67.637,
+    "retry": false
+  },
+  "claude_contribution": "Implemented drained timeout streams, specific CLI_PROCESS_TIMEOUT, private partial recording and4tests.",
+  "codex_contribution": "Completed cleanup-failure and capture-disk-failure behavior with2extra regressions; ran all offline readiness.",
+  "new_tests": 6,
+  "total_tests": 944,
+  "passed": 941,
+  "skipped": 3,
+  "readiness_run": "timeout-diagnostics-20261126-001",
+  "real_test_process": "Local sleeping Python child only; never a model subprocess",
+  "new_company_model_calls": 0,
+  "new_archive_requests": 0,
+  "prior_run_replayed": false,
+  "Y_changed": false,
+  "training_run": false,
+  "limitations": [
+    "Partial provider output remains private and untrusted, not valid source evidence.",
+    "A failed cleanup retains the original timeout but does not prove every child terminated.",
+    "Older sealed CLI_PROCESS_FAILED records are not reclassified retrospectively.",
+    "A timeout consumes the original process attempt; no refund or automatic retry."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "protocol_id": "SAVED-DIAGNOSTICS-TRIAGE-LEAD-20261125-002",
+  "execution_commit": "c50d60a",
+  "status": "TRIAGE_LEAD_FEEDBACK_STOPPED",
+  "new_questions": 4,
+  "selected_tasks": 0,
+  "elapsed_seconds": 58.931,
+  "actual_new_cli_process_attempts": 2,
+  "actual_new_http": 0,
+  "logical_budget": {
+    "used": {
+      "model": 2,
+      "search": 2
+    },
+    "caps": {
+      "model": 2,
+      "search": 2
+    },
+    "active": 0
+  },
+  "failure": {
+    "error_type": "BudgetStopped",
+    "stop_reason": "UNEXPECTED_FAILURE"
+  },
+  "old_inputs_unchanged": true,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "TRIAGE_GENERATED4_BOUNDED_QUESTIONS_LEAD_QUESTION_LENGTH_REJECTED",
+  "identified_stop_reason": "INVALID_RESEARCH_QUESTION",
+  "overlong_question_characters": 1109,
+  "harness_failure_reporting_limitation": "Old harness recorded UNEXPECTED_FAILURE when BudgetStopped was raised after parsing without setting budget.stopped; no provider/transport failure is implied",
+  "lead_feedback_complete": false,
+  "new_code_fix": "Lead prompt now communicates1024char/32charrole constraints; invalidpostvalidation stops sharedbudget with firstcause"
+}

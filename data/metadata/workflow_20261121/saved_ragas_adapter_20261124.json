@@ -1,0 +1,19 @@
+{
+  "status": "SAVED_RATIONALE_ADAPTER_OFFLINE_PASSED",
+  "Claude_task": {
+    "error_type": "TimeoutExpired",
+    "elapsed_seconds": 390.146,
+    "retry": false
+  },
+  "attribution": "Claude wrote saved_faithfulness.py then timed out; Codex added pre-dispatch date/budget checks and all11tests. No automatic retry.",
+  "timeout_note": "Configured180s; observed executor elapsed390.146s. Not evidence of a strict wall-clock bound at host observation level.",
+  "focused_tests": 11,
+  "full_tests": {
+    "total": 689,
+    "passed": 686,
+    "skipped": 3
+  },
+  "live_checker_calls": 0,
+  "stage": "Optional saved rationale interface, not full runtime feedback integration",
+  "human_review_prerequisite": false
+}

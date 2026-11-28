@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-11-24T00:21:57.984340+00:00",
+  "status": "PACKAGE_RUNNER_FINAL_ANALYSIS_GATE_INTEGRATED_OFFLINE_VALIDATED",
+  "primary_implementer": "actual Claude Code CLI",
+  "reviewer_integrator": "Codex",
+  "worker_elapsed_seconds": 68.08,
+  "offline_tests": {
+    "total": 610,
+    "passed": 607,
+    "skipped": 3
+  },
+  "gate_tests": 22,
+  "package_runner_tests": 11,
+  "acceptance_scope": "Complete final-output packet only: rationale, gaps and all thesis text fields. Draft traces remain unreviewed.",
+  "default_substantive_output": "MORE_DILIGENCE until complete bound supplied review supports every final claim and no essential gaps remain",
+  "proposal_preserved": true,
+  "input_mutation_allowed": false,
+  "semantic_support_certified": false,
+  "automatic_entailment_check": false,
+  "new_company_model_calls": 0,
+  "Y_changed": false,
+  "training_run": false,
+  "sealed_experiments_replayed": false,
+  "limitations": [
+    "Reviewer annotations may be wrong; acceptance is conditional, not verified truth.",
+    "Integration applies to package-backed CLI runner, not a retrospective change to sealed legacy API runs.",
+    "Live semantic overreach remains documented; gate wiring is not model-quality evidence."
+  ]
+}

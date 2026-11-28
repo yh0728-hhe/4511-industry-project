@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-11-24T00:25:47.273956+00:00",
+  "status": "OFFLINE_SAVED_REVIEW_PATH_VALIDATED",
+  "implementation": "Codex integration around Claude-built final-analysis gate",
+  "actual_saved_run": "hatchet_package_live_001",
+  "proposal_source": "result.json explicitly selected as legacy original result",
+  "original_result_matches_previously_committed_sha256": true,
+  "source_file_sha256": {
+    "plan": "b13252b3d1d22f6db6e5aa3925e0d47d7a47ba0fbf5b2b8acff0ce6d48f8ae76",
+    "proposal": "2d58eff1ca6a34986452083be158a9a1c86985f16ad9a8f196dd9bdec0cd76db",
+    "review": null
+  },
+  "decision": "MORE_DILIGENCE",
+  "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+  "review_supplied": false,
+  "review_validated": false,
+  "model_calls": 0,
+  "network_calls": 0,
+  "Y_changed": false,
+  "training_run": false,
+  "semantic_support_certified": false,
+  "offline_tests": {
+    "total": 620,
+    "passed": 617,
+    "skipped": 3
+  },
+  "focused_saved_review_tests": 10,
+  "scope": "Offline application/export; no model rerun, no automatic entailment, no rewriting sealed results"
+}

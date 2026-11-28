@@ -1,0 +1,14 @@
+{
+  "status": "KNOWN_PLACEHOLDER_ARGUMENTS_REJECTED_OFFLINE",
+  "finding_from": "full_evidence_feedback_result_20261124.json",
+  "change": "Reject whole argument bodies test/placeholder/todo/tbd/lorem ipsum before scoring/refinement downstream. Ordinary prose containing test and short insufficient-evidence statements remain allowed.",
+  "tests": {
+    "focused_output_text": 7,
+    "full_total": 732,
+    "passed": 729,
+    "skipped": 3
+  },
+  "live_replay": false,
+  "semantic_quality_guarantee": false,
+  "Y_changed": false
+}

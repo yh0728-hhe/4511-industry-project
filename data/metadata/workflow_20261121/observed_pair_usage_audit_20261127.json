@@ -1,0 +1,190 @@
+{
+  "status": "OBSERVED_CLI_COUNTERS_RECONCILED_NOT_BILLING_OR_QUALITY",
+  "arms": [
+    {
+      "arm": "committee",
+      "observed_cli_attempts": 11,
+      "reported_counter_sums": {
+        "input_tokens": 16,
+        "output_tokens": 21266,
+        "cache_creation_input_tokens": 71350,
+        "cache_read_input_tokens": 4670
+      },
+      "counter_coverage": {
+        "input_tokens": 11,
+        "output_tokens": 11,
+        "cache_creation_input_tokens": 11,
+        "cache_read_input_tokens": 11
+      },
+      "attempts": [
+        {
+          "process_count": 1,
+          "stdout_sha256": "ab1bfdc6e12bcdf4599423935b98dddd9b698e87ac771943808aad9d3738d085",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 600,
+            "cache_creation_input_tokens": 6177,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 2,
+          "stdout_sha256": "4f73981deaca4b90453e84a82a77eb5b0cc257aad127f598383dd60cf742cad8",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 735,
+            "cache_creation_input_tokens": 6194,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 3,
+          "stdout_sha256": "0e0005911841383df76a120a5d7124d1cfbdc2fa53817bf6d16d23d9015380a4",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 515,
+            "cache_creation_input_tokens": 5806,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 4,
+          "stdout_sha256": "35adbb3d8620280a56a4831d14f706735c22e28adc12714e5f02b14769c141c3",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 625,
+            "cache_creation_input_tokens": 5817,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 5,
+          "stdout_sha256": "331c270a6e84927027e0172470f8d2fa2ace8d5f1aafb078c978129773f3cbcd",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 2971,
+            "cache_creation_input_tokens": 5071,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 6,
+          "stdout_sha256": "51a8d06af1a7575126f7c14ce380ad793647eb9f7808733bf54060e68f051bae",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 4916,
+            "cache_creation_input_tokens": 5063,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 7,
+          "stdout_sha256": "1d874d0b63a2b716abeed3b3d39aba88f8f4a3717cb824aa8e8ef81bddafac47",
+          "usage": {
+            "input_tokens": 2,
+            "output_tokens": 382,
+            "cache_creation_input_tokens": 7027,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 8,
+          "stdout_sha256": "747b3fe280fa3a81e48fd9c840c9b9ae45296d6ecbe68ce2432fd0afff2ff8ce",
+          "usage": {
+            "input_tokens": 2,
+            "output_tokens": 769,
+            "cache_creation_input_tokens": 7161,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 9,
+          "stdout_sha256": "6ba3819706b380375b7be4711d01e33cc0f0715d8afd17493111c723f866e17d",
+          "usage": {
+            "input_tokens": 1,
+            "output_tokens": 2336,
+            "cache_creation_input_tokens": 4655,
+            "cache_read_input_tokens": 0
+          }
+        },
+        {
+          "process_count": 10,
+          "stdout_sha256": "a4d82781d5c1c845b90533e4021b4a2437f7f16f959834f7e0377a59f9c7b0ef",
+          "usage": {
+            "input_tokens": 3,
+            "output_tokens": 4047,
+            "cache_creation_input_tokens": 7453,
+            "cache_read_input_tokens": 4670
+          }
+        },
+        {
+          "process_count": 11,
+          "stdout_sha256": "7992c1423b822f0a5da557e1249584aa6e19c519894dd1c80bf26adf77d13640",
+          "usage": {
+            "input_tokens": 2,
+            "output_tokens": 3370,
+            "cache_creation_input_tokens": 10926,
+            "cache_read_input_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "arm": "single_analyst",
+      "observed_cli_attempts": 1,
+      "reported_counter_sums": {
+        "input_tokens": 2,
+        "output_tokens": 1274,
+        "cache_creation_input_tokens": 4289,
+        "cache_read_input_tokens": 0
+      },
+      "counter_coverage": {
+        "input_tokens": 1,
+        "output_tokens": 1,
+        "cache_creation_input_tokens": 1,
+        "cache_read_input_tokens": 1
+      },
+      "attempts": [
+        {
+          "process_count": 12,
+          "stdout_sha256": "a098a3902678113f529f6f72a5f643a14af3efee7a05c98fdc23d055bcb6e951",
+          "usage": {
+            "input_tokens": 2,
+            "output_tokens": 1274,
+            "cache_creation_input_tokens": 4289,
+            "cache_read_input_tokens": 0
+          }
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "plan.json": "b3fa93275c37b69288d5c596fc6b50cf43b2028ba6cff3457500d81df58367f4",
+    "result.json": "ec5f87c58dfb74a85506d873f1fc694496db611c9d8abb655234aa9347fdaf1d",
+    "arms.json": "25605ee795d0e732c0e7c83a0bd76181328d11b8b9242ae158e4f1f4aa32d539",
+    "dispatch.jsonl": "d77b3376a20912d723234e62e1f5df9604f950d9bef5a201e184c84cea85bdd2"
+  },
+  "model_id_string": "claude-sonnet-5",
+  "new_model_cli_attempts": 0,
+  "new_source_http_requests": 0,
+  "amount_charged": "UNKNOWN",
+  "quota_debit": "UNKNOWN",
+  "inner_inference_count": "UNKNOWN",
+  "independently_authenticated_billing": false,
+  "counter_scope": "Provider-reported CLI envelope counters; caches retained separately, no pricing conversion.",
+  "comparison_scope": "One previously inspected unequal-resource development case; no quality superiority or general efficiency claim.",
+  "Y_changed": false,
+  "training_run": false,
+  "date": "2026-11-27",
+  "audit_code_sha256": "b249c9d95b8bee3ba4c73a321f00ceee65d8ff4102bf83514e6a7a133f0fd048",
+  "validation": {
+    "run_id": "pair-usage-audit-20261127-005",
+    "total_tests": 1137,
+    "passed": 1134,
+    "skipped": 3,
+    "all_six_stages_passed": true,
+    "focused_audit_tests": 7,
+    "earlier_failed_validation": "pair-usage-audit-20261127-003",
+    "failure_cause": "Test fixture lacked required unique attempt identifiers; fixture corrected and failed run retained."
+  }
+}

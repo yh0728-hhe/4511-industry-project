@@ -1,0 +1,86 @@
+{
+  "status": "FRESH_ACQUISITION_TO_CURRENT_ANALYST_AND_GATE_EXECUTED",
+  "protocol_id": "LIVE-ACQUISITION-ANALYST-20261124-001",
+  "spec_sha256": "e74340c480234236fb943d376e1c266a9391c031f9fa3362eb3bc51fadfea53f",
+  "timeline": [
+    {
+      "stage": "acquisition_returned",
+      "budget": {
+        "used": {
+          "model": 0,
+          "search": 2
+        },
+        "caps": {
+          "model": 1,
+          "search": 2
+        },
+        "active": 0
+      }
+    },
+    {
+      "stage": "source_admitted_before_backend",
+      "budget": {
+        "used": {
+          "model": 0,
+          "search": 2
+        },
+        "caps": {
+          "model": 1,
+          "search": 2
+        },
+        "active": 0
+      }
+    }
+  ],
+  "Y_changed": false,
+  "training_run": false,
+  "semantic_support_certified": false,
+  "source_id": "pypi-wheel:f4a9dbdb070deecb9693ff57d9f7ce1a1141587b1eb38872a916b9f3d0325bf5",
+  "fact_id": "e9bd7e83cac1268610585169b587febe492d4a49dbfd3dc96a691b3d8d1fb4a1",
+  "source_sha256": "3fd4f668cf1665596084cd32ee1df33c48bdf54e7486ff55bd47ee02ffbb816f",
+  "availability_upper_bound": "2024-04-04T16:05:00.538145+00:00",
+  "proposal_decision": "MORE_DILIGENCE",
+  "accepted_decision": "MORE_DILIGENCE",
+  "acceptance_state": "NO_SUBSTANTIVE_PROPOSAL",
+  "essential_gap_count": 8,
+  "elapsed_seconds": 17.135,
+  "budget": {
+    "used": {
+      "model": 1,
+      "search": 2
+    },
+    "caps": {
+      "model": 1,
+      "search": 2
+    },
+    "active": 0
+  },
+  "cli_attempts": 1,
+  "backend_created": true,
+  "invoice": "UNKNOWN",
+  "inner_inference_requests": "UNKNOWN",
+  "verified_utc": "2026-11-24T18:33:48.044270+00:00",
+  "execution_commit": "289244b",
+  "prompt_version": "agent-roles-v0.5-structured-text",
+  "prompt_fingerprint": "f7bb0027fd1ceac3b788120845ea529be12ef365bd8f0e9d4f180a7dcc43611f",
+  "expected_artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+  "expected_text_sha256": "3fd4f668cf1665596084cd32ee1df33c48bdf54e7486ff55bd47ee02ffbb816f",
+  "fresh_live_http": true,
+  "model_prompt_hash_reconstructed_from_admitted_qa_and_matches_journal": true,
+  "dispatch_prompt_sha256": "b046649fc1adf4ec068aad28d8357a2ff989ede3e8fa7e013c2fa3ccd6f1f2c0",
+  "code_and_spec_hashes_checked_before_dispatch": true,
+  "raw_file_sha256": {
+    "http.jsonl": "0a8b11883be517fcacb56925573abda53b11968d5b536b1023b718015f75f76c",
+    "model.jsonl": "cf02f39248e7fea63fe88ad14045f69b897024508a8655bc39b19f94a4243160",
+    "proposal.json": "f5b63f114b98a6c69b4d05b3ab9989a3ff1aa290d730dc8e2634fceb53eaeee0",
+    "acceptance.json": "a7053727c46065f933fae2309d2e6b541d74aab9a6fd8e7cb63343a4773d6d8b",
+    "artifact.whl": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8"
+  },
+  "scope": "Automated live acquisition,temporal source gate,current one-pass baseline and final acceptance path; not full lead/committee/refinement path",
+  "new_refinement_overlay_live_tested": false,
+  "predictive_accuracy_evaluated": false,
+  "independent_human_gold": false,
+  "domain_ownership_independently_proven": false,
+  "semantic_support_improvement_causally_proven": false,
+  "raw_provider_payloads_committed": false
+}

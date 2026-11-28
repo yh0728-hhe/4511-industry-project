@@ -1,0 +1,97 @@
+{
+  "status": "COMMAND_COMPOSITION_OFFLINE_VALIDATED",
+  "implementation": {
+    "error_type": "TimeoutExpired",
+    "elapsed_seconds": 180.712,
+    "configured_timeout_seconds": 180,
+    "retry": false
+  },
+  "attribution": "Claude wrote command/library then timed out; Codex corrected auth syntax, early validation, child status, source persistence and completed14tests. No retry.",
+  "tests": {
+    "focused": 14,
+    "full_total": 746,
+    "passed": 743,
+    "skipped": 3
+  },
+  "captured_replay": {
+    "status": "CAPTURED_REAL_OUTPUT_REPLAY_REJECTED_PLACEHOLDER_BEFORE_EVALUATOR",
+    "workflow_receipt": {
+      "status": "PACKAGE_WORKFLOW_COMPLETED",
+      "package_name": "hatchet-sdk",
+      "artifact_format": "wheel",
+      "Y_changed": false,
+      "training_run": false,
+      "artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+      "source_metadata_sha256": "3bfd6b443acfac71519d63840c93f9996cee0f7ed58baf8d761913fc888e4015",
+      "analysis_status": "PACKAGE_SOURCE_RUNTIME_EXECUTED",
+      "analysis_dir": "analysis",
+      "analysis_decision": "MORE_DILIGENCE",
+      "analysis_stop_reason": "PLACEHOLDER_ARGUMENT",
+      "logical_call_budget": {
+        "used": {
+          "model": 9,
+          "search": 2
+        },
+        "caps": {
+          "model": 24,
+          "search": 2
+        },
+        "active": 0
+      }
+    },
+    "actual_model_processes": 0,
+    "actual_HTTP": 0,
+    "replayed_cli_outputs": 9,
+    "replayed_HTTP_responses": 2,
+    "old_files_unchanged": true,
+    "limitation": "Captured outputs injected under new wrapper/context, not identical-prompt inference replay or real fresh command execution.",
+    "source_capture_sha256": {
+      "registry_metadata": "cb45237c5d4b0e392b53993b93878a33129247066b4064714c9060088549ca80",
+      "artifact": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8"
+    },
+    "Y_changed": false
+  },
+  "status_correction_after_replay": "Captured replay recorded old coordinator COMPLETED for PLACEHOLDER_ARGUMENT; current coordinator now maps such invalid-output stops to WORKFLOW_STOPPED/nonzero. Focused test covers correction.",
+  "fresh_live_command_executed": false,
+  "Y_changed": false,
+  "training": false,
+  "code_sha256": {
+    "src/closed_loop/package_workflow.py": "bbb121ee9a656f5c50b31b3a98af0839b5f37a611f6415700ec5502a684e4919",
+    "tests/test_package_workflow.py": "45343bed36bf71890ba6dc46419581c93e3560726bfefa2fc36a79e8e20d7484"
+  },
+  "captured_replay_current": {
+    "status": "CURRENT_COORDINATOR_REPLAY_STOPPED_CORRECTLY",
+    "workflow": {
+      "status": "WORKFLOW_STOPPED",
+      "package_name": "hatchet-sdk",
+      "artifact_format": "wheel",
+      "Y_changed": false,
+      "training_run": false,
+      "artifact_sha256": "e8469e63f219c05b92efddb002eebb044b431a63757a6781fae5df93d4e709c8",
+      "source_metadata_sha256": "3bfd6b443acfac71519d63840c93f9996cee0f7ed58baf8d761913fc888e4015",
+      "analysis_status": "PACKAGE_SOURCE_RUNTIME_EXECUTED",
+      "analysis_dir": "analysis",
+      "analysis_decision": "MORE_DILIGENCE",
+      "analysis_stop_reason": "PLACEHOLDER_ARGUMENT",
+      "logical_call_budget": {
+        "used": {
+          "model": 9,
+          "search": 2
+        },
+        "caps": {
+          "model": 24,
+          "search": 2
+        },
+        "active": 0
+      },
+      "stop_reason": "PLACEHOLDER_ARGUMENT"
+    },
+    "actual_HTTP": 0,
+    "actual_model_processes": 0,
+    "injected_captured_HTTP": 2,
+    "injected_captured_CLI": 9,
+    "original_files_unchanged": true,
+    "limitation": "Captured outputs injected under current context, not fresh inference or identical-prompt replay."
+  },
+  "project_cutoff_enforced": "2024-04-04T23:59:59Z"
+}

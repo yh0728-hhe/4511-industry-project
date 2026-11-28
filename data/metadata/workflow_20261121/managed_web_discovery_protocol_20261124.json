@@ -1,0 +1,26 @@
+{
+  "protocol_id": "MANAGED-WEB-DISCOVERY-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "purpose": "Verify existing ClaudeCodeWebSearch as a ready discovery agent,not company evidence or a new paid API. Search access remains separate from historical admission.",
+  "query": "site:github.com/langchain-ai/open_deep_research Open Deep Research",
+  "tools": [
+    "WebSearch"
+  ],
+  "requested_WebSearch_uses": 1,
+  "max_cli_processes": 1,
+  "max_agent_turns": 3,
+  "max_seconds": 90,
+  "retry": false,
+  "fallback": false,
+  "model": "claude-sonnet-5",
+  "installed_version": "2.1.198 (Claude Code)",
+  "resource_units": "Outer CLI process and agentic turns/deadline are bounded. Managed search physicalHTTP/internalinference counts UNKNOWN; no claim that legacy2HTTPcap covers internalwebsearch.",
+  "output_scope": "URLs are discovery leads only; never VerifiedRecord or admittedFact, no company decision/Yinput",
+  "no_file_tools": true,
+  "no_new_credentials_or_services": true,
+  "source_docs": [
+    "https://code.claude.com/docs/en/cli-reference",
+    "https://code.claude.com/docs/en/settings"
+  ],
+  "upstream_requirement": "Original workflow/P2 requires agent-chosen questions and open source discovery, not package/archive-only source universe."
+}

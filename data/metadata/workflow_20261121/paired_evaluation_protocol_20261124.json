@@ -1,0 +1,52 @@
+{
+  "protocol_id": "FIXED-EVIDENCE-PAIR-20261124-001",
+  "status": "FROZEN_SPEC_NOT_EXECUTED",
+  "frozen_utc": "2026-11-24T18:06:05.208858+00:00",
+  "company_id": "w24:million.dev",
+  "source_sha256": "b022b3614c7ab13e0cbe3eeb2f63878e74b2729736d1eed3c8e5f9eb6038c447",
+  "artifact_sha256": "12a4b412033dc15974a66768ae724ab54988ce86d6136cbcefd32439f73a175a",
+  "cutoff": "2024-04-04T23:59:59+00:00",
+  "model_requested": "claude-sonnet-5",
+  "model_weights_snapshot_independently_verified": false,
+  "mandate": "Assess a seed software investment strictly from admitted historical evidence. Publisher technical claims are not independent performance or customer verification. Preserve essential business unknowns and do not infer failure from absence of data.",
+  "arm_order": [
+    "single_analyst",
+    "committee"
+  ],
+  "source_selection": "Previously admitted fixed original-cohort package candidate; no outcomes used; not a holdout or representative sample",
+  "input_policy": "Exact same QA rows, company identity, mandate and cutoff for both arms; no retrieval",
+  "max_total_cli_attempts": 24,
+  "max_total_seconds": 480,
+  "max_http_requests": 0,
+  "single_shared_budget": true,
+  "retry": false,
+  "fallback": false,
+  "prompt_bundle_sha256": "8f68810003b80d51f270582cab3ffdd15789d590791aa0d4c17f1c3021ce612a",
+  "baseline_instruction_sha256": "5ad38beb45a8b70196400ffb85d5554343ba87fd238679e971b3596caa82d4d2",
+  "code_sha256": {
+    "src/closed_loop/single_analyst.py": "f5a36d257cfb84907c2ddb99025de8bd7668856e3593144e0ac9f4be7452b405",
+    "src/closed_loop/paired_evaluation.py": "b884012d434713b0ada3d396ad1f66588109d51b7616c3e015f93acb3ee87ae9",
+    "src/closed_loop/native_committee.py": "ff17d95e9d17e88a0d10375c1fb79eb28a14a6039dbe7323c6afe75de3564ab7"
+  },
+  "measures": [
+    "Execution and stop status for every arm, including failures",
+    "Budget reservations, physical CLI attempts when available, elapsed time",
+    "Citation membership in admitted fact set",
+    "Reviewer-bound source-support assessment, distinct from citation validity",
+    "Raw proposal versus acceptance-gated result"
+  ],
+  "review_rules": [
+    "README product/performance claims remain attributed to publisher, not independent proof",
+    "Document links and dynamic badge URLs do not establish fetched content or historical metrics",
+    "Unknown customer, revenue and retention facts do not become negative outcomes",
+    "No company/category facts supplied from model memory"
+  ],
+  "excluded_claims": [
+    "No predictive accuracy, financial return or population-level comparison",
+    "No causal proof from one case and different role/prompt bundles",
+    "No independent human gold or proven exclusion of pretrained future knowledge"
+  ],
+  "Y_read": false,
+  "training_run": false,
+  "spec_sha256": "f71653ed5ee4aff5539ad538559dcc8b12d1d4aecb70f4296a6ec3a15f7bda5d"
+}

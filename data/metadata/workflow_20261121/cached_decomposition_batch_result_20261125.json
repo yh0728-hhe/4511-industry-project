@@ -1,0 +1,43 @@
+{
+  "protocol_id": "CACHED-DECOMPOSITION-BATCHED-NLI-20261125-001",
+  "execution_commit": "1d28e57",
+  "status": "BATCHED_NLI_COMPLETED",
+  "completed": [
+    {
+      "argument": 1,
+      "statements": 18,
+      "batches": 3
+    },
+    {
+      "argument": 2,
+      "statements": 17,
+      "batches": 3
+    }
+  ],
+  "failure": null,
+  "elapsed_seconds": 100.6,
+  "actual_new_cli_process_attempts": 6,
+  "actual_new_http": 0,
+  "cached_decomposition_calls": 2,
+  "logical_budget": {
+    "used": {
+      "model": 8,
+      "search": 2
+    },
+    "caps": {
+      "model": 8,
+      "search": 2
+    },
+    "active": 0
+  },
+  "old_run_unchanged": true,
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "BATCHED_NLI_COMPLETED_ON_SEALED_ARGUMENTS",
+  "accuracy_evaluated": false,
+  "first_argument_supported": 9,
+  "second_argument_supported": 13,
+  "first_argument_changed_verdicts_vs_original_unbatched": 1,
+  "interpretation": "Completed bounded NLI on cached decompositions; not a fresh full workflow, stable judgment guarantee, or semantic correctness proof"
+}

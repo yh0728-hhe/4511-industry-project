@@ -1,0 +1,61 @@
+{
+  "protocol_id": "CACHED-INDEX-PUBLISHER-BODY-BOUND-20261125-001",
+  "execution_commit": "a8e3651",
+  "elapsed_seconds": 0.764,
+  "actual_new_http": 1,
+  "injected_index_responses": 1,
+  "actual_new_model_calls": 0,
+  "status": "PUBLISHER_CONTEXT_VERIFIED",
+  "fact_id": "2d566899c24f63fcdb23bcec83b43fd01c351c929fc2434e2ea4030bc7e999e3",
+  "failure": null,
+  "stop_reason": null,
+  "logical_budget": {
+    "used": {
+      "model": 0,
+      "search": 2
+    },
+    "caps": {
+      "model": 0,
+      "search": 2
+    },
+    "active": 0
+  },
+  "archive_attempts": [
+    {
+      "url_sha256": "1a1ea1ec046dff7929caae38749f503a9ac3925f3e4da6b0bfad173418aadcf2",
+      "status": "HTTP_200"
+    },
+    {
+      "url_sha256": "6600159f0e903dc563ceff66c9169399046b708f2c02413d7d4a3e862dd0940c",
+      "status": "HTTP_200"
+    }
+  ],
+  "archive_receipts": [
+    {
+      "source_id": "b17c1685eb58c53d977a20436cc1363920698d3df4ab6fe470ecf40bc4ffb72e",
+      "subject_id": "hatchet",
+      "original_url": "https://github.com/hatchet-dev/hatchet",
+      "replay_url": "https://web.archive.org/web/20240402084716id_/https://github.com/hatchet-dev/hatchet",
+      "selected_capture": "20240402084716",
+      "memento_datetime": "2024-04-02T08:47:16+00:00",
+      "body_sha256": "d0b7e66a7b1a9c53e33beab731a1b1d40aab4d57e75db99f89df98ceee0d5c32",
+      "visible_text_sha256": "f5ead23e4a3df8cadcf7d8fe020bb14414fe1a13b328b542d2baea1269844983",
+      "extractor": "stdlib-visible-text-v1",
+      "truncated": true,
+      "availability_proof": "READABLE_REPLAY_MATCHING_MEMENTO",
+      "identity_proof": "CALLER_SUPPLIED_DOMAIN_ANCHOR_NOT_INDEPENDENT_OWNERSHIP_CHECK",
+      "identity_binding": "HEADLINE_AND_LINK_MATCHED_COMPANY_NAME_OR_DOMAIN",
+      "source_scope": "THIRD_PARTY_PUBLISHER_NOT_WHITELISTED",
+      "editorial_independence": "UNKNOWN",
+      "context_text_sha256": "4e96d12f901753b860c38ed00268dea83c7439a230021b4695fd61f4a49bcd82"
+    }
+  ],
+  "retry": false,
+  "Y_changed": false,
+  "training": false,
+  "root_audit": "HISTORICAL_REPOSITORY_CONTEXT_VERIFIED_AT_EXPLICIT_HIGHER_BODY_BOUND",
+  "body_bytes": 363271,
+  "source_scope": "Repository page publisher claims, not independent business/metric/ownership verification",
+  "context_extraction_note": "Original broad page context superseded for future inputs by semantic article/main extraction; old raw run unchanged",
+  "paid_model_calls": 0
+}

@@ -1,0 +1,29 @@
+{
+  "protocol_id": "FULL-DISCOVERY-WORKFLOW-20261124-001",
+  "status": "FROZEN_NOT_EXECUTED",
+  "company": {
+    "company_id": "hatchet",
+    "name": "Hatchet",
+    "domain": "hatchet.run"
+  },
+  "as_of": "2024-04-04T23:59:59Z",
+  "mandate": "Evaluate whether historical public evidence is sufficient for an early-stage software investment assessment. Choose specialists and material uncertainties dynamically, investigate missing evidence, distinguish publisher claims from independent verification, and leave unknowns explicit.",
+  "model": "claude-sonnet-5",
+  "max_model_reservations": 24,
+  "max_search_reservations": 12,
+  "max_research_passes": 2,
+  "max_sources_per_discovery": 2,
+  "max_seconds": 480,
+  "per_cli_seconds": 60,
+  "check_argument_support": true,
+  "retry": false,
+  "fallback": false,
+  "initial_inputs": "Identity seed+mandate+cutoff only; no acquired page, package README, curated evidence packet, current profile, or Y labels injected",
+  "purpose": "First full live test of discovery-backed entry after observed historical archive success; evaluate engineering paths and failure findings, not accuracy or investment returns",
+  "source_identity_anchor": "Same historical hatchet-sdk0.21.1 publisher/domain anchor, not independent company legal identity proof",
+  "resource_units": "Shared model reservations include backend and managed discovery outer processes. Shared search reservations include managed invocations and direct archive HTTP. Managed internal requests/inferences UNKNOWN; no dollar cap implied.",
+  "failure_policy": "Stop at first quota, restriction, validation, deadline or cap; retain raw artifacts; no retry of sealed run",
+  "final_gate": "Existing analysis review gate remains; automatic Ragas is diagnostic only",
+  "training": false,
+  "Y_changed": false
+}
