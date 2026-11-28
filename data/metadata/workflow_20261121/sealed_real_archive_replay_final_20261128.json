@@ -1,0 +1,15 @@
+{
+  "status": "FINAL_CLIENT_REPLAYS_SAME_EXISTING_REAL_SOURCE",
+  "fact_id": "d0a7175bc2bfd214a6101c2111256f1e56a53489ea8c92ad3ca20c0137fc7bb5",
+  "content_sha256": "77e2242be635d9ae339ca5539997aad7445a27bae574c04ba3c81374ecafa14e",
+  "text_chars": 5162,
+  "local_replay_gets": 2,
+  "actual_source_http_requests": 0,
+  "model_calls": 0,
+  "new_company_sources": 0,
+  "Y_changed": false,
+  "source_client_sha256": "50db467c0f0bd029e1ad35c263b01203ece79499eed1eb3b629fa5980ea587d4",
+  "manifest_sha256": "40b48996d0d373964e9eabda1834aaf96b544c5a6389e93b44a9eef76c57de13",
+  "original_source_variant_preserved": true,
+  "source_reconstruction_note": "Initial all-CRLF reconstruction assertion stopped before replay; bounded newline variants compared against already frozen SHA256, not assumed equivalent."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "BYTE_BOUND_SOURCE_SNAPSHOTS_PRESERVED_IN_GIT",
+  "cause": "Git automatic text newline normalization changed committed forensic snapshot bytes while working copies matched frozen protocols.",
+  "fix": "Two exact .gitattributes -text rules and explicit renormalize; frozen protocol hashes unchanged.",
+  "checks": [
+    {
+      "path": "docs/workflow_automation_20261121/probe_worker_sources/danswer_archive_worker_20261128.py.txt",
+      "expected_sha256": "feae5f29691fe5ccb8046be96134c580153ea69c2104ee766674d373efb8b75a",
+      "old_blob_sha256": "6e8822417480593dd49636997e83da252c1e95b4bcf67dfc64cb03cad17941ed",
+      "staged_blob_sha256": "feae5f29691fe5ccb8046be96134c580153ea69c2104ee766674d373efb8b75a",
+      "matches_frozen_protocol": true
+    },
+    {
+      "path": "docs/workflow_automation_20261121/probe_worker_sources/sealed_replay_initial_client_20261128.py.txt",
+      "expected_sha256": "0acf8f027b8b7d04ca5ddb3eced2b3460dec5dcaeec10b107b9c96d5063a8029",
+      "old_blob_sha256": "25c0d9ecbfd218cf8388e9dd1a23982a86e9c0dffc6149f68937db16d240a306",
+      "staged_blob_sha256": "0acf8f027b8b7d04ca5ddb3eced2b3460dec5dcaeec10b107b9c96d5063a8029",
+      "matches_frozen_protocol": true
+    }
+  ],
+  "new_http_requests": 0,
+  "new_model_calls": 0,
+  "Y_changed": false,
+  "private_profile": {
+    "run_id": "source-snapshot-seal-20261128-006",
+    "total": 1190,
+    "passed": 1187,
+    "skipped": 3,
+    "stages_passed": 6
+  },
+  "new_regression_tests": 1
+}

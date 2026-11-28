@@ -1,5 +1,15 @@
 # Workflow progress through November 28, 2026
 
+Latest: an explicitly enabled sealed archive replay client reproduced the exact
+same existing April2,2024 Hatchet source/fact hash from private saved bytes,
+with2local reads,0HTTP and0models. Cache miss/corruption stops without network
+fallback; it grants no new source trust.5new replay regressions passed. Two
+forensic worker snapshots also now preserve their raw frozen bytes in Git,
+verified by a separate checkout-hash regression. Final shared960tests(959pass,
+1skip),all5stages; private1190tests(1187pass,3skip),all6stages. Source/provenance
+engineering only: no new company evidence, Y labels or model accuracy claim.
+Raw captures/headers/manifests and model transcripts were not uploaded.
+
 Final executor guard also rejects NaN/infinity/platform-unrepresentable timeouts before starting a child. One new fake-process regression reproduced the old defect, then passed after the fix. Latest shared954tests(953passed,1skipped),all5stages; private1184tests(1181passed,3skipped),all6stages. Ordinary workflow caps unchanged.
 
 Archive HTTP now runs in a child with an enforced parent deadline in the default

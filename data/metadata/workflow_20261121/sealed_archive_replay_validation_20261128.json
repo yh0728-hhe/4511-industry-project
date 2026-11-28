@@ -1,0 +1,22 @@
+{
+  "status": "SEALED_LOCAL_ARCHIVE_REPLAY_VERIFIED_NOT_NEW_ACQUISITION",
+  "date": "2026-11-28",
+  "new_regression_tests": 5,
+  "private_profile": {
+    "run_id": "sealed-archive-replay-20261128-005",
+    "total": 1189,
+    "passed": 1186,
+    "skipped": 3,
+    "stages_passed": 6
+  },
+  "real_saved_source_replayed": true,
+  "new_company_sources": 0,
+  "new_http_requests": 0,
+  "new_model_calls": 0,
+  "default_enabled": false,
+  "source_or_claim_truth_independently_certified": false,
+  "sha256": {
+    "src/closed_loop/sealed_archive_replay.py": "50db467c0f0bd029e1ad35c263b01203ece79499eed1eb3b629fa5980ea587d4",
+    "tests/test_sealed_archive_replay.py": "a330ee74ff5c69b6e8a00ad6a917111987de654755eb97964eb84fb87c1bd045"
+  }
+}
