@@ -1,5 +1,7 @@
 # Workflow comparison update on November 27 2026
 
+Latest handoff milestone: a bounded offline archive-bundle inspection command accepts saved index/HTTP metadata/compressed bytes, writes hashes plus a text preview, and keeps transport review pending. No ledger record or model input is released automatically. Four new invented-bundle regressions; latest shared verification939tests(938passed,1skipped),all5stages. Private full profile1169tests(1166passed,3skipped),all6stages.0newsource/modelcalls,0realbodies,compositeY164/240unchanged. See commoncrawl_record_verification.md for the operator schema and command.
+
 The new opt-in comparison API gives each analysis arm its own matching logical
 call ceiling, physical CLI launch ceiling and requested duration. A committee
 cap no longer consumes the single analyst allocation. Unused reservations do

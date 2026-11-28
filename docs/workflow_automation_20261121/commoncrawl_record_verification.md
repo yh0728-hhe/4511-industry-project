@@ -45,3 +45,41 @@ six stages:1,165tests,1,162passed,3skipped. This is engineering evidence only.
 One initial fixture formatting error was corrected without relaxing production
 response parsing; all source probes and their failures remain unchanged.
 See `data/metadata/workflow_20261121/commoncrawl_record_validation_20261127.json`.
+
+## Saved-body operator entry point (November 27)
+
+`PYTHONPATH=src python scripts/experiments/inspect_archive_bundle.py --manifest PRIVATE/manifest.json --index PRIVATE/index.jsonl --body PRIVATE/record.gz --output-dir results/scratch/NEW`
+
+PowerShell sets `$env:PYTHONPATH='src'` before the Python command. Use a fresh
+private output directory; the command refuses to overwrite earlier results.
+It performs no HTTP/model calls and does not retry a previous acquisition.
+Input files must be privately preserved from an independently audited acquisition.
+The manifest has exactly these fields:
+
+```json
+{
+  "company": {"company_id": "DECLARED_ID", "name": "Declared Name", "domain": "declared-domain.com"},
+  "as_of": "2024-04-04T23:59:59Z",
+  "collection": "CC-MAIN-2024-10",
+  "original_url": "https://declared-domain.com/",
+  "capture_timestamp": "YYYYMMDDhhmmss",
+  "response_status": 206,
+  "response_url": "https://data.commoncrawl.org/EXACT_INDEX_FILENAME",
+  "response_headers": {"Content-Length": "EXACT_BYTE_LENGTH", "Content-Range": "bytes START-END/TOTAL"},
+  "acquisition_note": "Actual acquisition method, time, attempt count, and limitations."
+}
+```
+
+These are placeholders, not an executable target or verified receipt. Supply the
+unaltered JSONL index and compressed range body. All three inputs are bounded
+and hashed. Duplicate/unknown manifest fields, changed bytes, ambiguous capture
+selection and existing output directories fail without replacing earlier data.
+Output is only `integrity_receipt.json` plus `text_preview.txt`. Even a passing
+bundle remains `INTEGRITY_CHECKED_ACQUISITION_REVIEW_PENDING`: transport is not
+independently authenticated, ledger registration is forbidden, and model input
+is not released. No serialized trusted ledger record is exported. This prevents
+self-reported HTTP metadata from automatically becoming trusted evidence.
+Raw publisher text stays private/ignored; share only code and metadata approved
+for the team repository. Four additional invented-bundle regressions exercise
+successful holding, corruption, duplicate/extra fields, oversized input, and
+preservation of existing outputs. No real archive body was acquired this phase.
