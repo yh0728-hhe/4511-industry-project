@@ -228,6 +228,16 @@ class ProcessExecutorChildTimeoutTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             executor.run([sys.executable,'-c','pass'],b'',0)
 
+    def test_nonfinite_or_unrepresentable_timeout_never_starts_a_child(self):
+        from unittest.mock import patch
+        for timeout in (float('nan'),float('inf'),float('-inf'),1e300,10**1000):
+            with self.subTest(timeout_type=type(timeout).__name__):
+                with patch('closed_loop.cli_backend.subprocess.Popen') as popen:
+                    popen.return_value.communicate.return_value=(b'',b'')
+                    with self.assertRaises(ValueError):
+                        ProcessExecutor().run(['not-dispatched'],b'',timeout)
+                    popen.assert_not_called()
+
     def test_real_child_process_timeout_is_killed_and_reaped(self):
         executor=ProcessExecutor()
         argv=[sys.executable,'-c','import time;time.sleep(30)']

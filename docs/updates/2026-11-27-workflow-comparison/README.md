@@ -1,5 +1,7 @@
 # Workflow progress through November 28, 2026
 
+Final executor guard also rejects NaN/infinity/platform-unrepresentable timeouts before starting a child. One new fake-process regression reproduced the old defect, then passed after the fix. Latest shared954tests(953passed,1skipped),all5stages; private1184tests(1181passed,3skipped),all6stages. Ordinary workflow caps unchanged.
+
 Archive HTTP now runs in a child with an enforced parent deadline in the default
 provider and command entry. A timeout stops the shared run, preserves attempted
 request metadata and cannot trigger an automatic retry. A real sleeping-child

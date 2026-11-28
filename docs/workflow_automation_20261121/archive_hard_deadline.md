@@ -59,3 +59,14 @@ current repository visibility, renamed-repository binding and past public
 availability were not independently established. Search filters alone are not a
 verification, and current comments/labels/closed state cannot be silently added
 to historical features. No new GitHub source provider or automatic fact was made.
+
+## Shared executor input validation
+
+A separate regression exposed NaN, positive infinity and an unrepresentable
+integer timeout reaching Popen. The reproducer used a fake process only, not an
+unbounded real child. ProcessExecutor now rejects nonpositive, nonfinite and
+platform-unrepresentable timeouts before dispatch using TIMEOUT_MAX. Ordinary
+configured workflow caps are unchanged; this is not a new experiment allowance.
+The regression also covers finite1e300. Final private profile1184tests(1181pass,
+3skip),all6stages.29focused executor/archive/registry checks passed. This does
+not prove a quota amount, provider quality or historical company fact.

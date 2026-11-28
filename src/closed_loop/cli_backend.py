@@ -5,7 +5,7 @@ implies subscription billing from its name. Physical CLI process count is a
 launch cap only, not the exact inner-inference/API request count or a USD cap.
 """
 from pathlib import Path
-from threading import Lock
+from threading import Lock, TIMEOUT_MAX
 import hashlib
 import json
 import os
@@ -23,8 +23,8 @@ from .openai_backend import schema_for, decode_as
 class ProcessExecutor:
     """Launches one subprocess per call; owns its own timeout and process cleanup."""
     def run(self,argv,stdin_bytes,timeout_seconds):
-        if type(timeout_seconds) not in (int,float) or timeout_seconds<=0:
-            raise ValueError('explicit positive timeout required before dispatch')
+        if type(timeout_seconds) not in (int,float) or not 0<timeout_seconds<=TIMEOUT_MAX:
+            raise ValueError('finite positive platform-bounded timeout required before dispatch')
         popen_kwargs=dict(stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
         if sys.platform=='win32':popen_kwargs['creationflags']=subprocess.CREATE_NEW_PROCESS_GROUP
         else:popen_kwargs['start_new_session']=True
