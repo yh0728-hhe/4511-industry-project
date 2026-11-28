@@ -68,3 +68,22 @@ registry-metadata request timed out; Danswer was not attempted after the shared
 stop. No package was downloaded, installed, executed or admitted. This is a
 source-availability observation, not company or financing evidence. No code
 changed after the921shared/1,151private validation checkpoint.
+
+## Offline strict-subset archive body verification
+
+The optional offline verifier now checks a future retrieved range against its
+index pointer, validates one bounded WARC response and separate block/payload
+digests, and binds the captured HTML to the declared company headline. It
+rejects unsupported encodings, truncation, conflicting critical headers and
+invalid temporal/range data. It does not perform retrieval, authenticate an
+arbitrary caller, register proof, certify claims, or enable a default provider.
+
+Fourteen focused regressions passed. A synthetic valid archive passed the
+existing source gateway, but both INVEST and PASS proposals without separate
+claim review stayed MORE_DILIGENCE / NOT_REVIEWED. No real archive body was
+used or newly admitted. The latest shared profile passed935tests(934passed,
+1skipped), all five stages; private full profile passed1,165tests(1,162passed,
+3skipped), all six stages. Earlier counts above are historical checkpoints.
+
+See [strict subset and provenance limits](../../workflow_automation_20261121/commoncrawl_record_verification.md)
+and `data/metadata/workflow_20261121/shared_warc_verifier_validation_20261127.json`.
