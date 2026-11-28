@@ -38,6 +38,23 @@ class DiscoveryRunnerTests(unittest.TestCase):
         self.assertTrue((self.root/'archive_http_002.body').is_file())
         self.assertFalse(r['Y_changed']);self.assertFalse(r['training_run'])
         self.assertIsNone(r['managed_discovery_process_attempts']) # injected agent does not certify a count
+    def test_archive_timeout_is_terminal_and_attempt_survives_without_body(self):
+        calls=[]
+        class HangingClient:
+            def get(inner,*args,**kwargs):
+                calls.append(1)
+                raise BudgetStopped('ARCHIVE_REQUEST_TIMEOUT')
+        result=self.run_case(http_client=HangingClient())
+        self.assertEqual(result['decision'],'MORE_DILIGENCE')
+        self.assertEqual(result['stop_reason'],'ARCHIVE_REQUEST_TIMEOUT')
+        self.assertEqual(len(calls),1)
+        self.assertEqual(result['direct_archive_http_attempts'],1)
+        attempt=json.loads((self.root/'archive_http_001.attempt.json').read_text())
+        self.assertEqual(attempt['status'],'FAILED')
+        self.assertEqual(attempt['error_type'],'BudgetStopped')
+        self.assertFalse((self.root/'archive_http_001.body').exists())
+        self.assertEqual(result['admitted_fact_ids'],[])
+
     def test_no_leads_unknown_never_negative(self):
         r=self.run_case(discovery_factory=lambda t,b,p:FakeDiscoveryAgent(self.req,b,discovery_result([])))
         self.assertEqual(r['decision'],'MORE_DILIGENCE');self.assertEqual(r['admitted_fact_ids'],[])
@@ -152,7 +169,7 @@ class DiscoveryRunnerTests(unittest.TestCase):
         p=json.loads((self.root/'plan.json').read_text())
         from closed_loop.contracts import digest
         fingerprint=p.pop('fingerprint');self.assertEqual(fingerprint,digest(json.dumps(p,sort_keys=True)))
-        self.assertEqual(len(p['component_sha256']),28);self.assertIn('registry_process.py',p['component_sha256']);self.assertIn('registry_worker.py',p['component_sha256']);self.assertIn('npm_names.py',p['component_sha256']);self.assertIn('ragas_faithfulness.py',p['component_sha256']);self.assertIn('UNKNOWN',p['resource_units'])
+        self.assertEqual(len(p['component_sha256']),30);self.assertIn('archive_process.py',p['component_sha256']);self.assertIn('archive_worker.py',p['component_sha256']);self.assertIn('registry_process.py',p['component_sha256']);self.assertIn('registry_worker.py',p['component_sha256']);self.assertIn('npm_names.py',p['component_sha256']);self.assertIn('ragas_faithfulness.py',p['component_sha256']);self.assertIn('UNKNOWN',p['resource_units'])
         self.assertIn('cli_limits.py',p['component_sha256'])
         self.assertIn('progressive_committee.py',p['component_sha256']);self.assertIn('single_analyst.py',p['component_sha256'])
         self.assertFalse(p['Y_read'])

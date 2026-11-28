@@ -112,7 +112,11 @@ class ArchivedWebsiteProvider:
     def __init__(self, request, gateway, budget, client=None, domain_anchors=None,
                  max_requests=8,per_request_timeout=12,max_body_bytes=262144,max_text_chars=6000):
         self.request=request;self.gateway=gateway;self.call_budget=budget
-        self.client=client or ArchiveHTTPClient()
+        if client is None:
+            from .archive_process import IsolatedArchiveHTTPClient
+            self.client=IsolatedArchiveHTTPClient()
+        else:
+            self.client=client
         self.domain_anchors=dict(domain_anchors or {request.company.company_id:request.company.domain})
         for subject,domain in self.domain_anchors.items():CompanySeed(subject,subject,domain)
         if type(max_requests) is not int or max_requests<1:raise ValueError('request cap required')

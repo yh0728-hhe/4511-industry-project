@@ -1,0 +1,50 @@
+import hashlib,json,sys,time,urllib.request,urllib.error
+from pathlib import Path
+from datetime import datetime,timezone
+from types import SimpleNamespace
+from urllib.parse import urlencode
+from closed_loop.commoncrawl_index import parse_commoncrawl_index
+from closed_loop.commoncrawl_record import verify_commoncrawl_record
+from closed_loop.archive_transport import HTTPResponse
+from closed_loop.contracts import CompanySeed
+root=Path(sys.argv[1]);protocol=json.loads((root/'protocol.json').read_text());started=time.monotonic()
+journal=[]
+def save():
+ (root/'journal.json').write_text(json.dumps(journal,indent=2)+'\n')
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+ def redirect_request(self,*args,**kwargs):raise urllib.error.HTTPError(args[0].full_url,302,'REDIRECT_HELD',{},None)
+def fetch(url,headers,limit,label):
+ journal.append(dict(stage=label,event='INTENT',url=url,request_headers=headers));save()
+ req=urllib.request.Request(url,headers=dict(headers,**{'User-Agent':'4511BoundedHistoricalProbe/0.1'}))
+ with urllib.request.build_opener(NoRedirect()).open(req,timeout=10) as r:
+  if label=='record' and r.status!=206:raise ValueError('NON_RANGE_RESPONSE_HELD')
+  raw=r.read(limit+1)
+  if len(raw)>limit:raise ValueError('BODY_LIMIT_EXCEEDED')
+  entry=dict(stage=label,event='RESPONSE',status=r.status,url=r.url,headers=dict(r.headers.items()),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+  journal.append(entry);save();(root/(label+'.bin')).write_bytes(raw)
+  return HTTPResponse(r.status,r.url,entry['headers'],raw)
+result=dict(protocol_id=protocol['protocol_id'],status='STARTED',model_calls=0,Y_changed=False,training=False,admitted_facts=0)
+try:
+ url='https://index.commoncrawl.org/CC-MAIN-2024-10-index?'+urlencode({'url':protocol['original_url'],'output':'json','matchType':'exact'})
+ index=fetch(url,{'Accept':'application/json'},65536,'index')
+ if index.status!=200:raise ValueError('INDEX_STATUS_HELD')
+ cutoff=datetime.fromisoformat(protocol['as_of'].replace('Z','+00:00'))
+ scan=parse_commoncrawl_index(index.body,requested_url=protocol['original_url'],as_of=cutoff,collection=protocol['collection'])
+ result.update(index_rows=scan.raw_record_count,eligible_pointers=len(scan.pointers))
+ if not scan.pointers:
+  result['status']='NO_ELIGIBLE_POINTER_IN_THIS_RESPONSE'
+ else:
+  p=max(scan.pointers,key=lambda x:x.captured_at)
+  if time.monotonic()-started>25:raise TimeoutError('NO_TIME_FOR_BODY')
+  response=fetch(p.data_url,{'Range':p.range_header,'Accept-Encoding':'identity'},p.length,'record')
+  manifest=dict(company=protocol['company'],as_of=protocol['as_of'],collection=protocol['collection'],original_url=p.url,capture_timestamp=p.captured_at.strftime('%Y%m%d%H%M%S'),response_status=response.status,response_url=response.url,response_headers=response.headers,acquisition_note='Local bounded Python HTTPS acquisition; exact archive index then exact range; see protocol and journal. Not external independent review.')
+  (root/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+  candidate,record,receipt=verify_commoncrawl_record(p,response,request=SimpleNamespace(company=CompanySeed.from_dict(protocol['company']),as_of=cutoff),collection=protocol['collection'])
+  (root/'text_preview.txt').write_text(candidate.text,encoding='utf-8');(root/'integrity_receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
+  result.update(status='READABLE_BODY_INTEGRITY_CHECKED_REVIEW_PENDING',text_chars=len(candidate.text),automatic_model_release=False)
+except Exception as exc:
+ result.update(status='STOPPED_NO_RETRY',error_type=type(exc).__name__)
+ if isinstance(exc,urllib.error.HTTPError):result['http_status']=exc.code
+finally:
+ result.update(elapsed_seconds=round(time.monotonic()-started,3),physical_http_intents=sum(e['event']=='INTENT' for e in journal))
+ (root/'result.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result),flush=True)

@@ -1,0 +1,36 @@
+{
+  "protocol": {
+    "purpose": "DNS-only transport diagnosis, no HTTP retry or connect",
+    "hosts": [
+      "index.commoncrawl.org",
+      "data.commoncrawl.org"
+    ],
+    "max_seconds_per_host": 8,
+    "max_model_calls": 0,
+    "max_http_requests": 0,
+    "no_alternate_resolver": true
+  },
+  "results": [
+    {
+      "host": "index.commoncrawl.org",
+      "exit_code": 0,
+      "status": "DNS_RESOLVED",
+      "resolved": true,
+      "address_count": 1,
+      "elapsed_seconds": 0.022,
+      "parent_elapsed_seconds": 0.071
+    },
+    {
+      "host": "data.commoncrawl.org",
+      "exit_code": 0,
+      "status": "DNS_RESOLVED",
+      "resolved": true,
+      "address_count": 12,
+      "elapsed_seconds": 0.097,
+      "parent_elapsed_seconds": 0.153
+    }
+  ],
+  "new_http_requests": 0,
+  "new_model_calls": 0,
+  "scope": "System DNS resolution only, not TLS/HTTP reachability, no returned IP addresses preserved."
+}

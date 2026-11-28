@@ -60,6 +60,8 @@ class CommandTests(unittest.TestCase):
         with patch.object(cli,'execute_discovery_run',return_value=value) as execute:
             self.assertEqual(cli.main(self.args()),0)
         passed=execute.call_args.kwargs
+        self.assertIsInstance(passed['http_client'],cli.ArchiveHTTPClient)
+        self.assertEqual(type(passed['http_client']).__name__,'IsolatedArchiveHTTPClient')
         self.assertIs(passed['verify_packages'],True)
         self.assertIsInstance(passed['registry_http_client'],cli.IsolatedRegistryHTTPClient)
         self.assertEqual(passed['request'].max_search_calls,c['max_search_reservations'])

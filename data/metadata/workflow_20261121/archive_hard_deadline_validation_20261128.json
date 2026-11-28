@@ -1,0 +1,29 @@
+{
+  "status": "ARCHIVE_PARENT_DEADLINE_AND_ATTEMPT_LOGGING_VERIFIED_OFFLINE",
+  "date": "2026-11-28",
+  "source_commit": "42236c4b9af73613f32d501046a18151aaac22c9",
+  "author": "Codex",
+  "new_tests": 14,
+  "focused_tests": 78,
+  "private_profile": {
+    "run_id": "archive-hard-deadline-20261128-003",
+    "total": 1183,
+    "passed": 1180,
+    "skipped": 3,
+    "stages": 6
+  },
+  "actual_sleeping_child_termination_test": true,
+  "real_source_http_for_fix_validation": 0,
+  "real_model_calls_for_fix_validation": 0,
+  "sha256": {
+    "src/closed_loop/archive_process.py": "d356258c4571ee7faf4d1f2e9cd0b3f7954477b69d37110ecaa831156dfc2fdb",
+    "src/closed_loop/archive_worker.py": "7ee500594454853fa181792687b0f1e2d839de57837da7d61eafaae1d3ba8d7d",
+    "src/closed_loop/archive_transport.py": "23651b05be25487d20d19316feab6c2d7c27074cfaaba92f5e5228390f38b743",
+    "src/closed_loop/discovery_runner.py": "2c376fc9a8df8834a87c5fa38a1f255b1c7b79f018828b6892eacee96d05a5a9",
+    "src/closed_loop/discovery_workflow.py": "007517334b4927dc8152ba52580f39a8347fc4dab8ac8034306a8f7d454b0e13",
+    "tests/test_archive_process.py": "1beab095b86fc1412a1dfaa4e3ab263b15ccbc1f87281720ffab94bf6494a603",
+    "tests/test_discovery_runner.py": "b67e1e435bbcd8e374459a859d8d1ad86ef47045db2fbdc286ba15ce1a1b9306",
+    "tests/test_discovery_workflow.py": "8e84894526c1c1ca579ab7a1c34623c7f4eb63d906c482f047ee7348804708e1"
+  },
+  "Y_changed": false
+}

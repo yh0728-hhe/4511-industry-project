@@ -67,7 +67,7 @@ def execute_discovery_run(*,request,output_dir,backend_factory,discovery_factory
         (root/name).write_text(json.dumps(value,indent=2,sort_keys=True)+'\n',encoding='utf-8')
     code_names=('discovery_runner.py','discovered_research.py','web_discovery.py','archive_transport.py',
         'ragas_faithfulness.py','evidence_checked_committee.py','native_committee.py','model_lead.py',
-        'agent_prompts.py','cli_backend.py','cli_limits.py','thesis_synthesis.py','evidence_gap_triage.py','archived_publisher.py','runtime.py','guards.py','contracts.py','native_support.py','model_identity.py',
+        'archive_process.py','archive_worker.py','agent_prompts.py','cli_backend.py','cli_limits.py','thesis_synthesis.py','evidence_gap_triage.py','archived_publisher.py','runtime.py','guards.py','contracts.py','native_support.py','model_identity.py',
         'progressive_committee.py','single_analyst.py','discovered_package.py','package_registry.py','package_source.py','npm_source.py','npm_names.py','registry_process.py','registry_worker.py')
     plan=dict(company=asdict(request.company),mandate=request.mandate,as_of=request.as_of.isoformat(),
         model=request.model_version,source_policy=request.source_policy,prompt_version=request.prompt_version,
@@ -88,9 +88,19 @@ def execute_discovery_run(*,request,output_dir,backend_factory,discovery_factory
         def __init__(self,client,prefix):self.count=0;self.client=client;self.prefix=prefix
         def get(self,url,timeout,max_bytes,check_deadline=lambda:None):
             self.count+=1
-            response=self.client.get(url,timeout,max_bytes,check_deadline=check_deadline)
-            if len(response.body)>max_bytes:raise ValueError('oversized HTTP response')
             name=f'{self.prefix}_http_{self.count:03d}'
+            attempt=dict(status='DISPATCHING',url=url,timeout_seconds=timeout,max_bytes=max_bytes)
+            save(name+'.attempt.json',attempt)
+            try:
+                response=self.client.get(url,timeout,max_bytes,check_deadline=check_deadline)
+                if len(response.body)>max_bytes:raise ValueError('oversized HTTP response')
+            except Exception as exc:
+                attempt.update(status='FAILED',error_type=type(exc).__name__)
+                try:save(name+'.attempt.json',attempt)
+                except OSError:pass  # Keep original exception and prior dispatch intent.
+                raise
+            attempt.update(status='COMPLETED',http_status=response.status)
+            save(name+'.attempt.json',attempt)
             (root/(name+'.body')).write_bytes(response.body)
             save(name+'.json',dict(url=response.url,status=response.status,headers=response.headers,
                 body_sha256=hashlib.sha256(response.body).hexdigest()))

@@ -74,3 +74,6 @@ Scoped npm extension:13new offline regressions,123focused passed; full readiness
 
 
 Registry CLI transport now uses a separate bounded Python worker per GET, reusing the unchanged raw registry validator and ProcessExecutor cleanup. This controls a blocked open/DNS/read without treating partial stdout as HTTP evidence. No retry, fallback, extra model call or source-gate relaxation is added. Shared deadline stops win; otherwise child timeout becomes REGISTRY_REQUEST_TIMEOUT. Cleanup has bounded overhead, so this is not a precise real-time guarantee or OS sandbox. The raw in-process client remains a low-level API for the child and tests.12new regressions and a harmless sleeping-child control passed; the earlier source probe was not retried. Full readiness1,096tests(1,093pass,3skip).
+
+
+November28 transport fix: the single-command entry uses process-isolated archive HTTP, retaining the raw archive verifier and shared request/time budgets. A parent timeout stops the run with ARCHIVE_REQUEST_TIMEOUT, not a retry or a negative. Runner saves pre-dispatch intent and sanitized completion/failure records. See archive_hard_deadline.md. Explicit injected library transports remain caller-owned.

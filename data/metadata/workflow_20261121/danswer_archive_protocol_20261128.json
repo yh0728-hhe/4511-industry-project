@@ -1,0 +1,24 @@
+{
+  "protocol_id": "DANSWER-ORIGINAL-DOMAIN-ARCHIVE-20261128-001",
+  "company": {
+    "company_id": "danswer",
+    "name": "Danswer",
+    "domain": "danswer.ai"
+  },
+  "original_url": "https://www.danswer.ai/",
+  "collection": "CC-MAIN-2024-10",
+  "as_of": "2024-04-04T23:59:59Z",
+  "identity_reference": "Original w24_spreadsheet_2024-03-25.csv row Danswer; original name/domain only, no Y joined.",
+  "selection": "Previously unattempted archive target; original spreadsheet open-source description, no outcome selection.",
+  "max_http_requests": 2,
+  "max_seconds": 45,
+  "max_model_calls": 0,
+  "max_index_bytes": 65536,
+  "max_record_bytes": 262144,
+  "redirects": false,
+  "retries": false,
+  "alternates": false,
+  "worker_sha256": "feae5f29691fe5ccb8046be96134c580153ea69c2104ee766674d373efb8b75a",
+  "claim": "Finite acquisition feasibility, not accuracy or Y research; all failed attempts retained.",
+  "pre_dispatch_correction": "Initial LF-memory hash mismatched Windows CRLF saved bytes; assert stopped before child/network dispatch. Hash now binds actual saved worker bytes; no request replay."
+}

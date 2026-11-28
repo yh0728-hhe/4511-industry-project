@@ -11,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .agent_prompts import prompt_fingerprint
-from .archive_transport import ArchiveHTTPClient
+from .archive_process import IsolatedArchiveHTTPClient as ArchiveHTTPClient
 from .cli_backend import ClaudeCliBackend, ProcessExecutor
 from .contracts import CompanySeed, RunRequest
 from .discovery_runner import execute_discovery_run

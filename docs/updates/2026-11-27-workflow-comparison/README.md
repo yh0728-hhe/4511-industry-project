@@ -1,3 +1,18 @@
+# Workflow progress through November 28, 2026
+
+Archive HTTP now runs in a child with an enforced parent deadline in the default
+provider and command entry. A timeout stops the shared run, preserves attempted
+request metadata and cannot trigger an automatic retry. A real sleeping-child
+check plus injected source composition verified this behavior. Latest shared
+profile:953tests(952passed,1skipped),all5stages. Private full profile:1183tests
+(1180passed,3skipped),all6stages. No quality metric or new outcome labels.
+
+The separately frozen Danswer index probe found one February27,2024 homepage
+pointer, but the one selected range did not complete by its45-second parent
+limit.2HTTPintents,0readablebodies/facts. DNS-only diagnostics resolved both
+archive hosts quickly; TCP/TLS/HTTP failure cause remains unknown. No old
+sealed probe was retried. See archive_hard_deadline.md and saved metadata.
+
 # Workflow comparison update on November 27 2026
 
 Latest handoff milestone: a bounded offline archive-bundle inspection command accepts saved index/HTTP metadata/compressed bytes, writes hashes plus a text preview, and keeps transport review pending. No ledger record or model input is released automatically. Four new invented-bundle regressions; latest shared verification939tests(938passed,1skipped),all5stages. Private full profile1169tests(1166passed,3skipped),all6stages.0newsource/modelcalls,0realbodies,compositeY164/240unchanged. See commoncrawl_record_verification.md for the operator schema and command.
